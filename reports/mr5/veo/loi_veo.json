@@ -5,14 +5,16 @@
   "luot1": {
    "prompt": "Still-life close-up on a quiet kitchen table at dawn. A smartphone lies face down on the bare wooden tabletop; its screen lights up and a soft white glow spills out from under its edges onto the wood, then slowly fades. Pale blue morning light comes through a window behind, everything in the background is a soft blur. Locked-off camera at table height, very shallow depth of field, gentle dust motes drifting in the light. Calm, muted colors, realistic, cinematic. Only the phone and the table are in the scene; the room is empty.",
    "negative": "people, person, hands, fingers, face, readable screen, text, letters, numbers, logo, brand, watermark, notification banner, app interface"
-  }
+  },
+  "luot1_qc": "ĐẠT có ghi chú: điện thoại nằm trên bàn, góc nhìn sát mặt bàn, màn hình chỉ là mảng sáng trắng (không chữ); 1–5 s viền thân máy sáng trắng rồi tối lại (ánh sáng lan — có thể trông như máy đổi màu). Bụi bay nhẹ. Không người, không tay; neo cuối chỉ có điện thoại (V3)."
  },
  "V02": {
   "shot": "SHOT §1 hàng 2 · P00 S002 · Cùng bàn, ban đêm; cửa kính ướt (giọt tĩnh), màn hình sáng mờ · V6: wet window glass, no rain falling",
   "luot1": {
    "prompt": "Night, the same quiet kitchen table by a dark window. The window glass is wet, covered with still, motionless water droplets that catch the distant blurred city lights; the air outside is calm and dry. On the table in the foreground a smartphone lies face down, a dim cold glow leaking from under its edges onto the wood, pulsing softly once. Locked-off camera at table height, very shallow depth of field, focus on the droplets on the glass, deep blue and amber tones, realistic, cinematic, very slow subtle light changes only. The room is empty.",
    "negative": "rain falling, rain streaks, falling drops, running water, people, person, hands, face, readable screen, text, letters, numbers, logo, watermark, app interface"
-  }
+  },
+  "luot1_qc": "ĐẠT có ghi chú: giọt nước trên kính đứng yên 0–8 s (so khung 0/4/7,9 s), không mưa rơi (V6); điện thoại ngửa ở góc nhìn sát mặt bàn, màn hình sáng mờ thành ô màu nhoè (gợi lưới biểu tượng) — không chữ đọc được (crop 1:1). Không người."
  },
  "V03": {
   "shot": "SHOT §1 hàng 8 · P01 S011 · Toàn cảnh thành phố ven biển lúc chạng vạng, cây cọ bóng đen; không địa danh có thương hiệu (không biển Hollywood) · chuyển động chỉ ánh sáng/mây",
@@ -53,27 +55,36 @@
   "luot1": {
    "prompt": "Extreme close-up at tabletop level of an elegant dinner table lit only by candles, dark background. A crystal wine glass of red wine stands in the center among white plates and silverware, glowing in warm candlelight. A hand in a dark suit sleeve reaches in, takes the glass by the stem and lifts it straight up out of the top of the frame. The camera stays locked off at table height. For the last three seconds the shot shows only the table, the candles and the empty spot where the glass stood, with the flames flickering softly. Rich warm tones, shallow depth of field, realistic, cinematic.",
    "negative": "face, head, eyes, mouth, person's body, second person, crowd, text, letters, logo, label on bottle, watermark, camera tilting up, camera following the glass"
-  }
+  },
+  "luot1_qc": "ĐẠT: tay áo vest tối nâng ly lên ra khỏi khung, máy đứng yên — không mặt, không đầu; ly chuyển động liền, không biến dạng; neo cuối 6–8 s bàn trống, chỉ nến + đĩa (V3). Không chữ/logo."
  },
  "V08": {
   "shot": "SHOT §1 hàng 21 · P08 S040–S043 · Hộp ký gửi kim loại mở ra trống · Không người",
   "luot1": {
    "prompt": "Close-up of a long steel safe deposit box lying open on a dark table in a dim vault room, its hinged lid already raised. The camera slowly pushes in and tilts down to reveal that the inside of the box is completely empty, bare brushed metal. A narrow beam of cool light slowly sweeps across the metal surfaces. Cold blue-grey tones, high contrast, shallow depth of field, realistic, cinematic. No one is in the room.",
    "negative": "people, hands, face, money, cash, papers, documents, gold, jewelry, text, numbers, engraved letters, logo, watermark"
-  }
+  },
+  "luot1_qc": "ĐẠT có ghi chú: hộp kim loại trống, nắp tự nâng 0–1,5 s (không tay); 7,4–8,0 s nắp bắt đầu khép lại ở góc trên trái → dựng dùng 0–7,3 s. Không chữ (bản lề trơn, crop 1:1), không người."
  },
  "V09": {
   "shot": "SHOT §1 hàng 24 · P09 S048–S049 · Gió lật chồng giấy trắng không chữ trên bàn tối · V2 giấy chuyển động → 8 s",
   "luot1": {
    "prompt": "Low-angle close-up of a stack of plain white paper sheets on a dark wooden desk in a dim room, a single cool light from the side. A gust of wind from an open window lifts the top sheets; they flutter, lift and slowly slide off the stack, a few drifting down past the desk edge. The pages are completely blank on both sides. Moody low-key lighting, shallow depth of field, natural paper motion, realistic, cinematic. Nobody in the room.",
    "negative": "text, letters, words, printing, handwriting, signatures, letterhead, logo, stamp, watermark, people, hands, face, fire, tornado of paper"
-  }
+  },
+  "luot1_qc": "ĐẠT: giấy trắng trơn hai mặt, không chữ/chữ ký/tiêu đề thư; gió lật và trượt tờ giấy tự nhiên, không nhoè; không người. Neo cuối: chồng giấy + tờ rơi, không người."
  },
  "V10": {
   "shot": "SHOT §1 hàng 26 · P10 S052 · Máy bay phản lực nhỏ trên đường băng lúc hoàng hôn, không số hiệu, không sơn hãng · Không người · V5 không khói/bụi bùng",
   "luot1": {
    "prompt": "A small private business jet stands on an empty runway at sunset, seen side-on from a low angle, a dark silhouette against a huge orange sun low on the horizon; heat shimmer rises off the tarmac. The jet is plain, its fuselage in deep shadow. The camera slowly tracks sideways. Golden backlight, lens flare, long shadows, realistic, cinematic. Empty airfield, no one around.",
    "negative": "tail number, registration letters, airline livery, logo, text, letters, people, crew, stairs with people, smoke, dust cloud, explosion, takeoff, other aircraft"
+  },
+  "luot1_qc": "TRƯỢT V5: dải bụi/hơi cuộn bùng liên tục dọc mặt đường băng 0–8 s (lời 'heat shimmer' bị vẽ thành bụi/hơi); không số hiệu, không sơn hãng (chỉ sọc trơn) — đạt phần chữ/logo.",
+  "luot2": {
+   "doi_loi": "Bỏ 'heat shimmer' (gây bụi/hơi); máy bay đỗ, động cơ tắt, không khí tĩnh, mặt đường khô sạch; giữ ngược sáng hoàng hôn để thân máy bay là bóng tối (không lộ số hiệu).",
+   "prompt": "A small private business jet sits parked and still on a clean, dry, empty concrete apron at sunset, engines off, seen side-on from a low angle as a dark silhouette against a glowing orange sky with the sun just above the horizon. The air is perfectly clear and calm. The camera slowly pushes in. Strong golden backlight, soft lens flare, long shadows across the smooth concrete, realistic, cinematic. The fuselage and tail are in deep shadow, plain and dark. Nobody around.",
+   "negative": "smoke, steam, dust, haze clouds, fog on ground, exhaust, heat shimmer, tail number, registration letters, airline livery, logo, text, letters, people, pilot visible, crew, taxiing, takeoff, other aircraft"
   }
  },
  "V11": {
