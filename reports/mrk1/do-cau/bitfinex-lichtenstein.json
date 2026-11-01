@@ -1,0 +1,760 @@
+{
+ "vu": "bitfinex-lichtenstein",
+ "ngay_do": "2026-11-01",
+ "truy_van": [
+  {
+   "q": "Bitfinex hack Lichtenstein",
+   "khoa": [
+    "bitfinex",
+    "lichtenstein"
+   ],
+   "http": [
+    200,
+    200
+   ],
+   "so_tra_ve": 50,
+   "so_khop_tieu_de": 36,
+   "tong_xem_khop": 3268573,
+   "trung_vi_xem_khop": 116,
+   "max_xem_khop": 2613611,
+   "so_kenh_khop": 35,
+   "khop_12_thang": 21,
+   "khop_moi_nhat": "2026-11-01",
+   "khop_100k": 3,
+   "top3_id": [
+    "GR3rUlDiMxY",
+    "No_GwRsgnDo",
+    "jdeSJqnv-vE"
+   ],
+   "videos": [
+    {
+     "id": "LgEYS3-hsXY",
+     "kenh": "UCHyFuvaP40uvL0RE48NbsMw",
+     "ngay": "2026-11-01",
+     "xem": 1351,
+     "khop": true
+    },
+    {
+     "id": "YYY6pt59obU",
+     "kenh": "UCu9abuJiEXwNPecsZGqHXpQ",
+     "ngay": "2024-06-25",
+     "xem": 3356,
+     "khop": true
+    },
+    {
+     "id": "d6EXbQ6jqIM",
+     "kenh": "UCvJJ_dzjViJCoLf5uKUTwoA",
+     "ngay": "2022-10-18",
+     "xem": 3263331,
+     "khop": false
+    },
+    {
+     "id": "7-OWKZ_FeaM",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2024-12-23",
+     "xem": 14409,
+     "khop": true
+    },
+    {
+     "id": "jdeSJqnv-vE",
+     "kenh": "UC4DMThX0F-h6F1nzCbp6shw",
+     "ngay": "2023-05-15",
+     "xem": 200481,
+     "khop": true
+    },
+    {
+     "id": "fMQ5xJj-Ov8",
+     "kenh": "UCZkwR6wwxqrO0C28krWeWmw",
+     "ngay": "2026-07-23",
+     "xem": 121,
+     "khop": true
+    },
+    {
+     "id": "8tsPH1OaBuY",
+     "kenh": "UC-OTgwOAI7KmP0eDAtqN3Ow",
+     "ngay": "2025-05-05",
+     "xem": 9594,
+     "khop": true
+    },
+    {
+     "id": "tMtv6zXdog4",
+     "kenh": "UC-Cpy9kOttyf2clgr95CpVQ",
+     "ngay": "2026-06-08",
+     "xem": 99,
+     "khop": true
+    },
+    {
+     "id": "No_GwRsgnDo",
+     "kenh": "UCFpy37oq9p1MOVuJbGIcs7Q",
+     "ngay": "2024-03-30",
+     "xem": 352011,
+     "khop": true
+    },
+    {
+     "id": "ATEd_Msy7-c",
+     "kenh": "UCvB5Y8NcVOeQbca6ZKbl2Mg",
+     "ngay": "2026-10-23",
+     "xem": 98,
+     "khop": true
+    },
+    {
+     "id": "1oLI-3o7URU",
+     "kenh": "UCGoUf-QQTlTN-BIh3ERCE9A",
+     "ngay": "2024-11-16",
+     "xem": 192,
+     "khop": true
+    },
+    {
+     "id": "3vKW-azxwZw",
+     "kenh": "UCxQFuIH2C7rv5uwcYdr4LFQ",
+     "ngay": "2026-10-07",
+     "xem": 129,
+     "khop": false
+    },
+    {
+     "id": "6e3z8YcKGxs",
+     "kenh": "UCX2rWl7pfE-9kzcm90Vix1g",
+     "ngay": "2024-12-19",
+     "xem": 17,
+     "khop": true
+    },
+    {
+     "id": "jRgB6Io3u7Y",
+     "kenh": "UCFWqM3hiqxn06xyPCJdnG7Q",
+     "ngay": "2025-09-20",
+     "xem": 17,
+     "khop": true
+    },
+    {
+     "id": "p6juLJWLOXs",
+     "kenh": "UCJq0rdbTaPu9dUjK8w9NN8Q",
+     "ngay": "2026-09-19",
+     "xem": 83,
+     "khop": true
+    },
+    {
+     "id": "iPylGE4_4PA",
+     "kenh": "UCvuNkoF07PFowUtjHJNmyhw",
+     "ngay": "2026-09-20",
+     "xem": 667,
+     "khop": true
+    },
+    {
+     "id": "_73qbxp4cmc",
+     "kenh": "UCmtQwcZ_B4UjJTDusu3-U4g",
+     "ngay": "2026-11-01",
+     "xem": 2,
+     "khop": false
+    },
+    {
+     "id": "_6mhGDVR33E",
+     "kenh": "UCZlgbm57pSSTsp-RQ1Iiesw",
+     "ngay": "2026-10-07",
+     "xem": 713,
+     "khop": true
+    },
+    {
+     "id": "Akw4Y-kA7vI",
+     "kenh": "UCMbUMlBmYuJ2OFjfnOgEOaA",
+     "ngay": "2026-10-07",
+     "xem": 2894,
+     "khop": true
+    },
+    {
+     "id": "EGLMlqH1UlU",
+     "kenh": "UCnaVMHfeipOWvsCXvXI91Bw",
+     "ngay": "2026-10-21",
+     "xem": 4,
+     "khop": true
+    },
+    {
+     "id": "Cj7YEneUYIA",
+     "kenh": "UCbMR6B53Wj4J5PZCRsVuDFA",
+     "ngay": "2026-10-08",
+     "xem": 69,
+     "khop": true
+    },
+    {
+     "id": "Sl3r1c3Y5Og",
+     "kenh": "UCd926fmG4m2HvJs5av3g5BQ",
+     "ngay": "2026-05-24",
+     "xem": 31,
+     "khop": true
+    },
+    {
+     "id": "RaTooTroiIs",
+     "kenh": "UCX-T8xZIorRjWutWvjWPymQ",
+     "ngay": "2026-10-09",
+     "xem": 72,
+     "khop": true
+    },
+    {
+     "id": "tuRVl2SBCjs",
+     "kenh": "UCPKoa30oAtcRjIVG0dM818Q",
+     "ngay": "2026-01-04",
+     "xem": 1445,
+     "khop": true
+    },
+    {
+     "id": "ChpDOEGhnf8",
+     "kenh": "UCC_0vyFTKk1Nlodo4QsiQkw",
+     "ngay": "2022-02-11",
+     "xem": 65026,
+     "khop": true
+    },
+    {
+     "id": "aW8fEsedQI0",
+     "kenh": "UCg3RopXWj7YjBsp0rg7I5sA",
+     "ngay": "2026-10-22",
+     "xem": 134,
+     "khop": false
+    },
+    {
+     "id": "gxEhBw27neo",
+     "kenh": "UCGHs4UNP-UqDnmL30a7Jqsw",
+     "ngay": "2022-02-15",
+     "xem": 71,
+     "khop": true
+    },
+    {
+     "id": "A5rEUp4cIXY",
+     "kenh": "UC1CsNz6r0Wx_bHk0lTiNyuQ",
+     "ngay": "2024-11-15",
+     "xem": 1141,
+     "khop": true
+    },
+    {
+     "id": "g2rXhQwM3kI",
+     "kenh": "UCyZVCV9xhrCyz4hPehvb4Wg",
+     "ngay": "2022-02-10",
+     "xem": 123484,
+     "khop": false
+    },
+    {
+     "id": "_WogKwEE28o",
+     "kenh": "UCYOWxA6ITRgkMkzEE_lXijw",
+     "ngay": "2026-08-28",
+     "xem": 4,
+     "khop": true
+    },
+    {
+     "id": "-OO__azz-XU",
+     "kenh": "UCucQ01v6QFmaH8G7UNpXmHA",
+     "ngay": "2026-08-20",
+     "xem": 27,
+     "khop": false
+    },
+    {
+     "id": "S9QedOf69ao",
+     "kenh": "UCeq92pfqp1GE6hbh-eoaJxg",
+     "ngay": "2023-08-03",
+     "xem": 140,
+     "khop": true
+    },
+    {
+     "id": "nck6ZTH8aX8",
+     "kenh": "UC-V6S65_ROiYO7SOwSWBKZQ",
+     "ngay": "2026-09-07",
+     "xem": 5,
+     "khop": true
+    },
+    {
+     "id": "GR3rUlDiMxY",
+     "kenh": "UC4QZ_LsYcvcq7qOsOhpAX4A",
+     "ngay": "2022-02-12",
+     "xem": 2613611,
+     "khop": true
+    },
+    {
+     "id": "RrnqbWusN_c",
+     "kenh": "UCpZ2bcT9tbTCEb7ouhpXAtg",
+     "ngay": "2026-10-25",
+     "xem": 11,
+     "khop": true
+    },
+    {
+     "id": "SutC40XU6tc",
+     "kenh": "UCPfC4Xxe0Dt2XQkTkzHEDQg",
+     "ngay": "2026-09-08",
+     "xem": 80,
+     "khop": false
+    },
+    {
+     "id": "0ppivtDulGA",
+     "kenh": "UCL6I2JN-bKA1Mvg1w1n276Q",
+     "ngay": "2022-06-12",
+     "xem": 212,
+     "khop": true
+    },
+    {
+     "id": "ujWE728-BTs",
+     "kenh": "UCyJGjjqaraHK3MtcW3RgDgw",
+     "ngay": "2026-10-29",
+     "xem": 2,
+     "khop": true
+    },
+    {
+     "id": "KAm0riI4M-A",
+     "kenh": "UCX-T8xZIorRjWutWvjWPymQ",
+     "ngay": "2026-10-09",
+     "xem": 41,
+     "khop": true
+    },
+    {
+     "id": "-DrQIZ8MRSo",
+     "kenh": "UCkus8PJxSlfXOG5rl8cytEg",
+     "ngay": "2026-10-08",
+     "xem": 1331,
+     "khop": false
+    },
+    {
+     "id": "HLBX7PitJ0M",
+     "kenh": "UC-Cpy9kOttyf2clgr95CpVQ",
+     "ngay": "2026-06-20",
+     "xem": 1332,
+     "khop": false
+    },
+    {
+     "id": "ODafRa0Tofo",
+     "kenh": "UCHi_ltCg-wnVt75Y8Lm91-A",
+     "ngay": "2026-08-21",
+     "xem": 6,
+     "khop": true
+    },
+    {
+     "id": "YATjIK1ANtE",
+     "kenh": "UCe0NSAB1omiZRIlWUmjUBOw",
+     "ngay": "2026-09-27",
+     "xem": 29,
+     "khop": false
+    },
+    {
+     "id": "OLPpFWX-aI4",
+     "kenh": "UCwkOnlCRbwIcWQiZIs_QWow",
+     "ngay": "2026-08-27",
+     "xem": 170,
+     "khop": false
+    },
+    {
+     "id": "NLny5OvcZT4",
+     "kenh": "UCfixos3pHHIOmXWv4q7POpQ",
+     "ngay": "2026-10-11",
+     "xem": 70,
+     "khop": false
+    },
+    {
+     "id": "VKClX17n_fs",
+     "kenh": "UCCSKejuh9S6Jj6oTh5DUrgg",
+     "ngay": "2026-08-14",
+     "xem": 2,
+     "khop": false
+    },
+    {
+     "id": "MJu1N74JKa4",
+     "kenh": "UCDuGnEiRGvzx6iqxGK7TBTA",
+     "ngay": "2026-10-27",
+     "xem": 23,
+     "khop": false
+    },
+    {
+     "id": "uOpypc2Gr9A",
+     "kenh": "UCd4XxMz6_K5i5D81HOEdljg",
+     "ngay": "2026-07-29",
+     "xem": 111,
+     "khop": true
+    },
+    {
+     "id": "0HCoi2q6dSI",
+     "kenh": "UC6wG29vNRjzDa9oPp4kuSNA",
+     "ngay": "2026-09-15",
+     "xem": 55,
+     "khop": true
+    },
+    {
+     "id": "5sXHumlHgug",
+     "kenh": "UC7TghOL755nBk7HelHoi9LQ",
+     "ngay": "2024-12-19",
+     "xem": 413,
+     "khop": true
+    }
+   ]
+  },
+  {
+   "q": "Heather Morgan Razzlekhan",
+   "khoa": [
+    "morgan",
+    "razzlekhan"
+   ],
+   "http": [
+    200,
+    200
+   ],
+   "so_tra_ve": 50,
+   "so_khop_tieu_de": 34,
+   "tong_xem_khop": 2265017,
+   "trung_vi_xem_khop": 885,
+   "max_xem_khop": 904394,
+   "so_kenh_khop": 27,
+   "khop_12_thang": 8,
+   "khop_moi_nhat": "2026-08-26",
+   "khop_100k": 6,
+   "top3_id": [
+    "TGTsDADJ1dU",
+    "_DIuPPmY9mw",
+    "jdeSJqnv-vE"
+   ],
+   "videos": [
+    {
+     "id": "MBcJmTlAhq4",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2026-01-02",
+     "xem": 10786,
+     "khop": false
+    },
+    {
+     "id": "_DIuPPmY9mw",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2019-07-16",
+     "xem": 606510,
+     "khop": true
+    },
+    {
+     "id": "lRvqBI6I2z4",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2025-01-10",
+     "xem": 104993,
+     "khop": true
+    },
+    {
+     "id": "fMQ5xJj-Ov8",
+     "kenh": "UCZkwR6wwxqrO0C28krWeWmw",
+     "ngay": "2026-07-23",
+     "xem": 121,
+     "khop": true
+    },
+    {
+     "id": "cqjzTt1SHIU",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2020-11-29",
+     "xem": 39800,
+     "khop": true
+    },
+    {
+     "id": "jdeSJqnv-vE",
+     "kenh": "UC4DMThX0F-h6F1nzCbp6shw",
+     "ngay": "2023-05-15",
+     "xem": 200482,
+     "khop": true
+    },
+    {
+     "id": "bAvCDfBxUls",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2025-10-30",
+     "xem": 1705,
+     "khop": false
+    },
+    {
+     "id": "lCwAH70r9xc",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2020-02-28",
+     "xem": 116938,
+     "khop": true
+    },
+    {
+     "id": "7-OWKZ_FeaM",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2024-12-23",
+     "xem": 14411,
+     "khop": false
+    },
+    {
+     "id": "2B4OsFG_fsw",
+     "kenh": "UCPgLNge0xqQHWM5B5EFH9Cg",
+     "ngay": "2022-02-09",
+     "xem": 45900,
+     "khop": true
+    },
+    {
+     "id": "KpGQizi775g",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2024-12-04",
+     "xem": 35080,
+     "khop": true
+    },
+    {
+     "id": "jiJMdbHUvNA",
+     "kenh": "UCoKwv8HQbe2R3bivnUSC48A",
+     "ngay": "2026-08-26",
+     "xem": 182,
+     "khop": true
+    },
+    {
+     "id": "d6EXbQ6jqIM",
+     "kenh": "UCvJJ_dzjViJCoLf5uKUTwoA",
+     "ngay": "2022-10-18",
+     "xem": 3263321,
+     "khop": false
+    },
+    {
+     "id": "RogRHgTQJ7A",
+     "kenh": "UCNCS0CL4v38JWbNaqnn0G4w",
+     "ngay": "2023-08-04",
+     "xem": 17340,
+     "khop": true
+    },
+    {
+     "id": "TGTsDADJ1dU",
+     "kenh": "UCGt7X90Au6BV8rf49BiM6Dg",
+     "ngay": "2025-01-25",
+     "xem": 904394,
+     "khop": true
+    },
+    {
+     "id": "HLBX7PitJ0M",
+     "kenh": "UC-Cpy9kOttyf2clgr95CpVQ",
+     "ngay": "2026-06-20",
+     "xem": 1332,
+     "khop": true
+    },
+    {
+     "id": "creJlq3Bnko",
+     "kenh": "UCxpc8bc940NGtqgXGl06vWQ",
+     "ngay": "2022-09-13",
+     "xem": 225,
+     "khop": true
+    },
+    {
+     "id": "iK2LqEIEN_Q",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2026-02-14",
+     "xem": 4171,
+     "khop": false
+    },
+    {
+     "id": "uWhfJcATCrQ",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2026-09-04",
+     "xem": 2228,
+     "khop": false
+    },
+    {
+     "id": "JF3J8RxECW8",
+     "kenh": "UC9Pz3IoyDI400u6-4nu1-3Q",
+     "ngay": "2022-03-09",
+     "xem": 264,
+     "khop": true
+    },
+    {
+     "id": "vpV0TC-XQBs",
+     "kenh": "UCGTHc9ifR6jxrKTWT4yqKMQ",
+     "ngay": "2022-09-19",
+     "xem": 148,
+     "khop": true
+    },
+    {
+     "id": "M0YOKagpQRY",
+     "kenh": "UC9rzRtl8QdjAyBz7bjezECA",
+     "ngay": "2022-06-24",
+     "xem": 24908,
+     "khop": true
+    },
+    {
+     "id": "ymOYSC11H5c",
+     "kenh": "UC7TghOL755nBk7HelHoi9LQ",
+     "ngay": "2023-07-25",
+     "xem": 374,
+     "khop": true
+    },
+    {
+     "id": "YYo4jNvQ0y4",
+     "kenh": "UCcIi3sVCxPcjKUcqLQ39VOw",
+     "ngay": "2022-02-09",
+     "xem": 27830,
+     "khop": true
+    },
+    {
+     "id": "aA3OKPh_ksE",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2024-12-11",
+     "xem": 22711,
+     "khop": false
+    },
+    {
+     "id": "3dR2c8xwziE",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2021-04-21",
+     "xem": 7318,
+     "khop": true
+    },
+    {
+     "id": "8xsO0mEn8eg",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2026-10-21",
+     "xem": 735,
+     "khop": false
+    },
+    {
+     "id": "_kjAx461SHE",
+     "kenh": "UCJ-3hVy9GnO04mQMvKoIygQ",
+     "ngay": "2026-08-16",
+     "xem": 21,
+     "khop": true
+    },
+    {
+     "id": "AmQa_oV9J4c",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2026-10-06",
+     "xem": 1144,
+     "khop": false
+    },
+    {
+     "id": "rCkwR65H20A",
+     "kenh": "UCyZVCV9xhrCyz4hPehvb4Wg",
+     "ngay": "2025-10-28",
+     "xem": 123686,
+     "khop": true
+    },
+    {
+     "id": "3y_CcH6gb9Q",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2026-07-19",
+     "xem": 516,
+     "khop": false
+    },
+    {
+     "id": "TZfzyK_4Qw4",
+     "kenh": "UC5x-XZDG9scdoNtHITobV_g",
+     "ngay": "2026-08-02",
+     "xem": 879,
+     "khop": true
+    },
+    {
+     "id": "MZSkp_D82Gw",
+     "kenh": "UCxpc8bc940NGtqgXGl06vWQ",
+     "ngay": "2022-09-13",
+     "xem": 210,
+     "khop": true
+    },
+    {
+     "id": "X02nrx1JJXM",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2026-01-04",
+     "xem": 1823,
+     "khop": false
+    },
+    {
+     "id": "6UPZ2F-HMPQ",
+     "kenh": "UCrp_UI8XtuYfpiqluWLD7Lw",
+     "ngay": "2023-08-03",
+     "xem": 18088,
+     "khop": false
+    },
+    {
+     "id": "UWSUYaPW6IQ",
+     "kenh": "UCKT1ItXPBAUPJ11xWT1JXBw",
+     "ngay": "2022-09-08",
+     "xem": 38,
+     "khop": true
+    },
+    {
+     "id": "WCJIKV3s8pw",
+     "kenh": "UCry9NyO6ehSOTl5wWxy9zOg",
+     "ngay": "2024-10-27",
+     "xem": 74,
+     "khop": true
+    },
+    {
+     "id": "7zzKleD1ALQ",
+     "kenh": "UCmtQwcZ_B4UjJTDusu3-U4g",
+     "ngay": "2026-11-01",
+     "xem": 0,
+     "khop": false
+    },
+    {
+     "id": "6bIX8d0hkLg",
+     "kenh": "UCqgyqJtdHV7LJV-xsHUZ3RA",
+     "ngay": "2022-02-10",
+     "xem": 1086,
+     "khop": true
+    },
+    {
+     "id": "ag0O78QgGbk",
+     "kenh": "UCxpc8bc940NGtqgXGl06vWQ",
+     "ngay": "2022-09-13",
+     "xem": 58,
+     "khop": true
+    },
+    {
+     "id": "13T-IZ9l6R8",
+     "kenh": "UCU6zQo1qSp2EeJ0uiaSPHYA",
+     "ngay": "2026-01-23",
+     "xem": 4130,
+     "khop": false
+    },
+    {
+     "id": "541Sdk_z9B8",
+     "kenh": "UCwhN2b3OAMwPf3bNAl02RjQ",
+     "ngay": "2026-07-01",
+     "xem": 64,
+     "khop": true
+    },
+    {
+     "id": "4PczQyiAV0E",
+     "kenh": "UCyWvDc5SienucoFdP2LZQPA",
+     "ngay": "2026-06-07",
+     "xem": 2570,
+     "khop": false
+    },
+    {
+     "id": "4QOPdpd5tJw",
+     "kenh": "UCTFesG4nhqr4vHH6JsBdRYA",
+     "ngay": "2022-02-10",
+     "xem": 2608,
+     "khop": true
+    },
+    {
+     "id": "f6pROrtWSvg",
+     "kenh": "UC9DAtIa6NNXjsGWXh8TtMqQ",
+     "ngay": "2026-08-10",
+     "xem": 52,
+     "khop": true
+    },
+    {
+     "id": "nTj5zKdiuuw",
+     "kenh": "UCxkgGyplgGqwQxd2EtVtr-g",
+     "ngay": "2022-09-29",
+     "xem": 396,
+     "khop": true
+    },
+    {
+     "id": "LUOyEUbiAUk",
+     "kenh": "UC-5bwwa_mlpviC0IeeNcjZg",
+     "ngay": "2026-05-22",
+     "xem": 892,
+     "khop": true
+    },
+    {
+     "id": "1p0q8RYZOao",
+     "kenh": "UC_AiKPu604vT6nDWhX7jPcQ",
+     "ngay": "2022-02-15",
+     "xem": 93,
+     "khop": true
+    },
+    {
+     "id": "PnKv4lNAW8Q",
+     "kenh": "UC2ybQzDI5JH7Qh7y2XLMqzQ",
+     "ngay": "2022-02-09",
+     "xem": 3980,
+     "khop": false
+    },
+    {
+     "id": "AX6cLX7w9-k",
+     "kenh": "UCNKIQIoILM4BjujlS8Ap-FA",
+     "ngay": "2022-02-11",
+     "xem": 721,
+     "khop": true
+    }
+   ]
+  }
+ ]
+}

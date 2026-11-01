@@ -1,0 +1,208 @@
+{
+ "stanford-sib": [
+  [
+   "Allen Stanford Ponzi",
+   [
+    "stanford"
+   ]
+  ],
+  [
+   "Stanford International Bank",
+   [
+    "stanford"
+   ]
+  ]
+ ],
+ "petters-pci": [
+  [
+   "Tom Petters Ponzi",
+   [
+    "petters"
+   ]
+  ],
+  [
+   "Petters Group fraud",
+   [
+    "petters"
+   ]
+  ]
+ ],
+ "bitfinex-lichtenstein": [
+  [
+   "Bitfinex hack Lichtenstein",
+   [
+    "bitfinex",
+    "lichtenstein"
+   ]
+  ],
+  [
+   "Heather Morgan Razzlekhan",
+   [
+    "morgan",
+    "razzlekhan"
+   ]
+  ]
+ ],
+ "1mdb-ng": [
+  [
+   "1MDB scandal Goldman",
+   [
+    "1mdb"
+   ]
+  ],
+  [
+   "Roger Ng Goldman 1MDB",
+   [
+    "roger ng",
+    "1mdb"
+   ]
+  ]
+ ],
+ "theranos-holmes": [
+  [
+   "Elizabeth Holmes Theranos",
+   [
+    "theranos",
+    "holmes"
+   ]
+  ],
+  [
+   "Theranos fraud",
+   [
+    "theranos"
+   ]
+  ]
+ ],
+ "frank-javice": [
+  [
+   "Charlie Javice Frank JPMorgan",
+   [
+    "javice"
+   ]
+  ],
+  [
+   "Frank startup JPMorgan fraud",
+   [
+    "javice",
+    "frank"
+   ]
+  ]
+ ],
+ "bec-rimasauskas": [
+  [
+   "Evaldas Rimasauskas Google Facebook",
+   [
+    "rimasauskas"
+   ]
+  ],
+  [
+   "scammer stole 100 million Google Facebook",
+   [
+    "google",
+    "facebook"
+   ]
+  ]
+ ],
+ "irs-callcenter-patel": [
+  [
+   "IRS scam call center India busted",
+   [
+    "irs"
+   ]
+  ],
+  [
+   "Hitesh Patel IRS scam",
+   [
+    "patel",
+    "irs"
+   ]
+  ]
+ ],
+ "galleon-rajaratnam": [
+  [
+   "Raj Rajaratnam insider trading",
+   [
+    "rajaratnam"
+   ]
+  ],
+  [
+   "Galleon insider trading",
+   [
+    "galleon"
+   ]
+  ]
+ ],
+ "coinbase-wahi": [
+  [
+   "Coinbase insider trading Wahi",
+   [
+    "wahi",
+    "coinbase"
+   ]
+  ],
+  [
+   "Coinbase insider trading case",
+   [
+    "coinbase"
+   ]
+  ]
+ ],
+ "romance-alldred": [
+  [
+   "Derek Alldred",
+   [
+    "alldred"
+   ]
+  ],
+  [
+   "fake navy pilot romance scam",
+   [
+    "romance",
+    "navy"
+   ]
+  ]
+ ],
+ "military-sextortion-wilkins": [
+  [
+   "prison inmates sextortion military",
+   [
+    "sextortion"
+   ]
+  ],
+  [
+   "sextortion scam service members",
+   [
+    "sextortion"
+   ]
+  ]
+ ],
+ "romance-sunmola": [
+  [
+   "prince charming romance scam sunmola",
+   [
+    "sunmola",
+    "prince charming"
+   ]
+  ],
+  [
+   "nigerian romance scammer sentenced",
+   [
+    "romance"
+   ]
+  ]
+ ],
+ "techsupport-popup-seward": [
+  [
+   "tech support scam pop up sentenced",
+   [
+    "tech support"
+   ]
+  ],
+  [
+   "fake virus warning scam",
+   [
+    "virus"
+   ]
+  ]
+ ]
+}
