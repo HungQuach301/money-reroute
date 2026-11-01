@@ -1,0 +1,20 @@
+MONEY REROUTE - THUMBNAIL RULES (Episode 1: "How an Actor Raised $650 Million on Fake Film Deals")
+Paste this whole file into the image tool before describing the thumbnail.
+
+The thumbnail MUST NOT contain:
+1. Any real person's face, body, or likeness - including anyone who could look like the man in this case. No portraits, no photos, no "inspired by" faces.
+2. Any recognizable face at all. If a human appears, show only hands, a silhouette, or a figure from behind, out of focus.
+3. Logos, wordmarks, colors, or interface screens of HBO, Netflix, or any real company, streaming app, bank, or court. Do not write "HBO" or "Netflix".
+4. The words "SCAM", "SCAMMER", "FRAUDSTER", "CON MAN", "CRIMINAL", or "LIAR" attached to a person.
+5. Anything that looks like a real court document, contract, check, email, text message, or government seal (no fake signatures, case numbers, or letterheads).
+6. Real places that can be identified (street signs, house exteriors, the Hollywood sign, recognizable buildings).
+7. Text that promises something the video does not show (no "SECRET", "EXPOSED", "THEY DON'T WANT YOU TO KNOW").
+8. Money-making promises, investment tips, or anything that looks like an ad for an investment.
+9. Blood, weapons, handcuffs on a person, mugshot styling, or shocking/sexual imagery.
+
+The thumbnail MAY contain:
+- The word "FAKE" applied to film deals or contracts (he admitted the deals were fake), and the figure "$650M".
+- Abstract props: an empty film reel or film strip, a blank contract shape with no readable text, a "FAKE" stamp, stacks of cash, a cracked spotlight.
+- Channel look: warm ivory paper background, dark ink, one accent color; bold serif headline, max 4 words.
+
+Format: 1280x720, high contrast, readable at small size.

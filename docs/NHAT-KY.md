@@ -88,3 +88,11 @@ Nhánh `claude/lucid-goldberg-vcpyv1` @ `ca3c7cb` (từ `6296c0e`). Kiểm độ
 - **Giọng:** dùng giọng kênh lost-places-lab (BIBLE lost-places §9: W4 "LP-M0b-vd-1", Voice Design, voice_id `kozBJGqBNTqfBBClLNCL`, TTS `eleven_v4`), **không thử giọng lại**. Phiên M-c kiểm trước: voice_id truy cập được từ tài khoản ElevenLabs của MR (GET miễn phí); không được → DỪNG, báo.
 - **Thumbnail:** chủ dự án tự sinh bằng ChatGPT. Áp HIEN-CHUONG §4 (thumbnail theo luật tiêu đề, không mặt người thật, không logo). Tệp đưa vào repo ghi một dòng RIGHTS (công cụ AI, ngày, người tạo).
 - Còn chờ: duyệt G1 (a)(b)(c), tiêu đề, bảng màu, nạp OpenRouter.
+
+## MR-3 · 01/11/2026 22:58 (giờ Hà Nội) · Chủ dự án: sửa lời trước G1, tiêu đề, bảng màu, quỹ
+- Bài học **tổng kết rõ ở cuối clip** (thêm đoạn tổng kết bài học hiểu biết + dấu hiệu + nguyên tắc, kèm thẻ tổng kết trên hình).
+- **Đồng ý 2 sửa điều phối đề xuất:** câu KBCB HBO/Netflix đọc thành lời 2 lần (S008, S045), 4 lần còn lại (S019, S033, S072, S076) chuyển chữ trên hình; Hồi 2 giữ nguyên tầng, tăng kịch tính bằng hình/nhạc (dòng thời gian đếm ngược tới 9/4).
+- **Tiêu đề T1** "How an Actor Raised $650 Million on Fake Film Deals". **Bảng màu B1 "Hồ sơ".**
+- Gói phát hành có tệp luật thumbnail cho ChatGPT: điều phối tạo `docs/tap01-1inmm/phat-hanh/THUMBNAIL-RULES.txt`.
+- **OpenRouter:** chủ dự án nạp thêm 15 USD; tổng ~40 USD **dùng chung** với lost-places-lab (chủ dự án báo; phiên đọc `/credits` trước M-c).
+- Phát MR-3b (sửa lời + kiểm lời các câu đổi); G1 chốt sau rà MR-3b.
