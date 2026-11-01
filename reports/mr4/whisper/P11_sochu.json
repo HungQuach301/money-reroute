@@ -1,0 +1,675 @@
+{
+ "doan": "P11",
+ "tep": "lab/mr4/tts/P11.mp3",
+ "ref": "The S-E-C alleged one more detail. Around September twenty seventeen, it said, Horwitz falsely told an investor group he was personally investing in several notes alongside them. According to the S-E-C, the money he put in had been taken from other investors. When those notes paid out in March twenty eighteen, the S-E-C alleged, the group paid him about two point three three million dollars as his share. The S-E-C alleged he combined that money with other investor funds to buy his home, for about five point seven million dollars in cash. When a promoter says he is investing right alongside you, treat it as a claim to check, not as proof.",
+ "text": "The SEC alleged one more detail. Around September, it said Horwitz falsely told an investor group he was personally investing in several notes alongside them. According to the SEC, the money he put in had been taken from other investors. When those notes paid out in March, the SEC alleged the group paid him about two point three three million dollars as his share. The SEC alleged he combined that money with other investor funds to buy his home for about five point seven million dollars in cash. When a promoter says he is investing right alongside you, treat it as a claim to check, not as proof.",
+ "words": [
+  {
+   "w": "The",
+   "s": 0.0,
+   "e": 0.24,
+   "p": 0.919
+  },
+  {
+   "w": "SEC",
+   "s": 0.24,
+   "e": 0.7,
+   "p": 0.897
+  },
+  {
+   "w": "alleged",
+   "s": 0.7,
+   "e": 1.2,
+   "p": 0.985
+  },
+  {
+   "w": "one",
+   "s": 1.2,
+   "e": 1.56,
+   "p": 0.973
+  },
+  {
+   "w": "more",
+   "s": 1.56,
+   "e": 1.82,
+   "p": 0.999
+  },
+  {
+   "w": "detail.",
+   "s": 1.82,
+   "e": 2.36,
+   "p": 0.998
+  },
+  {
+   "w": "Around",
+   "s": 2.76,
+   "e": 3.2,
+   "p": 0.95
+  },
+  {
+   "w": "September,",
+   "s": 3.2,
+   "e": 3.66,
+   "p": 0.987
+  },
+  {
+   "w": "it",
+   "s": 3.88,
+   "e": 4.1,
+   "p": 0.005
+  },
+  {
+   "w": "said",
+   "s": 4.1,
+   "e": 5.1,
+   "p": 0.959
+  },
+  {
+   "w": "Horwitz",
+   "s": 5.1,
+   "e": 6.02,
+   "p": 0.808
+  },
+  {
+   "w": "falsely",
+   "s": 6.02,
+   "e": 6.58,
+   "p": 0.965
+  },
+  {
+   "w": "told",
+   "s": 6.58,
+   "e": 6.88,
+   "p": 0.994
+  },
+  {
+   "w": "an",
+   "s": 6.88,
+   "e": 7.06,
+   "p": 0.996
+  },
+  {
+   "w": "investor",
+   "s": 7.06,
+   "e": 7.46,
+   "p": 0.991
+  },
+  {
+   "w": "group",
+   "s": 7.46,
+   "e": 7.76,
+   "p": 0.988
+  },
+  {
+   "w": "he",
+   "s": 7.76,
+   "e": 7.94,
+   "p": 0.614
+  },
+  {
+   "w": "was",
+   "s": 7.94,
+   "e": 8.1,
+   "p": 0.999
+  },
+  {
+   "w": "personally",
+   "s": 8.1,
+   "e": 8.66,
+   "p": 0.996
+  },
+  {
+   "w": "investing",
+   "s": 8.66,
+   "e": 9.18,
+   "p": 0.997
+  },
+  {
+   "w": "in",
+   "s": 9.18,
+   "e": 9.46,
+   "p": 0.991
+  },
+  {
+   "w": "several",
+   "s": 9.46,
+   "e": 9.76,
+   "p": 0.989
+  },
+  {
+   "w": "notes",
+   "s": 9.76,
+   "e": 10.08,
+   "p": 0.994
+  },
+  {
+   "w": "alongside",
+   "s": 10.08,
+   "e": 10.58,
+   "p": 0.948
+  },
+  {
+   "w": "them.",
+   "s": 10.58,
+   "e": 11.0,
+   "p": 0.992
+  },
+  {
+   "w": "According",
+   "s": 11.28,
+   "e": 11.88,
+   "p": 0.997
+  },
+  {
+   "w": "to",
+   "s": 11.88,
+   "e": 12.08,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 12.08,
+   "e": 12.24,
+   "p": 0.99
+  },
+  {
+   "w": "SEC,",
+   "s": 12.24,
+   "e": 12.74,
+   "p": 0.892
+  },
+  {
+   "w": "the",
+   "s": 13.22,
+   "e": 13.36,
+   "p": 0.991
+  },
+  {
+   "w": "money",
+   "s": 13.36,
+   "e": 13.58,
+   "p": 0.999
+  },
+  {
+   "w": "he",
+   "s": 13.58,
+   "e": 13.76,
+   "p": 0.994
+  },
+  {
+   "w": "put",
+   "s": 13.76,
+   "e": 13.98,
+   "p": 0.998
+  },
+  {
+   "w": "in",
+   "s": 13.98,
+   "e": 14.2,
+   "p": 0.999
+  },
+  {
+   "w": "had",
+   "s": 14.2,
+   "e": 14.36,
+   "p": 0.988
+  },
+  {
+   "w": "been",
+   "s": 14.36,
+   "e": 14.5,
+   "p": 1.0
+  },
+  {
+   "w": "taken",
+   "s": 14.5,
+   "e": 14.8,
+   "p": 0.999
+  },
+  {
+   "w": "from",
+   "s": 14.8,
+   "e": 15.06,
+   "p": 0.998
+  },
+  {
+   "w": "other",
+   "s": 15.06,
+   "e": 15.38,
+   "p": 0.994
+  },
+  {
+   "w": "investors.",
+   "s": 15.38,
+   "e": 15.98,
+   "p": 0.995
+  },
+  {
+   "w": "When",
+   "s": 16.44,
+   "e": 16.76,
+   "p": 0.995
+  },
+  {
+   "w": "those",
+   "s": 16.76,
+   "e": 16.98,
+   "p": 0.998
+  },
+  {
+   "w": "notes",
+   "s": 16.98,
+   "e": 17.24,
+   "p": 0.997
+  },
+  {
+   "w": "paid",
+   "s": 17.24,
+   "e": 17.5,
+   "p": 0.991
+  },
+  {
+   "w": "out",
+   "s": 17.5,
+   "e": 17.72,
+   "p": 0.999
+  },
+  {
+   "w": "in",
+   "s": 17.72,
+   "e": 17.88,
+   "p": 0.989
+  },
+  {
+   "w": "March,",
+   "s": 17.88,
+   "e": 18.14,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 18.32,
+   "e": 19.2,
+   "p": 0.357
+  },
+  {
+   "w": "SEC",
+   "s": 19.2,
+   "e": 19.8,
+   "p": 0.976
+  },
+  {
+   "w": "alleged",
+   "s": 19.8,
+   "e": 20.28,
+   "p": 0.988
+  },
+  {
+   "w": "the",
+   "s": 20.28,
+   "e": 20.86,
+   "p": 0.845
+  },
+  {
+   "w": "group",
+   "s": 20.86,
+   "e": 21.06,
+   "p": 0.996
+  },
+  {
+   "w": "paid",
+   "s": 21.06,
+   "e": 21.32,
+   "p": 0.994
+  },
+  {
+   "w": "him",
+   "s": 21.32,
+   "e": 21.48,
+   "p": 0.999
+  },
+  {
+   "w": "about",
+   "s": 21.48,
+   "e": 21.76,
+   "p": 0.993
+  },
+  {
+   "w": "two",
+   "s": 21.76,
+   "e": 22.06,
+   "p": 0.196
+  },
+  {
+   "w": "point",
+   "s": 22.06,
+   "e": 22.28,
+   "p": 0.926
+  },
+  {
+   "w": "three",
+   "s": 22.28,
+   "e": 22.62,
+   "p": 0.931
+  },
+  {
+   "w": "three",
+   "s": 22.62,
+   "e": 22.94,
+   "p": 0.763
+  },
+  {
+   "w": "million",
+   "s": 22.94,
+   "e": 23.36,
+   "p": 0.983
+  },
+  {
+   "w": "dollars",
+   "s": 23.36,
+   "e": 23.82,
+   "p": 0.966
+  },
+  {
+   "w": "as",
+   "s": 23.82,
+   "e": 24.06,
+   "p": 0.956
+  },
+  {
+   "w": "his",
+   "s": 24.06,
+   "e": 24.26,
+   "p": 0.998
+  },
+  {
+   "w": "share.",
+   "s": 24.26,
+   "e": 24.64,
+   "p": 0.993
+  },
+  {
+   "w": "The",
+   "s": 25.3,
+   "e": 25.54,
+   "p": 0.996
+  },
+  {
+   "w": "SEC",
+   "s": 25.54,
+   "e": 26.0,
+   "p": 0.948
+  },
+  {
+   "w": "alleged",
+   "s": 26.0,
+   "e": 26.48,
+   "p": 0.994
+  },
+  {
+   "w": "he",
+   "s": 26.48,
+   "e": 26.66,
+   "p": 0.994
+  },
+  {
+   "w": "combined",
+   "s": 26.66,
+   "e": 27.06,
+   "p": 0.979
+  },
+  {
+   "w": "that",
+   "s": 27.06,
+   "e": 27.34,
+   "p": 0.999
+  },
+  {
+   "w": "money",
+   "s": 27.34,
+   "e": 27.6,
+   "p": 0.999
+  },
+  {
+   "w": "with",
+   "s": 27.6,
+   "e": 27.78,
+   "p": 0.945
+  },
+  {
+   "w": "other",
+   "s": 27.78,
+   "e": 28.08,
+   "p": 0.996
+  },
+  {
+   "w": "investor",
+   "s": 28.08,
+   "e": 28.52,
+   "p": 0.99
+  },
+  {
+   "w": "funds",
+   "s": 28.52,
+   "e": 28.88,
+   "p": 0.998
+  },
+  {
+   "w": "to",
+   "s": 28.88,
+   "e": 29.08,
+   "p": 0.995
+  },
+  {
+   "w": "buy",
+   "s": 29.08,
+   "e": 29.26,
+   "p": 0.999
+  },
+  {
+   "w": "his",
+   "s": 29.26,
+   "e": 29.42,
+   "p": 0.999
+  },
+  {
+   "w": "home",
+   "s": 29.42,
+   "e": 29.82,
+   "p": 0.996
+  },
+  {
+   "w": "for",
+   "s": 29.82,
+   "e": 30.32,
+   "p": 0.862
+  },
+  {
+   "w": "about",
+   "s": 30.32,
+   "e": 30.58,
+   "p": 0.995
+  },
+  {
+   "w": "five",
+   "s": 30.58,
+   "e": 30.9,
+   "p": 0.028
+  },
+  {
+   "w": "point",
+   "s": 30.9,
+   "e": 31.14,
+   "p": 0.937
+  },
+  {
+   "w": "seven",
+   "s": 31.14,
+   "e": 31.58,
+   "p": 0.996
+  },
+  {
+   "w": "million",
+   "s": 31.58,
+   "e": 31.9,
+   "p": 0.988
+  },
+  {
+   "w": "dollars",
+   "s": 31.9,
+   "e": 32.26,
+   "p": 0.996
+  },
+  {
+   "w": "in",
+   "s": 32.26,
+   "e": 32.48,
+   "p": 0.993
+  },
+  {
+   "w": "cash.",
+   "s": 32.48,
+   "e": 32.96,
+   "p": 0.999
+  },
+  {
+   "w": "When",
+   "s": 33.88,
+   "e": 33.94,
+   "p": 0.995
+  },
+  {
+   "w": "a",
+   "s": 33.94,
+   "e": 34.04,
+   "p": 0.999
+  },
+  {
+   "w": "promoter",
+   "s": 34.04,
+   "e": 34.36,
+   "p": 0.998
+  },
+  {
+   "w": "says",
+   "s": 34.36,
+   "e": 34.68,
+   "p": 0.999
+  },
+  {
+   "w": "he",
+   "s": 34.68,
+   "e": 34.86,
+   "p": 0.986
+  },
+  {
+   "w": "is",
+   "s": 34.86,
+   "e": 35.02,
+   "p": 0.998
+  },
+  {
+   "w": "investing",
+   "s": 35.02,
+   "e": 35.44,
+   "p": 0.999
+  },
+  {
+   "w": "right",
+   "s": 35.44,
+   "e": 35.8,
+   "p": 0.994
+  },
+  {
+   "w": "alongside",
+   "s": 35.8,
+   "e": 36.32,
+   "p": 0.989
+  },
+  {
+   "w": "you,",
+   "s": 36.32,
+   "e": 36.78,
+   "p": 0.984
+  },
+  {
+   "w": "treat",
+   "s": 37.24,
+   "e": 37.34,
+   "p": 0.908
+  },
+  {
+   "w": "it",
+   "s": 37.34,
+   "e": 37.52,
+   "p": 0.995
+  },
+  {
+   "w": "as",
+   "s": 37.52,
+   "e": 37.64,
+   "p": 0.999
+  },
+  {
+   "w": "a",
+   "s": 37.64,
+   "e": 37.92,
+   "p": 0.999
+  },
+  {
+   "w": "claim",
+   "s": 37.92,
+   "e": 38.08,
+   "p": 0.999
+  },
+  {
+   "w": "to",
+   "s": 38.08,
+   "e": 38.26,
+   "p": 0.999
+  },
+  {
+   "w": "check,",
+   "s": 38.26,
+   "e": 38.62,
+   "p": 0.993
+  },
+  {
+   "w": "not",
+   "s": 38.98,
+   "e": 39.28,
+   "p": 0.998
+  },
+  {
+   "w": "as",
+   "s": 39.28,
+   "e": 39.44,
+   "p": 0.989
+  },
+  {
+   "w": "proof.",
+   "s": 39.44,
+   "e": 39.74,
+   "p": 0.999
+  }
+ ],
+ "dur": 40.08,
+ "lech": [
+  {
+   "op": "delete",
+   "ref": "twenty seventeen",
+   "hyp": "",
+   "ngu_canh_ref": "detail around september twenty seventeen it said horwitz",
+   "ngu_canh_hyp": "detail around september it said horwitz",
+   "quan_trong": true
+  },
+  {
+   "op": "delete",
+   "ref": "twenty eighteen",
+   "hyp": "",
+   "ngu_canh_ref": "out in march twenty eighteen sec alleged group",
+   "ngu_canh_hyp": "out in march sec alleged group",
+   "quan_trong": true
+  }
+ ]
+}

@@ -62,11 +62,11 @@ Mọi khiếu nại (người trong vụ, luật sư, YouTube) → điều phố
 - Số dư đọc **trước và sau** mỗi phiên tốn tiền (OpenRouter `/api/v1/credits`, ElevenLabs `/v1/user/subscription`), ghi vào báo cáo + `COST-LEDGER.csv`.
 - Không merge, không xoá nhánh, không force-push. Báo cáo tiếng Việt. DỪNG cuối mốc.
 
-## 6. Đơn giá tham chiếu (CHƯA đo trên MR — số của lost-places-lab)
-| Khoản | Đơn giá | Nguồn |
-|---|---|---|
-| Veo 3.1 Lite 1080p qua OpenRouter | 0,30 USD/clip 6 s; 0,40 USD/clip 8 s; ~1,1–1,2 lượt/khe | lost-places-lab NHAT-KY R-139–R-147 |
-| Veo 3.1 Fast 1080p | 0,60 USD/clip | R-139 |
-| Ảnh NB2.1 Batch 2K (Gemini) | 0,028 USD/ảnh | lost-places-lab QUY-TRINH §7 |
-| TTS ElevenLabs `eleven_v4` | ~0,44 ký tự tính tiền / ký tự gửi | QUY-TRINH §7 |
-| Eleven Music | ~825 ký tự / phút nhạc | QUY-TRINH §7 |
+## 6. Đơn giá tham chiếu (số của lost-places-lab) + **số đo thật trên MR** (MR-4, 01/11/2026)
+| Khoản | Đơn giá tham chiếu | Nguồn | **Đo thật MR-4** |
+|---|---|---|---|
+| Veo 3.1 Lite 1080p qua OpenRouter | 0,30 USD/clip 6 s; 0,40 USD/clip 8 s; ~1,1–1,2 lượt/khe | lost-places-lab NHAT-KY R-139–R-147 | **0,40 USD/clip 8 s, không âm** (`usage.cost` 3/3 lượt; bảng `/api/v1/videos/models`: 0,05 USD/s không âm, 0,08 USD/s có âm); **1,5 lượt/khe** trên 2 khe rủi ro cao nhất (V12 1 lượt, V06 2 lượt) — mẫu nhỏ, khe dễ hơn có thể ~1,0 |
+| Veo 3.1 Fast 1080p | 0,60 USD/clip | R-139 | chưa đo |
+| Ảnh NB2.1 Batch 2K (Gemini) | 0,028 USD/ảnh | lost-places-lab QUY-TRINH §7 | không có khoá |
+| TTS ElevenLabs `eleven_v4` | ~0,44 ký tự tính tiền / ký tự gửi | QUY-TRINH §7 | **0,4401** ký tự tính / ký tự gửi (6.109 / 13.881, 25 lượt; header `Character-Cost` = chênh `/v1/user/subscription`); lời tập 1 một lượt 12.230 gửi → 5.383 tính; nhịp đọc thật **155 từ/phút** (2.005 từ → 12:55) |
+| Eleven Music | ~825 ký tự / phút nhạc | QUY-TRINH §7 | chưa đo |

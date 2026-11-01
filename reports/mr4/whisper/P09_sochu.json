@@ -1,0 +1,505 @@
+{
+ "doan": "P09",
+ "tep": "lab/mr4/tts/P09.mp3",
+ "ref": "He also gave investors copies of license agreements with sales agents for the films' production companies. He admitted those agreements were fake. He told investors that streaming platforms had signed, or committed to sign, distribution agreements with one-in-M-M, and he provided copies. Those, he admitted, were fake too. The notes, the collateral, the distribution deals: all of it came from him. When every piece of proof comes from the person asking for your money, it is not independent proof.",
+ "text": "He also gave investors copies of license agreements with sales agents for the film's production companies. He admitted those agreements were fake. He told investors that streaming platforms had signed or committed to sign distribution agreements with one in MM, and he provided copies. Those, he admitted, were fake too. The notes, the collateral, the distribution deals, all of it came from him. When every piece of proof comes from the person asking for your money, it is not independent proof.",
+ "words": [
+  {
+   "w": "He",
+   "s": 0.0,
+   "e": 0.18,
+   "p": 0.772
+  },
+  {
+   "w": "also",
+   "s": 0.18,
+   "e": 0.44,
+   "p": 0.938
+  },
+  {
+   "w": "gave",
+   "s": 0.44,
+   "e": 0.7,
+   "p": 0.996
+  },
+  {
+   "w": "investors",
+   "s": 0.7,
+   "e": 1.18,
+   "p": 0.991
+  },
+  {
+   "w": "copies",
+   "s": 1.18,
+   "e": 1.6,
+   "p": 0.94
+  },
+  {
+   "w": "of",
+   "s": 1.6,
+   "e": 1.88,
+   "p": 0.994
+  },
+  {
+   "w": "license",
+   "s": 1.88,
+   "e": 2.3,
+   "p": 0.938
+  },
+  {
+   "w": "agreements",
+   "s": 2.3,
+   "e": 2.7,
+   "p": 0.985
+  },
+  {
+   "w": "with",
+   "s": 2.7,
+   "e": 3.0,
+   "p": 0.99
+  },
+  {
+   "w": "sales",
+   "s": 3.0,
+   "e": 3.36,
+   "p": 0.986
+  },
+  {
+   "w": "agents",
+   "s": 3.36,
+   "e": 3.72,
+   "p": 0.996
+  },
+  {
+   "w": "for",
+   "s": 3.72,
+   "e": 3.94,
+   "p": 0.986
+  },
+  {
+   "w": "the",
+   "s": 3.94,
+   "e": 4.08,
+   "p": 0.997
+  },
+  {
+   "w": "film's",
+   "s": 4.08,
+   "e": 4.8,
+   "p": 0.93
+  },
+  {
+   "w": "production",
+   "s": 4.8,
+   "e": 4.8,
+   "p": 0.994
+  },
+  {
+   "w": "companies.",
+   "s": 4.8,
+   "e": 5.32,
+   "p": 0.988
+  },
+  {
+   "w": "He",
+   "s": 6.0,
+   "e": 6.1,
+   "p": 0.996
+  },
+  {
+   "w": "admitted",
+   "s": 6.1,
+   "e": 6.42,
+   "p": 0.988
+  },
+  {
+   "w": "those",
+   "s": 6.42,
+   "e": 6.7,
+   "p": 0.984
+  },
+  {
+   "w": "agreements",
+   "s": 6.7,
+   "e": 7.1,
+   "p": 0.995
+  },
+  {
+   "w": "were",
+   "s": 7.1,
+   "e": 7.36,
+   "p": 0.997
+  },
+  {
+   "w": "fake.",
+   "s": 7.36,
+   "e": 7.68,
+   "p": 0.994
+  },
+  {
+   "w": "He",
+   "s": 8.46,
+   "e": 8.5,
+   "p": 0.994
+  },
+  {
+   "w": "told",
+   "s": 8.5,
+   "e": 8.72,
+   "p": 0.999
+  },
+  {
+   "w": "investors",
+   "s": 8.72,
+   "e": 9.24,
+   "p": 0.998
+  },
+  {
+   "w": "that",
+   "s": 9.24,
+   "e": 9.5,
+   "p": 0.995
+  },
+  {
+   "w": "streaming",
+   "s": 9.5,
+   "e": 9.92,
+   "p": 0.985
+  },
+  {
+   "w": "platforms",
+   "s": 9.92,
+   "e": 10.48,
+   "p": 0.998
+  },
+  {
+   "w": "had",
+   "s": 10.48,
+   "e": 10.74,
+   "p": 0.993
+  },
+  {
+   "w": "signed",
+   "s": 10.74,
+   "e": 11.24,
+   "p": 0.986
+  },
+  {
+   "w": "or",
+   "s": 11.24,
+   "e": 11.66,
+   "p": 0.58
+  },
+  {
+   "w": "committed",
+   "s": 11.66,
+   "e": 12.08,
+   "p": 0.972
+  },
+  {
+   "w": "to",
+   "s": 12.08,
+   "e": 12.32,
+   "p": 0.998
+  },
+  {
+   "w": "sign",
+   "s": 12.32,
+   "e": 12.68,
+   "p": 0.997
+  },
+  {
+   "w": "distribution",
+   "s": 12.68,
+   "e": 13.68,
+   "p": 0.926
+  },
+  {
+   "w": "agreements",
+   "s": 13.68,
+   "e": 14.16,
+   "p": 0.996
+  },
+  {
+   "w": "with",
+   "s": 14.16,
+   "e": 14.44,
+   "p": 0.991
+  },
+  {
+   "w": "one",
+   "s": 14.44,
+   "e": 14.72,
+   "p": 0.752
+  },
+  {
+   "w": "in",
+   "s": 14.72,
+   "e": 14.94,
+   "p": 0.957
+  },
+  {
+   "w": "MM,",
+   "s": 14.94,
+   "e": 15.26,
+   "p": 0.523
+  },
+  {
+   "w": "and",
+   "s": 15.74,
+   "e": 15.94,
+   "p": 0.993
+  },
+  {
+   "w": "he",
+   "s": 15.94,
+   "e": 16.08,
+   "p": 0.997
+  },
+  {
+   "w": "provided",
+   "s": 16.08,
+   "e": 16.44,
+   "p": 0.999
+  },
+  {
+   "w": "copies.",
+   "s": 16.44,
+   "e": 17.02,
+   "p": 0.998
+  },
+  {
+   "w": "Those,",
+   "s": 17.58,
+   "e": 18.02,
+   "p": 0.974
+  },
+  {
+   "w": "he",
+   "s": 18.26,
+   "e": 18.42,
+   "p": 0.998
+  },
+  {
+   "w": "admitted,",
+   "s": 18.42,
+   "e": 18.78,
+   "p": 0.997
+  },
+  {
+   "w": "were",
+   "s": 19.16,
+   "e": 19.3,
+   "p": 0.993
+  },
+  {
+   "w": "fake",
+   "s": 19.3,
+   "e": 19.54,
+   "p": 0.997
+  },
+  {
+   "w": "too.",
+   "s": 19.54,
+   "e": 19.96,
+   "p": 0.544
+  },
+  {
+   "w": "The",
+   "s": 20.58,
+   "e": 20.68,
+   "p": 0.983
+  },
+  {
+   "w": "notes,",
+   "s": 20.68,
+   "e": 21.02,
+   "p": 0.986
+  },
+  {
+   "w": "the",
+   "s": 21.46,
+   "e": 21.56,
+   "p": 0.995
+  },
+  {
+   "w": "collateral,",
+   "s": 21.56,
+   "e": 22.02,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 22.44,
+   "e": 22.54,
+   "p": 0.998
+  },
+  {
+   "w": "distribution",
+   "s": 22.54,
+   "e": 23.1,
+   "p": 0.999
+  },
+  {
+   "w": "deals,",
+   "s": 23.1,
+   "e": 23.56,
+   "p": 0.994
+  },
+  {
+   "w": "all",
+   "s": 24.04,
+   "e": 24.34,
+   "p": 0.986
+  },
+  {
+   "w": "of",
+   "s": 24.34,
+   "e": 24.48,
+   "p": 0.999
+  },
+  {
+   "w": "it",
+   "s": 24.48,
+   "e": 24.64,
+   "p": 0.998
+  },
+  {
+   "w": "came",
+   "s": 24.64,
+   "e": 24.82,
+   "p": 0.996
+  },
+  {
+   "w": "from",
+   "s": 24.82,
+   "e": 25.08,
+   "p": 0.999
+  },
+  {
+   "w": "him.",
+   "s": 25.08,
+   "e": 25.36,
+   "p": 0.999
+  },
+  {
+   "w": "When",
+   "s": 25.9,
+   "e": 26.14,
+   "p": 0.884
+  },
+  {
+   "w": "every",
+   "s": 26.14,
+   "e": 26.5,
+   "p": 0.997
+  },
+  {
+   "w": "piece",
+   "s": 26.5,
+   "e": 26.76,
+   "p": 0.999
+  },
+  {
+   "w": "of",
+   "s": 26.76,
+   "e": 27.02,
+   "p": 1.0
+  },
+  {
+   "w": "proof",
+   "s": 27.02,
+   "e": 27.26,
+   "p": 0.998
+  },
+  {
+   "w": "comes",
+   "s": 27.26,
+   "e": 27.56,
+   "p": 0.998
+  },
+  {
+   "w": "from",
+   "s": 27.56,
+   "e": 27.76,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 27.76,
+   "e": 27.92,
+   "p": 0.998
+  },
+  {
+   "w": "person",
+   "s": 27.92,
+   "e": 28.22,
+   "p": 1.0
+  },
+  {
+   "w": "asking",
+   "s": 28.22,
+   "e": 28.64,
+   "p": 0.85
+  },
+  {
+   "w": "for",
+   "s": 28.64,
+   "e": 28.9,
+   "p": 0.998
+  },
+  {
+   "w": "your",
+   "s": 28.9,
+   "e": 29.02,
+   "p": 0.996
+  },
+  {
+   "w": "money,",
+   "s": 29.02,
+   "e": 29.38,
+   "p": 1.0
+  },
+  {
+   "w": "it",
+   "s": 29.7,
+   "e": 29.92,
+   "p": 0.991
+  },
+  {
+   "w": "is",
+   "s": 29.92,
+   "e": 30.06,
+   "p": 0.995
+  },
+  {
+   "w": "not",
+   "s": 30.06,
+   "e": 30.4,
+   "p": 0.979
+  },
+  {
+   "w": "independent",
+   "s": 30.4,
+   "e": 31.04,
+   "p": 0.996
+  },
+  {
+   "w": "proof.",
+   "s": 31.04,
+   "e": 31.38,
+   "p": 0.997
+  }
+ ],
+ "dur": 31.76,
+ "lech": [
+  {
+   "op": "replace",
+   "ref": "films'",
+   "hyp": "film's",
+   "ngu_canh_ref": "sales agents for films' production companies he",
+   "ngu_canh_hyp": "sales agents for film's production companies he",
+   "quan_trong": false
+  }
+ ]
+}

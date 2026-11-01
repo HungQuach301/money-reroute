@@ -1,0 +1,609 @@
+{
+ "doan": "P04",
+ "tep": "lab/mr4/tts/P04.mp3",
+ "ref": "A promissory note is a written I-O-U: a promise to repay a set amount by a set date. In his plea agreement, Horwitz acknowledged that one-in-M-M's notes were securities under federal law. Each note listed the amount borrowed, typically from about thirty-five thousand dollars to one and a half million. It also listed the amount to be paid back at maturity, typically six or twelve months later: a return of twenty-five to forty-five percent. In its complaint, the S-E-C alleged a slightly different range: a typical profit of thirty-five to forty-five percent over the life of the note.",
+ "text": "A promissory note is a written IOU, a promise to repay a set amount by a set date. In his plea agreement, Horwitz acknowledged that one in MM's notes were securities under federal law. Each note listed the amount borrowed, typically from about $35,000 to $1.5 million. It also listed the amount to be paid back at maturity, typically 6 or 12 months later, a return of 25 to 45 percent. In its complaint, the SEC alleged a slightly different range, a typical profit of 35 to 45 percent over the life of the note.",
+ "words": [
+  {
+   "w": "A",
+   "s": 0.0,
+   "e": 0.2,
+   "p": 0.731
+  },
+  {
+   "w": "promissory",
+   "s": 0.2,
+   "e": 0.8,
+   "p": 0.993
+  },
+  {
+   "w": "note",
+   "s": 0.8,
+   "e": 1.06,
+   "p": 0.998
+  },
+  {
+   "w": "is",
+   "s": 1.06,
+   "e": 1.28,
+   "p": 0.995
+  },
+  {
+   "w": "a",
+   "s": 1.28,
+   "e": 1.48,
+   "p": 0.987
+  },
+  {
+   "w": "written",
+   "s": 1.48,
+   "e": 1.74,
+   "p": 0.999
+  },
+  {
+   "w": "IOU,",
+   "s": 1.74,
+   "e": 2.46,
+   "p": 0.89
+  },
+  {
+   "w": "a",
+   "s": 3.3,
+   "e": 3.4,
+   "p": 0.97
+  },
+  {
+   "w": "promise",
+   "s": 3.4,
+   "e": 3.72,
+   "p": 0.989
+  },
+  {
+   "w": "to",
+   "s": 3.72,
+   "e": 3.94,
+   "p": 0.997
+  },
+  {
+   "w": "repay",
+   "s": 3.94,
+   "e": 4.28,
+   "p": 0.99
+  },
+  {
+   "w": "a",
+   "s": 4.28,
+   "e": 4.52,
+   "p": 0.997
+  },
+  {
+   "w": "set",
+   "s": 4.52,
+   "e": 4.7,
+   "p": 0.995
+  },
+  {
+   "w": "amount",
+   "s": 4.7,
+   "e": 5.0,
+   "p": 0.999
+  },
+  {
+   "w": "by",
+   "s": 5.0,
+   "e": 5.34,
+   "p": 0.988
+  },
+  {
+   "w": "a",
+   "s": 5.34,
+   "e": 5.54,
+   "p": 0.998
+  },
+  {
+   "w": "set",
+   "s": 5.54,
+   "e": 5.68,
+   "p": 0.999
+  },
+  {
+   "w": "date.",
+   "s": 5.68,
+   "e": 6.02,
+   "p": 0.999
+  },
+  {
+   "w": "In",
+   "s": 6.74,
+   "e": 6.84,
+   "p": 0.984
+  },
+  {
+   "w": "his",
+   "s": 6.84,
+   "e": 7.0,
+   "p": 0.996
+  },
+  {
+   "w": "plea",
+   "s": 7.0,
+   "e": 7.24,
+   "p": 0.998
+  },
+  {
+   "w": "agreement,",
+   "s": 7.24,
+   "e": 7.7,
+   "p": 0.999
+  },
+  {
+   "w": "Horwitz",
+   "s": 8.16,
+   "e": 8.36,
+   "p": 0.862
+  },
+  {
+   "w": "acknowledged",
+   "s": 8.36,
+   "e": 8.9,
+   "p": 0.993
+  },
+  {
+   "w": "that",
+   "s": 8.9,
+   "e": 9.18,
+   "p": 0.994
+  },
+  {
+   "w": "one",
+   "s": 9.18,
+   "e": 9.44,
+   "p": 0.801
+  },
+  {
+   "w": "in",
+   "s": 9.44,
+   "e": 9.64,
+   "p": 0.824
+  },
+  {
+   "w": "MM's",
+   "s": 9.64,
+   "e": 10.12,
+   "p": 0.825
+  },
+  {
+   "w": "notes",
+   "s": 10.12,
+   "e": 10.36,
+   "p": 0.994
+  },
+  {
+   "w": "were",
+   "s": 10.36,
+   "e": 10.58,
+   "p": 0.992
+  },
+  {
+   "w": "securities",
+   "s": 10.58,
+   "e": 11.18,
+   "p": 0.997
+  },
+  {
+   "w": "under",
+   "s": 11.18,
+   "e": 11.5,
+   "p": 0.996
+  },
+  {
+   "w": "federal",
+   "s": 11.5,
+   "e": 11.86,
+   "p": 0.856
+  },
+  {
+   "w": "law.",
+   "s": 11.86,
+   "e": 12.28,
+   "p": 0.999
+  },
+  {
+   "w": "Each",
+   "s": 12.96,
+   "e": 13.18,
+   "p": 0.982
+  },
+  {
+   "w": "note",
+   "s": 13.18,
+   "e": 13.5,
+   "p": 0.998
+  },
+  {
+   "w": "listed",
+   "s": 13.5,
+   "e": 13.84,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 13.84,
+   "e": 14.02,
+   "p": 0.999
+  },
+  {
+   "w": "amount",
+   "s": 14.02,
+   "e": 14.24,
+   "p": 0.999
+  },
+  {
+   "w": "borrowed,",
+   "s": 14.24,
+   "e": 14.76,
+   "p": 0.997
+  },
+  {
+   "w": "typically",
+   "s": 15.2,
+   "e": 15.56,
+   "p": 0.995
+  },
+  {
+   "w": "from",
+   "s": 15.56,
+   "e": 15.82,
+   "p": 0.904
+  },
+  {
+   "w": "about",
+   "s": 15.82,
+   "e": 16.12,
+   "p": 0.989
+  },
+  {
+   "w": "$35",
+   "s": 16.12,
+   "e": 16.62,
+   "p": 0.935
+  },
+  {
+   "w": ",000",
+   "s": 16.62,
+   "e": 17.38,
+   "p": 0.99
+  },
+  {
+   "w": "to",
+   "s": 17.38,
+   "e": 17.8,
+   "p": 0.974
+  },
+  {
+   "w": "$1",
+   "s": 17.8,
+   "e": 18.06,
+   "p": 0.793
+  },
+  {
+   "w": ".5",
+   "s": 18.06,
+   "e": 18.42,
+   "p": 0.932
+  },
+  {
+   "w": "million.",
+   "s": 18.42,
+   "e": 18.84,
+   "p": 0.985
+  },
+  {
+   "w": "It",
+   "s": 19.52,
+   "e": 19.72,
+   "p": 0.993
+  },
+  {
+   "w": "also",
+   "s": 19.72,
+   "e": 20.0,
+   "p": 0.999
+  },
+  {
+   "w": "listed",
+   "s": 20.0,
+   "e": 20.34,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 20.34,
+   "e": 20.54,
+   "p": 0.999
+  },
+  {
+   "w": "amount",
+   "s": 20.54,
+   "e": 20.76,
+   "p": 0.999
+  },
+  {
+   "w": "to",
+   "s": 20.76,
+   "e": 20.9,
+   "p": 0.996
+  },
+  {
+   "w": "be",
+   "s": 20.9,
+   "e": 21.1,
+   "p": 0.999
+  },
+  {
+   "w": "paid",
+   "s": 21.1,
+   "e": 21.26,
+   "p": 0.997
+  },
+  {
+   "w": "back",
+   "s": 21.26,
+   "e": 21.52,
+   "p": 0.997
+  },
+  {
+   "w": "at",
+   "s": 21.52,
+   "e": 21.7,
+   "p": 0.997
+  },
+  {
+   "w": "maturity,",
+   "s": 21.7,
+   "e": 22.18,
+   "p": 0.999
+  },
+  {
+   "w": "typically",
+   "s": 22.72,
+   "e": 23.1,
+   "p": 0.992
+  },
+  {
+   "w": "6",
+   "s": 23.1,
+   "e": 23.5,
+   "p": 0.483
+  },
+  {
+   "w": "or",
+   "s": 23.5,
+   "e": 23.68,
+   "p": 0.962
+  },
+  {
+   "w": "12",
+   "s": 23.68,
+   "e": 24.0,
+   "p": 0.998
+  },
+  {
+   "w": "months",
+   "s": 24.0,
+   "e": 24.26,
+   "p": 0.999
+  },
+  {
+   "w": "later,",
+   "s": 24.26,
+   "e": 24.66,
+   "p": 0.999
+  },
+  {
+   "w": "a",
+   "s": 25.18,
+   "e": 25.4,
+   "p": 0.995
+  },
+  {
+   "w": "return",
+   "s": 25.4,
+   "e": 25.76,
+   "p": 0.999
+  },
+  {
+   "w": "of",
+   "s": 25.76,
+   "e": 25.92,
+   "p": 0.999
+  },
+  {
+   "w": "25",
+   "s": 25.92,
+   "e": 26.58,
+   "p": 0.995
+  },
+  {
+   "w": "to",
+   "s": 26.58,
+   "e": 26.84,
+   "p": 0.72
+  },
+  {
+   "w": "45",
+   "s": 26.84,
+   "e": 27.4,
+   "p": 0.998
+  },
+  {
+   "w": "percent.",
+   "s": 27.4,
+   "e": 27.86,
+   "p": 0.337
+  },
+  {
+   "w": "In",
+   "s": 28.48,
+   "e": 28.82,
+   "p": 0.888
+  },
+  {
+   "w": "its",
+   "s": 28.82,
+   "e": 28.96,
+   "p": 0.981
+  },
+  {
+   "w": "complaint,",
+   "s": 28.96,
+   "e": 29.46,
+   "p": 0.996
+  },
+  {
+   "w": "the",
+   "s": 29.9,
+   "e": 30.0,
+   "p": 0.992
+  },
+  {
+   "w": "SEC",
+   "s": 30.0,
+   "e": 30.44,
+   "p": 0.989
+  },
+  {
+   "w": "alleged",
+   "s": 30.44,
+   "e": 30.94,
+   "p": 0.994
+  },
+  {
+   "w": "a",
+   "s": 30.94,
+   "e": 31.18,
+   "p": 0.996
+  },
+  {
+   "w": "slightly",
+   "s": 31.18,
+   "e": 31.52,
+   "p": 0.966
+  },
+  {
+   "w": "different",
+   "s": 31.52,
+   "e": 31.88,
+   "p": 0.997
+  },
+  {
+   "w": "range,",
+   "s": 31.88,
+   "e": 32.36,
+   "p": 0.998
+  },
+  {
+   "w": "a",
+   "s": 32.96,
+   "e": 33.12,
+   "p": 0.989
+  },
+  {
+   "w": "typical",
+   "s": 33.12,
+   "e": 33.42,
+   "p": 0.998
+  },
+  {
+   "w": "profit",
+   "s": 33.42,
+   "e": 33.84,
+   "p": 0.999
+  },
+  {
+   "w": "of",
+   "s": 33.84,
+   "e": 34.12,
+   "p": 0.998
+  },
+  {
+   "w": "35",
+   "s": 34.12,
+   "e": 34.6,
+   "p": 0.987
+  },
+  {
+   "w": "to",
+   "s": 34.6,
+   "e": 34.9,
+   "p": 0.606
+  },
+  {
+   "w": "45",
+   "s": 34.9,
+   "e": 35.44,
+   "p": 0.997
+  },
+  {
+   "w": "percent",
+   "s": 35.44,
+   "e": 35.98,
+   "p": 0.648
+  },
+  {
+   "w": "over",
+   "s": 35.98,
+   "e": 36.34,
+   "p": 0.983
+  },
+  {
+   "w": "the",
+   "s": 36.34,
+   "e": 36.54,
+   "p": 0.999
+  },
+  {
+   "w": "life",
+   "s": 36.54,
+   "e": 36.7,
+   "p": 0.999
+  },
+  {
+   "w": "of",
+   "s": 36.7,
+   "e": 36.88,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 36.88,
+   "e": 36.98,
+   "p": 0.998
+  },
+  {
+   "w": "note.",
+   "s": 36.98,
+   "e": 37.22,
+   "p": 0.988
+  }
+ ],
+ "dur": 37.44,
+ "lech": [
+  {
+   "op": "replace",
+   "ref": "i o u",
+   "hyp": "iou",
+   "ngu_canh_ref": "note is written i o u promise to repay",
+   "ngu_canh_hyp": "note is written iou promise to repay",
+   "quan_trong": false
+  },
+  {
+   "op": "replace",
+   "ref": "half",
+   "hyp": "point five",
+   "ngu_canh_ref": "thousand to one half million it also",
+   "ngu_canh_hyp": "thousand to one point five million it also",
+   "quan_trong": true
+  }
+ ]
+}

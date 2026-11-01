@@ -1,0 +1,658 @@
+{
+ "doan": "P05",
+ "tep": "lab/mr4/tts/P05.mp3",
+ "ref": "Over the life of the note is not the same as per year, and that difference matters. In a sample of notes listed in the S-E-C's complaint, one six-month note promised a thirty-five percent return. If you could reinvest the whole payout at that rate twice a year, you would end the year with about one point eight two times your money: roughly an eighty-two percent annual return. Even without reinvesting, it works out to seventy percent a year. When an investment promises returns like that, on a fixed schedule, ask the simplest question first: where would that much profit come from, every single time?",
+ "text": "Over the life of the note is not the same as per year, and that difference matters. In a sample of notes listed in the SEC's complaint, one six-month note promised a thirty-five percent return. If you could reinvest the whole payout at that rate twice a year, you would end the year with about one-point-eight-two times your money, roughly an eighty-two percent annual return. Even without reinvesting, it works out to seventy percent a year. When an investment promises returns like that on a fixed schedule, ask the simplest question first. Where would that much profit come from every single time?",
+ "words": [
+  {
+   "w": "Over",
+   "s": 0.0,
+   "e": 0.24,
+   "p": 0.781
+  },
+  {
+   "w": "the",
+   "s": 0.24,
+   "e": 0.44,
+   "p": 0.993
+  },
+  {
+   "w": "life",
+   "s": 0.44,
+   "e": 0.6,
+   "p": 0.996
+  },
+  {
+   "w": "of",
+   "s": 0.6,
+   "e": 0.78,
+   "p": 0.997
+  },
+  {
+   "w": "the",
+   "s": 0.78,
+   "e": 0.96,
+   "p": 0.987
+  },
+  {
+   "w": "note",
+   "s": 0.96,
+   "e": 1.12,
+   "p": 0.986
+  },
+  {
+   "w": "is",
+   "s": 1.12,
+   "e": 1.34,
+   "p": 0.992
+  },
+  {
+   "w": "not",
+   "s": 1.34,
+   "e": 1.62,
+   "p": 0.995
+  },
+  {
+   "w": "the",
+   "s": 1.62,
+   "e": 1.86,
+   "p": 0.996
+  },
+  {
+   "w": "same",
+   "s": 1.86,
+   "e": 2.12,
+   "p": 0.999
+  },
+  {
+   "w": "as",
+   "s": 2.12,
+   "e": 2.28,
+   "p": 0.996
+  },
+  {
+   "w": "per",
+   "s": 2.28,
+   "e": 2.52,
+   "p": 0.991
+  },
+  {
+   "w": "year,",
+   "s": 2.52,
+   "e": 2.92,
+   "p": 0.993
+  },
+  {
+   "w": "and",
+   "s": 3.12,
+   "e": 3.56,
+   "p": 0.994
+  },
+  {
+   "w": "that",
+   "s": 3.56,
+   "e": 3.74,
+   "p": 0.998
+  },
+  {
+   "w": "difference",
+   "s": 3.74,
+   "e": 4.12,
+   "p": 0.998
+  },
+  {
+   "w": "matters.",
+   "s": 4.12,
+   "e": 4.56,
+   "p": 0.997
+  },
+  {
+   "w": "In",
+   "s": 5.54,
+   "e": 5.6,
+   "p": 0.962
+  },
+  {
+   "w": "a",
+   "s": 5.6,
+   "e": 5.78,
+   "p": 0.996
+  },
+  {
+   "w": "sample",
+   "s": 5.78,
+   "e": 6.0,
+   "p": 0.996
+  },
+  {
+   "w": "of",
+   "s": 6.0,
+   "e": 6.22,
+   "p": 0.999
+  },
+  {
+   "w": "notes",
+   "s": 6.22,
+   "e": 6.46,
+   "p": 0.995
+  },
+  {
+   "w": "listed",
+   "s": 6.46,
+   "e": 6.82,
+   "p": 0.995
+  },
+  {
+   "w": "in",
+   "s": 6.82,
+   "e": 7.02,
+   "p": 0.997
+  },
+  {
+   "w": "the",
+   "s": 7.02,
+   "e": 7.2,
+   "p": 0.997
+  },
+  {
+   "w": "SEC's",
+   "s": 7.2,
+   "e": 7.84,
+   "p": 0.96
+  },
+  {
+   "w": "complaint,",
+   "s": 7.84,
+   "e": 8.22,
+   "p": 0.975
+  },
+  {
+   "w": "one",
+   "s": 8.86,
+   "e": 9.04,
+   "p": 0.983
+  },
+  {
+   "w": "six",
+   "s": 9.04,
+   "e": 9.38,
+   "p": 0.698
+  },
+  {
+   "w": "-month",
+   "s": 9.38,
+   "e": 9.6,
+   "p": 0.91
+  },
+  {
+   "w": "note",
+   "s": 9.6,
+   "e": 9.96,
+   "p": 0.996
+  },
+  {
+   "w": "promised",
+   "s": 9.96,
+   "e": 10.34,
+   "p": 0.995
+  },
+  {
+   "w": "a",
+   "s": 10.34,
+   "e": 10.66,
+   "p": 0.996
+  },
+  {
+   "w": "thirty",
+   "s": 10.66,
+   "e": 10.86,
+   "p": 0.037
+  },
+  {
+   "w": "-five",
+   "s": 10.86,
+   "e": 11.2,
+   "p": 0.975
+  },
+  {
+   "w": "percent",
+   "s": 11.2,
+   "e": 11.58,
+   "p": 0.96
+  },
+  {
+   "w": "return.",
+   "s": 11.58,
+   "e": 12.02,
+   "p": 0.998
+  },
+  {
+   "w": "If",
+   "s": 12.9,
+   "e": 13.02,
+   "p": 0.959
+  },
+  {
+   "w": "you",
+   "s": 13.02,
+   "e": 13.14,
+   "p": 0.999
+  },
+  {
+   "w": "could",
+   "s": 13.14,
+   "e": 13.32,
+   "p": 0.994
+  },
+  {
+   "w": "reinvest",
+   "s": 13.32,
+   "e": 13.7,
+   "p": 0.983
+  },
+  {
+   "w": "the",
+   "s": 13.7,
+   "e": 14.02,
+   "p": 0.998
+  },
+  {
+   "w": "whole",
+   "s": 14.02,
+   "e": 14.24,
+   "p": 0.998
+  },
+  {
+   "w": "payout",
+   "s": 14.24,
+   "e": 14.62,
+   "p": 0.981
+  },
+  {
+   "w": "at",
+   "s": 14.62,
+   "e": 14.84,
+   "p": 0.996
+  },
+  {
+   "w": "that",
+   "s": 14.84,
+   "e": 15.04,
+   "p": 0.999
+  },
+  {
+   "w": "rate",
+   "s": 15.04,
+   "e": 15.24,
+   "p": 0.999
+  },
+  {
+   "w": "twice",
+   "s": 15.24,
+   "e": 15.56,
+   "p": 0.992
+  },
+  {
+   "w": "a",
+   "s": 15.56,
+   "e": 15.82,
+   "p": 0.994
+  },
+  {
+   "w": "year,",
+   "s": 15.82,
+   "e": 16.08,
+   "p": 1.0
+  },
+  {
+   "w": "you",
+   "s": 16.56,
+   "e": 16.66,
+   "p": 0.995
+  },
+  {
+   "w": "would",
+   "s": 16.66,
+   "e": 16.82,
+   "p": 0.996
+  },
+  {
+   "w": "end",
+   "s": 16.82,
+   "e": 17.04,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 17.04,
+   "e": 17.22,
+   "p": 0.996
+  },
+  {
+   "w": "year",
+   "s": 17.22,
+   "e": 17.4,
+   "p": 0.999
+  },
+  {
+   "w": "with",
+   "s": 17.4,
+   "e": 17.6,
+   "p": 0.998
+  },
+  {
+   "w": "about",
+   "s": 17.6,
+   "e": 17.86,
+   "p": 0.998
+  },
+  {
+   "w": "one",
+   "s": 17.86,
+   "e": 18.16,
+   "p": 0.31
+  },
+  {
+   "w": "-point",
+   "s": 18.16,
+   "e": 18.48,
+   "p": 0.662
+  },
+  {
+   "w": "-eight",
+   "s": 18.48,
+   "e": 18.7,
+   "p": 0.982
+  },
+  {
+   "w": "-two",
+   "s": 18.7,
+   "e": 18.98,
+   "p": 0.974
+  },
+  {
+   "w": "times",
+   "s": 18.98,
+   "e": 19.3,
+   "p": 0.992
+  },
+  {
+   "w": "your",
+   "s": 19.3,
+   "e": 19.52,
+   "p": 0.998
+  },
+  {
+   "w": "money,",
+   "s": 19.52,
+   "e": 19.82,
+   "p": 0.998
+  },
+  {
+   "w": "roughly",
+   "s": 20.38,
+   "e": 20.7,
+   "p": 0.995
+  },
+  {
+   "w": "an",
+   "s": 20.7,
+   "e": 21.04,
+   "p": 0.993
+  },
+  {
+   "w": "eighty",
+   "s": 21.04,
+   "e": 21.2,
+   "p": 0.967
+  },
+  {
+   "w": "-two",
+   "s": 21.2,
+   "e": 21.44,
+   "p": 0.995
+  },
+  {
+   "w": "percent",
+   "s": 21.44,
+   "e": 21.86,
+   "p": 0.973
+  },
+  {
+   "w": "annual",
+   "s": 21.86,
+   "e": 22.26,
+   "p": 0.997
+  },
+  {
+   "w": "return.",
+   "s": 22.26,
+   "e": 22.76,
+   "p": 0.999
+  },
+  {
+   "w": "Even",
+   "s": 23.58,
+   "e": 23.82,
+   "p": 0.996
+  },
+  {
+   "w": "without",
+   "s": 23.82,
+   "e": 24.16,
+   "p": 0.999
+  },
+  {
+   "w": "reinvesting,",
+   "s": 24.16,
+   "e": 24.94,
+   "p": 0.992
+  },
+  {
+   "w": "it",
+   "s": 25.18,
+   "e": 25.32,
+   "p": 0.998
+  },
+  {
+   "w": "works",
+   "s": 25.32,
+   "e": 25.54,
+   "p": 0.998
+  },
+  {
+   "w": "out",
+   "s": 25.54,
+   "e": 25.78,
+   "p": 0.996
+  },
+  {
+   "w": "to",
+   "s": 25.78,
+   "e": 25.94,
+   "p": 0.999
+  },
+  {
+   "w": "seventy",
+   "s": 25.94,
+   "e": 26.36,
+   "p": 0.939
+  },
+  {
+   "w": "percent",
+   "s": 26.36,
+   "e": 26.72,
+   "p": 0.981
+  },
+  {
+   "w": "a",
+   "s": 26.72,
+   "e": 26.94,
+   "p": 0.996
+  },
+  {
+   "w": "year.",
+   "s": 26.94,
+   "e": 27.2,
+   "p": 1.0
+  },
+  {
+   "w": "When",
+   "s": 27.86,
+   "e": 28.26,
+   "p": 0.906
+  },
+  {
+   "w": "an",
+   "s": 28.26,
+   "e": 28.4,
+   "p": 0.996
+  },
+  {
+   "w": "investment",
+   "s": 28.4,
+   "e": 28.84,
+   "p": 0.99
+  },
+  {
+   "w": "promises",
+   "s": 28.84,
+   "e": 29.32,
+   "p": 0.999
+  },
+  {
+   "w": "returns",
+   "s": 29.32,
+   "e": 29.82,
+   "p": 0.983
+  },
+  {
+   "w": "like",
+   "s": 29.82,
+   "e": 30.04,
+   "p": 0.995
+  },
+  {
+   "w": "that",
+   "s": 30.04,
+   "e": 30.44,
+   "p": 0.999
+  },
+  {
+   "w": "on",
+   "s": 30.44,
+   "e": 30.8,
+   "p": 0.426
+  },
+  {
+   "w": "a",
+   "s": 30.8,
+   "e": 30.96,
+   "p": 0.997
+  },
+  {
+   "w": "fixed",
+   "s": 30.96,
+   "e": 31.22,
+   "p": 0.998
+  },
+  {
+   "w": "schedule,",
+   "s": 31.22,
+   "e": 31.78,
+   "p": 0.998
+  },
+  {
+   "w": "ask",
+   "s": 32.4,
+   "e": 32.56,
+   "p": 0.992
+  },
+  {
+   "w": "the",
+   "s": 32.56,
+   "e": 32.76,
+   "p": 0.998
+  },
+  {
+   "w": "simplest",
+   "s": 32.76,
+   "e": 33.18,
+   "p": 0.997
+  },
+  {
+   "w": "question",
+   "s": 33.18,
+   "e": 33.66,
+   "p": 0.994
+  },
+  {
+   "w": "first.",
+   "s": 33.66,
+   "e": 34.12,
+   "p": 0.996
+  },
+  {
+   "w": "Where",
+   "s": 34.96,
+   "e": 35.14,
+   "p": 0.979
+  },
+  {
+   "w": "would",
+   "s": 35.14,
+   "e": 35.36,
+   "p": 0.995
+  },
+  {
+   "w": "that",
+   "s": 35.36,
+   "e": 35.58,
+   "p": 0.996
+  },
+  {
+   "w": "much",
+   "s": 35.58,
+   "e": 35.8,
+   "p": 0.999
+  },
+  {
+   "w": "profit",
+   "s": 35.8,
+   "e": 36.18,
+   "p": 0.999
+  },
+  {
+   "w": "come",
+   "s": 36.18,
+   "e": 36.46,
+   "p": 0.998
+  },
+  {
+   "w": "from",
+   "s": 36.46,
+   "e": 36.94,
+   "p": 0.999
+  },
+  {
+   "w": "every",
+   "s": 36.94,
+   "e": 37.6,
+   "p": 0.62
+  },
+  {
+   "w": "single",
+   "s": 37.6,
+   "e": 38.02,
+   "p": 0.982
+  },
+  {
+   "w": "time?",
+   "s": 38.02,
+   "e": 38.42,
+   "p": 1.0
+  }
+ ],
+ "dur": 38.72,
+ "lech": []
+}

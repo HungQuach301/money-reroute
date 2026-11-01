@@ -1,0 +1,24 @@
+{
+ "_ghi_chu": "MR-4 · lời Veo cho 2 khe thử (tiếng Anh, gửi nguyên văn). SHOT.md đóng băng — lời Veo dựng từ cột 'Nội dung hình' + 'Khe Veo' của SHOT, không đổi nội dung cảnh. Không khung khoá (không khoá Gemini, V1 không áp dụng). Lượt 2 chỉ khi lượt 1 trượt QC, phải đổi lời (V7).",
+ "V12": {
+  "shot": "SHOT §1 hàng 29 · P12 S058–S061 · Tháp ly rượu: rót từ đỉnh, tràn xuống tầng dưới · V2 chất lỏng → 8 s, không dãn",
+  "luot1": {
+   "prompt": "Cinematic close-up of a champagne glass tower: four tiers of identical plain, unmarked coupe glasses stacked in a pyramid on a dark wooden table in a dim room with warm, low light. A thin, steady stream of pale golden sparkling wine falls from above the top edge of the frame into the single glass at the very top; no bottle, no hand and no person is visible. The top glass fills and gently overflows, and the wine runs down evenly over its rim into the glasses of the tier below, which slowly begin to fill. Fine bubbles rise in the glasses. Very slow push-in, shallow depth of field, soft bokeh background, realistic liquid physics, smooth natural motion. No people, no hands, no faces, no labels, no logos, no text anywhere in the frame.",
+   "negative": "people, hands, faces, bottle label, logo, text, letters, watermark, broken glass, shattering, splashing explosion, wine spraying, foam overflowing everywhere, glasses melting or morphing, extra floating glasses"
+  },
+  "luot1_qc": "ĐẠT có ghi chú: không mặt, không người toàn thân; 0–1,6 s đầu ngón tay + cổ chai ở góc trên trái (lời ghi 'no hand') trượt ra khỏi khung tự nhiên do máy tiến — HIEN-CHUONG §4 cho phép tay không mặt; dựng có thể bắt đầu từ 2,0 s. Chai nền nhãn trơn, mờ, không chữ đọc được; rót–tràn liên tục, không nổ, không ly biến dạng; V3 neo cuối không người. Không dùng lượt 2."
+ },
+ "V06": {
+  "shot": "SHOT §1 hàng 17 · P06 S030–S032 · Người (lưng quay về máy, ngoài nét) bên cửa sổ cầm điện thoại sáng mờ · V3 neo cuối người ra khỏi khung, chỉ còn cửa sổ · V4 một người, nhỏ",
+  "luot1": {
+   "prompt": "Quiet apartment interior in soft, overcast late-afternoon light, locked-off camera. A tall window with sheer white curtains fills the right half of the frame; beyond the glass a city is only a soft blur. In the out-of-focus middle distance a single adult figure stands by the window, seen only from behind: back of the head, shoulders and dark sweater, small in the frame and never sharp. The figure holds a phone at chest height; its screen is a faint, featureless glow, not visible to the camera. After about four seconds, the figure, keeping their back to the camera the whole time, steps to the right and walks out of the frame. The final two seconds show only the empty window, the curtains moving very slightly, and no one in the room. Muted natural colors, shallow depth of field, realistic, cinematic. No face ever visible, no readable screen, no text, no logos.",
+   "negative": "face, facial features, profile view, turning around, looking at the camera, second person, crowd, readable phone screen, text, letters, logo, watermark, rain falling, person fading or dissolving, person reappearing"
+  },
+  "luot1_qc": "TRƯỢT: 0,3 s lộ mặt nghiêng được chiếu sáng (mũi, môi, mắt); 4,6–5,0 s quay nghiêng (YuNet 4 cờ); người to, nét (SHOT: ngoài nét); ra khung bên trái (lời: phải). V3 neo cuối đạt.",
+  "luot2": {
+   "doi_loi": "Khung cắt ngang vai — đầu không bao giờ vào khung (loại hẳn rủi ro mặt); ngược sáng trước cửa sổ; bước ngang sang phải, vẫn quay mặt về cửa sổ; thêm 'head, hair, profile' vào lời phủ định.",
+   "prompt": "Quiet apartment interior in soft, overcast daylight, locked-off camera at chest height. A tall, bright window with sheer white curtains fills the background; the city outside is only a pale blur. A single adult in a dark sweater stands in front of the window with their back to the camera, softly out of focus, framed so that the top edge of the frame cuts across their shoulders: their head is never inside the frame. Their hands hold a phone at chest height, facing the window; only a faint glow from the screen spills onto the sweater, the screen itself is never visible. After about four seconds the person, still facing the window, sidesteps to the right and leaves the frame. For the last two seconds only the empty window and the curtains remain, the curtains moving very slightly, and no one is in the room. Backlit, muted natural colors, shallow depth of field with focus on the window frame, realistic, cinematic. No head, no face, no readable screen, no text, no logos.",
+   "negative": "head, face, hair, facial features, profile view, turning around, looking at the camera, second person, crowd, readable phone screen, text, letters, logo, watermark, rain falling, person fading or dissolving, person reappearing"
+  }
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "tep": "reports/mr4/xem/tap01_giong_ghep.mp4",
+ "nghi_giua_doan_s": 1.5,
+ "tong_s": 807.2,
+ "do_sau": {
+  "I": "-14.22",
+  "TP": "-1.35",
+  "LRA": "4.00"
+ },
+ "doan": [
+  {
+   "doan": "P00",
+   "tep": "lab/mr4/tts/P00.mp3",
+   "bat_dau": 0.0,
+   "dai": 17.95
+  },
+  {
+   "doan": "P01",
+   "tep": "lab/mr4/tts/P01_l2.mp3",
+   "bat_dau": 19.45,
+   "dai": 51.33
+  },
+  {
+   "doan": "P02",
+   "tep": "lab/mr4/tts/P02.mp3",
+   "bat_dau": 72.28,
+   "dai": 18.36
+  },
+  {
+   "doan": "P03",
+   "tep": "lab/mr4/tts/P03.mp3",
+   "bat_dau": 92.14,
+   "dai": 32.52
+  },
+  {
+   "doan": "P04",
+   "tep": "lab/mr4/tts/P04.mp3",
+   "bat_dau": 126.16,
+   "dai": 37.49
+  },
+  {
+   "doan": "P05",
+   "tep": "lab/mr4/tts/P05.mp3",
+   "bat_dau": 165.15,
+   "dai": 38.77
+  },
+  {
+   "doan": "P06",
+   "tep": "lab/mr4/tts/P06.mp3",
+   "bat_dau": 205.41,
+   "dai": 24.84
+  },
+  {
+   "doan": "P07",
+   "tep": "lab/mr4/tts/P07.mp3",
+   "bat_dau": 231.76,
+   "dai": 39.39
+  },
+  {
+   "doan": "P08",
+   "tep": "lab/mr4/tts/P08.mp3",
+   "bat_dau": 272.65,
+   "dai": 45.09
+  },
+  {
+   "doan": "P09",
+   "tep": "lab/mr4/tts/P09.mp3",
+   "bat_dau": 319.24,
+   "dai": 31.79
+  },
+  {
+   "doan": "P10",
+   "tep": "lab/mr4/tts/P10.mp3",
+   "bat_dau": 352.53,
+   "dai": 25.89
+  },
+  {
+   "doan": "P11",
+   "tep": "lab/mr4/tts/P11.mp3",
+   "bat_dau": 379.92,
+   "dai": 40.12
+  },
+  {
+   "doan": "P12",
+   "tep": "lab/mr4/tts/P12.mp3",
+   "bat_dau": 421.54,
+   "dai": 25.89
+  },
+  {
+   "doan": "P13",
+   "tep": "lab/mr4/tts/P13.mp3",
+   "bat_dau": 448.93,
+   "dai": 14.52
+  },
+  {
+   "doan": "P14",
+   "tep": "lab/mr4/tts/P14.mp3",
+   "bat_dau": 464.95,
+   "dai": 17.79
+  },
+  {
+   "doan": "P15",
+   "tep": "lab/mr4/tts/P15.mp3",
+   "bat_dau": 484.24,
+   "dai": 44.67
+  },
+  {
+   "doan": "P16",
+   "tep": "lab/mr4/tts/P16.mp3",
+   "bat_dau": 530.41,
+   "dai": 40.36
+  },
+  {
+   "doan": "P17",
+   "tep": "lab/mr4/tts/P17.mp3",
+   "bat_dau": 572.27,
+   "dai": 26.75
+  },
+  {
+   "doan": "P18",
+   "tep": "lab/mr4/tts/P18.mp3",
+   "bat_dau": 600.52,
+   "dai": 40.52
+  },
+  {
+   "doan": "P19",
+   "tep": "lab/mr4/tts/P19.mp3",
+   "bat_dau": 642.53,
+   "dai": 28.45
+  },
+  {
+   "doan": "P20",
+   "tep": "lab/mr4/tts/P20.mp3",
+   "bat_dau": 672.48,
+   "dai": 19.96
+  },
+  {
+   "doan": "P21",
+   "tep": "lab/mr4/tts/P21.mp3",
+   "bat_dau": 693.94,
+   "dai": 112.59
+  }
+ ]
+}

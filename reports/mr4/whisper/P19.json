@@ -1,0 +1,435 @@
+{
+ "doan": "P19",
+ "tep": "lab/mr4/tts/P19.mp3",
+ "ref": "The S-E-C's civil case went on. In February twenty twenty-four, the court entered a final judgment against Horwitz based on his consent; he waived findings of fact and any right to appeal. That consent judgment permanently bars him from violating the antifraud provisions of the federal securities laws. The consent judgment also set disgorgement and interest of about seventy-four point two million dollars, deemed satisfied by the criminal restitution order.",
+ "text": "The SEC's civil case went on. In February 2024, the court entered a final judgment against Horowitz based on his consent. He waived findings of fact and any right to appeal. That consent judgment permanently bars him from violating the anti-fraud provisions of the federal securities laws. The consent judgment also set disgorgement and interest of about $74.2 million, deemed satisfied by the criminal restitution order.",
+ "words": [
+  {
+   "w": "The",
+   "s": 0.0,
+   "e": 0.24,
+   "p": 0.913
+  },
+  {
+   "w": "SEC's",
+   "s": 0.24,
+   "e": 1.0,
+   "p": 0.9
+  },
+  {
+   "w": "civil",
+   "s": 1.0,
+   "e": 1.2,
+   "p": 0.987
+  },
+  {
+   "w": "case",
+   "s": 1.2,
+   "e": 1.54,
+   "p": 0.999
+  },
+  {
+   "w": "went",
+   "s": 1.54,
+   "e": 1.76,
+   "p": 0.994
+  },
+  {
+   "w": "on.",
+   "s": 1.76,
+   "e": 2.2,
+   "p": 0.999
+  },
+  {
+   "w": "In",
+   "s": 2.8,
+   "e": 2.96,
+   "p": 0.903
+  },
+  {
+   "w": "February",
+   "s": 2.96,
+   "e": 3.42,
+   "p": 0.996
+  },
+  {
+   "w": "2024,",
+   "s": 3.42,
+   "e": 4.24,
+   "p": 0.743
+  },
+  {
+   "w": "the",
+   "s": 4.76,
+   "e": 4.98,
+   "p": 0.997
+  },
+  {
+   "w": "court",
+   "s": 4.98,
+   "e": 5.16,
+   "p": 0.69
+  },
+  {
+   "w": "entered",
+   "s": 5.16,
+   "e": 5.46,
+   "p": 0.999
+  },
+  {
+   "w": "a",
+   "s": 5.46,
+   "e": 5.64,
+   "p": 0.999
+  },
+  {
+   "w": "final",
+   "s": 5.64,
+   "e": 5.96,
+   "p": 0.998
+  },
+  {
+   "w": "judgment",
+   "s": 5.96,
+   "e": 6.34,
+   "p": 0.961
+  },
+  {
+   "w": "against",
+   "s": 6.34,
+   "e": 6.76,
+   "p": 0.999
+  },
+  {
+   "w": "Horowitz",
+   "s": 6.76,
+   "e": 7.08,
+   "p": 0.924
+  },
+  {
+   "w": "based",
+   "s": 7.08,
+   "e": 7.46,
+   "p": 0.958
+  },
+  {
+   "w": "on",
+   "s": 7.46,
+   "e": 7.68,
+   "p": 0.999
+  },
+  {
+   "w": "his",
+   "s": 7.68,
+   "e": 7.82,
+   "p": 1.0
+  },
+  {
+   "w": "consent.",
+   "s": 7.82,
+   "e": 8.26,
+   "p": 0.998
+  },
+  {
+   "w": "He",
+   "s": 8.98,
+   "e": 9.1,
+   "p": 0.998
+  },
+  {
+   "w": "waived",
+   "s": 9.1,
+   "e": 9.44,
+   "p": 0.968
+  },
+  {
+   "w": "findings",
+   "s": 9.44,
+   "e": 9.88,
+   "p": 0.99
+  },
+  {
+   "w": "of",
+   "s": 9.88,
+   "e": 10.1,
+   "p": 0.999
+  },
+  {
+   "w": "fact",
+   "s": 10.1,
+   "e": 10.44,
+   "p": 0.985
+  },
+  {
+   "w": "and",
+   "s": 10.44,
+   "e": 10.8,
+   "p": 0.936
+  },
+  {
+   "w": "any",
+   "s": 10.8,
+   "e": 11.12,
+   "p": 0.998
+  },
+  {
+   "w": "right",
+   "s": 11.12,
+   "e": 11.34,
+   "p": 0.999
+  },
+  {
+   "w": "to",
+   "s": 11.34,
+   "e": 11.56,
+   "p": 1.0
+  },
+  {
+   "w": "appeal.",
+   "s": 11.56,
+   "e": 11.94,
+   "p": 1.0
+  },
+  {
+   "w": "That",
+   "s": 12.62,
+   "e": 12.84,
+   "p": 0.998
+  },
+  {
+   "w": "consent",
+   "s": 12.84,
+   "e": 13.28,
+   "p": 0.992
+  },
+  {
+   "w": "judgment",
+   "s": 13.28,
+   "e": 13.7,
+   "p": 0.991
+  },
+  {
+   "w": "permanently",
+   "s": 13.7,
+   "e": 14.32,
+   "p": 0.998
+  },
+  {
+   "w": "bars",
+   "s": 14.32,
+   "e": 14.72,
+   "p": 0.995
+  },
+  {
+   "w": "him",
+   "s": 14.72,
+   "e": 14.92,
+   "p": 0.999
+  },
+  {
+   "w": "from",
+   "s": 14.92,
+   "e": 15.16,
+   "p": 0.999
+  },
+  {
+   "w": "violating",
+   "s": 15.16,
+   "e": 15.66,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 15.66,
+   "e": 15.96,
+   "p": 0.999
+  },
+  {
+   "w": "anti",
+   "s": 15.96,
+   "e": 16.28,
+   "p": 0.961
+  },
+  {
+   "w": "-fraud",
+   "s": 16.28,
+   "e": 16.52,
+   "p": 0.993
+  },
+  {
+   "w": "provisions",
+   "s": 16.52,
+   "e": 17.02,
+   "p": 0.999
+  },
+  {
+   "w": "of",
+   "s": 17.02,
+   "e": 17.26,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 17.26,
+   "e": 17.4,
+   "p": 0.997
+  },
+  {
+   "w": "federal",
+   "s": 17.4,
+   "e": 17.68,
+   "p": 0.887
+  },
+  {
+   "w": "securities",
+   "s": 17.68,
+   "e": 18.18,
+   "p": 0.997
+  },
+  {
+   "w": "laws.",
+   "s": 18.18,
+   "e": 18.64,
+   "p": 0.993
+  },
+  {
+   "w": "The",
+   "s": 19.26,
+   "e": 19.4,
+   "p": 0.999
+  },
+  {
+   "w": "consent",
+   "s": 19.4,
+   "e": 19.76,
+   "p": 0.994
+  },
+  {
+   "w": "judgment",
+   "s": 19.76,
+   "e": 20.14,
+   "p": 0.993
+  },
+  {
+   "w": "also",
+   "s": 20.14,
+   "e": 20.56,
+   "p": 0.999
+  },
+  {
+   "w": "set",
+   "s": 20.56,
+   "e": 20.86,
+   "p": 0.985
+  },
+  {
+   "w": "disgorgement",
+   "s": 20.86,
+   "e": 21.54,
+   "p": 0.962
+  },
+  {
+   "w": "and",
+   "s": 21.54,
+   "e": 21.8,
+   "p": 0.988
+  },
+  {
+   "w": "interest",
+   "s": 21.8,
+   "e": 22.3,
+   "p": 0.998
+  },
+  {
+   "w": "of",
+   "s": 22.3,
+   "e": 22.58,
+   "p": 0.996
+  },
+  {
+   "w": "about",
+   "s": 22.58,
+   "e": 22.86,
+   "p": 0.999
+  },
+  {
+   "w": "$74",
+   "s": 22.86,
+   "e": 23.52,
+   "p": 0.91
+  },
+  {
+   "w": ".2",
+   "s": 23.52,
+   "e": 24.18,
+   "p": 0.998
+  },
+  {
+   "w": "million,",
+   "s": 24.18,
+   "e": 24.7,
+   "p": 0.984
+  },
+  {
+   "w": "deemed",
+   "s": 25.46,
+   "e": 25.76,
+   "p": 0.997
+  },
+  {
+   "w": "satisfied",
+   "s": 25.76,
+   "e": 26.42,
+   "p": 0.994
+  },
+  {
+   "w": "by",
+   "s": 26.42,
+   "e": 26.72,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 26.72,
+   "e": 26.94,
+   "p": 0.999
+  },
+  {
+   "w": "criminal",
+   "s": 26.94,
+   "e": 27.16,
+   "p": 0.854
+  },
+  {
+   "w": "restitution",
+   "s": 27.16,
+   "e": 27.74,
+   "p": 0.997
+  },
+  {
+   "w": "order.",
+   "s": 27.74,
+   "e": 28.14,
+   "p": 0.999
+  }
+ ],
+ "dur": 28.4,
+ "lech": [
+  {
+   "op": "replace",
+   "ref": "horwitz",
+   "hyp": "horowitz",
+   "ngu_canh_ref": "final judgment against horwitz based on his",
+   "ngu_canh_hyp": "final judgment against horowitz based on his",
+   "quan_trong": true
+  },
+  {
+   "op": "replace",
+   "ref": "antifraud",
+   "hyp": "anti fraud",
+   "ngu_canh_ref": "him from violating antifraud provisions of federal",
+   "ngu_canh_hyp": "him from violating anti fraud provisions of federal",
+   "quan_trong": false
+  }
+ ]
+}

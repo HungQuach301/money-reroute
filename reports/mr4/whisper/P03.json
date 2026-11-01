@@ -1,0 +1,532 @@
+{
+ "doan": "P03",
+ "tep": "lab/mr4/tts/P03.mp3",
+ "ref": "The pitch went like this. Investors would put up the money, and one-in-M-M would use it to buy distribution rights to specific films. The company, he claimed, would then license those rights at a profit to online streaming platforms such as H-B-O and Netflix, for distribution outside the United States. Those profits were supposed to pay the investors back. The S-E-C alleged that the films were mostly from Latin America, and that the company claimed H-B-O, Netflix and other media corporations were its Strategic Partners.",
+ "text": "The pitch went like this. Investors would put up the money, and one in MM would use it to buy distribution rights to specific films. The company, he claimed, would then license those rights at a profit to online streaming platforms, such as HBO and Netflix, for distribution outside the United States. Those profits were supposed to pay the investors back. The SEC alleged that the films were mostly from Latin America, and that the company claimed HBO, Netflix, and other media corporations were its strategic partners.",
+ "words": [
+  {
+   "w": "The",
+   "s": 0.0,
+   "e": 0.18,
+   "p": 0.726
+  },
+  {
+   "w": "pitch",
+   "s": 0.18,
+   "e": 0.4,
+   "p": 0.981
+  },
+  {
+   "w": "went",
+   "s": 0.4,
+   "e": 0.62,
+   "p": 0.996
+  },
+  {
+   "w": "like",
+   "s": 0.62,
+   "e": 0.82,
+   "p": 0.998
+  },
+  {
+   "w": "this.",
+   "s": 0.82,
+   "e": 1.34,
+   "p": 0.995
+  },
+  {
+   "w": "Investors",
+   "s": 1.94,
+   "e": 2.24,
+   "p": 0.866
+  },
+  {
+   "w": "would",
+   "s": 2.24,
+   "e": 2.52,
+   "p": 0.996
+  },
+  {
+   "w": "put",
+   "s": 2.52,
+   "e": 2.68,
+   "p": 0.998
+  },
+  {
+   "w": "up",
+   "s": 2.68,
+   "e": 2.82,
+   "p": 0.997
+  },
+  {
+   "w": "the",
+   "s": 2.82,
+   "e": 2.98,
+   "p": 0.998
+  },
+  {
+   "w": "money,",
+   "s": 2.98,
+   "e": 3.24,
+   "p": 0.999
+  },
+  {
+   "w": "and",
+   "s": 3.66,
+   "e": 3.72,
+   "p": 0.992
+  },
+  {
+   "w": "one",
+   "s": 3.72,
+   "e": 3.98,
+   "p": 0.913
+  },
+  {
+   "w": "in",
+   "s": 3.98,
+   "e": 4.14,
+   "p": 0.923
+  },
+  {
+   "w": "MM",
+   "s": 4.14,
+   "e": 4.44,
+   "p": 0.634
+  },
+  {
+   "w": "would",
+   "s": 4.44,
+   "e": 4.74,
+   "p": 0.992
+  },
+  {
+   "w": "use",
+   "s": 4.74,
+   "e": 4.96,
+   "p": 0.997
+  },
+  {
+   "w": "it",
+   "s": 4.96,
+   "e": 5.1,
+   "p": 0.998
+  },
+  {
+   "w": "to",
+   "s": 5.1,
+   "e": 5.26,
+   "p": 0.996
+  },
+  {
+   "w": "buy",
+   "s": 5.26,
+   "e": 5.4,
+   "p": 0.995
+  },
+  {
+   "w": "distribution",
+   "s": 5.4,
+   "e": 6.04,
+   "p": 0.994
+  },
+  {
+   "w": "rights",
+   "s": 6.04,
+   "e": 6.36,
+   "p": 0.995
+  },
+  {
+   "w": "to",
+   "s": 6.36,
+   "e": 6.62,
+   "p": 0.997
+  },
+  {
+   "w": "specific",
+   "s": 6.62,
+   "e": 7.04,
+   "p": 0.998
+  },
+  {
+   "w": "films.",
+   "s": 7.04,
+   "e": 7.52,
+   "p": 0.998
+  },
+  {
+   "w": "The",
+   "s": 8.28,
+   "e": 8.36,
+   "p": 0.976
+  },
+  {
+   "w": "company,",
+   "s": 8.36,
+   "e": 8.72,
+   "p": 0.993
+  },
+  {
+   "w": "he",
+   "s": 8.96,
+   "e": 9.06,
+   "p": 0.998
+  },
+  {
+   "w": "claimed,",
+   "s": 9.06,
+   "e": 9.46,
+   "p": 0.999
+  },
+  {
+   "w": "would",
+   "s": 9.94,
+   "e": 10.04,
+   "p": 0.993
+  },
+  {
+   "w": "then",
+   "s": 10.04,
+   "e": 10.22,
+   "p": 0.997
+  },
+  {
+   "w": "license",
+   "s": 10.22,
+   "e": 10.64,
+   "p": 0.975
+  },
+  {
+   "w": "those",
+   "s": 10.64,
+   "e": 10.96,
+   "p": 0.995
+  },
+  {
+   "w": "rights",
+   "s": 10.96,
+   "e": 11.28,
+   "p": 0.998
+  },
+  {
+   "w": "at",
+   "s": 11.28,
+   "e": 11.42,
+   "p": 0.982
+  },
+  {
+   "w": "a",
+   "s": 11.42,
+   "e": 11.64,
+   "p": 0.998
+  },
+  {
+   "w": "profit",
+   "s": 11.64,
+   "e": 11.92,
+   "p": 0.997
+  },
+  {
+   "w": "to",
+   "s": 11.92,
+   "e": 12.2,
+   "p": 0.991
+  },
+  {
+   "w": "online",
+   "s": 12.2,
+   "e": 12.58,
+   "p": 0.988
+  },
+  {
+   "w": "streaming",
+   "s": 12.58,
+   "e": 13.0,
+   "p": 0.991
+  },
+  {
+   "w": "platforms,",
+   "s": 13.0,
+   "e": 13.66,
+   "p": 0.998
+  },
+  {
+   "w": "such",
+   "s": 13.78,
+   "e": 14.0,
+   "p": 0.997
+  },
+  {
+   "w": "as",
+   "s": 14.0,
+   "e": 14.18,
+   "p": 0.997
+  },
+  {
+   "w": "HBO",
+   "s": 14.18,
+   "e": 14.76,
+   "p": 0.993
+  },
+  {
+   "w": "and",
+   "s": 14.76,
+   "e": 15.06,
+   "p": 0.98
+  },
+  {
+   "w": "Netflix,",
+   "s": 15.06,
+   "e": 15.54,
+   "p": 0.997
+  },
+  {
+   "w": "for",
+   "s": 15.88,
+   "e": 16.12,
+   "p": 0.998
+  },
+  {
+   "w": "distribution",
+   "s": 16.12,
+   "e": 16.68,
+   "p": 0.999
+  },
+  {
+   "w": "outside",
+   "s": 16.68,
+   "e": 17.18,
+   "p": 0.997
+  },
+  {
+   "w": "the",
+   "s": 17.18,
+   "e": 17.46,
+   "p": 0.987
+  },
+  {
+   "w": "United",
+   "s": 17.46,
+   "e": 17.7,
+   "p": 0.991
+  },
+  {
+   "w": "States.",
+   "s": 17.7,
+   "e": 18.2,
+   "p": 0.998
+  },
+  {
+   "w": "Those",
+   "s": 18.88,
+   "e": 19.08,
+   "p": 0.989
+  },
+  {
+   "w": "profits",
+   "s": 19.08,
+   "e": 19.5,
+   "p": 0.999
+  },
+  {
+   "w": "were",
+   "s": 19.5,
+   "e": 19.74,
+   "p": 0.998
+  },
+  {
+   "w": "supposed",
+   "s": 19.74,
+   "e": 20.02,
+   "p": 0.998
+  },
+  {
+   "w": "to",
+   "s": 20.02,
+   "e": 20.26,
+   "p": 1.0
+  },
+  {
+   "w": "pay",
+   "s": 20.26,
+   "e": 20.4,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 20.4,
+   "e": 20.6,
+   "p": 0.998
+  },
+  {
+   "w": "investors",
+   "s": 20.6,
+   "e": 20.92,
+   "p": 0.998
+  },
+  {
+   "w": "back.",
+   "s": 20.92,
+   "e": 21.4,
+   "p": 0.996
+  },
+  {
+   "w": "The",
+   "s": 22.18,
+   "e": 22.34,
+   "p": 0.994
+  },
+  {
+   "w": "SEC",
+   "s": 22.34,
+   "e": 22.78,
+   "p": 0.981
+  },
+  {
+   "w": "alleged",
+   "s": 22.78,
+   "e": 23.26,
+   "p": 0.993
+  },
+  {
+   "w": "that",
+   "s": 23.26,
+   "e": 23.56,
+   "p": 0.995
+  },
+  {
+   "w": "the",
+   "s": 23.56,
+   "e": 23.7,
+   "p": 0.997
+  },
+  {
+   "w": "films",
+   "s": 23.7,
+   "e": 24.0,
+   "p": 0.998
+  },
+  {
+   "w": "were",
+   "s": 24.0,
+   "e": 24.2,
+   "p": 0.998
+  },
+  {
+   "w": "mostly",
+   "s": 24.2,
+   "e": 24.58,
+   "p": 0.995
+  },
+  {
+   "w": "from",
+   "s": 24.58,
+   "e": 24.84,
+   "p": 0.999
+  },
+  {
+   "w": "Latin",
+   "s": 24.84,
+   "e": 25.12,
+   "p": 0.999
+  },
+  {
+   "w": "America,",
+   "s": 25.12,
+   "e": 25.6,
+   "p": 0.995
+  },
+  {
+   "w": "and",
+   "s": 25.6,
+   "e": 26.26,
+   "p": 0.998
+  },
+  {
+   "w": "that",
+   "s": 26.26,
+   "e": 26.4,
+   "p": 0.996
+  },
+  {
+   "w": "the",
+   "s": 26.4,
+   "e": 26.56,
+   "p": 0.996
+  },
+  {
+   "w": "company",
+   "s": 26.56,
+   "e": 26.82,
+   "p": 0.999
+  },
+  {
+   "w": "claimed",
+   "s": 26.82,
+   "e": 27.26,
+   "p": 0.998
+  },
+  {
+   "w": "HBO,",
+   "s": 27.26,
+   "e": 27.92,
+   "p": 0.42
+  },
+  {
+   "w": "Netflix,",
+   "s": 28.4,
+   "e": 28.72,
+   "p": 0.993
+  },
+  {
+   "w": "and",
+   "s": 29.24,
+   "e": 29.34,
+   "p": 0.994
+  },
+  {
+   "w": "other",
+   "s": 29.34,
+   "e": 29.56,
+   "p": 0.997
+  },
+  {
+   "w": "media",
+   "s": 29.56,
+   "e": 29.9,
+   "p": 0.992
+  },
+  {
+   "w": "corporations",
+   "s": 29.9,
+   "e": 30.6,
+   "p": 0.995
+  },
+  {
+   "w": "were",
+   "s": 30.6,
+   "e": 30.98,
+   "p": 0.969
+  },
+  {
+   "w": "its",
+   "s": 30.98,
+   "e": 31.14,
+   "p": 0.975
+  },
+  {
+   "w": "strategic",
+   "s": 31.14,
+   "e": 31.66,
+   "p": 0.981
+  },
+  {
+   "w": "partners.",
+   "s": 31.66,
+   "e": 32.08,
+   "p": 0.998
+  }
+ ],
+ "dur": 32.48,
+ "lech": []
+}

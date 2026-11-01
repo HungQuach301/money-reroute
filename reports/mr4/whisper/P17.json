@@ -1,0 +1,397 @@
+{
+ "doan": "P17",
+ "tep": "lab/mr4/tts/P17.mp3",
+ "ref": "On April fifth, twenty twenty-one, the S-E-C filed an emergency case against Horwitz and one-in-M-M. The next day, the S-E-C announced that the court had granted an emergency asset freeze. That same day, April sixth, F-B-I agents arrested Horwitz. He was first charged with wire fraud. A grand jury then indicted him on securities fraud, wire fraud and aggravated identity theft charges.",
+ "text": "On April 5th, 2021, the SEC filed an emergency case against Horwitz and won an MM. The next day, the SEC announced that the court had granted an emergency asset freeze. That same day, April 6th, FBI agents arrested Horwitz. He was first charged with wire fraud. A grand jury then indicted him on securities fraud, wire fraud, and aggravated identity theft charges.",
+ "words": [
+  {
+   "w": "On",
+   "s": 0.0,
+   "e": 0.24,
+   "p": 0.917
+  },
+  {
+   "w": "April",
+   "s": 0.24,
+   "e": 0.5,
+   "p": 0.994
+  },
+  {
+   "w": "5th,",
+   "s": 0.5,
+   "e": 1.22,
+   "p": 0.777
+  },
+  {
+   "w": "2021,",
+   "s": 1.22,
+   "e": 1.86,
+   "p": 0.984
+  },
+  {
+   "w": "the",
+   "s": 2.66,
+   "e": 2.72,
+   "p": 0.988
+  },
+  {
+   "w": "SEC",
+   "s": 2.72,
+   "e": 3.16,
+   "p": 0.965
+  },
+  {
+   "w": "filed",
+   "s": 3.16,
+   "e": 3.64,
+   "p": 0.998
+  },
+  {
+   "w": "an",
+   "s": 3.64,
+   "e": 3.8,
+   "p": 0.998
+  },
+  {
+   "w": "emergency",
+   "s": 3.8,
+   "e": 4.3,
+   "p": 0.997
+  },
+  {
+   "w": "case",
+   "s": 4.3,
+   "e": 4.66,
+   "p": 0.999
+  },
+  {
+   "w": "against",
+   "s": 4.66,
+   "e": 5.04,
+   "p": 0.998
+  },
+  {
+   "w": "Horwitz",
+   "s": 5.04,
+   "e": 5.44,
+   "p": 0.73
+  },
+  {
+   "w": "and",
+   "s": 5.44,
+   "e": 5.82,
+   "p": 0.954
+  },
+  {
+   "w": "won",
+   "s": 5.82,
+   "e": 6.04,
+   "p": 0.587
+  },
+  {
+   "w": "an",
+   "s": 6.04,
+   "e": 6.24,
+   "p": 0.882
+  },
+  {
+   "w": "MM.",
+   "s": 6.24,
+   "e": 6.44,
+   "p": 0.644
+  },
+  {
+   "w": "The",
+   "s": 7.12,
+   "e": 7.46,
+   "p": 0.993
+  },
+  {
+   "w": "next",
+   "s": 7.46,
+   "e": 7.66,
+   "p": 0.999
+  },
+  {
+   "w": "day,",
+   "s": 7.66,
+   "e": 8.0,
+   "p": 1.0
+  },
+  {
+   "w": "the",
+   "s": 8.3,
+   "e": 8.42,
+   "p": 0.995
+  },
+  {
+   "w": "SEC",
+   "s": 8.42,
+   "e": 8.86,
+   "p": 0.994
+  },
+  {
+   "w": "announced",
+   "s": 8.86,
+   "e": 9.28,
+   "p": 0.999
+  },
+  {
+   "w": "that",
+   "s": 9.28,
+   "e": 9.52,
+   "p": 0.996
+  },
+  {
+   "w": "the",
+   "s": 9.52,
+   "e": 9.7,
+   "p": 0.999
+  },
+  {
+   "w": "court",
+   "s": 9.7,
+   "e": 9.88,
+   "p": 0.902
+  },
+  {
+   "w": "had",
+   "s": 9.88,
+   "e": 10.06,
+   "p": 0.996
+  },
+  {
+   "w": "granted",
+   "s": 10.06,
+   "e": 10.4,
+   "p": 0.999
+  },
+  {
+   "w": "an",
+   "s": 10.4,
+   "e": 10.64,
+   "p": 0.996
+  },
+  {
+   "w": "emergency",
+   "s": 10.64,
+   "e": 11.16,
+   "p": 0.993
+  },
+  {
+   "w": "asset",
+   "s": 11.16,
+   "e": 11.66,
+   "p": 0.995
+  },
+  {
+   "w": "freeze.",
+   "s": 11.66,
+   "e": 12.06,
+   "p": 0.992
+  },
+  {
+   "w": "That",
+   "s": 12.94,
+   "e": 13.12,
+   "p": 0.997
+  },
+  {
+   "w": "same",
+   "s": 13.12,
+   "e": 13.38,
+   "p": 1.0
+  },
+  {
+   "w": "day,",
+   "s": 13.38,
+   "e": 13.76,
+   "p": 0.999
+  },
+  {
+   "w": "April",
+   "s": 14.14,
+   "e": 14.24,
+   "p": 0.998
+  },
+  {
+   "w": "6th,",
+   "s": 14.24,
+   "e": 15.14,
+   "p": 0.985
+  },
+  {
+   "w": "FBI",
+   "s": 15.22,
+   "e": 15.62,
+   "p": 0.998
+  },
+  {
+   "w": "agents",
+   "s": 15.62,
+   "e": 16.08,
+   "p": 0.993
+  },
+  {
+   "w": "arrested",
+   "s": 16.08,
+   "e": 16.62,
+   "p": 0.999
+  },
+  {
+   "w": "Horwitz.",
+   "s": 16.62,
+   "e": 17.08,
+   "p": 0.994
+  },
+  {
+   "w": "He",
+   "s": 17.66,
+   "e": 17.84,
+   "p": 0.999
+  },
+  {
+   "w": "was",
+   "s": 17.84,
+   "e": 18.0,
+   "p": 1.0
+  },
+  {
+   "w": "first",
+   "s": 18.0,
+   "e": 18.28,
+   "p": 0.999
+  },
+  {
+   "w": "charged",
+   "s": 18.28,
+   "e": 18.66,
+   "p": 0.999
+  },
+  {
+   "w": "with",
+   "s": 18.66,
+   "e": 18.9,
+   "p": 1.0
+  },
+  {
+   "w": "wire",
+   "s": 18.9,
+   "e": 19.2,
+   "p": 0.995
+  },
+  {
+   "w": "fraud.",
+   "s": 19.2,
+   "e": 19.62,
+   "p": 0.998
+  },
+  {
+   "w": "A",
+   "s": 20.28,
+   "e": 20.44,
+   "p": 0.998
+  },
+  {
+   "w": "grand",
+   "s": 20.44,
+   "e": 20.68,
+   "p": 0.979
+  },
+  {
+   "w": "jury",
+   "s": 20.68,
+   "e": 20.98,
+   "p": 0.998
+  },
+  {
+   "w": "then",
+   "s": 20.98,
+   "e": 21.22,
+   "p": 0.992
+  },
+  {
+   "w": "indicted",
+   "s": 21.22,
+   "e": 21.64,
+   "p": 0.996
+  },
+  {
+   "w": "him",
+   "s": 21.64,
+   "e": 21.84,
+   "p": 0.999
+  },
+  {
+   "w": "on",
+   "s": 21.84,
+   "e": 22.06,
+   "p": 0.999
+  },
+  {
+   "w": "securities",
+   "s": 22.06,
+   "e": 22.54,
+   "p": 0.996
+  },
+  {
+   "w": "fraud,",
+   "s": 22.54,
+   "e": 22.96,
+   "p": 0.995
+  },
+  {
+   "w": "wire",
+   "s": 23.38,
+   "e": 23.58,
+   "p": 1.0
+  },
+  {
+   "w": "fraud,",
+   "s": 23.58,
+   "e": 24.0,
+   "p": 0.999
+  },
+  {
+   "w": "and",
+   "s": 24.3,
+   "e": 24.42,
+   "p": 1.0
+  },
+  {
+   "w": "aggravated",
+   "s": 24.42,
+   "e": 25.0,
+   "p": 0.997
+  },
+  {
+   "w": "identity",
+   "s": 25.0,
+   "e": 25.64,
+   "p": 0.995
+  },
+  {
+   "w": "theft",
+   "s": 25.64,
+   "e": 25.88,
+   "p": 0.998
+  },
+  {
+   "w": "charges.",
+   "s": 25.88,
+   "e": 26.42,
+   "p": 0.999
+  }
+ ],
+ "dur": 26.72,
+ "lech": [
+  {
+   "op": "replace",
+   "ref": "one in m m",
+   "hyp": "won mm",
+   "ngu_canh_ref": "case against horwitz one in m m next day sec",
+   "ngu_canh_hyp": "case against horwitz won mm next day sec",
+   "quan_trong": true
+  }
+ ]
+}

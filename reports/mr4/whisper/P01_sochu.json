@@ -1,0 +1,889 @@
+{
+ "doan": "P01",
+ "tep": "lab/mr4/tts/P01.mp3",
+ "ref": "The man at the center of it was Zachary Horwitz, an actor in Los Angeles who used the screen name Zach Avery. His company issued promissory notes that typically came due in six or twelve months, with a promised return of twenty-five to forty-five percent. The money, he told investors, would buy film rights to be licensed to streaming platforms such as H-B-O and Netflix. In his plea agreement, he admitted the distribution deals were fake. H-B-O and Netflix were not accused of wrongdoing in these cases; according to the S-E-C, neither company ever did business with one-in-M-M. At least six hundred fifty million dollars came in. In twenty twenty-two, a federal judge sentenced him to twenty years in prison. This is the story of how that money was rerouted, and the red flags you can spot next time.",
+ "text": "The man at the center of it was Zachary Horowitz, an actor in Los Angeles who used the screen name Zach Avery. His company issued promissory notes that typically came due in six or twelve months with a promised return of twenty-five to forty-five percent. The money, he told investors, would buy film rights to be licensed to streaming platforms such as HBO and Netflix. In his plea agreement, he admitted the distribution deals were fake. HBO and Netflix were not accused of wrongdoing in these cases. According to the SEC, neither company ever did business with one in M.M. At least six hundred fifty million dollars came in. In twenty-twenty-two, a federal judge sentenced him to twenty years in prison. This is the story of how that money was rerouted and the red flags you can spot next time.",
+ "words": [
+  {
+   "w": "The",
+   "s": 0.0,
+   "e": 0.18,
+   "p": 0.651
+  },
+  {
+   "w": "man",
+   "s": 0.18,
+   "e": 0.38,
+   "p": 0.935
+  },
+  {
+   "w": "at",
+   "s": 0.38,
+   "e": 0.52,
+   "p": 0.989
+  },
+  {
+   "w": "the",
+   "s": 0.52,
+   "e": 0.68,
+   "p": 0.998
+  },
+  {
+   "w": "center",
+   "s": 0.68,
+   "e": 0.88,
+   "p": 0.921
+  },
+  {
+   "w": "of",
+   "s": 0.88,
+   "e": 1.08,
+   "p": 0.993
+  },
+  {
+   "w": "it",
+   "s": 1.08,
+   "e": 1.26,
+   "p": 0.995
+  },
+  {
+   "w": "was",
+   "s": 1.26,
+   "e": 1.42,
+   "p": 0.981
+  },
+  {
+   "w": "Zachary",
+   "s": 1.42,
+   "e": 1.94,
+   "p": 0.974
+  },
+  {
+   "w": "Horowitz,",
+   "s": 1.94,
+   "e": 2.4,
+   "p": 0.486
+  },
+  {
+   "w": "an",
+   "s": 2.96,
+   "e": 3.12,
+   "p": 0.991
+  },
+  {
+   "w": "actor",
+   "s": 3.12,
+   "e": 3.38,
+   "p": 0.998
+  },
+  {
+   "w": "in",
+   "s": 3.38,
+   "e": 3.56,
+   "p": 0.995
+  },
+  {
+   "w": "Los",
+   "s": 3.56,
+   "e": 3.76,
+   "p": 0.996
+  },
+  {
+   "w": "Angeles",
+   "s": 3.76,
+   "e": 4.26,
+   "p": 0.997
+  },
+  {
+   "w": "who",
+   "s": 4.26,
+   "e": 4.46,
+   "p": 0.905
+  },
+  {
+   "w": "used",
+   "s": 4.46,
+   "e": 4.74,
+   "p": 0.991
+  },
+  {
+   "w": "the",
+   "s": 4.74,
+   "e": 4.92,
+   "p": 0.998
+  },
+  {
+   "w": "screen",
+   "s": 4.92,
+   "e": 5.18,
+   "p": 0.986
+  },
+  {
+   "w": "name",
+   "s": 5.18,
+   "e": 5.46,
+   "p": 0.949
+  },
+  {
+   "w": "Zach",
+   "s": 5.46,
+   "e": 5.96,
+   "p": 0.551
+  },
+  {
+   "w": "Avery.",
+   "s": 5.96,
+   "e": 6.4,
+   "p": 0.99
+  },
+  {
+   "w": "His",
+   "s": 6.9,
+   "e": 7.32,
+   "p": 0.994
+  },
+  {
+   "w": "company",
+   "s": 7.32,
+   "e": 7.68,
+   "p": 0.999
+  },
+  {
+   "w": "issued",
+   "s": 7.68,
+   "e": 8.06,
+   "p": 0.996
+  },
+  {
+   "w": "promissory",
+   "s": 8.06,
+   "e": 8.68,
+   "p": 0.998
+  },
+  {
+   "w": "notes",
+   "s": 8.68,
+   "e": 9.0,
+   "p": 0.994
+  },
+  {
+   "w": "that",
+   "s": 9.0,
+   "e": 9.18,
+   "p": 0.99
+  },
+  {
+   "w": "typically",
+   "s": 9.18,
+   "e": 9.58,
+   "p": 0.998
+  },
+  {
+   "w": "came",
+   "s": 9.58,
+   "e": 9.88,
+   "p": 0.998
+  },
+  {
+   "w": "due",
+   "s": 9.88,
+   "e": 10.14,
+   "p": 0.976
+  },
+  {
+   "w": "in",
+   "s": 10.14,
+   "e": 10.34,
+   "p": 0.996
+  },
+  {
+   "w": "six",
+   "s": 10.34,
+   "e": 10.64,
+   "p": 0.888
+  },
+  {
+   "w": "or",
+   "s": 10.64,
+   "e": 10.82,
+   "p": 0.997
+  },
+  {
+   "w": "twelve",
+   "s": 10.82,
+   "e": 11.06,
+   "p": 0.363
+  },
+  {
+   "w": "months",
+   "s": 11.06,
+   "e": 11.46,
+   "p": 0.999
+  },
+  {
+   "w": "with",
+   "s": 11.46,
+   "e": 12.0,
+   "p": 0.719
+  },
+  {
+   "w": "a",
+   "s": 12.0,
+   "e": 12.18,
+   "p": 0.997
+  },
+  {
+   "w": "promised",
+   "s": 12.18,
+   "e": 12.44,
+   "p": 0.987
+  },
+  {
+   "w": "return",
+   "s": 12.44,
+   "e": 12.86,
+   "p": 0.998
+  },
+  {
+   "w": "of",
+   "s": 12.86,
+   "e": 13.04,
+   "p": 0.998
+  },
+  {
+   "w": "twenty",
+   "s": 13.04,
+   "e": 13.3,
+   "p": 0.592
+  },
+  {
+   "w": "-five",
+   "s": 13.3,
+   "e": 13.68,
+   "p": 0.529
+  },
+  {
+   "w": "to",
+   "s": 13.68,
+   "e": 13.88,
+   "p": 0.996
+  },
+  {
+   "w": "forty",
+   "s": 13.88,
+   "e": 14.18,
+   "p": 0.979
+  },
+  {
+   "w": "-five",
+   "s": 14.18,
+   "e": 14.38,
+   "p": 0.943
+  },
+  {
+   "w": "percent.",
+   "s": 14.38,
+   "e": 14.86,
+   "p": 0.968
+  },
+  {
+   "w": "The",
+   "s": 15.6,
+   "e": 15.7,
+   "p": 0.862
+  },
+  {
+   "w": "money,",
+   "s": 15.7,
+   "e": 16.02,
+   "p": 0.996
+  },
+  {
+   "w": "he",
+   "s": 16.1,
+   "e": 16.38,
+   "p": 0.998
+  },
+  {
+   "w": "told",
+   "s": 16.38,
+   "e": 16.6,
+   "p": 0.999
+  },
+  {
+   "w": "investors,",
+   "s": 16.6,
+   "e": 17.16,
+   "p": 0.978
+  },
+  {
+   "w": "would",
+   "s": 17.58,
+   "e": 17.7,
+   "p": 0.995
+  },
+  {
+   "w": "buy",
+   "s": 17.7,
+   "e": 17.9,
+   "p": 0.985
+  },
+  {
+   "w": "film",
+   "s": 17.9,
+   "e": 18.28,
+   "p": 0.991
+  },
+  {
+   "w": "rights",
+   "s": 18.28,
+   "e": 18.54,
+   "p": 0.995
+  },
+  {
+   "w": "to",
+   "s": 18.54,
+   "e": 18.7,
+   "p": 0.997
+  },
+  {
+   "w": "be",
+   "s": 18.7,
+   "e": 18.88,
+   "p": 0.999
+  },
+  {
+   "w": "licensed",
+   "s": 18.88,
+   "e": 19.2,
+   "p": 0.916
+  },
+  {
+   "w": "to",
+   "s": 19.2,
+   "e": 19.48,
+   "p": 0.991
+  },
+  {
+   "w": "streaming",
+   "s": 19.48,
+   "e": 19.78,
+   "p": 0.998
+  },
+  {
+   "w": "platforms",
+   "s": 19.78,
+   "e": 20.44,
+   "p": 0.993
+  },
+  {
+   "w": "such",
+   "s": 20.44,
+   "e": 20.68,
+   "p": 0.974
+  },
+  {
+   "w": "as",
+   "s": 20.68,
+   "e": 20.92,
+   "p": 0.999
+  },
+  {
+   "w": "HBO",
+   "s": 20.92,
+   "e": 21.42,
+   "p": 0.986
+  },
+  {
+   "w": "and",
+   "s": 21.42,
+   "e": 21.8,
+   "p": 0.994
+  },
+  {
+   "w": "Netflix.",
+   "s": 21.8,
+   "e": 22.28,
+   "p": 0.995
+  },
+  {
+   "w": "In",
+   "s": 23.04,
+   "e": 23.2,
+   "p": 0.996
+  },
+  {
+   "w": "his",
+   "s": 23.2,
+   "e": 23.38,
+   "p": 0.999
+  },
+  {
+   "w": "plea",
+   "s": 23.38,
+   "e": 23.62,
+   "p": 0.999
+  },
+  {
+   "w": "agreement,",
+   "s": 23.62,
+   "e": 24.02,
+   "p": 0.999
+  },
+  {
+   "w": "he",
+   "s": 24.38,
+   "e": 24.52,
+   "p": 0.998
+  },
+  {
+   "w": "admitted",
+   "s": 24.52,
+   "e": 24.84,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 24.84,
+   "e": 25.08,
+   "p": 0.988
+  },
+  {
+   "w": "distribution",
+   "s": 25.08,
+   "e": 25.58,
+   "p": 0.998
+  },
+  {
+   "w": "deals",
+   "s": 25.58,
+   "e": 25.96,
+   "p": 0.998
+  },
+  {
+   "w": "were",
+   "s": 25.96,
+   "e": 26.2,
+   "p": 0.999
+  },
+  {
+   "w": "fake.",
+   "s": 26.2,
+   "e": 26.54,
+   "p": 0.992
+  },
+  {
+   "w": "HBO",
+   "s": 27.12,
+   "e": 27.66,
+   "p": 0.688
+  },
+  {
+   "w": "and",
+   "s": 27.66,
+   "e": 27.94,
+   "p": 0.981
+  },
+  {
+   "w": "Netflix",
+   "s": 27.94,
+   "e": 28.32,
+   "p": 0.994
+  },
+  {
+   "w": "were",
+   "s": 28.32,
+   "e": 28.58,
+   "p": 0.992
+  },
+  {
+   "w": "not",
+   "s": 28.58,
+   "e": 28.82,
+   "p": 0.999
+  },
+  {
+   "w": "accused",
+   "s": 28.82,
+   "e": 29.16,
+   "p": 0.999
+  },
+  {
+   "w": "of",
+   "s": 29.16,
+   "e": 29.42,
+   "p": 0.998
+  },
+  {
+   "w": "wrongdoing",
+   "s": 29.42,
+   "e": 29.78,
+   "p": 0.987
+  },
+  {
+   "w": "in",
+   "s": 29.78,
+   "e": 30.0,
+   "p": 0.991
+  },
+  {
+   "w": "these",
+   "s": 30.0,
+   "e": 30.18,
+   "p": 0.996
+  },
+  {
+   "w": "cases.",
+   "s": 30.18,
+   "e": 30.62,
+   "p": 0.999
+  },
+  {
+   "w": "According",
+   "s": 31.28,
+   "e": 31.44,
+   "p": 0.996
+  },
+  {
+   "w": "to",
+   "s": 31.44,
+   "e": 31.66,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 31.66,
+   "e": 31.82,
+   "p": 0.991
+  },
+  {
+   "w": "SEC,",
+   "s": 31.82,
+   "e": 32.26,
+   "p": 0.916
+  },
+  {
+   "w": "neither",
+   "s": 32.9,
+   "e": 33.12,
+   "p": 0.986
+  },
+  {
+   "w": "company",
+   "s": 33.12,
+   "e": 33.56,
+   "p": 0.999
+  },
+  {
+   "w": "ever",
+   "s": 33.56,
+   "e": 33.92,
+   "p": 0.995
+  },
+  {
+   "w": "did",
+   "s": 33.92,
+   "e": 34.12,
+   "p": 0.997
+  },
+  {
+   "w": "business",
+   "s": 34.12,
+   "e": 34.54,
+   "p": 0.999
+  },
+  {
+   "w": "with",
+   "s": 34.54,
+   "e": 34.78,
+   "p": 0.998
+  },
+  {
+   "w": "one",
+   "s": 34.78,
+   "e": 35.0,
+   "p": 0.922
+  },
+  {
+   "w": "in",
+   "s": 35.0,
+   "e": 35.16,
+   "p": 0.825
+  },
+  {
+   "w": "M",
+   "s": 35.16,
+   "e": 35.32,
+   "p": 0.293
+  },
+  {
+   "w": ".M.",
+   "s": 35.32,
+   "e": 35.58,
+   "p": 0.827
+  },
+  {
+   "w": "At",
+   "s": 36.18,
+   "e": 36.32,
+   "p": 0.923
+  },
+  {
+   "w": "least",
+   "s": 36.32,
+   "e": 36.54,
+   "p": 0.999
+  },
+  {
+   "w": "six",
+   "s": 36.54,
+   "e": 36.84,
+   "p": 0.059
+  },
+  {
+   "w": "hundred",
+   "s": 36.84,
+   "e": 37.14,
+   "p": 0.951
+  },
+  {
+   "w": "fifty",
+   "s": 37.14,
+   "e": 37.6,
+   "p": 0.963
+  },
+  {
+   "w": "million",
+   "s": 37.6,
+   "e": 38.06,
+   "p": 0.992
+  },
+  {
+   "w": "dollars",
+   "s": 38.06,
+   "e": 38.48,
+   "p": 0.986
+  },
+  {
+   "w": "came",
+   "s": 38.48,
+   "e": 38.74,
+   "p": 0.997
+  },
+  {
+   "w": "in.",
+   "s": 38.74,
+   "e": 39.28,
+   "p": 0.998
+  },
+  {
+   "w": "In",
+   "s": 39.72,
+   "e": 39.92,
+   "p": 0.993
+  },
+  {
+   "w": "twenty",
+   "s": 39.92,
+   "e": 40.18,
+   "p": 0.797
+  },
+  {
+   "w": "-twenty",
+   "s": 40.18,
+   "e": 40.48,
+   "p": 0.662
+  },
+  {
+   "w": "-two,",
+   "s": 40.48,
+   "e": 40.84,
+   "p": 0.9
+  },
+  {
+   "w": "a",
+   "s": 41.18,
+   "e": 41.32,
+   "p": 0.995
+  },
+  {
+   "w": "federal",
+   "s": 41.32,
+   "e": 41.6,
+   "p": 0.956
+  },
+  {
+   "w": "judge",
+   "s": 41.6,
+   "e": 41.98,
+   "p": 0.997
+  },
+  {
+   "w": "sentenced",
+   "s": 41.98,
+   "e": 42.4,
+   "p": 0.996
+  },
+  {
+   "w": "him",
+   "s": 42.4,
+   "e": 42.6,
+   "p": 0.997
+  },
+  {
+   "w": "to",
+   "s": 42.6,
+   "e": 42.76,
+   "p": 0.998
+  },
+  {
+   "w": "twenty",
+   "s": 42.76,
+   "e": 43.12,
+   "p": 0.909
+  },
+  {
+   "w": "years",
+   "s": 43.12,
+   "e": 43.48,
+   "p": 0.986
+  },
+  {
+   "w": "in",
+   "s": 43.48,
+   "e": 43.76,
+   "p": 0.998
+  },
+  {
+   "w": "prison.",
+   "s": 43.76,
+   "e": 44.02,
+   "p": 0.999
+  },
+  {
+   "w": "This",
+   "s": 44.84,
+   "e": 45.02,
+   "p": 0.996
+  },
+  {
+   "w": "is",
+   "s": 45.02,
+   "e": 45.18,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 45.18,
+   "e": 45.34,
+   "p": 0.995
+  },
+  {
+   "w": "story",
+   "s": 45.34,
+   "e": 45.66,
+   "p": 0.999
+  },
+  {
+   "w": "of",
+   "s": 45.66,
+   "e": 45.82,
+   "p": 0.995
+  },
+  {
+   "w": "how",
+   "s": 45.82,
+   "e": 46.0,
+   "p": 0.998
+  },
+  {
+   "w": "that",
+   "s": 46.0,
+   "e": 46.18,
+   "p": 0.991
+  },
+  {
+   "w": "money",
+   "s": 46.18,
+   "e": 46.4,
+   "p": 0.999
+  },
+  {
+   "w": "was",
+   "s": 46.4,
+   "e": 46.64,
+   "p": 0.999
+  },
+  {
+   "w": "rerouted",
+   "s": 46.64,
+   "e": 47.18,
+   "p": 0.893
+  },
+  {
+   "w": "and",
+   "s": 47.18,
+   "e": 47.74,
+   "p": 0.592
+  },
+  {
+   "w": "the",
+   "s": 47.74,
+   "e": 47.92,
+   "p": 0.996
+  },
+  {
+   "w": "red",
+   "s": 47.92,
+   "e": 48.08,
+   "p": 0.995
+  },
+  {
+   "w": "flags",
+   "s": 48.08,
+   "e": 48.48,
+   "p": 0.997
+  },
+  {
+   "w": "you",
+   "s": 48.48,
+   "e": 48.68,
+   "p": 0.993
+  },
+  {
+   "w": "can",
+   "s": 48.68,
+   "e": 48.84,
+   "p": 0.996
+  },
+  {
+   "w": "spot",
+   "s": 48.84,
+   "e": 49.14,
+   "p": 0.999
+  },
+  {
+   "w": "next",
+   "s": 49.14,
+   "e": 49.44,
+   "p": 0.998
+  },
+  {
+   "w": "time.",
+   "s": 49.44,
+   "e": 49.78,
+   "p": 0.998
+  }
+ ],
+ "dur": 50.0,
+ "lech": [
+  {
+   "op": "replace",
+   "ref": "horwitz",
+   "hyp": "horowitz",
+   "ngu_canh_ref": "it was zachary horwitz actor in los",
+   "ngu_canh_hyp": "it was zachary horowitz actor in los",
+   "quan_trong": true
+  }
+ ]
+}

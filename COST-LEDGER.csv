@@ -3,3 +3,8 @@ ngay,phien,hang_muc,dich_vu,model_hoac_don_vi,so_luong,usd,ghi_chu
 2026-11-01,MR-0,doc so du (GET /api/v1/credits + /api/v1/key),OpenRouter,USD,0,0,khong tinh tien; tai khoan total_credits 70 / total_usage 61.85476 -> con 8.14524 USD; khoa: limit 100 / usage 0
 2026-11-01,MR-0,kiem khoa,Gemini / YouTube Data / Claude API / OpenAI,-,0,0,khong co khoa trong moi truong; Gemini va YouTube tra 403 unregistered caller (khong tinh tien)
 2026-11-01,MR-1,kiem khoa + do cau de tai (search.list 9 luot + videos.list 10 luot),YouTube Data API v3,don vi quota,19,0,trong tran 3000 don vi / 60 luot search; khoa du an Google rieng cua MR; khong tinh tien
+2026-11-01,MR-4,doc so du truoc (GET /api/v1/credits + /api/v1/key),OpenRouter,USD,0,0,khong tinh tien; 16:30 UTC tai khoan total_credits 105 / total_usage 74.45476 -> con 30.54524 USD; khoa MR usage 0
+2026-11-01,MR-4,doc so du truoc (GET /v1/user/subscription),ElevenLabs,ky tu,0,0,khong tinh tien; 16:30 UTC da dung 934 / 157382 -> con 156448; kiem voice_id kozBJGqBNTqfBBClLNCL GET /v1/voices HTTP 200
+2026-11-01,MR-4,TTS loi tap 1 P00-P21 (22 luot) + thu lai P17 P19 P01 (3 luot),ElevenLabs,eleven_v4 ky tu tinh,6109,0,gui 13881 ky tu; he so tinh/gui 0.4401; doi soat /subscription 934 -> 7043 = 6109 khop so; tran 8000 tinh / 16000 gui
+2026-11-01,MR-4,Veo 3.1 Lite 1080p 8 s khong am (V12 luot 1; V06 luot 1 + 2),OpenRouter,google/veo-3.1-lite clip,3,1.20,0.40 USD/clip (usage.cost); 1.5 luot/khe; khoa MR usage 0 -> 1.2 khop so; tran 1.60
+2026-11-01,MR-4,doc so du sau,OpenRouter + ElevenLabs,-,0,0,khong tinh tien; 17:04 UTC OpenRouter total_usage 79.35476 -> con 25.64524 USD (tai khoan chi them 4.90 trong phien; MR 1.20; phien khac 3.70); ElevenLabs da dung 7043 -> con 150339
