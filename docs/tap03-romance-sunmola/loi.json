@@ -82,9 +82,9 @@
    "doan": "P00",
    "nhip": "0",
    "tang": "●C",
-   "loi": "Other times, the court said, he claimed to be a colonel in the U.S. Army deployed to South Africa, who needed computer equipment to finish his assignments.",
+   "loi": "Other times, the court said, he claimed to be a colonel in the U.S. Army deployed to South Africa, who needed computer equipment to finish his assignments. The court found he had misrepresented himself.",
    "nguon": [
-    "N2 tr. 10"
+    "N2 tr. 10 (\"held himself out as a colonel…\"; \"Sunmola clearly misrepresented to his victims…\")"
    ],
    "chu": null,
    "doc": true
@@ -94,7 +94,7 @@
    "doan": "P00",
    "nhip": "0",
    "tang": "KBCB",
-   "loi": "Neither story was true, and the U.S. Army had nothing to do with it.",
+   "loi": "The U.S. Army had nothing to do with either story.",
    "nguon": [
     "N2 tr. 10 (\"misrepresented\")"
    ],
@@ -134,7 +134,8 @@
    "nguon": [
     "N2 tr. 1",
     "N2 tr. 5",
-    "N1 (\"…sentenced this morning to serve 324 months…\"; thông cáo ngày 02/02/2017)"
+    "N1 (\"…sentenced this morning to serve 324 months…\"; thông cáo ngày 02/02/2017)",
+    "N2 tr. 4 (phiên tuyên án thứ hai 02/02/2017)"
    ],
    "chu": null,
    "doc": true
@@ -143,7 +144,7 @@
    "id": "S008",
    "doan": "P00",
    "nhip": "0",
-   "tang": "●",
+   "tang": "●C",
    "loi": "The sentencing judge described the case in words the appeals court later quoted.",
    "nguon": [
     "N2 tr. 17"
@@ -190,7 +191,7 @@
    "doan": "P01",
    "nhip": "1",
    "tang": "◐",
-   "loi": "Prosecutors said the evidence presented in court showed that Sunmola led a criminal organization operating in South Africa that targeted hundreds of women across the United States.",
+   "loi": "Prosecutors said Sunmola led a criminal organization operating in South Africa that targeted hundreds of women across the United States.",
    "nguon": [
     "N1 (\"Evidence presented in court showed that Sunmola was the ringleader…\")"
    ],
@@ -625,7 +626,7 @@
    "doan": "P10",
    "nhip": "10",
    "tang": "●C",
-   "loi": "According to the appeals court, he testified that the total of around one point seven million dollars was an underestimate, because Sunmola had tried to contact many other people whom the investigator could not reach.",
+   "loi": "According to the appeals court, he testified that the total of around one point seven million dollars was an underestimate, because Sunmola had tried to contact many other people, and the investigator could not reach all of them.",
    "nguon": [
     "N2 tr. 14"
    ],
@@ -807,10 +808,10 @@
    "id": "S063",
    "doan": "P11",
    "nhip": "11",
-   "tang": "CHUNG",
-   "loi": "Being lonely, or grieving, is not a flaw. In this case, according to the court, it was what the scheme looked for.",
+   "tang": "●C",
+   "loi": "Being lonely, or grieving, is not a flaw. In this case, the court found, the women's circumstances were what made them targets.",
    "nguon": [
-    "N2 tr. 8"
+    "N2 tr. 8–9 (\"chose the women…\"; \"Their prior relationships left these women unusually vulnerable…\")"
    ],
    "chu": null,
    "doc": true
@@ -964,10 +965,10 @@
    "id": "S076",
    "doan": "P12",
    "nhip": "12",
-   "tang": "●C",
-   "loi": "Five: a profile photo that may belong to someone else. The court said he often used pictures of men in uniform, and the F-B-I suggests a reverse image search to check whether a profile picture is being used elsewhere online.",
+   "tang": "◐",
+   "loi": "Five: a profile photo that may belong to someone else. Prosecutors said he used photographs stolen from the hacked online accounts of real American men, and the F-B-I suggests a reverse image search to check whether a profile picture is being used elsewhere online.",
    "nguon": [
-    "N2 tr. 2",
+    "N1 (\"…he used photographs stolen from the hacked online accounts…\")",
     "N6"
    ],
    "chu": null,

@@ -7,9 +7,9 @@
 
 ## Thống kê (máy)
 
-- Số câu: **79** (đọc **75**, chỉ chữ trên hình **4**) · số từ đọc: **1738** · thời lượng lời: **11.2 phút ở 155 từ/phút** (nhịp đo thật MR-4; 12.0 phút ở 145) + thẻ chữ không đọc 4 × 6 s = 0.4 phút → thời lượng tập ước ở `SHOT.md` (thêm nghỉ đoạn, thẻ tổng kết, nguồn/nhạc kết).
-- Ký tự gửi TTS một lượt (sau thay phát âm): **10.715**.
-- Số câu theo tầng: CHUNG 10 · KBCB 6 · MH 1 · TT 8 · ● 6 · ●C 30 · ◐ 18.
+- Số câu: **79** (đọc **75**, chỉ chữ trên hình **4**) · số từ đọc: **1741** · thời lượng lời: **11.2 phút ở 155 từ/phút** (nhịp đo thật MR-4; 12.0 phút ở 145) + thẻ chữ không đọc 4 × 6 s = 0.4 phút → thời lượng tập ước ở `SHOT.md` (thêm nghỉ đoạn, thẻ tổng kết, nguồn/nhạc kết).
+- Ký tự gửi TTS một lượt (sau thay phát âm): **10.766**.
+- Số câu theo tầng: CHUNG 9 · KBCB 6 · MH 1 · TT 8 · ● 5 · ●C 31 · ◐ 19.
 - Kiểm máy K1–K8 + luật riêng (dung_mot, kem_doan, cam_them): **ĐẠT**.
 
 ## Lời
@@ -20,12 +20,12 @@
 |---|---|---|---|---|---|
 | S001 | MH | đọc | Picture a laptop glowing in a dark living room. A chat window is open, and a new message has just arrived. | — |  |
 | S002 | ●C | đọc | According to a federal appeals court, sometimes he posed as an American soldier, stranded in Nigeria on a mission and in need of help. | N2 tr. 10 |  |
-| S003 | ●C | đọc | Other times, the court said, he claimed to be a colonel in the U.S. Army deployed to South Africa, who needed computer equipment to finish his assignments. | N2 tr. 10 |  |
-| S004 | KBCB | đọc | Neither story was true, and the U.S. Army had nothing to do with it. | N2 tr. 10 ("misrepresented") |  |
+| S003 | ●C | đọc | Other times, the court said, he claimed to be a colonel in the U.S. Army deployed to South Africa, who needed computer equipment to finish his assignments. The court found he had misrepresented himself. | N2 tr. 10 ("held himself out as a colonel…"; "Sunmola clearly misrepresented to his victims…") |  |
+| S004 | KBCB | đọc | The U.S. Army had nothing to do with either story. | N2 tr. 10 ("misrepresented") |  |
 | S005 | ●C | đọc | According to the appeals court, he was Olayinka Sunmola, running an online romance scheme from South Africa that targeted middle-aged women in the United States. | N2 tr. 2 |  |
 | S006 | ◐ | đọc | Prosecutors said his goal was to make each woman believe he was her Prince Charming. | N1 ("Sunmola's purpose was to lead each of his victims…") | “Prince Charming” — U.S. Attorney's Office, Southern District of Illinois |
-| S007 | ● | đọc | In twenty seventeen, a federal judge sentenced him to three hundred twenty-four months in prison. That is twenty-seven years. | N2 tr. 1; N2 tr. 5; N1 ("…sentenced this morning to serve 324 months…"; thông cáo ngày 02/02/2017) |  |
-| S008 | ● | đọc | The sentencing judge described the case in words the appeals court later quoted. | N2 tr. 17 | “the most devastating crime one could ever imagine without someone laying hands or even eyes on another human being” — the sentencing judge, as quoted by the U.S. Court of Appeals for the Seventh Circuit |
+| S007 | ● | đọc | In twenty seventeen, a federal judge sentenced him to three hundred twenty-four months in prison. That is twenty-seven years. | N2 tr. 1; N2 tr. 5; N1 ("…sentenced this morning to serve 324 months…"; thông cáo ngày 02/02/2017); N2 tr. 4 (phiên tuyên án thứ hai 02/02/2017) |  |
+| S008 | ●C | đọc | The sentencing judge described the case in words the appeals court later quoted. | N2 tr. 17 | “the most devastating crime one could ever imagine without someone laying hands or even eyes on another human being” — the sentencing judge, as quoted by the U.S. Court of Appeals for the Seventh Circuit |
 | S009 | CHUNG | đọc | This is the story of how that money was rerouted, and the red flags you can spot next time. | — |  |
 
 ### P01 · nhịp 1
@@ -34,7 +34,7 @@
 |---|---|---|---|---|---|
 | S010 | ◐ | đọc | According to prosecutors, the U.S. Postal Inspection Service began investigating him in twenty twelve, after a woman in the Southern District of Illinois complained that she had been conned by a man she met online. | N1 ("The U.S. Postal Inspection Service began investigating Sunmola in 2012…") |  |
 | S011 | ◐ | đọc | The investigation, prosecutors said, soon revealed that the man she knew was just one of dozens of fictitious online profiles that Sunmola and his associates had created on dating websites. | N1 ("The investigation soon revealed…") |  |
-| S012 | ◐ | đọc | Prosecutors said the evidence presented in court showed that Sunmola led a criminal organization operating in South Africa that targeted hundreds of women across the United States. | N1 ("Evidence presented in court showed that Sunmola was the ringleader…") |  |
+| S012 | ◐ | đọc | Prosecutors said Sunmola led a criminal organization operating in South Africa that targeted hundreds of women across the United States. | N1 ("Evidence presented in court showed that Sunmola was the ringleader…") |  |
 
 ### P02 · nhịp 2
 
@@ -115,7 +115,7 @@
 | S045 | TT | đọc | Sentencing took place in two stages. | N2 tr. 3 |  |
 | S046 | TT | đọc | In August twenty sixteen, the government presented victim impact testimony, and expert testimony on the psychological impact of the scheme. | N2 tr. 3–4 |  |
 | S047 | TT | đọc | In February twenty seventeen, the lead investigator, a U.S. postal inspector, testified and verified a spreadsheet listing thirty-nine additional victims, beyond the thirteen listed in the presentence report. | N2 tr. 4; N2 tr. 14 |  |
-| S048 | ●C | đọc | According to the appeals court, he testified that the total of around one point seven million dollars was an underestimate, because Sunmola had tried to contact many other people whom the investigator could not reach. | N2 tr. 14 |  |
+| S048 | ●C | đọc | According to the appeals court, he testified that the total of around one point seven million dollars was an underestimate, because Sunmola had tried to contact many other people, and the investigator could not reach all of them. | N2 tr. 14 |  |
 | S049 | ●C | đọc | The court records that the judge applied enhancements for Sunmola's role as an organizer or leader, for falsely claiming to act on behalf of a government agency, for substantial financial hardship, for vulnerable victims, for an intended loss of about two point zero five million dollars, and for committing the offense outside the United States. | N2 tr. 4 | Intended loss: $2,054,972.66 |
 | S050 | ● | đọc | The sentence: three hundred twenty-four months in prison. | N2 tr. 5 |  |
 | S051 | ● | đọc | Restitution was set at about one point seven one million dollars, then amended to about one point six seven million dollars to match the presentence report. | N2 tr. 5 | Restitution: $1,707,260.98 → amended to $1,669,050.98 |
@@ -135,7 +135,7 @@
 | S060 | ●C | đọc | On the vulnerable victim enhancement, the court wrote that Sunmola and his co-conspirators chose the women, specifically targeting women they believed would be susceptible to their deceitful tactics. | N2 tr. 8 |  |
 | S061 | ●C | đọc | Many of these women, the court said, had been divorced, abandoned, widowed, or ignored by the men in their lives; most were middle-aged rather than elderly. | N2 tr. 8 |  |
 | S062 | ●C | đọc | Because they were seeking companionship through online dating, the court found, they were particularly susceptible. | N2 tr. 8–9 |  |
-| S063 | CHUNG | đọc | Being lonely, or grieving, is not a flaw. In this case, according to the court, it was what the scheme looked for. | N2 tr. 8 |  |
+| S063 | ●C | đọc | Being lonely, or grieving, is not a flaw. In this case, the court found, the women's circumstances were what made them targets. | N2 tr. 8–9 ("chose the women…"; "Their prior relationships left these women unusually vulnerable…") |  |
 | S064 | TT | đọc | As of November twenty twenty-six, the Federal Bureau of Prisons listed him in federal custody, with a projected release date in twenty thirty-seven. | N3 |  |
 
 ### P12 · nhịp 12
@@ -153,7 +153,7 @@
 | S073 | ●C | đọc | Two: requests for money or for electronics, like the computer equipment the court described. | N2 tr. 2; N2 tr. 10; N6 |  |
 | S074 | ◐ | đọc | Three: instructions to ship to a third person, a driver, a co-worker or a hotel manager; prosecutors said that person was Sunmola himself. | N1 ("The women were invariably told to direct their shipments…") |  |
 | S075 | ◐ | đọc | Four: one emergency after another, each needing more money; prosecutors said that when the money stopped, he ended the relationship. | N1 ("…phony emergencies…"; "When the money inevitably ran out…"); N6 |  |
-| S076 | ●C | đọc | Five: a profile photo that may belong to someone else. The court said he often used pictures of men in uniform, and the F-B-I suggests a reverse image search to check whether a profile picture is being used elsewhere online. | N2 tr. 2; N6 |  |
+| S076 | ◐ | đọc | Five: a profile photo that may belong to someone else. Prosecutors said he used photographs stolen from the hacked online accounts of real American men, and the F-B-I suggests a reverse image search to check whether a profile picture is being used elsewhere online. | N1 ("…he used photographs stolen from the hacked online accounts…"); N6 |  |
 | S077 | CHUNG | đọc | And one rule, in the F-B-I's words: never send money to someone you meet online. We would add: do not ship them goods either, and talk to someone you trust before you send anything. | N6 |  |
 | S078 | CHUNG | đọc | To report it, go to the F-B-I's Internet Crime Complaint Center at I-C-three dot gov, or to the Federal Trade Commission at ReportFraud dot FTC dot gov. | N7; N8; N6 |  |
 | S079 | CHUNG | đọc | The case facts in this story come from public court and agency records, listed in the description. | — |  |
