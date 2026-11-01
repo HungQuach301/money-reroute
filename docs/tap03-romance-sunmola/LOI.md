@@ -7,9 +7,9 @@
 
 ## Thống kê (máy)
 
-- Số câu: **79** (đọc **75**, chỉ chữ trên hình **4**) · số từ đọc: **1741** · thời lượng lời: **11.2 phút ở 155 từ/phút** (nhịp đo thật MR-4; 12.0 phút ở 145) + thẻ chữ không đọc 4 × 6 s = 0.4 phút → thời lượng tập ước ở `SHOT.md` (thêm nghỉ đoạn, thẻ tổng kết, nguồn/nhạc kết).
-- Ký tự gửi TTS một lượt (sau thay phát âm): **10.766**.
-- Số câu theo tầng: CHUNG 9 · KBCB 6 · MH 1 · TT 8 · ● 5 · ●C 31 · ◐ 19.
+- Số câu: **80** (đọc **76**, chỉ chữ trên hình **4**) · số từ đọc: **1755** · thời lượng lời: **11.3 phút ở 155 từ/phút** (nhịp đo thật MR-4; 12.1 phút ở 145) + thẻ chữ không đọc 4 × 6 s = 0.4 phút → thời lượng tập ước ở `SHOT.md` (thêm nghỉ đoạn, thẻ tổng kết, nguồn/nhạc kết).
+- Ký tự gửi TTS một lượt (sau thay phát âm): **10.855**.
+- Số câu theo tầng: CHUNG 10 · KBCB 6 · MH 1 · TT 8 · ● 5 · ●C 31 · ◐ 19.
 - Kiểm máy K1–K8 + luật riêng (dung_mot, kem_doan, cam_them): **ĐẠT**.
 
 ## Lời
@@ -131,11 +131,12 @@
 | S056 | ●C | đọc | He argued, for example, that he had used his false military status only to impress the women, not to obtain anything on behalf of the military. The court disagreed. | N2 tr. 10 |  |
 | S057 | KBCB | **chữ, không đọc** | ~~The U.S. Army and the U.S. military had nothing to do with this scheme.~~ (không thu âm) | N2 tr. 10 | The U.S. Army and the U.S. military had nothing to do with this scheme. |
 | S058 | ●C | đọc | On the loss figures, the court wrote that he nit-picked at almost every dollar, but presented no documentary evidence to challenge the presentence report. | N2 tr. 13; N2 tr. 15 |  |
-| S059 | ●C | đọc | And the court noted that the judge had mentioned deterrence in just four sentences of an eight-page statement, while repeatedly emphasizing the seriousness of the offense. | N2 tr. 17 |  |
+| S059 | ●C | đọc | And the court noted that the judge had mentioned deterrence in just four sentences of an eight-page transcript of his oral statement, while repeatedly emphasizing the seriousness of the offense. | N2 tr. 17 |  |
 | S060 | ●C | đọc | On the vulnerable victim enhancement, the court wrote that Sunmola and his co-conspirators chose the women, specifically targeting women they believed would be susceptible to their deceitful tactics. | N2 tr. 8 |  |
 | S061 | ●C | đọc | Many of these women, the court said, had been divorced, abandoned, widowed, or ignored by the men in their lives; most were middle-aged rather than elderly. | N2 tr. 8 |  |
 | S062 | ●C | đọc | Because they were seeking companionship through online dating, the court found, they were particularly susceptible. | N2 tr. 8–9 |  |
-| S063 | ●C | đọc | Being lonely, or grieving, is not a flaw. In this case, the court found, the women's circumstances were what made them targets. | N2 tr. 8–9 ("chose the women…"; "Their prior relationships left these women unusually vulnerable…") |  |
+| S063 | CHUNG | đọc | Being lonely, or grieving, is not a flaw. | — |  |
+| S063b | ●C | đọc | In this case, the court found that the group chose women it believed would be susceptible, and that their circumstances left them unusually vulnerable. | N2 tr. 8–9 |  |
 | S064 | TT | đọc | As of November twenty twenty-six, the Federal Bureau of Prisons listed him in federal custody, with a projected release date in twenty thirty-seven. | N3 |  |
 
 ### P12 · nhịp 12

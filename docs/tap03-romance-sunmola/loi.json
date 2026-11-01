@@ -761,7 +761,7 @@
    "doan": "P11",
    "nhip": "11",
    "tang": "●C",
-   "loi": "And the court noted that the judge had mentioned deterrence in just four sentences of an eight-page statement, while repeatedly emphasizing the seriousness of the offense.",
+   "loi": "And the court noted that the judge had mentioned deterrence in just four sentences of an eight-page transcript of his oral statement, while repeatedly emphasizing the seriousness of the offense.",
    "nguon": [
     "N2 tr. 17"
    ],
@@ -808,10 +808,20 @@
    "id": "S063",
    "doan": "P11",
    "nhip": "11",
+   "tang": "CHUNG",
+   "loi": "Being lonely, or grieving, is not a flaw.",
+   "nguon": [],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S063b",
+   "doan": "P11",
+   "nhip": "11",
    "tang": "●C",
-   "loi": "Being lonely, or grieving, is not a flaw. In this case, the court found, the women's circumstances were what made them targets.",
+   "loi": "In this case, the court found that the group chose women it believed would be susceptible, and that their circumstances left them unusually vulnerable.",
    "nguon": [
-    "N2 tr. 8–9 (\"chose the women…\"; \"Their prior relationships left these women unusually vulnerable…\")"
+    "N2 tr. 8–9"
    ],
    "chu": null,
    "doc": true

@@ -2,7 +2,7 @@
 
 > MR-K23 · NHÁP G1 · **dựng máy** bằng `python3 scripts/mrk23/uoc_chi.py docs/tap03-romance-sunmola 7 10 15` (đầu vào: `loi.json` + số khe Veo ở `SHOT.md` §2). **MR-K23 chi 0 USD** (không gọi API trả tiền).
 > **Đơn giá THẬT đo ở MR-4** (QUY-TRINH §6): Veo 3.1 Lite 1080p clip 8 s **0,40 USD**; **1,5 lượt/khe** (mẫu 2 khe khó); TTS `eleven_v4` **0,4401** ký tự tính / ký tự gửi; nhịp đọc **155 từ/phút**. Nhạc ~825 ký tự/phút = số tham chiếu lost-places, **chưa đo trên MR**.
-> Đầu vào đo trên repo: **1741 từ đọc**, **10.766 ký tự gửi TTS/lượt** (sau thay phát âm); khe Veo thấp/giữa/cao = **7 / 10 / 15**.
+> Đầu vào đo trên repo: **1755 từ đọc**, **10.855 ký tự gửi TTS/lượt** (sau thay phát âm); khe Veo thấp/giữa/cao = **7 / 10 / 15**.
 
 ## 1. Giả định
 
@@ -23,17 +23,17 @@
 | **Veo (OpenRouter), M-c** | 7 × 0,40 × 1,2 = **3,36 USD** | 10 × 0,40 × 1,5 = **6,00 USD** | 15 × 0,40 × 2 = **12,00 USD** |
 | Veo, M-e | 0,00 USD | 0,80 USD | 1,60 USD |
 | **Tổng OpenRouter** | **3,36 USD** | **6,80 USD** | **13,60 USD** |
-| TTS ký tự gửi (M-c) | 11.843 | 13.996 | 21.532 |
-| TTS ký tự tính (× 0,4401) | 5.212 | 6.160 | 9.476 |
+| TTS ký tự gửi (M-c) | 11.941 | 14.112 | 21.710 |
+| TTS ký tự tính (× 0,4401) | 5.255 | 6.210 | 9.555 |
 | Nhạc ký tự | 2.475 | 3.300 | 4.950 |
 | M-e TTS ký tự tính | 440 | 880 | 1.320 |
-| **Tổng ElevenLabs ký tự tính** | **≈ 8.127** | **≈ 10.340** | **≈ 15.747** |
+| **Tổng ElevenLabs ký tự tính** | **≈ 8.170** | **≈ 10.391** | **≈ 15.825** |
 
 ## 3. Đề xuất trần cứng (dòng `CAPS_PHIEN` cho `scripts/cp/budget.py`, phiên M-c ghi khi có lệnh)
 
 | Mốc | `openrouter_usd` | `elevenlabs_chars` (ký tự **tính**) | Chặn phụ ký tự **gửi** | Mốc báo ~80 % |
 |---|---|---|---|---|
-| **M-c** (giọng, Veo, nhạc) | **7,50** (mức giữa 6,00 + biên ≈ 25 %) | **12.000** (giữa TTS + nhạc ≈ 9.460 + biên ≈ 25 %) | ≤ 22.000 | Veo 6,00 · ElevenLabs 9.600 |
+| **M-c** (giọng, Veo, nhạc) | **7,50** (mức giữa 6,00 + biên ≈ 25 %) | **12.000** (giữa TTS + nhạc ≈ 9.510 + biên ≈ 25 %) | ≤ 22.000 | Veo 6,00 · ElevenLabs 9.600 |
 | **M-d** | **0** | **0** | — | — |
 | **M-e** | **1,60** | **2.000** | ≤ 3.000 | 1,28 · 1.600 |
 | **Cả tập** | **9,10 USD** | **14.000 ký tự** | | |
