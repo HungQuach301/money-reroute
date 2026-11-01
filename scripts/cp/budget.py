@@ -3,6 +3,7 @@
 # thêm khoản openrouter_usd vào bảng trần; Gemini402 → Quy402 dùng chung mọi dịch vụ (Gemini402 giữ làm bí danh).
 # MR-1 (01/11/2026): thêm dòng trần mr1; bao_402() ghi đúng khoản của từng dịch vụ (KHOAN_DICH_VU); thêm YT_DON_GIA,
 # TRAN_LUOT_PHIEN, luot(), check_yt() cho YouTube Data.
+# MR-K1 (01/11/2026): thêm dòng trần mrk1 (youtube_units 2000) + TRAN_LUOT_PHIEN mrk1 (search.list 50) theo lệnh [MR · MR-K1] bước 0.
 # Phần lõi (sổ calls.jsonl, spent/pending_est/check/charge/canh_bao) giữ nguyên logic gốc.
 """[MR] Trần chi phí CỨNG theo phiên Money Reroute.
 Sổ = reports/<phiên>/calls.jsonl (commit). Tổng chi tính lại từ sổ mỗi lần kiểm (không sổ tạm → không lệch khi container mới).
@@ -21,13 +22,14 @@ KHOAN = ("gemini_usd", "openrouter_usd", "elevenlabs_chars", "claude_usd", "yout
 CAPS_PHIEN = {
     "mr0": {},  # MR-0 (khởi tạo repo, lệnh 01/11/2026): 0 USD API mọi khoản; chỉ đọc số dư (GET miễn phí, không qua check()).
     "mr1": {"youtube_units": 3000},  # MR-1 (lệnh điều phối [MR · MR-1] 01/11/2026): youtube_units 3000, search.list ≤ 60 lượt (TRAN_LUOT); mọi khoản khác 0.
+    "mrk1": {"youtube_units": 2000},  # MR-K1 kho đề tài (lệnh điều phối [MR · MR-K1] 01/11/2026, bước 0): youtube_units 2000, search.list ≤ 50 lượt; mọi khoản khác 0.
 }
 CAPS = {k: float(CAPS_PHIEN.get(PHIEN, {}).get(k, 0.0)) for k in KHOAN}
 # Mốc báo theo phiên: chạm mốc (đã ghi + đang chờ) mà còn > 20 % việc → DỪNG SINH, báo điều phối. Dạng {"mr1": {"openrouter_usd": 8.0}}.
 DUNG_BAO_PHIEN = {}
 DUNG_BAO = DUNG_BAO_PHIEN.get(PHIEN, {})
 # Trần SỐ LƯỢT theo phương thức (ngoài trần đơn vị). charge(..., {"method": "search.list"}) được đếm. Căn cứ: lệnh MR-1.
-TRAN_LUOT_PHIEN = {"mr1": {"search.list": 60}}
+TRAN_LUOT_PHIEN = {"mr1": {"search.list": 60}, "mrk1": {"search.list": 50}}  # mrk1: lệnh [MR · MR-K1] 01/11/2026
 TRAN_LUOT = TRAN_LUOT_PHIEN.get(PHIEN, {})
 # Đơn giá YouTube Data API v3 (đơn vị/lượt) — bảng "Quota costs", developers.google.com/youtube/v3/determine_quota_cost
 # (trang "Last updated 2026-10-15 UTC", mở 01/11/2026 MR-1). search.list có hạn mức riêng 100 lượt/ngày, mỗi lượt 1;
