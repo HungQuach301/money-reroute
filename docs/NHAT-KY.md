@@ -65,3 +65,8 @@ Nhánh `ccr-287dabd9-ibz780` @ `45956b6` (từ `489f18a`). Kiểm độc lập t
 - **Sự cố 3 — MR-1 N17 (Investor.gov) mở bằng UA trình duyệt sau khi UA khai báo bị 403** → trái luật "không vượt rào truy cập" (luật ban hành sau MR-1). N17 chỉ là trang dẫn người xem, không làm nguồn câu nào; MR-3 mở lại đúng cách hoặc ghi "chưa mở được".
 - Góp ý nội dung cho MR-3: 1inMM nhịp 7b bỏ tên khu "Beverlywood" (đủ nhận ra nhà; chủ hiện tại KBCB). Nhịp 13 chỉ dùng khi đọc được Dkt. 58.
 - Khuyến nghị điều phối: **đổi sang B (1inMM) cho tập 1**, theo ưu tiên kịch tính của chủ dự án và độ chắc nguồn (gần hết truyện là lời thừa nhận trong plea); A (Woodbridge) làm sau một tập khác trụ.
+
+## MR-2 · 01/11/2026 22:17 (giờ Hà Nội) · Chủ dự án: chọn vụ tập 1 + địa chỉ liên hệ kênh
+- **Q1: tập 1 = B `1inmm-horwitz`** (theo khuyến nghị điều phối). Woodbridge làm sau một tập khác trụ.
+- **Q2: PA-A** — chủ dự án cấp địa chỉ email liên hệ riêng của kênh cho UA khai báo sec.gov. Địa chỉ **không ghi vào repo** (preflight P1 chặn email trong tệp; repo công khai) — chỉ nằm trong lệnh phiên ở chat.
+- Phát lệnh MR-3 (kịch bản tập 1 → G1) và MR-K1 (kho đề tài), chạy song song.
