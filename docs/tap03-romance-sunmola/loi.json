@@ -1,0 +1,1013 @@
+{
+ "tap": "tap03-romance-sunmola",
+ "vu": "romance-sunmola",
+ "tieu_de_md": "TẬP 3 — \"Prince Charming\": đường dây lừa tình / Olayinka Ilumsa Sunmola",
+ "ngon_ngu": "en-US",
+ "ban": "MR-K23 nháp G1",
+ "ngay_chot_loi": "2026-11-01 (UTC; 02/11 giờ Hà Nội)",
+ "ngay_kiem_trang_thai": "2026-11-01 (UTC)",
+ "quy_uoc": "Tầng: ● kết án (Sunmola: nhận cả 8 tội, toà chấp nhận; 324 tháng; 7th Cir. giữ nguyên 16/04/2018) · ●C sự việc toà phúc thẩm mô tả/giữ nguyên trong opinion N2 (lời có chủ thể toà) · ◐ lời DOJ trong thông cáo N1 ('prosecutors said') — không phải kết luận của toà · TT thủ tục · NB nhận dạng · KBCB không liên quan (quân đội Mỹ bị mạo xưng; đàn ông bị lấy ảnh) · MH cảnh minh hoạ · CHUNG bài học/chuyển đoạn. Nguồn: mã N theo docs/tap03-romance-sunmola/NGUON.md; N2 = số trang in ở đầu trang (trùng số trang PDF); N1 dẫn bằng vài chữ đầu đoạn.",
+ "kiem_rieng": {
+  "dung_mot": [
+   {
+    "ten": "(?i)private (image|photo|picture)|intimate|explicit|\\bnude|naked|sexual|web ?cam|\\bvideo",
+    "chi_the": true,
+    "mo_ta": "K3 MR-D23: đúng một câu khái niệm về ảnh riêng tư, thẻ chữ, không nhắc lại"
+   }
+  ],
+  "kem_doan": [
+   {
+    "ten": "(?i)soldier|\\bArmy\\b|military|colonel|service member|in uniform",
+    "can": "had nothing to do",
+    "tang_xet": [
+     "●",
+     "●C",
+     "◐",
+     "TT",
+     "NB"
+    ],
+    "mo_ta": "quân đội Mỹ bị mạo xưng kèm câu không liên quan (luật 8e)"
+   }
+  ],
+  "cam_them": [
+   "Elias|Dyess",
+   "(?i)Match\\.com|MoneyGram|Western Union",
+   "(?i)suicid|kill herself|wedding dress",
+   "(?i)Georgia|St\\. Louis",
+   "(?i)\\b(fifty-five|sixty-six)\\b",
+   "(?i)Latham|Whitty|Herndon|Stump|Reppert|Wasserman",
+   "(?i)\\bboss\\b",
+   "(?i)Prince Charming scammer"
+  ]
+ },
+ "phat_am_them": [
+  [
+   "Olayinka Sunmola",
+   "kiểm nghe (oh-lah-YIN-kah soon-MOH-lah)"
+  ],
+  [
+   "Ilumsa",
+   "kiểm nghe (ee-LOOM-sah)"
+  ],
+  [
+   "I-C-three dot gov",
+   "giữ nguyên lời"
+  ]
+ ],
+ "cau": [
+  {
+   "id": "S001",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "MH",
+   "loi": "Picture a laptop glowing in a dark living room. A chat window is open, and a new message has just arrived.",
+   "nguon": [],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S002",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "●C",
+   "loi": "According to a federal appeals court, sometimes he posed as an American soldier, stranded in Nigeria on a mission and in need of help.",
+   "nguon": [
+    "N2 tr. 10"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S003",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "●C",
+   "loi": "Other times, the court said, he claimed to be a colonel in the U.S. Army deployed to South Africa, who needed computer equipment to finish his assignments.",
+   "nguon": [
+    "N2 tr. 10"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S004",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "KBCB",
+   "loi": "Neither story was true, and the U.S. Army had nothing to do with it.",
+   "nguon": [
+    "N2 tr. 10 (\"misrepresented\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S005",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "●C",
+   "loi": "According to the appeals court, he was Olayinka Sunmola, running an online romance scheme from South Africa that targeted middle-aged women in the United States.",
+   "nguon": [
+    "N2 tr. 2"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S006",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "◐",
+   "loi": "Prosecutors said his goal was to make each woman believe he was her Prince Charming.",
+   "nguon": [
+    "N1 (\"Sunmola's purpose was to lead each of his victims…\")"
+   ],
+   "chu": "“Prince Charming” — U.S. Attorney's Office, Southern District of Illinois",
+   "doc": true
+  },
+  {
+   "id": "S007",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "●",
+   "loi": "In twenty seventeen, a federal judge sentenced him to three hundred twenty-four months in prison. That is twenty-seven years.",
+   "nguon": [
+    "N2 tr. 1",
+    "N2 tr. 5",
+    "N1 (\"…sentenced this morning to serve 324 months…\"; thông cáo ngày 02/02/2017)"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S008",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "●",
+   "loi": "The sentencing judge described the case in words the appeals court later quoted.",
+   "nguon": [
+    "N2 tr. 17"
+   ],
+   "chu": "“the most devastating crime one could ever imagine without someone laying hands or even eyes on another human being” — the sentencing judge, as quoted by the U.S. Court of Appeals for the Seventh Circuit",
+   "doc": true
+  },
+  {
+   "id": "S009",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "CHUNG",
+   "loi": "This is the story of how that money was rerouted, and the red flags you can spot next time.",
+   "nguon": [],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S010",
+   "doan": "P01",
+   "nhip": "1",
+   "tang": "◐",
+   "loi": "According to prosecutors, the U.S. Postal Inspection Service began investigating him in twenty twelve, after a woman in the Southern District of Illinois complained that she had been conned by a man she met online.",
+   "nguon": [
+    "N1 (\"The U.S. Postal Inspection Service began investigating Sunmola in 2012…\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S011",
+   "doan": "P01",
+   "nhip": "1",
+   "tang": "◐",
+   "loi": "The investigation, prosecutors said, soon revealed that the man she knew was just one of dozens of fictitious online profiles that Sunmola and his associates had created on dating websites.",
+   "nguon": [
+    "N1 (\"The investigation soon revealed…\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S012",
+   "doan": "P01",
+   "nhip": "1",
+   "tang": "◐",
+   "loi": "Prosecutors said the evidence presented in court showed that Sunmola led a criminal organization operating in South Africa that targeted hundreds of women across the United States.",
+   "nguon": [
+    "N1 (\"Evidence presented in court showed that Sunmola was the ringleader…\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S013",
+   "doan": "P02",
+   "nhip": "2",
+   "tang": "●C",
+   "loi": "The appeals court laid out the basics. Starting in March two thousand eight, from South Africa, Sunmola and his co-conspirators created profiles on dating websites under fictitious names.",
+   "nguon": [
+    "N2 tr. 2"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S014",
+   "doan": "P02",
+   "nhip": "2",
+   "tang": "●C",
+   "loi": "The court wrote that they led women to believe they were successful businessmen, and that Sunmola often used pictures of men in U.S. military uniforms as part of his online profile.",
+   "nguon": [
+    "N2 tr. 2"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S015",
+   "doan": "P02",
+   "nhip": "2",
+   "tang": "◐",
+   "loi": "Separately, prosecutors said he used photographs stolen from the hacked online accounts of real American men.",
+   "nguon": [
+    "N1 (\"…he used photographs stolen from the hacked online accounts of real American men…\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S016",
+   "doan": "P02",
+   "nhip": "2",
+   "tang": "KBCB",
+   "loi": "Those men are not named in the records we reviewed, and we are not trying to identify them.",
+   "nguon": [
+    "N1",
+    "N2 tr. 2"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S017",
+   "doan": "P02",
+   "nhip": "2",
+   "tang": "KBCB",
+   "loi": "The U.S. Army and the U.S. military had nothing to do with this scheme.",
+   "nguon": [
+    "N2 tr. 10"
+   ],
+   "chu": "The U.S. Army and the U.S. military had nothing to do with this scheme.",
+   "doc": false
+  },
+  {
+   "id": "S018",
+   "doan": "P03",
+   "nhip": "3",
+   "tang": "◐",
+   "loi": "According to prosecutors, he showered the women with poetry, cards, flowers, stuffed animals and chocolates.",
+   "nguon": [
+    "N1 (\"He also showered the women with poetry…\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S019",
+   "doan": "P03",
+   "nhip": "3",
+   "tang": "◐",
+   "loi": "Prosecutors said he also researched facts about the American cities he pretended to be from.",
+   "nguon": [
+    "N1 (\"…researched facts about the American cities he pretended to be from\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S020",
+   "doan": "P04",
+   "nhip": "4",
+   "tang": "●C",
+   "loi": "Then came the requests. After gaining the women's trust, the appeals court wrote, Sunmola and his co-conspirators would ask for money and merchandise.",
+   "nguon": [
+    "N2 tr. 2"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S021",
+   "doan": "P04",
+   "nhip": "4",
+   "tang": "●C",
+   "loi": "The women shipped electronics and made electronic fund transfers, under false claims of financial distress.",
+   "nguon": [
+    "N2 tr. 2"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S022",
+   "doan": "P04",
+   "nhip": "4",
+   "tang": "●C",
+   "loi": "According to the court, he led them to believe the money or equipment would be used for work on behalf of the U.S. government, and the court found that he clearly misrepresented that he was acting on behalf of the U.S. military.",
+   "nguon": [
+    "N2 tr. 10"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S023",
+   "doan": "P04",
+   "nhip": "4",
+   "tang": "KBCB",
+   "loi": "To be clear, the U.S. military had nothing to do with it.",
+   "nguon": [
+    "N2 tr. 10"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S024",
+   "doan": "P04",
+   "nhip": "4b",
+   "tang": "◐",
+   "loi": "Prosecutors said he asked for laptop computers, tablets and cell phones, equipment he told the women he needed to complete his government mission.",
+   "nguon": [
+    "N1 (\"…shipping him laptop computers, tablets, and cell phones…\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S025",
+   "doan": "P04",
+   "nhip": "4b",
+   "tang": "◐",
+   "loi": "And according to prosecutors, the women were told to ship everything to a man named Ilumsa Sunmola, who was passed off as their lover's driver, or a co-worker, or a hotel manager.",
+   "nguon": [
+    "N1 (\"The women were invariably told to direct their shipments…\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S026",
+   "doan": "P04",
+   "nhip": "4b",
+   "tang": "◐",
+   "loi": "In fact, prosecutors said, it was Sunmola himself.",
+   "nguon": [
+    "N1 (\"In fact, it was Sunmola himself…\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S027",
+   "doan": "P04",
+   "nhip": "4b",
+   "tang": "◐",
+   "loi": "Prosecutors said he manufactured one phony emergency after another, each requiring more money, and that when the money ran out, or a woman refused to send more, he abruptly ended the relationship.",
+   "nguon": [
+    "N1 (\"Once he had successfully beguiled his target…\"; \"When the money inevitably ran out…\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S028",
+   "doan": "P05",
+   "nhip": "5",
+   "tang": "CHUNG",
+   "loi": "It is easy to picture one lonely stranger at a keyboard. The court described something bigger.",
+   "nguon": [],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S029",
+   "doan": "P05",
+   "nhip": "5",
+   "tang": "●C",
+   "loi": "The appeals court upheld the finding that Sunmola was an organizer or leader. According to the court, he recruited accomplices, received the stolen goods and wire transfers, and directed everyone else on what to tell the victims.",
+   "nguon": [
+    "N2 tr. 11–12"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S030",
+   "doan": "P05",
+   "nhip": "5",
+   "tang": "●C",
+   "loi": "The court also noted that the government presented evidence suggesting he commanded a larger share of the profits.",
+   "nguon": [
+    "N2 tr. 12"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S031",
+   "doan": "P05",
+   "nhip": "5",
+   "tang": "●C",
+   "loi": "And during the investigation, the court said, authorities also discovered evidence of credit card fraud affecting various businesses.",
+   "nguon": [
+    "N2 tr. 2"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S032",
+   "doan": "P05",
+   "nhip": "5",
+   "tang": "◐",
+   "loi": "Prosecutors said the loss to one computer manufacturer alone was more than eight hundred thousand dollars.",
+   "nguon": [
+    "N1 (\"The loss incurred by one computer manufacturer alone was over $800,000.\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S033",
+   "doan": "P06",
+   "nhip": "6",
+   "tang": "●C",
+   "loi": "With at least one woman, it went further: he threatened to expose private images.",
+   "nguon": [
+    "N2 tr. 2"
+   ],
+   "chu": "With at least one woman, it went further: he threatened to expose private images.",
+   "doc": false
+  },
+  {
+   "id": "S034",
+   "doan": "P07",
+   "nhip": "7",
+   "tang": "◐",
+   "loi": "The damage reached far beyond a single bank account. Prosecutors said the crime forced at least three women to file for bankruptcy, and several more lost their jobs and their homes.",
+   "nguon": [
+    "N1 (\"The crime forced at least three women to file for bankruptcy. Several more…\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S035",
+   "doan": "P07",
+   "nhip": "7",
+   "tang": "●C",
+   "loi": "The sentencing judge applied an enhancement for substantial financial hardship to five or more victims; the presentence report listed seven, and the appeals court upheld that finding.",
+   "nguon": [
+    "N2 tr. 4",
+    "N2 tr. 6–7"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S036",
+   "doan": "P07",
+   "nhip": "7",
+   "tang": "●C",
+   "loi": "According to the appeals court, the judge also granted two upward departures the government requested: one for psychological injury to a victim, and one for gratuitous infliction of injury.",
+   "nguon": [
+    "N2 tr. 4"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S037",
+   "doan": "P07",
+   "nhip": "7",
+   "tang": "CHUNG",
+   "loi": "In other words, the harm the court weighed was not only financial.",
+   "nguon": [
+    "N2 tr. 4"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S038",
+   "doan": "P08",
+   "nhip": "8",
+   "tang": "TT",
+   "loi": "On November twentieth, twenty thirteen, a federal grand jury in the Southern District of Illinois charged Sunmola in an eight-count indictment: conspiracy, three counts of mail fraud, three counts of wire fraud, and interstate extortion.",
+   "nguon": [
+    "N2 tr. 3"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S039",
+   "doan": "P08",
+   "nhip": "8",
+   "tang": "TT",
+   "loi": "On August ninth, twenty fourteen, authorities arrested him while he was traveling in London.",
+   "nguon": [
+    "N2 tr. 3"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S040",
+   "doan": "P08",
+   "nhip": "8",
+   "tang": "◐",
+   "loi": "According to prosecutors, he was about to board a plane from London to Johannesburg.",
+   "nguon": [
+    "N1 (\"…as he was about to board a plane from London to Johannesburg, South Africa\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S041",
+   "doan": "P08",
+   "nhip": "8",
+   "tang": "TT",
+   "loi": "In February twenty fifteen, he was transferred to the custody of the United States.",
+   "nguon": [
+    "N2 tr. 3"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S042",
+   "doan": "P08",
+   "nhip": "8",
+   "tang": "TT",
+   "loi": "His trial began in Illinois on February twenty-ninth, twenty sixteen. It would not make it to a verdict.",
+   "nguon": [
+    "N2 tr. 1",
+    "N2 tr. 3"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S043",
+   "doan": "P09",
+   "nhip": "9",
+   "tang": "●",
+   "loi": "Three days into the trial, Sunmola pleaded guilty to all eight counts, without a plea agreement.",
+   "nguon": [
+    "N2 tr. 1",
+    "N2 tr. 3"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S044",
+   "doan": "P09",
+   "nhip": "9",
+   "tang": "●",
+   "loi": "The judge asked him questions to make sure he was pleading knowingly and voluntarily, and accepted the guilty pleas.",
+   "nguon": [
+    "N2 tr. 3"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S045",
+   "doan": "P10",
+   "nhip": "10",
+   "tang": "TT",
+   "loi": "Sentencing took place in two stages.",
+   "nguon": [
+    "N2 tr. 3"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S046",
+   "doan": "P10",
+   "nhip": "10",
+   "tang": "TT",
+   "loi": "In August twenty sixteen, the government presented victim impact testimony, and expert testimony on the psychological impact of the scheme.",
+   "nguon": [
+    "N2 tr. 3–4"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S047",
+   "doan": "P10",
+   "nhip": "10",
+   "tang": "TT",
+   "loi": "In February twenty seventeen, the lead investigator, a U.S. postal inspector, testified and verified a spreadsheet listing thirty-nine additional victims, beyond the thirteen listed in the presentence report.",
+   "nguon": [
+    "N2 tr. 4",
+    "N2 tr. 14"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S048",
+   "doan": "P10",
+   "nhip": "10",
+   "tang": "●C",
+   "loi": "According to the appeals court, he testified that the total of around one point seven million dollars was an underestimate, because Sunmola had tried to contact many other people whom the investigator could not reach.",
+   "nguon": [
+    "N2 tr. 14"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S049",
+   "doan": "P10",
+   "nhip": "10",
+   "tang": "●C",
+   "loi": "The court records that the judge applied enhancements for Sunmola's role as an organizer or leader, for falsely claiming to act on behalf of a government agency, for substantial financial hardship, for vulnerable victims, for an intended loss of about two point zero five million dollars, and for committing the offense outside the United States.",
+   "nguon": [
+    "N2 tr. 4"
+   ],
+   "chu": "Intended loss: $2,054,972.66",
+   "doc": true
+  },
+  {
+   "id": "S050",
+   "doan": "P10",
+   "nhip": "10",
+   "tang": "●",
+   "loi": "The sentence: three hundred twenty-four months in prison.",
+   "nguon": [
+    "N2 tr. 5"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S051",
+   "doan": "P10",
+   "nhip": "10",
+   "tang": "●",
+   "loi": "Restitution was set at about one point seven one million dollars, then amended to about one point six seven million dollars to match the presentence report.",
+   "nguon": [
+    "N2 tr. 5"
+   ],
+   "chu": "Restitution: $1,707,260.98 → amended to $1,669,050.98",
+   "doc": true
+  },
+  {
+   "id": "S052",
+   "doan": "P10",
+   "nhip": "11b",
+   "tang": "◐",
+   "loi": "Prosecutors said that when he completes his prison term, he will be removed to Nigeria.",
+   "nguon": [
+    "N1 (\"When Sunmola has completed his 27-year prison term, he will be removed…\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S053",
+   "doan": "P10",
+   "nhip": "11b",
+   "tang": "◐",
+   "loi": "Prosecutors also said more than two hundred thousand dollars from the sale of his four properties in South Africa had been turned over to the court, to be distributed to the identified victims.",
+   "nguon": [
+    "N1 (\"Over $200,000 in proceeds from the sale of Sunmola's four properties…\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S054",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "●C",
+   "loi": "Sunmola appealed. On April sixteenth, twenty eighteen, the U.S. Court of Appeals for the Seventh Circuit affirmed.",
+   "nguon": [
+    "N2 tr. 1",
+    "N2 tr. 18"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S055",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "●C",
+   "loi": "On appeal, Sunmola challenged four of the sentencing enhancements, the loss calculation, the restitution amount, and the weight the judge gave to deterring others.",
+   "nguon": [
+    "N2 tr. 5",
+    "N2 tr. 15"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S056",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "●C",
+   "loi": "He argued, for example, that he had used his false military status only to impress the women, not to obtain anything on behalf of the military. The court disagreed.",
+   "nguon": [
+    "N2 tr. 10"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S057",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "KBCB",
+   "loi": "The U.S. Army and the U.S. military had nothing to do with this scheme.",
+   "nguon": [
+    "N2 tr. 10"
+   ],
+   "chu": "The U.S. Army and the U.S. military had nothing to do with this scheme.",
+   "doc": false
+  },
+  {
+   "id": "S058",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "●C",
+   "loi": "On the loss figures, the court wrote that he nit-picked at almost every dollar, but presented no documentary evidence to challenge the presentence report.",
+   "nguon": [
+    "N2 tr. 13",
+    "N2 tr. 15"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S059",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "●C",
+   "loi": "And the court noted that the judge had mentioned deterrence in just four sentences of an eight-page statement, while repeatedly emphasizing the seriousness of the offense.",
+   "nguon": [
+    "N2 tr. 17"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S060",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "●C",
+   "loi": "On the vulnerable victim enhancement, the court wrote that Sunmola and his co-conspirators chose the women, specifically targeting women they believed would be susceptible to their deceitful tactics.",
+   "nguon": [
+    "N2 tr. 8"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S061",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "●C",
+   "loi": "Many of these women, the court said, had been divorced, abandoned, widowed, or ignored by the men in their lives; most were middle-aged rather than elderly.",
+   "nguon": [
+    "N2 tr. 8"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S062",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "●C",
+   "loi": "Because they were seeking companionship through online dating, the court found, they were particularly susceptible.",
+   "nguon": [
+    "N2 tr. 8–9"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S063",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "CHUNG",
+   "loi": "Being lonely, or grieving, is not a flaw. In this case, according to the court, it was what the scheme looked for.",
+   "nguon": [
+    "N2 tr. 8"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S064",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "TT",
+   "loi": "As of November twenty twenty-six, the Federal Bureau of Prisons listed him in federal custody, with a projected release date in twenty thirty-seven.",
+   "nguon": [
+    "N3"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S065",
+   "doan": "P12",
+   "nhip": "12",
+   "tang": "CHUNG",
+   "loi": "So what can you take from this case? Three lessons, five red flags, and one rule.",
+   "nguon": [],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S066",
+   "doan": "P12",
+   "nhip": "12",
+   "tang": "●C",
+   "loi": "Lesson one: a romance scheme can be an organization. In this case, the court described a leader who recruited accomplices and directed others on what to tell the victims. The person on the screen may not be one person at all.",
+   "nguon": [
+    "N2 tr. 11–12"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S067",
+   "doan": "P12",
+   "nhip": "12",
+   "tang": "●C",
+   "loi": "Lesson two: these schemes choose people by their circumstances, not only by their age. The court wrote that this group chose women it believed would be susceptible, many of them divorced, widowed or abandoned, and most of them middle-aged.",
+   "nguon": [
+    "N2 tr. 8"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S068",
+   "doan": "P12",
+   "nhip": "12",
+   "tang": "CHUNG",
+   "loi": "The F-B-I has also warned that the elderly, women, and those who have lost a spouse are often targeted.",
+   "nguon": [
+    "N6"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S069",
+   "doan": "P12",
+   "nhip": "12",
+   "tang": "●C",
+   "loi": "Lesson three: the real damage is bigger than the dollar figure. The judge granted an upward departure for psychological injury, and the lead investigator called the roughly one point seven million dollar total an underestimate.",
+   "nguon": [
+    "N2 tr. 4",
+    "N2 tr. 14"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S070",
+   "doan": "P12",
+   "nhip": "12",
+   "tang": "CHUNG",
+   "loi": "Reporting, even when it feels embarrassing, helps investigators see the full scale.",
+   "nguon": [],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S071",
+   "doan": "P12",
+   "nhip": "12",
+   "tang": "●C",
+   "loi": "Red flag one: someone you met online says he is on a mission overseas, like the stranded soldier and the Army colonel the court described in this case.",
+   "nguon": [
+    "N2 tr. 10",
+    "N6"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S072",
+   "doan": "P12",
+   "nhip": "12",
+   "tang": "KBCB",
+   "loi": "The U.S. Army and the U.S. military had nothing to do with this scheme.",
+   "nguon": [
+    "N2 tr. 10"
+   ],
+   "chu": "The U.S. Army and the U.S. military had nothing to do with this scheme.",
+   "doc": false
+  },
+  {
+   "id": "S073",
+   "doan": "P12",
+   "nhip": "12",
+   "tang": "●C",
+   "loi": "Two: requests for money or for electronics, like the computer equipment the court described.",
+   "nguon": [
+    "N2 tr. 2",
+    "N2 tr. 10",
+    "N6"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S074",
+   "doan": "P12",
+   "nhip": "12",
+   "tang": "◐",
+   "loi": "Three: instructions to ship to a third person, a driver, a co-worker or a hotel manager; prosecutors said that person was Sunmola himself.",
+   "nguon": [
+    "N1 (\"The women were invariably told to direct their shipments…\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S075",
+   "doan": "P12",
+   "nhip": "12",
+   "tang": "◐",
+   "loi": "Four: one emergency after another, each needing more money; prosecutors said that when the money stopped, he ended the relationship.",
+   "nguon": [
+    "N1 (\"…phony emergencies…\"; \"When the money inevitably ran out…\")",
+    "N6"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S076",
+   "doan": "P12",
+   "nhip": "12",
+   "tang": "●C",
+   "loi": "Five: a profile photo that may belong to someone else. The court said he often used pictures of men in uniform, and the F-B-I suggests a reverse image search to check whether a profile picture is being used elsewhere online.",
+   "nguon": [
+    "N2 tr. 2",
+    "N6"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S077",
+   "doan": "P12",
+   "nhip": "12",
+   "tang": "CHUNG",
+   "loi": "And one rule, in the F-B-I's words: never send money to someone you meet online. We would add: do not ship them goods either, and talk to someone you trust before you send anything.",
+   "nguon": [
+    "N6"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S078",
+   "doan": "P12",
+   "nhip": "12",
+   "tang": "CHUNG",
+   "loi": "To report it, go to the F-B-I's Internet Crime Complaint Center at I-C-three dot gov, or to the Federal Trade Commission at ReportFraud dot FTC dot gov.",
+   "nguon": [
+    "N7",
+    "N8",
+    "N6"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S079",
+   "doan": "P12",
+   "nhip": "12",
+   "tang": "CHUNG",
+   "loi": "The case facts in this story come from public court and agency records, listed in the description.",
+   "nguon": [],
+   "chu": null,
+   "doc": true
+  }
+ ]
+}

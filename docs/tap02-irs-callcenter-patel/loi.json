@@ -1,0 +1,932 @@
+{
+ "tap": "tap02-irs-callcenter-patel",
+ "vu": "irs-callcenter-patel",
+ "tieu_de_md": "TẬP 2 — Call center mạo danh IRS/USCIS / Hitesh Madhubhai Patel",
+ "ngon_ngu": "en-US",
+ "ban": "MR-K23 nháp G1",
+ "ngay_chot_loi": "2026-11-01 (UTC; 02/11 giờ Hà Nội)",
+ "ngay_kiem_trang_thai": "2026-11-01 (UTC)",
+ "quy_uoc": "Tầng: ● kết án (Patel: nhận tội 09/01/2020, án 30/11/2020) · ●T Patel thừa nhận khi nhận tội THEO THÔNG CÁO DOJ (plea agreement chưa mở được → lời luôn có chủ thể DOJ/admitted) · ●N nhóm 24 bị cáo ở Mỹ đã kết án (không tên) · ◐ cáo trạng/lời DOJ/lời đồng bị cáo · TT thủ tục · NB nhận dạng · KBCB câu không liên quan (cơ quan bị mạo danh) · MH cảnh minh hoạ · CHUNG bài học/chuyển đoạn. Nguồn: mã N theo docs/tap02-irs-callcenter-patel/NGUON.md; N1 = 'Page x of 81'; N2–N5 đ.n = thẻ <p> thứ n không rỗng của trường body (API DOJ).",
+ "kiem_rieng": {
+  "kem_moi_lan": [
+   {
+    "ten": "\\bHGLOBAL\\b",
+    "mo_ta": "quyết định chủ dự án MR-5: mỗi lần nêu HGLOBAL (lời và hình) kèm câu ◐ nhịp 4b",
+    "can_loi": "HGLOBAL was also charged; like every defendant who has not been convicted, it is presumed innocent\\. As of July twenty eighteen, the India-based call centers charged had yet to be arraigned; as of November twenty twenty, the Justice Department said charges remained pending for other India-based defendants\\.",
+    "can_chu": "HGLOBAL was also charged; like every defendant who has not been convicted, it is presumed innocent\\. As of July 2018, the India-based call centers charged had yet to be arraigned; as of November 2020, the Justice Department said charges remained pending for other India-based defendants\\.",
+    "can_shot": "presumed innocent.*July 2018.*November 2020"
+   }
+  ],
+  "kem_doan": [
+   {
+    "ten": "\\bIRS\\b|immigration (services|officers)|tax agencies",
+    "can": "had nothing to do|None of these agencies.*had anything to do",
+    "tang_xet": [
+     "●",
+     "●T",
+     "●N",
+     "◐",
+     "TT"
+    ],
+    "mo_ta": "cơ quan bị mạo danh kèm câu không liên quan (luật 8e)"
+   }
+  ],
+  "cam_them": [
+   "(?i)\\bboss\\b(?!.*co-defendant)",
+   "(?i)\\bbribe",
+   "(?i)San Diego|Hayward|Frisco",
+   "(?i)WhatsApp|iTunes|Western Union|MoneyGram",
+   "(?i)Call Mantra|Worldwide Solution|Zoriion|Sharma BPO",
+   "\\d{3}[-.)]\\s?\\d{3}[-.]\\d{4}"
+  ]
+ },
+ "phat_am_them": [
+  [
+   "Ahmedabad",
+   "kiểm nghe (AH-muh-duh-bahd)"
+  ],
+  [
+   "Hitesh Madhubhai Patel",
+   "kiểm nghe (hi-TAYSH mah-DOO-bye puh-TEL)"
+  ],
+  [
+   "Hittner",
+   "kiểm nghe"
+  ],
+  [
+   "hawala / hawaladar",
+   "kiểm nghe (huh-WAH-luh)"
+  ],
+  [
+   "tigta dot gov",
+   "giữ nguyên lời (đọc từng từ)"
+  ]
+ ],
+ "cau": [
+  {
+   "id": "S001",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "MH",
+   "loi": "Picture a phone lighting up on a kitchen table. Unknown number.",
+   "nguon": [],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S002",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "●T",
+   "loi": "According to the Justice Department, people across the United States got calls from someone claiming to be with the IRS or with U.S. immigration services, threatening arrest, prison, fines or deportation if they did not pay.",
+   "nguon": [
+    "N4 đ.5"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S003",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "KBCB",
+   "loi": "The IRS and U.S. Citizenship and Immigration Services had nothing to do with these calls. The callers were impersonating them.",
+   "nguon": [
+    "N4 đ.5",
+    "N1 tr. 3 ¶1(a)–(b)"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S004",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "●T",
+   "loi": "According to the Justice Department, the callers worked out of call centers in Ahmedabad, India, and one man later admitted to operating and funding several of those call centers.",
+   "nguon": [
+    "N4 đ.5",
+    "N4 đ.6"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S005",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "NB",
+   "loi": "His name is Hitesh Madhubhai Patel.",
+   "nguon": [
+    "N4 đ.2",
+    "N5 đ.2"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S006",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "●",
+   "loi": "In twenty twenty, a federal judge in Texas sentenced him to twenty years in prison.",
+   "nguon": [
+    "N5 đ.1",
+    "N5 đ.2"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S007",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "CHUNG",
+   "loi": "So how does a phone call from India turn into money in the hands of people in the United States, almost immediately?",
+   "nguon": [
+    "N4 đ.5 (\"immediately\")"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S008",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "CHUNG",
+   "loi": "This is the story of how that money was rerouted, and the red flags you can spot next time.",
+   "nguon": [],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S009",
+   "doan": "P01",
+   "nhip": "1",
+   "tang": "◐",
+   "loi": "According to the indictment, one of the call centers extorted twelve thousand three hundred dollars from an eighty-five-year-old woman, after threatening her with arrest over tax violations that did not exist.",
+   "nguon": [
+    "N2 đ.11"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S010",
+   "doan": "P01",
+   "nhip": "1b",
+   "tang": "◐",
+   "loi": "The indictment also alleged that another victim was called multiple times over twenty days by people posing as IRS agents, and lost one hundred thirty-six thousand dollars.",
+   "nguon": [
+    "N2 đ.12"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S011",
+   "doan": "P01",
+   "nhip": "1b",
+   "tang": "KBCB",
+   "loi": "The IRS and USCIS had nothing to do with these calls. The callers were impersonating them.",
+   "nguon": [
+    "N4 đ.5",
+    "N1 tr. 3 ¶1(a)–(b)"
+   ],
+   "chu": "The IRS and USCIS had nothing to do with these calls. The callers were impersonating them.",
+   "doc": false
+  },
+  {
+   "id": "S012",
+   "doan": "P02",
+   "nhip": "2",
+   "tang": "TT",
+   "loi": "On October nineteenth, twenty sixteen, a federal grand jury in the Southern District of Texas returned the indictment in this case.",
+   "nguon": [
+    "N2 đ.8",
+    "N1 tr. 1"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S013",
+   "doan": "P02",
+   "nhip": "2",
+   "tang": "TT",
+   "loi": "When it was unsealed eight days later, it charged sixty-one individuals and entities.",
+   "nguon": [
+    "N2 đ.1 (thông cáo ngày 27/10/2016)",
+    "N5 đ.12"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S014",
+   "doan": "P02",
+   "nhip": "2",
+   "tang": "TT",
+   "loi": "That same day, twenty people were arrested in the United States, and thirty-two individuals and five call centers in India were charged.",
+   "nguon": [
+    "N2 đ.1"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S015",
+   "doan": "P02",
+   "nhip": "2",
+   "tang": "◐",
+   "loi": "At the time, the Justice Department alleged that the organization had victimized tens of thousands of people in the United States, with losses in the hundreds of millions of dollars. Those figures were allegations at that stage.",
+   "nguon": [
+    "N2 đ.1"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S016",
+   "doan": "P03",
+   "nhip": "3",
+   "tang": "◐",
+   "loi": "The indictment described several kinds of calls.",
+   "nguon": [
+    "N1 tr. 3 ¶1"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S017",
+   "doan": "P03",
+   "nhip": "3",
+   "tang": "◐",
+   "loi": "In one, according to the indictment, callers impersonated IRS officers and told people they owed back taxes and would be arrested and fined if they did not pay immediately.",
+   "nguon": [
+    "N1 tr. 3 ¶1(a)"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S018",
+   "doan": "P03",
+   "nhip": "3",
+   "tang": "◐",
+   "loi": "In another, the indictment alleged, callers impersonated immigration officers and told people they would be deported unless they paid a fine immediately for supposed problems with their immigration paperwork.",
+   "nguon": [
+    "N1 tr. 3 ¶1(b)"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S019",
+   "doan": "P03",
+   "nhip": "3",
+   "tang": "◐",
+   "loi": "The indictment also described calls that sounded like help: a small payday loan, or a government grant. Either way, according to the indictment, the callers demanded an upfront fee, and the victims received nothing in return.",
+   "nguon": [
+    "N1 tr. 3–4 ¶1(c)–(d)"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S020",
+   "doan": "P03",
+   "nhip": "3b",
+   "tang": "◐",
+   "loi": "According to the Justice Department, the call scripts Patel exchanged with his co-defendants also included impersonating the tax agencies of Canada and Australia, as well as debt collection fraud.",
+   "nguon": [
+    "N4 đ.6"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S021",
+   "doan": "P03",
+   "nhip": "3b",
+   "tang": "KBCB",
+   "loi": "None of these agencies, in the United States, Canada or Australia, had anything to do with the calls.",
+   "nguon": [
+    "N4 đ.5",
+    "N4 đ.6"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S022",
+   "doan": "P04",
+   "nhip": "4",
+   "tang": "◐",
+   "loi": "Behind the calls, the indictment described something closer to an industry, with a division of labor.",
+   "nguon": [
+    "N1 tr. 4 ¶2"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S023",
+   "doan": "P04",
+   "nhip": "4",
+   "tang": "◐",
+   "loi": "According to the indictment, callers received lead lists and call scripts, and made the calls while posing as U.S. government officials or money lenders.",
+   "nguon": [
+    "N1 tr. 5 ¶2(d)"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S024",
+   "doan": "P04",
+   "nhip": "4",
+   "tang": "◐",
+   "loi": "Call center operators in India, the indictment alleged, ran the day-to-day operations, and payment processors in India acted as intermediaries between the call centers and the people in the United States who collected the money.",
+   "nguon": [
+    "N1 tr. 5 ¶2(c), ¶2(e)"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S025",
+   "doan": "P04",
+   "nhip": "4",
+   "tang": "◐",
+   "loi": "According to the indictment, data brokers bought names and personal information used to target potential victims, and in the United States, so-called runners turned victims' payments into usable money, often directed by domestic managers.",
+   "nguon": [
+    "N1 tr. 4 ¶2(a)–(b)",
+    "N1 tr. 6 ¶2(f)"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S026",
+   "doan": "P04",
+   "nhip": "4",
+   "tang": "◐",
+   "loi": "And the indictment described a hawaladar, who connected the call centers to an informal money-transfer system called hawala.",
+   "nguon": [
+    "N1 tr. 6 ¶2(g)"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S027",
+   "doan": "P05",
+   "nhip": "4b",
+   "tang": "◐",
+   "loi": "The indictment named five major groups of call centers, all in Ahmedabad, and alleged that they often worked together, sharing call scripts and lists of potential victims, and processing payments for each other.",
+   "nguon": [
+    "N1 tr. 6–7 ¶3"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S028",
+   "doan": "P05",
+   "nhip": "6",
+   "tang": "●T",
+   "loi": "According to the Justice Department, Patel admitted in his plea to operating and funding several India-based call centers, including one called HGLOBAL.",
+   "nguon": [
+    "N4 đ.6",
+    "N5 đ.9"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S029",
+   "doan": "P05",
+   "nhip": "4b",
+   "tang": "◐",
+   "loi": "HGLOBAL was also charged; like every defendant who has not been convicted, it is presumed innocent. As of July twenty eighteen, the India-based call centers charged had yet to be arraigned; as of November twenty twenty, the Justice Department said charges remained pending for other India-based defendants.",
+   "nguon": [
+    "N1 tr. 1 (HGLOBAL là bị cáo)",
+    "N3 đ.15",
+    "N5 đ.12"
+   ],
+   "chu": "HGLOBAL was also charged; like every defendant who has not been convicted, it is presumed innocent. As of July 2018, the India-based call centers charged had yet to be arraigned; as of November 2020, the Justice Department said charges remained pending for other India-based defendants.",
+   "doc": true
+  },
+  {
+   "id": "S030",
+   "doan": "P05",
+   "nhip": "6",
+   "tang": "◐",
+   "loi": "In the indictment's table of defendants, Patel's primary role at that call center was listed as call center operator.",
+   "nguon": [
+    "N1 tr. 7"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S031",
+   "doan": "P05",
+   "nhip": "6",
+   "tang": "◐",
+   "loi": "According to the Justice Department, he also received monthly income and expense reports from the call centers at his personal email.",
+   "nguon": [
+    "N4 đ.7"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S032",
+   "doan": "P05",
+   "nhip": "6b",
+   "tang": "◐",
+   "loi": "And according to the Justice Department, a co-defendant described him as the top person in India.",
+   "nguon": [
+    "N4 đ.8"
+   ],
+   "chu": "“the top person in India and the boss for whom most of the other defendants worked” — a co-defendant, according to the Justice Department",
+   "doc": true
+  },
+  {
+   "id": "S033",
+   "doan": "P05",
+   "nhip": "6b",
+   "tang": "CHUNG",
+   "loi": "That is a co-defendant's description; it is not a finding by any court.",
+   "nguon": [
+    "N4 đ.8"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S034",
+   "doan": "P06",
+   "nhip": "5",
+   "tang": "●T",
+   "loi": "So where did the money go? According to the Justice Department, Patel admitted that victims were told how to pay, including by buying reloadable prepaid cards or by wiring money.",
+   "nguon": [
+    "N4 đ.5"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S035",
+   "doan": "P06",
+   "nhip": "5",
+   "tang": "●T",
+   "loi": "He also admitted, according to the Justice Department, that once a victim paid, the call centers would immediately turn to a network of runners in the United States to cash out and launder the money.",
+   "nguon": [
+    "N4 đ.5"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S036",
+   "doan": "P06",
+   "nhip": "5",
+   "tang": "◐",
+   "loi": "According to the indictment, the prepaid cards were often registered using the stolen personal information of thousands of identity theft victims.",
+   "nguon": [
+    "N2 đ.9"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S037",
+   "doan": "P06",
+   "nhip": "5",
+   "tang": "◐",
+   "loi": "According to the indictment, some of the money also moved through hawala, a system the indictment described as a way to make money available in another country without actually moving it there.",
+   "nguon": [
+    "N1 tr. 6 ¶2(g)",
+    "N2 đ.10"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S038",
+   "doan": "P06",
+   "nhip": "5",
+   "tang": "◐",
+   "loi": "In the indictment's description, one broker takes in the money, a second broker in another country pays it out, and the debt between the two brokers is often settled later by transactions in the reverse direction.",
+   "nguon": [
+    "N1 tr. 6 ¶2(g)"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S039",
+   "doan": "P06",
+   "nhip": "5",
+   "tang": "◐",
+   "loi": "According to the indictment, hawala transfers sent money to accounts belonging to people in the United States who were expecting the transfers but were not aware the funds were illicit.",
+   "nguon": [
+    "N2 đ.10"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S040",
+   "doan": "P06",
+   "nhip": "5",
+   "tang": "●N",
+   "loi": "Defendants who pleaded guilty in this case admitted, according to the Justice Department, that the runners liquidated and laundered the money as quickly as possible.",
+   "nguon": [
+    "N3 đ.14"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S041",
+   "doan": "P06",
+   "nhip": "5",
+   "tang": "CHUNG",
+   "loi": "Here is a simple way to think about it. Money laundering is often explained in stages. First, placement: the money enters the financial system, here as payments onto cards or as wire transfers. Then layering: it is moved and changed in form, through many hands, so the trail gets harder to follow. That framework is ours, not the indictment's.",
+   "nguon": [],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S042",
+   "doan": "P06",
+   "nhip": "5",
+   "tang": "CHUNG",
+   "loi": "And in general, money that has already been cashed out and passed along is much harder to trace or to recover.",
+   "nguon": [],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S043",
+   "doan": "P07",
+   "nhip": "7",
+   "tang": "●N",
+   "loi": "Then the American side of the case reached the courtroom. By July twenty eighteen, twenty-four defendants in the United States had been convicted and sentenced, in federal courts in Texas, Arizona and Georgia, to sentences ranging from probation to twenty years in prison.",
+   "nguon": [
+    "N3 đ.1",
+    "N3 danh sách <li> sau đ.12–13 (2 án quản chế; cao nhất 240 tháng)",
+    "N4 đ.11"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S044",
+   "doan": "P07",
+   "nhip": "7",
+   "tang": "●N",
+   "loi": "According to the Justice Department, they included runners, managers of runner crews, and at least one co-owner and manager of an India-based call center who had moved to the United States.",
+   "nguon": [
+    "N3 đ.8",
+    "N3 đ.9",
+    "N3 đ.10"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S045",
+   "doan": "P07",
+   "nhip": "7",
+   "tang": "●N",
+   "loi": "Twenty-two of them were held jointly responsible for restitution of about eight point nine seven million dollars to identified victims.",
+   "nguon": [
+    "N3 đ.11"
+   ],
+   "chu": "Restitution: $8,970,396 (joint and several, 22 defendants)",
+   "doc": true
+  },
+  {
+   "id": "S046",
+   "doan": "P07",
+   "nhip": "7b",
+   "tang": "◐",
+   "loi": "On the India side, the indictment had charged thirty-two people and five call centers. As of July twenty eighteen, the Justice Department said, those defendants had yet to be arraigned, and they were presumed innocent.",
+   "nguon": [
+    "N3 đ.15"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S047",
+   "doan": "P07",
+   "nhip": "7b",
+   "tang": "●T",
+   "loi": "So by the summer of twenty eighteen, two dozen people on the American side had been sentenced. But the man who, according to the Justice Department, would later admit to operating and funding several India-based call centers was not among them.",
+   "nguon": [
+    "N3 đ.1",
+    "N4 đ.6",
+    "N4 đ.11"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S048",
+   "doan": "P07",
+   "nhip": "7b",
+   "tang": "TT",
+   "loi": "Then, in September twenty eighteen, after he flew from India to Singapore, authorities there arrested him at the request of the United States.",
+   "nguon": [
+    "N4 đ.9"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S049",
+   "doan": "P08",
+   "nhip": "8",
+   "tang": "TT",
+   "loi": "According to the Justice Department, the arrest was made under a provisional arrest warrant.",
+   "nguon": [
+    "N4 đ.9"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S050",
+   "doan": "P08",
+   "nhip": "8",
+   "tang": "TT",
+   "loi": "In April twenty nineteen, he was extradited from Singapore to face the charges in the United States.",
+   "nguon": [
+    "N4 đ.9"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S051",
+   "doan": "P09",
+   "nhip": "9",
+   "tang": "●",
+   "loi": "On January ninth, twenty twenty, Patel pleaded guilty to wire fraud conspiracy, and to a general conspiracy to commit identification fraud, access device fraud, money laundering, and impersonation of a federal officer or employee.",
+   "nguon": [
+    "N4 đ.2 (thông cáo ngày 09/01/2020)"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S052",
+   "doan": "P09",
+   "nhip": "9",
+   "tang": "●",
+   "loi": "U.S. District Judge David Hittner accepted the plea.",
+   "nguon": [
+    "N4 đ.10"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S053",
+   "doan": "P09",
+   "nhip": "9",
+   "tang": "●T",
+   "loi": "According to the Justice Department, Patel also admitted that a reasonably foreseeable loss of more than twenty-five million dollars but less than sixty-five million dollars was attributable to him, based on the government's evidence against him.",
+   "nguon": [
+    "N4 đ.8"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S054",
+   "doan": "P10",
+   "nhip": "10",
+   "tang": "●",
+   "loi": "On November thirtieth, twenty twenty, Judge Hittner sentenced him to twenty years in prison, followed by three years of supervised release.",
+   "nguon": [
+    "N5 đ.1",
+    "N5 đ.2 (thông cáo ngày 30/11/2020)"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S055",
+   "doan": "P10",
+   "nhip": "10",
+   "tang": "●",
+   "loi": "He was also ordered to pay restitution of about eight point nine seven million dollars to identified victims.",
+   "nguon": [
+    "N5 đ.2"
+   ],
+   "chu": "Restitution: $8,970,396",
+   "doc": true
+  },
+  {
+   "id": "S056",
+   "doan": "P10",
+   "nhip": "10b",
+   "tang": "◐",
+   "loi": "As of November twenty twenty, the Justice Department said charges remained pending against other India-based defendants, who are presumed innocent unless and until convicted.",
+   "nguon": [
+    "N5 đ.12"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S057",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "CHUNG",
+   "loi": "So what can you take from this case? Three lessons, five red flags, and one rule.",
+   "nguon": [],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S058",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "◐",
+   "loi": "Lesson one: in this case, the frightening phone call was only the front end of a chain. According to the indictment, behind the callers were data brokers, call center operators, payment processors, runners and a hawala operator.",
+   "nguon": [
+    "N1 tr. 4–6 ¶2"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S059",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "●T",
+   "loi": "Lesson two: a demand for prepaid cards, gift cards or a wire transfer is not random. In this case, according to the Justice Department, once a victim paid, the call centers immediately turned to a network of runners in the United States to cash out and launder the money. In our terms, the money was placed, and then layered.",
+   "nguon": [
+    "N4 đ.5",
+    "N9 (thẻ trả trước, thẻ quà tặng, chuyển tiền)"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S060",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "CHUNG",
+   "loi": "Lesson three: know how the real agency works. According to the IRS, it initiates most contacts through regular mail. It does not call to demand immediate payment with a specific method like a prepaid debit card, a gift card or a wire transfer. It does not demand payment without giving you the opportunity to question or appeal. And it does not threaten to bring in local police or immigration officers to have you arrested for not paying.",
+   "nguon": [
+    "N9"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S061",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "CHUNG",
+   "loi": "When the charges were announced, an official with Homeland Security Investigations said that U.S. government agencies do not make these types of calls.",
+   "nguon": [
+    "N2 đ.5"
+   ],
+   "chu": "“U.S. government agencies do not make these types of calls” — Homeland Security Investigations, Oct. 27, 2016",
+   "doc": true
+  },
+  {
+   "id": "S062",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "●T",
+   "loi": "Red flag one: threats of arrest, prison, fines or deportation if you do not pay, which is how victims in this case were threatened, according to the Justice Department.",
+   "nguon": [
+    "N4 đ.5",
+    "N9"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S063",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "◐",
+   "loi": "Two: pressure to pay immediately, with no chance to check; the indictment described demands to pay immediately, and the IRS says it does not demand payment without a chance to question or appeal.",
+   "nguon": [
+    "N1 tr. 3 ¶1(a)–(b)",
+    "N9"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S064",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "●T",
+   "loi": "Three: a specific payment method, like reloadable prepaid cards or a wire transfer; according to the Justice Department, that is how victims in this case were told to pay.",
+   "nguon": [
+    "N4 đ.5",
+    "N9"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S065",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "◐",
+   "loi": "Four: repeated calls over days; the indictment alleged that one victim was called multiple times over twenty days.",
+   "nguon": [
+    "N2 đ.12"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S066",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "◐",
+   "loi": "Five: a loan or a grant that requires a fee first; according to the indictment, victims who paid those fees received nothing.",
+   "nguon": [
+    "N1 tr. 3–4 ¶1(c)–(d)"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S067",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "KBCB",
+   "loi": "The IRS and USCIS had nothing to do with these calls. The callers were impersonating them.",
+   "nguon": [
+    "N4 đ.5",
+    "N1 tr. 3 ¶1(a)–(b)"
+   ],
+   "chu": "The IRS and USCIS had nothing to do with these calls. The callers were impersonating them.",
+   "doc": false
+  },
+  {
+   "id": "S068",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "CHUNG",
+   "loi": "And one rule: hang up. Look up the agency's official contact information yourself, and reach out through that, never through a number the caller gives you.",
+   "nguon": [],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S069",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "◐",
+   "loi": "Talk about this with older relatives, too. According to the Justice Department, the attorney general at the time said this ring went after older Americans, legal immigrants and many others.",
+   "nguon": [
+    "N3 đ.3"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S070",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "CHUNG",
+   "loi": "To report IRS impersonation, contact the Treasury Inspector General for Tax Administration, known as TIGTA, at tigta dot gov. To report a scam to the Federal Trade Commission, go to ReportFraud dot FTC dot gov.",
+   "nguon": [
+    "N9",
+    "N11",
+    "N10"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S071",
+   "doan": "P11",
+   "nhip": "11",
+   "tang": "CHUNG",
+   "loi": "The case facts in this story come from public court and agency records, listed in the description.",
+   "nguon": [],
+   "chu": null,
+   "doc": true
+  }
+ ]
+}
