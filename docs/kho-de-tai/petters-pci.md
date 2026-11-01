@@ -19,9 +19,10 @@
 | "CFO" của PCI, hai chủ "nhà cung cấp" trung gian, chủ quỹ Lancelot (White, Reynolds, Catain, Bell) | Đồng phạm | ● theo DOJ (đã nhận tội, 04/2010); **chưa mở judgment** → dùng chức danh, chưa dùng tên | Nhận tội | Chưa mở | Chưa kiểm | N5 tr. 3–4 | 01/11/2026 |
 | Frank E. Vennes Jr. | Người gọi vốn cho PCI | ● CONVICTED (nhận tội 01/02/2013, theo DOJ) | Nhận tội | 180 tháng tù (18/10/2013) | Chưa kiểm | N6 | 01/11/2026 |
 | James N. Fry | Quản lý quỹ Arrowhead | ● CONVICTED (bồi thẩm 12/6/2013, theo DOJ) | Sau xét xử | Mức án: chưa mở | Chưa kiểm | N6 | 01/11/2026 |
+| Một người được N1 tr. 4 nêu ở dạng "reportedly" | Không có bản án | Không bị cáo buộc → **không dùng tên** (sửa theo kiem) | — | — | — | N1 tr. 4 | 01/11/2026 |
 | Kế toán riêng của Petters | Nhận tội **không liên quan** Ponzi | Không dùng | — | — | — | N5 tr. 4 | 01/11/2026 |
 | Costco, Sam's Club ("big box retailers") | Tên trên đơn hàng giả | Không bị cáo buộc — nêu chỉ kèm câu "not accused of wrongdoing; the orders were fake" | — | — | — | N1 tr. 2; N5 tr. 2 | 01/11/2026 |
-| Polaroid, Sun Country Airlines, Fingerhut | Doanh nghiệp Petters mua bằng tiền PCI (theo DOJ); receiver đưa vào phá sản để bảo vệ nhân viên vô can | Không bị cáo buộc | — | — | — | N1 tr. 2; N5 tr. 4; N7 | 01/11/2026 |
+| Polaroid, Sun Country Airlines, Fingerhut | Doanh nghiệp Petters mua bằng tiền PCI (theo DOJ, N1/N5); việc receiver đưa vào phá sản để bảo vệ nhân viên vô can chỉ N7 nêu, và **chỉ cho Sun Country và Polaroid** (không có Fingerhut — sửa theo kiem/petters-pci.md) | Không bị cáo buộc | — | — | — | N1 tr. 2; N5 tr. 4; N7 | 01/11/2026 |
 | Nhà đầu tư (≈ 364 nạn nhân nhận tiền hoàn trả từ tịch thu) | Nạn nhân | Không bị cáo buộc | — | — | — | N7 | 01/11/2026 |
 | Receiver; luật sư bào chữa trong §2255 | Viên chức toà / luật sư | Không bị cáo buộc — **không nêu tên luật sư** (bị Petters cáo buộc nhưng toà bác) | — | — | — | N2; N7 | 01/11/2026 |
 

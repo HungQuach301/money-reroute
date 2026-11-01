@@ -14,10 +14,10 @@
 ## 2. Bảng tầng gọn
 | Người/tổ chức | Vai trò | Tầng | Loại phán quyết | Tội danh + mức án | Kháng cáo / ân xá / huỷ án | Nguồn | Ngày kiểm |
 |---|---|---|---|---|---|---|---|
-| **Derek Mylan Alldred** | Bị cáo, kẻ lừa tình | **● CONVICTED** | Nhận tội (21/12/2017), toà chấp nhận và tuyên án | 1 tội mail fraud + 2 tội aggravated identity theft; 288 tháng tù; bồi hoàn $254.892,41 | Kháng cáo bị bác, 5th Cir. No. 18-40813 (25/7/2019, AFFIRMED). Trang ân xá Trump 2025–nay (cập nhật 20/10/2026): không có tên. Danh sách Biden: **chưa kiểm** (URL đoán trả 404). BOP 01/11/2026: còn thụ án, ra tù dự kiến 2036 → không có dấu hiệu giảm án tới mức mãn hạn | N1; N2 tr. 1–3; N3; N4 | 01/11/2026 |
+| **Derek Mylan Alldred** | Bị cáo, kẻ lừa tình | **● CONVICTED** | Nhận tội (21/12/2017), toà chấp nhận và tuyên án | 1 tội mail fraud + 2 tội aggravated identity theft; 288 tháng tù; bồi hoàn $254.892,41 | Kháng cáo bị bác, 5th Cir. No. 18-40813 (25/7/2019, AFFIRMED). Trang ân xá Trump 2025–nay (cập nhật 20/10/2026): không có tên. Danh sách Biden (tác tử kiểm, 01/11/2026): 0 kết quả trong HTML và các PDF có text; 16 PDF bản quét chưa tìm chữ được. BOP 01/11/2026: còn thụ án, ra tù dự kiến 2036 → không có dấu hiệu giảm án tới mức mãn hạn | N1; N2 tr. 1–3; N3; N4 (ngày nhận tội 21/12/2017 và số bồi hoàn chỉ có ở N1; N2 không nêu) | 01/11/2026 |
 | Phụ nữ ở The Colony, TX (nạn nhân 1) | Nạn nhân | KHÔNG BỊ CÁO BUỘC | — | — | — | N1 | 01/11/2026 |
 | Phụ nữ ở Dallas (nạn nhân 2) | Nạn nhân | KHÔNG BỊ CÁO BUỘC | — | — | — | N1 | 01/11/2026 |
-| Nạn nhân khác (≈ 25 người theo công tố, ở CA, NV, MN, HI) | Nạn nhân | KHÔNG BỊ CÁO BUỘC | — | — | — | N1 | 01/11/2026 |
+| Nạn nhân khác (**ít nhất 25** người theo công tố — N1 đ. 3 "at least 25"; sửa theo kiem, ở CA, NV, MN, HI) | Nạn nhân | KHÔNG BỊ CÁO BUỘC | — | — | — | N1 | 01/11/2026 |
 | U.S. Navy, Bộ Quốc phòng, Southern Methodist University | Danh nghĩa bị mạo xưng | KHÔNG BỊ CÁO BUỘC | — | — | — | N1 | 01/11/2026 |
 | NCIS, Cảnh sát The Colony, Fort Worth PD | Cơ quan điều tra | Không áp dụng | — | — | — | N1 | 01/11/2026 |
 

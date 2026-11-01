@@ -17,7 +17,9 @@
 | Ishan Wahi | Quản lý sản phẩm, nhóm niêm yết Coinbase | ● CONVICTED | Nhận tội được toà chấp nhận | 2 tội âm mưu wire fraud; 24 tháng tù; tịch thu 10,97 ETH + 9.440 USDT | Chưa thấy hồ sơ kháng cáo (docket chưa mở được); không có tên trong danh sách ân xá DOJ đã mở (N10) | N5; N6; N7; N10 | 01/11/2026 |
 | Ishan Wahi (dân sự) | Bị đơn SEC | ◐ (consent) | Thoả thuận — “not to deny” | Lệnh cấm; hoàn trả coi như đã thực hiện | — | N7; N8 | 01/11/2026 |
 | Nikhil Wahi | Em trai; người giao dịch | ● CONVICTED | Nhận tội | 1 tội âm mưu wire fraud; 10 tháng tù; tịch thu 892.500 USD | Không có tên trong danh sách ân xá đã mở (N10) | N3; N4; N7 | 01/11/2026 |
+| Nikhil Wahi (dân sự) | Bị đơn SEC | ◐ (consent) | Thoả thuận | Theo N7 (sửa theo kiem/coinbase-wahi.md) | — | N7 | 01/11/2026 |
 | Sameer Ramani | Bạn; người giao dịch | ◐ ALLEGED | Hình sự: chỉ bị truy tố, “remains at large” (2022); dân sự: phán quyết **vắng mặt** (default) 01/03/2024 — không phải sau xét xử | (Dân sự) hoàn trả 817.602 USD, phạt 1.635.204 USD | Chưa thấy thông tin bắt/dẫn độ trong hồ sơ cơ quan đã mở | N1; N2; N9 | 01/11/2026 |
+| ↳ BOP (tra 01/11/2026, theo kiem) | | Ishan Wahi ra tù 27/09/2024 (FCI Fort Dix). Lưu ý N8 tr. 2 ¶IV: "true and admitted" chỉ cho mục đích miễn nợ phá sản → không viết thành "admitted". Số tịch thu 10,97 ETH + 9.440 USDT chỉ có ở N7 (SEC) | | | | BOP; N7; N8 | 01/11/2026 |
 | Coinbase Global, Inc. | Công ty có thông tin bị lấy | **KHÔNG BỊ CÁO BUỘC** | — | — | DOJ cảm ơn Coinbase đã hợp tác (N1) | N1 | 01/11/2026 |
 | Nhân viên an ninh Coinbase; tài khoản Twitter phát hiện ví | Nhân chứng / người phát hiện | KHÔNG BỊ CÁO BUỘC | — | — | — | N5 | 01/11/2026 |
 | Người mua bán phía bên kia | Bên chịu thiệt chung | KHÔNG BỊ CÁO BUỘC | — | — | — | — | 01/11/2026 |

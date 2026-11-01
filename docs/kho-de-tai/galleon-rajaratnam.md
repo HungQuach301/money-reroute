@@ -15,14 +15,18 @@
 | Người/tổ chức | Vai trò | Tầng | Loại phán quyết | Tội danh + mức án | Kháng cáo / ân xá / huỷ án | Nguồn | Ngày kiểm |
 |---|---|---|---|---|---|---|---|
 | Raj Rajaratnam | Sáng lập, điều hành Galleon | ● CONVICTED | Sau xét xử (bồi thẩm) | 5 tội âm mưu + 9 tội gian lận chứng khoán; 132 tháng tù, tịch thu 53,8 tr. USD, phạt 10 tr. USD | CA2 giữ nguyên 24/06/2013; tái thẩm bị bác 18/11/2013; cert bị bác 16/06/2014. Không có tên trong các danh sách ân xá DOJ đã mở (N7) | N1 tr. 1, 15, 29; N3; N7 | 01/11/2026 |
-| Raj Rajaratnam (dân sự) | Bị đơn vụ SEC | Chưa xếp tầng dân sự (dùng trụ ● hình sự) | Phán quyết cuối của toà; căn cứ (xét xử / vắng mặt / khác) **chưa mở được** | Phạt dân sự 92.805.705 USD; lệnh cấm vĩnh viễn | — | N4 | 01/11/2026 |
+| Raj Rajaratnam (dân sự) | Bị đơn vụ SEC | Chưa xếp tầng dân sự (dùng trụ ● hình sự) | Phán quyết cuối của toà; căn cứ (xét xử / vắng mặt / khác) **chưa mở được** | Phạt dân sự 92.805.705 USD; lệnh cấm vĩnh viễn | Một vụ SEC thứ hai với Rajaratnam "remains pending" theo N4; kết cục chưa mở | N4 | 01/11/2026 |
 | Rajat K. Gupta | Thành viên HĐQT Goldman Sachs; người cung cấp tin | ● CONVICTED | Sau xét xử (bồi thẩm) | 3 tội gian lận chứng khoán + 1 tội âm mưu; 24 tháng tù, phạt 5 tr. USD, bồi hoàn 6.218.223,59 USD (bản sửa 02/2013) | CA2 giữ nguyên 25/03/2014; diễn biến sau 2014 chưa kiểm; không có tên trong danh sách ân xá đã mở (N7) | N2 tr. 1–2, 4; N7 | 01/11/2026 |
+| Rajat K. Gupta (dân sự) | Bị đơn vụ SEC (kiện 26/10/2011, N4) | Chưa xếp tầng dân sự (dùng trụ ● hình sự) | Kết cục chưa mở | — | — | N4 | 01/11/2026 |
 | Ali Far | Cựu nhân viên Galleon, sáng lập quỹ khác | ● CONVICTED | Nhận tội (thoả thuận hợp tác) | 1 tội âm mưu + 1 tội gian lận chứng khoán; 1 năm quản chế, phạt 100.000 USD | — | N5 | 01/11/2026 |
 | Galleon Management LP | Công ty tư vấn quỹ | ◐ ALLEGED | Phán quyết theo thoả thuận (consent), 27/10/2011 | Lệnh cấm; liên đới trách nhiệm tài chính | — | N4 | 01/11/2026 |
-| Các nguồn tin nội bộ khác (≥ 4 người: partner McKinsey, lãnh đạo Intel, quản lý quỹ khác, cựu nhân viên Galleon) | Người cung cấp tin | Chưa xác minh từng người | Chưa mở hồ sơ | — | — | N1 tr. 4–5 | 01/11/2026 |
-| Một người thân của bị cáo, cựu quản lý danh mục Galleon | Bị truy tố riêng | **Được tuyên vô tội** (2014) | Sau xét xử — trắng án | — | — | N6 | 01/11/2026 |
+| Anil Kumar (khi đó partner McKinsey) và Rajiv Goel (khi đó nhân viên Intel) | Người cung cấp tin | ● CONVICTED | Nhận tội (thoả thuận hợp tác) | Mỗi người 2 năm quản chế (2012); tội danh cụ thể chưa mở hồ sơ | Chưa kiểm | N8 (sửa theo kiem/galleon-rajaratnam.md) | 01/11/2026 |
+| Các nguồn tin khác nêu trong N1 tr. 4–5 (quản lý quỹ khác, cựu nhân viên Galleon…) | Người cung cấp tin | Chưa có hồ sơ kết cục đã mở → **không nêu tên, không xếp tầng** | — | — | — | N1 tr. 4–5 | 01/11/2026 |
+| Một người thân của bị cáo, cựu quản lý danh mục Galleon | Bị truy tố riêng (N8, 2013) | **KHÔNG BỊ CÁO BUỘC (đã trắng án)** — bồi thẩm tuyên không có tội ở "the sole count that the jury was permitted to consider" (N6), 2014; **không nêu tên**, không ám chỉ (luật 2). Vụ SEC dân sự với người này: kết cục chưa mở | Sau xét xử — trắng án | — | — | N6; N8 | 01/11/2026 |
 | Nhân viên Galleon/Goldman ra làm chứng; trợ lý | Nhân chứng | KHÔNG BỊ CÁO BUỘC | — | — | — | N2 tr. 4–5 | 01/11/2026 |
 | Nhà đầu tư thị trường (phía bên kia các giao dịch) | Bên chịu thiệt chung | KHÔNG BỊ CÁO BUỘC | — | — | — | — | 01/11/2026 |
+
+Trạng thái BOP (tra 01/11/2026, theo kiem/galleon-rajaratnam.md): Rajaratnam ra tù 16/04/2021; Gupta ra tù 11/03/2016. Kịch bản: Gupta bị buộc 6 tội nhưng bị kết án 4 — không nói "6 tội". Kiểm ân xá Trump 2017–2021: 0 kết quả (tác tử kiểm); trang Obama 404 (chưa kiểm được).
 
 Ghi chú: Goldman Sachs, McKinsey, Intel là **công ty có thông tin bị lấy**, không bị cáo buộc trong các hồ sơ đã mở; nêu tên được vì hồ sơ nêu, kèm câu “not accused of wrongdoing”.
 
@@ -81,4 +85,5 @@ Giới hạn: 50 kết quả theo độ liên quan, không phải toàn bộ; kh
 | N5 | DOJ (USAO S.D.N.Y.) | Ali Far sentenced | — | S.D.N.Y. | 11/02/2013 | https://www.justice.gov/usao-sdny/pr/former-galleon-group-employee-and-hedge-fund-founder-ali-far-sentenced-manhattan | toàn bài | 01/11/2026, 200, API press_releases | — |
 | N6 | DOJ (USAO S.D.N.Y.) | Statement on acquittal | — | S.D.N.Y. | 08/07/2014 | https://www.justice.gov/usao-sdny/pr/statement-manhattan-us-attorney-preet-bharara-acquittal-rengan-rajaratnam | toàn bài | 01/11/2026, 200, API press_releases | — |
 | N7 | DOJ Office of the Pardon Attorney | Clemency grants Trump 2025–nay (cập nhật 20/10/2026); pardons + commutations Biden 2021–2025 | — | — | 01/11/2026 | https://www.justice.gov/pardon/clemency-grants-president-donald-j-trump-2025-present ; …/pardons-granted-president-joseph-biden-2021-2025 ; …/commutations-granted-president-joseph-biden-2021-2025 | tìm “Rajaratnam”, “Gupta”: 0 kết quả | 01/11/2026, 200, trực tiếp | — |
+| N8 | DOJ (USAO S.D.N.Y.) | Insider trading charges against former Galleon portfolio manager (cáo trạng người thân; đoạn cuối nêu Kumar, Goel nhận tội, 2 năm quản chế 2012) | — | S.D.N.Y. | 21/03/2013 | https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-and-fbi-assistant-director-charge-announce-insider-trading-3 | toàn văn | 01/11/2026, HTTP 200, API DOJ (phiên chính mở lại) | JSON, không lưu |
 | — | S.D.N.Y. | Judgment, US v. Rajaratnam | 1:09-cr-01184 | S.D.N.Y. | 25/10/2011 | — | — | **chưa mở được** (không tìm thấy bản RECAP; PACER cấm) | — |

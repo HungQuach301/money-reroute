@@ -17,7 +17,7 @@
 | Người/tổ chức | Vai trò | Tầng | Loại phán quyết | Tội danh + mức án | Kháng cáo / ân xá / huỷ án | Nguồn | Ngày kiểm |
 |---|---|---|---|---|---|---|---|
 | **Olayinka Ilumsa Sunmola** | Bị cáo, cầm đầu đường dây | **● CONVICTED** | Nhận tội không thoả thuận (ngày 3 của phiên xử, 2016), toà chấp nhận và tuyên án | 1 âm mưu (§ 371), 3 mail fraud, 3 wire fraud, 1 interstate extortion (§ 875(d)); 324 tháng tù; bồi hoàn $1.669.050,98 | Kháng cáo bị bác, 7th Cir. No. 17-1299 (16/04/2018, AFFIRM). Trang ân xá Trump 2025–nay (cập nhật 20/10/2026): 0 kết quả. Trang HTML ân xá/giảm án Biden: 0 kết quả (một số tệp PDF đính kèm là bản quét, không tìm chữ được). BOP 01/11/2026: còn thụ án, ra tù dự kiến 2037 | N1; N2 tr. 1–5, 18; N3; N4; N5 | 01/11/2026 |
-| Đồng phạm (không nêu tên trong N1/N2) | "Co-conspirators", "underlings" | KHÔNG XÁC ĐỊNH — không có hồ sơ riêng | — | — | — | N1 đ. 10; N2 tr. 2, 11 | 01/11/2026 |
+| Đồng phạm (không nêu tên trong N1/N2) | "Co-conspirators", "underlings" | Không xếp tầng — **không nêu tên**, không có hồ sơ riêng đã mở (sửa theo kiem: "không xác định" không phải giá trị của HIEN-CHUONG §3) | — | — | — | N1 đ. 10; N2 tr. 2, 11 | 01/11/2026 |
 | Nạn nhân (13 người trong PSR + 39 người bổ sung theo bảng của điều tra viên; thông cáo nói "hundreds of women" được nhắm tới) | Nạn nhân, phụ nữ trưởng thành | KHÔNG BỊ CÁO BUỘC | — | — | — | N2 tr. 4, 14; N1 đ. 1 | 01/11/2026 |
 | Doanh nghiệp bị gian lận thẻ (trong đó một hãng máy tính lỗ > $800.000 — không nêu tên) | Nạn nhân phụ | KHÔNG BỊ CÁO BUỘC | — | — | — | N1 đ. 6 | 01/11/2026 |
 | Match.com; U.S. Army / quân đội Mỹ | Nền tảng bị lợi dụng; danh nghĩa bị mạo xưng | KHÔNG BỊ CÁO BUỘC | — | — | — | N1 đ. 2; N2 tr. 10, 14 | 01/11/2026 |

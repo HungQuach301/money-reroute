@@ -1,6 +1,6 @@
 # Đường dây sextortion từ trong nhà tù nhắm vào quân nhân — Wendell Wilkins · KHO ĐỀ TÀI MR-K1
 > Trụ: lừa tình & sextortion (nạn nhân người lớn). Ngày kiểm: 01/11/2026. Phiên MR-K1. Mã nguồn N# ở §8.
-> **Cảnh báo phạm vi (HIEN-CHUONG §5):** nạn nhân là quân nhân trưởng thành; "cô gái vị thành niên" trong vụ là **nhân vật bịa** dùng để đe doạ (N2 tr. 2–3). Hồ sơ không có nạn nhân vị thành niên. Xem §5 về hai điểm chưa kiểm được tuyệt đối.
+> **Cảnh báo phạm vi (HIEN-CHUONG §5):** nạn nhân là quân nhân — **nguồn không ghi tuổi** ("young men who were in the military"), không nguồn nào nói có nạn nhân vị thành niên (sửa theo kiem); "cô gái vị thành niên" trong vụ là **nhân vật bịa** dùng để đe doạ (N2 tr. 2–3). Hồ sơ không có nạn nhân vị thành niên. Xem §5 về hai điểm chưa kiểm được tuyệt đối.
 
 ## 1. Tóm tắt (mỗi câu có mã nguồn + trang)
 1. Ngày 29/11/2018, Văn phòng Công tố Liên bang D.S.C. công bố 15 người (5 tù nhân Sở Cải huấn South Carolina – SCDC và 10 người bên ngoài) bị truy tố về âm mưu gian lận qua đường dây (wire fraud), tống tiền và rửa tiền (N1).
@@ -16,11 +16,11 @@
 | Người/tổ chức | Vai trò | Tầng | Loại phán quyết | Tội danh + mức án | Kháng cáo / ân xá / huỷ án | Nguồn | Ngày kiểm |
 |---|---|---|---|---|---|---|---|
 | **Wendell Wilkins** | Tù nhân SCDC, "named inmate" đầu tiên trong cáo trạng 2:18-cr-1017 | **● CONVICTED** | Nhận tội | Rửa tiền (N3; cáo trạng: Count 3 = âm mưu rửa tiền §1956(h)); 66 tháng tù + 36 tháng giám sát, sau án bang 12 năm. Số phận Counts 1–2 (wire fraud, tống tiền): **chưa mở được** judgment → không nói ông bị kết án các tội đó | Kháng cáo: chưa xác minh (docket chưa mở). Trang ân xá Trump 2025–nay: không có tên (N7). Biden: chưa kiểm. BOP: có bản ghi trùng tên nhưng **không khớp chắc** (tuổi, lịch thi hành) → không dùng | N1; N2 tr. 1–5; N3; N7 | 01/11/2026 |
-| Jimmy Dunbar Jr. | Tù nhân SCDC, cáo trạng riêng 2:18-cr-1023 | ● CONVICTED | Nhận tội | Âm mưu wire fraud, rửa tiền, tống tiền; 46 tháng nối tiếp án bang | Chưa kiểm | N4 | 01/11/2026 |
+| Jimmy Dunbar Jr. | Tù nhân SCDC, cáo trạng riêng 2:18-cr-1023 | ● CONVICTED | Nhận tội | Âm mưu wire fraud, rửa tiền, tống tiền; 46 tháng nối tiếp án bang | Chưa kiểm | N4; số vụ 2:18-cr-1023 xác nhận qua tệp đính kèm thứ hai của N1 (justice.gov/file/979146/dl, caption "Jimmy Dunbar, Jr., Mitchlene Padgett") — sửa theo kiem | 01/11/2026 |
 | 13 đồng bị cáo khác trong 5 cáo trạng (tù nhân và người nhận tiền) | Bị cáo | ◐ ALLEGED mặc định; một số đã nhận tội (N5) nhưng **chưa kiểm từng người** | — | — | — | N1; N5 | 01/11/2026 |
 | → Đề xuất: **không nêu tên** các đồng bị cáo; nói "co-defendants who collected the money". | | | | | | | |
-| Darnell Khan; Dexter Lawrence; Javarius Teague | Tù nhân SCDC trong các vụ **cùng mô thức**, truy tố riêng | ● CONVICTED (nhận tội; 84 / 70 / 33 tháng) | Nhận tội | Xem N6 (chỉ dùng nếu tập mở rộng; mỗi vụ cần mở hồ sơ riêng) | Chưa kiểm | N6 | 01/11/2026 |
-| Quân nhân bị tống tiền (> 300 theo công tố; ≥ 25 gắn với Wilkins; một nạn nhân chỉ ghi chữ cái đầu trong Count 2) | Nạn nhân | KHÔNG BỊ CÁO BUỘC | — | — | — | N2 tr. 4; N3 | 01/11/2026 |
+| Darnell Khan; Dexter Lawrence; Javarius Teague | Tù nhân SCDC trong các vụ **cùng mô thức**, truy tố riêng | ● CONVICTED (Khan, Lawrence: nhận tội; Teague: N6 thông cáo 10/5/2024 chỉ ghi "was sentenced to 33 months" — **không** nói nhận tội hay xét xử; sửa theo kiem) | Khan, Lawrence: nhận tội; Teague: chưa rõ | Xem N6 (chỉ dùng nếu tập mở rộng; mỗi vụ cần mở hồ sơ riêng) | Chưa kiểm | N6 | 01/11/2026 |
+| Quân nhân bị tống tiền (> 300 theo công tố; ≥ 25 gắn với Wilkins; một nạn nhân chỉ ghi chữ cái đầu trong Count 2 — **không dùng** chữ cái đầu; nguồn **không ghi tuổi** nạn nhân ("young men who were in the military"); không nguồn nào nói có nạn nhân vị thành niên; "cô gái vị thành niên" là nhân vật bịa của kẻ tống tiền, N2 tr. 3 ¶9) | Nạn nhân | KHÔNG BỊ CÁO BUỘC | — | — | — | N2 tr. 4; N3 | 01/11/2026 |
 | Phụ nữ trong ảnh bị lấy từ Internet | Người bị dùng ảnh trái phép | KHÔNG BỊ CÁO BUỘC | — | — | — | N2 tr. 2, ¶8 | 01/11/2026 |
 | Western Union, MoneyGram, PayPal, Walmart | Kênh chuyển tiền bị lợi dụng | KHÔNG BỊ CÁO BUỘC | — | — | — | N2 tr. 3, ¶10 | 01/11/2026 |
 | SCDC | Nơi xảy ra; phối hợp điều tra | KHÔNG BỊ CÁO BUỘC | — | — | — | N1; N3 | 01/11/2026 |
