@@ -40,3 +40,12 @@ Nhánh `claude/zealous-tesla-7wrjwj` @ `7176e00` (từ `1f2c394`), merge `--no-f
 - **Vi phạm quy trình (không gây hại):** tác tử nghiên cứu Woodbridge thử viết script vượt trang chống bot justice.gov; bị chặn, dừng, phiên báo trung thực. Điều phối thêm luật "Không vượt rào truy cập" vào `CLAUDE.md`.
 - Đề xuất của phiên (nhãn cho người/tổ chức không bị cáo buộc) → trình chủ dự án.
 - Khuyến nghị điều phối: đồng ý chọn **A Woodbridge** cho tập 1; B giữ tập 2; C chỉ khi có quy tắc ẩn danh cấp thị trấn.
+
+## MR-1 · 01/11/2026 21:29 (giờ Hà Nội) · Chủ dự án: định hướng nội dung → HIẾN CHƯƠNG v2
+Chủ dự án (21:20–21:29): mỗi tập một câu chuyện, chấp nhận dài kỳ, kịch tính, cuốn hút; bài học tài chính, đầu tư, tài chính cá nhân, tội phạm, nhận diện lừa đảo, kể cả yếu tố tình dục; (1) **loại bỏ những điểm có rủi ro bị kiện**; (2) chi tiết tội phạm sâu (vd rửa tiền) được đưa vào dạng bài học, lý giải, nhận diện; (3) bài học không giới hạn ở tài chính cá nhân; đảm bảo duy trì nội dung dài hạn.
+Điều phối áp vào `docs/HIEN-CHUONG.md` (v2):
+- §1: mỗi tập trọn một câu chuyện, cho phép nhiều phần; bài học rộng; "giải thích được, không hướng dẫn làm" (ranh giới khái niệm ↔ thao tác, phép thử "làm theo được ngay"); không khuyên đầu tư **cụ thể**, nguyên tắc chung được nói.
+- §3 luật 3: tin đồn về người/tổ chức có tên **CẤM** (trước: mặc định không dùng). Luật 8 mới "loại điểm có rủi ro bị kiện": nhân vật trung tâm phải ●; ◐ chỉ cho vai phụ trong vụ có trụ ● hoặc vụ đã dàn xếp xong; hành vi hợp pháp-có-hại không nêu tên; không gán nhãn khi chưa ●; thương hiệu bị mạo danh kèm câu không liên quan; không suy đoán động cơ/đời tư.
+- §5: chủ đề có yếu tố tình dục — chỉ nạn nhân người lớn, không hình/mô tả tình dục; không làm tập có nạn nhân vị thành niên trong vụ tình dục.
+- Diễn giải của điều phối cần chủ dự án xác nhận: "sex" = lừa đảo/tội phạm có yếu tố tình cảm, tình dục (lừa tình, sextortion). Vùng xám X1 (hợp pháp-có-hại) giữ được ở dạng **không nêu tên**; X2 (chỉ cáo buộc) chỉ còn ở vai phụ.
+- Còn chờ: D2 khuôn dài kỳ, nhãn "KHÔNG BỊ CÁO BUỘC", gói duy trì dài hạn.

@@ -1,13 +1,14 @@
-# MONEY REROUTE — HIẾN CHƯƠNG v1
+# MONEY REROUTE — HIẾN CHƯƠNG v2
 
-> Trạng thái: **ĐÃ DUYỆT** — chủ dự án duyệt PA-A (bản nháp MR-0 + 6 bổ sung điều phối) 01/11/2026 20:08 (giờ Hà Nội), NHAT-KY mục quyết định sau rà MR-0. Nguồn thẩm quyền số một về nội dung; mọi tệp khác phải khớp. Hiến chương < 2 trang.
+> Trạng thái: **ĐÃ DUYỆT** — v1: chủ dự án duyệt PA-A 01/11/2026 20:08; **v2**: quyết định định hướng 01/11/2026 21:29 (câu chuyện kịch tính, bài học rộng, giải thích cơ chế, loại điểm có rủi ro bị kiện) — NHAT-KY mục tương ứng (giờ Hà Nội). Nguồn thẩm quyền số một về nội dung; mọi tệp khác phải khớp. Hiến chương < 2 trang.
 > Căn cứ khuôn: `lost-places-lab` (BIBLE §7 luật 3 tầng, §7.1 nhạy cảm, §10 khai AI) và `crux-lab` (CHARTER §4 nhân vật ILLUSTRATIVE, RIGHTS §F footage ngoài) — chỉ mượn cấu trúc, không mượn kết luận.
 
 ## 1. Định vị
-- **Kênh:** drama bài học tài chính / lừa đảo, **tiếng Anh Mỹ (en-US**: chính tả, đơn vị, cách viết số và ngày theo Mỹ), không lộ mặt. Mỗi tập kể **một vụ có hồ sơ công khai** như một câu chuyện có nhịp phim, và kết bằng **các dấu hiệu nhận diện** người xem dùng được.
+- **Kênh:** drama bài học tài chính / lừa đảo, **tiếng Anh Mỹ (en-US**: chính tả, đơn vị, cách viết số và ngày theo Mỹ), không lộ mặt. Mỗi tập kể **trọn một câu chuyện** (một vụ có hồ sơ công khai) có nhịp phim: kịch tính, cuốn hút, đúng sự thật; vụ lớn có thể chia nhiều phần theo tiêu chí ở QUY-TRINH.
+- **Bài học rộng:** giúp người xem hiểu tài chính, đầu tư, tài chính cá nhân, cách tội phạm tài chính vận hành (Ponzi, rửa tiền, gian lận doanh nghiệp, lừa đảo tình cảm/tình dục…) và **dấu hiệu nhận diện** gian lận, lừa đảo. Mỗi tập có ít nhất một bài học hiểu biết và một bộ dấu hiệu nhận diện, gắn với chi tiết của vụ.
 - **Lời hứa (EN, nháp):** *"Real cases from the public record — how the money was rerouted, and the red flags you can spot next time."*
-- **Chỉ dạy nhận diện, không dạy làm.** Tập giải thích *vì sao* nạn nhân tin và *dấu hiệu nào* lẽ ra phải thấy. **Không** hướng dẫn từng bước cách lừa, cách rửa tiền, cách né cơ quan chức năng; chi tiết cơ chế chỉ ở mức đủ hiểu dấu hiệu.
-- **Không khuyên đầu tư**, không khuyên pháp lý, không dự báo thị trường. Câu kết hướng tới nguồn chính thức (SEC, FTC, CFPB…), không tới sản phẩm.
+- **Giải thích được, không hướng dẫn làm.** **Được:** cơ chế ở mức khái niệm — các giai đoạn (vd rửa tiền: đưa vào – phân lớp – hoà nhập), vì sao kẻ gian làm vậy, dấu vết để lại, cơ quan/ngân hàng phát hiện ra sao, dấu hiệu người thường và tổ chức nhận ra, và hậu quả pháp lý. **Không:** trình tự thao tác làm theo được; cách né ngưỡng báo cáo, KYC hay cơ quan chức năng; tên công cụ/dịch vụ che giấu kèm cách dùng; kịch bản lời dụ, tin nhắn, trang web lừa đảo chép dùng được; địa chỉ ví, URL, số điện thoại thật của kẻ gian. Phép thử: một người xem có ý xấu có làm theo được ngay không — có → bỏ.
+- **Không khuyên đầu tư cụ thể** (sản phẩm, mã, tỷ trọng), không khuyên pháp lý, không dự báo thị trường; nguyên tắc chung (lãi cao đi kèm rủi ro, kiểm đăng ký người bán, phân tán) được nói. Câu kết hướng tới nguồn chính thức (SEC, FTC, CFPB…), không tới sản phẩm.
 
 ## 2. Nguồn được dùng
 - **Hồ sơ sơ cấp công khai:** SEC (litigation releases, complaints, administrative proceedings), DOJ (thông cáo, cáo trạng, bản án), FTC (complaints, orders), toà án (PACER/CourtListener: cáo trạng, phán quyết, biên bản tuyên án). Báo chí lớn chỉ để **bổ sung bối cảnh**, không làm trụ cho câu về tội.
@@ -23,11 +24,12 @@
 Luật thi hành:
 1. Kịch bản đánh nhãn tầng **từng câu** (`loi.json`); câu không nhãn không được thu âm.
 2. **Không nâng tầng:** không biến BỊ CÁO BUỘC thành ĐÃ KẾT ÁN bằng giọng chắc chắn; bị cáo được tuyên vô tội/huỷ án → nói rõ, không ám chỉ.
-3. **Tin đồn về người cụ thể có tên: mặc định KHÔNG dùng.** Chỉ dùng khi bản thân tin đồn là một phần hồ sơ (vd được nhắc trong đơn kiện) và không nêu tên cá nhân không bị cáo buộc.
+3. **Tin đồn về người/tổ chức có tên: CẤM** (v2). Tầng ○ chỉ còn dùng cho tin đồn **không gắn tên** (vd "online claims say…" về một loại thủ đoạn).
 4. Kiểm trạng thái vụ **ngày chốt lời** và **ngày đăng** (kháng cáo, ân xá, huỷ án); ghi ngày kiểm vào gói phát hành.
 5. Người không bị cáo buộc (nạn nhân, nhân chứng, người nhà): không nêu tên trừ khi đã công khai tự nguyện và cần cho truyện.
 6. **Ca đặc biệt:** (a) thoả thuận hoãn/không truy tố (DPA/NPA) — không phải kết án: ◐, nói "entered a deferred (non-) prosecution agreement" và **chỉ** dùng phần sự việc tổ chức đã thừa nhận trong thoả thuận, ghi đúng là thừa nhận trong thoả thuận; (b) bị cáo chết trước phán quyết cuối (kể cả khi bản án bị huỷ vì chết trong lúc kháng cáo) — nói đúng trạng thái cuối, không gọi là "convicted" nếu bản án đã bị huỷ; (c) ân xá/giảm án — vẫn ● nhưng luôn nói kèm "was later pardoned / had the sentence commuted".
 7. Mỗi bảng tầng ghi rõ loại phán quyết (sau xét xử / thoả thuận không thừa nhận / DPA-NPA) — đây là cột kiểm tầng bắt buộc.
+8. **Loại điểm có rủi ro bị kiện** (v2): (a) nhân vật trung tâm của tập phải ở tầng ●; (b) ◐ chỉ dùng cho người/tổ chức phụ trong vụ đã có trụ ●, hoặc vụ cơ quan đã khép lại bằng dàn xếp — **không** làm tập về vụ đang xử mà nhân vật chính chỉ ◐; (c) hành vi hợp pháp nhưng có hại: chỉ nói về loại sản phẩm/thủ đoạn, **không nêu tên** người/công ty chưa bị cơ quan/toà kết luận; (d) không gán nhãn ("fraudster", "con man", "scammer", "monster"…) cho ai chưa ●; với ● chỉ dùng từ đúng tội danh; (e) thương hiệu/người bị mạo danh chỉ nêu khi hồ sơ nêu, kèm câu nói rõ họ không liên quan; (f) không suy đoán động cơ, tâm lý, đời tư của người thật ngoài hồ sơ.
 
 ## 4. Hình ảnh người thật và nhân vật minh hoạ
 - **Không mặt người thật**: không ảnh chụp, không footage, không chân dung AI, không phác hoạ nhận ra được, không giọng nhái của bị cáo, nạn nhân, nhân chứng, quan chức.
@@ -40,6 +42,7 @@ Luật thi hành:
 - Bịa trích dẫn, số tiền, ngày, số vụ, cơ quan, nạn nhân, hoặc "tài liệu rò rỉ" không có nguồn công khai.
 - Trình bày cáo buộc như đã kết án; nói ai đó có tội khi chưa có bản án.
 - Hướng dẫn thực hiện lừa đảo/rửa tiền/né kiểm soát ở mức làm theo được.
+- **Chủ đề có yếu tố tình dục** (lừa tình, sextortion…): chỉ nạn nhân người lớn; không hình hay mô tả tình dục, không dựng ảnh/tin nhắn nhạy cảm; nạn nhân không nhận diện được. **Không làm tập có nạn nhân vị thành niên** trong vụ tình dục; chỉ được nêu thông tin bảo vệ ở mức dấu hiệu chung.
 - Mặt/giọng người thật; hình AI giả làm ảnh tư liệu, ảnh hiện trường, tài liệu toà án thật.
 - Chế giễu nạn nhân; giật gân trên nạn nhân còn sống hoặc thân nhân trực tiếp.
 - Khuyên đầu tư, quảng bá sản phẩm tài chính, liên kết tiếp thị tới nền tảng bị nêu trong vụ.
