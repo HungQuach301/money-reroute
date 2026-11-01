@@ -4,6 +4,7 @@
 # MR-1 (01/11/2026): thêm dòng trần mr1; bao_402() ghi đúng khoản của từng dịch vụ (KHOAN_DICH_VU); thêm YT_DON_GIA,
 # TRAN_LUOT_PHIEN, luot(), check_yt() cho YouTube Data.
 # MR-K1 (01/11/2026): thêm dòng trần mrk1 (youtube_units 2000) + TRAN_LUOT_PHIEN mrk1 (search.list 50) theo lệnh [MR · MR-K1] bước 0.
+# MR-4 (01/11/2026): thêm dòng trần mr4 + mốc báo 80 % + chặn phụ ký tự gửi (TRAN_GUI_PHIEN, gui(), check_gui()) theo lệnh [MR · MR-4] bước 0.
 # Phần lõi (sổ calls.jsonl, spent/pending_est/check/charge/canh_bao) giữ nguyên logic gốc.
 """[MR] Trần chi phí CỨNG theo phiên Money Reroute.
 Sổ = reports/<phiên>/calls.jsonl (commit). Tổng chi tính lại từ sổ mỗi lần kiểm (không sổ tạm → không lệch khi container mới).
@@ -23,10 +24,11 @@ CAPS_PHIEN = {
     "mr0": {},  # MR-0 (khởi tạo repo, lệnh 01/11/2026): 0 USD API mọi khoản; chỉ đọc số dư (GET miễn phí, không qua check()).
     "mr1": {"youtube_units": 3000},  # MR-1 (lệnh điều phối [MR · MR-1] 01/11/2026): youtube_units 3000, search.list ≤ 60 lượt (TRAN_LUOT); mọi khoản khác 0.
     "mrk1": {"youtube_units": 2000},  # MR-K1 kho đề tài (lệnh điều phối [MR · MR-K1] 01/11/2026, bước 0): youtube_units 2000, search.list ≤ 50 lượt; mọi khoản khác 0.
+    "mr4": {"openrouter_usd": 1.60, "elevenlabs_chars": 8000},  # MR-4 M-c phần 1 (lệnh [MR · MR-4] 01/11/2026, bước 0): openrouter 1,60 USD; elevenlabs 8.000 ký tự TÍNH (chặn phụ ≤ 16.000 ký tự gửi, TRAN_GUI_PHIEN); khác 0.
 }
 CAPS = {k: float(CAPS_PHIEN.get(PHIEN, {}).get(k, 0.0)) for k in KHOAN}
 # Mốc báo theo phiên: chạm mốc (đã ghi + đang chờ) mà còn > 20 % việc → DỪNG SINH, báo điều phối. Dạng {"mr1": {"openrouter_usd": 8.0}}.
-DUNG_BAO_PHIEN = {}
+DUNG_BAO_PHIEN = {"mr4": {"openrouter_usd": 1.28, "elevenlabs_chars": 6400}}  # mr4: 80 % trần (lệnh [MR · MR-4] bước 0)
 DUNG_BAO = DUNG_BAO_PHIEN.get(PHIEN, {})
 # Trần SỐ LƯỢT theo phương thức (ngoài trần đơn vị). charge(..., {"method": "search.list"}) được đếm. Căn cứ: lệnh MR-1.
 TRAN_LUOT_PHIEN = {"mr1": {"search.list": 60}, "mrk1": {"search.list": 50}}  # mrk1: lệnh [MR · MR-K1] 01/11/2026
@@ -35,6 +37,10 @@ TRAN_LUOT = TRAN_LUOT_PHIEN.get(PHIEN, {})
 # (trang "Last updated 2026-10-15 UTC", mở 01/11/2026 MR-1). search.list có hạn mức riêng 100 lượt/ngày, mỗi lượt 1;
 # các phương thức còn lại chung 10.000 đơn vị/ngày. youtube_units = tổng đơn giá × số lượt (kể cả lượt lỗi: "at least one point").
 YT_DON_GIA = {"search.list": 1, "videos.list": 1, "channels.list": 1}
+
+# Chặn phụ theo ĐƠN VỊ GỬI (khác đơn vị tính tiền). Sổ ghi meta "gui" (vd ký tự gửi TTS). Căn cứ: lệnh MR-4 (≤ 16.000 ký tự gửi).
+TRAN_GUI_PHIEN = {"mr4": {"elevenlabs_chars": 16000}}
+TRAN_GUI = TRAN_GUI_PHIEN.get(PHIEN, {})
 
 class BudgetStop(RuntimeError): pass
 class Quy402(RuntimeError): pass
@@ -82,6 +88,21 @@ def check_yt(method, so_luot=1):
     if method in TRAN_LUOT and luot(method) + so_luot > TRAN_LUOT[method]:
         raise BudgetStop(f"{method}: đã {luot(method)} + {so_luot} lượt > trần {TRAN_LUOT[method]} lượt ở phiên {PHIEN}")
 
+def gui(kind):
+    """Tổng đơn vị GỬI đã ghi của một khoản (meta "gui" trong sổ)."""
+    n = 0.0
+    if os.path.exists(LOG):
+        for l in open(LOG):
+            if l.strip():
+                d = json.loads(l)
+                if d.get("kind") == kind: n += float(d.get("gui", 0))
+    return n
+
+def check_gui(kind, so_gui):
+    """MR-4: kiểm chặn phụ đơn vị gửi (TRAN_GUI) — gọi cùng check() trước mỗi lượt."""
+    if kind in TRAN_GUI and gui(kind) + so_gui > TRAN_GUI[kind]:
+        raise BudgetStop(f"{kind}: đã gửi {gui(kind):.0f} + {so_gui} > chặn phụ {TRAN_GUI[kind]} ở phiên {PHIEN}")
+
 def charge(kind, amount, meta):
     os.makedirs(os.path.dirname(LOG), exist_ok=True)
     with open(LOG + ".lock", "w") as lk:
@@ -109,4 +130,5 @@ def canh_bao(kind=None):
 
 if __name__ == "__main__":
     print(json.dumps({"phien": PHIEN, "spent": spent(), "pending_est": {k: round(pending_est(k), 4) for k in KHOAN if k.endswith("_usd")},
-                      "caps": CAPS, "dung_bao": DUNG_BAO}, ensure_ascii=False))
+                      "caps": CAPS, "dung_bao": DUNG_BAO,
+                      "gui": {k: gui(k) for k in TRAN_GUI}, "tran_gui": TRAN_GUI}, ensure_ascii=False))
