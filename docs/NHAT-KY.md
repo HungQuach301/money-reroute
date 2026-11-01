@@ -83,3 +83,8 @@ Nhánh `claude/lucid-goldberg-vcpyv1` @ `ca3c7cb` (từ `6296c0e`). Kiểm độ
 - Ước chi: phép tính 3 mức đúng (5,28 / 7,68 / 13,20 USD Veo M-c; 9,22 × V7). Hệ số TTS 0,44 chưa đo trên MR → trần có chặn phụ ký tự gửi.
 - SHOT: không mặt, không logo/giao diện, không tài liệu/tin nhắn dựng lại; danh sách trang hồ sơ cấm crop (SSN, tên người nhận bồi hoàn, email/điện thoại công tố) — đạt.
 - Kiểm lời độc lập của phiên: 102/102 K sau 4 vòng; điều phối không thấy câu nào trái HIEN-CHUONG v2.
+
+## MR-3 · 01/11/2026 22:48 (giờ Hà Nội) · Chủ dự án: giọng + thumbnail
+- **Giọng:** dùng giọng kênh lost-places-lab (BIBLE lost-places §9: W4 "LP-M0b-vd-1", Voice Design, voice_id `kozBJGqBNTqfBBClLNCL`, TTS `eleven_v4`), **không thử giọng lại**. Phiên M-c kiểm trước: voice_id truy cập được từ tài khoản ElevenLabs của MR (GET miễn phí); không được → DỪNG, báo.
+- **Thumbnail:** chủ dự án tự sinh bằng ChatGPT. Áp HIEN-CHUONG §4 (thumbnail theo luật tiêu đề, không mặt người thật, không logo). Tệp đưa vào repo ghi một dòng RIGHTS (công cụ AI, ngày, người tạo).
+- Còn chờ: duyệt G1 (a)(b)(c), tiêu đề, bảng màu, nạp OpenRouter.
