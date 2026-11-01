@@ -1,0 +1,634 @@
+{
+ "doan": "P16",
+ "tep": "lab/mr4/tts/P16.mp3",
+ "ref": "In March twenty twenty-one, according to the S-E-C, he emailed some investors that funds would be released by April ninth, at the latest. The same day, the S-E-C alleged, he suggested to a representative of another investor group that investors could put up money for lawyers in the company's alleged efforts to get payment from H-B-O. In that email, according to the S-E-C, he labeled the option of sharing that cost with investors highly doubtful. Blaming a famous partner, setting a firm new date, raising the idea of investors putting in more money: each one is a reason to slow down, not to send more.",
+ "text": "In March 2021, according to the SEC, he emailed some investors that funds would be released by April 9th at the latest. The same day, the SEC alleged, he suggested to a representative of another investor group that investors could put up money for lawyers in the company's alleged efforts to get payment from HBO. In that email, according to the SEC, he labeled the option of sharing that cost with investors highly doubtful. Blaming a famous partner, setting a firm new date, raising the idea of investors putting in more money, each one is a reason to slow down, not to send more.",
+ "words": [
+  {
+   "w": "In",
+   "s": 0.0,
+   "e": 0.18,
+   "p": 0.774
+  },
+  {
+   "w": "March",
+   "s": 0.18,
+   "e": 0.46,
+   "p": 0.973
+  },
+  {
+   "w": "2021,",
+   "s": 0.46,
+   "e": 1.26,
+   "p": 0.813
+  },
+  {
+   "w": "according",
+   "s": 1.68,
+   "e": 2.04,
+   "p": 0.926
+  },
+  {
+   "w": "to",
+   "s": 2.04,
+   "e": 2.26,
+   "p": 0.995
+  },
+  {
+   "w": "the",
+   "s": 2.26,
+   "e": 2.4,
+   "p": 0.985
+  },
+  {
+   "w": "SEC,",
+   "s": 2.4,
+   "e": 2.82,
+   "p": 0.912
+  },
+  {
+   "w": "he",
+   "s": 3.52,
+   "e": 3.7,
+   "p": 0.972
+  },
+  {
+   "w": "emailed",
+   "s": 3.7,
+   "e": 4.08,
+   "p": 0.973
+  },
+  {
+   "w": "some",
+   "s": 4.08,
+   "e": 4.34,
+   "p": 0.995
+  },
+  {
+   "w": "investors",
+   "s": 4.34,
+   "e": 4.82,
+   "p": 0.997
+  },
+  {
+   "w": "that",
+   "s": 4.82,
+   "e": 5.14,
+   "p": 0.989
+  },
+  {
+   "w": "funds",
+   "s": 5.14,
+   "e": 5.52,
+   "p": 0.997
+  },
+  {
+   "w": "would",
+   "s": 5.52,
+   "e": 5.7,
+   "p": 0.996
+  },
+  {
+   "w": "be",
+   "s": 5.7,
+   "e": 5.88,
+   "p": 0.999
+  },
+  {
+   "w": "released",
+   "s": 5.88,
+   "e": 6.24,
+   "p": 0.998
+  },
+  {
+   "w": "by",
+   "s": 6.24,
+   "e": 6.5,
+   "p": 0.994
+  },
+  {
+   "w": "April",
+   "s": 6.5,
+   "e": 6.86,
+   "p": 0.995
+  },
+  {
+   "w": "9th",
+   "s": 6.86,
+   "e": 7.7,
+   "p": 0.871
+  },
+  {
+   "w": "at",
+   "s": 7.7,
+   "e": 7.8,
+   "p": 0.85
+  },
+  {
+   "w": "the",
+   "s": 7.8,
+   "e": 7.98,
+   "p": 0.994
+  },
+  {
+   "w": "latest.",
+   "s": 7.98,
+   "e": 8.36,
+   "p": 0.998
+  },
+  {
+   "w": "The",
+   "s": 9.12,
+   "e": 9.32,
+   "p": 0.981
+  },
+  {
+   "w": "same",
+   "s": 9.32,
+   "e": 9.58,
+   "p": 0.998
+  },
+  {
+   "w": "day,",
+   "s": 9.58,
+   "e": 9.96,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 10.3,
+   "e": 10.38,
+   "p": 0.99
+  },
+  {
+   "w": "SEC",
+   "s": 10.38,
+   "e": 10.8,
+   "p": 0.988
+  },
+  {
+   "w": "alleged,",
+   "s": 10.8,
+   "e": 11.3,
+   "p": 0.994
+  },
+  {
+   "w": "he",
+   "s": 11.84,
+   "e": 11.96,
+   "p": 0.987
+  },
+  {
+   "w": "suggested",
+   "s": 11.96,
+   "e": 12.44,
+   "p": 0.997
+  },
+  {
+   "w": "to",
+   "s": 12.44,
+   "e": 12.66,
+   "p": 0.998
+  },
+  {
+   "w": "a",
+   "s": 12.66,
+   "e": 12.84,
+   "p": 0.998
+  },
+  {
+   "w": "representative",
+   "s": 12.84,
+   "e": 13.36,
+   "p": 0.996
+  },
+  {
+   "w": "of",
+   "s": 13.36,
+   "e": 13.6,
+   "p": 0.999
+  },
+  {
+   "w": "another",
+   "s": 13.6,
+   "e": 13.96,
+   "p": 0.999
+  },
+  {
+   "w": "investor",
+   "s": 13.96,
+   "e": 14.42,
+   "p": 0.995
+  },
+  {
+   "w": "group",
+   "s": 14.42,
+   "e": 14.76,
+   "p": 0.997
+  },
+  {
+   "w": "that",
+   "s": 14.76,
+   "e": 15.24,
+   "p": 0.935
+  },
+  {
+   "w": "investors",
+   "s": 15.24,
+   "e": 15.7,
+   "p": 0.999
+  },
+  {
+   "w": "could",
+   "s": 15.7,
+   "e": 15.94,
+   "p": 0.997
+  },
+  {
+   "w": "put",
+   "s": 15.94,
+   "e": 16.14,
+   "p": 0.996
+  },
+  {
+   "w": "up",
+   "s": 16.14,
+   "e": 16.34,
+   "p": 0.995
+  },
+  {
+   "w": "money",
+   "s": 16.34,
+   "e": 16.54,
+   "p": 0.998
+  },
+  {
+   "w": "for",
+   "s": 16.54,
+   "e": 16.78,
+   "p": 0.999
+  },
+  {
+   "w": "lawyers",
+   "s": 16.78,
+   "e": 17.16,
+   "p": 0.999
+  },
+  {
+   "w": "in",
+   "s": 17.16,
+   "e": 17.4,
+   "p": 0.958
+  },
+  {
+   "w": "the",
+   "s": 17.4,
+   "e": 17.56,
+   "p": 0.999
+  },
+  {
+   "w": "company's",
+   "s": 17.56,
+   "e": 18.04,
+   "p": 0.984
+  },
+  {
+   "w": "alleged",
+   "s": 18.04,
+   "e": 18.44,
+   "p": 0.998
+  },
+  {
+   "w": "efforts",
+   "s": 18.44,
+   "e": 18.86,
+   "p": 0.995
+  },
+  {
+   "w": "to",
+   "s": 18.86,
+   "e": 19.1,
+   "p": 0.999
+  },
+  {
+   "w": "get",
+   "s": 19.1,
+   "e": 19.24,
+   "p": 1.0
+  },
+  {
+   "w": "payment",
+   "s": 19.24,
+   "e": 19.6,
+   "p": 0.997
+  },
+  {
+   "w": "from",
+   "s": 19.6,
+   "e": 19.9,
+   "p": 0.998
+  },
+  {
+   "w": "HBO.",
+   "s": 19.9,
+   "e": 20.36,
+   "p": 0.989
+  },
+  {
+   "w": "In",
+   "s": 21.34,
+   "e": 21.62,
+   "p": 0.996
+  },
+  {
+   "w": "that",
+   "s": 21.62,
+   "e": 21.84,
+   "p": 0.999
+  },
+  {
+   "w": "email,",
+   "s": 21.84,
+   "e": 22.26,
+   "p": 0.994
+  },
+  {
+   "w": "according",
+   "s": 22.56,
+   "e": 22.86,
+   "p": 0.993
+  },
+  {
+   "w": "to",
+   "s": 22.86,
+   "e": 23.04,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 23.04,
+   "e": 23.2,
+   "p": 0.996
+  },
+  {
+   "w": "SEC,",
+   "s": 23.2,
+   "e": 23.7,
+   "p": 0.993
+  },
+  {
+   "w": "he",
+   "s": 24.14,
+   "e": 24.54,
+   "p": 0.995
+  },
+  {
+   "w": "labeled",
+   "s": 24.54,
+   "e": 24.82,
+   "p": 0.974
+  },
+  {
+   "w": "the",
+   "s": 24.82,
+   "e": 25.04,
+   "p": 0.998
+  },
+  {
+   "w": "option",
+   "s": 25.04,
+   "e": 25.36,
+   "p": 0.998
+  },
+  {
+   "w": "of",
+   "s": 25.36,
+   "e": 25.5,
+   "p": 0.999
+  },
+  {
+   "w": "sharing",
+   "s": 25.5,
+   "e": 25.84,
+   "p": 0.988
+  },
+  {
+   "w": "that",
+   "s": 25.84,
+   "e": 26.1,
+   "p": 0.998
+  },
+  {
+   "w": "cost",
+   "s": 26.1,
+   "e": 26.46,
+   "p": 0.996
+  },
+  {
+   "w": "with",
+   "s": 26.46,
+   "e": 26.68,
+   "p": 0.999
+  },
+  {
+   "w": "investors",
+   "s": 26.68,
+   "e": 27.28,
+   "p": 0.998
+  },
+  {
+   "w": "highly",
+   "s": 27.28,
+   "e": 27.98,
+   "p": 0.209
+  },
+  {
+   "w": "doubtful.",
+   "s": 27.98,
+   "e": 28.52,
+   "p": 0.993
+  },
+  {
+   "w": "Blaming",
+   "s": 29.34,
+   "e": 29.9,
+   "p": 0.756
+  },
+  {
+   "w": "a",
+   "s": 29.9,
+   "e": 30.1,
+   "p": 0.996
+  },
+  {
+   "w": "famous",
+   "s": 30.1,
+   "e": 30.4,
+   "p": 0.997
+  },
+  {
+   "w": "partner,",
+   "s": 30.4,
+   "e": 30.88,
+   "p": 0.994
+  },
+  {
+   "w": "setting",
+   "s": 31.34,
+   "e": 31.56,
+   "p": 0.987
+  },
+  {
+   "w": "a",
+   "s": 31.56,
+   "e": 31.84,
+   "p": 0.998
+  },
+  {
+   "w": "firm",
+   "s": 31.84,
+   "e": 32.0,
+   "p": 0.988
+  },
+  {
+   "w": "new",
+   "s": 32.0,
+   "e": 32.22,
+   "p": 0.955
+  },
+  {
+   "w": "date,",
+   "s": 32.22,
+   "e": 32.62,
+   "p": 0.996
+  },
+  {
+   "w": "raising",
+   "s": 33.08,
+   "e": 33.4,
+   "p": 0.97
+  },
+  {
+   "w": "the",
+   "s": 33.4,
+   "e": 33.64,
+   "p": 0.998
+  },
+  {
+   "w": "idea",
+   "s": 33.64,
+   "e": 34.0,
+   "p": 0.995
+  },
+  {
+   "w": "of",
+   "s": 34.0,
+   "e": 34.22,
+   "p": 0.998
+  },
+  {
+   "w": "investors",
+   "s": 34.22,
+   "e": 34.64,
+   "p": 0.995
+  },
+  {
+   "w": "putting",
+   "s": 34.64,
+   "e": 34.98,
+   "p": 0.989
+  },
+  {
+   "w": "in",
+   "s": 34.98,
+   "e": 35.2,
+   "p": 0.994
+  },
+  {
+   "w": "more",
+   "s": 35.2,
+   "e": 35.4,
+   "p": 0.997
+  },
+  {
+   "w": "money,",
+   "s": 35.4,
+   "e": 35.82,
+   "p": 0.999
+  },
+  {
+   "w": "each",
+   "s": 36.58,
+   "e": 36.76,
+   "p": 0.971
+  },
+  {
+   "w": "one",
+   "s": 36.76,
+   "e": 37.14,
+   "p": 0.998
+  },
+  {
+   "w": "is",
+   "s": 37.14,
+   "e": 37.36,
+   "p": 0.996
+  },
+  {
+   "w": "a",
+   "s": 37.36,
+   "e": 37.52,
+   "p": 0.982
+  },
+  {
+   "w": "reason",
+   "s": 37.52,
+   "e": 37.74,
+   "p": 0.999
+  },
+  {
+   "w": "to",
+   "s": 37.74,
+   "e": 37.98,
+   "p": 0.999
+  },
+  {
+   "w": "slow",
+   "s": 37.98,
+   "e": 38.2,
+   "p": 0.992
+  },
+  {
+   "w": "down,",
+   "s": 38.2,
+   "e": 38.74,
+   "p": 0.998
+  },
+  {
+   "w": "not",
+   "s": 39.14,
+   "e": 39.3,
+   "p": 0.997
+  },
+  {
+   "w": "to",
+   "s": 39.3,
+   "e": 39.48,
+   "p": 0.991
+  },
+  {
+   "w": "send",
+   "s": 39.48,
+   "e": 39.68,
+   "p": 0.99
+  },
+  {
+   "w": "more.",
+   "s": 39.68,
+   "e": 40.0,
+   "p": 0.999
+  }
+ ],
+ "dur": 40.32,
+ "lech": []
+}

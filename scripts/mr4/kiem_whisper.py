@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """MR-4 · Kiểm lời đã thu bằng whisper cục bộ (faster-whisper medium.en, CPU, 0 USD).
   python3 scripts/mr4/kiem_whisper.py P00 P01 …        # mặc định lab/mr4/tts/<P>.mp3 (có <P>_l2.mp3 thì kiểm bản đó với --l2)
+  python3 scripts/mr4/kiem_whisper.py --so-chu P00 …   # lượt 2: chặn token chữ số → số chép bằng chữ, so từng từ (ra <P>_sochu.json)
 Ghi reports/mr4/whisper/<tệp>.json (bản chép + từ có mốc giờ) và in các đoạn LỆCH giữa lời gửi TTS và bản chép.
 Chuẩn hoá hai phía trước khi so: chữ thường, bỏ dấu câu, tách gạch nối, số → chữ (num2words; năm 4 chữ số → kiểu năm),
 "$"/"dollars", "and", "the" bỏ; "S-E-C" → "sec"; "1inMM"/"one-in-MM" → "one in m m". Lệch có chứa TỪ QUAN TRỌNG
@@ -56,10 +57,23 @@ def model():
     return _M
 
 
-def chep(path):
+_SUP = None
+
+
+def chan_so():
+    """Token id có chữ số/%/$ — chặn để whisper chép số bằng CHỮ (lượt --so-chu: kiểm số tiền, ngày, thứ tự đúng từng từ)."""
+    global _SUP
+    if _SUP is None:
+        tk = model().hf_tokenizer
+        _SUP = [-1] + [i for i in range(tk.get_vocab_size()) if any(ch in (tk.id_to_token(i) or "") for ch in "0123456789%$")]
+    return _SUP
+
+
+def chep(path, so_chu=False):
     a = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-f", "s16le", "-ac", "1", "-ar", "16000", "-"],
                                      capture_output=True, check=True).stdout, np.int16).astype(np.float32) / 32768
-    segs, info = model().transcribe(a, beam_size=5, word_timestamps=True, language="en")
+    kw = {"suppress_tokens": chan_so()} if so_chu else {}
+    segs, info = model().transcribe(a, beam_size=5, word_timestamps=True, language="en", **kw)
     words, text = [], []
     for s in segs:
         text.append(s.text.strip())
@@ -80,15 +94,15 @@ def so(ref, hyp):
 
 
 if __name__ == "__main__":
-    a = sys.argv[1:]; l2 = "--l2" in a; a = [x for x in a if x != "--l2"]
+    a = sys.argv[1:]; l2 = "--l2" in a; sc = "--so-chu" in a; a = [x for x in a if x not in ("--l2", "--so-chu")]
     o = doan_text(); od = os.path.join(ROOT, "reports", "mr4", "whisper"); os.makedirs(od, exist_ok=True)
     for k in a:
-        ten = k + ("_l2" if l2 else "")
+        ten = k + ("_l2" if l2 else ""); ra = ten + ("_sochu" if sc else "")
         ref = " ".join(t for _, t in o[k])
-        c = chep(os.path.join(ROOT, "lab", "mr4", "tts", ten + ".mp3"))
+        c = chep(os.path.join(ROOT, "lab", "mr4", "tts", ten + ".mp3"), sc)
         lech, n = so(ref, c["text"])
-        json.dump({"doan": k, "tep": f"lab/mr4/tts/{ten}.mp3", "ref": ref, **c, "lech": lech}, open(os.path.join(od, ten + ".json"), "w"),
+        json.dump({"doan": k, "tep": f"lab/mr4/tts/{ten}.mp3", "ref": ref, **c, "lech": lech}, open(os.path.join(od, ra + ".json"), "w"),
                   ensure_ascii=False, indent=1)
-        print(f"== {ten}: {c['dur']} s · {n} từ · lệch {len(lech)} (★ {sum(x['quan_trong'] for x in lech)})")
+        print(f"== {ra}: {c['dur']} s · {n} từ · lệch {len(lech)} (★ {sum(x['quan_trong'] for x in lech)})")
         for x in lech:
             print(f"  {'★' if x['quan_trong'] else ' '} {x['op']}: REF «{x['ref']}» | HYP «{x['hyp']}»   [{x['ngu_canh_ref']}] ~ [{x['ngu_canh_hyp']}]")

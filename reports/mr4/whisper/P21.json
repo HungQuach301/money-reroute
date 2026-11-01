@@ -1,0 +1,1793 @@
+{
+ "doan": "P21",
+ "tep": "lab/mr4/tts/P21.mp3",
+ "ref": "So what can you take from this case? Three lessons, five red flags, and one rule. Lesson one: turn a short-term return into a yearly rate; a six-month note listed in the S-E-C's complaint promised thirty-five percent, roughly seventy percent a year. Lesson two: steady payments do not prove an investment is real; in a Ponzi scheme, which is what the Justice Department called this case, they are paid with other investors' money. Lesson three: know who is on the other side of your contract; the sub-investors here had no direct contract with one-in-M-M. Red flag one: high, fixed returns on a short clock, like twenty-five to forty-five percent in six or twelve months. Two: a famous partner you cannot verify yourself, like the streaming platforms he named to investors. Three: all the proof comes from the seller; here the notes, the collateral papers and the deal papers all came from him. Four: an unregistered offer that travels through friends; the S-E-C alleged that neither one-in-M-M nor its securities offerings were registered with the Commission. Five: missed payments blamed on someone else; he admitted falsely blaming the streaming platforms for the missed payments, and claiming that payments would resume. And one rule under all of it: verify independently before any money moves, including money to rescue an investment that has stopped paying. To check a seller, look them up on FIN-rah's BrokerCheck or the S-E-C's Investment Adviser Public Disclosure website. To report suspected investment fraud, submit a tip at sec dot gov; to report a scam to the Federal Trade Commission, go to ReportFraud dot F-T-C dot gov. The case facts in this story come from public court and agency records, listed in the description.",
+ "text": "So what can you take from this case? Three lessons, five red flags, and one rule. Lesson one, turn a short-term return into a yearly rate. A six-month note listed in the SEC's complaint promised 35%, roughly 70% a year. Lesson two, steady payments do not prove an investment is real. In a Ponzi scheme, which is what the Justice Department called this case, they are paid with other investors' money. Lesson three, know who is on the other side of your contract. The subinvestors here had no direct contract with one in MM. Red flag one, high, fixed returns on a short clock, like 25% to 45% in six or 12 months. Two, a famous partner you cannot verify yourself, like the streaming platforms he named to investors. Three, all the proof comes from the seller. Here, the notes, the collateral papers, and the deal papers all came from him. Four, an unregistered offer that travels through friends. The SEC alleged that neither one in MM nor its securities offerings were registered with the commission. Five, missed payments blamed on someone else. He admitted falsely blaming the streaming platforms for the missed payments and claiming that payments would resume. And one rule under all of it, verify independently before any money moves, including money to rescue an investment that has stopped paying. To check a seller, look them up on FINRA's broker check or the SEC's investment advisor public disclosure website. To report suspected investment fraud, submit a tip at sec.gov. To report a scam to the Federal Trade Commission, go to reportfraud.ftc.gov. The case facts in this story come from public court and agency records listed in the description.",
+ "words": [
+  {
+   "w": "So",
+   "s": 0.0,
+   "e": 0.18,
+   "p": 0.833
+  },
+  {
+   "w": "what",
+   "s": 0.18,
+   "e": 0.36,
+   "p": 0.83
+  },
+  {
+   "w": "can",
+   "s": 0.36,
+   "e": 0.5,
+   "p": 0.996
+  },
+  {
+   "w": "you",
+   "s": 0.5,
+   "e": 0.64,
+   "p": 0.998
+  },
+  {
+   "w": "take",
+   "s": 0.64,
+   "e": 0.88,
+   "p": 0.998
+  },
+  {
+   "w": "from",
+   "s": 0.88,
+   "e": 1.06,
+   "p": 0.997
+  },
+  {
+   "w": "this",
+   "s": 1.06,
+   "e": 1.26,
+   "p": 0.998
+  },
+  {
+   "w": "case?",
+   "s": 1.26,
+   "e": 1.6,
+   "p": 0.997
+  },
+  {
+   "w": "Three",
+   "s": 2.3,
+   "e": 2.48,
+   "p": 0.739
+  },
+  {
+   "w": "lessons,",
+   "s": 2.48,
+   "e": 2.88,
+   "p": 0.985
+  },
+  {
+   "w": "five",
+   "s": 3.42,
+   "e": 3.62,
+   "p": 0.956
+  },
+  {
+   "w": "red",
+   "s": 3.62,
+   "e": 3.84,
+   "p": 0.994
+  },
+  {
+   "w": "flags,",
+   "s": 3.84,
+   "e": 4.24,
+   "p": 0.999
+  },
+  {
+   "w": "and",
+   "s": 4.54,
+   "e": 4.76,
+   "p": 0.996
+  },
+  {
+   "w": "one",
+   "s": 4.76,
+   "e": 5.06,
+   "p": 0.999
+  },
+  {
+   "w": "rule.",
+   "s": 5.06,
+   "e": 5.52,
+   "p": 0.998
+  },
+  {
+   "w": "Lesson",
+   "s": 6.44,
+   "e": 6.6,
+   "p": 0.713
+  },
+  {
+   "w": "one,",
+   "s": 6.6,
+   "e": 6.88,
+   "p": 0.567
+  },
+  {
+   "w": "turn",
+   "s": 7.46,
+   "e": 7.62,
+   "p": 0.97
+  },
+  {
+   "w": "a",
+   "s": 7.62,
+   "e": 7.84,
+   "p": 0.997
+  },
+  {
+   "w": "short",
+   "s": 7.84,
+   "e": 8.06,
+   "p": 0.997
+  },
+  {
+   "w": "-term",
+   "s": 8.06,
+   "e": 8.28,
+   "p": 0.843
+  },
+  {
+   "w": "return",
+   "s": 8.28,
+   "e": 8.7,
+   "p": 0.996
+  },
+  {
+   "w": "into",
+   "s": 8.7,
+   "e": 9.02,
+   "p": 0.995
+  },
+  {
+   "w": "a",
+   "s": 9.02,
+   "e": 9.3,
+   "p": 0.998
+  },
+  {
+   "w": "yearly",
+   "s": 9.3,
+   "e": 9.52,
+   "p": 0.998
+  },
+  {
+   "w": "rate.",
+   "s": 9.52,
+   "e": 9.94,
+   "p": 0.999
+  },
+  {
+   "w": "A",
+   "s": 10.58,
+   "e": 10.68,
+   "p": 0.98
+  },
+  {
+   "w": "six",
+   "s": 10.68,
+   "e": 10.94,
+   "p": 0.96
+  },
+  {
+   "w": "-month",
+   "s": 10.94,
+   "e": 11.12,
+   "p": 0.882
+  },
+  {
+   "w": "note",
+   "s": 11.12,
+   "e": 11.46,
+   "p": 0.997
+  },
+  {
+   "w": "listed",
+   "s": 11.46,
+   "e": 11.78,
+   "p": 0.996
+  },
+  {
+   "w": "in",
+   "s": 11.78,
+   "e": 11.94,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 11.94,
+   "e": 12.12,
+   "p": 0.998
+  },
+  {
+   "w": "SEC's",
+   "s": 12.12,
+   "e": 12.72,
+   "p": 0.97
+  },
+  {
+   "w": "complaint",
+   "s": 12.72,
+   "e": 13.1,
+   "p": 0.991
+  },
+  {
+   "w": "promised",
+   "s": 13.1,
+   "e": 13.5,
+   "p": 0.96
+  },
+  {
+   "w": "35%,",
+   "s": 13.5,
+   "e": 14.78,
+   "p": 0.932
+  },
+  {
+   "w": "roughly",
+   "s": 14.78,
+   "e": 15.34,
+   "p": 0.999
+  },
+  {
+   "w": "70",
+   "s": 15.34,
+   "e": 15.88,
+   "p": 0.992
+  },
+  {
+   "w": "%",
+   "s": 15.88,
+   "e": 16.14,
+   "p": 0.746
+  },
+  {
+   "w": "a",
+   "s": 16.14,
+   "e": 16.32,
+   "p": 0.992
+  },
+  {
+   "w": "year.",
+   "s": 16.32,
+   "e": 16.62,
+   "p": 1.0
+  },
+  {
+   "w": "Lesson",
+   "s": 17.54,
+   "e": 17.76,
+   "p": 0.988
+  },
+  {
+   "w": "two,",
+   "s": 17.76,
+   "e": 18.06,
+   "p": 0.991
+  },
+  {
+   "w": "steady",
+   "s": 18.66,
+   "e": 18.96,
+   "p": 0.992
+  },
+  {
+   "w": "payments",
+   "s": 18.96,
+   "e": 19.38,
+   "p": 0.998
+  },
+  {
+   "w": "do",
+   "s": 19.38,
+   "e": 19.58,
+   "p": 0.998
+  },
+  {
+   "w": "not",
+   "s": 19.58,
+   "e": 19.86,
+   "p": 0.999
+  },
+  {
+   "w": "prove",
+   "s": 19.86,
+   "e": 20.18,
+   "p": 0.999
+  },
+  {
+   "w": "an",
+   "s": 20.18,
+   "e": 20.34,
+   "p": 0.977
+  },
+  {
+   "w": "investment",
+   "s": 20.34,
+   "e": 20.7,
+   "p": 1.0
+  },
+  {
+   "w": "is",
+   "s": 20.7,
+   "e": 20.94,
+   "p": 0.983
+  },
+  {
+   "w": "real.",
+   "s": 20.94,
+   "e": 21.26,
+   "p": 0.998
+  },
+  {
+   "w": "In",
+   "s": 21.88,
+   "e": 22.02,
+   "p": 0.998
+  },
+  {
+   "w": "a",
+   "s": 22.02,
+   "e": 22.26,
+   "p": 0.966
+  },
+  {
+   "w": "Ponzi",
+   "s": 22.26,
+   "e": 22.52,
+   "p": 0.993
+  },
+  {
+   "w": "scheme,",
+   "s": 22.52,
+   "e": 22.9,
+   "p": 0.991
+  },
+  {
+   "w": "which",
+   "s": 23.06,
+   "e": 23.3,
+   "p": 0.998
+  },
+  {
+   "w": "is",
+   "s": 23.3,
+   "e": 23.42,
+   "p": 0.999
+  },
+  {
+   "w": "what",
+   "s": 23.42,
+   "e": 23.58,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 23.58,
+   "e": 23.76,
+   "p": 0.998
+  },
+  {
+   "w": "Justice",
+   "s": 23.76,
+   "e": 24.06,
+   "p": 0.858
+  },
+  {
+   "w": "Department",
+   "s": 24.06,
+   "e": 24.42,
+   "p": 0.997
+  },
+  {
+   "w": "called",
+   "s": 24.42,
+   "e": 24.76,
+   "p": 0.995
+  },
+  {
+   "w": "this",
+   "s": 24.76,
+   "e": 24.96,
+   "p": 0.999
+  },
+  {
+   "w": "case,",
+   "s": 24.96,
+   "e": 25.28,
+   "p": 0.999
+  },
+  {
+   "w": "they",
+   "s": 25.66,
+   "e": 25.86,
+   "p": 0.997
+  },
+  {
+   "w": "are",
+   "s": 25.86,
+   "e": 26.02,
+   "p": 0.996
+  },
+  {
+   "w": "paid",
+   "s": 26.02,
+   "e": 26.24,
+   "p": 0.998
+  },
+  {
+   "w": "with",
+   "s": 26.24,
+   "e": 26.42,
+   "p": 0.999
+  },
+  {
+   "w": "other",
+   "s": 26.42,
+   "e": 26.78,
+   "p": 0.991
+  },
+  {
+   "w": "investors'",
+   "s": 26.78,
+   "e": 27.2,
+   "p": 0.822
+  },
+  {
+   "w": "money.",
+   "s": 27.46,
+   "e": 27.62,
+   "p": 1.0
+  },
+  {
+   "w": "Lesson",
+   "s": 28.32,
+   "e": 28.88,
+   "p": 0.632
+  },
+  {
+   "w": "three,",
+   "s": 28.88,
+   "e": 29.22,
+   "p": 0.152
+  },
+  {
+   "w": "know",
+   "s": 29.72,
+   "e": 30.0,
+   "p": 0.918
+  },
+  {
+   "w": "who",
+   "s": 30.0,
+   "e": 30.2,
+   "p": 0.996
+  },
+  {
+   "w": "is",
+   "s": 30.2,
+   "e": 30.36,
+   "p": 0.834
+  },
+  {
+   "w": "on",
+   "s": 30.36,
+   "e": 30.5,
+   "p": 0.997
+  },
+  {
+   "w": "the",
+   "s": 30.5,
+   "e": 30.64,
+   "p": 0.996
+  },
+  {
+   "w": "other",
+   "s": 30.64,
+   "e": 30.88,
+   "p": 0.996
+  },
+  {
+   "w": "side",
+   "s": 30.88,
+   "e": 31.14,
+   "p": 0.999
+  },
+  {
+   "w": "of",
+   "s": 31.14,
+   "e": 31.28,
+   "p": 0.997
+  },
+  {
+   "w": "your",
+   "s": 31.28,
+   "e": 31.42,
+   "p": 0.997
+  },
+  {
+   "w": "contract.",
+   "s": 31.42,
+   "e": 31.94,
+   "p": 0.997
+  },
+  {
+   "w": "The",
+   "s": 32.62,
+   "e": 32.68,
+   "p": 0.981
+  },
+  {
+   "w": "subinvestors",
+   "s": 32.68,
+   "e": 33.36,
+   "p": 0.724
+  },
+  {
+   "w": "here",
+   "s": 33.36,
+   "e": 33.58,
+   "p": 0.987
+  },
+  {
+   "w": "had",
+   "s": 33.58,
+   "e": 33.8,
+   "p": 0.991
+  },
+  {
+   "w": "no",
+   "s": 33.8,
+   "e": 34.06,
+   "p": 0.997
+  },
+  {
+   "w": "direct",
+   "s": 34.06,
+   "e": 34.44,
+   "p": 0.995
+  },
+  {
+   "w": "contract",
+   "s": 34.44,
+   "e": 34.96,
+   "p": 0.994
+  },
+  {
+   "w": "with",
+   "s": 34.96,
+   "e": 35.24,
+   "p": 0.996
+  },
+  {
+   "w": "one",
+   "s": 35.24,
+   "e": 35.48,
+   "p": 0.757
+  },
+  {
+   "w": "in",
+   "s": 35.48,
+   "e": 35.64,
+   "p": 0.878
+  },
+  {
+   "w": "MM.",
+   "s": 35.64,
+   "e": 35.98,
+   "p": 0.71
+  },
+  {
+   "w": "Red",
+   "s": 37.06,
+   "e": 37.14,
+   "p": 0.947
+  },
+  {
+   "w": "flag",
+   "s": 37.14,
+   "e": 37.38,
+   "p": 0.758
+  },
+  {
+   "w": "one,",
+   "s": 37.38,
+   "e": 37.8,
+   "p": 0.838
+  },
+  {
+   "w": "high,",
+   "s": 38.38,
+   "e": 38.74,
+   "p": 0.968
+  },
+  {
+   "w": "fixed",
+   "s": 38.9,
+   "e": 39.22,
+   "p": 0.994
+  },
+  {
+   "w": "returns",
+   "s": 39.22,
+   "e": 39.62,
+   "p": 0.996
+  },
+  {
+   "w": "on",
+   "s": 39.62,
+   "e": 39.84,
+   "p": 0.995
+  },
+  {
+   "w": "a",
+   "s": 39.84,
+   "e": 40.0,
+   "p": 0.997
+  },
+  {
+   "w": "short",
+   "s": 40.0,
+   "e": 40.2,
+   "p": 0.998
+  },
+  {
+   "w": "clock,",
+   "s": 40.2,
+   "e": 40.6,
+   "p": 0.985
+  },
+  {
+   "w": "like",
+   "s": 40.86,
+   "e": 41.1,
+   "p": 0.992
+  },
+  {
+   "w": "25",
+   "s": 41.1,
+   "e": 41.68,
+   "p": 0.96
+  },
+  {
+   "w": "%",
+   "s": 41.68,
+   "e": 41.68,
+   "p": 0.072
+  },
+  {
+   "w": "to",
+   "s": 41.68,
+   "e": 41.92,
+   "p": 0.971
+  },
+  {
+   "w": "45",
+   "s": 41.92,
+   "e": 42.44,
+   "p": 0.989
+  },
+  {
+   "w": "%",
+   "s": 42.44,
+   "e": 42.8,
+   "p": 0.983
+  },
+  {
+   "w": "in",
+   "s": 42.8,
+   "e": 43.1,
+   "p": 0.985
+  },
+  {
+   "w": "six",
+   "s": 43.1,
+   "e": 43.4,
+   "p": 0.659
+  },
+  {
+   "w": "or",
+   "s": 43.4,
+   "e": 43.62,
+   "p": 0.991
+  },
+  {
+   "w": "12",
+   "s": 43.62,
+   "e": 43.82,
+   "p": 0.88
+  },
+  {
+   "w": "months.",
+   "s": 43.82,
+   "e": 44.32,
+   "p": 0.997
+  },
+  {
+   "w": "Two,",
+   "s": 45.12,
+   "e": 45.3,
+   "p": 0.953
+  },
+  {
+   "w": "a",
+   "s": 45.84,
+   "e": 46.0,
+   "p": 0.991
+  },
+  {
+   "w": "famous",
+   "s": 46.0,
+   "e": 46.3,
+   "p": 0.999
+  },
+  {
+   "w": "partner",
+   "s": 46.3,
+   "e": 46.7,
+   "p": 0.998
+  },
+  {
+   "w": "you",
+   "s": 46.7,
+   "e": 46.9,
+   "p": 0.936
+  },
+  {
+   "w": "cannot",
+   "s": 46.9,
+   "e": 47.28,
+   "p": 0.981
+  },
+  {
+   "w": "verify",
+   "s": 47.28,
+   "e": 47.72,
+   "p": 0.999
+  },
+  {
+   "w": "yourself,",
+   "s": 47.72,
+   "e": 48.26,
+   "p": 0.997
+  },
+  {
+   "w": "like",
+   "s": 48.56,
+   "e": 48.84,
+   "p": 0.996
+  },
+  {
+   "w": "the",
+   "s": 48.84,
+   "e": 49.02,
+   "p": 0.997
+  },
+  {
+   "w": "streaming",
+   "s": 49.02,
+   "e": 49.34,
+   "p": 0.994
+  },
+  {
+   "w": "platforms",
+   "s": 49.34,
+   "e": 49.92,
+   "p": 0.99
+  },
+  {
+   "w": "he",
+   "s": 49.92,
+   "e": 50.1,
+   "p": 0.983
+  },
+  {
+   "w": "named",
+   "s": 50.1,
+   "e": 50.32,
+   "p": 0.995
+  },
+  {
+   "w": "to",
+   "s": 50.32,
+   "e": 50.52,
+   "p": 0.985
+  },
+  {
+   "w": "investors.",
+   "s": 50.52,
+   "e": 51.04,
+   "p": 0.998
+  },
+  {
+   "w": "Three,",
+   "s": 52.08,
+   "e": 52.22,
+   "p": 0.993
+  },
+  {
+   "w": "all",
+   "s": 52.74,
+   "e": 52.98,
+   "p": 0.996
+  },
+  {
+   "w": "the",
+   "s": 52.98,
+   "e": 53.22,
+   "p": 0.997
+  },
+  {
+   "w": "proof",
+   "s": 53.22,
+   "e": 53.4,
+   "p": 0.997
+  },
+  {
+   "w": "comes",
+   "s": 53.4,
+   "e": 53.68,
+   "p": 0.998
+  },
+  {
+   "w": "from",
+   "s": 53.68,
+   "e": 53.88,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 53.88,
+   "e": 54.08,
+   "p": 0.999
+  },
+  {
+   "w": "seller.",
+   "s": 54.08,
+   "e": 54.34,
+   "p": 0.999
+  },
+  {
+   "w": "Here,",
+   "s": 54.82,
+   "e": 55.16,
+   "p": 0.992
+  },
+  {
+   "w": "the",
+   "s": 55.4,
+   "e": 55.52,
+   "p": 0.999
+  },
+  {
+   "w": "notes,",
+   "s": 55.52,
+   "e": 55.8,
+   "p": 0.997
+  },
+  {
+   "w": "the",
+   "s": 56.14,
+   "e": 56.24,
+   "p": 0.998
+  },
+  {
+   "w": "collateral",
+   "s": 56.24,
+   "e": 56.62,
+   "p": 0.995
+  },
+  {
+   "w": "papers,",
+   "s": 56.62,
+   "e": 57.1,
+   "p": 0.998
+  },
+  {
+   "w": "and",
+   "s": 57.1,
+   "e": 57.38,
+   "p": 0.578
+  },
+  {
+   "w": "the",
+   "s": 57.38,
+   "e": 57.56,
+   "p": 0.924
+  },
+  {
+   "w": "deal",
+   "s": 57.56,
+   "e": 57.74,
+   "p": 0.958
+  },
+  {
+   "w": "papers",
+   "s": 57.74,
+   "e": 58.12,
+   "p": 0.993
+  },
+  {
+   "w": "all",
+   "s": 58.12,
+   "e": 58.52,
+   "p": 0.889
+  },
+  {
+   "w": "came",
+   "s": 58.52,
+   "e": 58.76,
+   "p": 0.996
+  },
+  {
+   "w": "from",
+   "s": 58.76,
+   "e": 59.0,
+   "p": 0.998
+  },
+  {
+   "w": "him.",
+   "s": 59.0,
+   "e": 59.5,
+   "p": 0.999
+  },
+  {
+   "w": "Four,",
+   "s": 60.44,
+   "e": 60.44,
+   "p": 0.228
+  },
+  {
+   "w": "an",
+   "s": 60.96,
+   "e": 61.18,
+   "p": 0.958
+  },
+  {
+   "w": "unregistered",
+   "s": 61.18,
+   "e": 61.78,
+   "p": 0.988
+  },
+  {
+   "w": "offer",
+   "s": 61.78,
+   "e": 62.22,
+   "p": 0.996
+  },
+  {
+   "w": "that",
+   "s": 62.22,
+   "e": 62.42,
+   "p": 0.993
+  },
+  {
+   "w": "travels",
+   "s": 62.42,
+   "e": 62.8,
+   "p": 0.998
+  },
+  {
+   "w": "through",
+   "s": 62.8,
+   "e": 63.1,
+   "p": 0.998
+  },
+  {
+   "w": "friends.",
+   "s": 63.1,
+   "e": 63.56,
+   "p": 0.92
+  },
+  {
+   "w": "The",
+   "s": 64.22,
+   "e": 64.32,
+   "p": 0.979
+  },
+  {
+   "w": "SEC",
+   "s": 64.32,
+   "e": 64.78,
+   "p": 0.945
+  },
+  {
+   "w": "alleged",
+   "s": 64.78,
+   "e": 65.22,
+   "p": 0.952
+  },
+  {
+   "w": "that",
+   "s": 65.22,
+   "e": 65.52,
+   "p": 0.996
+  },
+  {
+   "w": "neither",
+   "s": 65.52,
+   "e": 65.76,
+   "p": 0.991
+  },
+  {
+   "w": "one",
+   "s": 65.76,
+   "e": 66.04,
+   "p": 0.934
+  },
+  {
+   "w": "in",
+   "s": 66.04,
+   "e": 66.22,
+   "p": 0.915
+  },
+  {
+   "w": "MM",
+   "s": 66.22,
+   "e": 66.52,
+   "p": 0.866
+  },
+  {
+   "w": "nor",
+   "s": 66.52,
+   "e": 66.98,
+   "p": 0.784
+  },
+  {
+   "w": "its",
+   "s": 66.98,
+   "e": 67.2,
+   "p": 0.885
+  },
+  {
+   "w": "securities",
+   "s": 67.2,
+   "e": 67.58,
+   "p": 0.99
+  },
+  {
+   "w": "offerings",
+   "s": 67.58,
+   "e": 68.08,
+   "p": 0.937
+  },
+  {
+   "w": "were",
+   "s": 68.08,
+   "e": 68.34,
+   "p": 0.992
+  },
+  {
+   "w": "registered",
+   "s": 68.34,
+   "e": 68.78,
+   "p": 0.999
+  },
+  {
+   "w": "with",
+   "s": 68.78,
+   "e": 69.0,
+   "p": 0.997
+  },
+  {
+   "w": "the",
+   "s": 69.0,
+   "e": 69.18,
+   "p": 0.994
+  },
+  {
+   "w": "commission.",
+   "s": 69.18,
+   "e": 69.52,
+   "p": 0.744
+  },
+  {
+   "w": "Five,",
+   "s": 70.56,
+   "e": 70.8,
+   "p": 0.971
+  },
+  {
+   "w": "missed",
+   "s": 71.46,
+   "e": 71.64,
+   "p": 0.993
+  },
+  {
+   "w": "payments",
+   "s": 71.64,
+   "e": 72.04,
+   "p": 0.993
+  },
+  {
+   "w": "blamed",
+   "s": 72.04,
+   "e": 72.4,
+   "p": 0.998
+  },
+  {
+   "w": "on",
+   "s": 72.4,
+   "e": 72.64,
+   "p": 0.999
+  },
+  {
+   "w": "someone",
+   "s": 72.64,
+   "e": 72.92,
+   "p": 0.999
+  },
+  {
+   "w": "else.",
+   "s": 72.92,
+   "e": 73.28,
+   "p": 1.0
+  },
+  {
+   "w": "He",
+   "s": 73.82,
+   "e": 73.94,
+   "p": 0.996
+  },
+  {
+   "w": "admitted",
+   "s": 73.94,
+   "e": 74.26,
+   "p": 0.993
+  },
+  {
+   "w": "falsely",
+   "s": 74.26,
+   "e": 74.8,
+   "p": 0.994
+  },
+  {
+   "w": "blaming",
+   "s": 74.8,
+   "e": 75.18,
+   "p": 0.994
+  },
+  {
+   "w": "the",
+   "s": 75.18,
+   "e": 75.42,
+   "p": 0.999
+  },
+  {
+   "w": "streaming",
+   "s": 75.42,
+   "e": 75.74,
+   "p": 0.996
+  },
+  {
+   "w": "platforms",
+   "s": 75.74,
+   "e": 76.28,
+   "p": 0.996
+  },
+  {
+   "w": "for",
+   "s": 76.28,
+   "e": 76.54,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 76.54,
+   "e": 76.68,
+   "p": 0.997
+  },
+  {
+   "w": "missed",
+   "s": 76.68,
+   "e": 76.86,
+   "p": 0.997
+  },
+  {
+   "w": "payments",
+   "s": 76.86,
+   "e": 77.3,
+   "p": 0.993
+  },
+  {
+   "w": "and",
+   "s": 77.3,
+   "e": 77.78,
+   "p": 0.824
+  },
+  {
+   "w": "claiming",
+   "s": 77.78,
+   "e": 78.1,
+   "p": 0.998
+  },
+  {
+   "w": "that",
+   "s": 78.1,
+   "e": 78.34,
+   "p": 0.993
+  },
+  {
+   "w": "payments",
+   "s": 78.34,
+   "e": 78.7,
+   "p": 0.993
+  },
+  {
+   "w": "would",
+   "s": 78.7,
+   "e": 78.9,
+   "p": 0.997
+  },
+  {
+   "w": "resume.",
+   "s": 78.9,
+   "e": 79.3,
+   "p": 0.998
+  },
+  {
+   "w": "And",
+   "s": 80.26,
+   "e": 80.4,
+   "p": 0.978
+  },
+  {
+   "w": "one",
+   "s": 80.4,
+   "e": 80.74,
+   "p": 0.985
+  },
+  {
+   "w": "rule",
+   "s": 80.74,
+   "e": 81.04,
+   "p": 0.999
+  },
+  {
+   "w": "under",
+   "s": 81.04,
+   "e": 81.32,
+   "p": 0.993
+  },
+  {
+   "w": "all",
+   "s": 81.32,
+   "e": 81.62,
+   "p": 0.997
+  },
+  {
+   "w": "of",
+   "s": 81.62,
+   "e": 81.74,
+   "p": 0.998
+  },
+  {
+   "w": "it,",
+   "s": 81.74,
+   "e": 82.06,
+   "p": 0.999
+  },
+  {
+   "w": "verify",
+   "s": 82.48,
+   "e": 82.88,
+   "p": 0.934
+  },
+  {
+   "w": "independently",
+   "s": 82.88,
+   "e": 83.68,
+   "p": 0.996
+  },
+  {
+   "w": "before",
+   "s": 83.68,
+   "e": 84.1,
+   "p": 0.995
+  },
+  {
+   "w": "any",
+   "s": 84.1,
+   "e": 84.46,
+   "p": 0.997
+  },
+  {
+   "w": "money",
+   "s": 84.46,
+   "e": 84.72,
+   "p": 0.998
+  },
+  {
+   "w": "moves,",
+   "s": 84.72,
+   "e": 85.12,
+   "p": 0.999
+  },
+  {
+   "w": "including",
+   "s": 85.4,
+   "e": 85.8,
+   "p": 0.997
+  },
+  {
+   "w": "money",
+   "s": 85.8,
+   "e": 86.08,
+   "p": 0.998
+  },
+  {
+   "w": "to",
+   "s": 86.08,
+   "e": 86.3,
+   "p": 0.87
+  },
+  {
+   "w": "rescue",
+   "s": 86.3,
+   "e": 86.6,
+   "p": 0.95
+  },
+  {
+   "w": "an",
+   "s": 86.6,
+   "e": 86.8,
+   "p": 0.997
+  },
+  {
+   "w": "investment",
+   "s": 86.8,
+   "e": 87.22,
+   "p": 0.998
+  },
+  {
+   "w": "that",
+   "s": 87.22,
+   "e": 87.46,
+   "p": 0.999
+  },
+  {
+   "w": "has",
+   "s": 87.46,
+   "e": 87.56,
+   "p": 0.995
+  },
+  {
+   "w": "stopped",
+   "s": 87.56,
+   "e": 87.9,
+   "p": 0.998
+  },
+  {
+   "w": "paying.",
+   "s": 87.9,
+   "e": 88.34,
+   "p": 0.999
+  },
+  {
+   "w": "To",
+   "s": 89.04,
+   "e": 89.14,
+   "p": 0.97
+  },
+  {
+   "w": "check",
+   "s": 89.14,
+   "e": 89.32,
+   "p": 0.993
+  },
+  {
+   "w": "a",
+   "s": 89.32,
+   "e": 89.52,
+   "p": 0.999
+  },
+  {
+   "w": "seller,",
+   "s": 89.52,
+   "e": 89.8,
+   "p": 0.998
+  },
+  {
+   "w": "look",
+   "s": 90.22,
+   "e": 90.3,
+   "p": 0.993
+  },
+  {
+   "w": "them",
+   "s": 90.3,
+   "e": 90.48,
+   "p": 0.999
+  },
+  {
+   "w": "up",
+   "s": 90.48,
+   "e": 90.66,
+   "p": 0.998
+  },
+  {
+   "w": "on",
+   "s": 90.66,
+   "e": 90.88,
+   "p": 0.998
+  },
+  {
+   "w": "FINRA's",
+   "s": 90.88,
+   "e": 91.42,
+   "p": 0.913
+  },
+  {
+   "w": "broker",
+   "s": 91.42,
+   "e": 91.7,
+   "p": 0.286
+  },
+  {
+   "w": "check",
+   "s": 91.7,
+   "e": 92.06,
+   "p": 0.965
+  },
+  {
+   "w": "or",
+   "s": 92.06,
+   "e": 92.44,
+   "p": 0.856
+  },
+  {
+   "w": "the",
+   "s": 92.44,
+   "e": 92.62,
+   "p": 0.989
+  },
+  {
+   "w": "SEC's",
+   "s": 92.62,
+   "e": 93.34,
+   "p": 0.981
+  },
+  {
+   "w": "investment",
+   "s": 93.34,
+   "e": 93.78,
+   "p": 0.54
+  },
+  {
+   "w": "advisor",
+   "s": 93.78,
+   "e": 94.26,
+   "p": 0.937
+  },
+  {
+   "w": "public",
+   "s": 94.26,
+   "e": 94.68,
+   "p": 0.961
+  },
+  {
+   "w": "disclosure",
+   "s": 94.68,
+   "e": 95.24,
+   "p": 0.998
+  },
+  {
+   "w": "website.",
+   "s": 95.24,
+   "e": 95.74,
+   "p": 0.923
+  },
+  {
+   "w": "To",
+   "s": 96.38,
+   "e": 96.5,
+   "p": 0.99
+  },
+  {
+   "w": "report",
+   "s": 96.5,
+   "e": 96.82,
+   "p": 0.998
+  },
+  {
+   "w": "suspected",
+   "s": 96.82,
+   "e": 97.36,
+   "p": 0.983
+  },
+  {
+   "w": "investment",
+   "s": 97.36,
+   "e": 97.88,
+   "p": 0.996
+  },
+  {
+   "w": "fraud,",
+   "s": 97.88,
+   "e": 98.28,
+   "p": 0.998
+  },
+  {
+   "w": "submit",
+   "s": 98.68,
+   "e": 98.86,
+   "p": 0.996
+  },
+  {
+   "w": "a",
+   "s": 98.86,
+   "e": 99.08,
+   "p": 0.998
+  },
+  {
+   "w": "tip",
+   "s": 99.08,
+   "e": 99.24,
+   "p": 0.986
+  },
+  {
+   "w": "at",
+   "s": 99.24,
+   "e": 99.56,
+   "p": 0.986
+  },
+  {
+   "w": "sec",
+   "s": 99.56,
+   "e": 100.0,
+   "p": 0.725
+  },
+  {
+   "w": ".gov.",
+   "s": 100.0,
+   "e": 100.76,
+   "p": 0.983
+  },
+  {
+   "w": "To",
+   "s": 101.34,
+   "e": 101.46,
+   "p": 0.998
+  },
+  {
+   "w": "report",
+   "s": 101.46,
+   "e": 101.74,
+   "p": 0.999
+  },
+  {
+   "w": "a",
+   "s": 101.74,
+   "e": 101.9,
+   "p": 0.998
+  },
+  {
+   "w": "scam",
+   "s": 101.9,
+   "e": 102.2,
+   "p": 0.998
+  },
+  {
+   "w": "to",
+   "s": 102.2,
+   "e": 102.38,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 102.38,
+   "e": 102.54,
+   "p": 0.998
+  },
+  {
+   "w": "Federal",
+   "s": 102.54,
+   "e": 102.8,
+   "p": 0.936
+  },
+  {
+   "w": "Trade",
+   "s": 102.8,
+   "e": 103.12,
+   "p": 0.995
+  },
+  {
+   "w": "Commission,",
+   "s": 103.12,
+   "e": 103.54,
+   "p": 0.997
+  },
+  {
+   "w": "go",
+   "s": 103.96,
+   "e": 104.04,
+   "p": 0.997
+  },
+  {
+   "w": "to",
+   "s": 104.04,
+   "e": 104.22,
+   "p": 0.999
+  },
+  {
+   "w": "reportfraud",
+   "s": 104.22,
+   "e": 105.0,
+   "p": 0.923
+  },
+  {
+   "w": ".ftc",
+   "s": 105.0,
+   "e": 106.08,
+   "p": 0.965
+  },
+  {
+   "w": ".gov.",
+   "s": 106.08,
+   "e": 106.7,
+   "p": 0.996
+  },
+  {
+   "w": "The",
+   "s": 107.48,
+   "e": 107.56,
+   "p": 0.994
+  },
+  {
+   "w": "case",
+   "s": 107.56,
+   "e": 107.76,
+   "p": 0.996
+  },
+  {
+   "w": "facts",
+   "s": 107.76,
+   "e": 108.06,
+   "p": 0.998
+  },
+  {
+   "w": "in",
+   "s": 108.06,
+   "e": 108.24,
+   "p": 0.997
+  },
+  {
+   "w": "this",
+   "s": 108.24,
+   "e": 108.4,
+   "p": 0.997
+  },
+  {
+   "w": "story",
+   "s": 108.4,
+   "e": 108.7,
+   "p": 0.999
+  },
+  {
+   "w": "come",
+   "s": 108.7,
+   "e": 108.94,
+   "p": 0.993
+  },
+  {
+   "w": "from",
+   "s": 108.94,
+   "e": 109.18,
+   "p": 0.999
+  },
+  {
+   "w": "public",
+   "s": 109.18,
+   "e": 109.48,
+   "p": 0.972
+  },
+  {
+   "w": "court",
+   "s": 109.48,
+   "e": 109.8,
+   "p": 0.989
+  },
+  {
+   "w": "and",
+   "s": 109.8,
+   "e": 110.06,
+   "p": 0.998
+  },
+  {
+   "w": "agency",
+   "s": 110.06,
+   "e": 110.44,
+   "p": 0.998
+  },
+  {
+   "w": "records",
+   "s": 110.44,
+   "e": 110.94,
+   "p": 0.999
+  },
+  {
+   "w": "listed",
+   "s": 110.94,
+   "e": 111.48,
+   "p": 0.456
+  },
+  {
+   "w": "in",
+   "s": 111.48,
+   "e": 111.7,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 111.7,
+   "e": 111.82,
+   "p": 0.999
+  },
+  {
+   "w": "description.",
+   "s": 111.82,
+   "e": 112.2,
+   "p": 0.998
+  }
+ ],
+ "dur": 112.56,
+ "lech": [
+  {
+   "op": "replace",
+   "ref": "sub investors",
+   "hyp": "subinvestors",
+   "ngu_canh_ref": "of your contract sub investors here had no",
+   "ngu_canh_hyp": "of your contract subinvestors here had no",
+   "quan_trong": false
+  },
+  {
+   "op": "insert",
+   "ref": "",
+   "hyp": "percent",
+   "ngu_canh_ref": "like twenty five to forty five",
+   "ngu_canh_hyp": "like twenty five percent to forty five",
+   "quan_trong": true
+  },
+  {
+   "op": "replace",
+   "ref": "brokercheck",
+   "hyp": "broker check",
+   "ngu_canh_ref": "up on finra's brokercheck or sec's investment",
+   "ngu_canh_hyp": "up on finra's broker check or sec's investment",
+   "quan_trong": false
+  },
+  {
+   "op": "replace",
+   "ref": "adviser",
+   "hyp": "advisor",
+   "ngu_canh_ref": "or sec's investment adviser public disclosure website",
+   "ngu_canh_hyp": "or sec's investment advisor public disclosure website",
+   "quan_trong": false
+  },
+  {
+   "op": "delete",
+   "ref": "dot",
+   "hyp": "",
+   "ngu_canh_ref": "tip at sec dot gov to report",
+   "ngu_canh_hyp": "tip at sec gov to report",
+   "quan_trong": false
+  },
+  {
+   "op": "replace",
+   "ref": "dot f t c dot",
+   "hyp": "ftc",
+   "ngu_canh_ref": "go to reportfraud dot f t c dot gov case facts",
+   "ngu_canh_hyp": "go to reportfraud ftc gov case facts",
+   "quan_trong": true
+  }
+ ]
+}

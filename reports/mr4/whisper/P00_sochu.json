@@ -1,0 +1,304 @@
+{
+ "doan": "P00",
+ "tep": "lab/mr4/tts/P00.mp3",
+ "ref": "Picture an investor's phone lighting up: a payment, right on schedule, like always. Months later, a different message: a delay on the platform side, and the money should arrive next week. That message is a reconstruction. The case behind it is real, and it is on the public record.",
+ "text": "Picture an investor's phone lighting up, a payment, right on schedule, like always. Months later, a different message, a delay on the platform side, and the money should arrive next week. That message is a reconstruction. The case behind it is real, and it is on the public record.",
+ "words": [
+  {
+   "w": "Picture",
+   "s": 0.0,
+   "e": 0.28,
+   "p": 0.935
+  },
+  {
+   "w": "an",
+   "s": 0.28,
+   "e": 0.48,
+   "p": 0.985
+  },
+  {
+   "w": "investor's",
+   "s": 0.48,
+   "e": 1.08,
+   "p": 0.964
+  },
+  {
+   "w": "phone",
+   "s": 1.08,
+   "e": 1.3,
+   "p": 0.996
+  },
+  {
+   "w": "lighting",
+   "s": 1.3,
+   "e": 1.62,
+   "p": 0.995
+  },
+  {
+   "w": "up,",
+   "s": 1.62,
+   "e": 2.0,
+   "p": 0.998
+  },
+  {
+   "w": "a",
+   "s": 2.4,
+   "e": 2.52,
+   "p": 0.995
+  },
+  {
+   "w": "payment,",
+   "s": 2.52,
+   "e": 2.88,
+   "p": 0.999
+  },
+  {
+   "w": "right",
+   "s": 3.3,
+   "e": 3.44,
+   "p": 0.969
+  },
+  {
+   "w": "on",
+   "s": 3.44,
+   "e": 3.62,
+   "p": 0.998
+  },
+  {
+   "w": "schedule,",
+   "s": 3.62,
+   "e": 4.0,
+   "p": 0.998
+  },
+  {
+   "w": "like",
+   "s": 4.34,
+   "e": 4.52,
+   "p": 0.998
+  },
+  {
+   "w": "always.",
+   "s": 4.52,
+   "e": 4.96,
+   "p": 0.999
+  },
+  {
+   "w": "Months",
+   "s": 5.66,
+   "e": 5.8,
+   "p": 0.992
+  },
+  {
+   "w": "later,",
+   "s": 5.8,
+   "e": 6.18,
+   "p": 0.999
+  },
+  {
+   "w": "a",
+   "s": 6.54,
+   "e": 6.64,
+   "p": 0.999
+  },
+  {
+   "w": "different",
+   "s": 6.64,
+   "e": 6.9,
+   "p": 0.999
+  },
+  {
+   "w": "message,",
+   "s": 6.9,
+   "e": 7.32,
+   "p": 1.0
+  },
+  {
+   "w": "a",
+   "s": 7.92,
+   "e": 8.02,
+   "p": 0.998
+  },
+  {
+   "w": "delay",
+   "s": 8.02,
+   "e": 8.28,
+   "p": 1.0
+  },
+  {
+   "w": "on",
+   "s": 8.28,
+   "e": 8.46,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 8.46,
+   "e": 8.64,
+   "p": 0.998
+  },
+  {
+   "w": "platform",
+   "s": 8.64,
+   "e": 8.94,
+   "p": 0.993
+  },
+  {
+   "w": "side,",
+   "s": 8.94,
+   "e": 9.44,
+   "p": 0.958
+  },
+  {
+   "w": "and",
+   "s": 9.74,
+   "e": 9.9,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 9.9,
+   "e": 10.04,
+   "p": 0.998
+  },
+  {
+   "w": "money",
+   "s": 10.04,
+   "e": 10.24,
+   "p": 1.0
+  },
+  {
+   "w": "should",
+   "s": 10.24,
+   "e": 10.42,
+   "p": 1.0
+  },
+  {
+   "w": "arrive",
+   "s": 10.42,
+   "e": 10.7,
+   "p": 0.999
+  },
+  {
+   "w": "next",
+   "s": 10.7,
+   "e": 10.96,
+   "p": 0.999
+  },
+  {
+   "w": "week.",
+   "s": 10.96,
+   "e": 11.3,
+   "p": 1.0
+  },
+  {
+   "w": "That",
+   "s": 12.2,
+   "e": 12.38,
+   "p": 0.998
+  },
+  {
+   "w": "message",
+   "s": 12.38,
+   "e": 12.78,
+   "p": 1.0
+  },
+  {
+   "w": "is",
+   "s": 12.78,
+   "e": 13.06,
+   "p": 0.999
+  },
+  {
+   "w": "a",
+   "s": 13.06,
+   "e": 13.22,
+   "p": 1.0
+  },
+  {
+   "w": "reconstruction.",
+   "s": 13.22,
+   "e": 13.84,
+   "p": 0.992
+  },
+  {
+   "w": "The",
+   "s": 14.48,
+   "e": 14.6,
+   "p": 0.999
+  },
+  {
+   "w": "case",
+   "s": 14.6,
+   "e": 14.82,
+   "p": 1.0
+  },
+  {
+   "w": "behind",
+   "s": 14.82,
+   "e": 15.2,
+   "p": 1.0
+  },
+  {
+   "w": "it",
+   "s": 15.2,
+   "e": 15.38,
+   "p": 0.999
+  },
+  {
+   "w": "is",
+   "s": 15.38,
+   "e": 15.54,
+   "p": 0.999
+  },
+  {
+   "w": "real,",
+   "s": 15.54,
+   "e": 15.92,
+   "p": 1.0
+  },
+  {
+   "w": "and",
+   "s": 16.1,
+   "e": 16.4,
+   "p": 1.0
+  },
+  {
+   "w": "it",
+   "s": 16.4,
+   "e": 16.5,
+   "p": 0.999
+  },
+  {
+   "w": "is",
+   "s": 16.5,
+   "e": 16.66,
+   "p": 0.999
+  },
+  {
+   "w": "on",
+   "s": 16.66,
+   "e": 16.84,
+   "p": 1.0
+  },
+  {
+   "w": "the",
+   "s": 16.84,
+   "e": 16.98,
+   "p": 0.999
+  },
+  {
+   "w": "public",
+   "s": 16.98,
+   "e": 17.26,
+   "p": 0.999
+  },
+  {
+   "w": "record.",
+   "s": 17.26,
+   "e": 17.58,
+   "p": 1.0
+  }
+ ],
+ "dur": 17.92,
+ "lech": []
+}

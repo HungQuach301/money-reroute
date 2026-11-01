@@ -1,0 +1,754 @@
+{
+ "doan": "P08",
+ "tep": "lab/mr4/tts/P08.mp3",
+ "ref": "On paper, each note had collateral. An assignment of rights listed one or more films as collateral, with a promise that one-in-M-M was the sole and exclusive owner of the rights to those films. In his plea agreement, Horwitz admitted that one-in-M-M generally did not acquire the distribution rights to the films listed as collateral. And it did not enter into any distribution agreements with the streaming platforms for those films. The S-E-C alleged more broadly that Horwitz and his company had no business relationships with Netflix or H-B-O, and never signed distribution agreements with them. H-B-O and Netflix were not accused of wrongdoing in these cases; according to the S-E-C, neither company ever did business with one-in-M-M.",
+ "text": "On paper, each note had collateral. An assignment of rights listed one or more films as collateral, with a promise that one in MM was the sole and exclusive owner of the rights to those films. In his plea agreement, Horwitz admitted that one in MM generally did not acquire the distribution rights to the films listed as collateral, and it did not enter into any distribution agreements with the streaming platforms for those films. The SEC alleged more broadly that Horwitz and his company had no business relationships with Netflix or HBO, and never signed distribution agreements with them. HBO and Netflix were not accused of wrongdoing in these cases. According to the SEC, neither company ever did business with one in MM.",
+ "words": [
+  {
+   "w": "On",
+   "s": 0.0,
+   "e": 0.18,
+   "p": 0.794
+  },
+  {
+   "w": "paper,",
+   "s": 0.18,
+   "e": 0.58,
+   "p": 0.991
+  },
+  {
+   "w": "each",
+   "s": 1.02,
+   "e": 1.22,
+   "p": 0.994
+  },
+  {
+   "w": "note",
+   "s": 1.22,
+   "e": 1.5,
+   "p": 0.989
+  },
+  {
+   "w": "had",
+   "s": 1.5,
+   "e": 1.76,
+   "p": 0.995
+  },
+  {
+   "w": "collateral.",
+   "s": 1.76,
+   "e": 2.26,
+   "p": 0.958
+  },
+  {
+   "w": "An",
+   "s": 3.08,
+   "e": 3.12,
+   "p": 0.915
+  },
+  {
+   "w": "assignment",
+   "s": 3.12,
+   "e": 3.46,
+   "p": 0.929
+  },
+  {
+   "w": "of",
+   "s": 3.46,
+   "e": 3.74,
+   "p": 0.998
+  },
+  {
+   "w": "rights",
+   "s": 3.74,
+   "e": 3.98,
+   "p": 0.978
+  },
+  {
+   "w": "listed",
+   "s": 3.98,
+   "e": 4.34,
+   "p": 0.994
+  },
+  {
+   "w": "one",
+   "s": 4.34,
+   "e": 4.66,
+   "p": 0.986
+  },
+  {
+   "w": "or",
+   "s": 4.66,
+   "e": 4.8,
+   "p": 0.995
+  },
+  {
+   "w": "more",
+   "s": 4.8,
+   "e": 4.98,
+   "p": 0.999
+  },
+  {
+   "w": "films",
+   "s": 4.98,
+   "e": 5.38,
+   "p": 0.997
+  },
+  {
+   "w": "as",
+   "s": 5.38,
+   "e": 5.58,
+   "p": 0.996
+  },
+  {
+   "w": "collateral,",
+   "s": 5.58,
+   "e": 6.1,
+   "p": 0.903
+  },
+  {
+   "w": "with",
+   "s": 6.4,
+   "e": 6.66,
+   "p": 0.986
+  },
+  {
+   "w": "a",
+   "s": 6.66,
+   "e": 6.86,
+   "p": 0.941
+  },
+  {
+   "w": "promise",
+   "s": 6.86,
+   "e": 7.12,
+   "p": 0.999
+  },
+  {
+   "w": "that",
+   "s": 7.12,
+   "e": 7.44,
+   "p": 0.998
+  },
+  {
+   "w": "one",
+   "s": 7.44,
+   "e": 7.62,
+   "p": 0.091
+  },
+  {
+   "w": "in",
+   "s": 7.62,
+   "e": 7.82,
+   "p": 0.804
+  },
+  {
+   "w": "MM",
+   "s": 7.82,
+   "e": 8.14,
+   "p": 0.625
+  },
+  {
+   "w": "was",
+   "s": 8.14,
+   "e": 8.42,
+   "p": 0.996
+  },
+  {
+   "w": "the",
+   "s": 8.42,
+   "e": 8.68,
+   "p": 0.982
+  },
+  {
+   "w": "sole",
+   "s": 8.68,
+   "e": 8.96,
+   "p": 0.997
+  },
+  {
+   "w": "and",
+   "s": 8.96,
+   "e": 9.18,
+   "p": 0.989
+  },
+  {
+   "w": "exclusive",
+   "s": 9.18,
+   "e": 9.74,
+   "p": 0.996
+  },
+  {
+   "w": "owner",
+   "s": 9.74,
+   "e": 10.1,
+   "p": 0.998
+  },
+  {
+   "w": "of",
+   "s": 10.1,
+   "e": 10.3,
+   "p": 0.996
+  },
+  {
+   "w": "the",
+   "s": 10.3,
+   "e": 10.44,
+   "p": 0.993
+  },
+  {
+   "w": "rights",
+   "s": 10.44,
+   "e": 10.64,
+   "p": 0.996
+  },
+  {
+   "w": "to",
+   "s": 10.64,
+   "e": 10.84,
+   "p": 0.996
+  },
+  {
+   "w": "those",
+   "s": 10.84,
+   "e": 11.02,
+   "p": 0.997
+  },
+  {
+   "w": "films.",
+   "s": 11.02,
+   "e": 11.42,
+   "p": 0.999
+  },
+  {
+   "w": "In",
+   "s": 12.2,
+   "e": 12.32,
+   "p": 0.994
+  },
+  {
+   "w": "his",
+   "s": 12.32,
+   "e": 12.48,
+   "p": 0.999
+  },
+  {
+   "w": "plea",
+   "s": 12.48,
+   "e": 12.7,
+   "p": 0.996
+  },
+  {
+   "w": "agreement,",
+   "s": 12.7,
+   "e": 13.16,
+   "p": 0.998
+  },
+  {
+   "w": "Horwitz",
+   "s": 13.7,
+   "e": 13.9,
+   "p": 0.881
+  },
+  {
+   "w": "admitted",
+   "s": 13.9,
+   "e": 14.28,
+   "p": 0.994
+  },
+  {
+   "w": "that",
+   "s": 14.28,
+   "e": 14.54,
+   "p": 0.996
+  },
+  {
+   "w": "one",
+   "s": 14.54,
+   "e": 14.8,
+   "p": 0.9
+  },
+  {
+   "w": "in",
+   "s": 14.8,
+   "e": 15.02,
+   "p": 0.992
+  },
+  {
+   "w": "MM",
+   "s": 15.02,
+   "e": 15.36,
+   "p": 0.991
+  },
+  {
+   "w": "generally",
+   "s": 15.36,
+   "e": 15.86,
+   "p": 0.928
+  },
+  {
+   "w": "did",
+   "s": 15.86,
+   "e": 16.1,
+   "p": 0.997
+  },
+  {
+   "w": "not",
+   "s": 16.1,
+   "e": 16.36,
+   "p": 0.999
+  },
+  {
+   "w": "acquire",
+   "s": 16.36,
+   "e": 16.74,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 16.74,
+   "e": 16.98,
+   "p": 0.996
+  },
+  {
+   "w": "distribution",
+   "s": 16.98,
+   "e": 17.4,
+   "p": 0.994
+  },
+  {
+   "w": "rights",
+   "s": 17.4,
+   "e": 17.82,
+   "p": 0.999
+  },
+  {
+   "w": "to",
+   "s": 17.82,
+   "e": 18.02,
+   "p": 0.997
+  },
+  {
+   "w": "the",
+   "s": 18.02,
+   "e": 18.18,
+   "p": 0.992
+  },
+  {
+   "w": "films",
+   "s": 18.18,
+   "e": 18.46,
+   "p": 0.998
+  },
+  {
+   "w": "listed",
+   "s": 18.46,
+   "e": 18.8,
+   "p": 0.999
+  },
+  {
+   "w": "as",
+   "s": 18.8,
+   "e": 19.04,
+   "p": 0.999
+  },
+  {
+   "w": "collateral,",
+   "s": 19.04,
+   "e": 19.56,
+   "p": 0.96
+  },
+  {
+   "w": "and",
+   "s": 19.64,
+   "e": 20.22,
+   "p": 0.995
+  },
+  {
+   "w": "it",
+   "s": 20.22,
+   "e": 20.36,
+   "p": 0.984
+  },
+  {
+   "w": "did",
+   "s": 20.36,
+   "e": 20.48,
+   "p": 0.998
+  },
+  {
+   "w": "not",
+   "s": 20.48,
+   "e": 20.74,
+   "p": 0.998
+  },
+  {
+   "w": "enter",
+   "s": 20.74,
+   "e": 21.02,
+   "p": 0.999
+  },
+  {
+   "w": "into",
+   "s": 21.02,
+   "e": 21.3,
+   "p": 0.99
+  },
+  {
+   "w": "any",
+   "s": 21.3,
+   "e": 21.58,
+   "p": 0.993
+  },
+  {
+   "w": "distribution",
+   "s": 21.58,
+   "e": 22.18,
+   "p": 0.999
+  },
+  {
+   "w": "agreements",
+   "s": 22.18,
+   "e": 22.64,
+   "p": 0.996
+  },
+  {
+   "w": "with",
+   "s": 22.64,
+   "e": 22.88,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 22.88,
+   "e": 23.06,
+   "p": 0.996
+  },
+  {
+   "w": "streaming",
+   "s": 23.06,
+   "e": 23.36,
+   "p": 0.998
+  },
+  {
+   "w": "platforms",
+   "s": 23.36,
+   "e": 23.92,
+   "p": 0.998
+  },
+  {
+   "w": "for",
+   "s": 23.92,
+   "e": 24.18,
+   "p": 0.997
+  },
+  {
+   "w": "those",
+   "s": 24.18,
+   "e": 24.38,
+   "p": 0.997
+  },
+  {
+   "w": "films.",
+   "s": 24.38,
+   "e": 24.78,
+   "p": 0.999
+  },
+  {
+   "w": "The",
+   "s": 25.66,
+   "e": 25.86,
+   "p": 0.994
+  },
+  {
+   "w": "SEC",
+   "s": 25.86,
+   "e": 26.32,
+   "p": 0.989
+  },
+  {
+   "w": "alleged",
+   "s": 26.32,
+   "e": 26.88,
+   "p": 0.995
+  },
+  {
+   "w": "more",
+   "s": 26.88,
+   "e": 27.18,
+   "p": 0.942
+  },
+  {
+   "w": "broadly",
+   "s": 27.18,
+   "e": 27.68,
+   "p": 0.999
+  },
+  {
+   "w": "that",
+   "s": 27.68,
+   "e": 28.12,
+   "p": 0.956
+  },
+  {
+   "w": "Horwitz",
+   "s": 28.12,
+   "e": 28.54,
+   "p": 0.995
+  },
+  {
+   "w": "and",
+   "s": 28.54,
+   "e": 28.7,
+   "p": 0.998
+  },
+  {
+   "w": "his",
+   "s": 28.7,
+   "e": 28.9,
+   "p": 0.999
+  },
+  {
+   "w": "company",
+   "s": 28.9,
+   "e": 29.24,
+   "p": 0.998
+  },
+  {
+   "w": "had",
+   "s": 29.24,
+   "e": 29.46,
+   "p": 0.904
+  },
+  {
+   "w": "no",
+   "s": 29.46,
+   "e": 29.74,
+   "p": 0.995
+  },
+  {
+   "w": "business",
+   "s": 29.74,
+   "e": 30.18,
+   "p": 0.998
+  },
+  {
+   "w": "relationships",
+   "s": 30.18,
+   "e": 30.8,
+   "p": 0.98
+  },
+  {
+   "w": "with",
+   "s": 30.8,
+   "e": 31.14,
+   "p": 0.999
+  },
+  {
+   "w": "Netflix",
+   "s": 31.14,
+   "e": 31.54,
+   "p": 0.993
+  },
+  {
+   "w": "or",
+   "s": 31.54,
+   "e": 31.94,
+   "p": 0.989
+  },
+  {
+   "w": "HBO,",
+   "s": 31.94,
+   "e": 32.54,
+   "p": 0.994
+  },
+  {
+   "w": "and",
+   "s": 33.0,
+   "e": 33.24,
+   "p": 0.995
+  },
+  {
+   "w": "never",
+   "s": 33.24,
+   "e": 33.54,
+   "p": 0.994
+  },
+  {
+   "w": "signed",
+   "s": 33.54,
+   "e": 33.92,
+   "p": 0.995
+  },
+  {
+   "w": "distribution",
+   "s": 33.92,
+   "e": 34.5,
+   "p": 0.993
+  },
+  {
+   "w": "agreements",
+   "s": 34.5,
+   "e": 34.92,
+   "p": 0.998
+  },
+  {
+   "w": "with",
+   "s": 34.92,
+   "e": 35.2,
+   "p": 0.998
+  },
+  {
+   "w": "them.",
+   "s": 35.2,
+   "e": 35.42,
+   "p": 0.999
+  },
+  {
+   "w": "HBO",
+   "s": 36.26,
+   "e": 36.7,
+   "p": 0.995
+  },
+  {
+   "w": "and",
+   "s": 36.7,
+   "e": 36.9,
+   "p": 0.994
+  },
+  {
+   "w": "Netflix",
+   "s": 36.9,
+   "e": 37.34,
+   "p": 0.999
+  },
+  {
+   "w": "were",
+   "s": 37.34,
+   "e": 37.54,
+   "p": 0.997
+  },
+  {
+   "w": "not",
+   "s": 37.54,
+   "e": 37.8,
+   "p": 0.999
+  },
+  {
+   "w": "accused",
+   "s": 37.8,
+   "e": 38.16,
+   "p": 1.0
+  },
+  {
+   "w": "of",
+   "s": 38.16,
+   "e": 38.4,
+   "p": 0.999
+  },
+  {
+   "w": "wrongdoing",
+   "s": 38.4,
+   "e": 38.8,
+   "p": 0.977
+  },
+  {
+   "w": "in",
+   "s": 38.8,
+   "e": 39.06,
+   "p": 0.996
+  },
+  {
+   "w": "these",
+   "s": 39.06,
+   "e": 39.22,
+   "p": 0.996
+  },
+  {
+   "w": "cases.",
+   "s": 39.22,
+   "e": 39.68,
+   "p": 0.998
+  },
+  {
+   "w": "According",
+   "s": 40.4,
+   "e": 40.64,
+   "p": 0.995
+  },
+  {
+   "w": "to",
+   "s": 40.64,
+   "e": 40.84,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 40.84,
+   "e": 41.0,
+   "p": 0.99
+  },
+  {
+   "w": "SEC,",
+   "s": 41.0,
+   "e": 41.44,
+   "p": 0.975
+  },
+  {
+   "w": "neither",
+   "s": 42.1,
+   "e": 42.36,
+   "p": 0.962
+  },
+  {
+   "w": "company",
+   "s": 42.36,
+   "e": 42.8,
+   "p": 0.999
+  },
+  {
+   "w": "ever",
+   "s": 42.8,
+   "e": 43.18,
+   "p": 0.996
+  },
+  {
+   "w": "did",
+   "s": 43.18,
+   "e": 43.38,
+   "p": 0.996
+  },
+  {
+   "w": "business",
+   "s": 43.38,
+   "e": 43.8,
+   "p": 0.998
+  },
+  {
+   "w": "with",
+   "s": 43.8,
+   "e": 44.04,
+   "p": 0.999
+  },
+  {
+   "w": "one",
+   "s": 44.04,
+   "e": 44.28,
+   "p": 0.969
+  },
+  {
+   "w": "in",
+   "s": 44.28,
+   "e": 44.42,
+   "p": 0.965
+  },
+  {
+   "w": "MM.",
+   "s": 44.42,
+   "e": 44.7,
+   "p": 0.7
+  }
+ ],
+ "dur": 45.04,
+ "lech": []
+}

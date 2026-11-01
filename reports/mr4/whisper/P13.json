@@ -1,0 +1,226 @@
+{
+ "doan": "P13",
+ "tep": "lab/mr4/tts/P13.mp3",
+ "ref": "For more than five years, the Justice Department said, he raised millions of dollars from investors on these false claims. Then, beginning around December twenty nineteen, one-in-M-M began defaulting on all of its outstanding notes.",
+ "text": "For more than five years, the Justice Department said, he raised millions of dollars from investors on these false claims. Then, beginning around December 2019, one in MM began defaulting on all of its outstanding notes.",
+ "words": [
+  {
+   "w": "For",
+   "s": 0.0,
+   "e": 0.2,
+   "p": 0.6
+  },
+  {
+   "w": "more",
+   "s": 0.2,
+   "e": 0.34,
+   "p": 0.998
+  },
+  {
+   "w": "than",
+   "s": 0.34,
+   "e": 0.5,
+   "p": 0.999
+  },
+  {
+   "w": "five",
+   "s": 0.5,
+   "e": 0.92,
+   "p": 0.951
+  },
+  {
+   "w": "years,",
+   "s": 0.92,
+   "e": 1.44,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 1.8,
+   "e": 1.88,
+   "p": 0.995
+  },
+  {
+   "w": "Justice",
+   "s": 1.88,
+   "e": 2.18,
+   "p": 0.935
+  },
+  {
+   "w": "Department",
+   "s": 2.18,
+   "e": 2.56,
+   "p": 0.994
+  },
+  {
+   "w": "said,",
+   "s": 2.56,
+   "e": 2.9,
+   "p": 0.999
+  },
+  {
+   "w": "he",
+   "s": 3.4,
+   "e": 3.54,
+   "p": 0.972
+  },
+  {
+   "w": "raised",
+   "s": 3.54,
+   "e": 3.84,
+   "p": 0.998
+  },
+  {
+   "w": "millions",
+   "s": 3.84,
+   "e": 4.32,
+   "p": 0.997
+  },
+  {
+   "w": "of",
+   "s": 4.32,
+   "e": 4.6,
+   "p": 0.999
+  },
+  {
+   "w": "dollars",
+   "s": 4.6,
+   "e": 4.92,
+   "p": 0.998
+  },
+  {
+   "w": "from",
+   "s": 4.92,
+   "e": 5.18,
+   "p": 0.999
+  },
+  {
+   "w": "investors",
+   "s": 5.18,
+   "e": 5.64,
+   "p": 0.999
+  },
+  {
+   "w": "on",
+   "s": 5.64,
+   "e": 5.9,
+   "p": 0.998
+  },
+  {
+   "w": "these",
+   "s": 5.9,
+   "e": 6.04,
+   "p": 0.999
+  },
+  {
+   "w": "false",
+   "s": 6.04,
+   "e": 6.38,
+   "p": 0.999
+  },
+  {
+   "w": "claims.",
+   "s": 6.38,
+   "e": 6.9,
+   "p": 0.999
+  },
+  {
+   "w": "Then,",
+   "s": 7.72,
+   "e": 7.94,
+   "p": 0.998
+  },
+  {
+   "w": "beginning",
+   "s": 8.32,
+   "e": 8.5,
+   "p": 0.998
+  },
+  {
+   "w": "around",
+   "s": 8.5,
+   "e": 8.82,
+   "p": 0.998
+  },
+  {
+   "w": "December",
+   "s": 8.82,
+   "e": 9.22,
+   "p": 0.991
+  },
+  {
+   "w": "2019,",
+   "s": 9.22,
+   "e": 9.98,
+   "p": 0.929
+  },
+  {
+   "w": "one",
+   "s": 10.8,
+   "e": 10.88,
+   "p": 0.826
+  },
+  {
+   "w": "in",
+   "s": 10.88,
+   "e": 11.1,
+   "p": 0.979
+  },
+  {
+   "w": "MM",
+   "s": 11.1,
+   "e": 11.44,
+   "p": 0.425
+  },
+  {
+   "w": "began",
+   "s": 11.44,
+   "e": 11.84,
+   "p": 0.992
+  },
+  {
+   "w": "defaulting",
+   "s": 11.84,
+   "e": 12.48,
+   "p": 0.999
+  },
+  {
+   "w": "on",
+   "s": 12.48,
+   "e": 12.62,
+   "p": 0.998
+  },
+  {
+   "w": "all",
+   "s": 12.62,
+   "e": 12.96,
+   "p": 0.999
+  },
+  {
+   "w": "of",
+   "s": 12.96,
+   "e": 13.06,
+   "p": 0.993
+  },
+  {
+   "w": "its",
+   "s": 13.06,
+   "e": 13.22,
+   "p": 0.991
+  },
+  {
+   "w": "outstanding",
+   "s": 13.22,
+   "e": 13.72,
+   "p": 0.998
+  },
+  {
+   "w": "notes.",
+   "s": 13.72,
+   "e": 14.14,
+   "p": 0.997
+  }
+ ],
+ "dur": 14.48,
+ "lech": []
+}

@@ -1,0 +1,595 @@
+{
+ "doan": "P18",
+ "tep": "lab/mr4/tts/P18.mp3",
+ "ref": "In October twenty twenty-one, Horwitz pleaded guilty to one count of securities fraud. In his plea agreement, he admitted that he was in fact guilty and agreed to a statement of facts. That statement is the source of much of what you have heard in this story. On February fourteenth, twenty twenty-two, U.S. District Judge Mark C. Scarsi sentenced him to two hundred forty months in federal prison: twenty years. The judge also ordered him to pay two hundred thirty million, three hundred sixty-one thousand, eight hundred eighty-four dollars in restitution. The remaining charges, including wire fraud, were dismissed on the government's motion, as the plea agreement provided.",
+ "text": "In October 2021, Horwitz pleaded guilty to one count of securities fraud. In his plea agreement, he admitted that he was, in fact, guilty and agreed to a statement of facts. That statement is the source of much of what you have heard in this story. On February 14, 2022, U.S. District Judge Mark C. Scarsi sentenced him to 240 months in federal prison, 20 years. The judge also ordered him to pay $230,361,884 in restitution. The remaining charges, including wire fraud, were dismissed on the government's motion as the plea agreement provided.",
+ "words": [
+  {
+   "w": "In",
+   "s": 0.0,
+   "e": 0.18,
+   "p": 0.885
+  },
+  {
+   "w": "October",
+   "s": 0.18,
+   "e": 0.6,
+   "p": 0.988
+  },
+  {
+   "w": "2021,",
+   "s": 0.6,
+   "e": 1.62,
+   "p": 0.877
+  },
+  {
+   "w": "Horwitz",
+   "s": 2.16,
+   "e": 2.42,
+   "p": 0.901
+  },
+  {
+   "w": "pleaded",
+   "s": 2.42,
+   "e": 2.74,
+   "p": 0.991
+  },
+  {
+   "w": "guilty",
+   "s": 2.74,
+   "e": 3.1,
+   "p": 0.996
+  },
+  {
+   "w": "to",
+   "s": 3.1,
+   "e": 3.34,
+   "p": 0.998
+  },
+  {
+   "w": "one",
+   "s": 3.34,
+   "e": 3.64,
+   "p": 0.974
+  },
+  {
+   "w": "count",
+   "s": 3.64,
+   "e": 3.96,
+   "p": 0.993
+  },
+  {
+   "w": "of",
+   "s": 3.96,
+   "e": 4.18,
+   "p": 0.999
+  },
+  {
+   "w": "securities",
+   "s": 4.18,
+   "e": 4.62,
+   "p": 0.994
+  },
+  {
+   "w": "fraud.",
+   "s": 4.62,
+   "e": 4.98,
+   "p": 0.999
+  },
+  {
+   "w": "In",
+   "s": 5.74,
+   "e": 5.86,
+   "p": 0.992
+  },
+  {
+   "w": "his",
+   "s": 5.86,
+   "e": 6.06,
+   "p": 0.999
+  },
+  {
+   "w": "plea",
+   "s": 6.06,
+   "e": 6.28,
+   "p": 0.999
+  },
+  {
+   "w": "agreement,",
+   "s": 6.28,
+   "e": 6.68,
+   "p": 0.999
+  },
+  {
+   "w": "he",
+   "s": 7.02,
+   "e": 7.16,
+   "p": 0.996
+  },
+  {
+   "w": "admitted",
+   "s": 7.16,
+   "e": 7.5,
+   "p": 0.997
+  },
+  {
+   "w": "that",
+   "s": 7.5,
+   "e": 7.72,
+   "p": 0.993
+  },
+  {
+   "w": "he",
+   "s": 7.72,
+   "e": 7.88,
+   "p": 0.996
+  },
+  {
+   "w": "was,",
+   "s": 7.88,
+   "e": 8.24,
+   "p": 0.997
+  },
+  {
+   "w": "in",
+   "s": 8.28,
+   "e": 8.42,
+   "p": 0.998
+  },
+  {
+   "w": "fact,",
+   "s": 8.42,
+   "e": 8.68,
+   "p": 0.999
+  },
+  {
+   "w": "guilty",
+   "s": 8.82,
+   "e": 9.14,
+   "p": 0.998
+  },
+  {
+   "w": "and",
+   "s": 9.14,
+   "e": 9.6,
+   "p": 0.871
+  },
+  {
+   "w": "agreed",
+   "s": 9.6,
+   "e": 9.9,
+   "p": 0.998
+  },
+  {
+   "w": "to",
+   "s": 9.9,
+   "e": 10.08,
+   "p": 0.999
+  },
+  {
+   "w": "a",
+   "s": 10.08,
+   "e": 10.3,
+   "p": 0.999
+  },
+  {
+   "w": "statement",
+   "s": 10.3,
+   "e": 10.52,
+   "p": 0.972
+  },
+  {
+   "w": "of",
+   "s": 10.52,
+   "e": 10.76,
+   "p": 0.999
+  },
+  {
+   "w": "facts.",
+   "s": 10.76,
+   "e": 11.14,
+   "p": 0.975
+  },
+  {
+   "w": "That",
+   "s": 11.78,
+   "e": 11.96,
+   "p": 0.997
+  },
+  {
+   "w": "statement",
+   "s": 11.96,
+   "e": 12.38,
+   "p": 0.998
+  },
+  {
+   "w": "is",
+   "s": 12.38,
+   "e": 12.62,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 12.62,
+   "e": 12.8,
+   "p": 0.999
+  },
+  {
+   "w": "source",
+   "s": 12.8,
+   "e": 13.08,
+   "p": 0.999
+  },
+  {
+   "w": "of",
+   "s": 13.08,
+   "e": 13.28,
+   "p": 0.999
+  },
+  {
+   "w": "much",
+   "s": 13.28,
+   "e": 13.56,
+   "p": 0.999
+  },
+  {
+   "w": "of",
+   "s": 13.56,
+   "e": 13.74,
+   "p": 0.998
+  },
+  {
+   "w": "what",
+   "s": 13.74,
+   "e": 13.86,
+   "p": 0.999
+  },
+  {
+   "w": "you",
+   "s": 13.86,
+   "e": 14.0,
+   "p": 0.999
+  },
+  {
+   "w": "have",
+   "s": 14.0,
+   "e": 14.16,
+   "p": 0.991
+  },
+  {
+   "w": "heard",
+   "s": 14.16,
+   "e": 14.38,
+   "p": 0.999
+  },
+  {
+   "w": "in",
+   "s": 14.38,
+   "e": 14.52,
+   "p": 0.995
+  },
+  {
+   "w": "this",
+   "s": 14.52,
+   "e": 14.68,
+   "p": 0.982
+  },
+  {
+   "w": "story.",
+   "s": 14.68,
+   "e": 15.1,
+   "p": 0.999
+  },
+  {
+   "w": "On",
+   "s": 16.0,
+   "e": 16.12,
+   "p": 0.985
+  },
+  {
+   "w": "February",
+   "s": 16.12,
+   "e": 16.54,
+   "p": 0.986
+  },
+  {
+   "w": "14,",
+   "s": 16.54,
+   "e": 17.14,
+   "p": 0.982
+  },
+  {
+   "w": "2022,",
+   "s": 17.4,
+   "e": 18.08,
+   "p": 0.97
+  },
+  {
+   "w": "U",
+   "s": 18.8,
+   "e": 18.92,
+   "p": 0.638
+  },
+  {
+   "w": ".S.",
+   "s": 18.92,
+   "e": 19.12,
+   "p": 0.989
+  },
+  {
+   "w": "District",
+   "s": 19.36,
+   "e": 19.4,
+   "p": 0.938
+  },
+  {
+   "w": "Judge",
+   "s": 19.4,
+   "e": 19.76,
+   "p": 0.987
+  },
+  {
+   "w": "Mark",
+   "s": 19.76,
+   "e": 20.16,
+   "p": 0.895
+  },
+  {
+   "w": "C.",
+   "s": 20.16,
+   "e": 20.44,
+   "p": 0.996
+  },
+  {
+   "w": "Scarsi",
+   "s": 20.62,
+   "e": 20.98,
+   "p": 0.706
+  },
+  {
+   "w": "sentenced",
+   "s": 20.98,
+   "e": 21.38,
+   "p": 0.987
+  },
+  {
+   "w": "him",
+   "s": 21.38,
+   "e": 21.6,
+   "p": 0.998
+  },
+  {
+   "w": "to",
+   "s": 21.6,
+   "e": 21.82,
+   "p": 0.999
+  },
+  {
+   "w": "240",
+   "s": 21.82,
+   "e": 22.6,
+   "p": 0.942
+  },
+  {
+   "w": "months",
+   "s": 22.6,
+   "e": 23.06,
+   "p": 0.998
+  },
+  {
+   "w": "in",
+   "s": 23.06,
+   "e": 23.34,
+   "p": 0.998
+  },
+  {
+   "w": "federal",
+   "s": 23.34,
+   "e": 23.62,
+   "p": 0.96
+  },
+  {
+   "w": "prison,",
+   "s": 23.62,
+   "e": 24.04,
+   "p": 0.999
+  },
+  {
+   "w": "20",
+   "s": 24.64,
+   "e": 24.96,
+   "p": 0.977
+  },
+  {
+   "w": "years.",
+   "s": 24.96,
+   "e": 25.4,
+   "p": 0.999
+  },
+  {
+   "w": "The",
+   "s": 25.82,
+   "e": 26.18,
+   "p": 0.855
+  },
+  {
+   "w": "judge",
+   "s": 26.18,
+   "e": 26.42,
+   "p": 0.956
+  },
+  {
+   "w": "also",
+   "s": 26.42,
+   "e": 26.86,
+   "p": 0.986
+  },
+  {
+   "w": "ordered",
+   "s": 26.86,
+   "e": 27.16,
+   "p": 0.999
+  },
+  {
+   "w": "him",
+   "s": 27.16,
+   "e": 27.34,
+   "p": 0.997
+  },
+  {
+   "w": "to",
+   "s": 27.34,
+   "e": 27.54,
+   "p": 0.998
+  },
+  {
+   "w": "pay",
+   "s": 27.54,
+   "e": 27.72,
+   "p": 0.997
+  },
+  {
+   "w": "$230",
+   "s": 27.72,
+   "e": 28.54,
+   "p": 0.928
+  },
+  {
+   "w": ",361",
+   "s": 28.54,
+   "e": 30.2,
+   "p": 0.946
+  },
+  {
+   "w": ",884",
+   "s": 30.2,
+   "e": 31.74,
+   "p": 0.983
+  },
+  {
+   "w": "in",
+   "s": 31.74,
+   "e": 32.6,
+   "p": 0.971
+  },
+  {
+   "w": "restitution.",
+   "s": 32.6,
+   "e": 33.2,
+   "p": 0.996
+  },
+  {
+   "w": "The",
+   "s": 34.0,
+   "e": 34.14,
+   "p": 0.996
+  },
+  {
+   "w": "remaining",
+   "s": 34.14,
+   "e": 34.42,
+   "p": 0.996
+  },
+  {
+   "w": "charges,",
+   "s": 34.42,
+   "e": 35.0,
+   "p": 0.999
+  },
+  {
+   "w": "including",
+   "s": 35.26,
+   "e": 35.62,
+   "p": 0.998
+  },
+  {
+   "w": "wire",
+   "s": 35.62,
+   "e": 35.98,
+   "p": 0.997
+  },
+  {
+   "w": "fraud,",
+   "s": 35.98,
+   "e": 36.4,
+   "p": 0.993
+  },
+  {
+   "w": "were",
+   "s": 36.74,
+   "e": 36.88,
+   "p": 0.998
+  },
+  {
+   "w": "dismissed",
+   "s": 36.88,
+   "e": 37.3,
+   "p": 0.998
+  },
+  {
+   "w": "on",
+   "s": 37.3,
+   "e": 37.52,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 37.52,
+   "e": 37.66,
+   "p": 0.998
+  },
+  {
+   "w": "government's",
+   "s": 37.66,
+   "e": 38.14,
+   "p": 0.966
+  },
+  {
+   "w": "motion",
+   "s": 38.14,
+   "e": 38.46,
+   "p": 0.997
+  },
+  {
+   "w": "as",
+   "s": 38.46,
+   "e": 38.92,
+   "p": 0.654
+  },
+  {
+   "w": "the",
+   "s": 38.92,
+   "e": 39.1,
+   "p": 0.996
+  },
+  {
+   "w": "plea",
+   "s": 39.1,
+   "e": 39.28,
+   "p": 0.99
+  },
+  {
+   "w": "agreement",
+   "s": 39.28,
+   "e": 39.66,
+   "p": 0.998
+  },
+  {
+   "w": "provided.",
+   "s": 39.66,
+   "e": 40.12,
+   "p": 0.997
+  }
+ ],
+ "dur": 40.48,
+ "lech": [
+  {
+   "op": "replace",
+   "ref": "fourteenth",
+   "hyp": "fourteen",
+   "ngu_canh_ref": "story on february fourteenth twenty twenty two",
+   "ngu_canh_hyp": "story on february fourteen twenty twenty two",
+   "quan_trong": true
+  }
+ ]
+}
