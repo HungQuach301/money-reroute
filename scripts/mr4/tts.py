@@ -57,9 +57,9 @@ def thu(doan, text, ten, ly_do=""):
         if c1 != c0: break
     hdr_cc = {k: v for k, v in h.items() if "character" in k.lower() or k.lower() in ("request-id", "history-item-id")}
     hc = next((int(v) for k, v in h.items() if k.lower() == "character-cost"), None)
-    # /subscription có thể trễ (đo MR-4 P00: không đổi sau 30 s) → ký tự tính = max(chênh số dư, header Character-Cost);
-    # đối soát tổng bằng chênh /subscription đầu–cuối phiên ở báo cáo.
-    tinh = max(c1 - c0, hc or 0)
+    # /subscription có thể trễ (đo MR-4 P00: không đổi sau 30 s; P04 trễ dồn sang P05) → ký tự tính = header Character-Cost
+    # của chính lượt đó; thiếu header thì dùng chênh số dư. Đối soát tổng bằng chênh /subscription đầu–cuối ở báo cáo.
+    tinh = hc if hc is not None else (c1 - c0)
     meta = {"doan": doan, "tep": os.path.relpath(p, ROOT), "gui": n, "he_so": round(tinh / n, 4) if n else None,
             "header": hdr_cc, "bat_dau": t0, "ly_do": ly_do, "chenh_sub": c1 - c0, "character_cost": hc}
     budget.charge("elevenlabs_chars", tinh, meta)
