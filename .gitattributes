@@ -1,0 +1,17 @@
+# Git LFS — tệp TỐN TIỀN (ảnh AI, clip video AI, âm TTS/nhạc) và bản xem. Đẩy LFS ≤ 10 phút sau khi sinh (CLAUDE.md).
+# Khuôn theo lost-places-lab @ ae22e37 (.gitattributes), chỉnh cho cấu trúc MR: mỗi phiên dùng lab/<phiên>/ và reports/<phiên>/xem/.
+# Mẫu ở đây PHẢI khớp tools/lfs-allow.txt (preflight P3 chặn con trỏ LFS ngoài vùng cho phép).
+lab/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+lab/**/*.mov filter=lfs diff=lfs merge=lfs -text
+lab/**/*.webm filter=lfs diff=lfs merge=lfs -text
+lab/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+lab/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+lab/**/*.png filter=lfs diff=lfs merge=lfs -text
+lab/**/*.webp filter=lfs diff=lfs merge=lfs -text
+lab/**/*.tif filter=lfs diff=lfs merge=lfs -text
+lab/**/*.wav filter=lfs diff=lfs merge=lfs -text
+lab/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+lab/**/*.flac filter=lfs diff=lfs merge=lfs -text
+reports/**/xem/*.mp4 filter=lfs diff=lfs merge=lfs -text
+reports/**/thumb/*.png filter=lfs diff=lfs merge=lfs -text
+reports/**/thumb/*.jpg filter=lfs diff=lfs merge=lfs -text

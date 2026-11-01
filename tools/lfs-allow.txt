@@ -1,0 +1,16 @@
+# Vùng được phép chứa con trỏ Git LFS (preflight P3, scripts/common/preflight_scan.py). Khuôn: lost-places-lab @ ae22e37 tools/lfs-allow.txt.
+# Tạo ở MR-0 (01/11/2026). Mẫu fnmatch ("*" khớp cả "/"). Thêm vùng mới chỉ theo lệnh điều phối, ghi mốc + lý do.
+lab/*.mp4
+lab/*.mov
+lab/*.webm
+lab/*.jpg
+lab/*.jpeg
+lab/*.png
+lab/*.webp
+lab/*.tif
+lab/*.wav
+lab/*.mp3
+lab/*.flac
+reports/*/xem/*.mp4
+reports/*/thumb/*.png
+reports/*/thumb/*.jpg
