@@ -27,3 +27,6 @@ Không đoán · trần chi + 402 → DỪNG · LFS ≤ 10 phút · preflight tr
 
 ## 5. Lộ trình đã duyệt (01/11/2026 21:34)
 Mốc 1 Hiến chương v2 — xong · Mốc 2 Dàn truyện A+B (MR-2) → chủ dự án chọn vụ · Mốc 3 Kịch bản + G1 tập 1 (MR-3) ‖ Kho đề tài (MR-K1, song song) · Mốc 4 Sản xuất tập 1 (nạp OpenRouter trước) · Mốc 5 Đăng, đo đơn giá thật, chốt QUY-TRINH 1.0.
+
+## 6. Trạng thái sau rà MR-2 (01/11/2026 22:20)
+- MR-2 merge squash `68af9a9`. Chờ chủ dự án: chọn vụ tập 1 (điều phối khuyến nghị B 1inMM), xoá nhánh `ccr-287dabd9-ibz780` (có email trong lịch sử), cấp địa chỉ liên hệ của kênh cho UA sec.gov. Kế tiếp: MR-3 kịch bản + G1 ‖ MR-K1 kho đề tài.
