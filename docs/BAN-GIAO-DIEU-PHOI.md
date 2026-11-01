@@ -30,3 +30,6 @@ Mốc 1 Hiến chương v2 — xong · Mốc 2 Dàn truyện A+B (MR-2) → ch�
 
 ## 6. Trạng thái sau rà MR-2 (01/11/2026 22:20)
 - MR-2 merge squash `68af9a9`. Chờ chủ dự án: chọn vụ tập 1 (điều phối khuyến nghị B 1inMM), xoá nhánh `ccr-287dabd9-ibz780` (có email trong lịch sử), cấp địa chỉ liên hệ của kênh cho UA sec.gov. Kế tiếp: MR-3 kịch bản + G1 ‖ MR-K1 kho đề tài.
+
+## 7. Trạng thái sau rà MR-3b + MR-K1 (01/11/2026 23:35)
+- Lời tập 1 chờ **G1 chính thức**. Kho đề tài 14 vụ đã merge (`docs/kho-de-tai/KHO.md`). Kế tiếp sau G1: MR-4 (M-c phần 1: đọc số dư, kiểm voice_id, TTS toàn lời, thử 2 khe Veo → DỪNG).

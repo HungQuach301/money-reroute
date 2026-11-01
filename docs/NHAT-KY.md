@@ -96,3 +96,12 @@ Nhánh `claude/lucid-goldberg-vcpyv1` @ `ca3c7cb` (từ `6296c0e`). Kiểm độ
 - Gói phát hành có tệp luật thumbnail cho ChatGPT: điều phối tạo `docs/tap01-1inmm/phat-hanh/THUMBNAIL-RULES.txt`.
 - **OpenRouter:** chủ dự án nạp thêm 15 USD; tổng ~40 USD **dùng chung** với lost-places-lab (chủ dự án báo; phiên đọc `/credits` trước M-c).
 - Phát MR-3b (sửa lời + kiểm lời các câu đổi); G1 chốt sau rà MR-3b.
+
+## MR-3b + MR-K1 · 01/11/2026 23:35 (giờ Hà Nội) · Điều phối rà — merge cả hai
+**MR-3b** (`claude/compassionate-faraday-ll0nya` @ `40487cd`): preflight ĐẠT; 0 email trong lịch sử nhánh; 0 USD.
+- `loi.json`: 105 câu (101 đọc, 4 chữ), 2.005 từ, ≈ 16:13. Mọi đoạn có tên HBO/Netflix có câu KBCB: đọc ở P01 (S008), P08 (S045); chữ trên hình ở P03, P06, P15, P16. Câu KBCB đổi thành "…not accused of wrongdoing **in these cases**…" (thu hẹp, an toàn hơn — chờ chủ dự án duyệt cùng G1).
+- P21 tổng kết: 3 bài học + 5 dấu hiệu + 1 nguyên tắc + nơi kiểm/báo cáo; không sự việc mới; S100 đối chiếu N1 ("registered with the Commission") khớp.
+- Còn mở trước ngày đăng: mở lại N2, N3, N18 bằng UA khai báo (403 ở MR-3b).
+**MR-K1** (`claude/kho-de-tai-mr-k1-5pplwo` @ `0718006`): preflight ĐẠT; 0 email; YouTube 55/2000 đơn vị, `search.list` 28/50, mọi lượt HTTP 200; `do-cau/*.json` không có tiêu đề/mô tả/thumbnail.
+- 14 vụ / 6 trụ; SHA-256 **23/23 khớp** (22 PDF + 1 JSON thông cáo DOJ). Đối chiếu PDF: Stanford "convicted on 13 of 14 counts… 110 years" (CA5); Holmes 135 tháng (CA9); Alldred 288 tháng (CA5). Kiểm tầng độc lập: 0 vụ không đạt; các điểm sửa đã áp.
+- Cần chủ dự án quyết: Wilkins (§5 — chưa xác định nạn nhân người lớn), Stanford vụ SEC (summary judgment có tranh chấp: ● hay ◐), Sunmola (mức nói về ảnh riêng tư), thứ tự tập, PACER.
