@@ -35,7 +35,6 @@ def so_du():
 def thu(doan, text, ten, ly_do=""):
     n = len(text)
     budget.check("elevenlabs_chars", n); budget.check_gui("elevenlabs_chars", n)
-    c0, lim = so_du()
     body = json.dumps({"text": text, "model_id": MODEL}).encode()
     req = urllib.request.Request(f"{API}/v1/text-to-speech/{VOICE}?output_format={FMT}", data=body, method="POST",
                                  headers={**HDR, "Content-Type": "application/json", "Accept": "audio/mpeg"})
@@ -45,26 +44,21 @@ def thu(doan, text, ten, ly_do=""):
     except urllib.error.HTTPError as e:
         msg = e.read()[:300].decode("utf-8", "replace")
         if e.code == 402: budget.bao_402("elevenlabs", msg)
-        # lượt lỗi khác: vẫn đọc chênh số dư, ghi sổ rồi dừng
-        time.sleep(3); c1, _ = so_du()
-        budget.charge("elevenlabs_chars", c1 - c0, {"doan": doan, "loi_http": e.code, "gui": n, "chi_tiet": msg})
+        # lượt lỗi khác: ghi sổ (0 ký tự tính theo phản hồi lỗi; đối soát /subscription cuối phiên) rồi dừng
+        budget.charge("elevenlabs_chars", 0, {"doan": doan, "loi_http": e.code, "gui": n, "chi_tiet": msg})
         raise SystemExit(f"{doan}: HTTP {e.code} {msg}")
     os.makedirs(OUT, exist_ok=True); p = os.path.join(OUT, ten + ".mp3"); open(p, "wb").write(audio)
-    # chênh số dư có thể trễ vài giây → đọc lại tới khi đổi (tối đa ~30 s)
-    c1 = c0
-    for _ in range(10):
-        time.sleep(3); c1, _ = so_du()
-        if c1 != c0: break
     hdr_cc = {k: v for k, v in h.items() if "character" in k.lower() or k.lower() in ("request-id", "history-item-id")}
     hc = next((int(v) for k, v in h.items() if k.lower() == "character-cost"), None)
-    # /subscription có thể trễ (đo MR-4 P00: không đổi sau 30 s; P04 trễ dồn sang P05) → ký tự tính = header Character-Cost
-    # của chính lượt đó; thiếu header thì dùng chênh số dư. Đối soát tổng bằng chênh /subscription đầu–cuối ở báo cáo.
-    tinh = hc if hc is not None else (c1 - c0)
+    # /subscription trễ (P00 không đổi sau 30 s; P04 dồn sang P05) và đọc liên tục bị 429 (P08) → ký tự tính = header
+    # Character-Cost của chính lượt đó; thiếu header → DỪNG để đối soát tay. Tổng đối soát bằng chênh /subscription đầu–cuối.
+    if hc is None: raise SystemExit(f"{doan}: thiếu header Character-Cost — tệp đã lưu {p}, đối soát /subscription rồi ghi sổ tay")
+    tinh = hc
     meta = {"doan": doan, "tep": os.path.relpath(p, ROOT), "gui": n, "he_so": round(tinh / n, 4) if n else None,
-            "header": hdr_cc, "bat_dau": t0, "ly_do": ly_do, "chenh_sub": c1 - c0, "character_cost": hc}
+            "header": hdr_cc, "bat_dau": t0, "ly_do": ly_do, "character_cost": hc}
     budget.charge("elevenlabs_chars", tinh, meta)
     os.makedirs(os.path.dirname(SO), exist_ok=True)
-    with open(SO, "a") as f: f.write(json.dumps({**meta, "tinh": tinh, "count_truoc": c0, "count_sau": c1}, ensure_ascii=False) + "\n")
+    with open(SO, "a") as f: f.write(json.dumps({**meta, "tinh": tinh}, ensure_ascii=False) + "\n")
     print(json.dumps({"doan": doan, "gui": n, "tinh": tinh, "he_so": meta["he_so"], "header": hdr_cc, "tep": meta["tep"]}, ensure_ascii=False))
     if budget.canh_bao("elevenlabs_chars"): print("CẢNH BÁO: chạm mốc báo 80 % elevenlabs_chars")
     return tinh
