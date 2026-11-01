@@ -84,7 +84,7 @@ Nền giấy ngà `#F4F1EA`; chữ mực `#1B1F24`; tiêu đề nhóm IBM Plex S
 | | 2. A famous partner you can't verify | S098 | đỏ cam |
 | | 3. All the proof comes from the seller | S099 | đỏ cam |
 | | 4. Unregistered offer passed through friends | S100 | đỏ cam |
-| | 5. Missed payments blamed on a partner | S101 | đỏ cam |
+| | 5. Missed payments blamed on someone else | S101 | đỏ cam |
 | **1 RULE** | Verify independently before any money moves. | S102 | mực, nền ô xám `#8A8F98` 15 % |
 
 Chân thẻ (IBM Plex Mono ≥ 22 px): "Check: brokercheck.finra.org · adviserinfo.sec.gov — Report: sec.gov/submit-tip-or-complaint · reportfraud.ftc.gov". Thẻ là bài học chung, không gắn nhãn tầng; dòng 2 không chữ "Ponzi" để thẻ không gán nhãn cho người (luật 8d) — chữ "Ponzi" chỉ ở lời S095, có chủ thể Justice Department.

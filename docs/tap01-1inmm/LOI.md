@@ -8,7 +8,7 @@
 ## Thống kê (máy)
 
 - Số câu: **105** (đọc **101**, chỉ chữ trên hình **4**) · số từ đọc: **2005** · thời lượng lời ước: **13.4–14.3 phút** (150–140 từ/phút) + thẻ chữ không đọc 4 × 6 s = 0.4 phút + khoảng nghỉ/chữ trích/nhạc ≈ 1–1,5 phút → **≈ 14.8–16.2 phút**.
-- Ký tự gửi TTS một lượt (sau thay phát âm): **12.249**.
+- Ký tự gửi TTS một lượt (sau thay phát âm): **12.252**.
 - Số câu theo tầng: CHUNG 18 · KBCB 6 · MH 2 · NB 2 · TT 6 · ● 5 · ●T 35 · ◐ 31.
 - Kiểm máy K1–K8: **ĐẠT**.
 
@@ -223,7 +223,7 @@
 | S098 | ●T | đọc | Two: a famous partner you cannot verify yourself, like the streaming platforms he named to investors. | N7 tr. 9 |  |
 | S099 | ●T | đọc | Three: all the proof comes from the seller; here the notes, the collateral papers and the deal papers all came from him. | N7 tr. 9–11 |  |
 | S100 | ◐ | đọc | Four: an unregistered offer that travels through friends; the SEC alleged that neither one-in-M-M nor its securities offerings were registered with the Commission. | N1 tr. 5 ¶18; N12 (chỉ vế "friends") |  |
-| S101 | ●T | đọc | Five: missed payments blamed on a partner; he admitted falsely blaming the streaming platforms for the missed payments, and claiming that payments would resume. | N7 tr. 11 |  |
+| S101 | ●T | đọc | Five: missed payments blamed on someone else; he admitted falsely blaming the streaming platforms for the missed payments, and claiming that payments would resume. | N7 tr. 11 |  |
 | S102 | CHUNG | đọc | And one rule under all of it: verify independently before any money moves, including money to rescue an investment that has stopped paying. | — |  |
 | S103 | CHUNG | đọc | To check a seller, look them up on FINRA's BrokerCheck or the SEC's Investment Adviser Public Disclosure website. | N19; N20 |  |
 | S104 | CHUNG | đọc | To report suspected investment fraud, submit a tip at sec dot gov; to report a scam to the Federal Trade Commission, go to ReportFraud dot F-T-C dot gov. | N18; N21 |  |
