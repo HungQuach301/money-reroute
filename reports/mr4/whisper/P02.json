@@ -1,0 +1,286 @@
+{
+ "doan": "P02",
+ "tep": "lab/mr4/tts/P02.mp3",
+ "ref": "Around twenty thirteen, Horwitz founded a company called one-in-M-M Capital, which he promoted as a film distribution company based in Los Angeles. According to the S-E-C, the name was short for one in a million. According to the indictment, Horwitz was the company's sole manager.",
+ "text": "Around 2013, Horwitz founded a company called One in MM Capital, which he promoted as a film distribution company based in Los Angeles. According to the SEC, the name was short for one in a million. According to the indictment, Horwitz was the company's sole manager.",
+ "words": [
+  {
+   "w": "Around",
+   "s": 0.0,
+   "e": 0.32,
+   "p": 0.906
+  },
+  {
+   "w": "2013,",
+   "s": 0.32,
+   "e": 1.24,
+   "p": 0.975
+  },
+  {
+   "w": "Horwitz",
+   "s": 1.74,
+   "e": 2.02,
+   "p": 0.82
+  },
+  {
+   "w": "founded",
+   "s": 2.02,
+   "e": 2.32,
+   "p": 0.983
+  },
+  {
+   "w": "a",
+   "s": 2.32,
+   "e": 2.52,
+   "p": 0.998
+  },
+  {
+   "w": "company",
+   "s": 2.52,
+   "e": 2.8,
+   "p": 0.998
+  },
+  {
+   "w": "called",
+   "s": 2.8,
+   "e": 3.16,
+   "p": 0.997
+  },
+  {
+   "w": "One",
+   "s": 3.16,
+   "e": 3.54,
+   "p": 0.694
+  },
+  {
+   "w": "in",
+   "s": 3.54,
+   "e": 3.8,
+   "p": 0.876
+  },
+  {
+   "w": "MM",
+   "s": 3.8,
+   "e": 4.26,
+   "p": 0.79
+  },
+  {
+   "w": "Capital,",
+   "s": 4.26,
+   "e": 4.78,
+   "p": 0.934
+  },
+  {
+   "w": "which",
+   "s": 5.24,
+   "e": 5.5,
+   "p": 0.996
+  },
+  {
+   "w": "he",
+   "s": 5.5,
+   "e": 5.62,
+   "p": 0.998
+  },
+  {
+   "w": "promoted",
+   "s": 5.62,
+   "e": 6.04,
+   "p": 0.999
+  },
+  {
+   "w": "as",
+   "s": 6.04,
+   "e": 6.26,
+   "p": 0.997
+  },
+  {
+   "w": "a",
+   "s": 6.26,
+   "e": 6.46,
+   "p": 0.998
+  },
+  {
+   "w": "film",
+   "s": 6.46,
+   "e": 6.66,
+   "p": 0.989
+  },
+  {
+   "w": "distribution",
+   "s": 6.66,
+   "e": 7.22,
+   "p": 0.978
+  },
+  {
+   "w": "company",
+   "s": 7.22,
+   "e": 7.7,
+   "p": 0.999
+  },
+  {
+   "w": "based",
+   "s": 7.7,
+   "e": 7.98,
+   "p": 0.982
+  },
+  {
+   "w": "in",
+   "s": 7.98,
+   "e": 8.18,
+   "p": 0.999
+  },
+  {
+   "w": "Los",
+   "s": 8.18,
+   "e": 8.38,
+   "p": 0.993
+  },
+  {
+   "w": "Angeles.",
+   "s": 8.38,
+   "e": 8.92,
+   "p": 0.999
+  },
+  {
+   "w": "According",
+   "s": 9.66,
+   "e": 9.92,
+   "p": 0.998
+  },
+  {
+   "w": "to",
+   "s": 9.92,
+   "e": 10.12,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 10.12,
+   "e": 10.28,
+   "p": 0.995
+  },
+  {
+   "w": "SEC,",
+   "s": 10.28,
+   "e": 10.72,
+   "p": 0.921
+  },
+  {
+   "w": "the",
+   "s": 11.28,
+   "e": 11.4,
+   "p": 0.995
+  },
+  {
+   "w": "name",
+   "s": 11.4,
+   "e": 11.6,
+   "p": 1.0
+  },
+  {
+   "w": "was",
+   "s": 11.6,
+   "e": 11.76,
+   "p": 0.999
+  },
+  {
+   "w": "short",
+   "s": 11.76,
+   "e": 12.04,
+   "p": 0.998
+  },
+  {
+   "w": "for",
+   "s": 12.04,
+   "e": 12.46,
+   "p": 0.998
+  },
+  {
+   "w": "one",
+   "s": 12.46,
+   "e": 12.9,
+   "p": 0.267
+  },
+  {
+   "w": "in",
+   "s": 12.9,
+   "e": 13.16,
+   "p": 0.964
+  },
+  {
+   "w": "a",
+   "s": 13.16,
+   "e": 13.28,
+   "p": 0.993
+  },
+  {
+   "w": "million.",
+   "s": 13.28,
+   "e": 13.6,
+   "p": 0.998
+  },
+  {
+   "w": "According",
+   "s": 14.4,
+   "e": 14.66,
+   "p": 0.997
+  },
+  {
+   "w": "to",
+   "s": 14.66,
+   "e": 14.9,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 14.9,
+   "e": 15.02,
+   "p": 0.998
+  },
+  {
+   "w": "indictment,",
+   "s": 15.02,
+   "e": 15.5,
+   "p": 0.996
+  },
+  {
+   "w": "Horwitz",
+   "s": 16.06,
+   "e": 16.38,
+   "p": 0.993
+  },
+  {
+   "w": "was",
+   "s": 16.38,
+   "e": 16.56,
+   "p": 0.994
+  },
+  {
+   "w": "the",
+   "s": 16.56,
+   "e": 16.74,
+   "p": 0.999
+  },
+  {
+   "w": "company's",
+   "s": 16.74,
+   "e": 17.32,
+   "p": 0.985
+  },
+  {
+   "w": "sole",
+   "s": 17.32,
+   "e": 17.48,
+   "p": 0.996
+  },
+  {
+   "w": "manager.",
+   "s": 17.48,
+   "e": 17.98,
+   "p": 0.995
+  }
+ ],
+ "dur": 18.32,
+ "lech": []
+}
