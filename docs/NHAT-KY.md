@@ -132,3 +132,7 @@ Nhánh `claude/lucid-goldberg-vcpyv1` @ `ca3c7cb` (từ `6296c0e`). Kiểm độ
 - MR-5 (14 khe Veo còn lại + nhạc tập 1, trần OpenRouter 8,30 USD + ElevenLabs 6.000 ký tự tính) đã dán.
 - **Tập 2 giữ tên HGLOBAL** (chủ dự án quyết, khác khuyến nghị điều phối): mỗi lần nêu (lời và hình) kèm câu ◐ như dàn truyện nhịp 4b — bị truy tố, được coi là vô tội khi chưa bị kết án, gắn mốc 7/2018 và 11/2020; không suy trạng thái sau 7/2018. Kiểm lại trạng thái HGLOBAL ở ngày chốt lời và ngày đăng (luật 4).
 - OpenRouter tài khoản chung: **25,65 USD** (chủ dự án báo; khớp số MR-4 đọc sau phiên 25,645 → không có chi mới sau MR-4).
+
+## MR-5 / MR-K23 / MR-D4 · 02/11/2026 06:55 (giờ Hà Nội) · Chủ dự án: duyệt giọng tập 1; ba phiên đang chạy
+- **Giọng đọc tập 1 ĐẠT** (chủ dự án nghe bản ghép `reports/mr4/xem/tap01_giong_ghep.mp4`, gồm "Horwitz" ở P19 mốc 10:42) → dùng bản đã chọn ở MR-4 (P01_l2, còn lại bản 1); không thu lại.
+- MR-5 (Veo + nhạc tập 1), MR-K23 (kịch bản tập 2 + 3), MR-D4 (dàn truyện tập 4) chạy song song.
