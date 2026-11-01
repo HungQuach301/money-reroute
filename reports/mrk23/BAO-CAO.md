@@ -59,7 +59,9 @@ Bản JSON các thông cáo DOJ lấy qua API được lưu ở `ho-so/<vụ>/do
 | 1 (toàn bộ) | 58 khớp · **6 mạnh hơn** · 0 sai · 7 không cần nguồn · 0 "làm theo được" | 71 khớp · **2 mạnh hơn + 2 sai tầng** · 0 sai · 6 không cần nguồn · 0 "làm theo được" |
 | Sửa sau vòng 1 | S007 "American hands" → "people in the United States"; S037 thêm "According to the indictment" (hawala); S043 "up to twenty years" → "from probation to twenty years in prison" (N3 có 2 án quản chế); S046 "are" → "were presumed innocent" (nhóm 32 người gồm cả Patel); S059 bỏ ghép "gift cards" vào ●T, viết lại theo N4 đ.5; S063 tách vế "question or appeal" sang lời IRS; S049 bỏ trùng ý | S076 bỏ ghép "ảnh quân phục" (toà) với "ảnh người khác" → lời DOJ, ◐; S048 "could not reach all of them"; S063 sửa tầng; tuỳ chọn: S003/S004 tách "không đúng sự thật"; S008 ● → ●C; S012 bỏ "evidence presented in court showed"; S007 thêm nguồn N2 tr. 4 |
 | 2 (câu sửa + lướt toàn bộ) | **7/7 khớp; lướt 71 câu: 0 vi phạm** | 7/8 khớp; **S063 mạnh hơn nhẹ** → tách thành CHUNG + ●C (S063b) theo đề xuất; SHOT "hàng 15" → "hàng 11"; S059 "eight-page transcript of his oral statement" |
-| 3 (câu sửa) | — | xem §6 |
+| 3 (S059, S062, S063, S063b) | — | 2 khớp · **S063b mạnh hơn nhẹ** ("circumstances" rộng hơn "prior relationships", N2 tr. 9) → sửa theo nguyên văn toà; S059 thêm "general" (deterrence) |
+| 4 (S059, S063b) | — | **2/2 khớp** |
+| **Cuối** | **0 sai · 0 mạnh hơn** | **0 sai · 0 mạnh hơn** |
 
 ## 4. Đề xuất trần cho M-c (theo đơn giá THẬT QUY-TRINH §6)
 
@@ -92,6 +94,6 @@ Số dư OpenRouter khả dụng cho MR trước mỗi M-c: ≥ 8,20 USD (V7), c
   - Plea agreement/judgment của Patel và hồ sơ S.D. Ill. của Sunmola chưa mở được (PACER cấm) → lời giữ chủ thể "according to the Justice Department" / "according to the appeals court".
   - Trích dẫn "887 F.3d 830" chưa đối chiếu, nên không ghi trên hình.
   - Nghe tai các tên ở M-c (bảng phát âm trong LOI.md).
-- **Kiểm vòng 3 tập 3:** kết quả ghi ở `docs/tap03-romance-sunmola/kiem/vong3.md` và tóm ở dòng cuối báo cáo này.
+- **Kiểm lời:** cả hai tập đạt **0 sai, 0 mạnh hơn**: tập 2 sau 2 vòng, tập 3 sau 4 vòng (biên bản ở `kiem/`). Đề xuất tuỳ chọn còn lại, chưa áp vì không đổi kết luận: tập 2 S059 thêm "Patel admitted"; tập 3 S059 thêm vế "rejected the argument…", S063b thêm đuôi "to the scheme's deceitful tactics".
 
 **DỪNG — chờ điều phối rà và G1.**
