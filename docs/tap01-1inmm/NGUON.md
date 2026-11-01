@@ -55,6 +55,8 @@
 | — | Docket mục 94 (18/5/2026), danh sách giảm án tập thể (49 tệp ở MR-1) | không thử lại | Chưa mở được; kiểm lại trước ngày đăng (luật 4) |
 | — | Dkt. 1 (Criminal Complaint + affidavit) | không mở | Không dùng; các câu "affidavit states" trong N10 không đưa vào lời |
 
+> **MR-3b (01/11/2026):** tác tử kiểm lời mở N2, N3, N18 bằng curl thường (lệnh MR-3b không cấp UA khai báo của kênh) → **HTTP 403, chưa mở được ở MR-3b**; không đổi UA, không vượt. Thẻ KBCB thêm nguồn đã mở N1 tr. 1, N1 tr. 13 ¶78, N6 tr. 1 (không còn phụ thuộc N2/N3). **Mở lại N2, N3, N18 bằng UA khai báo trước ngày đăng.**
+
 ## 4. Kiểm trạng thái vụ (HIEN-CHUONG §3 luật 4) — ngày chốt lời 01/11/2026
 - Ân xá/giảm án: tên "Horwitz" **không có** trên 3 trang DOJ (N15, kiểm 01/11/2026 15:24 UTC; trang Trump cập nhật 20/10/2026). Tệp danh sách tập thể chưa kiểm lại.
 - Kháng cáo / §2255 / docket mới: **chưa kiểm được ở MR-3** (N9 bị chặn). Bản án có lời "Defendant advised of his right to appeal" (N8 tr. 4); plea có điều khoản từ bỏ kháng cáo (N7 tr. 15–16, đọc ở MR-1). Lời phim không nói gì về kháng cáo.
