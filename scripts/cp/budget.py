@@ -1,6 +1,8 @@
 # NGUỒN: HungQuach301/lost-places-lab @ ae22e370700d6dc254974588b824802d3edb2406 — scripts/cp/budget.py
 # (chép ở MR-0, 01/11/2026). ĐÃ SỬA: bảng trần LP (cp, m2a … mc2) thay bằng bảng trần phiên MR; biến LP_PHIEN → MR_PHIEN;
 # thêm khoản openrouter_usd vào bảng trần; Gemini402 → Quy402 dùng chung mọi dịch vụ (Gemini402 giữ làm bí danh).
+# MR-1 (01/11/2026): thêm dòng trần mr1; bao_402() ghi đúng khoản của từng dịch vụ (KHOAN_DICH_VU); thêm YT_DON_GIA,
+# TRAN_LUOT_PHIEN, luot(), check_yt() cho YouTube Data.
 # Phần lõi (sổ calls.jsonl, spent/pending_est/check/charge/canh_bao) giữ nguyên logic gốc.
 """[MR] Trần chi phí CỨNG theo phiên Money Reroute.
 Sổ = reports/<phiên>/calls.jsonl (commit). Tổng chi tính lại từ sổ mỗi lần kiểm (không sổ tạm → không lệch khi container mới).
@@ -18,11 +20,19 @@ KHOAN = ("gemini_usd", "openrouter_usd", "elevenlabs_chars", "claude_usd", "yout
 # Bảng trần theo phiên. Khoản không ghi = 0 = CẤM GỌI. Phiên không có trong bảng = mọi khoản 0.
 CAPS_PHIEN = {
     "mr0": {},  # MR-0 (khởi tạo repo, lệnh 01/11/2026): 0 USD API mọi khoản; chỉ đọc số dư (GET miễn phí, không qua check()).
+    "mr1": {"youtube_units": 3000},  # MR-1 (lệnh điều phối [MR · MR-1] 01/11/2026): youtube_units 3000, search.list ≤ 60 lượt (TRAN_LUOT); mọi khoản khác 0.
 }
 CAPS = {k: float(CAPS_PHIEN.get(PHIEN, {}).get(k, 0.0)) for k in KHOAN}
 # Mốc báo theo phiên: chạm mốc (đã ghi + đang chờ) mà còn > 20 % việc → DỪNG SINH, báo điều phối. Dạng {"mr1": {"openrouter_usd": 8.0}}.
 DUNG_BAO_PHIEN = {}
 DUNG_BAO = DUNG_BAO_PHIEN.get(PHIEN, {})
+# Trần SỐ LƯỢT theo phương thức (ngoài trần đơn vị). charge(..., {"method": "search.list"}) được đếm. Căn cứ: lệnh MR-1.
+TRAN_LUOT_PHIEN = {"mr1": {"search.list": 60}}
+TRAN_LUOT = TRAN_LUOT_PHIEN.get(PHIEN, {})
+# Đơn giá YouTube Data API v3 (đơn vị/lượt) — bảng "Quota costs", developers.google.com/youtube/v3/determine_quota_cost
+# (trang "Last updated 2026-10-15 UTC", mở 01/11/2026 MR-1). search.list có hạn mức riêng 100 lượt/ngày, mỗi lượt 1;
+# các phương thức còn lại chung 10.000 đơn vị/ngày. youtube_units = tổng đơn giá × số lượt (kể cả lượt lỗi: "at least one point").
+YT_DON_GIA = {"search.list": 1, "videos.list": 1, "channels.list": 1}
 
 class BudgetStop(RuntimeError): pass
 class Quy402(RuntimeError): pass
@@ -55,6 +65,21 @@ def check(kind, est):
     if used + est > CAPS[kind]:
         raise BudgetStop(f"{kind}: đã ghi + đang chờ {used:.3f} + ước {est:.3f} > trần {CAPS[kind]}")
 
+def luot(method):
+    """Số lượt đã ghi của một phương thức (đọc meta "method" trong sổ)."""
+    n = 0
+    if os.path.exists(LOG):
+        for l in open(LOG):
+            if l.strip() and json.loads(l).get("method") == method: n += 1
+    return n
+
+def check_yt(method, so_luot=1):
+    """Kiểm trần youtube_units theo đơn giá + trần số lượt của phương thức (nếu có). Gọi TRƯỚC mỗi lệnh YouTube Data."""
+    if method not in YT_DON_GIA: raise BudgetStop(f"{method}: chưa có đơn giá YouTube trong YT_DON_GIA")
+    check("youtube_units", YT_DON_GIA[method] * so_luot)
+    if method in TRAN_LUOT and luot(method) + so_luot > TRAN_LUOT[method]:
+        raise BudgetStop(f"{method}: đã {luot(method)} + {so_luot} lượt > trần {TRAN_LUOT[method]} lượt ở phiên {PHIEN}")
+
 def charge(kind, amount, meta):
     os.makedirs(os.path.dirname(LOG), exist_ok=True)
     with open(LOG + ".lock", "w") as lk:
@@ -62,9 +87,14 @@ def charge(kind, amount, meta):
         with open(LOG, "a") as f:
             f.write(json.dumps({"t": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "kind": kind, "amount": round(amount, 6), **meta}, ensure_ascii=False) + "\n")
 
+# Dịch vụ → khoản của chính dịch vụ đó (MR-1 sửa lỗi MR-0: 402 của ElevenLabs/YouTube bị ghi vào gemini_usd).
+# Dịch vụ lạ → "khong_ro" (vẫn ghi sổ, vẫn DỪNG; amount 0 nên không ảnh hưởng tổng chi).
+KHOAN_DICH_VU = {"gemini": "gemini_usd", "openrouter": "openrouter_usd", "elevenlabs": "elevenlabs_chars",
+                 "claude": "claude_usd", "youtube": "youtube_units", "openai": "openai_usd"}
+
 def bao_402(dich_vu, chi_tiet=""):
     """Gọi ngay khi nhận HTTP 402 từ bất kỳ dịch vụ nào: ghi sổ (amount 0) rồi raise Quy402 → phiên DỪNG."""
-    charge("gemini_usd" if dich_vu == "gemini" else f"{dich_vu}_usd" if f"{dich_vu}_usd" in CAPS else "gemini_usd", 0.0,
+    charge(KHOAN_DICH_VU.get(dich_vu, "khong_ro"), 0.0,
            {"su_kien": "402", "dich_vu": dich_vu, "chi_tiet": str(chi_tiet)[:200]})
     raise Quy402(f"{dich_vu}: 402 quỹ cạn — DỪNG phiên, không thử lặp, chờ chủ dự án nạp")
 
