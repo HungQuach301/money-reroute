@@ -1,8 +1,8 @@
 # ƯỚC CHI + ĐỀ XUẤT TRẦN — Tập 1 · `tap01-1inmm`
 
-> MR-3 · 01/11/2026 · NHÁP G1. **MR-3 chi 0 USD** (không gọi API trả tiền).
+> MR-3 · 01/11/2026 · NHÁP G1 · **cập nhật MR-3b** theo lời mới (4 câu KBCB thành chữ không đọc; P21 tổng kết viết lại; bỏ thử giọng vì chủ dự án chọn giọng kênh lost-places). **MR-3 và MR-3b chi 0 USD** (không gọi API trả tiền).
 > **Đơn giá = QUY-TRINH §6, số đo của lost-places-lab, CHƯA đo trên MR** → mọi con số dưới đây là ước; thay bằng số đo thật sau M-c (đọc số dư trước/sau, `COST-LEDGER.csv`).
-> Đầu vào đo được trên repo: lời **12.511 ký tự gửi TTS/lượt** (máy đếm từ `loi.json`, sau thay phát âm), **2.049 từ**, ≈ 16 phút; khe Veo theo `SHOT.md` §2 (12 / 16 / 22 khe 8 s).
+> Đầu vào đo được trên repo: lời **12.186 ký tự gửi TTS/lượt** (máy đếm từ `loi.json`, chỉ câu đọc, sau thay phát âm; MR-3: 12.511), **1.994 từ đọc**, ≈ 16,1 phút (`SHOT.md`, máy tính); khe Veo theo `SHOT.md` §2 (12 / 16 / 22 khe 8 s).
 
 ## 1. Giả định từng mức
 
@@ -10,7 +10,7 @@
 |---|---|---|---|
 | Veo 3.1 Lite 1080p, clip 8 s = 0,40 USD | 12 khe × 1,1 lượt | 16 khe × 1,2 lượt | 22 khe × 1,5 lượt |
 | TTS `eleven_v4` (0,44 ký tự tính / ký tự gửi) | 1 lượt + 10 % thu lại | 1 lượt + 30 % | 2 lượt trọn |
-| Thử giọng G1/G2 (2 phương án × ~700 ký tự, đoạn S004–S010) | 1.400 gửi | 1.400 gửi | 1.400 gửi |
+| Thử giọng | **0** — dùng giọng kênh lost-places `kozBJGqBNTqfBBClLNCL`, không thử lại (NHAT-KY MR-3 22:48); MR-3 ước 1.400 | 0 | 0 |
 | Eleven Music (~825 ký tự/phút) | 3 phút | 4 phút | 6 phút |
 | Ảnh AI (NB2.1 Gemini) | 0 — **không có khoá Gemini**; bảng shot không cần ảnh AI tĩnh | 0 | 0 |
 | M-d dựng + kiểm | 0 (máy cục bộ) | 0 | 0 |
@@ -23,12 +23,12 @@
 | **Veo (OpenRouter), M-c** | 12 × 0,40 × 1,1 = **5,28 USD** | 16 × 0,40 × 1,2 = **7,68 USD** | 22 × 0,40 × 1,5 = **13,20 USD** |
 | Veo, M-e | 0 | 0,80 USD | 1,60 USD |
 | **Tổng OpenRouter** | **5,28 USD** | **8,48 USD** | **14,80 USD** |
-| TTS ký tự gửi (lời) | 13.762 | 16.264 | 25.022 |
-| TTS ký tự gửi (thử giọng) | 1.400 | 1.400 | 1.400 |
+| TTS ký tự gửi (lời) | 13.405 | 15.842 | 24.372 |
+| TTS ký tự gửi (thử giọng) | 0 | 0 | 0 |
 | Nhạc ký tự | 2.475 | 3.300 | 4.950 |
 | TTS M-e ký tự gửi | 1.000 | 2.000 | 3.000 |
-| **ElevenLabs ký tự tính (hệ số 0,44 cho TTS; nhạc tính đủ)** | ≈ 7.110 + 2.475 = **≈ 9.590** | ≈ 8.650 + 3.300 = **≈ 11.950** | ≈ 12.950 + 4.950 = **≈ 17.900** |
-| ElevenLabs nếu hệ số thật = 1,0 (chưa đo trên MR) | ≈ 18.640 | ≈ 22.960 | ≈ 34.370 |
+| **ElevenLabs ký tự tính (hệ số 0,44 cho TTS; nhạc tính đủ)** | ≈ 6.340 + 2.475 = **≈ 8.810** | ≈ 7.850 + 3.300 = **≈ 11.150** | ≈ 12.040 + 4.950 = **≈ 16.990** |
+| ElevenLabs nếu hệ số thật = 1,0 (chưa đo trên MR) | ≈ 16.880 | ≈ 21.140 | ≈ 32.320 |
 
 Số dư hiện biết (BAN-GIAO §2): OpenRouter **5,45 USD** (chủ dự án báo 01/11/2026 20:08, tài khoản **chung** với lost-places-lab); ElevenLabs **156.855 ký tự** (đọc MR-0, reset 01/12/2026). → OpenRouter **không đủ** cả mức thấp theo V7; ElevenLabs đủ mọi mức.
 
@@ -36,7 +36,7 @@ Số dư hiện biết (BAN-GIAO §2): OpenRouter **5,45 USD** (chủ dự án b
 
 | Mốc | `openrouter_usd` | `elevenlabs_chars` (ký tự **tính**, đọc chênh `/v1/user/subscription`) | Khác | Mốc báo (~80 %) |
 |---|---|---|---|---|
-| **M-c** (giọng, Veo, nhạc) | **9,50** (mức giữa 7,68 + biên ≈ 24 % cho lượt 2 ngoài ước) | **16.000** (mức giữa M-c ≈ 11.070 ký tự tính; dư cho hệ số chưa đo; chặn phụ: ký tự **gửi** ≤ 24.000) | `gemini_usd` 0, các khoản khác 0 | Veo 7,60 USD · ElevenLabs 12.800 |
+| **M-c** (giọng, Veo, nhạc) | **9,50** (mức giữa 7,68 + biên ≈ 24 % cho lượt 2 ngoài ước) | **16.000** — giữ nguyên (mức giữa M-c MR-3b ≈ 10.270 ký tự tính, MR-3 ≈ 11.070; dư cho hệ số chưa đo; chặn phụ: ký tự **gửi** ≤ 24.000) | `gemini_usd` 0, các khoản khác 0 | Veo 7,60 USD · ElevenLabs 12.800 |
 | **M-d** (dựng, quét V8, kiểm pháp lý lần 2) | **0** | **0** | 0 | — |
 | **M-e** (sửa ≤ 2 vòng, gói phát hành) | **1,60** | **3.000** | 0 | Veo 1,28 · 2.400 |
 | **Cả tập** | **11,10 USD** | **19.000 ký tự** | | |
@@ -48,3 +48,10 @@ Luật đi kèm (đã có, nhắc lại): V7 ≤ 2 lượt/khe, lượt 2 đổi
 - V7: số dư ≥ chi ước cả phiên × 1,2 → mức giữa M-c: 7,68 × 1,2 = **9,22 USD**; cộng biên kiểm mỗi lượt (+1 USD) → **≥ 10,3 USD khả dụng cho MR**.
 - Quỹ **chung** với lost-places-lab: số dư phải cộng thêm phần các phiên lost-places-lab chạy **cùng lúc** (không thấy được từ repo này) → điều phối/chủ dự án xác nhận không có phiên Veo song song, hoặc cộng phần đó.
 - Hiện 5,45 USD → **nạp tối thiểu ≈ 5 USD** (lên ≥ 10,5 USD) cho mức giữa; **khuyến nghị nạp lên ≥ 15 USD** để chịu được mức cao (13,20 × 1,2 = 15,84) hoặc trần M-c 9,50 + M-e 1,60 với biên. Đọc lại `/api/v1/credits` ngay trước M-c.
+
+## 5. Thay đổi MR-3b (01/11/2026)
+- Ký tự gửi TTS/lượt: 12.511 → **12.186** (−325): bỏ đọc 4 câu KBCB (S019, S033, S072, S076 → chữ trên hình) và P21 viết lại (253 → 278 từ). Thử giọng 1.400 → **0**.
+- Veo: không đổi (16 khe mức giữa; dòng thời gian đếm ngược và thẻ tổng kết là đồ hoạ tự vẽ, 0 USD). Nhạc tăng dần P15–P17 nằm trong 4 phút nhạc mức giữa.
+- Mọi mức đều **giảm** → **trần đề xuất giữ nguyên** (M-c 9,50 USD + 16.000 ký tự tính, gửi ≤ 24.000; M-e 1,60 USD + 3.000; cả tập 11,10 USD + 19.000). Mức cao gửi 24.372 > chặn phụ 24.000 như ở MR-3 (26.422) — chạm chặn phụ thì dừng, báo.
+- Số dư OpenRouter: chủ dự án báo nạp thêm 15 USD, tổng ~40 USD **dùng chung** với lost-places-lab (NHAT-KY 22:58); phiên M-c đọc `/api/v1/credits` trước khi gọi. MR-3b không đọc số dư (trần 0).
+

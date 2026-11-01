@@ -2,17 +2,27 @@
 
 > MR-3 · 01/11/2026 · NHÁP G1 — **chủ dự án chọn** (QUY-TRINH §1: gu là quyết định của chủ dự án). Không sinh mẫu giọng, không sinh ảnh (0 USD).
 
+## 0. ĐÃ CHỌN (chủ dự án, NHAT-KY MR-3 · 01/11/2026 22:48 và 22:58; ghi ở MR-3b)
+
+| Mục | Lựa chọn | Ghi chú thi hành |
+|---|---|---|
+| **Tiêu đề** | **T1** "How an Actor Raised $650 Million on Fake Film Deals" (51 ký tự) | Căn cứ tầng như §1; kiểm lại trạng thái vụ ngày đăng (HIEN-CHUONG §3 luật 4) |
+| **Bảng màu / chữ** | **B1 "Hồ sơ"** (§4) | Dùng cho mọi SD/CT/NEN và thẻ tổng kết (`SHOT.md` §3) |
+| **Giọng đọc** | **Giọng kênh lost-places** — Voice Design W4 "LP-M0b-vd-1", ElevenLabs `voice_id` **`kozBJGqBNTqfBBClLNCL`**, TTS `eleven_v4` (NHAT-KY MR-3 22:48; thay G1/G2 ở §3) | **Không** thử giọng lại (bỏ khoản thử giọng). Ở M-c, trước lượt TTS đầu: kiểm voice_id truy cập được từ tài khoản ElevenLabs của MR (`GET /v1/voices/{id}`, miễn phí); không được → **DỪNG, báo**. MR-3b **chưa gọi** (trần 0). Giọng tổng hợp (Voice Design), không nhái người thật (HIEN-CHUONG §4). Áp bảng phát âm `LOI.md` |
+| **Thumbnail** | **Chủ dự án tự làm** theo `docs/tap01-1inmm/phat-hanh/THUMBNAIL-RULES.txt` | Chủ dự án sinh bằng ChatGPT (NHAT-KY 22:48), dán trọn tệp luật trước khi mô tả. TN1/TN2 ở §2 chỉ còn là gợi ý; phiên sản xuất không sinh ảnh thumbnail. Tệp đưa vào repo kèm một dòng RIGHTS (công cụ AI, ngày, người tạo); rà theo 9 điều cấm của tệp luật + HIEN-CHUONG §4 trước khi đăng |
+
+
 ## 1. Tiêu đề (≤ 60 ký tự, đếm máy)
 
 | # | Tiêu đề | Ký tự | Tầng / căn cứ | Ghi chú |
 |---|---|---|---|---|
-| **T1 (đề xuất)** | How an Actor Raised $650 Million on Fake Film Deals | 51 | ●T: "at least $650 million" (N7 tr. 12); hợp đồng "fake" (N7 tr. 10–11); "actor" (N2, N3) | Không tên thương hiệu, không nhãn "scammer"; Horwitz là ● |
+| **T1 (ĐÃ CHỌN)** | How an Actor Raised $650 Million on Fake Film Deals | 51 | ●T: "at least $650 million" (N7 tr. 12); hợp đồng "fake" (N7 tr. 10–11); "actor" (N2, N3) | Không tên thương hiệu, không nhãn "scammer"; Horwitz là ● |
 | T2 | The Film Deals Were Fake. The $650 Million Was Real. | 52 | như T1 | Móc tò mò, không tên người |
 | T3 | 25% in Six Months: Red Flags in a $650M Film Scheme | 51 | ●T: 25–45 %, 6–12 tháng (N7 tr. 10); "scheme to defraud" (N7 tr. 9) | Hướng bài học. "25%" là mức thấp của dải thừa nhận |
 
 Không dùng trong tiêu đề: "HBO", "Netflix" (tiêu đề không chứa được câu "not accused" — luật 8e); "Ponzi" (chữ của DOJ, không phải tội danh — luật 8d); "con man/scammer/Hollywood fraud".
 
-## 2. Thumbnail (chữ/sơ đồ; không mặt, không logo, không tài liệu toà dựng lại)
+## 2. Thumbnail (chữ/sơ đồ; không mặt, không logo, không tài liệu toà dựng lại) · *chủ dự án tự làm theo THUMBNAIL-RULES.txt (§0); dưới đây là gợi ý*
 
 | # | Ý | Bố cục | Chữ | Tránh |
 |---|---|---|---|---|
@@ -21,7 +31,7 @@ Không dùng trong tiêu đề: "HBO", "Netflix" (tiêu đề không chứa đư
 
 Hai ý đều là đồ hoạ tự vẽ (0 USD, dựng ở M-d), không cần ảnh AI.
 
-## 3. Giọng đọc ElevenLabs (mô tả — chưa sinh mẫu)
+## 3. Giọng đọc ElevenLabs (mô tả — chưa sinh mẫu) · *không dùng: chủ dự án chọn giọng kênh lost-places (§0)*
 
 Điều kiện chung: giọng **tổng hợp** (Voice Design hoặc giọng thư viện **không** mang tên/nhái người nổi tiếng), **không** giống giọng bị cáo, nạn nhân, quan chức trong vụ (HIEN-CHUONG §4); en-US General American; thử trên cùng đoạn S004–S010 (~700 ký tự) ở M-c, tính vào trần.
 
@@ -34,7 +44,7 @@ Phát âm cần cài (cả hai giọng): `SEC` → "S-E-C", `FBI`, `HBO` đánh 
 
 ## 4. Bảng màu / chữ kênh (font Google Fonts, giấy phép OFL)
 
-| | **B1 "Hồ sơ" (đề xuất)** | B2 "Đêm" |
+| | **B1 "Hồ sơ" (ĐÃ CHỌN)** | B2 "Đêm" |
 |---|---|---|
 | Nền | giấy ngà `#F4F1EA` | xanh đêm `#0E1726` |
 | Chữ chính | mực `#1B1F24` | `#E8ECF2` |

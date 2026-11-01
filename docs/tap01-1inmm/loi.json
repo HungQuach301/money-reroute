@@ -2,7 +2,7 @@
  "tap": "tap01-1inmm",
  "vu": "1inmm-horwitz",
  "ngon_ngu": "en-US",
- "ban": "MR-3 nháp G1",
+ "ban": "MR-3b nháp G1",
  "ngay_chot_loi": "2026-11-01",
  "ngay_kiem_trang_thai": "2026-11-01",
  "quy_uoc": "Tầng: ● kết án · ●T thừa nhận trong plea (N7 tr. 8–12) · ◐ cáo buộc/consent/lời công tố · TT thủ tục · NB nhận dạng · KBCB câu không liên quan (HBO/Netflix) · MH cảnh minh hoạ · CHUNG bài học/chuyển đoạn, không nói về người thật. Nguồn: mã N theo docs/tap01-1inmm/NGUON.md; N1 = số trang PDF; còn lại 'Page x of y' của toà.",
@@ -14,7 +14,8 @@
    "tang": "MH",
    "loi": "Picture an investor's phone lighting up: a payment, right on schedule, like always.",
    "nguon": [],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S002",
@@ -23,7 +24,8 @@
    "tang": "MH",
    "loi": "Months later, a different message: a delay on the platform side, and the money should arrive next week.",
    "nguon": [],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S003",
@@ -32,7 +34,8 @@
    "tang": "CHUNG",
    "loi": "That message is a reconstruction. The case behind it is real, and it is on the public record.",
    "nguon": [],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S004",
@@ -46,7 +49,8 @@
     "N3",
     "N2"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S005",
@@ -57,7 +61,8 @@
    "nguon": [
     "N7 tr. 10"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S006",
@@ -68,7 +73,8 @@
    "nguon": [
     "N7 tr. 9"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S007",
@@ -79,19 +85,24 @@
    "nguon": [
     "N7 tr. 11"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S008",
    "doan": "P01",
    "nhip": "0",
    "tang": "KBCB",
-   "loi": "HBO and Netflix were not accused of any wrongdoing; according to the SEC, neither company ever did business with one-in-M-M.",
+   "loi": "HBO and Netflix were not accused of wrongdoing in these cases; according to the SEC, neither company ever did business with one-in-M-M.",
    "nguon": [
     "N3",
-    "N2"
+    "N2",
+    "N1 tr. 1 (bị đơn chỉ Horwitz, 1inMM)",
+    "N1 tr. 13 ¶78",
+    "N6 tr. 1 (bị cáo chỉ Horwitz)"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S009",
@@ -102,7 +113,8 @@
    "nguon": [
     "N7 tr. 12"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S010",
@@ -114,7 +126,8 @@
     "N8 tr. 1",
     "N12"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S011",
@@ -123,7 +136,8 @@
    "tang": "CHUNG",
    "loi": "This is the story of how that money was rerouted, and the red flags you can spot next time.",
    "nguon": [],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S012",
@@ -134,7 +148,8 @@
    "nguon": [
     "N7 tr. 8"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S013",
@@ -146,7 +161,8 @@
     "N3",
     "N2"
    ],
-   "chu": "1inMM (“one in a million”) Capital, LLC"
+   "chu": "1inMM (“one in a million”) Capital, LLC",
+   "doc": true
   },
   {
    "id": "S014",
@@ -157,7 +173,8 @@
    "nguon": [
     "N6 tr. 1"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S015",
@@ -168,7 +185,8 @@
    "nguon": [
     "N7 tr. 10"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S016",
@@ -179,7 +197,8 @@
    "nguon": [
     "N7 tr. 9"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S017",
@@ -190,7 +209,8 @@
    "nguon": [
     "N7 tr. 10"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S018",
@@ -201,19 +221,24 @@
    "nguon": [
     "N1 tr. 3 ¶5"
    ],
-   "chu": "“Strategic Partners”"
+   "chu": "“Strategic Partners”",
+   "doc": true
   },
   {
    "id": "S019",
    "doan": "P03",
    "nhip": "2b",
    "tang": "KBCB",
-   "loi": "HBO and Netflix were not accused of any wrongdoing; according to the SEC, neither company ever did business with one-in-M-M.",
+   "loi": "HBO and Netflix were not accused of wrongdoing in these cases; according to the SEC, neither company ever did business with one-in-M-M.",
    "nguon": [
     "N3",
-    "N2"
+    "N2",
+    "N1 tr. 1 (bị đơn chỉ Horwitz, 1inMM)",
+    "N1 tr. 13 ¶78",
+    "N6 tr. 1 (bị cáo chỉ Horwitz)"
    ],
-   "chu": null
+   "chu": "HBO and Netflix were not accused of wrongdoing in these cases; according to the SEC, neither company ever did business with 1inMM.",
+   "doc": false
   },
   {
    "id": "S020",
@@ -222,7 +247,8 @@
    "tang": "CHUNG",
    "loi": "A promissory note is a written I-O-U: a promise to repay a set amount by a set date.",
    "nguon": [],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S021",
@@ -233,7 +259,8 @@
    "nguon": [
     "N7 tr. 9"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S022",
@@ -244,7 +271,8 @@
    "nguon": [
     "N7 tr. 10"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S023",
@@ -255,7 +283,8 @@
    "nguon": [
     "N7 tr. 10"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S024",
@@ -266,7 +295,8 @@
    "nguon": [
     "N1 tr. 5 ¶22"
    ],
-   "chu": "“over the life of the note”"
+   "chu": "“over the life of the note”",
+   "doc": true
   },
   {
    "id": "S025",
@@ -275,7 +305,8 @@
    "tang": "CHUNG",
    "loi": "Over the life of the note is not the same as per year, and that difference matters.",
    "nguon": [],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S026",
@@ -286,7 +317,8 @@
    "nguon": [
     "N1 tr. 6 ¶25"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S027",
@@ -297,7 +329,8 @@
    "nguon": [
     "N1 tr. 6 ¶25 (phép tính: 1,35² = 1,8225)"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S028",
@@ -308,7 +341,8 @@
    "nguon": [
     "N1 tr. 6 ¶25 (phép tính: 35 % × 2)"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S029",
@@ -317,7 +351,8 @@
    "tang": "CHUNG",
    "loi": "When an investment promises returns like that, on a fixed schedule, ask the simplest question first: where would that much profit come from, every single time?",
    "nguon": [],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S030",
@@ -328,7 +363,8 @@
    "nguon": [
     "N1 tr. 9 ¶45"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S031",
@@ -339,7 +375,8 @@
    "nguon": [
     "N1 tr. 9 ¶46"
    ],
-   "chu": "“I believed that if HBO was involved, my investment was safe.”"
+   "chu": "“I believed that if HBO was involved, my investment was safe.”",
+   "doc": true
   },
   {
    "id": "S032",
@@ -350,19 +387,24 @@
    "nguon": [
     "N1 tr. 9 ¶47"
    ],
-   "chu": "“consistent track record of paying large profits”"
+   "chu": "“consistent track record of paying large profits”",
+   "doc": true
   },
   {
    "id": "S033",
    "doan": "P06",
    "nhip": "4",
    "tang": "KBCB",
-   "loi": "HBO and Netflix were not accused of any wrongdoing; according to the SEC, neither company ever did business with one-in-M-M.",
+   "loi": "HBO and Netflix were not accused of wrongdoing in these cases; according to the SEC, neither company ever did business with one-in-M-M.",
    "nguon": [
     "N3",
-    "N2"
+    "N2",
+    "N1 tr. 1 (bị đơn chỉ Horwitz, 1inMM)",
+    "N1 tr. 13 ¶78",
+    "N6 tr. 1 (bị cáo chỉ Horwitz)"
    ],
-   "chu": null
+   "chu": "HBO and Netflix were not accused of wrongdoing in these cases; according to the SEC, neither company ever did business with 1inMM.",
+   "doc": false
   },
   {
    "id": "S034",
@@ -373,7 +415,8 @@
    "nguon": [
     "N7 tr. 12"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S035",
@@ -384,7 +427,8 @@
    "nguon": [
     "N7 tr. 12"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S036",
@@ -396,7 +440,8 @@
     "N7 tr. 12",
     "N7 tr. 13–14"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S037",
@@ -407,7 +452,8 @@
    "nguon": [
     "N12"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S038",
@@ -418,7 +464,8 @@
    "nguon": [
     "N7 tr. 12"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S039",
@@ -427,7 +474,8 @@
    "tang": "CHUNG",
    "loi": "Before you invest, know exactly who is on the other side of your contract.",
    "nguon": [],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S040",
@@ -438,7 +486,8 @@
    "nguon": [
     "N7 tr. 10"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S041",
@@ -449,7 +498,8 @@
    "nguon": [
     "N7 tr. 10"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S042",
@@ -460,7 +510,8 @@
    "nguon": [
     "N7 tr. 10"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S043",
@@ -471,7 +522,8 @@
    "nguon": [
     "N7 tr. 10"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S044",
@@ -482,19 +534,24 @@
    "nguon": [
     "N1 tr. 9 ¶49"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S045",
    "doan": "P08",
    "nhip": "6",
    "tang": "KBCB",
-   "loi": "HBO and Netflix were not accused of any wrongdoing; according to the SEC, neither company ever did business with one-in-M-M.",
+   "loi": "HBO and Netflix were not accused of wrongdoing in these cases; according to the SEC, neither company ever did business with one-in-M-M.",
    "nguon": [
     "N3",
-    "N2"
+    "N2",
+    "N1 tr. 1 (bị đơn chỉ Horwitz, 1inMM)",
+    "N1 tr. 13 ¶78",
+    "N6 tr. 1 (bị cáo chỉ Horwitz)"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S046",
@@ -505,7 +562,8 @@
    "nguon": [
     "N7 tr. 10–11"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S047",
@@ -516,7 +574,8 @@
    "nguon": [
     "N7 tr. 11"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S048",
@@ -527,7 +586,8 @@
    "nguon": [
     "N7 tr. 9–11"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S049",
@@ -536,7 +596,8 @@
    "tang": "CHUNG",
    "loi": "When every piece of proof comes from the person asking for your money, it is not independent proof.",
    "nguon": [],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S050",
@@ -547,7 +608,8 @@
    "nguon": [
     "N7 tr. 12"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S051",
@@ -558,7 +620,8 @@
    "nguon": [
     "N7 tr. 12"
    ],
-   "chu": "“lavish lifestyle”"
+   "chu": "“lavish lifestyle”",
+   "doc": true
   },
   {
    "id": "S052",
@@ -570,7 +633,8 @@
     "N12",
     "N22 tr. 6"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S053",
@@ -581,7 +645,8 @@
    "nguon": [
     "N1 tr. 10 ¶52"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S054",
@@ -592,7 +657,8 @@
    "nguon": [
     "N1 tr. 10 ¶53"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S055",
@@ -603,7 +669,8 @@
    "nguon": [
     "N1 tr. 10 ¶54"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S056",
@@ -614,7 +681,8 @@
    "nguon": [
     "N1 tr. 10 ¶56"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S057",
@@ -623,7 +691,8 @@
    "tang": "CHUNG",
    "loi": "When a promoter says he is investing right alongside you, treat it as a claim to check, not as proof.",
    "nguon": [],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S058",
@@ -632,7 +701,8 @@
    "tang": "CHUNG",
    "loi": "Paying earlier investors with money from newer ones is the core of a Ponzi scheme.",
    "nguon": [],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S059",
@@ -643,7 +713,8 @@
    "nguon": [
     "N12"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S060",
@@ -654,7 +725,8 @@
    "nguon": [
     "N1 tr. 9 ¶50"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S061",
@@ -663,7 +735,8 @@
    "tang": "CHUNG",
    "loi": "That is the trap: on-time payments feel like proof the investment works. In a Ponzi scheme, they are part of how it keeps going.",
    "nguon": [],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S062",
@@ -674,7 +747,8 @@
    "nguon": [
     "N12"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S063",
@@ -685,7 +759,8 @@
    "nguon": [
     "N7 tr. 12"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S064",
@@ -697,7 +772,8 @@
     "N12",
     "N11"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S065",
@@ -708,7 +784,8 @@
    "nguon": [
     "N7 tr. 12"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S066",
@@ -719,7 +796,8 @@
    "nguon": [
     "N7 tr. 12"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S067",
@@ -730,7 +808,8 @@
    "nguon": [
     "N7 tr. 11"
    ],
-   "chu": "“to lull the investors into believing their funds were safely invested”"
+   "chu": "“to lull the investors into believing their funds were safely invested”",
+   "doc": true
   },
   {
    "id": "S068",
@@ -741,7 +820,8 @@
    "nguon": [
     "N7 tr. 11"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S069",
@@ -752,7 +832,8 @@
    "nguon": [
     "N7 tr. 11"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S070",
@@ -763,7 +844,8 @@
    "nguon": [
     "N12"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S071",
@@ -776,19 +858,24 @@
     "N7 tr. 4",
     "N8 tr. 4"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S072",
    "doan": "P15",
    "nhip": "9",
    "tang": "KBCB",
-   "loi": "HBO and Netflix were not accused of any wrongdoing; according to the SEC, neither company ever did business with one-in-M-M.",
+   "loi": "HBO and Netflix were not accused of wrongdoing in these cases; according to the SEC, neither company ever did business with one-in-M-M.",
    "nguon": [
     "N3",
-    "N2"
+    "N2",
+    "N1 tr. 1 (bị đơn chỉ Horwitz, 1inMM)",
+    "N1 tr. 13 ¶78",
+    "N6 tr. 1 (bị cáo chỉ Horwitz)"
    ],
-   "chu": null
+   "chu": "HBO and Netflix were not accused of wrongdoing in these cases; according to the SEC, neither company ever did business with 1inMM.",
+   "doc": false
   },
   {
    "id": "S073",
@@ -799,7 +886,8 @@
    "nguon": [
     "N1 tr. 13 ¶76"
    ],
-   "chu": "“a release of funds by April 9th (at the latest)”"
+   "chu": "“a release of funds by April 9th (at the latest)”",
+   "doc": true
   },
   {
    "id": "S074",
@@ -810,7 +898,8 @@
    "nguon": [
     "N1 tr. 13 ¶77"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S075",
@@ -821,19 +910,24 @@
    "nguon": [
     "N1 tr. 13 ¶77"
    ],
-   "chu": "“sharing the financial burden with investors (highly doubtful)”"
+   "chu": "“sharing the financial burden with investors (highly doubtful)”",
+   "doc": true
   },
   {
    "id": "S076",
    "doan": "P16",
    "nhip": "9b",
    "tang": "KBCB",
-   "loi": "HBO and Netflix were not accused of any wrongdoing; according to the SEC, neither company ever did business with one-in-M-M.",
+   "loi": "HBO and Netflix were not accused of wrongdoing in these cases; according to the SEC, neither company ever did business with one-in-M-M.",
    "nguon": [
     "N3",
-    "N2"
+    "N2",
+    "N1 tr. 1 (bị đơn chỉ Horwitz, 1inMM)",
+    "N1 tr. 13 ¶78",
+    "N6 tr. 1 (bị cáo chỉ Horwitz)"
    ],
-   "chu": null
+   "chu": "HBO and Netflix were not accused of wrongdoing in these cases; according to the SEC, neither company ever did business with 1inMM.",
+   "doc": false
   },
   {
    "id": "S077",
@@ -842,7 +936,8 @@
    "tang": "CHUNG",
    "loi": "Blaming a famous partner, setting a firm new date, raising the idea of investors putting in more money: each one is a reason to slow down, not to send more.",
    "nguon": [],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S078",
@@ -854,7 +949,8 @@
     "N3",
     "N2"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S079",
@@ -865,7 +961,8 @@
    "nguon": [
     "N2"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S080",
@@ -876,7 +973,8 @@
    "nguon": [
     "N10"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S081",
@@ -888,7 +986,8 @@
     "N10",
     "N6 tr. 1"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S082",
@@ -901,7 +1000,8 @@
     "N7 tr. 1–2",
     "N8 tr. 1"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S083",
@@ -912,7 +1012,8 @@
    "nguon": [
     "N7 tr. 8"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S084",
@@ -925,7 +1026,8 @@
     "N8 tr. 4",
     "N12"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S085",
@@ -937,7 +1039,8 @@
     "N8 tr. 3",
     "N12"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S086",
@@ -949,7 +1052,8 @@
     "N8 tr. 4",
     "N7 tr. 4"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S087",
@@ -961,7 +1065,8 @@
     "N4 tr. 1",
     "N4 tr. 3 §IV"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S088",
@@ -973,7 +1078,8 @@
     "N4 tr. 1–3",
     "N5"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S089",
@@ -984,7 +1090,8 @@
    "nguon": [
     "N4 tr. 3 §III"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S090",
@@ -995,7 +1102,8 @@
    "nguon": [
     "N22 tr. 6"
    ],
-   "chu": "“Defendant Zachary Horwitz portrayed himself as a Hollywood success story.”"
+   "chu": "“Defendant Zachary Horwitz portrayed himself as a Hollywood success story.”",
+   "doc": true
   },
   {
    "id": "S091",
@@ -1007,7 +1115,8 @@
     "N22 tr. 6",
     "N12"
    ],
-   "chu": "“…was not a successful businessman or Hollywood insider. He just played one in real life.”"
+   "chu": "“…was not a successful businessman or Hollywood insider. He just played one in real life.”",
+   "doc": true
   },
   {
    "id": "S092",
@@ -1018,110 +1127,161 @@
    "nguon": [
     "N22 tr. 6"
    ],
-   "chu": "“the largest known Ponzi scheme in the history of this District”"
+   "chu": "“the largest known Ponzi scheme in the history of this District”",
+   "doc": true
   },
   {
    "id": "S093",
    "doan": "P21",
    "nhip": "14",
    "tang": "CHUNG",
-   "loi": "So what can you take from this case? Five red flags, each one visible in this story.",
+   "loi": "So what can you take from this case? Three lessons, five red flags, and one rule.",
    "nguon": [],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S094",
    "doan": "P21",
    "nhip": "14",
-   "tang": "CHUNG",
-   "loi": "One: high, fixed returns on a short clock. Twenty-five to forty-five percent in six or twelve months is an extraordinary promise. Convert it to a yearly rate, and ask where that profit could come from.",
+   "tang": "◐",
+   "loi": "Lesson one: turn a short-term return into a yearly rate; a six-month note listed in the SEC's complaint promised thirty-five percent, roughly seventy percent a year.",
    "nguon": [
-    "N7 tr. 10"
+    "N1 tr. 6 ¶25 (phép tính: 35 % × 2)"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S095",
    "doan": "P21",
    "nhip": "14",
-   "tang": "CHUNG",
-   "loi": "Two: a famous partner you cannot verify yourself. If a deal leans on a big company's name, contact that company through its own official channels, not through a phone number or email the seller gives you.",
-   "nguon": [],
-   "chu": null
+   "tang": "◐",
+   "loi": "Lesson two: steady payments do not prove an investment is real; in a Ponzi scheme, which is what the Justice Department called this case, they are paid with other investors' money.",
+   "nguon": [
+    "N12"
+   ],
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S096",
    "doan": "P21",
    "nhip": "14",
-   "tang": "CHUNG",
-   "loi": "Three: all the proof comes from the person asking for your money. Contracts, emails and text messages can be faked. Verification has to be independent.",
-   "nguon": [],
-   "chu": null
+   "tang": "●T",
+   "loi": "Lesson three: know who is on the other side of your contract; the sub-investors here had no direct contract with one-in-M-M.",
+   "nguon": [
+    "N7 tr. 12"
+   ],
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S097",
    "doan": "P21",
    "nhip": "14",
-   "tang": "◐",
-   "loi": "Four: an unregistered offer that travels through friends. The SEC alleged that neither one-in-M-M nor its securities offerings were registered with the Commission.",
+   "tang": "●T",
+   "loi": "Red flag one: high, fixed returns on a short clock, like twenty-five to forty-five percent in six or twelve months.",
    "nguon": [
-    "N1 tr. 5 ¶18",
-    "N12 (chỉ vế \"friends\")"
+    "N7 tr. 10"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S098",
    "doan": "P21",
    "nhip": "14",
-   "tang": "CHUNG",
-   "loi": "Before you invest, look up the person selling to you on FINRA's BrokerCheck or the SEC's Investment Adviser Public Disclosure website.",
+   "tang": "●T",
+   "loi": "Two: a famous partner you cannot verify yourself, like the streaming platforms he named to investors.",
    "nguon": [
-    "N19",
-    "N20"
+    "N7 tr. 9"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S099",
    "doan": "P21",
    "nhip": "14",
-   "tang": "CHUNG",
-   "loi": "Five: years of smooth payments, then sudden delays blamed on a partner, and promises that the money is coming soon. Steady payments are not proof that an investment is real.",
+   "tang": "●T",
+   "loi": "Three: all the proof comes from the seller; here the notes, the collateral papers and the deal papers all came from him.",
    "nguon": [
-    "N7 tr. 11"
+    "N7 tr. 9–11"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S100",
    "doan": "P21",
    "nhip": "14",
-   "tang": "CHUNG",
-   "loi": "And one rule underneath all five: don't put in more money to rescue an investment that has stopped paying.",
-   "nguon": [],
-   "chu": null
+   "tang": "◐",
+   "loi": "Four: an unregistered offer that travels through friends; the SEC alleged that neither one-in-M-M nor its securities offerings were registered with the Commission.",
+   "nguon": [
+    "N1 tr. 5 ¶18",
+    "N12 (chỉ vế \"friends\")"
+   ],
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S101",
    "doan": "P21",
    "nhip": "14",
-   "tang": "CHUNG",
-   "loi": "If you suspect investment fraud, you can submit a tip through the SEC's website, sec dot gov, or report it to the Federal Trade Commission at ReportFraud dot F-T-C dot gov.",
+   "tang": "●T",
+   "loi": "Five: smooth payments, then missed payments blamed on a partner; he admitted falsely blaming the streaming platforms for the missed payments.",
    "nguon": [
-    "N18",
-    "N21"
+    "N7 tr. 11"
    ],
-   "chu": null
+   "chu": null,
+   "doc": true
   },
   {
    "id": "S102",
    "doan": "P21",
    "nhip": "14",
    "tang": "CHUNG",
-   "loi": "Every fact in this story comes from public court and agency records, listed in the description.",
+   "loi": "And one rule under all of it: verify independently before any money moves, including money to rescue an investment that has stopped paying.",
    "nguon": [],
-   "chu": null
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S103",
+   "doan": "P21",
+   "nhip": "14",
+   "tang": "CHUNG",
+   "loi": "To check a seller, look them up on FINRA's BrokerCheck or the SEC's Investment Adviser Public Disclosure website.",
+   "nguon": [
+    "N19",
+    "N20"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S104",
+   "doan": "P21",
+   "nhip": "14",
+   "tang": "CHUNG",
+   "loi": "To report suspected investment fraud, submit a tip at sec dot gov; to report a scam to the Federal Trade Commission, go to ReportFraud dot F-T-C dot gov.",
+   "nguon": [
+    "N18",
+    "N21"
+   ],
+   "chu": null,
+   "doc": true
+  },
+  {
+   "id": "S105",
+   "doan": "P21",
+   "nhip": "14",
+   "tang": "CHUNG",
+   "loi": "The case facts in this story come from public court and agency records, listed in the description.",
+   "nguon": [],
+   "chu": null,
+   "doc": true
   }
  ]
 }
