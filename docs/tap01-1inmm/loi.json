@@ -1,0 +1,1127 @@
+{
+ "tap": "tap01-1inmm",
+ "vu": "1inmm-horwitz",
+ "ngon_ngu": "en-US",
+ "ban": "MR-3 nháp G1",
+ "ngay_chot_loi": "2026-11-01",
+ "ngay_kiem_trang_thai": "2026-11-01",
+ "quy_uoc": "Tầng: ● kết án · ●T thừa nhận trong plea (N7 tr. 8–12) · ◐ cáo buộc/consent/lời công tố · TT thủ tục · NB nhận dạng · KBCB câu không liên quan (HBO/Netflix) · MH cảnh minh hoạ · CHUNG bài học/chuyển đoạn, không nói về người thật. Nguồn: mã N theo docs/tap01-1inmm/NGUON.md; N1 = số trang PDF; còn lại 'Page x of y' của toà.",
+ "cau": [
+  {
+   "id": "S001",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "MH",
+   "loi": "Picture an investor's phone lighting up: a payment, right on schedule, like always.",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S002",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "MH",
+   "loi": "Months later, a different message: a delay on the platform side, and the money should arrive next week.",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S003",
+   "doan": "P00",
+   "nhip": "0",
+   "tang": "CHUNG",
+   "loi": "That message is a reconstruction. The case behind it is real, and it is on the public record.",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S004",
+   "doan": "P01",
+   "nhip": "0",
+   "tang": "NB",
+   "loi": "The man at the center of it was Zachary Horwitz, an actor in Los Angeles who used the screen name Zach Avery.",
+   "nguon": [
+    "N10",
+    "N6 tr. 1",
+    "N3",
+    "N2"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S005",
+   "doan": "P01",
+   "nhip": "0",
+   "tang": "●T",
+   "loi": "His company issued promissory notes that typically came due in six or twelve months, with a promised return of twenty-five to forty-five percent.",
+   "nguon": [
+    "N7 tr. 10"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S006",
+   "doan": "P01",
+   "nhip": "0",
+   "tang": "●T",
+   "loi": "The money, he told investors, would buy film rights to be licensed to streaming platforms such as HBO and Netflix.",
+   "nguon": [
+    "N7 tr. 9"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S007",
+   "doan": "P01",
+   "nhip": "0",
+   "tang": "●T",
+   "loi": "In his plea agreement, he admitted the distribution deals were fake.",
+   "nguon": [
+    "N7 tr. 11"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S008",
+   "doan": "P01",
+   "nhip": "0",
+   "tang": "KBCB",
+   "loi": "HBO and Netflix were not accused of any wrongdoing; according to the SEC, neither company ever did business with one-in-M-M.",
+   "nguon": [
+    "N3",
+    "N2"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S009",
+   "doan": "P01",
+   "nhip": "0",
+   "tang": "●T",
+   "loi": "At least six hundred fifty million dollars came in.",
+   "nguon": [
+    "N7 tr. 12"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S010",
+   "doan": "P01",
+   "nhip": "0",
+   "tang": "●",
+   "loi": "In twenty twenty-two, a federal judge sentenced him to twenty years in prison.",
+   "nguon": [
+    "N8 tr. 1",
+    "N12"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S011",
+   "doan": "P01",
+   "nhip": "0",
+   "tang": "CHUNG",
+   "loi": "This is the story of how that money was rerouted, and the red flags you can spot next time.",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S012",
+   "doan": "P02",
+   "nhip": "1",
+   "tang": "●T",
+   "loi": "Around twenty thirteen, Horwitz founded a company called one-in-M-M Capital, which he promoted as a film distribution company based in Los Angeles.",
+   "nguon": [
+    "N7 tr. 8"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S013",
+   "doan": "P02",
+   "nhip": "1",
+   "tang": "NB",
+   "loi": "According to the SEC, the name was short for one in a million.",
+   "nguon": [
+    "N3",
+    "N2"
+   ],
+   "chu": "1inMM (“one in a million”) Capital, LLC"
+  },
+  {
+   "id": "S014",
+   "doan": "P02",
+   "nhip": "1",
+   "tang": "◐",
+   "loi": "According to the indictment, Horwitz was the company's sole manager.",
+   "nguon": [
+    "N6 tr. 1"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S015",
+   "doan": "P03",
+   "nhip": "2",
+   "tang": "●T",
+   "loi": "The pitch went like this. Investors would put up the money, and one-in-M-M would use it to buy distribution rights to specific films.",
+   "nguon": [
+    "N7 tr. 10"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S016",
+   "doan": "P03",
+   "nhip": "2",
+   "tang": "●T",
+   "loi": "The company, he claimed, would then license those rights at a profit to online streaming platforms such as HBO and Netflix, for distribution outside the United States.",
+   "nguon": [
+    "N7 tr. 9"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S017",
+   "doan": "P03",
+   "nhip": "2",
+   "tang": "●T",
+   "loi": "Those profits were supposed to pay the investors back.",
+   "nguon": [
+    "N7 tr. 10"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S018",
+   "doan": "P03",
+   "nhip": "2b",
+   "tang": "◐",
+   "loi": "The SEC alleged that the films were mostly from Latin America, and that the company claimed HBO, Netflix and other media corporations were its Strategic Partners.",
+   "nguon": [
+    "N1 tr. 3 ¶5"
+   ],
+   "chu": "“Strategic Partners”"
+  },
+  {
+   "id": "S019",
+   "doan": "P03",
+   "nhip": "2b",
+   "tang": "KBCB",
+   "loi": "HBO and Netflix were not accused of any wrongdoing; according to the SEC, neither company ever did business with one-in-M-M.",
+   "nguon": [
+    "N3",
+    "N2"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S020",
+   "doan": "P04",
+   "nhip": "3",
+   "tang": "CHUNG",
+   "loi": "A promissory note is a written I-O-U: a promise to repay a set amount by a set date.",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S021",
+   "doan": "P04",
+   "nhip": "3",
+   "tang": "●T",
+   "loi": "In his plea agreement, Horwitz acknowledged that one-in-M-M's notes were securities under federal law.",
+   "nguon": [
+    "N7 tr. 9"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S022",
+   "doan": "P04",
+   "nhip": "3",
+   "tang": "●T",
+   "loi": "Each note listed the amount borrowed, typically from about thirty-five thousand dollars to one and a half million.",
+   "nguon": [
+    "N7 tr. 10"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S023",
+   "doan": "P04",
+   "nhip": "3",
+   "tang": "●T",
+   "loi": "It also listed the amount to be paid back at maturity, typically six or twelve months later: a return of twenty-five to forty-five percent.",
+   "nguon": [
+    "N7 tr. 10"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S024",
+   "doan": "P04",
+   "nhip": "3",
+   "tang": "◐",
+   "loi": "In its complaint, the SEC alleged a slightly different range: a typical profit of thirty-five to forty-five percent over the life of the note.",
+   "nguon": [
+    "N1 tr. 5 ¶22"
+   ],
+   "chu": "“over the life of the note”"
+  },
+  {
+   "id": "S025",
+   "doan": "P05",
+   "nhip": "3",
+   "tang": "CHUNG",
+   "loi": "Over the life of the note is not the same as per year, and that difference matters.",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S026",
+   "doan": "P05",
+   "nhip": "3",
+   "tang": "◐",
+   "loi": "In a sample of notes listed in the SEC's complaint, one six-month note promised a thirty-five percent return.",
+   "nguon": [
+    "N1 tr. 6 ¶25"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S027",
+   "doan": "P05",
+   "nhip": "3",
+   "tang": "CHUNG",
+   "loi": "If you could reinvest the whole payout at that rate twice a year, you would end the year with about one point eight two times your money: roughly an eighty-two percent annual return.",
+   "nguon": [
+    "N1 tr. 6 ¶25 (phép tính: 1,35² = 1,8225)"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S028",
+   "doan": "P05",
+   "nhip": "3",
+   "tang": "CHUNG",
+   "loi": "Even without reinvesting, it works out to seventy percent a year.",
+   "nguon": [
+    "N1 tr. 6 ¶25 (phép tính: 35 % × 2)"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S029",
+   "doan": "P05",
+   "nhip": "3",
+   "tang": "CHUNG",
+   "loi": "When an investment promises returns like that, on a fixed schedule, ask the simplest question first: where would that much profit come from, every single time?",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S030",
+   "doan": "P06",
+   "nhip": "4",
+   "tang": "◐",
+   "loi": "According to the SEC, it was particularly important to investors that HBO and Netflix were said to be the ultimate counterparties behind their investments.",
+   "nguon": [
+    "N1 tr. 9 ¶45"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S031",
+   "doan": "P06",
+   "nhip": "4",
+   "tang": "◐",
+   "loi": "The complaint quotes one investor: I believed that if HBO was involved, my investment was safe.",
+   "nguon": [
+    "N1 tr. 9 ¶46"
+   ],
+   "chu": "“I believed that if HBO was involved, my investment was safe.”"
+  },
+  {
+   "id": "S032",
+   "doan": "P06",
+   "nhip": "4",
+   "tang": "◐",
+   "loi": "Over time, the SEC alleged, investors were also deceived by his consistent track record of paying large profits.",
+   "nguon": [
+    "N1 tr. 9 ¶47"
+   ],
+   "chu": "“consistent track record of paying large profits”"
+  },
+  {
+   "id": "S033",
+   "doan": "P06",
+   "nhip": "4",
+   "tang": "KBCB",
+   "loi": "HBO and Netflix were not accused of any wrongdoing; according to the SEC, neither company ever did business with one-in-M-M.",
+   "nguon": [
+    "N3",
+    "N2"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S034",
+   "doan": "P07",
+   "nhip": "5",
+   "tang": "●T",
+   "loi": "The money came through relationships. In his plea agreement, Horwitz admitted raising money from at least five major groups of private investors.",
+   "nguon": [
+    "N7 tr. 12"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S035",
+   "doan": "P07",
+   "nhip": "5",
+   "tang": "●T",
+   "loi": "He also admitted he understood that those groups raised part of their money from sub-investors who had no direct contract with one-in-M-M.",
+   "nguon": [
+    "N7 tr. 12"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S036",
+   "doan": "P07",
+   "nhip": "5",
+   "tang": "●T",
+   "loi": "The agreement put the number of those sub-investors at more than two hundred fifty, a figure he reserved the right to contest.",
+   "nguon": [
+    "N7 tr. 12",
+    "N7 tr. 13–14"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S037",
+   "doan": "P07",
+   "nhip": "5",
+   "tang": "◐",
+   "loi": "Prosecutors said many of the investors were his personal friends.",
+   "nguon": [
+    "N12"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S038",
+   "doan": "P07",
+   "nhip": "5",
+   "tang": "●T",
+   "loi": "In other words, some of the money came from people who had no direct contract with one-in-M-M.",
+   "nguon": [
+    "N7 tr. 12"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S039",
+   "doan": "P07",
+   "nhip": "5",
+   "tang": "CHUNG",
+   "loi": "Before you invest, know exactly who is on the other side of your contract.",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S040",
+   "doan": "P08",
+   "nhip": "6",
+   "tang": "●T",
+   "loi": "On paper, each note had collateral.",
+   "nguon": [
+    "N7 tr. 10"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S041",
+   "doan": "P08",
+   "nhip": "6",
+   "tang": "●T",
+   "loi": "An assignment of rights listed one or more films as collateral, with a promise that one-in-M-M was the sole and exclusive owner of the rights to those films.",
+   "nguon": [
+    "N7 tr. 10"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S042",
+   "doan": "P08",
+   "nhip": "6",
+   "tang": "●T",
+   "loi": "In his plea agreement, Horwitz admitted that one-in-M-M generally did not acquire the distribution rights to the films listed as collateral.",
+   "nguon": [
+    "N7 tr. 10"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S043",
+   "doan": "P08",
+   "nhip": "6",
+   "tang": "●T",
+   "loi": "And it did not enter into any distribution agreements with the streaming platforms for those films.",
+   "nguon": [
+    "N7 tr. 10"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S044",
+   "doan": "P08",
+   "nhip": "6",
+   "tang": "◐",
+   "loi": "The SEC alleged more broadly that Horwitz and his company had no business relationships with Netflix or HBO, and never signed distribution agreements with them.",
+   "nguon": [
+    "N1 tr. 9 ¶49"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S045",
+   "doan": "P08",
+   "nhip": "6",
+   "tang": "KBCB",
+   "loi": "HBO and Netflix were not accused of any wrongdoing; according to the SEC, neither company ever did business with one-in-M-M.",
+   "nguon": [
+    "N3",
+    "N2"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S046",
+   "doan": "P09",
+   "nhip": "6b",
+   "tang": "●T",
+   "loi": "He also gave investors copies of license agreements with sales agents for the films' production companies. He admitted those agreements were fake.",
+   "nguon": [
+    "N7 tr. 10–11"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S047",
+   "doan": "P09",
+   "nhip": "6b",
+   "tang": "●T",
+   "loi": "He told investors that streaming platforms had signed, or committed to sign, distribution agreements with one-in-M-M, and he provided copies. Those, he admitted, were fake too.",
+   "nguon": [
+    "N7 tr. 11"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S048",
+   "doan": "P09",
+   "nhip": "6b",
+   "tang": "●T",
+   "loi": "The notes, the collateral, the distribution deals: all of it came from him.",
+   "nguon": [
+    "N7 tr. 9–11"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S049",
+   "doan": "P09",
+   "nhip": "6b",
+   "tang": "CHUNG",
+   "loi": "When every piece of proof comes from the person asking for your money, it is not independent proof.",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S050",
+   "doan": "P10",
+   "nhip": "7",
+   "tang": "●T",
+   "loi": "So where did the money go? Horwitz admitted he did not use it as promised.",
+   "nguon": [
+    "N7 tr. 12"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S051",
+   "doan": "P10",
+   "nhip": "7",
+   "tang": "●T",
+   "loi": "Instead, it went to payments to earlier investors, to keeping up the company's facade of legitimate operations, to himself and entities he controlled, and to what the agreement calls his lavish lifestyle.",
+   "nguon": [
+    "N7 tr. 12"
+   ],
+   "chu": "“lavish lifestyle”"
+  },
+  {
+   "id": "S052",
+   "doan": "P10",
+   "nhip": "7b",
+   "tang": "◐",
+   "loi": "According to prosecutors, that included a six-million-dollar home, luxury cars, and travel by private jet.",
+   "nguon": [
+    "N12",
+    "N22 tr. 6"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S053",
+   "doan": "P11",
+   "nhip": "7c",
+   "tang": "◐",
+   "loi": "The SEC alleged one more detail. Around September twenty seventeen, it said, Horwitz falsely told an investor group he was personally investing in several notes alongside them.",
+   "nguon": [
+    "N1 tr. 10 ¶52"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S054",
+   "doan": "P11",
+   "nhip": "7c",
+   "tang": "◐",
+   "loi": "According to the SEC, the money he put in had been taken from other investors.",
+   "nguon": [
+    "N1 tr. 10 ¶53"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S055",
+   "doan": "P11",
+   "nhip": "7c",
+   "tang": "◐",
+   "loi": "When those notes paid out in March twenty eighteen, the SEC alleged, the group paid him about two point three three million dollars as his share.",
+   "nguon": [
+    "N1 tr. 10 ¶54"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S056",
+   "doan": "P11",
+   "nhip": "7c",
+   "tang": "◐",
+   "loi": "The SEC alleged he combined that money with other investor funds to buy his home, for about five point seven million dollars in cash.",
+   "nguon": [
+    "N1 tr. 10 ¶56"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S057",
+   "doan": "P11",
+   "nhip": "7c",
+   "tang": "CHUNG",
+   "loi": "When a promoter says he is investing right alongside you, treat it as a claim to check, not as proof.",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S058",
+   "doan": "P12",
+   "nhip": "7",
+   "tang": "CHUNG",
+   "loi": "Paying earlier investors with money from newer ones is the core of a Ponzi scheme.",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S059",
+   "doan": "P12",
+   "nhip": "7",
+   "tang": "◐",
+   "loi": "The Justice Department called this a six-hundred-fifty-million-dollar Ponzi scheme.",
+   "nguon": [
+    "N12"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S060",
+   "doan": "P12",
+   "nhip": "7",
+   "tang": "◐",
+   "loi": "And the SEC alleged that those payments persuaded investors to buy more notes, and to raise money from others.",
+   "nguon": [
+    "N1 tr. 9 ¶50"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S061",
+   "doan": "P12",
+   "nhip": "7",
+   "tang": "CHUNG",
+   "loi": "That is the trap: on-time payments feel like proof the investment works. In a Ponzi scheme, they are part of how it keeps going.",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S062",
+   "doan": "P13",
+   "nhip": "treo",
+   "tang": "◐",
+   "loi": "For more than five years, the Justice Department said, he raised millions of dollars from investors on these false claims.",
+   "nguon": [
+    "N12"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S063",
+   "doan": "P13",
+   "nhip": "treo",
+   "tang": "●T",
+   "loi": "Then, beginning around December twenty nineteen, one-in-M-M began defaulting on all of its outstanding notes.",
+   "nguon": [
+    "N7 tr. 12"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S064",
+   "doan": "P14",
+   "nhip": "8",
+   "tang": "◐",
+   "loi": "Prosecutors said investors started to complain after the company began defaulting in twenty nineteen.",
+   "nguon": [
+    "N12",
+    "N11"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S065",
+   "doan": "P14",
+   "nhip": "8",
+   "tang": "●T",
+   "loi": "By the time of his plea agreement, the company was in default on about two hundred thirty million dollars in principal.",
+   "nguon": [
+    "N7 tr. 12"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S066",
+   "doan": "P14",
+   "nhip": "8",
+   "tang": "●T",
+   "loi": "He admitted the scheme had caused substantial financial hardship to at least five investors.",
+   "nguon": [
+    "N7 tr. 12"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S067",
+   "doan": "P15",
+   "nhip": "9",
+   "tang": "●T",
+   "loi": "The plea agreement has a word for what came next. He acted, it says, to lull the investors into believing their funds were safely invested.",
+   "nguon": [
+    "N7 tr. 11"
+   ],
+   "chu": "“to lull the investors into believing their funds were safely invested”"
+  },
+  {
+   "id": "S068",
+   "doan": "P15",
+   "nhip": "9",
+   "tang": "●T",
+   "loi": "Horwitz admitted he falsely reassured investors that the missed payments were caused by the streaming platforms, and that payments would resume.",
+   "nguon": [
+    "N7 tr. 11"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S069",
+   "doan": "P15",
+   "nhip": "9",
+   "tang": "●T",
+   "loi": "He sent investors emails and text messages that he claimed came from representatives of the platforms. In fact, he admitted, he had not been in communication with the platforms, and the correspondence was fake.",
+   "nguon": [
+    "N7 tr. 11"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S070",
+   "doan": "P15",
+   "nhip": "9",
+   "tang": "◐",
+   "loi": "Prosecutors later said those messages used the identities of actual HBO and Netflix employees.",
+   "nguon": [
+    "N12"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S071",
+   "doan": "P15",
+   "nhip": "9",
+   "tang": "TT",
+   "loi": "He had been charged with aggravated identity theft, but those counts were dismissed under his plea deal, and he was not convicted of them.",
+   "nguon": [
+    "N6 tr. 9–10",
+    "N7 tr. 4",
+    "N8 tr. 4"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S072",
+   "doan": "P15",
+   "nhip": "9",
+   "tang": "KBCB",
+   "loi": "HBO and Netflix were not accused of any wrongdoing; according to the SEC, neither company ever did business with one-in-M-M.",
+   "nguon": [
+    "N3",
+    "N2"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S073",
+   "doan": "P16",
+   "nhip": "9b",
+   "tang": "◐",
+   "loi": "In March twenty twenty-one, according to the SEC, he emailed some investors that funds would be released by April ninth, at the latest.",
+   "nguon": [
+    "N1 tr. 13 ¶76"
+   ],
+   "chu": "“a release of funds by April 9th (at the latest)”"
+  },
+  {
+   "id": "S074",
+   "doan": "P16",
+   "nhip": "9b",
+   "tang": "◐",
+   "loi": "The same day, the SEC alleged, he suggested to a representative of another investor group that investors could put up money for lawyers in the company's alleged efforts to get payment from HBO.",
+   "nguon": [
+    "N1 tr. 13 ¶77"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S075",
+   "doan": "P16",
+   "nhip": "9b",
+   "tang": "◐",
+   "loi": "In that email, according to the SEC, he labeled the option of sharing that cost with investors highly doubtful.",
+   "nguon": [
+    "N1 tr. 13 ¶77"
+   ],
+   "chu": "“sharing the financial burden with investors (highly doubtful)”"
+  },
+  {
+   "id": "S076",
+   "doan": "P16",
+   "nhip": "9b",
+   "tang": "KBCB",
+   "loi": "HBO and Netflix were not accused of any wrongdoing; according to the SEC, neither company ever did business with one-in-M-M.",
+   "nguon": [
+    "N3",
+    "N2"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S077",
+   "doan": "P16",
+   "nhip": "9b",
+   "tang": "CHUNG",
+   "loi": "Blaming a famous partner, setting a firm new date, raising the idea of investors putting in more money: each one is a reason to slow down, not to send more.",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S078",
+   "doan": "P17",
+   "nhip": "10",
+   "tang": "TT",
+   "loi": "On April fifth, twenty twenty-one, the SEC filed an emergency case against Horwitz and one-in-M-M.",
+   "nguon": [
+    "N3",
+    "N2"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S079",
+   "doan": "P17",
+   "nhip": "10",
+   "tang": "TT",
+   "loi": "The next day, the SEC announced that the court had granted an emergency asset freeze.",
+   "nguon": [
+    "N2"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S080",
+   "doan": "P17",
+   "nhip": "10",
+   "tang": "TT",
+   "loi": "That same day, April sixth, FBI agents arrested Horwitz.",
+   "nguon": [
+    "N10"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S081",
+   "doan": "P17",
+   "nhip": "10",
+   "tang": "TT",
+   "loi": "He was first charged with wire fraud. A grand jury then indicted him on securities fraud, wire fraud and aggravated identity theft charges.",
+   "nguon": [
+    "N10",
+    "N6 tr. 1"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S082",
+   "doan": "P18",
+   "nhip": "11",
+   "tang": "●",
+   "loi": "In October twenty twenty-one, Horwitz pleaded guilty to one count of securities fraud.",
+   "nguon": [
+    "N11",
+    "N7 tr. 1–2",
+    "N8 tr. 1"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S083",
+   "doan": "P18",
+   "nhip": "11",
+   "tang": "●",
+   "loi": "In his plea agreement, he admitted that he was in fact guilty and agreed to a statement of facts. That statement is the source of much of what you have heard in this story.",
+   "nguon": [
+    "N7 tr. 8"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S084",
+   "doan": "P18",
+   "nhip": "11",
+   "tang": "●",
+   "loi": "On February fourteenth, twenty twenty-two, U.S. District Judge Mark C. Scarsi sentenced him to two hundred forty months in federal prison: twenty years.",
+   "nguon": [
+    "N8 tr. 1",
+    "N8 tr. 4",
+    "N12"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S085",
+   "doan": "P18",
+   "nhip": "11",
+   "tang": "●",
+   "loi": "The judge also ordered him to pay two hundred thirty million, three hundred sixty-one thousand, eight hundred eighty-four dollars in restitution.",
+   "nguon": [
+    "N8 tr. 3",
+    "N12"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S086",
+   "doan": "P18",
+   "nhip": "11",
+   "tang": "TT",
+   "loi": "The remaining charges, including wire fraud, were dismissed on the government's motion, as the plea agreement provided.",
+   "nguon": [
+    "N8 tr. 4",
+    "N7 tr. 4"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S087",
+   "doan": "P19",
+   "nhip": "12",
+   "tang": "◐",
+   "loi": "The SEC's civil case went on. In February twenty twenty-four, the court entered a final judgment against Horwitz based on his consent; he waived findings of fact and any right to appeal.",
+   "nguon": [
+    "N4 tr. 1",
+    "N4 tr. 3 §IV"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S088",
+   "doan": "P19",
+   "nhip": "12",
+   "tang": "◐",
+   "loi": "That consent judgment permanently bars him from violating the antifraud provisions of the federal securities laws.",
+   "nguon": [
+    "N4 tr. 1–3",
+    "N5"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S089",
+   "doan": "P19",
+   "nhip": "12",
+   "tang": "◐",
+   "loi": "The consent judgment also set disgorgement and interest of about seventy-four point two million dollars, deemed satisfied by the criminal restitution order.",
+   "nguon": [
+    "N4 tr. 3 §III"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S090",
+   "doan": "P20",
+   "nhip": "13",
+   "tang": "◐",
+   "loi": "Before the sentencing, prosecutors wrote that Horwitz portrayed himself as a Hollywood success story.",
+   "nguon": [
+    "N22 tr. 6"
+   ],
+   "chu": "“Defendant Zachary Horwitz portrayed himself as a Hollywood success story.”"
+  },
+  {
+   "id": "S091",
+   "doan": "P20",
+   "nhip": "13",
+   "tang": "◐",
+   "loi": "But, they wrote, he was not a successful businessman or Hollywood insider. He just played one in real life.",
+   "nguon": [
+    "N22 tr. 6",
+    "N12"
+   ],
+   "chu": "“…was not a successful businessman or Hollywood insider. He just played one in real life.”"
+  },
+  {
+   "id": "S092",
+   "doan": "P20",
+   "nhip": "13",
+   "tang": "◐",
+   "loi": "Prosecutors also called it the largest known Ponzi scheme in the history of their federal district.",
+   "nguon": [
+    "N22 tr. 6"
+   ],
+   "chu": "“the largest known Ponzi scheme in the history of this District”"
+  },
+  {
+   "id": "S093",
+   "doan": "P21",
+   "nhip": "14",
+   "tang": "CHUNG",
+   "loi": "So what can you take from this case? Five red flags, each one visible in this story.",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S094",
+   "doan": "P21",
+   "nhip": "14",
+   "tang": "CHUNG",
+   "loi": "One: high, fixed returns on a short clock. Twenty-five to forty-five percent in six or twelve months is an extraordinary promise. Convert it to a yearly rate, and ask where that profit could come from.",
+   "nguon": [
+    "N7 tr. 10"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S095",
+   "doan": "P21",
+   "nhip": "14",
+   "tang": "CHUNG",
+   "loi": "Two: a famous partner you cannot verify yourself. If a deal leans on a big company's name, contact that company through its own official channels, not through a phone number or email the seller gives you.",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S096",
+   "doan": "P21",
+   "nhip": "14",
+   "tang": "CHUNG",
+   "loi": "Three: all the proof comes from the person asking for your money. Contracts, emails and text messages can be faked. Verification has to be independent.",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S097",
+   "doan": "P21",
+   "nhip": "14",
+   "tang": "◐",
+   "loi": "Four: an unregistered offer that travels through friends. The SEC alleged that neither one-in-M-M nor its securities offerings were registered with the Commission.",
+   "nguon": [
+    "N1 tr. 5 ¶18",
+    "N12 (chỉ vế \"friends\")"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S098",
+   "doan": "P21",
+   "nhip": "14",
+   "tang": "CHUNG",
+   "loi": "Before you invest, look up the person selling to you on FINRA's BrokerCheck or the SEC's Investment Adviser Public Disclosure website.",
+   "nguon": [
+    "N19",
+    "N20"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S099",
+   "doan": "P21",
+   "nhip": "14",
+   "tang": "CHUNG",
+   "loi": "Five: years of smooth payments, then sudden delays blamed on a partner, and promises that the money is coming soon. Steady payments are not proof that an investment is real.",
+   "nguon": [
+    "N7 tr. 11"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S100",
+   "doan": "P21",
+   "nhip": "14",
+   "tang": "CHUNG",
+   "loi": "And one rule underneath all five: don't put in more money to rescue an investment that has stopped paying.",
+   "nguon": [],
+   "chu": null
+  },
+  {
+   "id": "S101",
+   "doan": "P21",
+   "nhip": "14",
+   "tang": "CHUNG",
+   "loi": "If you suspect investment fraud, you can submit a tip through the SEC's website, sec dot gov, or report it to the Federal Trade Commission at ReportFraud dot F-T-C dot gov.",
+   "nguon": [
+    "N18",
+    "N21"
+   ],
+   "chu": null
+  },
+  {
+   "id": "S102",
+   "doan": "P21",
+   "nhip": "14",
+   "tang": "CHUNG",
+   "loi": "Every fact in this story comes from public court and agency records, listed in the description.",
+   "nguon": [],
+   "chu": null
+  }
+ ]
+}
