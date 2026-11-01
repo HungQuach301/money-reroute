@@ -18,7 +18,7 @@
 ## 3. Ba tầng pháp lý (mọi câu về người/tổ chức thật thuộc đúng MỘT tầng)
 | Tầng | Nghĩa | Điều kiện nguồn | Cách nói (EN) | Nhãn hình |
 |---|---|---|---|---|
-| **ĐÃ KẾT ÁN** | (a) Hình sự: bản án hoặc nhận tội đã được toà chấp nhận; (b) Dân sự: phán quyết cuối cùng **sau xét xử** (toà/bồi thẩm kết luận) | Bản án, judgment, plea agreement, thông cáo DOJ/SEC về kết quả | Nói thẳng, kèm năm + toà. Hình sự: "In 2024, a federal jury convicted…". Dân sự: "A federal court found … liable" — **không bao giờ** "convicted" cho vụ dân sự | ● CONVICTED (hình sự) / ● JUDGMENT (dân sự sau xét xử) |
+| **ĐÃ KẾT ÁN** | (a) Hình sự: bản án hoặc nhận tội đã được toà chấp nhận; (b) Dân sự: phán quyết cuối cùng **do toà kết luận** — sau xét xử, hoặc phán quyết rút gọn (summary judgment) khi bị đơn **có tranh chấp** (K2, 01/11/2026 23:33) | Bản án, judgment, plea agreement, thông cáo DOJ/SEC về kết quả | Nói thẳng, kèm năm + toà. Hình sự: "In 2024, a federal jury convicted…". Dân sự: "A federal court found … liable" — **không bao giờ** "convicted" cho vụ dân sự | ● CONVICTED (hình sự) / ● JUDGMENT (dân sự sau xét xử) |
 | **BỊ CÁO BUỘC** | Đã có cáo trạng/đơn kiện của cơ quan, chưa kết luận; **hoặc** phán quyết/lệnh **theo thoả thuận không thừa nhận** (consent judgment, settlement order) | Cáo trạng, complaint, settlement order | Luôn gắn chủ thể và chữ "alleged": "The SEC alleges…", "Prosecutors charged… He has pleaded not guilty." Dàn xếp không thừa nhận: "settled without admitting or denying" | ◐ ALLEGED |
 | **TIN ĐỒN** | Lời đồn, cáo buộc trên mạng, suy đoán; không có hồ sơ cơ quan/toà | — | Mở bằng "This is unverified…" / "Online claims say…, but no court or agency has found…" | ○ UNVERIFIED |
 Luật thi hành:

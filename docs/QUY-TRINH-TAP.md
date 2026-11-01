@@ -51,6 +51,7 @@
 ## 4b. Kho đề tài (0.2)
 - Giữ `docs/kho-de-tai/` ≥ 10 vụ đạt HIEN-CHUONG §3 luật 8 (nhân vật trung tâm ●), có ≥ 1 hồ sơ sơ cấp mở được, chia đều các trụ: Ponzi/đầu tư · lừa tình & sextortion (nạn nhân người lớn) · rửa tiền · gian lận doanh nghiệp/kế toán · mạo danh & lừa đảo công nghệ · người trong cuộc (ngân hàng/công ty). Hai tập liền nhau không cùng trụ khi kho cho phép.
 - Bổ sung kho khi còn < 6 vụ chưa làm.
+- **Luật đệm (01/11/2026 23:33):** tập đăng liên tục, không chờ số liệu tập trước. Lúc nào cũng có **≥ 2 tập đã qua G1** chờ sản xuất; khi một tập vào M-c, một tập mới vào dàn truyện. Thứ tự tập 2–5 chốt cứng; từ tập 6 là dự kiến, số liệu xem chỉ dùng để đổi chỗ từ tập 6.
 
 ## 4c. Xử lý khiếu nại / đính chính (0.2)
 Mọi khiếu nại (người trong vụ, luật sư, YouTube) → điều phối ghi NHAT-KY, kiểm câu bị khiếu nại với nguồn đúng trang → trình chủ dự án theo bậc tăng dần: (1) sửa mô tả, (2) ghim bình luận đính chính, (3) dựng lại đoạn bị khiếu nại, (4) gỡ video. Không trả lời người khiếu nại khi chủ dự án chưa quyết. Lỗi nguồn/tầng thật → sửa ngay ở bậc thấp nhất đủ khắc phục, ghi bài học vào luật.

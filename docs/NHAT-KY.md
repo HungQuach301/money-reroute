@@ -110,3 +110,9 @@ Nhánh `claude/lucid-goldberg-vcpyv1` @ `ca3c7cb` (từ `6296c0e`). Kiểm độ
 - **G1 tập 1 `1inmm-horwitz` — DUYỆT** theo khuyến nghị: (a) đề tài + bảng tầng; (b) lời 105 câu (101 đọc) kể cả câu KBCB "…in these cases…"; (c) trần cả tập OpenRouter 11,10 USD + ElevenLabs 19.000 ký tự tính (M-c 9,50 + 16.000; M-d 0; M-e 1,60 + 3.000). **Lời và bảng shot ĐÓNG BĂNG.**
 - **PA-A:** MR-4 = giọng toàn lời + thử 2 khe Veo → DỪNG; MR-5 = phần Veo còn lại + nhạc. Chủ dự án đã dán lệnh MR-4.
 - Chủ dự án: các tập đăng liên tục, **không chờ số liệu xem tập 1** để định thứ tự → điều phối trình thứ tự chốt + nhịp tiền kỳ song song.
+
+## MR-D23 · 01/11/2026 23:33 (giờ Hà Nội) · Chủ dự án: thứ tự tập, luật đệm, K1–K5; phát MR-D23
+- Thứ tự **PA-A**: tập 2–5 chốt cứng Patel (IRS call center) → Sunmola → Theranos → Woodbridge; tập 6–14 dự kiến theo KHO.md §2.
+- **Luật đệm** ≥ 2 tập đã qua G1 → QUY-TRINH §4b.
+- K1 **loại Wilkins**; K2 Stanford vụ SEC ● JUDGMENT + HIEN-CHUONG §3 (b) "do toà kết luận — sau xét xử hoặc summary judgment có tranh chấp"; K3 Sunmola mức khái niệm; K5 hoãn PACER.
+- Chủ dự án đã dán MR-D23 (dàn truyện tập 2 + 3), chạy song song MR-4.

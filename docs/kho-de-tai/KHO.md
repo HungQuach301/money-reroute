@@ -31,6 +31,8 @@ Thang 1–5 (5 = tốt nhất; với "rủi ro bị kiện" 5 = rủi ro thấp 
 
 ## 2. Gợi ý thứ tự tập (xoay trụ — QUY-TRINH §4b)
 
+> **Chủ dự án chốt (01/11/2026 23:33, PA-A):** tập 2–5 = Patel → Sunmola → Theranos → Woodbridge (cứng); tập 6–14 dự kiến. **Wilkins: LOẠI khỏi kho** (K1 — không chứng minh được nạn nhân người lớn, HIEN-CHUONG §5). Stanford vụ SEC: ● JUDGMENT (K2). Sunmola: phần đe doạ ảnh chỉ mức khái niệm (K3). PACER: hoãn (K5).
+
 Tập 1 đã chọn: **1inMM** (Ponzi/đầu tư). Woodbridge (Ponzi) đã có dàn truyện, xếp "sau một tập khác trụ" (NHAT-KY MR-2). Gợi ý không để hai tập liền nhau cùng trụ:
 
 | Tập | Vụ | Trụ | Lý do |
