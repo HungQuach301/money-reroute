@@ -6,7 +6,7 @@ import json, os, subprocess
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 T = os.path.join(ROOT, "lab", "mr4", "tts"); X = os.path.join(ROOT, "reports", "mr4", "xem")
 CHON = {f"P{i:02d}": f"P{i:02d}" for i in range(22)}
-CHON.update({"P01": "P01_l2", "P17": "P17_l2"})  # thu lại đạt hơn theo whisper; P19 giữ bản 1 (bản 2 whisper lệch y hệt)
+CHON.update({"P01": "P01_l2"})  # P01 bản 2 sạch cả 2 lượt whisper; P17 giữ bản 1 (lượt chặn chữ số sạch, bản 2 lệch cả 2 lượt); P19 giữ bản 1 (bản 2 lệch y hệt)
 NGHI = 1.5
 dur = lambda p: float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p], capture_output=True, text=True).stdout)
 os.makedirs(X, exist_ok=True)

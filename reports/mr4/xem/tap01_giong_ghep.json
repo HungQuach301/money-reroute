@@ -1,9 +1,9 @@
 {
  "tep": "reports/mr4/xem/tap01_giong_ghep.mp4",
  "nghi_giua_doan_s": 1.5,
- "tong_s": 806.7,
+ "tong_s": 807.2,
  "do_sau": {
-  "I": "-14.21",
+  "I": "-14.22",
   "TP": "-1.35",
   "LRA": "4.00"
  },
@@ -112,32 +112,32 @@
   },
   {
    "doan": "P17",
-   "tep": "lab/mr4/tts/P17_l2.mp3",
+   "tep": "lab/mr4/tts/P17.mp3",
    "bat_dau": 572.27,
-   "dai": 26.28
+   "dai": 26.75
   },
   {
    "doan": "P18",
    "tep": "lab/mr4/tts/P18.mp3",
-   "bat_dau": 600.05,
+   "bat_dau": 600.52,
    "dai": 40.52
   },
   {
    "doan": "P19",
    "tep": "lab/mr4/tts/P19.mp3",
-   "bat_dau": 642.06,
+   "bat_dau": 642.53,
    "dai": 28.45
   },
   {
    "doan": "P20",
    "tep": "lab/mr4/tts/P20.mp3",
-   "bat_dau": 672.01,
+   "bat_dau": 672.48,
    "dai": 19.96
   },
   {
    "doan": "P21",
    "tep": "lab/mr4/tts/P21.mp3",
-   "bat_dau": 693.47,
+   "bat_dau": 693.94,
    "dai": 112.59
   }
  ]
