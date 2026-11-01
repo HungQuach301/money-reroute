@@ -92,6 +92,12 @@
   "luot1": {
    "prompt": "Close-up of a set of plain metal house keys on a simple ring lying on an empty, polished white marble kitchen counter in a bright, minimalist interior. Soft daylight moves slowly across the stone; the keys glint. Very slow push-in, shallow depth of field, the background is a soft blur of light cabinets. Clean, cool tones, realistic, cinematic. Nobody in the kitchen.",
    "negative": "people, hands, face, house exterior, windows with view of street, text, letters, logo, brand keychain, tag, watermark"
+  },
+  "luot1_qc": "TRƯỢT (V8 vật hiện): một vật dài màu nâu đỏ (giống cán/vĩ) tự trượt vào nền từ 1 s và đổi vị trí tới 8 s; đầu chìa khoá có khắc chữ giả (crop 1:1, không đọc được). Không người.",
+  "luot2": {
+   "doi_loi": "Máy đứng yên (lượt 1: máy tiến làm lộ vật nền); mặt đá trống tới tận nền; chìa khoá trơn nhẵn, không khắc; chuyển động chỉ là vệt nắng.",
+   "prompt": "Locked-off close-up of a small bunch of three plain, smooth brass house keys on a simple steel ring, lying on a long, completely bare white marble kitchen counter that stretches into a soft, bright blur. The key heads are smooth and unmarked. A soft beam of morning sunlight slowly slides across the marble and the keys glint gently. Nothing else is on the counter. Clean, cool tones, shallow depth of field, realistic, cinematic. The kitchen is empty and still.",
+   "negative": "engraving, text, letters, numbers, logo, brand, keychain tag, objects sliding, objects appearing, utensils, bottles, people, hands, face, house exterior, watermark"
   }
  },
  "V13": {
@@ -99,6 +105,12 @@
   "luot1": {
    "prompt": "Cinematic close-up of a champagne glass tower of identical plain, unmarked coupe glasses stacked in a pyramid on a dark wooden table in a dim room with warm, low light. A thin stream of pale golden sparkling wine falls into the top glass; the stream grows thinner and thinner, breaks into a few last drops and then stops completely. The top glasses are only partly filled and the glasses of the bottom tier remain completely empty and dry. Locked-off camera, shallow depth of field, soft bokeh background, realistic liquid physics. The final seconds are still and silent-looking, nothing moving except a few rising bubbles.",
    "negative": "people, hands, fingers, bottle, faces, labels, logo, text, watermark, broken glass, shattering, splashing, overflowing, glasses melting or morphing"
+  },
+  "luot1_qc": "TRƯỢT nội dung: ly tầng dưới đầy rượu từ đầu tới cuối (SHOT: 'ly tầng dưới trống'); 6,0–6,5 s chai có nhãn giấy (chữ mờ, không đọc được) lấn vào góc trên phải. Dòng rót mảnh dần và dừng ~6,5 s — đạt.",
+  "luot2": {
+   "doi_loi": "Khung chặt hơn (ly đỉnh + tầng ngay dưới) để chai ở ngoài khung; mô tả khẳng định ly tầng dưới 'trong suốt, khô, trống' ngay từ đầu; chỉ ly đỉnh có ít rượu.",
+   "prompt": "Tight cinematic close-up of the top of a champagne glass tower made of identical plain coupe glasses on a dark wooden table, warm candlelit bokeh behind. Only the single top glass holds a little pale golden sparkling wine; the glasses of the tier below it are clean, dry and completely empty, clear glass catching the candlelight. A very thin stream of wine trickles into the top glass, grows thinner, breaks into a few last drops and stops. The top glass never overflows, and the empty glasses below stay empty and dry. Locked-off camera, shallow depth of field, realistic liquid physics. The final seconds are completely still except a few rising bubbles in the top glass.",
+   "negative": "bottle, label, hand, fingers, people, face, text, logo, watermark, full lower glasses, overflowing, wine running down, splashing, broken glass, glasses morphing"
   }
  },
  "V14": {
@@ -106,20 +118,28 @@
   "luot1": {
    "prompt": "Dark room at night, extreme close-up from the side at table height of two hands holding a smartphone just above a wooden table; the phone screen faces away from the camera and its cold blue glow lights the fingers and knuckles. The thumbs hesitate, then the hands slowly set the phone down face down on the table and withdraw out of the frame. For the last two seconds only the face-down phone remains, a faint blue glow leaking from its edges. Deep shadows, low-key lighting, shallow depth of field, realistic, cinematic.",
    "negative": "face, head, eyes, body, readable screen, screen facing camera, text, messages, letters, numbers, app interface, logo, watermark"
-  }
+  },
+  "luot1_qc": "ĐẠT có ghi chú: tay (người lớn tuổi, chung chung) cầm điện thoại ở mép trái khung, màn hình quay ra xa máy; 4–5,5 s đặt điện thoại xuống bàn — NGỬA (lời: úp), màn hình nhìn sát mặt bàn chỉ là mảng xanh sáng, không chữ đọc được (crop 1:1); tay rút ra ~5,5 s; neo cuối 6–8 s chỉ điện thoại (V3). Không mặt."
  },
  "V15": {
   "shot": "SHOT §1 hàng 37 · P18 S082–S086 · Bậc thềm toà nhà cột đá cổ điển lúc sáng, không biển tên, không người · V3/V4 không người",
   "luot1": {
    "prompt": "Low-angle shot of wide, pale stone steps rising to the bases of massive classical stone columns of a grand public building, in clear early morning light. The frame shows the steps and the lower half of the columns only; long soft shadows of the columns fall across the empty steps and slowly shift. Slow, steady crane-up along the steps. Neutral cool tones, crisp detail, realistic, cinematic. The steps are completely empty.",
    "negative": "people, crowd, person, face, text, inscription, carved letters, sign, name plate, flag, logo, seal, emblem, watermark, police, cars"
-  }
+  },
+  "luot1_qc": "ĐẠT: bậc đá + chân cột, máy nâng chậm; hoa văn chạm trên thân cột là hoạ tiết lá, không chữ (crop 1:1); không biển tên, không cờ/huy hiệu, không người."
  },
  "V16": {
   "shot": "SHOT §1 hàng 43 · P21 S102 · Tay (không mặt) đặt bút xuống cạnh sổ trắng đóng lại, ánh sáng sớm · V3 neo cuối không tay",
   "luot1": {
    "prompt": "Close-up at desk height of a closed notebook with a plain, unmarked light cover on a wooden desk in soft early morning light. A hand enters from the right side of the frame, gently lays a simple black pen down next to the notebook, and then withdraws out of frame. For the last three seconds only the closed notebook and the pen remain on the desk in the warm light, perfectly still. Locked-off camera, shallow depth of field, calm warm tones, realistic, cinematic.",
    "negative": "face, head, body, second hand writing, text, writing, letters, logo, brand on pen, watermark, open pages"
+  },
+  "luot1_qc": "TRƯỢT nội dung: bút đã nằm sẵn cạnh sổ từ 0 s, tay mang thêm cây bút thứ hai lơ lửng trên bìa sổ rồi rút ra vẫn cầm bút (không đặt bút xuống); 1,5–5 s hai cây bút cùng hiện. Tay ngược sáng thành bóng, không mặt; bìa sổ trơn; neo cuối 6–8 s không tay (V3) — đạt.",
+  "luot2": {
+   "doi_loi": "Mở cảnh chỉ có sổ (không bút); tay ngược sáng mang bút vào, đặt bút nằm phẳng cạnh sổ, xoè ngón và rút ra tay không; neo cuối sổ + một bút.",
+   "prompt": "Close-up at desk height of a closed notebook with a plain, unmarked light cover alone on a wooden desk, backlit by soft early morning sun from a window behind. At first the notebook is the only object on the desk. A hand in silhouette enters from the right holding a simple black pen, lowers it and lays the pen down flat on the desk right beside the notebook, opens its fingers, and withdraws out of frame empty-handed. For the last three seconds the closed notebook and the single pen rest perfectly still in the warm light. Locked-off camera, shallow depth of field, calm warm tones, realistic, cinematic.",
+   "negative": "second pen, two pens, writing, text, letters, logo, brand on pen, open pages, face, head, body, watermark"
   }
  }
 }
