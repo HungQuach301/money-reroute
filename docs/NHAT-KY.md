@@ -70,3 +70,7 @@ Nhánh `ccr-287dabd9-ibz780` @ `45956b6` (từ `489f18a`). Kiểm độc lập t
 - **Q1: tập 1 = B `1inmm-horwitz`** (theo khuyến nghị điều phối). Woodbridge làm sau một tập khác trụ.
 - **Q2: PA-A** — chủ dự án cấp địa chỉ email liên hệ riêng của kênh cho UA khai báo sec.gov. Địa chỉ **không ghi vào repo** (preflight P1 chặn email trong tệp; repo công khai) — chỉ nằm trong lệnh phiên ở chat.
 - Phát lệnh MR-3 (kịch bản tập 1 → G1) và MR-K1 (kho đề tài), chạy song song.
+
+## MR-3 / MR-K1 · 01/11/2026 22:23 (giờ Hà Nội) · Chủ dự án: đã xoá nhánh MR-2, phát MR-3 và MR-K1
+- Nhánh `ccr-287dabd9-ibz780` (có email trong lịch sử) đã xoá trên GitHub — điều phối xác nhận bằng `git fetch --prune`: không còn trên remote.
+- MR-3 (kịch bản tập 1 → G1) và MR-K1 (kho đề tài) chạy song song từ `6296c0e`. Khi rà: quét toàn lịch sử hai nhánh tìm địa chỉ email.
