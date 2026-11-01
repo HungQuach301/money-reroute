@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """MR-4 · Bản nghe: ghép giọng theo đoạn P00–P21 (bản đã chọn) → reports/mr4/xem/tap01_giong_ghep.mp4 (chỉ âm, AAC 192k, 48 kHz),
-nghỉ 1,5 s giữa các đoạn, chuẩn hoá −14 LUFS / TP ≤ −1 dBTP (loudnorm 2 lượt). Kèm reports/mr4/xem/tap01_giong_ghep.json (mốc từng đoạn).
+nghỉ 1,5 s giữa các đoạn, chuẩn hoá −14 LUFS / TP ≤ −1 dBTP (loudnorm 2 lượt, đích TP −1,5 vì đích −1 đo lại ra −0,90). Kèm reports/mr4/xem/tap01_giong_ghep.json (mốc từng đoạn).
 0 USD (ffmpeg cục bộ). Chọn bản: CHON (đoạn → tệp)."""
 import json, os, subprocess
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
@@ -19,9 +19,9 @@ n = len(CHON)
 fc = "".join(f"[{i}:a]aresample=48000,apad=pad_dur={NGHI}[a{i}];" for i in range(n)) + "".join(f"[a{i}]" for i in range(n)) + f"concat=n={n}:v=0:a=1[c]"
 tmp = os.path.join(X, "_tmp.wav")
 subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", fc, "-map", "[c]", "-ac", "1", tmp], check=True)
-r = subprocess.run(["ffmpeg", "-hide_banner", "-i", tmp, "-af", "loudnorm=I=-14:TP=-1:LRA=11:print_format=json", "-f", "null", "-"], capture_output=True, text=True).stderr
+r = subprocess.run(["ffmpeg", "-hide_banner", "-i", tmp, "-af", "loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"], capture_output=True, text=True).stderr
 m = json.loads(r[r.rindex("{"):r.rindex("}") + 1])
-af = (f"loudnorm=I=-14:TP=-1:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}:"
+af = (f"loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}:"
       f"measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
 out = os.path.join(X, "tap01_giong_ghep.mp4")
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", tmp, "-af", af, "-ar", "48000", "-c:a", "aac", "-b:a", "192k", out], check=True)
