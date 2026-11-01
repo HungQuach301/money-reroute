@@ -1,0 +1,394 @@
+{
+ "doan": "P10",
+ "tep": "lab/mr4/tts/P10.mp3",
+ "ref": "So where did the money go? Horwitz admitted he did not use it as promised. Instead, it went to payments to earlier investors, to keeping up the company's facade of legitimate operations, to himself and entities he controlled, and to what the agreement calls his lavish lifestyle. According to prosecutors, that included a six-million-dollar home, luxury cars, and travel by private jet.",
+ "text": "So where did the money go? Horwitz admitted he did not use it as promised. Instead, it went to payments to earlier investors, to keeping up the company's facade of legitimate operations, to himself and entities he controlled, and to what the agreement calls his lavish lifestyle. According to prosecutors, that included a six million dollar home, luxury cars, and travel by private jet.",
+ "words": [
+  {
+   "w": "So",
+   "s": 0.0,
+   "e": 0.3,
+   "p": 0.901
+  },
+  {
+   "w": "where",
+   "s": 0.3,
+   "e": 0.7,
+   "p": 0.681
+  },
+  {
+   "w": "did",
+   "s": 0.7,
+   "e": 0.86,
+   "p": 0.995
+  },
+  {
+   "w": "the",
+   "s": 0.86,
+   "e": 0.98,
+   "p": 0.998
+  },
+  {
+   "w": "money",
+   "s": 0.98,
+   "e": 1.14,
+   "p": 0.999
+  },
+  {
+   "w": "go?",
+   "s": 1.14,
+   "e": 1.7,
+   "p": 0.994
+  },
+  {
+   "w": "Horwitz",
+   "s": 2.32,
+   "e": 2.58,
+   "p": 0.8
+  },
+  {
+   "w": "admitted",
+   "s": 2.58,
+   "e": 2.96,
+   "p": 0.967
+  },
+  {
+   "w": "he",
+   "s": 2.96,
+   "e": 3.2,
+   "p": 0.949
+  },
+  {
+   "w": "did",
+   "s": 3.2,
+   "e": 3.36,
+   "p": 0.995
+  },
+  {
+   "w": "not",
+   "s": 3.36,
+   "e": 3.62,
+   "p": 0.999
+  },
+  {
+   "w": "use",
+   "s": 3.62,
+   "e": 3.92,
+   "p": 0.998
+  },
+  {
+   "w": "it",
+   "s": 3.92,
+   "e": 4.06,
+   "p": 0.998
+  },
+  {
+   "w": "as",
+   "s": 4.06,
+   "e": 4.2,
+   "p": 0.99
+  },
+  {
+   "w": "promised.",
+   "s": 4.2,
+   "e": 4.74,
+   "p": 0.997
+  },
+  {
+   "w": "Instead,",
+   "s": 5.3,
+   "e": 5.72,
+   "p": 0.994
+  },
+  {
+   "w": "it",
+   "s": 6.18,
+   "e": 6.26,
+   "p": 0.994
+  },
+  {
+   "w": "went",
+   "s": 6.26,
+   "e": 6.4,
+   "p": 0.999
+  },
+  {
+   "w": "to",
+   "s": 6.4,
+   "e": 6.6,
+   "p": 0.997
+  },
+  {
+   "w": "payments",
+   "s": 6.6,
+   "e": 6.96,
+   "p": 0.979
+  },
+  {
+   "w": "to",
+   "s": 6.96,
+   "e": 7.24,
+   "p": 0.989
+  },
+  {
+   "w": "earlier",
+   "s": 7.24,
+   "e": 7.56,
+   "p": 0.996
+  },
+  {
+   "w": "investors,",
+   "s": 7.56,
+   "e": 8.2,
+   "p": 0.998
+  },
+  {
+   "w": "to",
+   "s": 8.64,
+   "e": 8.82,
+   "p": 0.994
+  },
+  {
+   "w": "keeping",
+   "s": 8.82,
+   "e": 9.08,
+   "p": 0.998
+  },
+  {
+   "w": "up",
+   "s": 9.08,
+   "e": 9.28,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 9.28,
+   "e": 9.44,
+   "p": 0.995
+  },
+  {
+   "w": "company's",
+   "s": 9.44,
+   "e": 9.92,
+   "p": 0.99
+  },
+  {
+   "w": "facade",
+   "s": 9.92,
+   "e": 10.28,
+   "p": 0.921
+  },
+  {
+   "w": "of",
+   "s": 10.28,
+   "e": 10.54,
+   "p": 0.999
+  },
+  {
+   "w": "legitimate",
+   "s": 10.54,
+   "e": 10.94,
+   "p": 0.998
+  },
+  {
+   "w": "operations,",
+   "s": 10.94,
+   "e": 11.72,
+   "p": 0.998
+  },
+  {
+   "w": "to",
+   "s": 12.2,
+   "e": 12.46,
+   "p": 0.999
+  },
+  {
+   "w": "himself",
+   "s": 12.46,
+   "e": 12.92,
+   "p": 0.997
+  },
+  {
+   "w": "and",
+   "s": 12.92,
+   "e": 13.22,
+   "p": 0.983
+  },
+  {
+   "w": "entities",
+   "s": 13.22,
+   "e": 13.68,
+   "p": 0.993
+  },
+  {
+   "w": "he",
+   "s": 13.68,
+   "e": 13.86,
+   "p": 0.992
+  },
+  {
+   "w": "controlled,",
+   "s": 13.86,
+   "e": 14.42,
+   "p": 0.998
+  },
+  {
+   "w": "and",
+   "s": 14.86,
+   "e": 15.06,
+   "p": 0.998
+  },
+  {
+   "w": "to",
+   "s": 15.06,
+   "e": 15.18,
+   "p": 0.995
+  },
+  {
+   "w": "what",
+   "s": 15.18,
+   "e": 15.32,
+   "p": 0.999
+  },
+  {
+   "w": "the",
+   "s": 15.32,
+   "e": 15.5,
+   "p": 0.998
+  },
+  {
+   "w": "agreement",
+   "s": 15.5,
+   "e": 15.8,
+   "p": 0.994
+  },
+  {
+   "w": "calls",
+   "s": 15.8,
+   "e": 16.22,
+   "p": 0.997
+  },
+  {
+   "w": "his",
+   "s": 16.22,
+   "e": 16.52,
+   "p": 0.986
+  },
+  {
+   "w": "lavish",
+   "s": 16.52,
+   "e": 17.22,
+   "p": 0.684
+  },
+  {
+   "w": "lifestyle.",
+   "s": 17.22,
+   "e": 17.92,
+   "p": 0.993
+  },
+  {
+   "w": "According",
+   "s": 18.88,
+   "e": 19.1,
+   "p": 0.998
+  },
+  {
+   "w": "to",
+   "s": 19.1,
+   "e": 19.32,
+   "p": 1.0
+  },
+  {
+   "w": "prosecutors,",
+   "s": 19.32,
+   "e": 19.92,
+   "p": 0.997
+  },
+  {
+   "w": "that",
+   "s": 20.38,
+   "e": 20.5,
+   "p": 0.998
+  },
+  {
+   "w": "included",
+   "s": 20.5,
+   "e": 20.86,
+   "p": 0.998
+  },
+  {
+   "w": "a",
+   "s": 20.86,
+   "e": 21.16,
+   "p": 0.998
+  },
+  {
+   "w": "six",
+   "s": 21.16,
+   "e": 21.36,
+   "p": 0.185
+  },
+  {
+   "w": "million",
+   "s": 21.36,
+   "e": 21.7,
+   "p": 0.877
+  },
+  {
+   "w": "dollar",
+   "s": 21.7,
+   "e": 22.0,
+   "p": 0.975
+  },
+  {
+   "w": "home,",
+   "s": 22.0,
+   "e": 22.42,
+   "p": 0.999
+  },
+  {
+   "w": "luxury",
+   "s": 22.98,
+   "e": 23.26,
+   "p": 1.0
+  },
+  {
+   "w": "cars,",
+   "s": 23.26,
+   "e": 23.78,
+   "p": 0.999
+  },
+  {
+   "w": "and",
+   "s": 24.2,
+   "e": 24.26,
+   "p": 0.999
+  },
+  {
+   "w": "travel",
+   "s": 24.26,
+   "e": 24.64,
+   "p": 0.999
+  },
+  {
+   "w": "by",
+   "s": 24.64,
+   "e": 24.88,
+   "p": 0.996
+  },
+  {
+   "w": "private",
+   "s": 24.88,
+   "e": 25.24,
+   "p": 0.998
+  },
+  {
+   "w": "jet.",
+   "s": 25.24,
+   "e": 25.58,
+   "p": 0.999
+  }
+ ],
+ "dur": 25.84,
+ "lech": []
+}
