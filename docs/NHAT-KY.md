@@ -116,3 +116,14 @@ Nhánh `claude/lucid-goldberg-vcpyv1` @ `ca3c7cb` (từ `6296c0e`). Kiểm độ
 - **Luật đệm** ≥ 2 tập đã qua G1 → QUY-TRINH §4b.
 - K1 **loại Wilkins**; K2 Stanford vụ SEC ● JUDGMENT + HIEN-CHUONG §3 (b) "do toà kết luận — sau xét xử hoặc summary judgment có tranh chấp"; K3 Sunmola mức khái niệm; K5 hoãn PACER.
 - Chủ dự án đã dán MR-D23 (dàn truyện tập 2 + 3), chạy song song MR-4.
+
+## MR-4 + MR-D23 · 02/11/2026 06:05 (giờ Hà Nội) · Điều phối rà — merge cả hai
+**MR-4** (`ccr-aa287726-96bpjx` @ `8a908ac`): preflight ĐẠT; 0 email; LFS tải đủ (25 mp3, 3 mp4, bản xem).
+- Sổ `reports/mr4/calls.jsonl`: OpenRouter **1,20 USD** / trần 1,60; ElevenLabs **6.109** ký tự tính / trần 8.000 — khớp đối soát khoá và `/subscription` phiên ghi. Không 402.
+- Đơn giá thật ghi QUY-TRINH §6: Veo Lite 1080p 8 s **0,40 USD/clip**; **1,5 lượt/khe** (2 khe khó); TTS **0,4401** ký tự tính/gửi; nhịp **155 từ/phút** (toàn lời 12:55).
+- Điều phối xem tờ 0,5 s: **V12_l1** đạt (rót–tràn liên tục, ly không biến dạng, chai nền không chữ đọc được). **V06_l2** đạt: bóng ngược sáng, chỉ gáy/lưng, không nét mặt; neo cuối cửa sổ trống (V3). V06_l1 trượt (lộ mặt) — không dùng.
+- Bài học Veo: chỉ dẫn phủ định/vị trí ("no hand", "head outside frame", "to the right") kém tin cậy; **ngược sáng → bóng** là cách giấu mặt hiệu quả → áp cho MR-5.
+- **Quỹ chung:** tài khoản OpenRouter chi thêm ≈ 4,00 USD không phải của MR trong 16:28–16:56 UTC. Lịch sử `lost-places-lab` không có commit trong cửa sổ đó (commit cuối 15:37 UTC) → **nguồn chi chưa xác định**; chờ chủ dự án đối chiếu. Lượt Veo của MR chạy tuần tự, mỗi lượt kiểm `/credits` — không bị ảnh hưởng.
+- Còn mở: **nghe tai** bản ghép (đặc biệt "Horwitz" ở P19 — whisper chép "Horowitz").
+**MR-D23** (`ccr-f54cf043-76wk5p` @ `a38e077`): preflight ĐẠT; 0 email; 0 USD. Kiểm độc lập 5 vòng, 0 sai cuối. Sunmola: đúng một câu khái niệm về ảnh riêng tư, chỉ thẻ chữ, không nhắc lại (K3). Patel: không lời gọi dựng lại, không số điện thoại, cơ quan bị mạo danh kèm câu không liên quan.
+- Khuyến nghị điều phối: **bỏ tên HGLOBAL** (tổ chức chỉ bị truy tố, chưa xét xử, trạng thái sau 7/2018 không có nguồn) → nói "one of the call centers he admitted operating and funding".
