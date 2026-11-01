@@ -127,3 +127,8 @@ Nhánh `claude/lucid-goldberg-vcpyv1` @ `ca3c7cb` (từ `6296c0e`). Kiểm độ
 - Còn mở: **nghe tai** bản ghép (đặc biệt "Horwitz" ở P19 — whisper chép "Horowitz").
 **MR-D23** (`ccr-f54cf043-76wk5p` @ `a38e077`): preflight ĐẠT; 0 email; 0 USD. Kiểm độc lập 5 vòng, 0 sai cuối. Sunmola: đúng một câu khái niệm về ảnh riêng tư, chỉ thẻ chữ, không nhắc lại (K3). Patel: không lời gọi dựng lại, không số điện thoại, cơ quan bị mạo danh kèm câu không liên quan.
 - Khuyến nghị điều phối: **bỏ tên HGLOBAL** (tổ chức chỉ bị truy tố, chưa xét xử, trạng thái sau 7/2018 không có nguồn) → nói "one of the call centers he admitted operating and funding".
+
+## MR-5 · 02/11/2026 06:07 (giờ Hà Nội) · Chủ dự án: phát MR-5; giữ tên HGLOBAL; số dư OpenRouter
+- MR-5 (14 khe Veo còn lại + nhạc tập 1, trần OpenRouter 8,30 USD + ElevenLabs 6.000 ký tự tính) đã dán.
+- **Tập 2 giữ tên HGLOBAL** (chủ dự án quyết, khác khuyến nghị điều phối): mỗi lần nêu (lời và hình) kèm câu ◐ như dàn truyện nhịp 4b — bị truy tố, được coi là vô tội khi chưa bị kết án, gắn mốc 7/2018 và 11/2020; không suy trạng thái sau 7/2018. Kiểm lại trạng thái HGLOBAL ở ngày chốt lời và ngày đăng (luật 4).
+- OpenRouter tài khoản chung: **25,65 USD** (chủ dự án báo; khớp số MR-4 đọc sau phiên 25,645 → không có chi mới sau MR-4).
