@@ -1,0 +1,17 @@
+{
+ "t": "2026-11-01T23:08:09Z",
+ "openrouter": {
+  "total_credits": 105,
+  "total_usage": 79.35476,
+  "con": 25.64524,
+  "khoa_usage": 1.2,
+  "khoa_limit": 100
+ },
+ "elevenlabs": {
+  "character_count": 7043,
+  "character_limit": 157382,
+  "con": 150339,
+  "reset_unix": 1796108261,
+  "tier": "creator"
+ }
+}

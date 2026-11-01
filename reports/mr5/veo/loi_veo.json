@@ -1,0 +1,101 @@
+{
+ "_ghi_chu": "MR-5 · lời Veo 14 khe còn lại (tiếng Anh, gửi nguyên văn). SHOT.md đóng băng — lời dựng từ cột 'Nội dung hình' + 'Khe Veo' của SHOT, không đổi nội dung cảnh. Không khung khoá (không khoá Gemini, V1 không áp dụng). Bài học MR-4 áp dụng: giấu mặt/tay bằng ngược sáng, bóng, khung cắt chặt ở tầm mặt bàn, cảnh kết thúc bằng trạng thái vật (không dựa vào chỉ dẫn phủ định/vị trí); chữ/màn hình: úp, quay đi, hoặc ngoài nét mạnh. Lượt 2 chỉ khi lượt 1 trượt QC, phải đổi lời (V7).",
+ "V01": {
+  "shot": "SHOT §1 hàng 1 · P00 S001 · Bàn bếp lúc bình minh; điện thoại úp sáng màn hình, màn hình ngoài nét · Không tay, không người · V3 neo cuối chỉ có điện thoại",
+  "luot1": {
+   "prompt": "Still-life close-up on a quiet kitchen table at dawn. A smartphone lies face down on the bare wooden tabletop; its screen lights up and a soft white glow spills out from under its edges onto the wood, then slowly fades. Pale blue morning light comes through a window behind, everything in the background is a soft blur. Locked-off camera at table height, very shallow depth of field, gentle dust motes drifting in the light. Calm, muted colors, realistic, cinematic. Only the phone and the table are in the scene; the room is empty.",
+   "negative": "people, person, hands, fingers, face, readable screen, text, letters, numbers, logo, brand, watermark, notification banner, app interface"
+  }
+ },
+ "V02": {
+  "shot": "SHOT §1 hàng 2 · P00 S002 · Cùng bàn, ban đêm; cửa kính ướt (giọt tĩnh), màn hình sáng mờ · V6: wet window glass, no rain falling",
+  "luot1": {
+   "prompt": "Night, the same quiet kitchen table by a dark window. The window glass is wet, covered with still, motionless water droplets that catch the distant blurred city lights; the air outside is calm and dry. On the table in the foreground a smartphone lies face down, a dim cold glow leaking from under its edges onto the wood, pulsing softly once. Locked-off camera at table height, very shallow depth of field, focus on the droplets on the glass, deep blue and amber tones, realistic, cinematic, very slow subtle light changes only. The room is empty.",
+   "negative": "rain falling, rain streaks, falling drops, running water, people, person, hands, face, readable screen, text, letters, numbers, logo, watermark, app interface"
+  }
+ },
+ "V03": {
+  "shot": "SHOT §1 hàng 8 · P01 S011 · Toàn cảnh thành phố ven biển lúc chạng vạng, cây cọ bóng đen; không địa danh có thương hiệu (không biển Hollywood) · chuyển động chỉ ánh sáng/mây",
+  "luot1": {
+   "prompt": "Wide cinematic shot of a generic coastal city at dusk: a row of tall palm trees in black silhouette in the foreground against an orange and violet sky, low hills and a distant hazy skyline of anonymous buildings along the ocean, city lights slowly flickering on. Thin clouds drift slowly; the only motion is light and clouds. Locked-off camera, warm golden-hour haze, realistic, film look. Bare hillsides with no signs, no landmarks, no billboards.",
+   "negative": "Hollywood sign, letters on hillside, text, words, billboard, logo, famous landmark, people, crowd, cars in foreground, birds flock, timelapse streaks"
+  }
+ },
+ "V04": {
+  "shot": "SHOT §1 hàng 9 · P02 S012–S014 · Văn phòng nhỏ trống, kệ cuộn phim, poster trắng không chữ · Không người",
+  "luot1": {
+   "prompt": "Slow dolly through a small, empty office in soft afternoon light. Metal shelves hold stacks of round, plain silver film reel canisters with no labels. On the wall hang several empty poster frames containing only blank white paper. A tidy desk with a closed laptop lid and a desk lamp; dust floats in the window light. Muted warm colors, shallow depth of field, realistic, cinematic. The room is completely empty of people, every surface is plain and unmarked.",
+   "negative": "people, person, face, text, letters, words, movie poster artwork, titles, labels, logo, brand, watermark, open laptop screen, readable documents"
+  }
+ },
+ "V05": {
+  "shot": "SHOT §1 hàng 16 · P05 S029 · Bàn làm việc buổi sáng: máy tính bỏ túi, sổ trắng, tách cà phê bốc hơi nhẹ · V2 hơi nước → 8 s",
+  "luot1": {
+   "prompt": "Morning desk still life, close-up at table height. In sharp focus, a white ceramic cup of black coffee with a thin wisp of steam rising and curling slowly in warm side light from a window. Beside it, softly out of focus, an open notebook with completely blank white pages and a plain grey pocket calculator lying at an angle, its display dark. Very slow push-in, shallow depth of field, warm natural colors, realistic, cinematic. No one at the desk.",
+   "negative": "people, hands, face, text, handwriting, numbers on display, readable keys, letters, logo, brand, watermark, heavy smoke, boiling"
+  }
+ },
+ "V07": {
+  "shot": "SHOT §1 hàng 19 · P07 S034–S037 · Bàn ăn tối nhìn ngang tay: tay nâng ly, mặt ngoài khung · V2 tay chuyển động → 8 s · V3 neo cuối bàn không người",
+  "luot1": {
+   "prompt": "Extreme close-up at tabletop level of an elegant dinner table lit only by candles, dark background. A crystal wine glass of red wine stands in the center among white plates and silverware, glowing in warm candlelight. A hand in a dark suit sleeve reaches in, takes the glass by the stem and lifts it straight up out of the top of the frame. The camera stays locked off at table height. For the last three seconds the shot shows only the table, the candles and the empty spot where the glass stood, with the flames flickering softly. Rich warm tones, shallow depth of field, realistic, cinematic.",
+   "negative": "face, head, eyes, mouth, person's body, second person, crowd, text, letters, logo, label on bottle, watermark, camera tilting up, camera following the glass"
+  }
+ },
+ "V08": {
+  "shot": "SHOT §1 hàng 21 · P08 S040–S043 · Hộp ký gửi kim loại mở ra trống · Không người",
+  "luot1": {
+   "prompt": "Close-up of a long steel safe deposit box lying open on a dark table in a dim vault room, its hinged lid already raised. The camera slowly pushes in and tilts down to reveal that the inside of the box is completely empty, bare brushed metal. A narrow beam of cool light slowly sweeps across the metal surfaces. Cold blue-grey tones, high contrast, shallow depth of field, realistic, cinematic. No one is in the room.",
+   "negative": "people, hands, face, money, cash, papers, documents, gold, jewelry, text, numbers, engraved letters, logo, watermark"
+  }
+ },
+ "V09": {
+  "shot": "SHOT §1 hàng 24 · P09 S048–S049 · Gió lật chồng giấy trắng không chữ trên bàn tối · V2 giấy chuyển động → 8 s",
+  "luot1": {
+   "prompt": "Low-angle close-up of a stack of plain white paper sheets on a dark wooden desk in a dim room, a single cool light from the side. A gust of wind from an open window lifts the top sheets; they flutter, lift and slowly slide off the stack, a few drifting down past the desk edge. The pages are completely blank on both sides. Moody low-key lighting, shallow depth of field, natural paper motion, realistic, cinematic. Nobody in the room.",
+   "negative": "text, letters, words, printing, handwriting, signatures, letterhead, logo, stamp, watermark, people, hands, face, fire, tornado of paper"
+  }
+ },
+ "V10": {
+  "shot": "SHOT §1 hàng 26 · P10 S052 · Máy bay phản lực nhỏ trên đường băng lúc hoàng hôn, không số hiệu, không sơn hãng · Không người · V5 không khói/bụi bùng",
+  "luot1": {
+   "prompt": "A small private business jet stands on an empty runway at sunset, seen side-on from a low angle, a dark silhouette against a huge orange sun low on the horizon; heat shimmer rises off the tarmac. The jet is plain, its fuselage in deep shadow. The camera slowly tracks sideways. Golden backlight, lens flare, long shadows, realistic, cinematic. Empty airfield, no one around.",
+   "negative": "tail number, registration letters, airline livery, logo, text, letters, people, crew, stairs with people, smoke, dust cloud, explosion, takeoff, other aircraft"
+  }
+ },
+ "V11": {
+  "shot": "SHOT §1 hàng 27 · P11 S053–S056 · Chùm chìa khoá trên mặt bếp đá trống · Không người · không ngoại thất nhà",
+  "luot1": {
+   "prompt": "Close-up of a set of plain metal house keys on a simple ring lying on an empty, polished white marble kitchen counter in a bright, minimalist interior. Soft daylight moves slowly across the stone; the keys glint. Very slow push-in, shallow depth of field, the background is a soft blur of light cabinets. Clean, cool tones, realistic, cinematic. Nobody in the kitchen.",
+   "negative": "people, hands, face, house exterior, windows with view of street, text, letters, logo, brand keychain, tag, watermark"
+  }
+ },
+ "V13": {
+  "shot": "SHOT §1 hàng 30 · P13 S062–S063 · Cùng tháp ly: dòng rót mảnh dần rồi dừng, ly tầng dưới trống · V2 → 8 s · cú treo giữa tập",
+  "luot1": {
+   "prompt": "Cinematic close-up of a champagne glass tower of identical plain, unmarked coupe glasses stacked in a pyramid on a dark wooden table in a dim room with warm, low light. A thin stream of pale golden sparkling wine falls into the top glass; the stream grows thinner and thinner, breaks into a few last drops and then stops completely. The top glasses are only partly filled and the glasses of the bottom tier remain completely empty and dry. Locked-off camera, shallow depth of field, soft bokeh background, realistic liquid physics. The final seconds are still and silent-looking, nothing moving except a few rising bubbles.",
+   "negative": "people, hands, fingers, bottle, faces, labels, logo, text, watermark, broken glass, shattering, splashing, overflowing, glasses melting or morphing"
+  }
+ },
+ "V14": {
+  "shot": "SHOT §1 hàng 32 · P15 S067–S069 · Phòng tối, ánh màn hình điện thoại hắt lên tay (không mặt), màn hình không đọc được · Không dựng tin nhắn/email · V3 neo cuối không tay",
+  "luot1": {
+   "prompt": "Dark room at night, extreme close-up from the side at table height of two hands holding a smartphone just above a wooden table; the phone screen faces away from the camera and its cold blue glow lights the fingers and knuckles. The thumbs hesitate, then the hands slowly set the phone down face down on the table and withdraw out of the frame. For the last two seconds only the face-down phone remains, a faint blue glow leaking from its edges. Deep shadows, low-key lighting, shallow depth of field, realistic, cinematic.",
+   "negative": "face, head, eyes, body, readable screen, screen facing camera, text, messages, letters, numbers, app interface, logo, watermark"
+  }
+ },
+ "V15": {
+  "shot": "SHOT §1 hàng 37 · P18 S082–S086 · Bậc thềm toà nhà cột đá cổ điển lúc sáng, không biển tên, không người · V3/V4 không người",
+  "luot1": {
+   "prompt": "Low-angle shot of wide, pale stone steps rising to the bases of massive classical stone columns of a grand public building, in clear early morning light. The frame shows the steps and the lower half of the columns only; long soft shadows of the columns fall across the empty steps and slowly shift. Slow, steady crane-up along the steps. Neutral cool tones, crisp detail, realistic, cinematic. The steps are completely empty.",
+   "negative": "people, crowd, person, face, text, inscription, carved letters, sign, name plate, flag, logo, seal, emblem, watermark, police, cars"
+  }
+ },
+ "V16": {
+  "shot": "SHOT §1 hàng 43 · P21 S102 · Tay (không mặt) đặt bút xuống cạnh sổ trắng đóng lại, ánh sáng sớm · V3 neo cuối không tay",
+  "luot1": {
+   "prompt": "Close-up at desk height of a closed notebook with a plain, unmarked light cover on a wooden desk in soft early morning light. A hand enters from the right side of the frame, gently lays a simple black pen down next to the notebook, and then withdraws out of frame. For the last three seconds only the closed notebook and the pen remain on the desk in the warm light, perfectly still. Locked-off camera, shallow depth of field, calm warm tones, realistic, cinematic.",
+   "negative": "face, head, body, second hand writing, text, writing, letters, logo, brand on pen, watermark, open pages"
+  }
+ }
+}
