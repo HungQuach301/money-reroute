@@ -24,3 +24,6 @@
 
 ## 4. Luật nhắc nhanh
 Không đoán · trần chi + 402 → DỪNG · LFS ≤ 10 phút · preflight trước commit · không merge/xoá nhánh/force-push ở phiên làm · không mặt người thật · ba tầng pháp lý · báo cáo tiếng Việt · DỪNG cuối mốc.
+
+## 5. Lộ trình đã duyệt (01/11/2026 21:34)
+Mốc 1 Hiến chương v2 — xong · Mốc 2 Dàn truyện A+B (MR-2) → chủ dự án chọn vụ · Mốc 3 Kịch bản + G1 tập 1 (MR-3) ‖ Kho đề tài (MR-K1, song song) · Mốc 4 Sản xuất tập 1 (nạp OpenRouter trước) · Mốc 5 Đăng, đo đơn giá thật, chốt QUY-TRINH 1.0.

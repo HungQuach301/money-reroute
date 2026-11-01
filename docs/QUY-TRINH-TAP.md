@@ -1,6 +1,6 @@
-# QUY TRÌNH SẢN XUẤT MỘT TẬP [MR] — bản 0.1 (NHÁP MR-0)
+# QUY TRÌNH SẢN XUẤT MỘT TẬP [MR] — bản 0.2
 
-> Soạn MR-0, 01/11/2026, theo khuôn `lost-places-lab/docs/QUY-TRINH-TAP.md` bản 2.2 và `crux-lab/CHARTER.md` §5 (ba cổng), rút gọn cho kênh mới. **Chờ chủ dự án duyệt.** Khi khác `docs/HIEN-CHUONG.md`, hiến chương thắng.
+> Bản 0.2 (01/11/2026 21:34, chủ dự án duyệt theo khuyến nghị): thêm dàn truyện, khuôn nhiều phần, kho đề tài, xử lý khiếu nại; phần còn lại vẫn là nháp 0.1, chốt sau tập 1. Soạn MR-0, 01/11/2026, theo khuôn `lost-places-lab/docs/QUY-TRINH-TAP.md` bản 2.2 và `crux-lab/CHARTER.md` §5 (ba cổng), rút gọn cho kênh mới. **Chờ chủ dự án duyệt.** Khi khác `docs/HIEN-CHUONG.md`, hiến chương thắng.
 > Kế hoạch theo **mốc**, không theo ngày. Mỗi mốc kết thúc bằng **DỪNG → điều phối rà độc lập trên tệp → chủ dự án quyết**.
 > Đơn giá ở §6 là **số đo của lost-places-lab**, chưa đo trên kênh này — dùng làm ước, thay bằng số đo thật sau tập 1.
 
@@ -29,6 +29,8 @@
 4. Trình 3 vụ xếp hạng → chủ dự án chọn (có thể gộp vào G1).
 
 ## 3. M-b — Kịch bản + ước chi → G1
+0. **Dàn truyện trước kịch bản** (0.2): logline, móc câu, bảng nhịp có nguồn + tầng, đề xuất số phần, bài học; kiểm độc lập từng nhịp; chủ dự án duyệt dàn truyện (và chọn vụ nếu có nhiều ứng viên) trước khi viết lời.
+0b. **Khuôn tập (0.2, D2 PA-A):** mặc định **một vụ một tập**. Chia N phần chỉ khi **mỗi** phần có bước ngoặt có hồ sơ riêng **và** bài học riêng; cú treo cuối phần qua kiểm tầng như mọi câu. Loạt nhiều phần: G1 duyệt cả loạt (dàn truyện, bảng tầng, tổng trần chi); mỗi phần có duyệt lời riêng trước khi thu âm.
 1. `docs/<tập>/NGUON.md` (mỗi nguồn: cơ quan, số vụ, ngày, URL, trang, "đã mở", SHA-256).
 2. `LOI.md` + `loi.json`: mỗi câu một tầng + mã nguồn + trang; số viết bằng chữ cho TTS; câu TIN ĐỒN mở bằng "This is unverified…"; phần kết **dấu hiệu nhận diện** (3–5 dấu hiệu, mỗi cái gắn với một chi tiết của vụ).
 3. **Kiểm lời độc lập** trước G1: tác tử con không đọc bản nháp cũ, mở nguồn đúng trang, chấm "khớp / mạnh hơn / sai" từng câu; riêng cột **tầng**: câu nào nói mạnh hơn trạng thái pháp lý → sửa.
@@ -45,6 +47,13 @@
 5. **Kiểm pháp lý lần 2** trên bản dựng (tác tử độc lập): mọi chữ trên hình + lời khớp tầng; trạng thái vụ kiểm lại ngày dựng.
 6. Sửa ≤ 2 vòng; vòng 3 → điều phối ghi nguyên nhân.
 → **G2 — chủ dự án duyệt bản cuối:** bản 540p/1080p, gói mô tả (nguồn đầy đủ + dòng khai AI), tiêu đề, chi thật so trần.
+
+## 4b. Kho đề tài (0.2)
+- Giữ `docs/kho-de-tai/` ≥ 10 vụ đạt HIEN-CHUONG §3 luật 8 (nhân vật trung tâm ●), có ≥ 1 hồ sơ sơ cấp mở được, chia đều các trụ: Ponzi/đầu tư · lừa tình & sextortion (nạn nhân người lớn) · rửa tiền · gian lận doanh nghiệp/kế toán · mạo danh & lừa đảo công nghệ · người trong cuộc (ngân hàng/công ty). Hai tập liền nhau không cùng trụ khi kho cho phép.
+- Bổ sung kho khi còn < 6 vụ chưa làm.
+
+## 4c. Xử lý khiếu nại / đính chính (0.2)
+Mọi khiếu nại (người trong vụ, luật sư, YouTube) → điều phối ghi NHAT-KY, kiểm câu bị khiếu nại với nguồn đúng trang → trình chủ dự án theo bậc tăng dần: (1) sửa mô tả, (2) ghim bình luận đính chính, (3) dựng lại đoạn bị khiếu nại, (4) gỡ video. Không trả lời người khiếu nại khi chủ dự án chưa quyết. Lỗi nguồn/tầng thật → sửa ngay ở bậc thấp nhất đủ khắc phục, ghi bài học vào luật.
 
 ## 5. Luật đứng
 - Không đoán; số đo thật thắng số tự khai; chấm từ tệp đã render.

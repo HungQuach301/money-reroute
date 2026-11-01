@@ -1,6 +1,6 @@
 # MONEY REROUTE — HIẾN CHƯƠNG v2
 
-> Trạng thái: **ĐÃ DUYỆT** — v1: chủ dự án duyệt PA-A 01/11/2026 20:08; **v2**: quyết định định hướng 01/11/2026 21:29 (câu chuyện kịch tính, bài học rộng, giải thích cơ chế, loại điểm có rủi ro bị kiện) — NHAT-KY mục tương ứng (giờ Hà Nội). Nguồn thẩm quyền số một về nội dung; mọi tệp khác phải khớp. Hiến chương < 2 trang.
+> Trạng thái: **ĐÃ DUYỆT** — v1: chủ dự án duyệt PA-A 01/11/2026 20:08; **v2**: quyết định định hướng 01/11/2026 21:29, xác nhận 21:34 (câu chuyện kịch tính, bài học rộng, giải thích cơ chế, loại điểm có rủi ro bị kiện) — NHAT-KY mục tương ứng (giờ Hà Nội). Nguồn thẩm quyền số một về nội dung; mọi tệp khác phải khớp. Hiến chương < 2 trang.
 > Căn cứ khuôn: `lost-places-lab` (BIBLE §7 luật 3 tầng, §7.1 nhạy cảm, §10 khai AI) và `crux-lab` (CHARTER §4 nhân vật ILLUSTRATIVE, RIGHTS §F footage ngoài) — chỉ mượn cấu trúc, không mượn kết luận.
 
 ## 1. Định vị
@@ -26,7 +26,7 @@ Luật thi hành:
 2. **Không nâng tầng:** không biến BỊ CÁO BUỘC thành ĐÃ KẾT ÁN bằng giọng chắc chắn; bị cáo được tuyên vô tội/huỷ án → nói rõ, không ám chỉ.
 3. **Tin đồn về người/tổ chức có tên: CẤM** (v2). Tầng ○ chỉ còn dùng cho tin đồn **không gắn tên** (vd "online claims say…" về một loại thủ đoạn).
 4. Kiểm trạng thái vụ **ngày chốt lời** và **ngày đăng** (kháng cáo, ân xá, huỷ án); ghi ngày kiểm vào gói phát hành.
-5. Người không bị cáo buộc (nạn nhân, nhân chứng, người nhà): không nêu tên trừ khi đã công khai tự nguyện và cần cho truyện.
+5. Người không bị cáo buộc (nạn nhân, nhân chứng, người nhà): không nêu tên trừ khi đã công khai tự nguyện và cần cho truyện. Trong bảng tầng, họ mang giá trị **KHÔNG BỊ CÁO BUỘC** (cột bắt buộc; **không** có nhãn trên hình; không gắn ○).
 6. **Ca đặc biệt:** (a) thoả thuận hoãn/không truy tố (DPA/NPA) — không phải kết án: ◐, nói "entered a deferred (non-) prosecution agreement" và **chỉ** dùng phần sự việc tổ chức đã thừa nhận trong thoả thuận, ghi đúng là thừa nhận trong thoả thuận; (b) bị cáo chết trước phán quyết cuối (kể cả khi bản án bị huỷ vì chết trong lúc kháng cáo) — nói đúng trạng thái cuối, không gọi là "convicted" nếu bản án đã bị huỷ; (c) ân xá/giảm án — vẫn ● nhưng luôn nói kèm "was later pardoned / had the sentence commuted".
 7. Mỗi bảng tầng ghi rõ loại phán quyết (sau xét xử / thoả thuận không thừa nhận / DPA-NPA) — đây là cột kiểm tầng bắt buộc.
 8. **Loại điểm có rủi ro bị kiện** (v2): (a) nhân vật trung tâm của tập phải ở tầng ●; (b) ◐ chỉ dùng cho người/tổ chức phụ trong vụ đã có trụ ●, hoặc vụ cơ quan đã khép lại bằng dàn xếp — **không** làm tập về vụ đang xử mà nhân vật chính chỉ ◐; (c) hành vi hợp pháp nhưng có hại: chỉ nói về loại sản phẩm/thủ đoạn, **không nêu tên** người/công ty chưa bị cơ quan/toà kết luận; (d) không gán nhãn ("fraudster", "con man", "scammer", "monster"…) cho ai chưa ●; với ● chỉ dùng từ đúng tội danh; (e) thương hiệu/người bị mạo danh chỉ nêu khi hồ sơ nêu, kèm câu nói rõ họ không liên quan; (f) không suy đoán động cơ, tâm lý, đời tư của người thật ngoài hồ sơ.

@@ -49,3 +49,10 @@ Chủ dự án (21:20–21:29): mỗi tập một câu chuyện, chấp nhận d
 - §5: chủ đề có yếu tố tình dục — chỉ nạn nhân người lớn, không hình/mô tả tình dục; không làm tập có nạn nhân vị thành niên trong vụ tình dục.
 - Diễn giải của điều phối cần chủ dự án xác nhận: "sex" = lừa đảo/tội phạm có yếu tố tình cảm, tình dục (lừa tình, sextortion). Vùng xám X1 (hợp pháp-có-hại) giữ được ở dạng **không nêu tên**; X2 (chỉ cáo buộc) chỉ còn ở vai phụ.
 - Còn chờ: D2 khuôn dài kỳ, nhãn "KHÔNG BỊ CÁO BUỘC", gói duy trì dài hạn.
+
+## MR-1 · 01/11/2026 21:34 (giờ Hà Nội) · Chủ dự án: duyệt và xác nhận toàn bộ theo khuyến nghị
+- Diễn giải "sex" = lừa đảo/tội phạm có yếu tố tình cảm, tình dục (lừa tình, sextortion), nạn nhân người lớn — **xác nhận**.
+- D2 khuôn tập: **PA-A** một vụ một tập; nhiều phần chỉ khi mỗi phần có bước ngoặt có hồ sơ + bài học riêng → QUY-TRINH §3 mục 0b.
+- Nhãn người/tổ chức không bị cáo buộc: **PA-A** giá trị "KHÔNG BỊ CÁO BUỘC" trong bảng tầng, không nhãn trên hình → HIEN-CHUONG §3 luật 5.
+- Gói duy trì dài hạn: **duyệt** (dàn truyện trước kịch bản; kho đề tài ≥ 10 vụ theo 6 trụ; xử lý khiếu nại 4 bậc; đo đơn giá thật sau tập 1). QUY-TRINH lên bản 0.2.
+- Kho đề tài: **PA-A** chạy song song MR-3 (sau rà MR-2).
