@@ -1,0 +1,358 @@
+{
+ "doan": "P06",
+ "tep": "lab/mr4/tts/P06.mp3",
+ "ref": "According to the S-E-C, it was particularly important to investors that H-B-O and Netflix were said to be the ultimate counterparties behind their investments. The complaint quotes one investor: I believed that if H-B-O was involved, my investment was safe. Over time, the S-E-C alleged, investors were also deceived by his consistent track record of paying large profits.",
+ "text": "According to the SEC, it was particularly important to investors that HBO and Netflix were said to be the ultimate counterparties behind their investments. The complaint quotes one investor, I believed that if HBO was involved, my investment was safe. Over time, the SEC alleged, investors were also deceived by his consistent track record of paying large profits.",
+ "words": [
+  {
+   "w": "According",
+   "s": 0.0,
+   "e": 0.44,
+   "p": 0.964
+  },
+  {
+   "w": "to",
+   "s": 0.44,
+   "e": 0.66,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 0.66,
+   "e": 0.8,
+   "p": 0.989
+  },
+  {
+   "w": "SEC,",
+   "s": 0.8,
+   "e": 1.28,
+   "p": 0.972
+  },
+  {
+   "w": "it",
+   "s": 1.9,
+   "e": 2.0,
+   "p": 0.965
+  },
+  {
+   "w": "was",
+   "s": 2.0,
+   "e": 2.16,
+   "p": 0.997
+  },
+  {
+   "w": "particularly",
+   "s": 2.16,
+   "e": 2.72,
+   "p": 0.955
+  },
+  {
+   "w": "important",
+   "s": 2.72,
+   "e": 3.28,
+   "p": 0.999
+  },
+  {
+   "w": "to",
+   "s": 3.28,
+   "e": 3.52,
+   "p": 0.997
+  },
+  {
+   "w": "investors",
+   "s": 3.52,
+   "e": 3.98,
+   "p": 0.998
+  },
+  {
+   "w": "that",
+   "s": 3.98,
+   "e": 4.26,
+   "p": 0.994
+  },
+  {
+   "w": "HBO",
+   "s": 4.26,
+   "e": 4.86,
+   "p": 0.984
+  },
+  {
+   "w": "and",
+   "s": 4.86,
+   "e": 5.2,
+   "p": 0.995
+  },
+  {
+   "w": "Netflix",
+   "s": 5.2,
+   "e": 5.64,
+   "p": 0.995
+  },
+  {
+   "w": "were",
+   "s": 5.64,
+   "e": 6.16,
+   "p": 0.991
+  },
+  {
+   "w": "said",
+   "s": 6.16,
+   "e": 6.34,
+   "p": 0.997
+  },
+  {
+   "w": "to",
+   "s": 6.34,
+   "e": 6.5,
+   "p": 0.998
+  },
+  {
+   "w": "be",
+   "s": 6.5,
+   "e": 6.62,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 6.62,
+   "e": 6.78,
+   "p": 0.975
+  },
+  {
+   "w": "ultimate",
+   "s": 6.78,
+   "e": 7.24,
+   "p": 0.921
+  },
+  {
+   "w": "counterparties",
+   "s": 7.24,
+   "e": 8.04,
+   "p": 0.823
+  },
+  {
+   "w": "behind",
+   "s": 8.04,
+   "e": 8.34,
+   "p": 0.995
+  },
+  {
+   "w": "their",
+   "s": 8.34,
+   "e": 8.58,
+   "p": 0.998
+  },
+  {
+   "w": "investments.",
+   "s": 8.58,
+   "e": 9.14,
+   "p": 0.997
+  },
+  {
+   "w": "The",
+   "s": 10.04,
+   "e": 10.12,
+   "p": 0.992
+  },
+  {
+   "w": "complaint",
+   "s": 10.12,
+   "e": 10.46,
+   "p": 0.991
+  },
+  {
+   "w": "quotes",
+   "s": 10.46,
+   "e": 10.82,
+   "p": 0.997
+  },
+  {
+   "w": "one",
+   "s": 10.82,
+   "e": 11.1,
+   "p": 0.993
+  },
+  {
+   "w": "investor,",
+   "s": 11.1,
+   "e": 11.56,
+   "p": 0.996
+  },
+  {
+   "w": "I",
+   "s": 12.6,
+   "e": 12.64,
+   "p": 0.05
+  },
+  {
+   "w": "believed",
+   "s": 12.64,
+   "e": 13.0,
+   "p": 0.909
+  },
+  {
+   "w": "that",
+   "s": 13.0,
+   "e": 13.24,
+   "p": 0.997
+  },
+  {
+   "w": "if",
+   "s": 13.24,
+   "e": 13.42,
+   "p": 0.992
+  },
+  {
+   "w": "HBO",
+   "s": 13.42,
+   "e": 13.88,
+   "p": 0.998
+  },
+  {
+   "w": "was",
+   "s": 13.88,
+   "e": 14.12,
+   "p": 0.997
+  },
+  {
+   "w": "involved,",
+   "s": 14.12,
+   "e": 14.66,
+   "p": 0.999
+  },
+  {
+   "w": "my",
+   "s": 15.02,
+   "e": 15.2,
+   "p": 0.996
+  },
+  {
+   "w": "investment",
+   "s": 15.2,
+   "e": 15.64,
+   "p": 0.999
+  },
+  {
+   "w": "was",
+   "s": 15.64,
+   "e": 15.88,
+   "p": 0.998
+  },
+  {
+   "w": "safe.",
+   "s": 15.88,
+   "e": 16.34,
+   "p": 0.998
+  },
+  {
+   "w": "Over",
+   "s": 17.36,
+   "e": 17.54,
+   "p": 0.973
+  },
+  {
+   "w": "time,",
+   "s": 17.54,
+   "e": 18.02,
+   "p": 0.998
+  },
+  {
+   "w": "the",
+   "s": 18.34,
+   "e": 18.46,
+   "p": 0.988
+  },
+  {
+   "w": "SEC",
+   "s": 18.46,
+   "e": 18.88,
+   "p": 0.985
+  },
+  {
+   "w": "alleged,",
+   "s": 18.88,
+   "e": 19.4,
+   "p": 0.993
+  },
+  {
+   "w": "investors",
+   "s": 19.92,
+   "e": 20.36,
+   "p": 0.994
+  },
+  {
+   "w": "were",
+   "s": 20.36,
+   "e": 20.62,
+   "p": 0.999
+  },
+  {
+   "w": "also",
+   "s": 20.62,
+   "e": 20.96,
+   "p": 0.999
+  },
+  {
+   "w": "deceived",
+   "s": 20.96,
+   "e": 21.42,
+   "p": 0.999
+  },
+  {
+   "w": "by",
+   "s": 21.42,
+   "e": 21.68,
+   "p": 0.999
+  },
+  {
+   "w": "his",
+   "s": 21.68,
+   "e": 21.84,
+   "p": 0.999
+  },
+  {
+   "w": "consistent",
+   "s": 21.84,
+   "e": 22.4,
+   "p": 0.997
+  },
+  {
+   "w": "track",
+   "s": 22.4,
+   "e": 22.8,
+   "p": 0.999
+  },
+  {
+   "w": "record",
+   "s": 22.8,
+   "e": 23.12,
+   "p": 0.999
+  },
+  {
+   "w": "of",
+   "s": 23.12,
+   "e": 23.26,
+   "p": 0.855
+  },
+  {
+   "w": "paying",
+   "s": 23.26,
+   "e": 23.56,
+   "p": 0.999
+  },
+  {
+   "w": "large",
+   "s": 23.56,
+   "e": 23.92,
+   "p": 0.997
+  },
+  {
+   "w": "profits.",
+   "s": 23.92,
+   "e": 24.48,
+   "p": 0.998
+  }
+ ],
+ "dur": 24.8,
+ "lech": []
+}

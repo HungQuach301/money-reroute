@@ -4,7 +4,7 @@
 Ra (reports/mr4/veo/):
   <tên>_to05.jpg   tờ 0,5 s: 17 ô (0,0 … 8,0 s), mỗi ô ghi giây — V8 "tờ 0,5 s mọi khe có chuyển động"
   <tên>_neo.jpg    neo đầu / neo cuối cỡ lớn (V3: neo cuối không người tiền cảnh)
-  <tên>_qc.json    thông số tệp (ffprobe) + dò mặt Haar (chính diện + nghiêng, 2 chiều) mỗi 1/8 s + dò người YOLOv8s mỗi 1/4 s
+  <tên>_qc.json    thông số tệp (ffprobe) + dò mặt YuNet mỗi 1/8 s + dò người YOLOv8s mỗi 1/4 s
                    + quet_v8.py (5 cột) chạy trên chính clip như một bản dựng một khe (dung: f0 0, n = số khung)
 Cờ máy (mặt/người/V8) chỉ dẫn mắt; kết luận QC ghi ở báo cáo sau khi xem tờ."""
 import json, os, subprocess, sys
@@ -45,20 +45,18 @@ def to05(p, ten, dur):
 
 
 def mat(p, dur):
-    d = cv2.data.haarcascades
-    cs = [cv2.CascadeClassifier(d + "haarcascade_frontalface_default.xml"), cv2.CascadeClassifier(d + "haarcascade_profileface.xml")]
+    """Dò mặt YuNet (cv2.FaceDetectorYN; OpenCV 5 không còn CascadeClassifier) mỗi 1/8 s, ngưỡng điểm 0,5 (thấp hơn mặc định 0,9 để bắt
+    cả mặt mờ/nghiêng — chỉ dẫn mắt). Mô hình: opencv_zoo face_detection_yunet_2023mar.onnx (biến YUNET_W, mặc định /tmp/yunet.onnx)."""
+    det = cv2.FaceDetectorYN.create(os.environ.get("YUNET_W", "/tmp/yunet.onnx"), "", (960, 540), 0.5, 0.3, 5000)
     hits = []
     cap = cv2.VideoCapture(p); fps = cap.get(cv2.CAP_PROP_FPS) or 24; i = 0
     while True:
         ok, f = cap.read()
         if not ok: break
         if i % max(1, round(fps / 8)) == 0:
-            g = cv2.cvtColor(cv2.resize(f, (960, 540)), cv2.COLOR_BGR2GRAY)
-            for k, c in enumerate(cs):
-                for gg, flip in ((g, False), (cv2.flip(g, 1), True)):
-                    if k == 0 and flip: continue
-                    for (x, y, w, h) in c.detectMultiScale(gg, 1.1, 6, minSize=(24, 24)):
-                        hits.append({"t": round(i / fps, 2), "loai": ["chinh_dien", "nghieng"][k], "lat": flip, "o": [int(x), int(y), int(w), int(h)]})
+            _, faces = det.detect(cv2.resize(f, (960, 540)))
+            for r in (faces if faces is not None else []):
+                hits.append({"t": round(i / fps, 2), "diem": round(float(r[-1]), 3), "o": [int(v) for v in r[:4]]})
         i += 1
     return hits
 
@@ -97,10 +95,10 @@ if __name__ == "__main__":
     os.makedirs(RA, exist_ok=True)
     m = probe(p); to05(p, ten, m["dur"])
     n = int(m["nb_frames"]) if m.get("nb_frames") else int(round(m["dur"] * 24))
-    q = {"tep": os.path.relpath(p, ROOT), "khe": khe, "probe": m, "mat_haar": mat(p, m["dur"]), "nguoi_yolo": nguoi(p), "quet_v8": v8(p, ten, n)}
+    q = {"tep": os.path.relpath(p, ROOT), "khe": khe, "probe": m, "mat_yunet": mat(p, m["dur"]), "nguoi_yolo": nguoi(p), "quet_v8": v8(p, ten, n)}
     json.dump(q, open(os.path.join(RA, f"{ten}_qc.json"), "w"), ensure_ascii=False, indent=1)
     ny = q["nguoi_yolo"]
-    print(json.dumps({"tep": q["tep"], "probe": m, "so_mat_haar": len(q["mat_haar"]),
+    print(json.dumps({"tep": q["tep"], "probe": m, "so_mat_yunet": len(q["mat_yunet"]),
                       "nguoi_max": max((x["n"] for x in ny), default=0) if isinstance(ny, list) else ny,
                       "nguoi_neo_cuoi": ny[-1] if isinstance(ny, list) and ny else None,
                       "v8_rc": q["quet_v8"]["rc"], "v8_out": q["quet_v8"]["stdout"][-800:]}, ensure_ascii=False, indent=1))
