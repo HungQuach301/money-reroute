@@ -25,3 +25,7 @@ Kiểm độc lập trên tệp, không dựa báo cáo phiên:
 - **Q2 Quỹ OpenRouter: dùng chung tài khoản với lost-places-lab; chủ dự án đã tách khoá riêng cho MR.** Số dư tài khoản chủ dự án báo **5,45 USD** (01/11/2026 20:08; điều phối chưa kiểm độc lập). Hệ quả: luật V7 "≤ 3 lượt song song" và đệm `/credits` tính **chung** mọi phiên hai repo; 5,45 USD chưa đủ một tập (tham chiếu Machu Picchu ≈ 25,8 USD OpenRouter) → nạp trước M-c, không chặn M-a/M-b.
 - **Q3 Khoá YouTube Data:** chủ dự án cấp trước MR-1; điều phối gửi hướng dẫn trong chat (dự án Google Cloud riêng cho MR, khoá giới hạn chỉ YouTube Data API v3, gắn network secret host `www.googleapis.com` ở môi trường của phiên MR; không dán khoá vào chat/repo). Trang getting-started (mở 01/11/2026): hạn mức mặc định 10.000 đơn vị/ngày/dự án; `search.list` 1 đơn vị nhưng giới hạn riêng 100 lượt/ngày → MR-1 kiểm bảng Quota costs trước khi đặt cách tính `youtube_units`.
 - Q4 Nhận diện kênh: quyết ở G1 tập 1.
+
+## MR-1 · 01/11/2026 20:41 (giờ Hà Nội) · Chủ dự án gắn khoá YouTube (PA-A) và dán lệnh MR-1
+- Khoá YouTube Data API v3: dự án Google Cloud riêng cho MR, network secret host `www.googleapis.com` (chủ dự án báo; MR-1 bước 0 kiểm bằng gọi thật).
+- Lệnh MR-1 (M-a Đề tài + hồ sơ, trần `youtube_units` 3000, `search.list` ≤ 60 lượt, khoản khác 0) đã dán vào phiên Claude Code. Chờ phiên DỪNG để rà.

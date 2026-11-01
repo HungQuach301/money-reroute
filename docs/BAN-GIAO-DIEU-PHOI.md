@@ -13,7 +13,7 @@
 | OpenRouter (Veo) | **5,45 USD** (chủ dự án báo 01/11/2026 20:08) | **Chung tài khoản** với lost-places-lab, **khoá riêng** cho MR; V7 song song tính chung; cần nạp trước M-c |
 | ElevenLabs | 156.855 ký tự | gói creator, reset 01/12/2026 |
 | Gemini | — | không có khoá trong môi trường |
-| YouTube Data | — | chủ dự án đang cấp (network secret `www.googleapis.com`), MR-1 bước 0 kiểm |
+| YouTube Data | hạn mức dự án riêng | đã gắn (PA-A, 01/11 20:41), MR-1 bước 0 kiểm |
 | Claude API / OpenAI | — | không có khoá |
 
 ## 3. Việc kế tiếp (đề xuất)
