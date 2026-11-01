@@ -74,3 +74,12 @@ Nhánh `ccr-287dabd9-ibz780` @ `45956b6` (từ `489f18a`). Kiểm độc lập t
 ## MR-3 / MR-K1 · 01/11/2026 22:23 (giờ Hà Nội) · Chủ dự án: đã xoá nhánh MR-2, phát MR-3 và MR-K1
 - Nhánh `ccr-287dabd9-ibz780` (có email trong lịch sử) đã xoá trên GitHub — điều phối xác nhận bằng `git fetch --prune`: không còn trên remote.
 - MR-3 (kịch bản tập 1 → G1) và MR-K1 (kho đề tài) chạy song song từ `6296c0e`. Khi rà: quét toàn lịch sử hai nhánh tìm địa chỉ email.
+
+## MR-3 · 01/11/2026 22:50 (giờ Hà Nội) · Điều phối rà MR-3 (kịch bản tập 1 → G1) — merge
+Nhánh `claude/lucid-goldberg-vcpyv1` @ `ca3c7cb` (từ `6296c0e`). Kiểm độc lập trên tệp:
+- Preflight `--range`: ĐẠT. Quét toàn lịch sử nhánh: **0 dòng email**. Chi 0 USD.
+- PDF mới Dkt. 58 (N22) SHA-256 `3626166d…1575` khớp NGUON. Các chữ trích trên hình trong `loi.json` đối chiếu pdftotext: có trong N7 tr. 11 ("to lull the investors…"), N1 ¶77 ("highly doubtful"), N22 ("portrayed himself as a Hollywood success story", "was not a successful businessman or Hollywood insider. He just played one in real life.", "largest known Ponzi scheme in the history of this District"); "one in a million" từ N3 (HTML, phiên ghi trong NGUON). Không thấy chữ trích sai.
+- Quét lời: 0 "Beverlywood", 0 "fraudster/scammer/con man/con artist/monster", 0 "convicted of wire"; 2 câu nhắc trộm danh tính đều nói **đã bị bác, không bị kết tội**. 6 đoạn có HBO/Netflix đều kèm câu KBCB. "Ponzi" chỉ qua chủ thể công tố (S092).
+- Ước chi: phép tính 3 mức đúng (5,28 / 7,68 / 13,20 USD Veo M-c; 9,22 × V7). Hệ số TTS 0,44 chưa đo trên MR → trần có chặn phụ ký tự gửi.
+- SHOT: không mặt, không logo/giao diện, không tài liệu/tin nhắn dựng lại; danh sách trang hồ sơ cấm crop (SSN, tên người nhận bồi hoàn, email/điện thoại công tố) — đạt.
+- Kiểm lời độc lập của phiên: 102/102 K sau 4 vòng; điều phối không thấy câu nào trái HIEN-CHUONG v2.
