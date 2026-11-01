@@ -60,7 +60,14 @@
 - Chi phí ước (5 = rẻ): **3** — vụ dài, nhiều mốc; cần ~ 20–25 cảnh dựng (phòng thí nghiệm, phòng họp, toà) nếu 15–20 phút; có thể chia 2 phần.
 
 ## 7. Đo cầu YouTube
-(phiên chính điền)
+Đo 2026-11-01 bằng `scripts/mrk1/do_cau.py` (YouTube Data API v3: 1 `search.list` maxResults=50 order=relevance + 1 `videos.list`/truy vấn; số liệu thô `reports/mrk1/do-cau/theranos-holmes.json`, chỉ id/ngày/lượt xem). "Khớp" = tiêu đề chứa ít nhất một từ khoá (tiêu đề không lưu).
+
+| Truy vấn | Loại | Từ khoá khớp | Trả về | Khớp | Trung vị xem (khớp) | Max xem | ≥ 100k | Khớp ≤ 12 tháng | Kênh khác nhau | Id top 3 (theo lượt xem) | Ghi chú |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `Elizabeth Holmes Theranos` | vụ | theranos, holmes | 50 | 47 | 653 022 | 12 828 515 | 38 | 21 | 40 | 3CccfnRpPtM, BgNfrDXr7uA, PvznWSEKoEE |  |
+| `Theranos fraud` | vụ | theranos | 50 | 36 | 199 970 | 12 828 515 | 19 | 15 | 32 | 3CccfnRpPtM, PvznWSEKoEE, cd9p_4FkxNY |  |
+
+Giới hạn: 50 kết quả theo độ liên quan, không phải toàn bộ; khớp tiêu đề thô; lượt xem phản ánh cả sức kéo của kênh. Không lưu tiêu đề, mô tả, thumbnail của kênh khác.
 
 ## 8. Nguồn
 | Mã | Cơ quan | Tài liệu | Số vụ/docket | Toà | Ngày | URL | Trang đã đọc | Đã mở (ngày, HTTP, đường) | Tệp + SHA-256 |

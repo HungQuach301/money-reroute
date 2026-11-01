@@ -55,7 +55,14 @@
 - Chi phí ước (5 = rẻ): **3** — nhiều bối cảnh (call center, nạn nhân, runner ở nhiều bang, Singapore, toà Houston); ~14–18 cảnh dựng, 12–15 phút; sơ đồ dòng tiền tự vẽ.
 
 ## 7. Đo cầu YouTube
-(phiên chính điền)
+Đo 2026-11-01 bằng `scripts/mrk1/do_cau.py` (YouTube Data API v3: 1 `search.list` maxResults=50 order=relevance + 1 `videos.list`/truy vấn; số liệu thô `reports/mrk1/do-cau/irs-callcenter-patel.json`, chỉ id/ngày/lượt xem). "Khớp" = tiêu đề chứa ít nhất một từ khoá (tiêu đề không lưu).
+
+| Truy vấn | Loại | Từ khoá khớp | Trả về | Khớp | Trung vị xem (khớp) | Max xem | ≥ 100k | Khớp ≤ 12 tháng | Kênh khác nhau | Id top 3 (theo lượt xem) | Ghi chú |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `IRS scam call center India busted` | thể loại | irs | 50 | 34 | 3 217 | 14 585 240 | 10 | 4 | 33 | U9onI0MzmuI, n6Rwc8lNn0k, dNt8nPA9khc | từ khoá "irs" rộng, gồm video quay lén call center |
+| `Hitesh Patel IRS scam` | vụ | patel, irs | 26 | 7 | 578 | 7 252 878 | 2 | 2 | 7 | A2D3V4nu8x4, CKBytq1Rdgk, gT_-zy521xc | từ khoá "patel"/"irs" rộng |
+
+Giới hạn: 50 kết quả theo độ liên quan, không phải toàn bộ; khớp tiêu đề thô; lượt xem phản ánh cả sức kéo của kênh. Không lưu tiêu đề, mô tả, thumbnail của kênh khác.
 
 ## 8. Nguồn
 | Mã | Cơ quan | Tài liệu | Số vụ/docket | Toà | Ngày | URL | Trang đã đọc | Đã mở (ngày, HTTP, đường) | Tệp + SHA-256 |

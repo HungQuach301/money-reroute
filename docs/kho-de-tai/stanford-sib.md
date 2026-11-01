@@ -61,7 +61,14 @@
 - Chi phí ước: **3** — nhiều bối cảnh (đảo, Houston, máy bay riêng, sân cricket, phòng xử) ≈ 25–35 cảnh dựng; vụ đủ dày để chia 2 phần.
 
 ## 7. Đo cầu YouTube
-(phiên chính điền)
+Đo 2026-11-01 bằng `scripts/mrk1/do_cau.py` (YouTube Data API v3: 1 `search.list` maxResults=50 order=relevance + 1 `videos.list`/truy vấn; số liệu thô `reports/mrk1/do-cau/stanford-sib.json`, chỉ id/ngày/lượt xem). "Khớp" = tiêu đề chứa ít nhất một từ khoá (tiêu đề không lưu).
+
+| Truy vấn | Loại | Từ khoá khớp | Trả về | Khớp | Trung vị xem (khớp) | Max xem | ≥ 100k | Khớp ≤ 12 tháng | Kênh khác nhau | Id top 3 (theo lượt xem) | Ghi chú |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `Allen Stanford Ponzi` | vụ | stanford | 50 | 45 | 103 | 828 974 | 5 | 29 | 42 | xT2fIXbhSYY, W7u0LPh72PM, kNbVDx3CEb0 |  |
+| `Stanford International Bank` | vụ | stanford | 50 | 42 | 31 | 828 974 | 4 | 34 | 42 | xT2fIXbhSYY, W7u0LPh72PM, 5q4ApsOHevU |  |
+
+Giới hạn: 50 kết quả theo độ liên quan, không phải toàn bộ; khớp tiêu đề thô; lượt xem phản ánh cả sức kéo của kênh. Không lưu tiêu đề, mô tả, thumbnail của kênh khác.
 
 ## 8. Nguồn
 | Mã | Cơ quan | Tài liệu | Số vụ/docket | Toà | Ngày | URL | Trang đã đọc | Đã mở (ngày, HTTP, đường) | Tệp + SHA-256 |

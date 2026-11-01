@@ -61,7 +61,14 @@
 - Chi phí ước: **4** — chủ yếu văn phòng, kho hàng giả, phòng xử, sơ đồ dòng tiền ≈ 20–25 cảnh, một tập ~15–20 phút.
 
 ## 7. Đo cầu YouTube
-(phiên chính điền)
+Đo 2026-11-01 bằng `scripts/mrk1/do_cau.py` (YouTube Data API v3: 1 `search.list` maxResults=50 order=relevance + 1 `videos.list`/truy vấn; số liệu thô `reports/mrk1/do-cau/petters-pci.json`, chỉ id/ngày/lượt xem). "Khớp" = tiêu đề chứa ít nhất một từ khoá (tiêu đề không lưu).
+
+| Truy vấn | Loại | Từ khoá khớp | Trả về | Khớp | Trung vị xem (khớp) | Max xem | ≥ 100k | Khớp ≤ 12 tháng | Kênh khác nhau | Id top 3 (theo lượt xem) | Ghi chú |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `Tom Petters Ponzi` | vụ | petters | 50 | 40 | 163 | 9 166 | 0 | 20 | 33 | MiOIJHqe_3A, eLSBuvgnTWQ, JXqSUAss9Yw |  |
+| `Petters Group fraud` | vụ | petters | 50 | 38 | 126 | 2 159 | 0 | 20 | 32 | UiLBw8AGATk, nfKI9dLnTGc, OTZ5h4ia0cI |  |
+
+Giới hạn: 50 kết quả theo độ liên quan, không phải toàn bộ; khớp tiêu đề thô; lượt xem phản ánh cả sức kéo của kênh. Không lưu tiêu đề, mô tả, thumbnail của kênh khác.
 
 ## 8. Nguồn
 | Mã | Cơ quan | Tài liệu | Số vụ/docket | Toà | Ngày | URL | Trang đã đọc | Đã mở (ngày, HTTP, đường) | Tệp + SHA-256 |

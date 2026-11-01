@@ -53,7 +53,14 @@
 - Chi phí ước (5 = rẻ): **4** — truyện tuyến tính, ít nhân vật; cần ~10–14 cảnh dựng (văn phòng, email, sơ đồ dòng tiền nhiều nước, dẫn độ), 10–12 phút.
 
 ## 7. Đo cầu YouTube
-(phiên chính điền)
+Đo 2026-11-01 bằng `scripts/mrk1/do_cau.py` (YouTube Data API v3: 1 `search.list` maxResults=50 order=relevance + 1 `videos.list`/truy vấn; số liệu thô `reports/mrk1/do-cau/bec-rimasauskas.json`, chỉ id/ngày/lượt xem). "Khớp" = tiêu đề chứa ít nhất một từ khoá (tiêu đề không lưu).
+
+| Truy vấn | Loại | Từ khoá khớp | Trả về | Khớp | Trung vị xem (khớp) | Max xem | ≥ 100k | Khớp ≤ 12 tháng | Kênh khác nhau | Id top 3 (theo lượt xem) | Ghi chú |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `Evaldas Rimasauskas Google Facebook` | vụ | rimasauskas | 50 | 21 | 115 | 39 352 | 0 | 9 | 21 | LBbaRfc_YiQ, A8GJi1P1nH8, _GAzLcTX7LY |  |
+| `scammer stole 100 million Google Facebook` | thể loại | google, facebook | 50 | 36 | 119 | 1 566 855 | 3 | 12 | 34 | cfN9CLliHDE, lbtQJXSmVDs, i-L9U52z7YE | từ khoá "google"/"facebook" rất rộng |
+
+Giới hạn: 50 kết quả theo độ liên quan, không phải toàn bộ; khớp tiêu đề thô; lượt xem phản ánh cả sức kéo của kênh. Không lưu tiêu đề, mô tả, thumbnail của kênh khác.
 
 ## 8. Nguồn
 | Mã | Cơ quan | Tài liệu | Số vụ/docket | Toà | Ngày | URL | Trang đã đọc | Đã mở (ngày, HTTP, đường) | Tệp + SHA-256 |

@@ -59,7 +59,14 @@
 - Chi phí ước: **3** — ~10–14 cảnh dựng (hồ sơ hẹn hò, thư/quà, gửi hàng, Nam Phi, sân bay London, toà), độ dài 14–18 phút; nhiều bối cảnh quốc tế hơn Alldred.
 
 ## 7. Đo cầu YouTube
-(phiên chính điền)
+Đo 2026-11-01 bằng `scripts/mrk1/do_cau.py` (YouTube Data API v3: 1 `search.list` maxResults=50 order=relevance + 1 `videos.list`/truy vấn; số liệu thô `reports/mrk1/do-cau/romance-sunmola.json`, chỉ id/ngày/lượt xem). "Khớp" = tiêu đề chứa ít nhất một từ khoá (tiêu đề không lưu).
+
+| Truy vấn | Loại | Từ khoá khớp | Trả về | Khớp | Trung vị xem (khớp) | Max xem | ≥ 100k | Khớp ≤ 12 tháng | Kênh khác nhau | Id top 3 (theo lượt xem) | Ghi chú |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `prince charming romance scam sunmola` | vụ | sunmola, prince charming | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  | search.list trả 0 video |
+| `nigerian romance scammer sentenced` | thể loại | romance | 50 | 37 | 4 007 | 5 540 502 | 6 | 14 | 22 | EHgaNpJ3MbA, ACijyfS3ya4, 3kqxHQ-PhkY |  |
+
+Giới hạn: 50 kết quả theo độ liên quan, không phải toàn bộ; khớp tiêu đề thô; lượt xem phản ánh cả sức kéo của kênh. Không lưu tiêu đề, mô tả, thumbnail của kênh khác.
 
 ## 8. Nguồn
 | Mã | Cơ quan | Tài liệu | Số vụ/docket | Toà | Ngày | URL | Trang đã đọc | Đã mở (ngày, HTTP, đường) | Tệp + SHA-256 |

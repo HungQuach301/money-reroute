@@ -58,7 +58,14 @@
 - Chi phí ước (5 = rẻ): **4** — chủ yếu đồ hoạ màn hình/biểu đồ, ít cảnh người; 10–14 phút.
 
 ## 7. Đo cầu YouTube
-(phiên chính điền)
+Đo 2026-11-01 bằng `scripts/mrk1/do_cau.py` (YouTube Data API v3: 1 `search.list` maxResults=50 order=relevance + 1 `videos.list`/truy vấn; số liệu thô `reports/mrk1/do-cau/coinbase-wahi.json`, chỉ id/ngày/lượt xem). "Khớp" = tiêu đề chứa ít nhất một từ khoá (tiêu đề không lưu).
+
+| Truy vấn | Loại | Từ khoá khớp | Trả về | Khớp | Trung vị xem (khớp) | Max xem | ≥ 100k | Khớp ≤ 12 tháng | Kênh khác nhau | Id top 3 (theo lượt xem) | Ghi chú |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `Coinbase insider trading Wahi` | vụ | wahi, coinbase | 50 | 44 | 90 | 12 866 | 0 | 1 | 30 | cwqfDld8Pvc, mhXcBwaxXZs, WhRiFrBJIHI |  |
+| `Coinbase insider trading case` | thể loại | coinbase | 50 | 46 | 451 | 19 435 | 0 | 1 | 33 | g4dm8AULMFw, SDVvlJTXDtI, B22o1gGlSHQ |  |
+
+Giới hạn: 50 kết quả theo độ liên quan, không phải toàn bộ; khớp tiêu đề thô; lượt xem phản ánh cả sức kéo của kênh. Không lưu tiêu đề, mô tả, thumbnail của kênh khác.
 
 ## 8. Nguồn
 | Mã | Cơ quan | Tài liệu | Số vụ/docket | Toà | Ngày | URL | Trang đã đọc | Đã mở (ngày, HTTP, đường) | Tệp + SHA-256 |
