@@ -14,3 +14,5 @@ lab/*.flac
 reports/*/xem/*.mp4
 reports/*/thumb/*.png
 reports/*/thumb/*.jpg
+# MR-1 (lệnh điều phối 01/11/2026): PDF hồ sơ sơ cấp ho-so/<vu>/*.pdf — khớp .gitattributes "ho-so/**/*.pdf".
+ho-so/*.pdf

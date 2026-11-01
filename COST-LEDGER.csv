@@ -2,3 +2,4 @@ ngay,phien,hang_muc,dich_vu,model_hoac_don_vi,so_luong,usd,ghi_chu
 2026-11-01,MR-0,doc so du (GET /v1/user/subscription),ElevenLabs,ky tu,0,0,khong tinh tien; da dung ky nay 527 / han muc 157382 ky tu; con 156855; reset 2026-12-01 06:57 UTC
 2026-11-01,MR-0,doc so du (GET /api/v1/credits + /api/v1/key),OpenRouter,USD,0,0,khong tinh tien; tai khoan total_credits 70 / total_usage 61.85476 -> con 8.14524 USD; khoa: limit 100 / usage 0
 2026-11-01,MR-0,kiem khoa,Gemini / YouTube Data / Claude API / OpenAI,-,0,0,khong co khoa trong moi truong; Gemini va YouTube tra 403 unregistered caller (khong tinh tien)
+2026-11-01,MR-1,kiem khoa + do cau de tai (search.list 9 luot + videos.list 10 luot),YouTube Data API v3,don vi quota,19,0,trong tran 3000 don vi / 60 luot search; khoa du an Google rieng cua MR; khong tinh tien

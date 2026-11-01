@@ -15,3 +15,5 @@ lab/**/*.flac filter=lfs diff=lfs merge=lfs -text
 reports/**/xem/*.mp4 filter=lfs diff=lfs merge=lfs -text
 reports/**/thumb/*.png filter=lfs diff=lfs merge=lfs -text
 reports/**/thumb/*.jpg filter=lfs diff=lfs merge=lfs -text
+# MR-1 (lệnh điều phối 01/11/2026): PDF hồ sơ sơ cấp (SEC/DOJ/FTC/toà án) — dùng lại nhiều lần, có SHA-256 trong NGUON.md.
+ho-so/**/*.pdf filter=lfs diff=lfs merge=lfs -text
