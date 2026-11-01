@@ -19,7 +19,7 @@
 ## 3. Việc kế tiếp (đề xuất)
 1. ~~Điều phối rà MR-0 → merge.~~ Xong.
 2. ~~Chủ dự án duyệt HIEN-CHUONG, trả lời §6 MR-0.~~ Xong (PA-A; quỹ chung khoá riêng; cấp khoá YouTube).
-3. **MR-1 = M-a Đề tài + hồ sơ** (0 USD): 3 vụ ứng viên có hồ sơ SEC/DOJ/FTC/toà án mở được, bảng tầng pháp lý, rủi ro; kèm sửa `bao_402()`, áp bổ sung HIEN-CHUONG đã duyệt, mở và ghi chính sách kiếm tiền YouTube liên quan nội dung AI. Đo cầu đề tài bằng YouTube Data: chờ chủ dự án quyết cấp khoá.
+3. ~~**MR-1 = M-a**~~ Xong, merge 01/11/2026 21:20 (3 vụ: Woodbridge / 1inMM / Heartland; khuyến nghị A). **Kế tiếp: MR-2 = M-b Kịch bản + ước chi → G1**, chờ chủ dự án chọn vụ + độ dài + quyết nhãn người không bị cáo buộc. (Mô tả MR-1 cũ: (0 USD): 3 vụ ứng viên có hồ sơ SEC/DOJ/FTC/toà án mở được, bảng tầng pháp lý, rủi ro; kèm sửa `bao_402()`, áp bổ sung HIEN-CHUONG đã duyệt, mở và ghi chính sách kiếm tiền YouTube liên quan nội dung AI. Đo cầu đề tài bằng YouTube Data: đã cấp.)
 4. Trước phiên tốn tiền đầu tiên: thêm dòng trần vào `scripts/cp/budget.py` `CAPS_PHIEN`; quyết bảng màu/chữ/look của kênh (công cụ `ban_do.py`, `mau_look.py` còn thiếu tệp phụ thuộc — xem báo cáo MR-0 §4).
 
 ## 4. Luật nhắc nhanh

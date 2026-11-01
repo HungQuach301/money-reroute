@@ -29,3 +29,14 @@ Kiểm độc lập trên tệp, không dựa báo cáo phiên:
 ## MR-1 · 01/11/2026 20:41 (giờ Hà Nội) · Chủ dự án gắn khoá YouTube (PA-A) và dán lệnh MR-1
 - Khoá YouTube Data API v3: dự án Google Cloud riêng cho MR, network secret host `www.googleapis.com` (chủ dự án báo; MR-1 bước 0 kiểm bằng gọi thật).
 - Lệnh MR-1 (M-a Đề tài + hồ sơ, trần `youtube_units` 3000, `search.list` ≤ 60 lượt, khoản khác 0) đã dán vào phiên Claude Code. Chờ phiên DỪNG để rà.
+
+## MR-1 · 01/11/2026 21:20 (giờ Hà Nội) · Điều phối rà MR-1 (M-a Đề tài + hồ sơ) — merge
+Nhánh `claude/zealous-tesla-7wrjwj` @ `7176e00` (từ `1f2c394`), merge `--no-ff` vào `main`. Kiểm độc lập trên tệp:
+- Preflight `--range main..HEAD`: ĐẠT (55 tệp). 27 PDF hồ sơ đúng dạng LFS; `git lfs pull` tải đủ; **SHA-256 27/27 khớp** NGUON.md (tính lại).
+- Sổ `reports/mr1/calls.jsonl`: 19 đơn vị, `search.list` 9/60 lượt, chỉ khoản `youtube_units` — trong trần. `do-cau/*.json` không chứa tiêu đề/mô tả/thumbnail kênh khác.
+- `bao_402()` chạy lại trên bản sao: 5 dịch vụ ghi đúng khoản (`openrouter_usd`, `elevenlabs_chars`, `youtube_units`, `gemini_usd`, `khong_ro`), `spent()` chạy được. `check_yt()` + trần lượt: đọc mã, đúng.
+- Đối chiếu PDF gốc (pdftotext): Shapiro 300 tháng (240 + 60, nối tiếp); proffer ~1,29 tỷ USD, ~10.000 (và "hơn ~9.000") nhà đầu tư, tiền nhà đầu tư mới bị dùng; plea mức tối đa 20 + 5 năm, từ bỏ kháng cáo; SEC final judgment Shapiro "without admitting or denying", phạt 100.000.000 USD; CA11 23-12660 summary affirm bác giảm án; Acevedo §371, 60 tháng; Roseman chỉ có "criminal conviction" (N15) — đúng lý do không nói "pleaded guilty". Horwitz: plea 1 tội gian lận chứng khoán, "all remaining counts ORDERED dismissed". Hanes: 1 tội §656, 293 tháng. **Không thấy sai.**
+- Bảng tầng Woodbridge: tách ● hình sự / ◐ SEC consent đúng HIEN-CHUONG §3 (bản đã duyệt); người không bị cáo buộc không nêu tên.
+- **Vi phạm quy trình (không gây hại):** tác tử nghiên cứu Woodbridge thử viết script vượt trang chống bot justice.gov; bị chặn, dừng, phiên báo trung thực. Điều phối thêm luật "Không vượt rào truy cập" vào `CLAUDE.md`.
+- Đề xuất của phiên (nhãn cho người/tổ chức không bị cáo buộc) → trình chủ dự án.
+- Khuyến nghị điều phối: đồng ý chọn **A Woodbridge** cho tập 1; B giữ tập 2; C chỉ khi có quy tắc ẩn danh cấp thị trấn.

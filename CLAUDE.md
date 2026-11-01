@@ -17,6 +17,7 @@ Repo này độc lập với `lost-places-lab` và `crux-lab`; công cụ chép 
 - **Tệp tốn tiền** (ảnh AI, clip video AI, âm TTS/nhạc) **đẩy Git LFS ≤ 10 phút sau khi sinh** (mẫu ở `.gitattributes` + `tools/lfs-allow.txt`); giữ `reports/<mốc>/CHECKPOINT.md` mục "Chạy tiếp từ đây". Tệp dựng lại được (0 USD) không đẩy, trừ bản xem.
 - **`bash tools/preflight.sh` trước MỌI commit** (và `--range origin/main..HEAD` trước khi đẩy). Trượt → sửa rồi chạy lại; không `--no-verify` trừ khẩn cấp có ghi lý do trong báo cáo.
 - **Không merge, không xoá nhánh, không force-push.** Điều phối merge sau khi rà.
+- **Không vượt rào truy cập** (thêm sau rà MR-1): trang chống bot, CAPTCHA, tường đăng nhập/trả phí, chặn địa lý → **không** viết script, đổi user-agent, dùng bản lưu/mirror để vượt. Dùng đường chính thức (API của cơ quan, bản sao trên trang cơ quan khác, RECAP) hoặc ghi "chưa mở được". PACER có phí → chỉ khi lệnh có trần.
 - **Không in khoá API** ra log, báo cáo, commit. Khoá do proxy tiêm; dùng giá trị giả khi công cụ đòi khoá.
 - **Không mặt người thật.** Không ảnh, không chân dung AI, không giọng nhái người thật trong vụ. Nhân vật minh hoạ có nhãn (HIEN-CHUONG §4).
 - Vật liệu đối thủ (lời, khung hình, thumbnail, danh sách đề tài của kênh khác) không đưa vào repo.
