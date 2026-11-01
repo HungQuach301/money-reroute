@@ -1,6 +1,6 @@
 # BẢNG SHOT — Tập 1 · 1inMM / Horwitz (`tap01-1inmm`)
 
-> MR-3 · 01/11/2026 · NHÁP G1 · **sửa MR-3b** (KBCB chữ trên hình, đếm ngược + nhạc Hồi 2, tổng kết bài học P21). Cột "Thời điểm ước" **tính máy** bằng `python3 scripts/mr3/shot_tg.py docs/tap01-1inmm/loi.json docs/tap01-1inmm/SHOT.md --ghi`: lời đọc 145 từ/phút + 3 s nghỉ mỗi đoạn + 6 s mỗi thẻ chữ không đọc + 8 s giữ thẻ tổng kết + 45 s nguồn/nhạc kết → **≈ 16:08** (ở 140 từ/phút ≈ 16,6 phút; trần lệnh ≤ 17 phút).
+> MR-3 · 01/11/2026 · NHÁP G1 · **sửa MR-3b** (KBCB chữ trên hình, đếm ngược + nhạc Hồi 2, tổng kết bài học P21). Cột "Thời điểm ước" **tính máy** bằng `python3 scripts/mr3/shot_tg.py docs/tap01-1inmm/loi.json docs/tap01-1inmm/SHOT.md --ghi`: lời đọc 145 từ/phút + 3 s nghỉ mỗi đoạn + 6 s mỗi thẻ chữ không đọc + 8 s giữ thẻ tổng kết + 45 s nguồn/nhạc kết → **≈ 16:13** (ở 140 từ/phút ≈ 16,7 phút; trần lệnh ≤ 17 phút).
 > **Loại hình:** `SD` sơ đồ/đồ hoạ tự vẽ từ số liệu hồ sơ (0 USD) · `TL` ảnh trang hồ sơ thật (crop từ PDF trong `ho-so/`, tài liệu chính phủ Mỹ, 0 USD) · `CT` thẻ chữ trích nguyên văn + nguồn (0 USD) · `VEO` cảnh dựng minh hoạ, Veo 3.1 Lite 1080p, clip 8 s (trả tiền) · `NEN` nền chuyển động tự làm (0 USD).
 > **Luật áp cho mọi hàng** (HIEN-CHUONG §4, §5; LUAT-VEO V1–V8):
 > - Không mặt người thật, không chân dung/phác hoạ nhận ra được, không giọng nhái. Nhân vật dựng: **không mặt** (tay, lưng, bóng, ngoài nét), không giống người thật trong vụ.
@@ -56,10 +56,10 @@
 | 39 | P20 S090–S092 | 12:58–13:19 | TL | Crop N22 tr. 6 dòng 3–4, 12–14, 21–22 (không crop dòng 10 có tên khu phố) | `◐` "prosecutors wrote"; Gov't Sentencing Position, Dkt. 58, p. 6 | — |
 | 40 | P21 S093 | 13:22–13:28 | NEN | Tiêu đề "WHAT TO TAKE AWAY" · ba nhóm mờ: 3 LESSONS · 5 RED FLAGS · 1 RULE | | — |
 | 41 | P21 S094–S096 | 13:28–14:01 | SD | 3 thẻ **bài học hiểu biết**, mỗi thẻ chiếu lại hình đoạn tương ứng: L1 phép tính "35% × 2 = 70% / year" (P05) · L2 tháp ly (P12) · L3 phễu "sub-investors — no direct contract" (P07) | S094 `◐ ALLEGED` + "Illustrative math based on a sample note in the SEC complaint (¶25)"; S095 `◐ ALLEGED` "the Justice Department called…" (DOJ 22-027); S096 `● CONVICTED · admitted in plea` (Plea p. 12) | — |
-| 42 | P21 S097–S101 | 14:01–14:43 | SD | 5 thẻ **dấu hiệu nhận diện**, mỗi thẻ chiếu lại đoạn tương ứng (P04, P03, P09, P07, P15) | S097–S099, S101 `● CONVICTED · admitted in plea` (Plea pp. 9–11); S100 `◐ ALLEGED` SEC ¶18 | Không tên/logo nền tảng trên thẻ (chữ "streaming platforms") |
-| 43 | P21 S102 | 14:43–14:52 | VEO | Tay (không mặt) đặt bút xuống cạnh sổ trắng đóng lại, ánh sáng sớm; chữ "1 RULE: Verify independently before any money moves." | "ILLUSTRATIVE" | **V16**. V3: neo cuối không tay |
-| 44 | P21 S103–S105 | 14:52–15:26 | NEN | **Thẻ tổng kết B1** (§3) toàn khung; dải dưới "brokercheck.finra.org · adviserinfo.sec.gov" (S103) rồi "sec.gov/submit-tip-or-complaint · reportfraud.ftc.gov" (S104); dòng khai AI (HIEN-CHUONG §6). Giữ thẻ thêm 8 s sau S105 | | — |
-| 45 | Kết | 15:26–16:11 | NEN | Danh sách nguồn chạy chữ + nhạc kết | Nguồn N1–N22 (đã mở) | — |
+| 42 | P21 S097–S101 | 14:01–14:44 | SD | 5 thẻ **dấu hiệu nhận diện**, mỗi thẻ chiếu lại đoạn tương ứng (P04, P03, P09, P07, P15) | S097–S099, S101 `● CONVICTED · admitted in plea` (Plea pp. 9–11); S100 `◐ ALLEGED` SEC ¶18 | Không tên/logo nền tảng trên thẻ (chữ "streaming platforms") |
+| 43 | P21 S102 | 14:44–14:54 | VEO | Tay (không mặt) đặt bút xuống cạnh sổ trắng đóng lại, ánh sáng sớm; chữ "1 RULE: Verify independently before any money moves." | "ILLUSTRATIVE" | **V16**. V3: neo cuối không tay |
+| 44 | P21 S103–S105 | 14:54–15:28 | NEN | **Thẻ tổng kết B1** (§3) toàn khung; dải dưới "brokercheck.finra.org · adviserinfo.sec.gov" (S103) rồi "sec.gov/submit-tip-or-complaint · reportfraud.ftc.gov" (S104); dòng khai AI (HIEN-CHUONG §6). Giữ thẻ thêm 8 s sau S105 | | — |
+| 45 | Kết | 15:28–16:13 | NEN | Danh sách nguồn chạy chữ + nhạc kết | Nguồn N1–N22 (đã mở) | — |
 
 ## 2. Tổng khe Veo
 
@@ -84,7 +84,7 @@ Nền giấy ngà `#F4F1EA`; chữ mực `#1B1F24`; tiêu đề nhóm IBM Plex S
 | | 2. A famous partner you can't verify | S098 | đỏ cam |
 | | 3. All the proof comes from the seller | S099 | đỏ cam |
 | | 4. Unregistered offer passed through friends | S100 | đỏ cam |
-| | 5. Delays blamed on a partner | S101 | đỏ cam |
+| | 5. Missed payments blamed on a partner | S101 | đỏ cam |
 | **1 RULE** | Verify independently before any money moves. | S102 | mực, nền ô xám `#8A8F98` 15 % |
 
 Chân thẻ (IBM Plex Mono ≥ 22 px): "Check: brokercheck.finra.org · adviserinfo.sec.gov — Report: sec.gov/submit-tip-or-complaint · reportfraud.ftc.gov". Thẻ là bài học chung, không gắn nhãn tầng; dòng 2 không chữ "Ponzi" để thẻ không gán nhãn cho người (luật 8d) — chữ "Ponzi" chỉ ở lời S095, có chủ thể Justice Department.
