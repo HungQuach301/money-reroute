@@ -10,11 +10,11 @@
 | Tệp | Tập 2 — Patel | Tập 3 — Sunmola |
 |---|---|---|
 | `docs/tap0X-<vụ>/NGUON.md` | N1–N11: số vụ, ngày, URL, trang/đoạn, đã mở, SHA-256; trạng thái vụ (luật 4); đối chiếu chữ trích; trang được/cấm crop | N1–N8, cùng các cột |
-| `loi.json` + `LOI.md` (dựng máy) | **71 câu** (69 đọc, 2 thẻ chữ), **1.860 từ**, 11.571 ký tự gửi TTS | **80 câu** (76 đọc, 4 thẻ chữ), **1.755 từ**, 10.855 ký tự gửi TTS |
-| `SHOT.md` | 27 hàng · **≈ 13:41** (155 từ/phút) · Veo 7 / **10** / 15 khe | 24 hàng · **≈ 13:15** · Veo 7 / **10** / 15 khe |
-| `UOC-CHI.md` (dựng máy) | OpenRouter 3,36 / **6,80** / 13,60 USD; ElevenLabs ≈ 8.517 / **10.800** / 16.455 ký tự tính | OpenRouter 3,36 / **6,80** / 13,60 USD; ElevenLabs ≈ 8.170 / **10.391** / 15.825 |
+| `loi.json` + `LOI.md` (dựng máy) | **71 câu** (69 đọc, 2 thẻ chữ), **1.860 từ**, 11.571 ký tự gửi TTS | **80 câu** (76 đọc, 4 thẻ chữ), **1.747 từ**, 10.810 ký tự gửi TTS |
+| `SHOT.md` | 27 hàng · **≈ 13:41** (155 từ/phút) · Veo 7 / **10** / 15 khe | 24 hàng · **≈ 13:12** · Veo 7 / **10** / 15 khe |
+| `UOC-CHI.md` (dựng máy) | OpenRouter 3,36 / **6,80** / 13,60 USD; ElevenLabs ≈ 8.517 / **10.800** / 16.455 ký tự tính | OpenRouter 3,36 / **6,80** / 13,60 USD; ElevenLabs ≈ 8.148 / **10.365** / 15.785 |
 | `PHUONG-AN.md` | 3 tiêu đề ≤ 60 ký tự; giọng và B1 theo tập 1; gợi ý thumbnail | như trên |
-| `kiem/vong*.md` | Vòng 1 (71 câu), vòng 2 | Vòng 1 (79 câu), vòng 2, vòng 3 |
+| `kiem/vong*.md` | Vòng 1 (71 câu), vòng 2 | Vòng 1 (79 câu), vòng 2, 3, 4 |
 
 **Công cụ mới** (`scripts/mrk23/`, 0 USD):
 - `loi_md.py`: tổng quát hoá `scripts/mr3/loi_md.py`. Đọc luật riêng từng tập từ khoá `kiem_rieng` trong `loi.json`.
@@ -66,7 +66,7 @@ Bản JSON các thông cáo DOJ lấy qua API được lưu ở `ho-so/<vụ>/do
 | | Tập 2 | Tập 3 |
 |---|---|---|
 | M-c `openrouter_usd` | **7,50** (giữa 10 khe × 0,40 × 1,5 = 6,00 + ≈ 25 %) | **7,50** |
-| M-c `elevenlabs_chars` (ký tự tính) | **12.500** (giữa ≈ 9.920) · chặn gửi ≤ 24.000 | **12.000** (giữa ≈ 9.510) · chặn gửi ≤ 22.000 |
+| M-c `elevenlabs_chars` (ký tự tính) | **12.500** (giữa ≈ 9.920) · chặn gửi ≤ 24.000 | **12.000** (giữa ≈ 9.485) · chặn gửi ≤ 22.000 |
 | M-d | 0 | 0 |
 | M-e | 1,60 USD + 2.000 ký tự | 1,60 USD + 2.000 ký tự |
 | **Cả tập** | **9,10 USD + 14.500 ký tự** | **9,10 USD + 14.000 ký tự** |
@@ -80,7 +80,7 @@ Số dư OpenRouter khả dụng cho MR trước mỗi M-c: ≥ 8,20 USD (V7), c
    - Câu hỏi luật 8e: tiêu đề có tên cơ quan bị mạo danh, kèm chữ "Fake" — chấp nhận được không? (Tập 1 tránh tên thương hiệu trong tiêu đề.)
 2. **Câu ◐ HGLOBAL:** giữ "it is presumed innocent" như đã duyệt, hay đổi "was"?
 3. **Thẻ "không liên quan" chỉ hiện chữ** (Patel P01, P11; Sunmola P02, P11, P12, theo cách tập 1 làm với HBO/Netflix): đạt luật 8e theo cả hai vòng kiểm. Có muốn cho đọc thành lời thêm một lần ở mỗi tập không?
-4. **Độ dài:** Sunmola ≈ 13:15, ngắn hơn ước 15 phút của dàn truyện. Lý do: bỏ mọi chi tiết nhận diện nạn nhân, chỉ thêm phần kháng cáo có hồ sơ (N2 tr. 5–17).
+4. **Độ dài:** Sunmola ≈ 13:12, ngắn hơn ước 15 phút của dàn truyện. Lý do: bỏ mọi chi tiết nhận diện nạn nhân, chỉ thêm phần kháng cáo có hồ sơ (N2 tr. 5–17).
 5. **Trần M-c** ở §4.
 
 ## 6. Kết quả cuối, trạng thái vụ, việc còn mở
