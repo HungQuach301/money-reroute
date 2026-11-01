@@ -105,3 +105,8 @@ Nhánh `claude/lucid-goldberg-vcpyv1` @ `ca3c7cb` (từ `6296c0e`). Kiểm độ
 **MR-K1** (`claude/kho-de-tai-mr-k1-5pplwo` @ `0718006`): preflight ĐẠT; 0 email; YouTube 55/2000 đơn vị, `search.list` 28/50, mọi lượt HTTP 200; `do-cau/*.json` không có tiêu đề/mô tả/thumbnail.
 - 14 vụ / 6 trụ; SHA-256 **23/23 khớp** (22 PDF + 1 JSON thông cáo DOJ). Đối chiếu PDF: Stanford "convicted on 13 of 14 counts… 110 years" (CA5); Holmes 135 tháng (CA9); Alldred 288 tháng (CA5). Kiểm tầng độc lập: 0 vụ không đạt; các điểm sửa đã áp.
 - Cần chủ dự án quyết: Wilkins (§5 — chưa xác định nạn nhân người lớn), Stanford vụ SEC (summary judgment có tranh chấp: ● hay ◐), Sunmola (mức nói về ảnh riêng tư), thứ tự tập, PACER.
+
+## MR-4 · 01/11/2026 23:29 (giờ Hà Nội) · Chủ dự án: DUYỆT G1 tập 1; PA-A lượt thử; phát MR-4
+- **G1 tập 1 `1inmm-horwitz` — DUYỆT** theo khuyến nghị: (a) đề tài + bảng tầng; (b) lời 105 câu (101 đọc) kể cả câu KBCB "…in these cases…"; (c) trần cả tập OpenRouter 11,10 USD + ElevenLabs 19.000 ký tự tính (M-c 9,50 + 16.000; M-d 0; M-e 1,60 + 3.000). **Lời và bảng shot ĐÓNG BĂNG.**
+- **PA-A:** MR-4 = giọng toàn lời + thử 2 khe Veo → DỪNG; MR-5 = phần Veo còn lại + nhạc. Chủ dự án đã dán lệnh MR-4.
+- Chủ dự án: các tập đăng liên tục, **không chờ số liệu xem tập 1** để định thứ tự → điều phối trình thứ tự chốt + nhịp tiền kỳ song song.
