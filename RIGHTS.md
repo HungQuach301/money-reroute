@@ -2,8 +2,9 @@
 
 Khuôn: `crux-lab/RIGHTS.md` (§F footage ngoài, §F2 danh sách cấm) và `lost-places-lab/RIGHTS.md`. Mọi tài sản đi vào một tập có một dòng: nguồn, giấy phép (**trích nguyên câu** + link), phạm vi, ghi công, ngày, SHA-256 khi là tệp. Tài sản chưa có giấy phép trích nguyên văn → **chưa được dùng** trong bản phát hành.
 
-## Luật chung (MR-0, chờ chủ dự án duyệt cùng HIEN-CHUONG)
+## Luật chung (MR-0; chủ dự án duyệt cùng HIEN-CHUONG 01/11/2026 20:08)
 - **Hồ sơ chính phủ Mỹ** (SEC, DOJ, FTC, toà án liên bang): tác phẩm của nhân viên liên bang khi làm nhiệm vụ thuộc phạm vi công cộng (17 U.S.C. §105) — **kiểm từng tệp**: tài liệu do bên thứ ba nộp (vật chứng, ảnh, thư của luật sư) **không** mặc nhiên thuộc §105. Trích có ghi nguồn trên hình + mô tả.
+- **Hồ sơ tiểu bang, địa phương, nước ngoài** (toà tiểu bang, AG tiểu bang, cơ quan nước ngoài): **không** thuộc §105 — kiểm quyền riêng từng tệp; chưa rõ quyền → chỉ dùng làm nguồn sự việc, không đưa hình tài liệu lên phim.
 - **Được:** PD có căn cứ, CC0, CC BY (ghi TASL); dữ liệu chính phủ để tự vẽ sơ đồ; tài sản tự sinh bằng mã (một dòng chung).
 - **Cấm:** CC NC, ND, BY-SA cho hình/video; quyền không rõ; **ảnh/footage có mặt người thật trong vụ**; logo/giao diện sản phẩm (trừ chữ thuần khi cần nhận diện); đoạn của kênh YouTube/đài tin tức khác; hình AI trình bày như tư liệu.
 - **Đầu ra AI** (ảnh, video, giọng, nhạc): ghi model, nhà cung cấp, phiên; khai "AI use" = Yes (HIEN-CHUONG §6).
