@@ -15,8 +15,8 @@
 ## 2. Bảng tầng gọn
 | Người/tổ chức | Vai trò | Tầng | Loại phán quyết | Tội danh + mức án | Kháng cáo / ân xá / huỷ án | Nguồn | Ngày kiểm |
 |---|---|---|---|---|---|---|---|
-| Evaldas Rimasauskas | Người dàn dựng (theo cáo trạng đã nhận tội) | ● CONVICTED | Nhận tội, toà chấp nhận (20/3/2019) | 1 tội wire fraud; 60 tháng tù, 2 năm giám sát, tịch thu 49,74 tr. USD, bồi hoàn 26,48 tr. USD (19/12/2019) | Không thấy kháng cáo (chỉ tìm qua WebSearch — chưa xác minh bằng docket); không có trong 3 trang ân xá/giảm án DOJ (Trump 2025–nay, Biden ân xá, Biden giảm án); BOP ghi đã ra tù 18/6/2021 | N3, N4, N5, N6 | 01/11/2026 |
-| "Company-2" (công ty Latvia trùng tên) | Công cụ của bị cáo | ● (là phần của tội đã nhận) — không nêu tên | — | — | — | N4 | 01/11/2026 |
+| Evaldas Rimasauskas | Người dàn dựng (theo cáo trạng đã nhận tội) | ● CONVICTED | Nhận tội, toà chấp nhận (20/3/2019) | 1 tội wire fraud (cáo trạng có 5 tội theo 17-093: 1 wire fraud, 3 money laundering, 1 aggravated identity theft; số phận 4 tội còn lại **chưa mở được** → **không** nói bị kết án rửa tiền hay trộm danh tính — sửa theo kiem); 60 tháng tù, 2 năm giám sát, tịch thu 49,74 tr. USD, bồi hoàn 26,48 tr. USD (19/12/2019) | Không thấy kháng cáo (chỉ tìm qua WebSearch — chưa xác minh bằng docket); không có trong 3 trang ân xá/giảm án DOJ (Trump 2025–nay, Biden ân xá, Biden giảm án); BOP ghi đã ra tù 18/6/2021 | N3, N4, N5, N6 | 01/11/2026 |
+| "Company-2" (công ty Latvia trùng tên) | Công cụ trong tội đã nhận | Không bị truy tố riêng → **không gắn tầng, không nêu tên** (sửa theo kiem: pháp nhân không bị kết án không mang ●) | — | — | — | N4 | 01/11/2026 |
 | Nhà sản xuất phần cứng châu Á ("Company-1") | Thương hiệu bị mạo danh | KHÔNG BỊ CÁO BUỘC | — | — | — | N4: "neither sent nor authorized by Company-1" | 01/11/2026 |
 | Hai công ty internet Mỹ (một "multinational technology company", một "multinational online social media company") | Nạn nhân | KHÔNG BỊ CÁO BUỘC | — | — | — | N1, N3, N4 | 01/11/2026 |
 | Ngân hàng ở Latvia/Cyprus | Nơi mở tài khoản | KHÔNG BỊ CÁO BUỘC — không nêu tên | — | — | — | N4 | 01/11/2026 |
