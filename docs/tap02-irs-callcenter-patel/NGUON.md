@@ -21,6 +21,8 @@
 | N11 | TIGTA | "Report Crime and Misconduct" — mục "IRS Scams and Fraud": "Someone is impersonating an IRS or Treasury employee." | — | — | https://www.tigta.gov/reportcrime-misconduct | lời S070 | 01/11/2026, HTTP 200 | không lưu (SHA `dbbd32…3a17`) |
 | — | FTC | consumer.ftc.gov "government imposter scams" | — | — | https://consumer.ftc.gov/articles/government-imposter-scams | **không dùng** | **chưa mở được** (MR-D23: HTTP 403; không thử lại bằng UA khác) | — |
 
+Ghi chú tra API (kiểm vòng 2): tra N4 bằng **tiêu đề đầy đủ** trả HTTP 200 nhưng `results: []`; dùng chuỗi ngắn `parameters[title]=Indian National Pleads Guilty to Owning` (1 kết quả). N2: `Dozens of Individuals Indicted in Multimillion-Dollar Indian Call Center Scam`; N3: `24 Defendants Sentenced in Multimillion Dollar India-Based Call Center Scam`; N5: `Owner and Operator of India-Based Call Centers Sentenced to Prison` (chọn bản `/archives/opa/`).
+
 Ghi chú đoạn: bản OPA của N4 có 16 đoạn, N5 có 17 đoạn; số đoạn trong lời khớp đúng cách đánh của dàn truyện đã duyệt (N4 đ.5 "According to admissions…", đ.6 "In his plea, Patel admitted…", đ.8 "A co-defendant described…", đ.9 "Patel was prosecuted…", đ.10 "U.S. District Judge David Hittner… accepted", đ.11 "A total of 24 domestic defendants…"; N5 đ.12 "The indictment in this case… Charges remain pending…").
 
 ## 2. Trạng thái vụ (HIEN-CHUONG §3 luật 4) — kiểm ngày chốt lời 01/11/2026 (UTC)
