@@ -18,6 +18,8 @@ Repo này độc lập với `lost-places-lab` và `crux-lab`; công cụ chép 
 - **`bash tools/preflight.sh` trước MỌI commit** (và `--range origin/main..HEAD` trước khi đẩy). Trượt → sửa rồi chạy lại; không `--no-verify` trừ khẩn cấp có ghi lý do trong báo cáo.
 - **Không merge, không xoá nhánh, không force-push.** Điều phối merge sau khi rà.
 - **Không vượt rào truy cập** (thêm sau rà MR-1): trang chống bot, CAPTCHA, tường đăng nhập/trả phí, chặn địa lý → **không** viết script, đổi user-agent, dùng bản lưu/mirror để vượt. Dùng đường chính thức (API của cơ quan, bản sao trên trang cơ quan khác, RECAP) hoặc ghi "chưa mở được". PACER có phí → chỉ khi lệnh có trần.
+- **Không đưa thông tin cá nhân của chủ dự án** (email, họ tên, số điện thoại, địa chỉ) vào request gửi ra ngoài (header User-Agent, form, query) hay vào repo (thêm sau rà MR-2). UA khai báo cho sec.gov dùng địa chỉ liên hệ của kênh do chủ dự án cấp trong lệnh; chưa có → UA không email, bị 403 thì ghi "chưa mở được".
+- **Preflight không qua pipe:** chạy `bash tools/preflight.sh` riêng, chỉ commit/đẩy khi mã thoát = 0 (sau rà MR-2: `preflight | tail -1 && git commit` đã để lọt một commit trượt).
 - **Không in khoá API** ra log, báo cáo, commit. Khoá do proxy tiêm; dùng giá trị giả khi công cụ đòi khoá.
 - **Không mặt người thật.** Không ảnh, không chân dung AI, không giọng nhái người thật trong vụ. Nhân vật minh hoạ có nhãn (HIEN-CHUONG §4).
 - Vật liệu đối thủ (lời, khung hình, thumbnail, danh sách đề tài của kênh khác) không đưa vào repo.

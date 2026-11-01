@@ -56,3 +56,12 @@ Chủ dự án (21:20–21:29): mỗi tập một câu chuyện, chấp nhận d
 - Nhãn người/tổ chức không bị cáo buộc: **PA-A** giá trị "KHÔNG BỊ CÁO BUỘC" trong bảng tầng, không nhãn trên hình → HIEN-CHUONG §3 luật 5.
 - Gói duy trì dài hạn: **duyệt** (dàn truyện trước kịch bản; kho đề tài ≥ 10 vụ theo 6 trụ; xử lý khiếu nại 4 bậc; đo đơn giá thật sau tập 1). QUY-TRINH lên bản 0.2.
 - Kho đề tài: **PA-A** chạy song song MR-3 (sau rà MR-2).
+
+## MR-2 · 01/11/2026 22:20 (giờ Hà Nội) · Điều phối rà MR-2 (Dàn truyện A + B) — merge kiểu squash
+Nhánh `ccr-287dabd9-ibz780` @ `45956b6` (từ `489f18a`). Kiểm độc lập trên tệp:
+- Preflight `--range` trên tip: ĐẠT; 0 USD. Đối chiếu PDF gốc (pdftotext): 1inMM — lợi nhuận 25–45 %, "generally did not and would not acquire", hợp đồng cấp phép/phân phối "fake", ≥ 650 triệu USD từ ≥ 5 nhóm, > 250 nhà đầu tư con (có bảo lưu), vỡ nợ từ ~12/2019, gốc ~230,36 triệu USD; SEC: câu nhà đầu tư "if HBO was involved…", "by April 9th (at the latest)", không quan hệ hợp đồng với HBO; final judgment 2024: 62.847.901,05 + 11.375.011,28 USD. Woodbridge — > 80 triệu USD hoa hồng, 25–95 triệu USD chiếm dụng, 5 bang (TX, MA, AZ, PA, MI) "nonetheless continued to sell". Phép tính 35 %/6 tháng ≈ 82 %/năm (1,35² = 1,8225) đúng. **Không thấy sai.**
+- **Sự cố 1 — email chủ dự án trong lịch sử nhánh** (thêm ở `9e0ac68`, gỡ ở `0c15d5e`; tip sạch) do preflight chạy qua pipe. Repo công khai → điều phối **merge kiểu squash** (main không chứa commit có email) và **xoá nhánh từ xa** để giảm lộ; nội dung đầy đủ nằm trong commit squash. Thêm luật "preflight không qua pipe" vào CLAUDE.md. Lưu ý: GitHub có thể còn giữ commit theo SHA một thời gian; xoá hẳn cần GitHub Support.
+- **Sự cố 2 — email chủ dự án gửi tới sec.gov trong User-Agent.** Thêm luật "không đưa thông tin cá nhân chủ dự án vào request/repo" vào CLAUDE.md; chờ chủ dự án cấp địa chỉ liên hệ của kênh.
+- **Sự cố 3 — MR-1 N17 (Investor.gov) mở bằng UA trình duyệt sau khi UA khai báo bị 403** → trái luật "không vượt rào truy cập" (luật ban hành sau MR-1). N17 chỉ là trang dẫn người xem, không làm nguồn câu nào; MR-3 mở lại đúng cách hoặc ghi "chưa mở được".
+- Góp ý nội dung cho MR-3: 1inMM nhịp 7b bỏ tên khu "Beverlywood" (đủ nhận ra nhà; chủ hiện tại KBCB). Nhịp 13 chỉ dùng khi đọc được Dkt. 58.
+- Khuyến nghị điều phối: **đổi sang B (1inMM) cho tập 1**, theo ưu tiên kịch tính của chủ dự án và độ chắc nguồn (gần hết truyện là lời thừa nhận trong plea); A (Woodbridge) làm sau một tập khác trụ.
