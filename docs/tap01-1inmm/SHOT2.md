@@ -1,7 +1,7 @@
 # BẢNG SHOT 2 — Tập 1 · 1inMM / Horwitz (`tap01-1inmm`) · phong cách PHONG-CACH-HINH v1
 
 > MR-6 · 02/11/2026. **Thay `SHOT.md`** (giữ làm lịch sử) cho phần hình; lời, giọng, nhạc giữ nguyên (đã duyệt). Bảng **sinh máy** bằng `python3 scripts/mr6/shot2.py` từ dữ liệu trong tệp đó; mốc = whisper giọng thật (`reports/mr6/moc_cau.json`, `scripts/mr6/moc_cau.py`).
-> Tổng 15:32.0 · 267 cảnh · L1 tranh 192 cảnh (519.1 s, TB 2.70 s/cảnh) từ **169 tranh** (150 mới MR-6 + 19 MR-P1) · Veo ảnh→video 3 cảnh (16.9 s) · clip tả thực cũ 4 (13.9 s) · L2 54 cảnh (259.2 s) · L3 14 cảnh (63.0 s).
+> Tổng 15:32.0 · 267 cảnh · L1 tranh 192 cảnh (519.1 s, TB 2.70 s/cảnh) từ **167 tranh** (148 mới MR-6 + 19 MR-P1) · Veo ảnh→video 3 cảnh (16.9 s) · clip tả thực cũ 4 (13.9 s) · L2 54 cảnh (259.2 s) · L3 14 cảnh (63.0 s).
 > Khe không lời 4 s cho 4 thẻ KBCB chỉ chữ (S019, S033, S072, S076) — thẻ nền tối chồng lên tranh (PHONG-CACH-HINH §1). Cảnh đổi 0,35 s trước tiếng.
 > Luật áp mọi cảnh: HIEN-CHUONG §4–§5; PHONG-CACH-HINH §1–§5; nhãn tầng + nguồn lớp tĩnh góc dưới theo `loi.json`; nhãn ILLUSTRATIVE ở cảnh tranh đầu mỗi đoạn; không chữ trên hình ngoài lời đã duyệt, số liệu hồ sơ, nhãn, nguồn (máy đối chiếu: `scripts/mr6/doi_chieu_chu.py`).
 > L3 không dùng các trang/dòng cấm của `SHOT.md` (N8 tr. 1, tr. 3; N1 tr. 6 bảng ¶25; N7 tr. 12 dòng 23–28; N22 tr. 1; N22 tr. 6 dòng 10).
@@ -97,7 +97,7 @@
 | S085 (P18) | ● | 644.0–652.2 | L2 `G16` 3.3 · L1 `b124` 2.4 · L1 `a13` 2.4 |  |
 | S086 (P18) | TT | 652.2–660.2 | L1 `b123` 2.7 · L2 `G16` 2.7 · L1 `b146` 2.7 |  |
 | S087 (P19) | ◐ | 660.2–672.9 | L1 `b057` 2.8 · L1 `b126` 2.8 · L1 `b125` 2.8 · L2 `G17` 4.4 |  |
-| S088 (P19) | ◐ | 672.9–679.4 | L1 `b127` 2.2 · L2 `G17` 2.2 · L1 `b097` 2.2 |  |
+| S088 (P19) | ◐ | 672.9–679.4 | L1 `b124:2` 2.2 · L2 `G17` 2.2 · L1 `b097` 2.2 |  |
 | S089 (P19) | ◐ | 679.4–690.1 | L3 `T11` 4.2 · L2 `G17` 3.6 · L1 `b117` 3.0 |  |
 | S090 (P20) | ◐ | 690.1–696.6 | L1 `b058` 2.0 · L3 `T12` 2.4 · L1 `b058:2` 2.0 |  |
 | S091 (P20) | ◐ | 696.6–704.5 | L1 `b059` 2.5 · L1 `b129` 2.5 · L3 `T13` 3.0 |  |
@@ -109,7 +109,7 @@
 | S097 (P21) | ●T | 748.6–756.7 | L1 `b133` 4.0 · L1 `b078` 4.0 | p21: RED FLAG 1 |
 | S098 (P21) | ●T | 756.7–763.7 | L1 `b134` 3.5 · L1 `a20` 3.5 | p21: RED FLAG 2 |
 | S099 (P21) | ●T | 763.7–772.0 | L1 `b135` 4.2 · L1 `b024:2` 4.2 | p21: RED FLAG 3 |
-| S100 (P21) | ◐ | 772.0–782.2 | L1 `b136` 5.1 · L1 `b016:2` 5.1 | p21: RED FLAG 4 |
+| S100 (P21) | ◐ | 772.0–782.2 | L1 `b019:2` 5.1 · L1 `b016:2` 5.1 | p21: RED FLAG 4 |
 | S101 (P21) | ●T | 782.2–791.9 | L1 `b137` 4.8 · L1 `b041:2` 4.8 | p21: RED FLAG 5 |
 | S102 (P21) | CHUNG | 791.9–800.6 | L1-veo `K5` 4.4 · L1 `b132` 2.2 · L1 `b149` 2.2 | bai: 1 RULE · Verify independently before any |
 | S103 (P21) | CHUNG | 800.6–808.0 | L1 `b138` 2.4 · L1 `b148` 2.4 · L1 `b138:2` 2.4 |  |

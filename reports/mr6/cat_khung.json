@@ -1,6 +1,61 @@
 {
  "_ghi_chu": "MR-6 · sửa tranh bằng cắt khung (0 USD, như MR-P1) sau mắt xem tờ QC. Toạ độ pixel trên ảnh 1376×768.",
- "b021": {"cat": [0, 100, 780, 539], "ly_do": "tranh 'không người' nhưng có bóng người tối bên phải (viền nghiêng) → cắt bỏ"},
- "b023": {"cat": [0, 60, 760, 488], "ly_do": "bóng người đội mũ ngồi ở hàng ghế → cắt bỏ"},
- "b049": {"cat": [0, 0, 1150, 647], "ly_do": "viền nghiêng đầu người ở mép phải (góc nghiêng — PHONG-CACH-HINH §4) → cắt bỏ"}
+ "b021": {
+  "cat": [
+   0,
+   100,
+   780,
+   539
+  ],
+  "ly_do": "tranh 'không người' nhưng có bóng người tối bên phải (viền nghiêng) → cắt bỏ"
+ },
+ "b023": {
+  "cat": [
+   0,
+   60,
+   760,
+   488
+  ],
+  "ly_do": "bóng người đội mũ ngồi ở hàng ghế → cắt bỏ"
+ },
+ "b049": {
+  "cat": [
+   0,
+   0,
+   1150,
+   647
+  ],
+  "ly_do": "viền nghiêng đầu người ở mép phải (góc nghiêng — PHONG-CACH-HINH §4) → cắt bỏ"
+ },
+ "b082": {
+  "cat": [
+   0,
+   0,
+   860,
+   484
+  ],
+  "ly_do": "người bạn (tự nghĩ ra) lộ má/tai ở bên phải → cắt chỉ còn nhà đầu tư"
+ },
+ "b107": {
+  "cat": [
+   560,
+   0,
+   1376,
+   459
+  ],
+  "ly_do": "bóng một khuôn mặt mờ phản chiếu trên kính → cắt bỏ nửa trái"
+ },
+ "b123": {
+  "cat": [
+   0,
+   120,
+   1147,
+   765
+  ],
+  "ly_do": "hình tròn giống con dấu/huy hiệu trên tường (không seal — SHOT) → cắt bỏ phần trên"
+ },
+ "_khong_dung": {
+  "b127": "giống trang tài liệu có dòng chữ + chữ ký (HIEN-CHUONG §4: không tài liệu giả) → bỏ khỏi SHOT2",
+  "b136": "nhiều mặt người (tự nghĩ ra) rõ nét → bỏ khỏi SHOT2"
+ }
 }

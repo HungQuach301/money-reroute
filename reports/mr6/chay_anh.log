@@ -1,0 +1,266 @@
+b001 1 ảnh cost 0.038406 tokens 1458
+b002 1 ảnh cost 0.0388665 tokens 1519
+b003 1 ảnh cost 0.0387405 tokens 1508
+b004 1 ảnh cost 0.0383325 tokens 1451
+b005 1 ảnh cost 0.0382725 tokens 1444
+b006 1 ảnh cost 0.0383385 tokens 1452
+b007 1 ảnh cost 0.038922 tokens 1527
+b008 1 ảnh cost 0.0387795 tokens 1512
+b009 1 ảnh cost 0.038205 tokens 1436
+b010 1 ảnh cost 0.0386385 tokens 1493
+b011 1 ảnh cost 0.038448 tokens 1468
+b012 1 ảnh cost 0.038976 tokens 1538
+Uploading LFS objects: 100% (13/13), 8.6 MB | 0 B/s, done.
+ĐẨY 03:35:46
+b013 1 ảnh cost 0.0387255 tokens 1505
+b014 1 ảnh cost 0.0384555 tokens 1470
+b015 1 ảnh cost 0.0390705 tokens 1544
+b016 1 ảnh cost 0.0384795 tokens 1472
+b017 1 ảnh cost 0.038676 tokens 1498
+b018 1 ảnh cost 0.0392805 tokens 1579
+b019 1 ảnh cost 0.039123 tokens 1558
+b020 1 ảnh cost 0.0394605 tokens 1603
+b021 1 ảnh cost 0.038724 tokens 1506
+b022 1 ảnh cost 0.038166 tokens 1431
+b023 1 ảnh cost 0.040392 tokens 1727
+b024 1 ảnh cost 0.0384975 tokens 1471
+Uploading LFS objects: 100% (12/12), 7.8 MB | 0 B/s, done.
+ĐẨY 03:38:41
+b025 1 ảnh cost 0.039174 tokens 1565
+b026 1 ảnh cost 0.0387075 tokens 1503
+b027 1 ảnh cost 0.0385995 tokens 1484
+b028 1 ảnh cost 0.0383265 tokens 1453
+b029 1 ảnh cost 0.038313 tokens 1451
+b030 1 ảnh cost 0.0385725 tokens 1484
+b031 1 ảnh cost 0.038889 tokens 1522
+b032 1 ảnh cost 0.041133 tokens 1821
+b033 1 ảnh cost 0.0384765 tokens 1471
+b034 1 ảnh cost 0.038736 tokens 1507
+b035 1 ảnh cost 0.038505 tokens 1473
+b036 1 ảnh cost 0.0388425 tokens 1521
+Uploading LFS objects: 100% (12/12), 7.9 MB | 0 B/s, done.
+ĐẨY 03:41:30
+b037 1 ảnh cost 0.038646 tokens 1495
+Traceback (most recent call last):
+  File "/home/user/money-reroute/scripts/mr6/anh.py", line 84, in <module>
+    main(sys.argv[1], int(sys.argv[2]))
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/money-reroute/scripts/mr6/anh.py", line 59, in main
+    r = json.load(urllib.request.urlopen(req, timeout=300))
+                  ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/urllib/request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/urllib/request.py", line 489, in open
+    response = self._open(req, data)
+  File "/usr/local/lib/python3.13/urllib/request.py", line 506, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/usr/local/lib/python3.13/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/usr/local/lib/python3.13/urllib/request.py", line 1379, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        context=self._context)
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/urllib/request.py", line 1335, in do_open
+    r = h.getresponse()
+  File "/usr/local/lib/python3.13/http/client.py", line 1478, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/http/client.py", line 343, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/http/client.py", line 304, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/socket.py", line 723, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.13/ssl.py", line 1327, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/ssl.py", line 1161, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+LỖI ở b038 — DỪNG
+Uploading LFS objects: 100% (1/1), 657 KB | 0 B/s, done.
+ĐẨY 03:41:54
+b065 1 ảnh cost 0.0386445 tokens 1494
+b148 1 ảnh cost 0.038469 tokens 1473
+b038 1 ảnh cost 0.038766 tokens 1511
+b039 1 ảnh cost 0.038685 tokens 1499
+b040 1 ảnh cost 0.038517 tokens 1478
+b041 1 ảnh cost 0.0385905 tokens 1483
+b042 1 ảnh cost 0.0385875 tokens 1482
+b043 1 ảnh cost 0.038535 tokens 1480
+b044 1 ảnh cost 0.038223 tokens 1439
+b045 1 ảnh cost 0.0382335 tokens 1440
+b046 1 ảnh cost 0.038523 tokens 1475
+b047 1 ảnh cost 0.038589 tokens 1487
+Uploading LFS objects: 100% (12/12), 7.8 MB | 0 B/s, done.
+ĐẨY 03:45:33
+b048 1 ảnh cost 0.03858 tokens 1484
+b049 1 ảnh cost 0.0385125 tokens 1477
+b050 1 ảnh cost 0.0379755 tokens 1406
+b051 1 ảnh cost 0.0389475 tokens 1533
+b052 1 ảnh cost 0.03837 tokens 1459
+b054 1 ảnh cost 0.038067 tokens 1418
+b055 1 ảnh cost 0.038391 tokens 1462
+b056 1 ảnh cost 0.0391545 tokens 1563
+Traceback (most recent call last):
+  File "/home/user/money-reroute/scripts/mr6/anh.py", line 84, in <module>
+    main(sys.argv[1], int(sys.argv[2]))
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/money-reroute/scripts/mr6/anh.py", line 59, in main
+    r = json.load(urllib.request.urlopen(req, timeout=300))
+                  ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/urllib/request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/urllib/request.py", line 489, in open
+    response = self._open(req, data)
+  File "/usr/local/lib/python3.13/urllib/request.py", line 506, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/usr/local/lib/python3.13/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/usr/local/lib/python3.13/urllib/request.py", line 1379, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        context=self._context)
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/urllib/request.py", line 1335, in do_open
+    r = h.getresponse()
+  File "/usr/local/lib/python3.13/http/client.py", line 1478, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/http/client.py", line 343, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/http/client.py", line 304, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/socket.py", line 723, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.13/ssl.py", line 1327, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/ssl.py", line 1161, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+LỖI ở b057 — DỪNG
+Uploading LFS objects: 100% (8/8), 5.4 MB | 0 B/s, done.
+ĐẨY 03:47:28
+b057 1 ảnh cost 0.0387675 tokens 1511
+b058 1 ảnh cost 0.0379725 tokens 1405
+b059 1 ảnh cost 0.0381765 tokens 1433
+b060 1 ảnh cost 0.0388365 tokens 1519
+b061 1 ảnh cost 0.038784 tokens 1512
+b062 1 ảnh cost 0.042204 tokens 1970
+b063 1 ảnh cost 0.039333 tokens 1586
+b064 1 ảnh cost 0.0387345 tokens 1505
+b066 1 ảnh cost 0.0386415 tokens 1494
+b067 1 ảnh cost 0.0388425 tokens 1517
+b068 1 ảnh cost 0.038439 tokens 1468
+b069 1 ảnh cost 0.038631 tokens 1492
+Uploading LFS objects: 100% (12/12), 8.0 MB | 0 B/s, done.
+ĐẨY 03:52:09
+b070 1 ảnh cost 0.038493 tokens 1475
+b071 1 ảnh cost 0.038445 tokens 1465
+b072 1 ảnh cost 0.038805 tokens 1517
+b073 1 ảnh cost 0.038898 tokens 1528
+b074 1 ảnh cost 0.0388515 tokens 1523
+b075 1 ảnh cost 0.038376 tokens 1459
+b076 1 ảnh cost 0.038373 tokens 1455
+b077 1 ảnh cost 0.0392385 tokens 1574
+b078 1 ảnh cost 0.0383955 tokens 1461
+b079 1 ảnh cost 0.038568 tokens 1486
+b080 1 ảnh cost 0.039057 tokens 1550
+b081 1 ảnh cost 0.038679 tokens 1501
+Uploading LFS objects: 100% (12/12), 7.8 MB | 0 B/s, done.
+ĐẨY 03:54:46
+b082 1 ảnh cost 0.039225 tokens 1571
+b083 1 ảnh cost 0.0385605 tokens 1484
+b084 1 ảnh cost 0.0381375 tokens 1423
+b085 1 ảnh cost 0.0388785 tokens 1525
+b086 1 ảnh cost 0.0385575 tokens 1483
+b087 1 ảnh cost 0.038316 tokens 1452
+b088 1 ảnh cost 0.038403 tokens 1464
+b089 1 ảnh cost 0.038016 tokens 1412
+b090 1 ảnh cost 0.0383685 tokens 1460
+b091 1 ảnh cost 0.039276 tokens 1575
+b092 1 ảnh cost 0.0391125 tokens 1558
+b093 1 ảnh cost 0.038967 tokens 1537
+Uploading LFS objects: 100% (12/12), 7.8 MB | 0 B/s, done.
+ĐẨY 03:57:28
+b094 1 ảnh cost 0.038697 tokens 1503
+b095 1 ảnh cost 0.0392325 tokens 1574
+b096 1 ảnh cost 0.038796 tokens 1516
+b097 1 ảnh cost 0.0383055 tokens 1450
+b098 1 ảnh cost 0.0382605 tokens 1445
+b099 1 ảnh cost 0.0385395 tokens 1481
+b100 1 ảnh cost 0.0379725 tokens 1407
+b101 1 ảnh cost 0.038442 tokens 1468
+b102 1 ảnh cost 0.0384825 tokens 1475
+b103 1 ảnh cost 0.0386865 tokens 1501
+b104 1 ảnh cost 0.039 tokens 1543
+b105 1 ảnh cost 0.0389445 tokens 1535
+Uploading LFS objects: 100% (12/12), 8.1 MB | 0 B/s, done.
+ĐẨY 04:00:09
+b106 1 ảnh cost 0.0386445 tokens 1495
+b107 1 ảnh cost 0.039012 tokens 1543
+b108 1 ảnh cost 0.0385575 tokens 1484
+b109 1 ảnh cost 0.0385575 tokens 1480
+b110 1 ảnh cost 0.038322 tokens 1451
+b111 1 ảnh cost 0.038799 tokens 1516
+b112 1 ảnh cost 0.038958 tokens 1537
+b113 1 ảnh cost 0.038583 tokens 1486
+b114 1 ảnh cost 0.0384285 tokens 1466
+b115 1 ảnh cost 0.038571 tokens 1485
+b116 1 ảnh cost 0.0388695 tokens 1525
+b117 1 ảnh cost 0.039039 tokens 1547
+Uploading LFS objects: 100% (12/12), 7.7 MB | 0 B/s, done.
+ĐẨY 04:02:58
+b118 1 ảnh cost 0.038055 tokens 1417
+b119 1 ảnh cost 0.0386535 tokens 1496
+b120 1 ảnh cost 0.038934 tokens 1534
+b121 1 ảnh cost 0.0386745 tokens 1500
+b122 1 ảnh cost 0.03879 tokens 1515
+b123 1 ảnh cost 0.0387315 tokens 1507
+b124 1 ảnh cost 0.0386745 tokens 1500
+b125 1 ảnh cost 0.038715 tokens 1504
+b126 1 ảnh cost 0.0385695 tokens 1486
+b127 1 ảnh cost 0.0385395 tokens 1479
+b128 1 ảnh cost 0.038406 tokens 1464
+b129 1 ảnh cost 0.038382 tokens 1459
+Uploading LFS objects: 100% (12/12), 7.9 MB | 0 B/s, done.
+ĐẨY 04:05:41
+b130 1 ảnh cost 0.0384495 tokens 1470
+b131 1 ảnh cost 0.038415 tokens 1465
+b132 1 ảnh cost 0.038166 tokens 1432
+b133 1 ảnh cost 0.0391155 tokens 1558
+b134 1 ảnh cost 0.0380745 tokens 1419
+b135 1 ảnh cost 0.0387105 tokens 1503
+b136 1 ảnh cost 0.0386295 tokens 1492
+b137 1 ảnh cost 0.0382605 tokens 1444
+b138 1 ảnh cost 0.039369 tokens 1591
+b139 1 ảnh cost 0.0392895 tokens 1583
+b140 1 ảnh cost 0.038499 tokens 1476
+b141 1 ảnh cost 0.038439 tokens 1467
+Uploading LFS objects: 100% (12/12), 7.7 MB | 0 B/s, done.
+ĐẨY 04:08:24
+b142 1 ảnh cost 0.038301 tokens 1446
+b143 1 ảnh cost 0.0385185 tokens 1478
+b144 1 ảnh cost 0.038484 tokens 1474
+b145 1 ảnh cost 0.0384315 tokens 1467
+b146 1 ảnh cost 0.03846 tokens 1471
+b147 1 ảnh cost 0.0381915 tokens 1436
+b149 1 ảnh cost 0.038868 tokens 1524
+b150 1 ảnh cost 0.0385035 tokens 1476
+Uploading LFS objects: 100% (8/8), 5.2 MB | 0 B/s, done.
+ĐẨY 04:10:15
+XONG
