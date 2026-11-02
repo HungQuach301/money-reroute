@@ -56,3 +56,10 @@
 {"t": "2026-11-02T03:45:28Z", "kind": "openrouter_usd", "amount": 0.038589, "tranh": "b047", "luot": 1, "bat_dau": "2026-11-02T03:45:15Z", "xong": "2026-11-02T03:45:25Z", "so_anh": 1, "nguon_so": "usage.cost"}
 {"t": "2026-11-02T03:45:47Z", "kind": "openrouter_usd", "amount": 0.03858, "tranh": "b048", "luot": 1, "bat_dau": "2026-11-02T03:45:33Z", "xong": "2026-11-02T03:45:44Z", "so_anh": 1, "nguon_so": "usage.cost"}
 {"t": "2026-11-02T03:45:53Z", "kind": "openrouter_usd", "amount": 0.4, "khe": "K5", "luot": 1, "job": "gen-vid-1793591032-MXjyZnW41L9KI3Oh7n4x", "status": "completed", "bat_dau": "2026-11-02T03:43:52Z", "xong": "2026-11-02T03:45:43Z", "nguon_so": "usage.cost"}
+{"t": "2026-11-02T03:46:00Z", "kind": "openrouter_usd", "amount": 0.038512, "tranh": "b049", "luot": 1, "bat_dau": "2026-11-02T03:45:47Z", "xong": "2026-11-02T03:45:57Z", "so_anh": 1, "nguon_so": "usage.cost"}
+{"t": "2026-11-02T03:46:14Z", "kind": "openrouter_usd", "amount": 0.037976, "tranh": "b050", "luot": 1, "bat_dau": "2026-11-02T03:46:01Z", "xong": "2026-11-02T03:46:10Z", "so_anh": 1, "nguon_so": "usage.cost"}
+{"t": "2026-11-02T03:46:28Z", "kind": "openrouter_usd", "amount": 0.038948, "tranh": "b051", "luot": 1, "bat_dau": "2026-11-02T03:46:15Z", "xong": "2026-11-02T03:46:24Z", "so_anh": 1, "nguon_so": "usage.cost"}
+{"t": "2026-11-02T03:46:40Z", "kind": "openrouter_usd", "amount": 0.03837, "tranh": "b052", "luot": 1, "bat_dau": "2026-11-02T03:46:28Z", "xong": "2026-11-02T03:46:37Z", "so_anh": 1, "nguon_so": "usage.cost"}
+{"t": "2026-11-02T03:46:52Z", "kind": "openrouter_usd", "amount": 0.038067, "tranh": "b054", "luot": 1, "bat_dau": "2026-11-02T03:46:41Z", "xong": "2026-11-02T03:46:49Z", "so_anh": 1, "nguon_so": "usage.cost"}
+{"t": "2026-11-02T03:47:04Z", "kind": "openrouter_usd", "amount": 0.038391, "tranh": "b055", "luot": 1, "bat_dau": "2026-11-02T03:46:52Z", "xong": "2026-11-02T03:47:01Z", "so_anh": 1, "nguon_so": "usage.cost"}
+{"t": "2026-11-02T03:47:19Z", "kind": "openrouter_usd", "amount": 0.039155, "tranh": "b056", "luot": 1, "bat_dau": "2026-11-02T03:47:04Z", "xong": "2026-11-02T03:47:16Z", "so_anh": 1, "nguon_so": "usage.cost"}
