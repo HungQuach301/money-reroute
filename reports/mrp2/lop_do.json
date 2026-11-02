@@ -1,0 +1,126 @@
+{
+ "tranh": {
+  "b009": {
+   "ma": "b009",
+   "lop": 3,
+   "nguong": [
+    0.271,
+    0.669
+   ],
+   "phan_tram_giua_gan": 32.8,
+   "phan_tram_gan": 9.3
+  },
+  "b077": {
+   "ma": "b077",
+   "lop": 3,
+   "nguong": [
+    0.276,
+    0.631
+   ],
+   "phan_tram_giua_gan": 51.8,
+   "phan_tram_gan": 28.8
+  },
+  "b081": {
+   "ma": "b081",
+   "lop": 3,
+   "nguong": [
+    0.278,
+    0.645
+   ],
+   "phan_tram_giua_gan": 47.5,
+   "phan_tram_gan": 26.5
+  },
+  "b010": {
+   "ma": "b010",
+   "lop": 3,
+   "nguong": [
+    0.221,
+    0.572
+   ],
+   "phan_tram_giua_gan": 35.5,
+   "phan_tram_gan": 9.9
+  },
+  "b080": {
+   "ma": "b080",
+   "lop": 3,
+   "nguong": [
+    0.214,
+    0.562
+   ],
+   "phan_tram_giua_gan": 33.9,
+   "phan_tram_gan": 10.2
+  },
+  "b011": {
+   "ma": "b011",
+   "lop": 3,
+   "nguong": [
+    0.225,
+    0.558
+   ],
+   "phan_tram_giua_gan": 53.1,
+   "phan_tram_gan": 23.3
+  },
+  "b143": {
+   "ma": "b143",
+   "lop": 3,
+   "nguong": [
+    0.281,
+    0.555
+   ],
+   "phan_tram_giua_gan": 73.1,
+   "phan_tram_gan": 30.9
+  },
+  "b079": {
+   "ma": "b079",
+   "lop": 3,
+   "nguong": [
+    0.255,
+    0.649
+   ],
+   "phan_tram_giua_gan": 36.3,
+   "phan_tram_gan": 18.3
+  },
+  "b021": {
+   "ma": "b021",
+   "lop": 3,
+   "nguong": [
+    0.219,
+    0.485
+   ],
+   "phan_tram_giua_gan": 71.9,
+   "phan_tram_gan": 29.6
+  },
+  "b022": {
+   "ma": "b022",
+   "lop": 3,
+   "nguong": [
+    0.227,
+    0.508
+   ],
+   "phan_tram_giua_gan": 65.1,
+   "phan_tram_gan": 29.0
+  },
+  "b091": {
+   "ma": "b091",
+   "lop": 3,
+   "nguong": [
+    0.279,
+    0.608
+   ],
+   "phan_tram_giua_gan": 76.4,
+   "phan_tram_gan": 36.3
+  },
+  "b089": {
+   "ma": "b089",
+   "lop": 3,
+   "nguong": [
+    0.241,
+    0.601
+   ],
+   "phan_tram_giua_gan": 67.9,
+   "phan_tram_gan": 40.4
+  }
+ },
+ "model": "depth-anything-v2-small (onnx-community, rev 4472b73)",
+ "sha256": "afb6a5c28f3b6bf1618c6e43f02073ef9dfdc70e937502d51603e57b0a1df10c"
+}
