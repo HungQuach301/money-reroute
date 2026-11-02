@@ -2,7 +2,7 @@
 
 > MR-S23 · 02/11/2026 · tiền kỳ (0 USD). **Thay `SHOT.md`** (giữ làm lịch sử) cho phần hình; lời đã duyệt G1 (02/11/2026 10:25) + quyết định KBCB áp ở MR-S23. Bảng **sinh máy** `python3 scripts/mrs23/shot2.py tap03` từ `scripts/mrs23/du_lieu_tap03.py` + `loi.json`; khuôn `docs/tap01-1inmm/SHOT2.md`.
 > **Mốc là ƯỚC** (chưa có giọng): 155 từ/phút (đo thật MR-4), nghỉ 1.5 s đầu mỗi đoạn, thẻ chữ không đọc 4 s, thẻ tối riêng 6 s. Ở M-c/M-d thay bằng mốc whisper giọng thật (`scripts/mr6/moc_cau.py`) và chia lại thời lượng cảnh theo trọng số; cảnh tranh dài > 5 s tách thành 2 khung cắt/chuyển động của **cùng** tranh (không thêm tranh).
-> Tổng ước **12:21** (lời + thẻ 11:53 · thẻ tổng kết 8 s · nguồn 20 s) · **210 cảnh** · L1 tranh 152 cảnh (461 s, TB 3.0 s) từ **144 tranh mới** (cảnh trống/vật 125 · người thật bóng/lưng/tay 4 · N1 13 · N2 2) · L2 47 cảnh (193 s) từ **17 đồ hoạ động** · L3 5 cảnh (17 s) · Veo ảnh→clip **5** khoảnh khắc (17 s) · thẻ tối 1 (6 s).
+> Tổng ước **12:21** (lời + thẻ 11:53 · thẻ tổng kết 8 s · nguồn 20 s) · **207 cảnh** · L1 tranh 151 cảnh (465 s, TB 3.1 s) từ **144 tranh mới** (cảnh trống/vật 127 · người thật bóng/lưng/tay 4 · N1 11 · N2 2) · L2 46 cảnh (194 s) từ **17 đồ hoạ động** · L3 4 cảnh (12 s) · Veo ảnh→clip **5** khoảnh khắc (17 s) · thẻ tối 1 (6 s).
 > Luật áp mọi cảnh: HIEN-CHUONG §4–§5; PHONG-CACH-HINH §1–§5; LUAT-VEO V1–V8 + BAI-HOC tập 1 mục 2; nhãn tầng + dòng nguồn lớp tĩnh góc dưới theo `loi.json`; nhãn ILLUSTRATIVE ở cảnh tranh đầu mỗi đoạn; không chữ trên hình ngoài lời đã duyệt, số liệu hồ sơ, nhãn, nguồn (M-d đối chiếu máy như `scripts/mr6/doi_chieu_chu.py`).
 > **Riêng tập 3** (HIEN-CHUONG §5, MR-D23 K3): không hình hay mô tả nhạy cảm; không dựng tin nhắn đọc được, không giao diện trang hẹn hò/ứng dụng; màn hình = khối trắng mềm trơn; không quân phục, phù hiệu, cờ, huân chương; không tên giả bị cáo dùng, không tên trang hẹn hò, dịch vụ chuyển tiền; không bang/thành phố nạn nhân.
 > **Nigeria / Nam Phi / London:** không cảnh định kiến (đồng hoang, thú, trang phục dân tộc); chỉ bản đồ phẳng tự vẽ (L2), nội thất trung tính, sân bay không biển hiệu.
@@ -25,7 +25,7 @@ Tham chiếu nhất quán (PHONG-CACH-HINH §4): `ref_nv` = tranh đầu có N1 
 
 | Câu | Tầng | Mốc ước (s) | Cảnh: lớp · mã · thời lượng | Lớp chồng |
 |---|---|---|---|---|
-| S001 (P00) | MH | 1.5–9.6 | L1 `s001` 2.3 · veo `K1` 3.6 · L1 `s002` 2.3 |  |
+| S001 (P00) | MH | 1.5–9.6 | L1 `s001` 2.4 · veo `K1` 3.3 · L1 `s002` 2.4 |  |
 | S002 (P00) | ●C | 9.6–18.9 | L1 `s003` 2.7 · L2 `G01` 3.8 · L1 `s004` 2.7 |  |
 | S003 (P00) | ●C | 18.9–32.1 | L2 `G01` 4.9 · L1 `s005` 4.1 · L1 `s006` 4.1 |  |
 | S004 (P00) | KBCB | 32.1–36.0 | L1 `s007` 3.9 | kbcb: The U.S. Army had nothing to do with either story. (đọc — chữ phụ đề) |
@@ -33,22 +33,22 @@ Tham chiếu nhất quán (PHONG-CACH-HINH §4): `ref_nv` = tranh đầu có N1 
 | S006 (P00) | ◐ | 45.6–51.4 | L3 `Q01` 2.4 · L1 `s011` 1.7 · L1 `s012` 1.7 |  |
 | S007 (P00) | ● | 51.4–58.8 | L2 `G02` 3.2 · L1 `s013` 2.1 · L1 `s014` 2.1 |  |
 | S008 (P00) | ●C | 58.8–63.8 | L3 `Q02` 3.1 · L1 `s015` 1.9 |  |
-| S009 (P00) | CHUNG | 63.8–71.2 | L1 `s016` 2.5 · L1 `s001:2` 2.5 · L1 `s017` 2.5 | tieu_de: Real cases from the public record · MONEY REROUTE |
+| S009 (P00) | CHUNG | 63.8–71.2 | L1 `s016` 3.7 · L1 `s017` 3.7 | tieu_de: Real cases from the public record · MONEY REROUTE |
 | S010 (P01) | ◐ | 72.7–86.2 | L1 `s018` 4.5 · L1 `s019` 4.5 · L1 `s020` 4.5 |  |
 | S011 (P01) | ◐ | 86.2–97.8 | L2 `G03` 5.2 · L1 `s021` 3.2 · L1 `s022` 3.2 |  |
 | S012 (P01) | ◐ | 97.8–105.6 | L2 `G03` 2.9 · L1 `s023` 2.4 · L1 `s024` 2.4 |  |
 | S013 (P02) | ●C | 107.1–117.9 | L2 `G04` 3.6 · L1 `s025` 3.6 · L1 `s026` 3.6 |  |
 | S014 (P02) | ●C | 117.9–129.9 | L1 `s003:2` 4.0 · L1 `s027` 4.0 · L2 `G04` 4.0 |  |
 | S015 (P02) | ◐ | 129.9–136.1 | L1 `s028` 2.1 · L1 `s029` 2.1 · L1 `s030` 2.1 |  |
-| S016 (P02) | KBCB | 136.1–143.1 | L1 `s031` 3.5 · L1 `s032` 3.5 | kbcb: (đọc) Những người đàn ông bị lấy ảnh không có tên trong hồ sơ — không thẻ ảnh, không mặt |
-| S017 (P02) (thẻ, không đọc) | KBCB | 143.1–147.1 | L1 `s033` 2.0 · L1 `s034` 2.0 | kbcb: The U.S. Army and the U.S. military had nothing to do with this scheme. |
-| S018 (P03) | ◐ | 148.6–154.4 | L1 `s035` 1.9 · L1 `s036` 1.9 · L1 `s037` 1.9 |  |
-| S019 (P03) | ◐ | 154.4–160.2 | L1 `s038` 1.9 · L1 `s039` 1.9 · L1 `s040` 1.9 |  |
-| S020 (P04) | ●C | 161.7–170.6 | L1 `s041` 2.8 · L2 `G05` 3.3 · L1 `s042` 2.8 |  |
-| S021 (P04) | ●C | 170.6–176.4 | L1 `s043` 1.9 · L2 `G05` 1.9 · L1 `s044` 1.9 |  |
-| S022 (P04) | ●C | 176.4–192.7 | L2 `G05` 5.4 · L1 `s045` 5.4 · L1 `s046` 5.4 |  |
-| S023 (P04) (thẻ, không đọc) | KBCB | 192.7–196.7 | L1 `s047` 4.0 | kbcb: The U.S. Army and the U.S. military had nothing to do with this scheme. |
-| S024 (P04) | ◐ | 196.7–205.6 | L2 `G05` 2.7 · veo `K2` 3.5 · L1 `s048` 2.7 |  |
+| S016 (P02) | KBCB | 136.1–143.1 | L1 `s031` 7.0 | kbcb: (đọc) Những người đàn ông bị lấy ảnh không có tên trong hồ sơ — không thẻ ảnh, không mặt |
+| S017 (P02) (thẻ, không đọc) | KBCB | 143.1–147.1 | L1 `s032` 2.0 · L1 `s033` 2.0 | kbcb: The U.S. Army and the U.S. military had nothing to do with this scheme. |
+| S018 (P03) | ◐ | 148.6–154.4 | L1 `s034` 1.9 · L1 `s035` 1.9 · L1 `s036` 1.9 |  |
+| S019 (P03) | ◐ | 154.4–160.2 | L1 `s037` 1.9 · L1 `s038` 1.9 · L1 `s039` 1.9 |  |
+| S020 (P04) | ●C | 161.7–170.6 | L1 `s040` 2.8 · L2 `G05` 3.3 · L1 `s041` 2.8 |  |
+| S021 (P04) | ●C | 170.6–176.4 | L1 `s042` 1.9 · L2 `G05` 1.9 · L1 `s043` 1.9 |  |
+| S022 (P04) | ●C | 176.4–192.7 | L2 `G05` 5.4 · L1 `s044` 5.4 · L1 `s045` 5.4 |  |
+| S023 (P04) (thẻ, không đọc) | KBCB | 192.7–196.7 | L1 `s046` 4.0 | kbcb: The U.S. Army and the U.S. military had nothing to do with this scheme. |
+| S024 (P04) | ◐ | 196.7–205.6 | L1 `s047` 2.7 · L1 `s048` 2.7 · veo `K2` 3.5 |  |
 | S025 (P04) | ◐ | 205.6–218.0 | L2 `G06` 5.3 · L1 `s049` 3.5 · L1 `s050` 3.5 |  |
 | S026 (P04) | ◐ | 218.0–221.0 | L2 `G06` 1.5 · L1 `s008:2` 1.5 |  |
 | S027 (P04) | ◐ | 221.0–233.4 | L2 `G07` 5.5 · L1 `s051` 3.4 · L1 `s052` 3.4 |  |
@@ -83,18 +83,18 @@ Tham chiếu nhất quán (PHONG-CACH-HINH §4): `ref_nv` = tranh đầu có N1 
 | S056 (P11) | ●C | 483.7–495.0 | L1 `s101` 3.7 · L1 `s102` 3.7 · L1 `s103` 3.7 |  |
 | S057 (P11) (thẻ, không đọc) | KBCB | 495.0–499.0 | L1 `s104` 2.0 · L1 `s105` 2.0 | kbcb: The U.S. Army and the U.S. military had nothing to do with this scheme. |
 | S058 (P11) | ●C | 499.0–508.3 | L2 `G14` 3.1 · L1 `s106` 3.1 · L1 `s107` 3.1 |  |
-| S059 (P11) | ●C | 508.3–520.3 | L3 `T03` 4.9 · L2 `G14` 3.5 · L1 `s108` 3.5 |  |
+| S059 (P11) | ●C | 508.3–520.3 | L2 `G14` 7.0 · L1 `s108` 5.0 |  |
 | S060 (P11) | ●C | 520.3–531.1 | L1 `s109` 3.6 · L2 `G14` 3.6 · L1 `s110` 3.6 |  |
 | S061 (P11) | ●C | 531.1–541.2 | L1 `s111` 5.0 · L1 `s112` 5.0 |  |
-| S062 (P11) | ●C | 541.2–547.0 | L1 `s002:2` 1.9 · L1 `s113` 1.9 · L1 `s114` 1.9 |  |
+| S062 (P11) | ●C | 541.2–547.0 | L1 `s017:2` 1.9 · L1 `s113` 1.9 · L1 `s114` 1.9 |  |
 | S063 (P11) | CHUNG | 547.0–550.1 | L1 `s115` 1.5 · L1 `s116` 1.5 |  |
 | S063b (P11) | ●C | 550.1–555.9 | L1 `s117` 2.9 · L1 `s118` 2.9 |  |
 | S064 (P11) | TT | 555.9–564.8 | L1 `s119` 3.0 · L1 `s120` 3.0 · L1 `s121` 3.0 |  |
 | S065 (P12) | CHUNG | 566.3–572.5 | L1 `s122` 3.1 · L2 `G15` 3.1 | tieu_de: 3 LESSONS · 5 RED FLAGS · 1 RULE |
 | S066 (P12) | ●C | 572.5–588.3 | L2 `G08` 5.3 · L1 `s123` 5.3 · L2 `G15` 5.3 |  |
-| S067 (P12) | ●C | 588.3–603.4 | L2 `G15` 5.0 · L1 `s035:2` 5.0 · L1 `s124` 5.0 |  |
+| S067 (P12) | ●C | 588.3–603.4 | L2 `G15` 5.0 · L1 `s034:2` 5.0 · L1 `s124` 5.0 |  |
 | S068 (P12) | CHUNG | 603.4–610.8 | L2 `G15` 2.5 · L1 `s125` 2.5 · L1 `s126` 2.5 |  |
-| S069 (P12) | ●C | 610.8–624.3 | L2 `G15` 4.5 · L1 `s043:2` 4.5 · L1 `s127` 4.5 |  |
+| S069 (P12) | ●C | 610.8–624.3 | L2 `G15` 4.5 · L1 `s042:2` 4.5 · L1 `s127` 4.5 |  |
 | S070 (P12) | CHUNG | 624.3–629.0 | L1 `s128` 1.5 · L2 `G15` 1.5 · L1 `s129` 1.5 |  |
 | S071 (P12) | ●C | 629.0–639.8 | L2 `G16` 5.4 · L1 `s130` 5.4 |  |
 | S072 (P12) (thẻ, không đọc) | KBCB | 639.8–643.8 | L1 `s131` 2.0 · L1 `s132` 2.0 | kbcb: The U.S. Army and the U.S. military had nothing to do with this scheme. |
@@ -114,9 +114,9 @@ Tham chiếu nhất quán (PHONG-CACH-HINH §4): `ref_nv` = tranh đầu có N1 
 |---|---|---|---|---|---|
 | G01 | Hắn tự nhận là ai? | Khung hồ sơ trống lật hai mặt theo lời: "American soldier · stranded in Nigeria · on a mission" → "colonel, U.S. Army · deployed to South Africa · needs computer equipment" → dấu "MISREPRESENTED — per the court" | dấu MISREPRESENTED | S002, S003 | ● CONVICTED · per 7th Cir. opinion |
 | G02 | Án nặng cỡ nào? | Bộ đếm 0 → 324 MONTHS → quy đổi = 27 YEARS (năm ô năm hiện dần) | 27 YEARS | S007 | ● CONVICTED |
-| G03 | Một người đàn ông hay một hệ thống hồ sơ giả? | 2012: một khiếu nại (một chấm) → mở ra lưới hàng chục khung hồ sơ trống ("dozens of fictitious profiles", per prosecutors) → bản đồ Mỹ phẳng nhiều chấm "hundreds of women" ◐ | khung đầu tiên giữa lưới | S011, S012 | ◐ ALLEGED · per prosecutors |
+| G03 | Một người đàn ông hay một hệ thống hồ sơ giả? | 2012: một khiếu nại (một chấm) → mở ra lưới hàng chục khung hồ sơ trống ("dozens of fictitious profiles", per prosecutors) → bản đồ Mỹ phẳng nhiều chấm **rải ngẫu nhiên, không theo bang/thành phố** "hundreds of women" ◐ | khung đầu tiên giữa lưới | S011, S012 | ◐ ALLEGED · per prosecutors |
 | G04 | Bắt đầu khi nào, từ đâu, bằng gì? | Trục: March 2008 · South Africa → khung hồ sơ "fictitious names" · "successful businessmen" · "pictures of men in U.S. military uniforms" (chữ, không hình quân phục) | mốc March 2008 | S013, S014 | ● CONVICTED · per 7th Cir. opinion |
-| G05 | Từ tin cậy tới yêu cầu: tiền và hàng đi theo đường nào? | Thanh "trust" đầy dần (thơ, thiệp, hoa — icon) → ô "REQUESTS: money · electronics" → "false claims of financial distress" → "for work on behalf of the U.S. government" gạch đứt | ô REQUESTS | S020, S021, S022, S024 | ● per 7th Cir. opinion; S024 ◐ |
+| G05 | Từ tin cậy tới yêu cầu: tiền và hàng đi theo đường nào? | Thanh "trust" đầy dần (thơ, thiệp, hoa — icon) → ô "REQUESTS: money · electronics" → "false claims of financial distress" → "for work on behalf of the U.S. government" gạch đứt | ô REQUESTS | S020, S021, S022 | ● per 7th Cir. opinion; S024 ◐ |
 | G06 | Gửi cho ai thật sự? | Ba nhãn "driver" · "co-worker" · "hotel manager" + tên "Ilumsa Sunmola" → cả ba mũi tên gộp vào MỘT bóng "Sunmola himself" (per prosecutors) | cú gộp ba thành một | S025, S026 | ◐ ALLEGED · per prosecutors |
 | G07 | Vì sao tiền cứ phải gửi thêm? | Vòng lặp: EMERGENCY → MONEY → new EMERGENCY (mỗi vòng thanh tiền dày hơn) → "money runs out / refused" → đường đứt: relationship ENDED | đường đứt cuối vòng | S027 | ◐ ALLEGED · per prosecutors |
 | G08 | Ai đứng ở giữa đường dây? | Sơ đồ toả tia: ô trung tâm "organizer or leader (upheld)" → recruited accomplices · received stolen goods & wire transfers · directed what to tell victims; mũi tên phần lợi nhuận dày hơn "larger share (evidence suggesting)" | ô trung tâm | S028, S029, S030, S066 | ● per 7th Cir. opinion |
@@ -135,19 +135,18 @@ Tham chiếu nhất quán (PHONG-CACH-HINH §4): `ref_nv` = tranh đầu có N1 
 | Mã | Tệp · trang / nguồn | Vùng | Khoanh / chữ | Câu | Ghi chú |
 |---|---|---|---|---|---|
 | T01 | `ho-so/romance-sunmola/ca7-opinion-17-1299-2018.pdf` tr. 1 (N2) | khối đầu trang từ "United States Court of Appeals / For the Seventh Circuit" tới "Defendant-Appellant." — **cắt dưới trước** dòng "Appeal from…" (dòng đó có tên thẩm phán quận, tên này nằm trong danh sách cấm của tập) | UNITED STATES OF AMERICA v. OLAYINKA I. SUNMOLA · No. 17-1299 | S054 | NGUON §4: trang được dùng |
-| T03 | như T01, tr. 17 | câu "The judge mentioned general deterrence in a mere four sentences out of the eight-page transcript from his oral statement." | a mere four sentences out of the eight-page transcript | S059 | **ĐỀ XUẤT — cần điều phối thêm tr. 17 vào NGUON §4** (tr. 17 không có tên/chi tiết cấm; đã đọc chữ trang ở MR-S23). Không duyệt → thay bằng L2 G14 |
 | T04 | như T01, tr. 18 | "III. CONCLUSION / For the foregoing reasons, we AFFIRM." | we AFFIRM | S054 | NGUON §4: trang được dùng |
 | Q01 | N1 (USAO S.D. Ill., Feb. 2, 2017) | thẻ trích nền ngà | “Prince Charming” — U.S. Attorney's Office, Southern District of Illinois | S006 | Chữ = `chu` S006 nguyên văn |
 | Q02 | N2 tr. 17 | thẻ trích nền ngà | “the most devastating crime one could ever imagine without someone laying hands or even eyes on another human being” — the sentencing judge, as quoted by the U.S. Court of Appeals for the Seventh Circuit | S008 | Chữ = `chu` S008 nguyên văn; nếu điều phối duyệt tr. 17 có thể thay bằng crop trang |
 
-Trang/vùng cấm (NGUON.md §4): N2 tr. 2 (đoạn nhánh P06; bang nạn nhân), tr. 8, tr. 4 và 14 (tên điều tra viên), tr. 11–12, tr. 14 (tên dịch vụ chuyển tiền, trang hẹn hò); N2 tr. 1 dòng "Appeal from…" (tên thẩm phán quận); N2 tr. 10 (có câu trích lời bị cáo và chủ đề khủng bố — không crop); mọi ảnh chụp thông cáo N1.
+Trang/vùng cấm (NGUON.md §4): N2 tr. 2 (đoạn nhánh P06; bang nạn nhân), tr. 8, tr. 4 và 14 (tên điều tra viên), tr. 11–12, tr. 14 (tên dịch vụ chuyển tiền, trang hẹn hò); N2 tr. 1 dòng "Appeal from…" (tên thẩm phán quận); N2 tr. 10 (có câu trích lời bị cáo và chủ đề khủng bố — không crop); mọi ảnh chụp thông cáo N1. **Đề xuất (chưa dùng):** N2 tr. 17 câu "The judge mentioned general deterrence in a mere four sentences out of the eight-page transcript…" làm crop cho S059 — cần điều phối thêm vào NGUON §4 (trang không có tên/chi tiết cấm); hiện S059 dùng L2 G14.
 
 ## 4. Khoảnh khắc ảnh→clip (Veo 3.1 Lite, 5 ≤ 5; khung đầu = tranh L1 KHÔNG người — BAI-HOC tập 1 mục 2)
 
 | Mã | Khung đầu (tranh) | Chuyển động (lời Veo khẳng định, mô tả cái có trong khung) | Neo cuối | Câu | Rủi ro / QC |
 |---|---|---|---|---|---|
-| K1 | `s001` — A laptop glowing in a dark living room, its screen a soft blank white rectangle, a sofa th… | The laptop screen glows brighter as a soft blank white rectangle, gently pulsing; lamp light flickers softly on the sofa throw. | The glowing laptop on the empty sofa. | S001 | Màn hình trơn — không giao diện, không chữ |
-| K2 | `s043` — Plain cardboard boxes taped shut and stacked by a front door, blank labels, morning light;… | Slow push-in on the stack of taped cardboard boxes by the door; morning light moves across the blank labels; dust drifts. | The stacked boxes by the closed door. | S024 | Nhãn phải trắng trơn (Veo hay mọc chữ trên nhãn — V5/V8) |
+| K1 | `s001` — A dark living room at night, a lamp glowing softly, thin curtains at an open window, a sof… | The thin curtains move in a night breeze; the lamp light flickers softly on the sofa throw; slow push-in. | The quiet lamp-lit room; nobody present. | S001 | Khung đầu không màn hình (BAI-HOC mục 2) |
+| K2 | `s048` — Dawn light across an empty wooden front porch, a potted plant and a plain bench; nobody pr… | Morning light slowly sweeps across the empty porch boards; leaves of the plant stir; dust drifts. | The bright empty porch. | S024 | Khung đầu không nhãn/chữ (BAI-HOC mục 2); hộp hàng chỉ ở tranh tĩnh |
 | K3 | `s075` — An empty airport departure gate at night seen through glass, an aircraft waiting outside, … | Through the glass of the empty gate the waiting aircraft's lights blink slowly; reflections slide across the glass; nobody present. | The empty gate and the aircraft at night. | S040 | Không logo hãng, không bảng chuyến bay |
 | K4 | `s080` — An empty wood-paneled courtroom in soft morning light, plain wooden walls and benches, dus… | Slow push-in toward the empty bench; dust drifts in the sunbeam; light brightens a little. | The empty courtroom bench in morning light. | S043 | Không con dấu, không cờ |
 | K5 | `s122` — A sunrise window over a quiet room, a closed laptop on the table, warm light; nobody prese… | Sunrise light slowly fills the quiet room; curtains move softly; the closed laptop stays on the table. | The bright room with the closed laptop; nobody present. | S077 | Không thêm người |
@@ -158,8 +157,8 @@ QC mỗi clip (M-c): không người/mặt, không chữ/số/logo mọc ra (V5/
 
 | Mã | Loại | Mô tả cảnh (EN, gốc lời sinh) | Dùng ở |
 |---|---|---|---|
-| s001 | E | A laptop glowing in a dark living room, its screen a soft blank white rectangle, a sofa throw and a cold cup of tea nearby; nobody present. | S001, S009 |
-| s002 | N1 | The woman (N1) seen from behind on the sofa, lit by the laptop glow, leaning in to read; the screen is a soft blank white rectangle. | S001, S062 |
+| s001 | E | A dark living room at night, a lamp glowing softly, thin curtains at an open window, a sofa throw and a cold cup of tea; nobody present. | S001 |
+| s002 | E | A laptop glowing in a dark living room, its screen a soft blank white rectangle, a sofa throw and a cold cup of tea nearby; nobody present. | S001 |
 | s003 | E | A single empty profile frame glowing on a dark screen: a flat grey head-and-shoulders outline with a small question mark, no photo. | S002, S014 |
 | s004 | E | A world map drawn on old paper on a desk at night with a single pin of light far away; no labels. | S002 |
 | s005 | E | A desk at night with a plain laptop and a stack of blank cardboard boxes beside it, lamp light; nobody present. | S003 |
@@ -174,9 +173,9 @@ QC mỗi clip (M-c): không người/mặt, không chữ/số/logo mọc ra (V5/
 | s014 | E | A gavel resting on its block under soft courtroom light, nobody present. | S007 |
 | s015 | E | A tall window in an empty courtroom with dust drifting in the light, nobody present. | S008 |
 | s016 | E | An open notebook with a red pencil and three blank lines circled, warm desk lamp; symbolic of red flags. | S009 |
-| s017 | N1 | The woman (N1) seen in profile in lamp light, thoughtful, her laptop closed in front of her. | S009 |
+| s017 | N1 | The woman (N1) seen from behind on the sofa, lit by the laptop glow, leaning in to read; the screen is a soft blank white rectangle. | S009, S062 |
 | s018 | E | A rural post office counter at dusk with a stack of plain parcels and an old scale, nobody present, no signs. | S010 |
-| s019 | N1 | The woman (N1) at her kitchen table holding a plain blank letter, troubled, evening light. | S010 |
+| s019 | E | A plain sealed envelope resting on a post office counter beside an old scale, evening light; nobody present. | S010 |
 | s020 | E | An envelope and a plain complaint form with blurred unreadable lines on a desk, pen beside it. | S010 |
 | s021 | E | A wall of empty picture frames in a dark hallway, one lit; symbolic of fictitious profiles. | S011 |
 | s022 | E | A notebook listing many blank lines, each with a small grey outline icon, under a lamp; symbolic. | S011 |
@@ -188,24 +187,24 @@ QC mỗi clip (M-c): không người/mặt, không chữ/số/logo mọc ra (V5/
 | s028 | E | A shattered padlock icon drawn as a simple metal padlock broken open on a dark desk beside a laptop; symbolic of hacked accounts. | S015 |
 | s029 | E | A shoebox of loose blank photo prints, all white, scattered on a table under a lamp. | S015 |
 | s030 | E | A hand-drawn chain of grey profile outlines on paper, linked by thin lines; symbolic. | S015 |
-| s031 | E | Several blank photo prints turned face-down on a table, one lifted by the light; nobody present. | S016 |
-| s032 | E | A row of plain coat hooks with nothing hanging, soft hallway light. | S016 |
-| s033 | E | A quiet empty government building corridor at dawn, plain walls, no flags or signs. | S017 |
-| s034 | E | A plain wooden desk name stand with no name, alone on an empty desk. | S017 |
-| s035 | N1 | The woman (N1) smiling softly at a bouquet of flowers on her table, morning light, a small stuffed bear beside it. | S018, S067 |
-| s036 | E | A plain greeting card standing open on a windowsill, blank inside, flowers and a box of chocolates beside it. | S018 |
-| s037 | E | A handwritten-style letter with every line blurred and unreadable, tied with a ribbon, beside a teacup. | S018 |
-| s038 | E | A city map spread on a desk with a magnifying glass over unlabeled streets, lamp at night. | S019 |
-| s039 | R | Hands in plain sleeves typing on a laptop in a dark room, the screen a soft blank glow; only hands. | S019 |
-| s040 | E | A tourist postcard rack with all cards blank white, at dusk; no city names. | S019 |
-| s041 | N1 | The woman (N1) reading at her laptop late at night, worried expression, the screen a soft blank glow. | S020 |
-| s042 | E | A sealed padded envelope and a roll of tape on a kitchen counter, evening light. | S020 |
-| s043 | E | Plain cardboard boxes taped shut and stacked by a front door, blank labels, morning light; nobody present. | S021, S069 |
-| s044 | E | A bank counter at closing time with an empty pen chained to the desk, soft light, no signs. | S021 |
-| s045 | E | A desk with blank government-style folders and a closed laptop, cold light; symbolic of a fake mission. | S022 |
-| s046 | E | A plain wooden desk with an unmarked brass compass and a folded paper map; symbolic of a mission. | S022 |
-| s047 | E | A plain olive duffel bag with no markings left on an empty bench at dusk; symbolic. | S023 |
-| s048 | E | Laptops, tablets and phones in plain unbranded boxes on a table, packing tape beside them. | S024 |
+| s031 | E | A row of empty coat hooks in a quiet hallway, soft light; nobody present. | S016 |
+| s032 | E | A quiet empty government building corridor at dawn, plain walls, no flags or signs. | S017 |
+| s033 | E | A plain wooden desk name stand with no name, alone on an empty desk. | S017 |
+| s034 | N1 | The woman (N1) smiling softly at a bouquet of flowers on her table, morning light, a small stuffed bear beside it. | S018, S067 |
+| s035 | E | A plain greeting card standing open on a windowsill, blank inside, flowers and a box of chocolates beside it. | S018 |
+| s036 | E | A handwritten-style letter with every line blurred and unreadable, tied with a ribbon, beside a teacup. | S018 |
+| s037 | E | A city map spread on a desk with a magnifying glass over unlabeled streets, lamp at night. | S019 |
+| s038 | R | Hands in plain sleeves typing on a laptop in a dark room, the screen a soft blank glow; only hands. | S019 |
+| s039 | E | A tourist postcard rack with all cards blank white, at dusk; no city names. | S019 |
+| s040 | N1 | The woman (N1) reading at her laptop late at night, worried expression, the screen a soft blank glow. | S020 |
+| s041 | E | A sealed padded envelope and a roll of tape on a kitchen counter, evening light. | S020 |
+| s042 | E | Plain cardboard boxes taped shut and stacked by a front door, blank labels, morning light; nobody present. | S021, S069 |
+| s043 | E | A bank counter at closing time with an empty pen chained to the desk, soft light, no signs. | S021 |
+| s044 | E | A desk with blank government-style folders and a closed laptop, cold light; symbolic of a fake mission. | S022 |
+| s045 | E | A plain wooden desk with an unmarked brass compass and a folded paper map; symbolic of a mission. | S022 |
+| s046 | E | A plain olive duffel bag with no markings left on an empty bench at dusk; symbolic. | S023 |
+| s047 | E | Laptops, tablets and phones in plain unbranded boxes on a table, packing tape beside them. | S024 |
+| s048 | E | Dawn light across an empty wooden front porch, a potted plant and a plain bench; nobody present. | S024 |
 | s049 | E | A shipping label stuck on a box with every line blank, a pen resting on top. | S025 |
 | s050 | E | A hotel reception desk at night, a bell on the counter, nobody present, no signs. | S025 |
 | s051 | E | A dark living room after midnight, the laptop closed on the sofa, a cup left on the table; nobody present. | S027 |
@@ -274,7 +273,7 @@ QC mỗi clip (M-c): không người/mặt, không chữ/số/logo mọc ra (V5/
 | s114 | E | A single glowing heart outline drawn on a foggy window; symbolic. | S062 |
 | s115 | N1 | The woman (N1) holding a warm cup by a window at dawn, calm, gentle light. | S063 |
 | s116 | E | Two cups of tea on a small table by a window, morning light; warm and safe. | S063 |
-| s117 | E | An old photo frame lying face-down on a shelf, dust in the light; symbolic of past relationships. | S063b |
+| s117 | E | An old wooden bench on an empty pier at dusk, still water; symbolic of the past. | S063b |
 | s118 | E | A closed old diary with a ribbon on a shelf, soft light. | S063b |
 | s119 | E | A high fence and a distant prison building at dusk, plain, no signs. | S064 |
 | s120 | E | A calendar on a plain wall with many blank pages ahead, no numbers. | S064 |

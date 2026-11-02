@@ -2,7 +2,7 @@
 
 > MR-S23 · 02/11/2026 · **dựng máy** `python3 scripts/mrs23/uoc_chi.py tap03` từ `loi.json` + `SHOT2.md` (`reports/mrs23/shot2_tap03.json`). **Thay** bản MR-K23 (bản đó tính Veo tả thực 10 khe, không có tranh). **MR-S23 chi 0 USD.**
 > **Đơn giá đo thật** (`docs/BAI-HOC.md` tập 1): tranh Nano Banana 2.1 16:9 1K **0,0389 USD**, sinh lại ~5 %; Veo 3.1 Lite 1080p 8 s **0,40 USD × 1,44 lượt/khe**; TTS `eleven_v4` **0,4401** ký tự tính / ký tự gửi; nhạc **825 ký tự/phút**; nhịp **155 từ/phút**.
-> Đầu vào đo trên repo: **1735 từ đọc**, **10.752 ký tự gửi TTS/lượt**; SHOT2: **144 tranh mới** + 2 tham chiếu, **5 khoảnh khắc ảnh→clip**, 17 đồ hoạ L2 + 5 L3 (mã, 0 USD); thời lượng ước 12:21.
+> Đầu vào đo trên repo: **1735 từ đọc**, **10.752 ký tự gửi TTS/lượt**; SHOT2: **144 tranh mới** + 2 tham chiếu, **5 khoảnh khắc ảnh→clip**, 17 đồ hoạ L2 + 4 L3 (mã, 0 USD); thời lượng ước 12:21.
 
 ## 1. Giả định
 

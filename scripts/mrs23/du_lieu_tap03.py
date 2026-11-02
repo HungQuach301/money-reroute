@@ -25,7 +25,7 @@ LUAT_RIENG = [
 
 SC = {
  # P00
- "S001": ["E#laptop_dem: A laptop glowing in a dark living room, its screen a soft blank white rectangle, a sofa throw and a cold cup of tea nearby; nobody present.", "K1*1.6", "N1#n1_laptop: The woman (N1) seen from behind on the sofa, lit by the laptop glow, leaning in to read; the screen is a soft blank white rectangle."],
+ "S001": ["E#phong_khach: A dark living room at night, a lamp glowing softly, thin curtains at an open window, a sofa throw and a cold cup of tea; nobody present.", "K1*1.4", "E#laptop_dem: A laptop glowing in a dark living room, its screen a soft blank white rectangle, a sofa throw and a cold cup of tea nearby; nobody present."],
  "S002": ["E#khung_trong: A single empty profile frame glowing on a dark screen: a flat grey head-and-shoulders outline with a small question mark, no photo.", "G01*1.4", "E: A world map drawn on old paper on a desk at night with a single pin of light far away; no labels."],
  "S003": ["G01*1.2", "E: A desk at night with a plain laptop and a stack of blank cardboard boxes beside it, lamp light; nobody present.", "E: A plain olive canvas duffel bag with no markings resting by an empty doorway; symbolic of a claimed assignment."],
  "S004": ["E: A plain profile frame cracked down the middle on a dark screen, flat grey outline, no photo."],
@@ -33,16 +33,16 @@ SC = {
  "S006": ["Q01*1.4", "E: A paper crown made of folded blank paper on a table, soft spotlight; symbolic fairy-tale prince."],
  "S007": ["G02*1.5", "E: A long empty prison corridor in soft muted light, rows of closed plain doors; nobody present."],
  "S008": ["Q02*1.6", "E: A tall window in an empty courtroom with dust drifting in the light, nobody present."],
- "S009": ["E: An open notebook with a red pencil and three blank lines circled, warm desk lamp; symbolic of red flags.", "@laptop_dem"],
+ "S009": ["E: An open notebook with a red pencil and three blank lines circled, warm desk lamp; symbolic of red flags.", "N1#n1_laptop: The woman (N1) seen from behind on the sofa, lit by the laptop glow, leaning in to read; the screen is a soft blank white rectangle."],
  # P01
- "S010": ["E: A rural post office counter at dusk with a stack of plain parcels and an old scale, nobody present, no signs.", "N1: The woman (N1) at her kitchen table holding a plain blank letter, troubled, evening light."],
+ "S010": ["E: A rural post office counter at dusk with a stack of plain parcels and an old scale, nobody present, no signs.", "E: A plain sealed envelope resting on a post office counter beside an old scale, evening light; nobody present."],
  "S011": ["G03*1.6", "E: A wall of empty picture frames in a dark hallway, one lit; symbolic of fictitious profiles."],
  "S012": ["G03*1.2", "E: An aerial view at night of a vast suburban grid with countless lit windows; symbolic, no landmarks.", "R: Distant silhouettes of a few men around a table in a dim room, backlit, seen from behind; no faces."],
  # P02
  "S013": ["G04*1", "E: A wall calendar with plain blank squares turning back through many pages; no numbers."],
  "S014": ["@khung_trong", "E: A row of identical empty profile frames lined up on a dark screen, flat grey outlines, no photos.", "G04*1"],
  "S015": ["E: A shattered padlock icon drawn as a simple metal padlock broken open on a dark desk beside a laptop; symbolic of hacked accounts.", "E: A shoebox of loose blank photo prints, all white, scattered on a table under a lamp."],
- "S016": ["E: Several blank photo prints turned face-down on a table, one lifted by the light; nobody present."],
+ "S016": ["E: A row of empty coat hooks in a quiet hallway, soft light; nobody present."],
  "S017": ["E: A quiet empty government building corridor at dawn, plain walls, no flags or signs."],
  # P03
  "S018": ["N1#n1_qua: The woman (N1) smiling softly at a bouquet of flowers on her table, morning light, a small stuffed bear beside it.", "E: A plain greeting card standing open on a windowsill, blank inside, flowers and a box of chocolates beside it."],
@@ -52,7 +52,7 @@ SC = {
  "S021": ["E#hop: Plain cardboard boxes taped shut and stacked by a front door, blank labels, morning light; nobody present.", "G05*1", "E: A bank counter at closing time with an empty pen chained to the desk, soft light, no signs."],
  "S022": ["G05*1", "E: A desk with blank government-style folders and a closed laptop, cold light; symbolic of a fake mission."],
  "S023": ["E: A plain olive duffel bag with no markings left on an empty bench at dusk; symbolic."],
- "S024": ["G05*1", "K2*1.3", "E: Laptops, tablets and phones in plain unbranded boxes on a table, packing tape beside them."],
+ "S024": ["E: Laptops, tablets and phones in plain unbranded boxes on a table, packing tape beside them.", "E#hien_nha: Dawn light across an empty wooden front porch, a potted plant and a plain bench; nobody present.", "K2*1.3"],
  "S025": ["G06*1.5", "E: A shipping label stuck on a box with every line blank, a pen resting on top."],
  "S026": ["G06*1", "@sun_cua"],
  "S027": ["G07*1.6", "E: A dark living room after midnight, the laptop closed on the sofa, a cup left on the table; nobody present.", "N1: The woman (N1) seen from behind at a window at dawn, alone, holding a dark phone."],
@@ -94,12 +94,12 @@ SC = {
  "S056": ["E: A theatrical mask of plain white cardboard lying on a dark table under a spotlight; symbolic of a false role.", "E: An empty chair in front of a mirror reflecting only a dark room; symbolic of a false image."],
  "S057": ["E: A quiet empty corridor in a government building at dawn, no flags or signs."],
  "S058": ["G14*1", "E: A pencil eraser and a calculator beside a stack of blank financial pages, desk lamp."],
- "S059": ["T03*1.4", "G14*1"],
+ "S059": ["G14*1.4"],
  "S060": ["E: A dating-style profile card drawn as a blank white card with a small heart outline, lying on a dark table.", "G14*1"],
  "S061": ["N1: The woman (N1) sitting alone on a park bench in autumn, seen from the side, quiet; no other people.", "E: A kitchen table set for one, warm evening light."],
  "S062": ["@n1_laptop", "E: A lighted window in an apartment building at night, one among many dark ones."],
  "S063": ["N1: The woman (N1) holding a warm cup by a window at dawn, calm, gentle light."],
- "S063b": ["E: An old photo frame lying face-down on a shelf, dust in the light; symbolic of past relationships."],
+ "S063b": ["E: An old wooden bench on an empty pier at dusk, still water; symbolic of the past."],
  "S064": ["E: A high fence and a distant prison building at dusk, plain, no signs.", "E: A calendar on a plain wall with many blank pages ahead, no numbers."],
  # P12
  "S065": ["E#binh_minh: A sunrise window over a quiet room, a closed laptop on the table, warm light; nobody present.", "G15*1"],
@@ -130,7 +130,7 @@ OV = {
 L2 = {
  "G01": {"hoi": "Hắn tự nhận là ai?", "noi_dung": "Khung hồ sơ trống lật hai mặt theo lời: \"American soldier · stranded in Nigeria · on a mission\" → \"colonel, U.S. Army · deployed to South Africa · needs computer equipment\" → dấu \"MISREPRESENTED — per the court\"", "nhan": "dấu MISREPRESENTED", "tang": "● CONVICTED · per 7th Cir. opinion"},
  "G02": {"hoi": "Án nặng cỡ nào?", "noi_dung": "Bộ đếm 0 → 324 MONTHS → quy đổi = 27 YEARS (năm ô năm hiện dần)", "nhan": "27 YEARS", "tang": "● CONVICTED"},
- "G03": {"hoi": "Một người đàn ông hay một hệ thống hồ sơ giả?", "noi_dung": "2012: một khiếu nại (một chấm) → mở ra lưới hàng chục khung hồ sơ trống (\"dozens of fictitious profiles\", per prosecutors) → bản đồ Mỹ phẳng nhiều chấm \"hundreds of women\" ◐", "nhan": "khung đầu tiên giữa lưới", "tang": "◐ ALLEGED · per prosecutors"},
+ "G03": {"hoi": "Một người đàn ông hay một hệ thống hồ sơ giả?", "noi_dung": "2012: một khiếu nại (một chấm) → mở ra lưới hàng chục khung hồ sơ trống (\"dozens of fictitious profiles\", per prosecutors) → bản đồ Mỹ phẳng nhiều chấm **rải ngẫu nhiên, không theo bang/thành phố** \"hundreds of women\" ◐", "nhan": "khung đầu tiên giữa lưới", "tang": "◐ ALLEGED · per prosecutors"},
  "G04": {"hoi": "Bắt đầu khi nào, từ đâu, bằng gì?", "noi_dung": "Trục: March 2008 · South Africa → khung hồ sơ \"fictitious names\" · \"successful businessmen\" · \"pictures of men in U.S. military uniforms\" (chữ, không hình quân phục)", "nhan": "mốc March 2008", "tang": "● CONVICTED · per 7th Cir. opinion"},
  "G05": {"hoi": "Từ tin cậy tới yêu cầu: tiền và hàng đi theo đường nào?", "noi_dung": "Thanh \"trust\" đầy dần (thơ, thiệp, hoa — icon) → ô \"REQUESTS: money · electronics\" → \"false claims of financial distress\" → \"for work on behalf of the U.S. government\" gạch đứt", "nhan": "ô REQUESTS", "tang": "● per 7th Cir. opinion; S024 ◐"},
  "G06": {"hoi": "Gửi cho ai thật sự?", "noi_dung": "Ba nhãn \"driver\" · \"co-worker\" · \"hotel manager\" + tên \"Ilumsa Sunmola\" → cả ba mũi tên gộp vào MỘT bóng \"Sunmola himself\" (per prosecutors)", "nhan": "cú gộp ba thành một", "tang": "◐ ALLEGED · per prosecutors"},
@@ -148,15 +148,14 @@ L2 = {
 }
 L3 = {
  "T01": ("`ho-so/romance-sunmola/ca7-opinion-17-1299-2018.pdf` tr. 1 (N2)", "khối đầu trang từ \"United States Court of Appeals / For the Seventh Circuit\" tới \"Defendant-Appellant.\" — **cắt dưới trước** dòng \"Appeal from…\" (dòng đó có tên thẩm phán quận, tên này nằm trong danh sách cấm của tập)", "UNITED STATES OF AMERICA v. OLAYINKA I. SUNMOLA · No. 17-1299", "NGUON §4: trang được dùng"),
- "T03": ("như T01, tr. 17", "câu \"The judge mentioned general deterrence in a mere four sentences out of the eight-page transcript from his oral statement.\"", "a mere four sentences out of the eight-page transcript", "**ĐỀ XUẤT — cần điều phối thêm tr. 17 vào NGUON §4** (tr. 17 không có tên/chi tiết cấm; đã đọc chữ trang ở MR-S23). Không duyệt → thay bằng L2 G14"),
  "T04": ("như T01, tr. 18", "\"III. CONCLUSION / For the foregoing reasons, we AFFIRM.\"", "we AFFIRM", "NGUON §4: trang được dùng"),
  "Q01": ("N1 (USAO S.D. Ill., Feb. 2, 2017)", "thẻ trích nền ngà", "“Prince Charming” — U.S. Attorney's Office, Southern District of Illinois", "Chữ = `chu` S006 nguyên văn"),
  "Q02": ("N2 tr. 17", "thẻ trích nền ngà", "“the most devastating crime one could ever imagine without someone laying hands or even eyes on another human being” — the sentencing judge, as quoted by the U.S. Court of Appeals for the Seventh Circuit", "Chữ = `chu` S008 nguyên văn; nếu điều phối duyệt tr. 17 có thể thay bằng crop trang"),
 }
-CAM_L3 = "N2 tr. 2 (đoạn nhánh P06; bang nạn nhân), tr. 8, tr. 4 và 14 (tên điều tra viên), tr. 11–12, tr. 14 (tên dịch vụ chuyển tiền, trang hẹn hò); N2 tr. 1 dòng \"Appeal from…\" (tên thẩm phán quận); N2 tr. 10 (có câu trích lời bị cáo và chủ đề khủng bố — không crop); mọi ảnh chụp thông cáo N1."
+CAM_L3 = "N2 tr. 2 (đoạn nhánh P06; bang nạn nhân), tr. 8, tr. 4 và 14 (tên điều tra viên), tr. 11–12, tr. 14 (tên dịch vụ chuyển tiền, trang hẹn hò); N2 tr. 1 dòng \"Appeal from…\" (tên thẩm phán quận); N2 tr. 10 (có câu trích lời bị cáo và chủ đề khủng bố — không crop); mọi ảnh chụp thông cáo N1. **Đề xuất (chưa dùng):** N2 tr. 17 câu \"The judge mentioned general deterrence in a mere four sentences out of the eight-page transcript…\" làm crop cho S059 — cần điều phối thêm vào NGUON §4 (trang không có tên/chi tiết cấm); hiện S059 dùng L2 G14."
 VEO = {
- "K1": {"tu": "laptop_dem", "chuyen_dong": "The laptop screen glows brighter as a soft blank white rectangle, gently pulsing; lamp light flickers softly on the sofa throw.", "neo_cuoi": "The glowing laptop on the empty sofa.", "qc": "Màn hình trơn — không giao diện, không chữ"},
- "K2": {"tu": "hop", "chuyen_dong": "Slow push-in on the stack of taped cardboard boxes by the door; morning light moves across the blank labels; dust drifts.", "neo_cuoi": "The stacked boxes by the closed door.", "qc": "Nhãn phải trắng trơn (Veo hay mọc chữ trên nhãn — V5/V8)"},
+ "K1": {"tu": "phong_khach", "chuyen_dong": "The thin curtains move in a night breeze; the lamp light flickers softly on the sofa throw; slow push-in.", "neo_cuoi": "The quiet lamp-lit room; nobody present.", "qc": "Khung đầu không màn hình (BAI-HOC mục 2)"},
+ "K2": {"tu": "hien_nha", "chuyen_dong": "Morning light slowly sweeps across the empty porch boards; leaves of the plant stir; dust drifts.", "neo_cuoi": "The bright empty porch.", "qc": "Khung đầu không nhãn/chữ (BAI-HOC mục 2); hộp hàng chỉ ở tranh tĩnh"},
  "K3": {"tu": "cong_bay", "chuyen_dong": "Through the glass of the empty gate the waiting aircraft's lights blink slowly; reflections slide across the glass; nobody present.", "neo_cuoi": "The empty gate and the aircraft at night.", "qc": "Không logo hãng, không bảng chuyến bay"},
  "K4": {"tu": "phong_xu", "chuyen_dong": "Slow push-in toward the empty bench; dust drifts in the sunbeam; light brightens a little.", "neo_cuoi": "The empty courtroom bench in morning light.", "qc": "Không con dấu, không cờ"},
  "K5": {"tu": "binh_minh", "chuyen_dong": "Sunrise light slowly fills the quiet room; curtains move softly; the closed laptop stays on the table.", "neo_cuoi": "The bright room with the closed laptop; nobody present.", "qc": "Không thêm người"},
@@ -170,12 +169,10 @@ CHEN = {
  "S005": ["E: A night skyline of a generic large city across a dark bay, warm haze, no landmarks."],
  "S006": ["E: A fairy-tale storybook lying closed on a table, plain cover with no title, soft light."],
  "S007": ["E: A gavel resting on its block under soft courtroom light, nobody present."],
- "S009": ["N1: The woman (N1) seen in profile in lamp light, thoughtful, her laptop closed in front of her."],
  "S010": ["E: An envelope and a plain complaint form with blurred unreadable lines on a desk, pen beside it."],
  "S011": ["E: A notebook listing many blank lines, each with a small grey outline icon, under a lamp; symbolic."],
  "S013": ["E: A dark desk with a laptop and a dozen phones lined up, screens off, a lamp; nobody present."],
  "S015": ["E: A hand-drawn chain of grey profile outlines on paper, linked by thin lines; symbolic."],
- "S016": ["E: A row of plain coat hooks with nothing hanging, soft hallway light."],
  "S017": ["E: A plain wooden desk name stand with no name, alone on an empty desk."],
  "S018": ["E: A handwritten-style letter with every line blurred and unreadable, tied with a ribbon, beside a teacup."],
  "S019": ["E: A tourist postcard rack with all cards blank white, at dusk; no city names."],

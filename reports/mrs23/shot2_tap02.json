@@ -2,16 +2,16 @@
  "tap": "tap02-irs-callcenter-patel",
  "tong_s": 772.8,
  "lời_va_the_s": 744.8,
- "canh": 183,
- "tranh_moi": 103,
+ "canh": 185,
+ "tranh_moi": 106,
  "tranh_theo_loai": {
-  "E": 85,
+  "E": 88,
   "R": 8,
   "N1": 7,
   "N2": 3
  },
- "l1_canh": 124,
- "l1_tb_s": 3.57,
+ "l1_canh": 127,
+ "l1_tb_s": 3.56,
  "l2": [
   "G01",
   "G02",
@@ -32,7 +32,6 @@
  "l2_canh": 47,
  "l3": [
   "T01",
-  "T02",
   "T03",
   "T04",
   "Q01",

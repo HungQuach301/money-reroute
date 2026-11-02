@@ -9,8 +9,8 @@
 | Tệp | Tập 2 — Patel | Tập 3 — Sunmola |
 |---|---|---|
 | `loi.json` + `LOI.md` (dựng máy) | S021 sửa (§2); `loi: []` | S023 → thẻ chữ (§2); `loi: []` |
-| `SHOT2.md` (mới, dựng máy; `SHOT.md` giữ làm lịch sử) | 183 cảnh · ước **12:53** | 210 cảnh · ước **12:21** |
-| `UOC-CHI.md` (thay bản MR-K23) | giữa **7,59 USD** + ≈ 9.909 ký tự | giữa **9,43 USD** + ≈ 9.452 ký tự |
+| `SHOT2.md` (mới, dựng máy; `SHOT.md` giữ làm lịch sử) | 185 cảnh · ước **12:53** | 207 cảnh · ước **12:21** |
+| `UOC-CHI.md` (thay bản MR-K23) | giữa **7,72 USD** + ≈ 9.909 ký tự | giữa **9,43 USD** + ≈ 9.452 ký tự |
 | `PHUONG-AN.md` mục 00 (mới) | T1 đã duyệt · 3 tiêu đề Short · luật thumbnail | như trên |
 | `phat-hanh/THUMBNAIL-RULES.txt` (mới) | dán nguyên vào công cụ ảnh (khuôn tập 1) | như trên |
 | `kiem/mrs23.md` | 2 vòng kiểm câu đổi | 1 vòng kiểm câu đổi |
@@ -39,10 +39,10 @@ Công cụ mới (`scripts/mrs23/`, 0 USD, dựng lại được): `shot2.py` (b
 | | Tập 2 | Tập 3 |
 |---|---|---|
 | Cảnh / câu | 1–3 (máy kiểm) | 1–3 |
-| L1 tranh | 124 cảnh, TB 3,6 s · **103 tranh mới** (vật/cảnh trống 85 · người thật bóng/lưng/tay 8 · N1 7 · N2 3) | 152 cảnh, TB 3,0 s · **144 tranh mới** (125 · 4 · N1 13 · N2 2) |
+| L1 tranh | 127 cảnh, TB 3,6 s · **106 tranh mới** (vật/cảnh trống 88 · người thật bóng/lưng/tay 8 · N1 7 · N2 3) | 151 cảnh, TB 3,1 s · **144 tranh mới** (127 · 4 · N1 11 · N2 2) |
 | L2 đồ hoạ động | **15** (G01–G15) + thẻ tổng kết, nguồn | **17** (G01–G17) + thẻ tổng kết, nguồn |
-| L3 hồ sơ thật | 4 crop N1 tr. 3, 6 + 2 thẻ trích nguyên văn | 2 crop N2 tr. 1, 18 + 1 crop đề xuất tr. 17 + 2 thẻ trích |
-| Veo ảnh→clip | **5**, khung đầu đều tranh loại E (không người) | **5**, như trên |
+| L3 hồ sơ thật | 3 crop N1 tr. 3 (¶1 a), tr. 6 (¶2 g) + 2 thẻ trích nguyên văn | 2 crop N2 tr. 1, 18 + 2 thẻ trích |
+| Veo ảnh→clip | **5**, khung đầu đều tranh loại E: không người, không màn hình/thẻ/nhãn (cửa sổ bếp, mưa trên kính, châu thổ, cánh máy bay, bếp sáng) | **5**, như trên (phòng khách đèn, hiên nhà, cổng bay, phòng xử, bình minh) |
 | Nhân vật đại diện | N1 người nghe máy (nam ~55, cardigan navy); N2 người con | N1 người phụ nữ (~50, khăn hổ phách); N2 người bạn |
 
 **Máy kiểm `shot2.py` — ĐẠT cả hai tập.** Các luật máy kiểm:
@@ -57,7 +57,7 @@ Công cụ mới (`scripts/mrs23/`, 0 USD, dựng lại được): `shot2.py` (b
 - tập 3 S033 chỉ là thẻ tối 6 s, không tranh, không nhạc.
 
 Quyết định thiết kế cần điều phối biết:
-1. **Mật độ.** Lệnh giới hạn 1–3 cảnh/câu, nên số tranh (103 / 144) thấp hơn mức ~190 tranh/tập của PHONG-CACH-HINH §6, và cảnh L1 trung bình 3,6 s / 3,0 s (chuẩn ~2,5 s).
+1. **Mật độ.** Lệnh giới hạn 1–3 cảnh/câu, nên số tranh (106 / 144) thấp hơn mức ~190 tranh/tập của PHONG-CACH-HINH §6, và cảnh L1 trung bình 3,6 s / 3,0 s (chuẩn ~2,5 s).
    - SHOT2 ghi luật: cảnh tranh > 5 s tách thành 2 khung cắt của **cùng** tranh, không tốn thêm tiền.
    - Nếu muốn đúng mật độ, dùng mức "cao" của UOC-CHI (+40 % tranh).
 2. **Mốc là ước.** Chưa có giọng, nên mốc tính theo 155 từ/phút. Ở M-c thay bằng mốc whisper như tập 1.
@@ -68,8 +68,8 @@ Quyết định thiết kế cần điều phối biết:
 4. **L3 tập 3.**
    - N2 tr. 1 chỉ crop tới "Defendant-Appellant.", vì dòng "Appeal from…" có tên thẩm phán quận, tên này nằm trong regex cấm của tập.
    - N2 tr. 10 không crop (có câu trích lời bị cáo và chủ đề khủng bố).
-   - **N2 tr. 17 (T03) là đề xuất**, cần điều phối thêm vào NGUON §4. Không duyệt thì bỏ T03, giữ L2 G14.
-5. **L3 tập 2.** N1 là PDF quét (không có lớp chữ). Vùng crop mô tả theo đoạn; tọa độ đo bằng ảnh trang ở M-d. Đã xem ảnh tr. 3 và tr. 6 để xác định vùng tránh ¶2(f) và ¶3 (tên 5 nhóm call center).
+   - **N2 tr. 17 là đề xuất, chưa dùng** (S059 dùng L2 G14). Điều phối thêm trang vào NGUON §4 thì dùng được làm crop.
+5. **L3 tập 2.** N1 là PDF quét (không có lớp chữ). Vùng crop mô tả theo đoạn; tọa độ đo bằng ảnh trang ở M-d. Đã xem ảnh tr. 3 và tr. 6 để xác định vùng tránh ¶2(f) và ¶3 (tên 5 nhóm call center); cắt bỏ dòng dấu ECF "*SEALED*" đầu trang. ¶1(b) (USCIS) chưa nằm trong vùng NGUON §4 cho phép → S018 dùng L2; đề xuất điều phối thêm.
 
 ## 4. Bước 3 — ước chi + đề xuất trần MỘT phiên M-c+M-d (BAI-HOC mục 9)
 
@@ -77,15 +77,15 @@ Quyết định thiết kế cần điều phối biết:
 
 | | Tập 2 thấp / **giữa** / cao | Tập 3 thấp / **giữa** / cao |
 |---|---|---|
-| OpenRouter (tranh + Veo) | 6,29 / **7,59** / 10,54 USD | 7,96 / **9,43** / 13,11 USD |
+| OpenRouter (tranh + Veo) | 6,41 / **7,72** / 10,73 USD | 7,96 / **9,43** / 13,11 USD |
 | ElevenLabs ký tự tính (TTS + nhạc) | ≈ 8.067 / **9.909** / 15.117 | ≈ 7.680 / **9.452** / 14.414 |
-| **Trần đề xuất** `openrouter_usd` | **9,50** (báo 7,60) | **11,80** (báo 9,44) |
+| **Trần đề xuất** `openrouter_usd` | **9,70** (báo 7,76) | **11,80** (báo 9,44) |
 | **Trần đề xuất** `elevenlabs_chars` (tính) | **12.500** (báo 10.000) · gửi ≤ 24.000 | **12.000** (báo 9.600) · gửi ≤ 22.000 |
-| Số dư cần (trần ≤ số dư − 20 %) | ≥ 11,88 USD khả dụng cho MR | ≥ 14,75 USD |
+| Số dư cần (trần ≤ số dư − 20 %) | ≥ 12,13 USD khả dụng cho MR | ≥ 14,75 USD |
 
 - Mức giữa nằm trong khoảng BAI-HOC ước cho tập sau (≈ 9–11 USD).
 - Tập 2 rẻ hơn vì ít tranh hơn (§3 mục 1).
-- Hai tập chạy liền nhau cần ≈ 21,30 USD trần, tức ≥ 26,63 USD khả dụng. Quỹ OpenRouter chung với lost-places; số dư gần nhất ghi được là 11,83 USD sau MR-6 → **cần nạp trước M-c**.
+- Hai tập chạy liền nhau cần ≈ 21,50 USD trần, tức ≥ 26,88 USD khả dụng. Quỹ OpenRouter chung với lost-places; số dư gần nhất ghi được là 11,83 USD sau MR-6 → **cần nạp trước M-c**.
 
 ## 5. Bước 4 — PHUONG-AN
 
@@ -97,24 +97,48 @@ Quyết định thiết kế cần điều phối biết:
 
   | Tập | Khuyến nghị | Căn cứ |
   |---|---|---|
-  | 2 | **SH1 "He Funded Call Centers in India. He Got 20 Years."** (49) | ●T N4 đ.6 "admitted to operating and funding several India-based call centers"; ● N5 |
+  | 2 | **SH1 "He Funded Fraud Call Centers in India. He Got 20 Years."** (55) | ●T N4 đ.6 "operating and funding several India-based call centers from which the fraud schemes were perpetrated"; ● N5 |
   | 3 | **SH1 "A Fake Colonel, a Romance Scheme, 27 Years in Prison"** (52) | ●C N2 tr. 10 "held himself out as a colonel…"; ● 324 tháng |
 
   - Không tiêu đề Short nào có tên cơ quan bị mạo danh (bài học Short 1).
   - Phương án SH2 tập 2 đã đổi từ "demanded" sang "were told to pay", cho khớp chữ "instructed how to provide payment" ở N4 đ.5.
 - **Luật thumbnail riêng:** ở `PHUONG-AN.md` mục 00 và `phat-hanh/THUMBNAIL-RULES.txt` (khuôn 9 điều cấm của tập 1, giữ nhận diện nền ngà).
-  - Tập 2 thêm: không logo/con dấu cơ quan; không số điện thoại; không định kiến về Ấn Độ; không tên call center.
+  - Tập 2 thêm: **không chữ "IRS"/"USCIS"** trên thumbnail (8e — sửa sau rà độc lập; trước đó bản nháp cho "FAKE IRS CALLS"); không logo/con dấu cơ quan; không số điện thoại; không định kiến về Ấn Độ; không tên call center.
   - Tập 3 thêm: **không người nào** (kể cả bóng), không quân phục/phù hiệu, không giao diện hẹn hò, không gì gợi thân mật, không "Nigerian / Prince Charming / scammer".
 
 ## 6. Rà độc lập bảng shot + tiêu đề Short
 
-@@RA@@
+Một tác tử mới (không đọc báo cáo này) rà `SHOT2.md`, `PHUONG-AN.md` mục 00 và `THUMBNAIL-RULES.txt` của hai tập, tự mở nguồn. Kết quả lượt rà: **cần sửa** ở 5/6 tệp. Đã áp hết các sửa dưới đây (commit thứ hai), rồi chạy lại máy: `shot2.py` ĐẠT cả hai tập.
+
+| Mức | Phát hiện | Đã sửa |
+|---|---|---|
+| Cao | Tập 3 S010: nhân vật đại diện N1 gắn vào câu về **một nạn nhân cụ thể** (người khiếu nại 2012) | Thay bằng tranh chỉ có vật (phong bì trên quầy bưu điện) |
+| Cao | Thumbnail tập 2 cho chữ "FAKE IRS CALLS" — tên cơ quan trên bảng tin không kèm câu KBCB, mâu thuẫn với luật tiêu đề Short | Cấm mọi tên cơ quan trên thumbnail; gợi ý "THE CALLS WERE FAKE"; để chủ dự án quyết nếu muốn áp tiền lệ T1 (§7 mục 6) |
+| Trung bình | Crop ngoài vùng NGUON §4 cho phép: tập 2 ¶1(b) tr. 3; tập 3 tr. 17 vẫn được dùng ở S059 | Bỏ khỏi bảng cảnh, thay bằng L2; ghi thành đề xuất (§7 mục 2). Thêm luật cắt bỏ dòng dấu "*SEALED*" ở crop N1 |
+| Trung bình | Khung đầu Veo có vật vốn mang chữ (màn hình điện thoại/máy tính/laptop, thẻ nhựa, nhãn thùng) — BAI-HOC mục 2 | Đổi cả 5 khung liên quan sang cảnh không chữ (cửa sổ bếp, mưa trên kính, châu thổ, phòng khách, hiên nhà); màn hình sáng làm ở hậu kỳ trên tranh tĩnh (0 USD) |
+| Trung bình | G11 tập 2 dùng cho S046 (◐) mà cột nhãn chỉ ghi ● | Thêm "S046 ◐ ALLEGED" |
+| Trung bình | Tranh gợi điều hồ sơ không nêu: "12 ghế" cho đại bồi thẩm đoàn; "thang máy bay chính phủ" cho dẫn độ | Phòng nhiều hàng ghế không đếm được; hành lang mở ra ánh sáng |
+| Trung bình | Short SH2 tập 3: đoạn gợi ý toàn câu ◐ về nhân vật chính (luật 8b) | Mở rộng đoạn thành S020–S027 (S020–S022 ●C làm trụ) |
+| Thấp | Tập 2: cảnh nạn nhân S010 dùng lại bếp của N1; tranh "cười rửa bát" lệch giọng S069; mô tả đèn tự mâu thuẫn; G04 "hai thẻ" liệt kê ba; S021 thiếu lớp chồng | Sửa cả năm |
+| Thấp | Short SH1 tập 2 bỏ mất hành vi gian lận; ghi chú "giữ S003" không khớp đoạn gợi ý | Đổi thành "He Funded Fraud Call Centers in India. He Got 20 Years." (N4 đ.6 "from which the fraud schemes were perpetrated"); đoạn S002–S006 |
+| Thấp | Tập 3: "Colonel" trong SH1 thuộc nhóm từ quân đội; G03 chấm bản đồ; hình ảnh ảnh úp mặt | Ghi: mô tả Short có KBCB dòng đầu; chấm rải ngẫu nhiên, không theo bang; thay hai tranh ảnh úp mặt |
+
+Các điểm người rà xác nhận đạt:
+- Người thật chỉ bóng/lưng/tay; không biếm hoạ sắc tộc; tập 3 không quân phục.
+- Veo ≤ 5; mọi dòng có tên call center kèm nguyên câu ◐.
+- S033 chỉ là thẻ tối, không chỗ nào khác gợi lại.
+- T01 tập 3 cắt trước dòng có tên thẩm phán quận.
+- Q01/Q02 khớp nguyên văn.
+- Thumbnail tập 3 đạt.
+
+Các sửa này không đổi lời (`loi.json`), nên không cần kiểm lời lại.
 
 ## 7. Cần điều phối / chủ dự án quyết
 1. **S021 tập 2 — văn phong.** Giữ "…had nothing to do with the calls either." (đã kiểm khớp), hay dùng phương án mượt hơn của vòng 2: "Those agencies, too, were only being impersonated; the tax agencies of Canada and Australia had nothing to do with the calls." (chưa kiểm vòng riêng nếu chọn).
-2. **N2 tr. 17 (tập 3)** có thêm vào NGUON §4 làm trang được crop không (T03)?
+2. **Trang crop thêm:** tập 3 N2 tr. 17 (S059) và tập 2 N1 tr. 3 ¶1(b) (S018) có thêm vào NGUON §4 không? Hiện cả hai dùng L2 thay thế.
+6. **Thumbnail tập 2:** giữ luật không chữ "IRS" (khuyến nghị), hay áp tiền lệ T1 ("Fake IRS…") cho thumbnail?
 3. **Mật độ:** chấp nhận 1–3 cảnh/câu (103 / 144 tranh) hay cho chen tới ~190 tranh (mức cao UOC-CHI)?
-4. **Trần M-c+M-d:** tập 2 9,50 USD + 12.500 ký tự; tập 3 11,80 USD + 12.000 ký tự. Nạp OpenRouter trước.
+4. **Trần M-c+M-d:** tập 2 9,70 USD + 12.500 ký tự; tập 3 11,80 USD + 12.000 ký tự. Nạp OpenRouter trước.
 5. **Tiêu đề Short:** chọn mỗi tập một phương án.
 
 ## 8. Còn mở (chuyển sang phiên sản xuất)
