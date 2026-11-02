@@ -188,3 +188,7 @@ Nhánh `claude/short-doc-1inmm-horwitz-4pnmgb`: preflight ĐẠT; 0 email; 0 USD
 ## Phụ đề tập 1 · 02/11/2026 18:20 (giờ Hà Nội) · Điều phối tạo `phat-hanh/tap01_en.srt`
 - Chủ dự án hỏi tệp phụ đề tập 1 — chưa có (MR-6 không sinh). Điều phối tạo (0 USD) bằng `scripts/dieu-phoi/srt_tap01.py`: chữ = `loi.json` đã duyệt (số đổi sang chữ số, "1inMM", "sec.gov"; không đổi nội dung), mốc = `reports/mr6/moc_cau.json` (whisper giọng thật, dòng thời gian bản dựng MR-6, đã gồm 4 khe thẻ KBCB). 218 cụm, ≤ 2 dòng × 44 ký tự, ≥ 0,8 s/cụm; 4 thẻ KBCB chỉ chữ cũng có phụ đề trong khe 4 s.
 - Từ tập 2: phiên dựng sinh tệp .srt trong gói phát hành (thêm vào lệnh M-d).
+
+## Tập 1 ĐĂNG · 02/11/2026 20:49 (giờ Hà Nội)
+- Chủ dự án đã đăng tập 1. Điều phối kiểm sau đăng (20:55): trang ân xá Trump 2025– (modified 20/10/2026) **không có "Horwitz"** (đọc trọn hai phần trang). Bước kiểm trước đăng bị bỏ qua lần này → ghi vào `docs/BAI-HOC.md`.
+- Ban hành `docs/BAI-HOC.md` (bài học tập 1 → 9 hành động cho tập 2+).

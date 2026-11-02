@@ -10,6 +10,7 @@ Repo này độc lập với `lost-places-lab` và `crux-lab`; công cụ chép 
 3. `docs/QUY-TRINH-TAP.md` — mốc, cổng G1/G2, trần chi.
 3b. `docs/PHONG-CACH-HINH.md` — ba lớp hình (tranh kể chuyện · đồ hoạ động giải thích · hồ sơ thật nền ngà), luật đồ hoạ trực quan, đơn giá ảnh.
 4. `docs/LUAT-VEO.md` — luật V1–V8 khi dùng video AI (Veo).
+4b. `docs/BAI-HOC.md` — bài học tập trước → hành động bắt buộc cho tập sau.
 5. `docs/NHAT-KY.md` — các mục MR-xx mới nhất (quyết định của chủ dự án, kết quả rà).
 
 ## Luật không bao giờ bỏ qua
