@@ -1,0 +1,20 @@
+MONEY REROUTE - THUMBNAIL RULES (Episode 2: "Fake IRS Calls From India: How the Money Got Out")
+Paste this whole file into the image tool before describing the thumbnail.
+
+The thumbnail MUST NOT contain:
+1. Any real person's face, body, or likeness. No portraits, no photos, no "inspired by" faces. No recognizable older person.
+2. Any recognizable face at all. If a human appears, show only hands, a silhouette, or a figure from behind, out of focus.
+3. Logos, seals, badges, wordmarks, colors, letterheads, or interface screens of the IRS, USCIS, DHS, any police or tax agency (including Canada and Australia), any bank, card brand, money-transfer service, or court. The word "IRS" may appear only as plain text next to the word "FAKE".
+4. Any phone number, real or invented, and any calling or messaging app screen. Phone screens must be blank or glowing white.
+5. The words "SCAM", "SCAMMER", "FRAUDSTER", "CON MAN", "CRIMINAL", or "LIAR" attached to a person, and the name of any call center.
+6. Anything that looks like a real court document, government letter, tax form, check, gift card, or official seal (no fake signatures, case numbers, or letterheads).
+7. Stereotyped images of India or of any nationality, religion, or ethnic group: no religious symbols, traditional clothing, flags, or street scenes. A plain flat map line is allowed.
+8. Text that promises something the video does not show (no "SECRET", "EXPOSED", "THEY DON'T WANT YOU TO KNOW").
+9. Blood, weapons, handcuffs on a person, mugshot styling, or shocking imagery.
+
+The thumbnail MAY contain:
+- The words "FAKE IRS CALLS" (the callers impersonated the agency; the IRS had nothing to do with the calls).
+- Abstract props: a phone with a blank glowing screen, plain blank white plastic cards, an arrow, a dotted line across a flat world map.
+- Channel look (same as episode 1): warm ivory paper background, dark ink, one accent color; bold serif headline, max 4 words.
+
+Format: 1280x720, high contrast, readable at small size.

@@ -1,16 +1,16 @@
 # LỜI TẬP 2 — Call center mạo danh IRS/USCIS / Hitesh Madhubhai Patel (`tap02-irs-callcenter-patel`)
 
-> MR-K23 nháp G1 · ngôn ngữ en-US · ngày chốt lời 2026-11-01 (UTC; 02/11 giờ Hà Nội) · ngày kiểm trạng thái vụ 2026-11-01 (UTC).
+> MR-K23 · G1 lời DUYỆT 02/11/2026 10:25 (NHAT-KY) · MR-S23 áp quyết định KBCB (đọc lần nêu đầu, sau đó thẻ chữ) · ngôn ngữ en-US · ngày chốt lời 2026-11-01 (UTC; 02/11 giờ Hà Nội) · ngày kiểm trạng thái vụ 2026-11-01 (UTC).
 > **Tệp này dựng máy từ `loi.json`** (`python3 scripts/mrk23/loi_md.py`); sửa lời ở `loi.json`, không sửa tay tệp này.
 > Tầng: ● kết án (Patel: nhận tội 09/01/2020, án 30/11/2020) · ●T Patel thừa nhận khi nhận tội THEO THÔNG CÁO DOJ (plea agreement chưa mở được → lời luôn có chủ thể DOJ/admitted) · ●N nhóm 24 bị cáo ở Mỹ đã kết án (không tên) · ◐ cáo trạng/lời DOJ/lời đồng bị cáo · TT thủ tục · NB nhận dạng · KBCB câu không liên quan (cơ quan bị mạo danh) · MH cảnh minh hoạ · CHUNG bài học/chuyển đoạn. Nguồn: mã N theo docs/tap02-irs-callcenter-patel/NGUON.md; N1 = 'Page x of 81'; N2–N5 đ.n = thẻ <p> thứ n không rỗng của trường body (API DOJ).
 > Cột **Chữ trên hình** = trích nguyên văn / thẻ chữ hiện bằng chữ (HIEN-CHUONG §4). Nhãn hình theo tầng: ● → `● CONVICTED`; ●T/●N/●C → `● CONVICTED` kèm chú (admitted per DOJ / co-defendants / per appeals court); ◐ → `◐ ALLEGED`; MH → `ILLUSTRATIVE`; KBCB, CHUNG, TT, NB không nhãn.
 
 ## Thống kê (máy)
 
-- Số câu: **71** (đọc **69**, chỉ chữ trên hình **2**) · số từ đọc: **1860** · thời lượng lời: **12.0 phút ở 155 từ/phút** (nhịp đo thật MR-4; 12.8 phút ở 145) + thẻ chữ không đọc 2 × 6 s = 0.2 phút → thời lượng tập ước ở `SHOT.md` (thêm nghỉ đoạn, thẻ tổng kết, nguồn/nhạc kết).
-- Ký tự gửi TTS một lượt (sau thay phát âm): **11.571**.
+- Số câu: **71** (đọc **69**, chỉ chữ trên hình **2**) · số từ đọc: **1857** · thời lượng lời: **12.0 phút ở 155 từ/phút** (nhịp đo thật MR-4; 12.8 phút ở 145) + thẻ chữ không đọc 2 × 6 s = 0.2 phút → thời lượng tập ước ở `SHOT.md` (thêm nghỉ đoạn, thẻ tổng kết, nguồn/nhạc kết).
+- Ký tự gửi TTS một lượt (sau thay phát âm): **11.551**.
 - Số câu theo tầng: CHUNG 11 · KBCB 4 · MH 1 · NB 1 · TT 6 · ● 5 · ●N 4 · ●T 10 · ◐ 29.
-- Kiểm máy K1–K8 + luật riêng (kem_moi_lan, kem_doan, cam_them): **ĐẠT**.
+- Kiểm máy K1–K8 + luật riêng (kem_moi_lan, kem_doan, cam_them, kbcb_doc_dau): **ĐẠT**.
 
 ## Lời
 
@@ -53,7 +53,7 @@
 | S018 | ◐ | đọc | In another, the indictment alleged, callers impersonated immigration officers and told people they would be deported unless they paid a fine immediately for supposed problems with their immigration paperwork. | N1 tr. 3 ¶1(b) |  |
 | S019 | ◐ | đọc | The indictment also described calls that sounded like help: a small payday loan, or a government grant. Either way, according to the indictment, the callers demanded an upfront fee, and the victims received nothing in return. | N1 tr. 3–4 ¶1(c)–(d) |  |
 | S020 | ◐ | đọc | According to the Justice Department, the call scripts Patel exchanged with his co-defendants also included impersonating the tax agencies of Canada and Australia, as well as debt collection fraud. | N4 đ.6 |  |
-| S021 | KBCB | đọc | None of these agencies, in the United States, Canada or Australia, had anything to do with the calls. | N4 đ.5; N4 đ.6 |  |
+| S021 | KBCB | đọc | The tax agencies of Canada and Australia had nothing to do with the calls either. | N4 đ.5; N4 đ.6 | The IRS, USCIS and the tax agencies of Canada and Australia had nothing to do with these calls. |
 
 ### P04 · nhịp 4
 

@@ -3,7 +3,7 @@
  "vu": "romance-sunmola",
  "tieu_de_md": "TẬP 3 — \"Prince Charming\": đường dây lừa tình / Olayinka Ilumsa Sunmola",
  "ngon_ngu": "en-US",
- "ban": "MR-K23 nháp G1",
+ "ban": "MR-K23 · G1 lời DUYỆT 02/11/2026 10:25 (NHAT-KY) · MR-S23 áp quyết định KBCB (đọc lần nêu đầu, sau đó thẻ chữ)",
  "ngay_chot_loi": "2026-11-01 (UTC; 02/11 giờ Hà Nội)",
  "ngay_kiem_trang_thai": "2026-11-01 (UTC)",
  "quy_uoc": "Tầng: ● kết án (Sunmola: nhận cả 8 tội, toà chấp nhận; 324 tháng; 7th Cir. giữ nguyên 16/04/2018) · ●C sự việc toà phúc thẩm mô tả/giữ nguyên trong opinion N2 (lời có chủ thể toà) · ◐ lời DOJ trong thông cáo N1 ('prosecutors said') — không phải kết luận của toà · TT thủ tục · NB nhận dạng · KBCB không liên quan (quân đội Mỹ bị mạo xưng; đàn ông bị lấy ảnh) · MH cảnh minh hoạ · CHUNG bài học/chuyển đoạn. Nguồn: mã N theo docs/tap03-romance-sunmola/NGUON.md; N2 = số trang in ở đầu trang (trùng số trang PDF); N1 dẫn bằng vài chữ đầu đoạn.",
@@ -38,6 +38,13 @@
    "(?i)Latham|Whitty|Herndon|Stump|Reppert|Wasserman",
    "(?i)\\bboss\\b",
    "(?i)Prince Charming scammer"
+  ],
+  "kbcb_doc_dau": [
+   {
+    "ten": "(?i)soldier|\\bArmy\\b|military|colonel",
+    "kbcb": "U\\.S\\. (Army|military)\\b.*had nothing to do",
+    "mo_ta": "G1 02/11/2026 10:25: câu KBCB quân đội Mỹ ĐỌC đúng một lần ở lần nêu đầu, các lần sau thẻ chữ"
+   }
   ]
  },
  "phat_am_them": [
@@ -324,12 +331,12 @@
    "doan": "P04",
    "nhip": "4",
    "tang": "KBCB",
-   "loi": "To be clear, the U.S. military had nothing to do with it.",
+   "loi": "The U.S. Army and the U.S. military had nothing to do with this scheme.",
    "nguon": [
     "N2 tr. 10"
    ],
-   "chu": null,
-   "doc": true
+   "chu": "The U.S. Army and the U.S. military had nothing to do with this scheme.",
+   "doc": false
   },
   {
    "id": "S024",

@@ -1,16 +1,16 @@
 # LỜI TẬP 3 — "Prince Charming": đường dây lừa tình / Olayinka Ilumsa Sunmola (`tap03-romance-sunmola`)
 
-> MR-K23 nháp G1 · ngôn ngữ en-US · ngày chốt lời 2026-11-01 (UTC; 02/11 giờ Hà Nội) · ngày kiểm trạng thái vụ 2026-11-01 (UTC).
+> MR-K23 · G1 lời DUYỆT 02/11/2026 10:25 (NHAT-KY) · MR-S23 áp quyết định KBCB (đọc lần nêu đầu, sau đó thẻ chữ) · ngôn ngữ en-US · ngày chốt lời 2026-11-01 (UTC; 02/11 giờ Hà Nội) · ngày kiểm trạng thái vụ 2026-11-01 (UTC).
 > **Tệp này dựng máy từ `loi.json`** (`python3 scripts/mrk23/loi_md.py`); sửa lời ở `loi.json`, không sửa tay tệp này.
 > Tầng: ● kết án (Sunmola: nhận cả 8 tội, toà chấp nhận; 324 tháng; 7th Cir. giữ nguyên 16/04/2018) · ●C sự việc toà phúc thẩm mô tả/giữ nguyên trong opinion N2 (lời có chủ thể toà) · ◐ lời DOJ trong thông cáo N1 ('prosecutors said') — không phải kết luận của toà · TT thủ tục · NB nhận dạng · KBCB không liên quan (quân đội Mỹ bị mạo xưng; đàn ông bị lấy ảnh) · MH cảnh minh hoạ · CHUNG bài học/chuyển đoạn. Nguồn: mã N theo docs/tap03-romance-sunmola/NGUON.md; N2 = số trang in ở đầu trang (trùng số trang PDF); N1 dẫn bằng vài chữ đầu đoạn.
 > Cột **Chữ trên hình** = trích nguyên văn / thẻ chữ hiện bằng chữ (HIEN-CHUONG §4). Nhãn hình theo tầng: ● → `● CONVICTED`; ●T/●N/●C → `● CONVICTED` kèm chú (admitted per DOJ / co-defendants / per appeals court); ◐ → `◐ ALLEGED`; MH → `ILLUSTRATIVE`; KBCB, CHUNG, TT, NB không nhãn.
 
 ## Thống kê (máy)
 
-- Số câu: **80** (đọc **76**, chỉ chữ trên hình **4**) · số từ đọc: **1747** · thời lượng lời: **11.3 phút ở 155 từ/phút** (nhịp đo thật MR-4; 12.0 phút ở 145) + thẻ chữ không đọc 4 × 6 s = 0.4 phút → thời lượng tập ước ở `SHOT.md` (thêm nghỉ đoạn, thẻ tổng kết, nguồn/nhạc kết).
-- Ký tự gửi TTS một lượt (sau thay phát âm): **10.810**.
+- Số câu: **80** (đọc **75**, chỉ chữ trên hình **5**) · số từ đọc: **1735** · thời lượng lời: **11.2 phút ở 155 từ/phút** (nhịp đo thật MR-4; 12.0 phút ở 145) + thẻ chữ không đọc 5 × 6 s = 0.5 phút → thời lượng tập ước ở `SHOT.md` (thêm nghỉ đoạn, thẻ tổng kết, nguồn/nhạc kết).
+- Ký tự gửi TTS một lượt (sau thay phát âm): **10.752**.
 - Số câu theo tầng: CHUNG 10 · KBCB 6 · MH 1 · TT 8 · ● 5 · ●C 31 · ◐ 19.
-- Kiểm máy K1–K8 + luật riêng (dung_mot, kem_doan, cam_them): **ĐẠT**.
+- Kiểm máy K1–K8 + luật riêng (dung_mot, kem_doan, cam_them, kbcb_doc_dau): **ĐẠT**.
 
 ## Lời
 
@@ -60,7 +60,7 @@
 | S020 | ●C | đọc | Then came the requests. After gaining the women's trust, the appeals court wrote, Sunmola and his co-conspirators would ask for money and merchandise. | N2 tr. 2 |  |
 | S021 | ●C | đọc | The women shipped electronics and made electronic fund transfers, under false claims of financial distress. | N2 tr. 2 |  |
 | S022 | ●C | đọc | According to the court, he led them to believe the money or equipment would be used for work on behalf of the U.S. government, and the court found that he clearly misrepresented that he was acting on behalf of the U.S. military. | N2 tr. 10 |  |
-| S023 | KBCB | đọc | To be clear, the U.S. military had nothing to do with it. | N2 tr. 10 |  |
+| S023 | KBCB | **chữ, không đọc** | ~~The U.S. Army and the U.S. military had nothing to do with this scheme.~~ (không thu âm) | N2 tr. 10 | The U.S. Army and the U.S. military had nothing to do with this scheme. |
 | S024 | ◐ | đọc | Prosecutors said he asked for laptop computers, tablets and cell phones, equipment he told the women he needed to complete his government mission. | N1 ("…shipping him laptop computers, tablets, and cell phones…") |  |
 | S025 | ◐ | đọc | And according to prosecutors, the women were told to ship everything to a man named Ilumsa Sunmola, who was passed off as their lover's driver, or a co-worker, or a hotel manager. | N1 ("The women were invariably told to direct their shipments…") |  |
 | S026 | ◐ | đọc | In fact, prosecutors said, it was Sunmola himself. | N1 ("In fact, it was Sunmola himself…") |  |
