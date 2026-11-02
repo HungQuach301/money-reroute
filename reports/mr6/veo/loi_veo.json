@@ -1,0 +1,58 @@
+{
+ "_ghi_chu": "MR-6 · 5 khe Veo 3.1 Lite ảnh→video (khung đầu = tranh L1 phong cách A). Chuyển động nhỏ, máy chậm; giữ nét tranh. Không mặt người thật: K1/K3/K5 chỉ nhân vật đại diện tự nghĩ ra (có mặt được, HIEN-CHUONG §4); K2/K4 không người. V3: neo cuối không người tiền cảnh mới (không thêm người). V7 ≤ 2 lượt/khe, lượt 2 đổi lời. MR-6: K1 l1 failed (bị lọc) → lượt 2 + personGeneration allow_adult; K3/K5 thêm allow_adult trước khi chạy.",
+ "K1": {
+  "anh": "lab/mrp1/A/a01_l1.png",
+  "cau": "P00 S001",
+  "luot1": {
+   "prompt": "Animate this painted illustration with subtle motion, keeping the exact hand-painted digital painting style, brushwork, film grain and teal-and-amber palette; it must stay a painting, not photorealistic. Static camera with a very slow gentle push in. Pale dawn light slowly brightens through the window; steam rises softly from the coffee mug; the woman looks down at the phone in her hands and a soft glow from the phone lights her face, she smiles faintly. She stays seated, same face, same clothes. Nobody else enters. No text appears anywhere.",
+   "negative": "photorealistic, live action, text, letters, numbers, logos, subtitles, screen content, extra people, face morphing, changing identity, hands deforming, camera shake, fast motion"
+  },
+  "luot2": {
+   "prompt": "Gently animate this painted illustration of an invented adult woman at a kitchen table, keeping the hand-painted digital painting style, brushwork, film grain and teal-and-amber palette; not photorealistic. Locked camera, very slow push in. Dawn light slowly warms the window; thin steam curls up from the coffee mug; a soft glow from the phone she holds brightens her face a little and she gives a small relieved smile. Calm, quiet, minimal movement. Nobody else, no text.",
+   "negative": "photorealistic, live action, text, letters, numbers, logos, screen content, extra people, face morphing, camera shake, fast motion",
+   "personGeneration": "allow_adult",
+   "ghi_chu": "V7 lượt 2 đổi lời: lượt 1 failed (bị lọc, không ra hình); thêm personGeneration allow_adult; lời ngắn hơn, nói rõ người lớn tự nghĩ ra"
+  },
+  "ket_qua": "2/2 lượt failed (bị lọc, khung đầu có người) → hết lượt V7; S001 dùng tranh tĩnh có chuyển động máy (không vá bằng lượt 3)."
+ },
+ "K2": {
+  "anh": "lab/mrp1/A/a06_l1.png",
+  "cau": "P01 S011",
+  "luot1": {
+   "prompt": "Animate this painted illustration with subtle motion, keeping the exact hand-painted digital painting style, brushwork and teal-and-amber palette; it stays a painting, not photorealistic. Very slow camera drift to the right. Dusk deepens over the coastal city; city lights flicker on one by one in the distance; palm fronds sway gently in a light breeze; thin clouds drift. The man in the dark suit stays perfectly still, seen only from behind as a dark silhouette, never turning his head. No text, no signs.",
+   "negative": "photorealistic, live action, text, letters, logos, signs, billboards, face, profile, turning head, extra people, fireworks, smoke, camera shake"
+  }
+ },
+ "K3": {
+  "anh": "lab/mrp1/A/a04_l1.png",
+  "cau": "P15 S068",
+  "luot1": {
+   "prompt": "Animate this painted illustration with subtle motion, keeping the exact hand-painted digital painting style, brushwork and teal-and-amber palette; it stays a painting, not photorealistic. Static camera, very slow push in. Night. The cold light of the phone flickers gently on the woman's worried face as she reads; she blinks and slowly lowers her shoulders, uneasy. Still droplets rest on the dark window behind her, no rain falling. The phone screen stays turned away from the viewer. Same face, same clothes, nobody else.",
+   "negative": "photorealistic, live action, text, letters, numbers, logos, screen content, rain streaks, falling rain, extra people, face morphing, changing identity, hands deforming",
+   "personGeneration": "allow_adult"
+  },
+  "luot2": {
+   "anh": "lab/mr6/anh/b065_l1.png",
+   "prompt": "Animate this painted illustration with subtle motion, keeping the exact hand-painted digital painting style, brushwork and teal-and-amber palette; it stays a painting, not photorealistic. Static camera, very slow push in toward the phone on the kitchen table at night. The phone's cold blurred glow pulses softly as if a new message arrived; still droplets rest on the dark window glass, no rain falling; a faint shadow drifts across the table. No people, no hands, no readable screen, no text.",
+   "negative": "photorealistic, live action, text, letters, numbers, logos, readable screen, people, hands, falling rain, rain streaks, camera shake",
+   "ghi_chu": "V7 lượt 2 đổi lời + đổi khung đầu: lượt 1 (a04, có nhân vật) bị Vertex chặn ảnh đầu vào → tranh không người b065 (điện thoại sáng trên bàn đêm), cùng khoảnh khắc P15."
+  }
+ },
+ "K4": {
+  "anh": "lab/mr6/anh/b053_l1.png",
+  "cau": "P17 S080–S081",
+  "luot1": {
+   "prompt": "Animate this painted illustration with subtle motion, keeping the exact hand-painted digital painting style, brushwork and teal-and-amber palette; it stays a painting, not photorealistic. Static camera with a very slow push toward the empty chair. Pre-dawn: the blue light outside the window slowly grows; the warm desk lamp flickers once and goes dark, leaving the room in cold blue light. Dust drifts in the air. The room stays completely empty; nobody appears. Papers stay still and blank.",
+   "negative": "photorealistic, live action, text, letters, numbers, logos, people, person, silhouette, hands, police, lights flashing, sirens, smoke, fire, camera shake"
+  }
+ },
+ "K5": {
+  "anh": "lab/mr6/anh/b148_l1.png",
+  "cau": "P21 S102–S103",
+  "ghi_chu": "Đổi trước lượt 1 (02/11 03:43 UTC): K1, K3 cho thấy Vertex chặn/lọc khung đầu có người → K5 dùng tranh không người (hải đăng = kiểm chứng độc lập).",
+  "luot1": {
+   "prompt": "Animate this painted illustration with subtle motion, keeping the exact hand-painted digital painting style, brushwork, film grain and teal-and-amber palette; it stays a painting, not photorealistic. Static camera, very slow push in. Night turning toward dawn: the lighthouse beam sweeps slowly and steadily across the dark sea; gentle waves roll; a faint warm glow grows on the horizon. No people, no boats, no text.",
+   "negative": "photorealistic, live action, text, letters, logos, people, boats, ships, explosion, lightning, storm, camera shake"
+  }
+ }
+}

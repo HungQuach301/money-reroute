@@ -1,0 +1,14 @@
+K1 2 job gen-vid-1793590763-gNsx1Rs5dkpelNj0Y784 2026-11-02T03:39:23Z
+{"khe": "K1", "luot": 2, "status": "failed", "usage": null, "bat_dau": "2026-11-02T03:39:23Z", "xong": "2026-11-02T03:41:13Z", "chi_khoa": 0.31105, "chi_phien_khac": 0.0387, "error": "Video generation completed with no output (content may have been filtered)"}
+ĐẨY K1 03:41:21
+K3 1 job gen-vid-1793590882-LyM8SdsPkUk4xovliMxg 2026-11-02T03:41:22Z
+{"khe": "K3", "luot": 1, "status": "failed", "usage": null, "bat_dau": "2026-11-02T03:41:22Z", "xong": "2026-11-02T03:41:39Z", "chi_khoa": 0.07735, "chi_phien_khac": 0.4, "error": "Veo could not generate videos because the input image violates Vertex AI's usage guidelines. If you think this was an error, send feedback. Support codes: 15236754"}
+ĐẨY K3 03:41:47
+K4 1 job gen-vid-1793590908-t24xU2F1OXXDobiMooLg 2026-11-02T03:41:48Z
+{"khe": "K4", "luot": 1, "status": "completed", "usage": {"cost": 0.4, "is_byok": false}, "bat_dau": "2026-11-02T03:41:48Z", "xong": "2026-11-02T03:43:38Z", "chi_khoa": 0.59343, "chi_phien_khac": -0.43881, "error": null}
+Uploading LFS objects: 100% (1/1), 12 MB | 0 B/s, done.
+ĐẨY K4 03:43:52
+K5 1 job gen-vid-1793591032-MXjyZnW41L9KI3Oh7n4x 2026-11-02T03:43:52Z
+{"khe": "K5", "luot": 1, "status": "completed", "usage": {"cost": 0.4, "is_byok": false}, "bat_dau": "2026-11-02T03:43:52Z", "xong": "2026-11-02T03:45:43Z", "chi_khoa": 0.3078, "chi_phien_khac": -1e-05, "error": null}
+Uploading LFS objects: 100% (1/1), 21 MB | 0 B/s, done.
+ĐẨY K5 03:45:58

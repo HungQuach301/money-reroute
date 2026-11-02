@@ -1,0 +1,7 @@
+{
+ "_ghi_chu": "MR-6 · clip chọn cho dựng. Veo ảnh→video: 4 khe đạt (K2, K3 l2, K4, K5); K1 hết 2 lượt (cả hai failed — bị lọc vì khung đầu có người) → S001 dùng tranh tĩnh a01. Clip tả thực cũ chỉ V10–V13 (PHONG-CACH-HINH §5), chỉnh màu ở dựng.",
+ "K2": "lab/mr6/veo/K2_l1.mp4", "K3": "lab/mr6/veo/K3_l2.mp4", "K4": "lab/mr6/veo/K4_l1.mp4", "K5": "lab/mr6/veo/K5_l1.mp4",
+ "V10": "lab/mr5/veo/V10_l2.mp4", "V11": "lab/mr5/veo/V11_l2.mp4", "V12": "lab/mr4/veo/V12_l1.mp4", "V13": "lab/mr5/veo/V13_l2.mp4",
+ "ghi_chu_clip": {"K4": "vệt bụi xoáy mờ 2,5–6 s quanh đèn (lời 'dust drifts'), không phải khói từ nguồn lạ → dùng từ 3,0 s (đèn tắt), cờ cho điều phối xem",
+                  "K3": "0–0,5 s màn hình sáng có vệt mờ như dòng chữ, phóng 1:1 không đọc được"}
+}

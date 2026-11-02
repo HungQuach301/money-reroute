@@ -1,0 +1,11 @@
+K1 1 job gen-vid-1793590424-hjGb7LZ07tApMVBR3Gam 2026-11-02T03:33:44Z
+{"khe": "K1", "luot": 1, "status": "failed", "usage": null, "bat_dau": "2026-11-02T03:33:44Z", "xong": "2026-11-02T03:35:34Z", "chi_khoa": 0.3471, "chi_phien_khac": 0.07685, "error": "Video generation completed with no output (content may have been filtered)"}
+fatal: pathspec 'lab/mr6/veo' did not match any files
+fatal: pathspec 'lab/mr6/veo' did not match any files
+fatal: pathspec 'lab/mr6/veo' did not match any files
+fatal: pathspec 'lab/mr6/veo' did not match any files
+fatal: pathspec 'lab/mr6/veo' did not match any files
+fatal: pathspec 'lab/mr6/veo' did not match any files
+ĐẨY K1 03:36:10
+K2 1 job gen-vid-1793590571-FdOef0ecCLZJbW59d3ZN 2026-11-02T03:36:11Z
+{"khe": "K2", "luot": 1, "status": "completed", "usage": {"cost": 0.4, "is_byok": false}, "bat_dau": "2026-11-02T03:36:11Z", "xong": "2026-11-02T03:38:01Z", "chi_khoa": 0.34999, "chi_phien_khac": 0.0, "error": null}
