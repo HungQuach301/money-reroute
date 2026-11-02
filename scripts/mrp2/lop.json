@@ -1,0 +1,20 @@
+{
+ "_ghi_chu": "MR-P2 · cấu hình tách lớp theo tranh. Mặc định: 3 lớp, ngưỡng k-means trên độ sâu. gan_grabcut: lớp gần = một vật tách bằng GrabCut (hop = vùng, chac = chắc chắn là vật), toạ độ khung 1920×1080.",
+ "b089": {
+  "lop": 3,
+  "gan_grabcut": {
+   "hop": [
+    960,
+    230,
+    1360,
+    960
+   ],
+   "chac": [
+    1000,
+    620,
+    1200,
+    880
+   ]
+  }
+ }
+}

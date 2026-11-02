@@ -1,0 +1,52 @@
+{
+ "doc_luc": "2026-11-02T14:57:53Z",
+ "nguon": "GET https://openrouter.ai/api/v1/videos/models",
+ "model": {
+  "id": "google/veo-3.1-lite",
+  "canonical_slug": "google/veo-3.1-lite-20260331",
+  "hugging_face_id": null,
+  "name": "Google: Veo 3.1 Lite",
+  "created": 1776978818,
+  "description": "Google's most cost-effective video generation model, designed for high-volume applications and rapid iteration. Veo 3.1 Lite generates 720p and 1080p video from text or image prompts with native synchronized audio...",
+  "supported_resolutions": [
+   "720p",
+   "1080p"
+  ],
+  "supported_aspect_ratios": [
+   "16:9",
+   "9:16"
+  ],
+  "supported_sizes": [
+   "1280x720",
+   "720x1280",
+   "1920x1080",
+   "1080x1920"
+  ],
+  "supported_durations": [
+   8,
+   4,
+   6
+  ],
+  "supported_frame_images": [
+   "first_frame",
+   "last_frame"
+  ],
+  "upscale_factor": null,
+  "creativity": null,
+  "generate_audio": true,
+  "seed": true,
+  "pricing_skus": {
+   "duration_seconds_with_audio": "0.08",
+   "duration_seconds_without_audio": "0.05",
+   "duration_seconds_with_audio_720p": "0.05",
+   "duration_seconds_without_audio_720p": "0.03"
+  },
+  "allowed_passthrough_parameters": [
+   "personGeneration",
+   "aspectRatio",
+   "negativePrompt",
+   "conditioningScale",
+   "enhancePrompt"
+  ]
+ }
+}
