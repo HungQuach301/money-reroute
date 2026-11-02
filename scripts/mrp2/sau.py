@@ -57,6 +57,19 @@ def va(im, m, gian=21):
     return (im * (1 - a) + f * a).astype(np.uint8)
 
 
+def grabcut(im_bgr, d, g):
+    """Lớp gần = một vật tách bằng GrabCut, hạt giống = chỗ độ sâu nổi hơn nền cục bộ > 0,05 (b089 ổ khoá — để lắc quanh móc)."""
+    bg = cv2.GaussianBlur(cv2.morphologyEx(d.astype(np.float32), cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (161, 161))), (0, 0), 25)
+    x0, y0, x1, y1 = g["hop"]; gc = np.full(d.shape, cv2.GC_BGD, np.uint8); gc[y0:y1, x0:x1] = cv2.GC_PR_BGD
+    gc[((d - bg) > 0.05) & (gc == cv2.GC_PR_BGD)] = cv2.GC_PR_FGD
+    a, b, c, e = g["chac"]; gc[b:e, a:c] = cv2.GC_FGD
+    cv2.grabCut(im_bgr, gc, None, np.zeros((1, 65)), np.zeros((1, 65)), 6, cv2.GC_INIT_WITH_MASK)
+    m = np.where((gc == 1) | (gc == 3), 255, 0).astype(np.uint8)
+    n, lab, st, _ = cv2.connectedComponentsWithStats(m); m = ((lab == np.argmax(st[1:, 4]) + 1) * 255).astype(np.uint8)
+    cs, _ = cv2.findContours(m, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE); out = np.zeros_like(m); cv2.drawContours(out, cs, -1, 255, -1)
+    return out
+
+
 def alpha(m, mem=2.5):
     return cv2.GaussianBlur(m, (0, 0), mem)
 
@@ -72,6 +85,7 @@ def lam(sess, ma):
     else:
         m1 = mat_na(d, t[0]); m2 = mat_na(d, t[1]); m1 = np.maximum(m1, m2)
     bgr = im[..., ::-1].copy()
+    if ch.get("gan_grabcut"): m2 = grabcut(bgr, d, ch["gan_grabcut"]); m1 = np.maximum(m1, m2)
     l0 = va(bgr, m1)
     l1 = va(bgr, m2)
     cv2.imwrite(os.path.join(OUT, f"{ma}_l0.png"), l0)

@@ -114,11 +114,11 @@
    "ma": "b089",
    "lop": 3,
    "nguong": [
-    0.241,
+    0.242,
     0.601
    ],
-   "phan_tram_giua_gan": 67.9,
-   "phan_tram_gan": 40.4
+   "phan_tram_giua_gan": 67.8,
+   "phan_tram_gan": 6.1
   }
  },
  "model": "depth-anything-v2-small (onnx-community, rev 4472b73)",

@@ -1,0 +1,20 @@
+V1 1 job gen-vid-1793631818-7r4A0jNeSQGCVG7S5doh 2026-11-02T15:03:38Z
+{"khe": "V1", "ma": "b009", "luot": 1, "status": "completed", "usage": {"cost": 0.2, "is_byok": false}, "bat_dau": "2026-11-02T15:03:38Z", "xong": "2026-11-02T15:05:16Z", "chi_khoa": 0.2, "chi_phien_khac": 0.6, "error": null}
+Uploading LFS objects: 100% (1/1), 3.2 MB | 0 B/s, done.
+ĐẨY V1 15:05:28
+V2 1 job gen-vid-1793631931-bpmnq26oqaZpp8i5MtG3 2026-11-02T15:05:31Z
+{"khe": "V2", "ma": "b011", "luot": 1, "status": "completed", "usage": {"cost": 0.2, "is_byok": false}, "bat_dau": "2026-11-02T15:05:31Z", "xong": "2026-11-02T15:07:07Z", "chi_khoa": 0.2, "chi_phien_khac": 0.7, "error": null}
+Uploading LFS objects: 100% (1/1), 7.3 MB | 0 B/s, done.
+ĐẨY V2 15:07:20
+V3 1 job gen-vid-1793632043-g8KvCxGUSZjityHoNfyN 2026-11-02T15:07:23Z
+{"khe": "V3", "ma": "b079", "luot": 1, "status": "completed", "usage": {"cost": 0.2, "is_byok": false}, "bat_dau": "2026-11-02T15:07:23Z", "xong": "2026-11-02T15:08:59Z", "chi_khoa": 0.2, "chi_phien_khac": 0.0, "error": null}
+Uploading LFS objects: 100% (1/1), 5.7 MB | 0 B/s, done.
+ĐẨY V3 15:09:10
+V4 1 job gen-vid-1793632153-iDxsn38m9qyQ6yawbqAS 2026-11-02T15:09:13Z
+{"khe": "V4", "ma": "b022", "luot": 1, "status": "completed", "usage": {"cost": 0.2, "is_byok": false}, "bat_dau": "2026-11-02T15:09:13Z", "xong": "2026-11-02T15:10:50Z", "chi_khoa": 0.0, "chi_phien_khac": 0.2, "error": null}
+Uploading LFS objects: 100% (1/1), 6.2 MB | 0 B/s, done.
+ĐẨY V4 15:11:05
+V5 1 job gen-vid-1793632268-tjbJh11ObWUOErp5QxU4 2026-11-02T15:11:08Z
+{"khe": "V5", "ma": "b089", "luot": 1, "status": "completed", "usage": {"cost": 0.2, "is_byok": false}, "bat_dau": "2026-11-02T15:11:08Z", "xong": "2026-11-02T15:12:59Z", "chi_khoa": 0.2, "chi_phien_khac": 0.9, "error": null}
+Uploading LFS objects: 100% (1/1), 4.2 MB | 0 B/s, done.
+ĐẨY V5 15:13:10

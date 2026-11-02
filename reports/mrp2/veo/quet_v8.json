@@ -1,0 +1,168 @@
+{
+ "phim": "/tmp/claude-0/-home-user-money-reroute/dcf1126e-807b-5cf2-a6ef-6cb856b9979a/scratchpad/mrp2/veo_all.mp4",
+ "sha256": "498eee08b17305cbc1a0fd220b8b4a62393e883a6f65f91d3f994ed97526daeb",
+ "sha256_khop_dung": null,
+ "dung": "/tmp/claude-0/-home-user-money-reroute/dcf1126e-807b-5cf2-a6ef-6cb856b9979a/scratchpad/mrp2/vd.json",
+ "nguong": {
+  "c1_len": 0.08,
+  "c1_ridge": 7.0,
+  "c1_n_vet": 6,
+  "c1_khung": 6,
+  "c1_goc": 12,
+  "c1_sat": 70,
+  "c1_sang": 110,
+  "c2_tang": 8.0,
+  "c2_tex": 5.0,
+  "c2_khung": 24,
+  "c2_dai": 24,
+  "c3_lech": 0.03,
+  "c3_neo": 0.03,
+  "c3_khung": 12,
+  "c3_bac": 0.35,
+  "c3_cot_min": 0.3,
+  "c4_lap": 0.5,
+  "c4_std": 0.7,
+  "c4_sang": 0.6,
+  "c4_khung": 24,
+  "c5_conf": 0.3,
+  "c5_vet_min": 3,
+  "c5_doi": 0.2,
+  "c5_dan": 4.0,
+  "c5_corr": 0.97,
+  "c5_dich": 1.5
+ },
+ "cot": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "khe": [
+  {
+   "khe": "V1",
+   "dau": "0:00.0",
+   "cuoi": "0:04.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.43,
+    "lech_p75_max": 0.0229,
+    "ap_dung": true
+   },
+   "c1": {
+    "vet_max": 0,
+    "vet_tb": 0.0
+   },
+   "c2": {
+    "moi_max": 0.2,
+    "tang_1s_max": 0.1
+   },
+   "c4": {
+    "lap_min": 1.0,
+    "std_min": 1.0
+   }
+  },
+  {
+   "khe": "V2",
+   "dau": "0:04.0",
+   "cuoi": "0:08.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.6,
+    "lech_p75_max": null,
+    "ap_dung": false
+   },
+   "c1": {
+    "vet_max": 2,
+    "vet_tb": 0.04
+   },
+   "c2": {
+    "moi_max": 0.0,
+    "tang_1s_max": 0.0
+   },
+   "c4": {
+    "lap_min": 0.99,
+    "std_min": 1.0
+   }
+  },
+  {
+   "khe": "V3",
+   "dau": "0:08.0",
+   "cuoi": "0:12.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.82,
+    "lech_p75_max": null,
+    "ap_dung": false
+   },
+   "c1": {
+    "vet_max": 1,
+    "vet_tb": 0.06
+   },
+   "c2": {
+    "moi_max": 1.7,
+    "tang_1s_max": 0.1
+   },
+   "c4": {
+    "lap_min": 0.99,
+    "std_min": 0.99
+   }
+  },
+  {
+   "khe": "V4",
+   "dau": "0:12.0",
+   "cuoi": "0:16.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.49,
+    "lech_p75_max": 0.0156,
+    "ap_dung": true
+   },
+   "c1": {
+    "vet_max": 1,
+    "vet_tb": 0.01
+   },
+   "c2": {
+    "moi_max": 5.9,
+    "tang_1s_max": 2.5
+   },
+   "c4": {
+    "lap_min": 0.99,
+    "std_min": 1.0
+   }
+  },
+  {
+   "khe": "V5",
+   "dau": "0:16.0",
+   "cuoi": "0:20.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.15,
+    "lech_p75_max": null,
+    "ap_dung": false
+   },
+   "c1": {
+    "vet_max": 0,
+    "vet_tb": 0.0
+   },
+   "c2": {
+    "moi_max": 0.8,
+    "tang_1s_max": 0.4
+   },
+   "c4": {
+    "lap_min": 0.86,
+    "std_min": 0.95
+   }
+  }
+ ],
+ "tong_nghi": {
+  "c1": 0,
+  "c2": 0,
+  "c3": 0,
+  "c4": 0
+ }
+}
