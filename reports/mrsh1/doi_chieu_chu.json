@@ -1,0 +1,526 @@
+{
+ "chuoi": 70,
+ "co": [],
+ "tat_ca": [
+  {
+   "chuoi": "$650 million",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S009"
+  },
+  {
+   "chuoi": "$650,000,000+",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "S009: '+' = 'at least' (●T, N7 tr. 12)"
+  },
+  {
+   "chuoi": "20 YEARS",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "đoạn liền của S010"
+  },
+  {
+   "chuoi": "25 to 45 percent",
+   "loai": "moc_cau",
+   "dat": true,
+   "can_cu": "đoạn liền của S005"
+  },
+  {
+   "chuoi": "25%",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "đoạn liền của S005"
+  },
+  {
+   "chuoi": "25–45%",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "đoạn liền của S005"
+  },
+  {
+   "chuoi": "6 OR 12 MONTHS",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "đoạn liền của S005"
+  },
+  {
+   "chuoi": "AT LEAST",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "đoạn liền của S009"
+  },
+  {
+   "chuoi": "At least",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S009"
+  },
+  {
+   "chuoi": "CAME IN",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "đoạn liền của S009"
+  },
+  {
+   "chuoi": "DISTRIBUTION DEALS",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "đoạn liền của S007"
+  },
+  {
+   "chuoi": "Dkt. 45 · page 11",
+   "loai": "l3_tieu",
+   "dat": true,
+   "can_cu": "đoạn của: PLEA AGREEMENT · U.S. v. HORWITZ · Dkt. 45 · page 11"
+  },
+  {
+   "chuoi": "FAKE — admitted",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "S007: S007 'he admitted the distribution deals were fake' (●T, N7 tr. 11)"
+  },
+  {
+   "chuoi": "FILM RIGHTS",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "đoạn liền của S006"
+  },
+  {
+   "chuoi": "Full case + 5 red flags",
+   "loai": "the_cuoi",
+   "dat": true,
+   "can_cu": "nguyên văn lệnh MR-SH1"
+  },
+  {
+   "chuoi": "HBO and Netflix were not accused of wrongdoing in these cases;",
+   "loai": "kbcb",
+   "dat": true,
+   "can_cu": "đoạn liền của S008"
+  },
+  {
+   "chuoi": "HE TOLD INVESTORS",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "đoạn liền của S006"
+  },
+  {
+   "chuoi": "His company issued",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S005"
+  },
+  {
+   "chuoi": "ILLUSTRATIVE",
+   "loai": "nhan",
+   "dat": true,
+   "can_cu": "HIEN-CHUONG §3–§4"
+  },
+  {
+   "chuoi": "ILLUSTRATIVE — not the real person",
+   "loai": "nhan",
+   "dat": true,
+   "can_cu": "HIEN-CHUONG §3–§4"
+  },
+  {
+   "chuoi": "IN PRISON",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "đoạn liền của S010"
+  },
+  {
+   "chuoi": "In 2022,",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S010"
+  },
+  {
+   "chuoi": "In his plea agreement,",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S007"
+  },
+  {
+   "chuoi": "PLEA AGREEMENT · U.S. v. HORWITZ",
+   "loai": "l3_tieu",
+   "dat": true,
+   "can_cu": "đoạn của: PLEA AGREEMENT · U.S. v. HORWITZ · Dkt. 45 · page 11"
+  },
+  {
+   "chuoi": "PROMISED RETURN",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "đoạn liền của S005"
+  },
+  {
+   "chuoi": "PROMISSORY NOTES",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "đoạn liền của S005"
+  },
+  {
+   "chuoi": "SENTENCED IN 2022",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "S010: S010 (●, N8 tr. 1)"
+  },
+  {
+   "chuoi": "STREAMING PLATFORMS",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "đoạn liền của S006"
+  },
+  {
+   "chuoi": "Source: DOJ USAO C.D. Cal. Press Rel. 21-059; U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), Indictment, Dkt. 25, p. 1; SEC Lit. Rel. 25067",
+   "loai": "nguon",
+   "dat": true,
+   "can_cu": "= dung.nguon(S004)"
+  },
+  {
+   "chuoi": "Source: SEC Lit. Rel. 25067; SEC Complaint ¶78; Indictment, Dkt. 25, p. 1",
+   "loai": "nguon",
+   "dat": true,
+   "can_cu": "= dung.nguon(S008)"
+  },
+  {
+   "chuoi": "Source: U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), Plea Agreement, Dkt. 45, p. 10",
+   "loai": "nguon",
+   "dat": true,
+   "can_cu": "= dung.nguon(S005)"
+  },
+  {
+   "chuoi": "Source: U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), Plea Agreement, Dkt. 45, p. 11",
+   "loai": "nguon",
+   "dat": true,
+   "can_cu": "= dung.nguon(S007)"
+  },
+  {
+   "chuoi": "Source: U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), Plea Agreement, Dkt. 45, p. 12",
+   "loai": "nguon",
+   "dat": true,
+   "can_cu": "= dung.nguon(S009)"
+  },
+  {
+   "chuoi": "Source: U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), Plea Agreement, Dkt. 45, p. 9",
+   "loai": "nguon",
+   "dat": true,
+   "can_cu": "= dung.nguon(S006)"
+  },
+  {
+   "chuoi": "Source: U.S. v. Horwitz, Judgment, Dkt. 75, p. 1; DOJ USAO C.D. Cal. Press Rel. 22-027",
+   "loai": "nguon",
+   "dat": true,
+   "can_cu": "= dung.nguon(S010)"
+  },
+  {
+   "chuoi": "The man at the center of it",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S004"
+  },
+  {
+   "chuoi": "The money, he told investors,",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S006"
+  },
+  {
+   "chuoi": "This is the story",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S011"
+  },
+  {
+   "chuoi": "Zach Avery.",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S004"
+  },
+  {
+   "chuoi": "Zachary Horwitz",
+   "loai": "ten",
+   "dat": true,
+   "can_cu": "đoạn liền của S004"
+  },
+  {
+   "chuoi": "a federal judge",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S010"
+  },
+  {
+   "chuoi": "according to the SEC, neither company ever did business with 1inMM.",
+   "loai": "kbcb",
+   "dat": true,
+   "can_cu": "đoạn liền của S008"
+  },
+  {
+   "chuoi": "aka “Zach Avery” · actor, Los Angeles",
+   "loai": "ten",
+   "dat": true,
+   "can_cu": "S004: thẻ tên MR-6; 'aka' = 'used the screen name'"
+  },
+  {
+   "chuoi": "an actor in Los Angeles",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S004"
+  },
+  {
+   "chuoi": "and the red flags",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S011"
+  },
+  {
+   "chuoi": "came in.",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S009"
+  },
+  {
+   "chuoi": "he admitted",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S007"
+  },
+  {
+   "chuoi": "in six or twelve months,",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S005"
+  },
+  {
+   "chuoi": "of 25 to 45 percent.",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S005"
+  },
+  {
+   "chuoi": "of how that money",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S011"
+  },
+  {
+   "chuoi": "promissory notes",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S005"
+  },
+  {
+   "chuoi": "sentenced him",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S010"
+  },
+  {
+   "chuoi": "six or twelve months",
+   "loai": "moc_cau",
+   "dat": true,
+   "can_cu": "đoạn liền của S005"
+  },
+  {
+   "chuoi": "such as HBO and Netflix.",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S006"
+  },
+  {
+   "chuoi": "that typically came due",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S005"
+  },
+  {
+   "chuoi": "the distribution deals",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S007"
+  },
+  {
+   "chuoi": "to 20 years in prison.",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S010"
+  },
+  {
+   "chuoi": "to be licensed",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S006"
+  },
+  {
+   "chuoi": "to streaming platforms",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S006"
+  },
+  {
+   "chuoi": "typically came due",
+   "loai": "do_hoa",
+   "dat": true,
+   "can_cu": "đoạn liền của S005"
+  },
+  {
+   "chuoi": "was Zachary Horwitz,",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S004"
+  },
+  {
+   "chuoi": "was rerouted,",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S011"
+  },
+  {
+   "chuoi": "were fake.",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S007"
+  },
+  {
+   "chuoi": "who used the screen name",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S004"
+  },
+  {
+   "chuoi": "with a promised return",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S005"
+  },
+  {
+   "chuoi": "would buy film rights",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S006"
+  },
+  {
+   "chuoi": "you can spot next time.",
+   "loai": "phu_de",
+   "dat": true,
+   "can_cu": "đoạn liền của S011"
+  },
+  {
+   "chuoi": "→ Money Reroute",
+   "loai": "the_cuoi",
+   "dat": true,
+   "can_cu": "nguyên văn lệnh MR-SH1"
+  },
+  {
+   "chuoi": "● CONVICTED",
+   "loai": "nhan",
+   "dat": true,
+   "can_cu": "HIEN-CHUONG §3–§4"
+  },
+  {
+   "chuoi": "● CONVICTED · admitted in plea",
+   "loai": "nhan",
+   "dat": true,
+   "can_cu": "HIEN-CHUONG §3–§4"
+  }
+ ],
+ "nhan_theo_canh": [
+  {
+   "canh": "a07",
+   "cau": "S004",
+   "tang_loi_json": "NB",
+   "nhan": null,
+   "nguon": "Source: DOJ USAO C.D. Cal. Press Rel. 21-059; U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), Indictment, Dkt. 25, p. 1; SEC Lit. Rel. 25067"
+  },
+  {
+   "canh": "b001",
+   "cau": "S004",
+   "tang_loi_json": "NB",
+   "nhan": null,
+   "nguon": "Source: DOJ USAO C.D. Cal. Press Rel. 21-059; U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), Indictment, Dkt. 25, p. 1; SEC Lit. Rel. 25067"
+  },
+  {
+   "canh": "b067",
+   "cau": "S004",
+   "tang_loi_json": "NB",
+   "nhan": null,
+   "nguon": "Source: DOJ USAO C.D. Cal. Press Rel. 21-059; U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), Indictment, Dkt. 25, p. 1; SEC Lit. Rel. 25067"
+  },
+  {
+   "canh": "b002",
+   "cau": "S004",
+   "tang_loi_json": "NB",
+   "nhan": null,
+   "nguon": "Source: DOJ USAO C.D. Cal. Press Rel. 21-059; U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), Indictment, Dkt. 25, p. 1; SEC Lit. Rel. 25067"
+  },
+  {
+   "canh": "GA",
+   "cau": "S005",
+   "tang_loi_json": "●T",
+   "nhan": "● CONVICTED · admitted in plea",
+   "nguon": "Source: U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), Plea Agreement, Dkt. 45, p. 10"
+  },
+  {
+   "canh": "a09",
+   "cau": "S006",
+   "tang_loi_json": "●T",
+   "nhan": "● CONVICTED · admitted in plea",
+   "nguon": "Source: U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), Plea Agreement, Dkt. 45, p. 9"
+  },
+  {
+   "canh": "b070",
+   "cau": "S006",
+   "tang_loi_json": "●T",
+   "nhan": "● CONVICTED · admitted in plea",
+   "nguon": "Source: U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), Plea Agreement, Dkt. 45, p. 9"
+  },
+  {
+   "canh": "T01",
+   "cau": "S007",
+   "tang_loi_json": "●T",
+   "nhan": "● CONVICTED · admitted in plea",
+   "nguon": "Source: U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), Plea Agreement, Dkt. 45, p. 11"
+  },
+  {
+   "canh": "b003",
+   "cau": "S008",
+   "tang_loi_json": "KBCB",
+   "nhan": null,
+   "nguon": "Source: SEC Lit. Rel. 25067; SEC Complaint ¶78; Indictment, Dkt. 25, p. 1"
+  },
+  {
+   "canh": "a15",
+   "cau": "S008",
+   "tang_loi_json": "KBCB",
+   "nhan": null,
+   "nguon": "Source: SEC Lit. Rel. 25067; SEC Complaint ¶78; Indictment, Dkt. 25, p. 1"
+  },
+  {
+   "canh": "GC",
+   "cau": "S009",
+   "tang_loi_json": "●T",
+   "nhan": "● CONVICTED · admitted in plea",
+   "nguon": "Source: U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), Plea Agreement, Dkt. 45, p. 12"
+  },
+  {
+   "canh": "a12",
+   "cau": "S010",
+   "tang_loi_json": "●",
+   "nhan": "● CONVICTED",
+   "nguon": "Source: U.S. v. Horwitz, Judgment, Dkt. 75, p. 1; DOJ USAO C.D. Cal. Press Rel. 22-027"
+  },
+  {
+   "canh": "GD",
+   "cau": "S010",
+   "tang_loi_json": "●",
+   "nhan": "● CONVICTED",
+   "nguon": "Source: U.S. v. Horwitz, Judgment, Dkt. 75, p. 1; DOJ USAO C.D. Cal. Press Rel. 22-027"
+  },
+  {
+   "canh": "K2",
+   "cau": "S011",
+   "tang_loi_json": "CHUNG",
+   "nhan": null,
+   "nguon": null
+  }
+ ]
+}
