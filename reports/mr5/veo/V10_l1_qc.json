@@ -1,0 +1,276 @@
+{
+ "tep": "lab/mr5/veo/V10_l1.mp4",
+ "khe": "V10",
+ "probe": {
+  "w": 1920,
+  "h": 1080,
+  "fps": "24/1",
+  "nb_frames": "192",
+  "codec": "h264",
+  "dur": 8.0,
+  "audio": [],
+  "bytes": 7533105
+ },
+ "mat_yunet": [],
+ "nguoi_yolo": [
+  {
+   "t": 0.0,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 0.25,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 0.5,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 0.75,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 1.0,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 1.25,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 1.5,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 1.75,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 2.0,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 2.25,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 2.5,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 2.75,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 3.0,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 3.25,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 3.5,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 3.75,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 4.0,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 4.25,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 4.5,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 4.75,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 5.0,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 5.25,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 5.5,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 5.75,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 6.0,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 6.25,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 6.5,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 6.75,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 7.0,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 7.25,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 7.5,
+   "n": 0,
+   "conf": []
+  },
+  {
+   "t": 7.75,
+   "n": 0,
+   "conf": []
+  }
+ ],
+ "quet_v8": {
+  "rc": 0,
+  "stdout": "V10_l1 0:00.0 {'c1': {'vet_max': 0, 'vet_tb': 0.0}, 'c2': {'moi_max': 2.7, 'tang_1s_max': 1.2}, 'c3': {'cot_hop': 1.0, 'lech_p75_max': 0.0274, 'ap_dung': True}, 'c4': {'lap_min': 0.98, 'std_min': 0.98}, 'c5': {'vet': 0, 'vet_dai': 0}, 'dan_khung': {3: 4.5, 5: 1.7}} [(5, '0:00.0', 8.0)]\ntổng nghi: {'c1': 0, 'c2': 0, 'c3': 0, 'c4': 0, 'c5': 1}\n",
+  "stderr": "",
+  "ket_qua": {
+   "phim": "lab/mr5/veo/V10_l1.mp4",
+   "sha256": "6cab658487ec1643a16b632d5beae76798e11dd8573d4f97ae203763b54630a1",
+   "sha256_khop_dung": null,
+   "dung": "/home/user/money-reroute/reports/mr5/veo/V10_l1_dung.json",
+   "nguong": {
+    "c1_len": 0.08,
+    "c1_ridge": 7.0,
+    "c1_n_vet": 6,
+    "c1_khung": 6,
+    "c1_goc": 12,
+    "c1_sat": 70,
+    "c1_sang": 110,
+    "c2_tang": 8.0,
+    "c2_tex": 5.0,
+    "c2_khung": 24,
+    "c2_dai": 24,
+    "c3_lech": 0.03,
+    "c3_neo": 0.03,
+    "c3_khung": 12,
+    "c3_bac": 0.35,
+    "c3_cot_min": 0.3,
+    "c4_lap": 0.5,
+    "c4_std": 0.7,
+    "c4_sang": 0.6,
+    "c4_khung": 24,
+    "c5_conf": 0.3,
+    "c5_vet_min": 3,
+    "c5_doi": 0.2,
+    "c5_dan": 4.0,
+    "c5_corr": 0.97,
+    "c5_dich": 1.5
+   },
+   "cot": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "khe": [
+    {
+     "khe": "V10_l1",
+     "dau": "0:00.0",
+     "cuoi": "0:08.0",
+     "n": 192,
+     "nghi": [
+      {
+       "cot": 5,
+       "tu": "0:00.0",
+       "den": "0:08.0",
+       "giay": 0.0,
+       "dai_s": 8.0,
+       "mo_ta": "dãn khung: chu kỳ 3 khung trong MAE (đỉnh 4.5× nền) ⇒ khe nội suy luồng quang, vật chuyển động dễ nhoè/trôi",
+       "kieu": "dãn khung",
+       "chu_ky": 3,
+       "to": "lab/mr5/do/V10_l1_v8-to/V10_l1_c5_0m00.0.jpg"
+      }
+     ],
+     "c3": {
+      "cot_hop": 1.0,
+      "lech_p75_max": 0.0274,
+      "ap_dung": true
+     },
+     "c1": {
+      "vet_max": 0,
+      "vet_tb": 0.0
+     },
+     "c2": {
+      "moi_max": 2.7,
+      "tang_1s_max": 1.2
+     },
+     "c4": {
+      "lap_min": 0.98,
+      "std_min": 0.98
+     },
+     "dan_khung": {
+      "3": 4.5,
+      "5": 1.7
+     },
+     "c5": {
+      "vet": 0,
+      "vet_dai": 0
+     }
+    }
+   ],
+   "tong_nghi": {
+    "c1": 0,
+    "c2": 0,
+    "c3": 0,
+    "c4": 0,
+    "c5": 1
+   }
+  }
+ }
+}

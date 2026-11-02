@@ -1,0 +1,41 @@
+{
+ "_ghi_chu": "MR-5 · nhạc tập 1 theo SHOT (mở · tăng dần P15–P17 §4 · kết hàng 45). Eleven Music (music_v1), không lời (instrumental), sáng tác mới; lời yêu cầu KHÔNG nêu tên nghệ sĩ, bài, phim hay tác phẩm có sẵn và yêu cầu motif gốc tối giản. Thời lượng theo giọng thật MR-4 (P15 44,7 s + P16 40,4 s + P17 26,8 s + thẻ KBCB 2 × 6 s + nghỉ ≈ 130 s). Cắt lặng 1,5 s ở S080 và trộn mức (−24 → −18 dB) làm ở M-d.",
+ "N1_mo": {
+  "shot": "Mở tập: P00 (bàn bếp bình minh/đêm, V01–V02) → thẻ tiêu đề kênh (hàng 3) ≈ 0:00–0:40",
+  "composition_plan": {
+   "positive_global_styles": ["instrumental", "original composition", "cinematic documentary underscore", "minimal", "muted piano", "soft synth pad", "low strings", "melancholic", "suspenseful", "70 bpm", "D minor"],
+   "negative_global_styles": ["vocals", "choir", "lyrics", "famous theme", "recognizable melody", "pop song structure", "drums", "upbeat", "EDM"],
+   "sections": [
+    {"section_name": "Dawn", "positive_local_styles": ["sparse muted piano notes", "warm pad", "quiet", "intimate"], "negative_local_styles": ["percussion", "loud"], "duration_ms": 18000, "lines": []},
+    {"section_name": "Doubt", "positive_local_styles": ["low cello drone enters", "dissonant suspended chord", "slight tension"], "negative_local_styles": ["percussion", "big crescendo"], "duration_ms": 16000, "lines": []},
+    {"section_name": "Title", "positive_local_styles": ["single soft low piano note", "pad fades out", "resolves quietly"], "negative_local_styles": ["percussion"], "duration_ms": 6000, "lines": []}
+   ]
+  }
+ },
+ "N2_tang_dan": {
+  "shot": "SHOT §4 · P15 S067 → P17 S081 → vào P18 (hàng 32–37): lớp 1 nhịp tim ~60 bpm + bass kéo dài → tích-tắc gỗ → lớp 2 dây ostinato ~80 bpm → lớp 3 trống trầm, dây tăng nửa cung mỗi mốc → (M-d cắt lặng 1,5 s ở S080) → nốt piano thấp",
+  "composition_plan": {
+   "positive_global_styles": ["instrumental", "original composition", "cinematic documentary suspense underscore", "minimal", "dark", "slowly building tension", "C minor"],
+   "negative_global_styles": ["vocals", "choir", "lyrics", "famous theme", "recognizable melody", "sirens", "gunshots", "police sound effects", "EDM drop", "dubstep"],
+   "sections": [
+    {"section_name": "Layer 1 heartbeat", "positive_local_styles": ["slow heartbeat-like low thump at 60 bpm", "one sustained deep bass note", "very sparse", "quiet"], "negative_local_styles": ["melody", "strings", "drums kit"], "duration_ms": 38000, "lines": []},
+    {"section_name": "Layer 1 plus ticking", "positive_local_styles": ["same heartbeat thump and bass note", "add soft wooden tick-tock clock-like woodblock clicks", "quiet"], "negative_local_styles": ["melody", "strings"], "duration_ms": 18000, "lines": []},
+    {"section_name": "Layer 2 strings", "positive_local_styles": ["tempo 80 bpm", "repeating staccato string ostinato on two notes", "heartbeat and ticking continue", "tension rising"], "negative_local_styles": ["big drums", "melody"], "duration_ms": 44000, "lines": []},
+    {"section_name": "Layer 3 drums", "positive_local_styles": ["80 bpm", "add deep low taiko-style drum hits", "string ostinato climbs a half step higher every eight bars", "urgent", "intense", "ends abruptly on a hard cut"], "negative_local_styles": ["cymbal crash finale", "melody"], "duration_ms": 26000, "lines": []},
+    {"section_name": "Aftermath", "positive_local_styles": ["silence then a single soft low piano note sustained", "very quiet", "still"], "negative_local_styles": ["drums", "strings", "pulse"], "duration_ms": 10000, "lines": []}
+   ]
+  }
+ },
+ "N3_ket": {
+  "shot": "Kết: thẻ tổng kết giữ + danh sách nguồn chạy chữ (hàng 44–45) ≈ 60 s",
+  "composition_plan": {
+   "positive_global_styles": ["instrumental", "original composition", "cinematic documentary outro", "reflective", "hopeful but restrained", "muted piano", "warm strings", "soft pad", "72 bpm", "F major"],
+   "negative_global_styles": ["vocals", "choir", "lyrics", "famous theme", "recognizable melody", "drums kit", "EDM", "triumphant fanfare"],
+   "sections": [
+    {"section_name": "Reflect", "positive_local_styles": ["simple original piano motif of four notes", "soft pad", "calm"], "negative_local_styles": ["percussion"], "duration_ms": 20000, "lines": []},
+    {"section_name": "Lift", "positive_local_styles": ["warm low strings join", "gentle swell", "steady"], "negative_local_styles": ["percussion", "big climax"], "duration_ms": 25000, "lines": []},
+    {"section_name": "Close", "positive_local_styles": ["strings fade", "last piano chord rings out", "quiet ending"], "negative_local_styles": ["percussion"], "duration_ms": 15000, "lines": []}
+   ]
+  }
+ }
+}

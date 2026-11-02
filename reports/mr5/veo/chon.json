@@ -1,0 +1,40 @@
+{
+ "_ghi_chu": "MR-5 · clip chọn cho dựng (M-d), một clip mỗi khe V01–V16; V06, V12 từ MR-4. Đoạn dùng: 'dung' (giây) nếu cần cắt.",
+ "chon": {
+  "V01": "lab/mr5/veo/V01_l1.mp4",
+  "V02": "lab/mr5/veo/V02_l1.mp4",
+  "V03": "lab/mr5/veo/V03_l2.mp4",
+  "V04": "lab/mr5/veo/V04_l2.mp4",
+  "V05": "lab/mr5/veo/V05_l1.mp4",
+  "V06": "lab/mr4/veo/V06_l2.mp4",
+  "V07": "lab/mr5/veo/V07_l1.mp4",
+  "V08": "lab/mr5/veo/V08_l1.mp4",
+  "V09": "lab/mr5/veo/V09_l1.mp4",
+  "V10": "lab/mr5/veo/V10_l2.mp4",
+  "V11": "lab/mr5/veo/V11_l2.mp4",
+  "V12": "lab/mr4/veo/V12_l1.mp4",
+  "V13": "lab/mr5/veo/V13_l2.mp4",
+  "V14": "lab/mr5/veo/V14_l1.mp4",
+  "V15": "lab/mr5/veo/V15_l1.mp4",
+  "V16": "lab/mr5/veo/V16_l2.mp4"
+ },
+ "dung": {
+  "V08": [
+   0,
+   7.3
+  ],
+  "V16": [
+   0,
+   7.3
+  ],
+  "V12": [
+   2.0,
+   8.0
+  ]
+ },
+ "ghi_chu_dung": {
+  "V08": "nắp bắt đầu khép lại từ 7,4 s",
+  "V16": "ngón tay ló lại mép phải từ 7,5 s",
+  "V12": "MR-4: tuỳ chọn bỏ đầu ngón tay 0–1,6 s"
+ }
+}
