@@ -1,0 +1,247 @@
+{
+ "bt": "B",
+ "fps": 25,
+ "kich_thuoc": "960x540",
+ "hoa_canh_s": 0.5,
+ "tong_s": 132.0,
+ "canh": [
+  {
+   "bat_dau": 0.0,
+   "ket_thuc": 2.3,
+   "loai": "tranh",
+   "nguon": "a01",
+   "cau": "P00 S001"
+  },
+  {
+   "bat_dau": 2.3,
+   "ket_thuc": 5.5,
+   "loai": "tranh",
+   "nguon": "a02",
+   "cau": "P00 S001"
+  },
+  {
+   "bat_dau": 5.5,
+   "ket_thuc": 7.7,
+   "loai": "tranh",
+   "nguon": "a03",
+   "cau": "P00 S002"
+  },
+  {
+   "bat_dau": 7.7,
+   "ket_thuc": 12.0,
+   "loai": "tranh",
+   "nguon": "a04",
+   "cau": "P00 S002"
+  },
+  {
+   "bat_dau": 12.0,
+   "ket_thuc": 14.3,
+   "loai": "tranh",
+   "nguon": "a05",
+   "cau": "P00 S003"
+  },
+  {
+   "bat_dau": 14.3,
+   "ket_thuc": 19.3,
+   "loai": "the",
+   "nguon": "tieu_de",
+   "cau": "P00 S003"
+  },
+  {
+   "bat_dau": 19.3,
+   "ket_thuc": 22.3,
+   "loai": "tranh",
+   "nguon": "a06",
+   "cau": "P01 S004"
+  },
+  {
+   "bat_dau": 22.3,
+   "ket_thuc": 26.4,
+   "loai": "tranh",
+   "nguon": "a07",
+   "cau": "P01 S004"
+  },
+  {
+   "bat_dau": 26.4,
+   "ket_thuc": 29.0,
+   "loai": "tranh",
+   "nguon": "a08",
+   "cau": "P01 S005"
+  },
+  {
+   "bat_dau": 29.0,
+   "ket_thuc": 34.9,
+   "loai": "the",
+   "nguon": "notes",
+   "cau": "P01 S005"
+  },
+  {
+   "bat_dau": 34.9,
+   "ket_thuc": 38.6,
+   "loai": "tranh",
+   "nguon": "a09",
+   "cau": "P01 S006"
+  },
+  {
+   "bat_dau": 38.6,
+   "ket_thuc": 42.5,
+   "loai": "tranh",
+   "nguon": "a10",
+   "cau": "P01 S006"
+  },
+  {
+   "bat_dau": 42.5,
+   "ket_thuc": 46.8,
+   "loai": "bang",
+   "nguon": "tl1",
+   "cau": "P01 S007"
+  },
+  {
+   "bat_dau": 46.8,
+   "ket_thuc": 55.6,
+   "loai": "the",
+   "nguon": "kbcb",
+   "cau": "P01 S008"
+  },
+  {
+   "bat_dau": 55.6,
+   "ket_thuc": 59.9,
+   "loai": "tranh",
+   "nguon": "a11",
+   "cau": "P01 S009"
+  },
+  {
+   "bat_dau": 59.9,
+   "ket_thuc": 62.9,
+   "loai": "tranh",
+   "nguon": "a12",
+   "cau": "P01 S010"
+  },
+  {
+   "bat_dau": 62.9,
+   "ket_thuc": 65.4,
+   "loai": "tranh",
+   "nguon": "a12",
+   "cau": "P01 S010"
+  },
+  {
+   "bat_dau": 65.4,
+   "ket_thuc": 68.2,
+   "loai": "tranh",
+   "nguon": "a13",
+   "cau": "P01 S011"
+  },
+  {
+   "bat_dau": 68.2,
+   "ket_thuc": 70.9,
+   "loai": "tranh",
+   "nguon": "a13",
+   "cau": "P01 S011"
+  },
+  {
+   "bat_dau": 70.9,
+   "ket_thuc": 74.0,
+   "loai": "tranh",
+   "nguon": "a14",
+   "cau": "P02 S012"
+  },
+  {
+   "bat_dau": 74.0,
+   "ket_thuc": 78.0,
+   "loai": "the",
+   "nguon": "cty",
+   "cau": "P02 S012"
+  },
+  {
+   "bat_dau": 78.0,
+   "ket_thuc": 81.8,
+   "loai": "tranh",
+   "nguon": "a15",
+   "cau": "P02 S012"
+  },
+  {
+   "bat_dau": 81.8,
+   "ket_thuc": 86.5,
+   "loai": "the",
+   "nguon": "ten",
+   "cau": "P02 S013"
+  },
+  {
+   "bat_dau": 86.5,
+   "ket_thuc": 91.9,
+   "loai": "tranh",
+   "nguon": "a16",
+   "cau": "P02 S014"
+  },
+  {
+   "bat_dau": 91.9,
+   "ket_thuc": 94.0,
+   "loai": "tranh",
+   "nguon": "a17",
+   "cau": "P03 S015"
+  },
+  {
+   "bat_dau": 94.0,
+   "ket_thuc": 96.9,
+   "loai": "tranh",
+   "nguon": "a18",
+   "cau": "P03 S015"
+  },
+  {
+   "bat_dau": 96.9,
+   "ket_thuc": 100.3,
+   "loai": "the",
+   "nguon": "vong1",
+   "cau": "P03 S015"
+  },
+  {
+   "bat_dau": 100.3,
+   "ket_thuc": 103.4,
+   "loai": "tranh",
+   "nguon": "a20",
+   "cau": "P03 S016"
+  },
+  {
+   "bat_dau": 103.4,
+   "ket_thuc": 107.6,
+   "loai": "the",
+   "nguon": "vong2",
+   "cau": "P03 S016"
+  },
+  {
+   "bat_dau": 107.6,
+   "ket_thuc": 111.0,
+   "loai": "tranh",
+   "nguon": "a19",
+   "cau": "P03 S016"
+  },
+  {
+   "bat_dau": 111.0,
+   "ket_thuc": 114.2,
+   "loai": "the",
+   "nguon": "vong3",
+   "cau": "P03 S017"
+  },
+  {
+   "bat_dau": 114.2,
+   "ket_thuc": 117.3,
+   "loai": "tranh",
+   "nguon": "a09",
+   "cau": "P03 S018"
+  },
+  {
+   "bat_dau": 117.3,
+   "ket_thuc": 124.9,
+   "loai": "bang",
+   "nguon": "tl2",
+   "cau": "P03 S018"
+  },
+  {
+   "bat_dau": 124.9,
+   "ket_thuc": 132.0,
+   "loai": "the",
+   "nguon": "kbcb",
+   "cau": "P03 S019 (chữ, không đọc, 6 s)"
+  }
+ ]
+}

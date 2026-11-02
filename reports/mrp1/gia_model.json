@@ -1,0 +1,100 @@
+{
+ "t": "2026-11-02T02:02:01Z",
+ "nguon": "GET https://openrouter.ai/api/v1/models (miễn phí) + /api/v1/models/google/gemini-nano-banana-2.1/endpoints",
+ "don_vi": "USD/token",
+ "model_anh": [
+  {
+   "id": "google/gemini-nano-banana-2.1",
+   "name": "Google: Nano Banana 2.1",
+   "pricing": {
+    "prompt": "0.0000015",
+    "completion": "0.0000075",
+    "image_output": "0.00003"
+   }
+  },
+  {
+   "id": "google/gemini-3.1-flash-lite-image",
+   "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+   "pricing": {
+    "prompt": "0.00000025",
+    "completion": "0.0000015",
+    "image_output": "0.00003"
+   }
+  },
+  {
+   "id": "google/gemini-3.1-flash-image",
+   "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
+   "pricing": {
+    "prompt": "0.0000005",
+    "completion": "0.000003",
+    "image_output": "0.00006"
+   }
+  },
+  {
+   "id": "google/gemini-3-pro-image",
+   "name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+   "pricing": {
+    "prompt": "0.000002",
+    "completion": "0.000012",
+    "image": "0.000002",
+    "image_output": "0.00012"
+   }
+  },
+  {
+   "id": "openai/gpt-5.4-image-2",
+   "name": "OpenAI: GPT-5.4 Image 2",
+   "pricing": {
+    "prompt": "0.000008",
+    "completion": "0.000015",
+    "image_output": "0.00003"
+   }
+  },
+  {
+   "id": "google/gemini-3.1-flash-image-preview",
+   "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+   "pricing": {
+    "prompt": "0.0000005",
+    "completion": "0.000003",
+    "image_output": "0.00006"
+   }
+  },
+  {
+   "id": "google/gemini-3-pro-image-preview",
+   "name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
+   "pricing": {
+    "prompt": "0.000002",
+    "completion": "0.000012",
+    "image": "0.000002",
+    "image_output": "0.00012"
+   }
+  },
+  {
+   "id": "openai/gpt-5-image-mini",
+   "name": "OpenAI: GPT-5 Image Mini",
+   "pricing": {
+    "prompt": "0.0000025",
+    "completion": "0.000002",
+    "image_output": "0.000008"
+   }
+  },
+  {
+   "id": "openai/gpt-5-image",
+   "name": "OpenAI: GPT-5 Image",
+   "pricing": {
+    "prompt": "0.00001",
+    "completion": "0.00001",
+    "image_output": "0.00004"
+   }
+  },
+  {
+   "id": "google/gemini-2.5-flash-image",
+   "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+   "pricing": {
+    "prompt": "0.0000003",
+    "completion": "0.0000025",
+    "image": "0.0000003",
+    "image_output": "0.00003"
+   }
+  }
+ ]
+}
