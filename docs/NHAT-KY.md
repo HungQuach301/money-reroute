@@ -179,3 +179,8 @@ Nhánh `ccr-93d57c5c-q2ib0q`: preflight ĐẠT; 0 email; sổ **7,4795 USD** / t
 ## G2 tập 1 · 02/11/2026 13:05 (giờ Hà Nội) · Chủ dự án DUYỆT G2
 - **Tập 1 `tap01-1inmm` — G2 DUYỆT** (bản dựng MR-6, 14:32; gói `phat-hanh/PHAT-HANH.md`). Chờ: thumbnail chủ dự án tự làm (rà theo THUMBNAIL-RULES), kiểm trạng thái vụ + trang Help khai AI ngay trước ngày đăng; chủ dự án đăng (M-f).
 - **Quỹ chung:** chủ dự án xác nhận các khoản chi ngoài khoá MR (MR-4 ≈ 4,00; MR-P1 1,00; trước MR-6 15,70 USD + 7.675 ký tự ElevenLabs) là của **kênh lost-places** dùng chung tài khoản → không phải lộ khoá. Hệ quả: số dư MR phải tính sau khi trừ kế hoạch lost-places; mỗi phiên MR vẫn đọc `/credits` trước mỗi lượt.
+
+## MR-SH1 · 02/11/2026 17:50 (giờ Hà Nội) · Điều phối rà Short 1 — merge
+Nhánh `claude/short-doc-1inmm-horwitz-4pnmgb`: preflight ĐẠT; 0 email; 0 USD (budget.py không đổi). `reports/mrsh1/xem/short1.mp4` 1080×1920, 55,0 s, −14,0 LUFS.
+- Điều phối xem tờ 0,5 s: lời P01 nguyên văn (S008 KBCB đọc + thẻ); người vest tối chỉ lưng/gáy; đồ hoạ dọc 25–45 %, "FAKE — admitted", $650,000,000+, 20 YEARS; L3 N7 tr. 11 khoanh "were fake"; phụ đề trong vùng an toàn; thẻ cuối 3 s.
+- **Tiêu đề:** phiên bắt đúng hai lỗi trong đề xuất của điều phối — S1 "He Sold Fake Netflix Deals…" (tên thương hiệu không kèm câu KBCB trên bảng tin; "sold deals" lệch hồ sơ: thứ bán là kỳ phiếu) và S3 "45% in 6 Months?" (hồ sơ không ghép 45 % với 6 tháng). Điều phối nhận lỗi, khuyến nghị **S2 "An Actor's $650 Million Film-Deal Lie"**; luật mới: tiêu đề Short qua cùng kiểm tầng/8e như tập dài.
