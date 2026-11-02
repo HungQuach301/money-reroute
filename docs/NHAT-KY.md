@@ -169,3 +169,9 @@ Nhánh `claude/mrp1-illustration-episode-1-8n4p6c` @ `39a02f9`: preflight ĐẠT
 - MR-6 đã dán (trần 10,00 USD = chủ dự án duyệt). Số dư OpenRouter chủ dự án báo **19,31 USD** (sau MR-P1 đọc 25,01 → giảm 5,70: gồm phần MR-6 nếu đã bắt đầu sinh và/hoặc chi ngoài MR — đối chiếu ở rà MR-6).
 - **Duyệt lời tập 2 (`irs-callcenter-patel`) và tập 3 (`romance-sunmola`)** theo khuyến nghị: tiêu đề T1 mỗi tập ("Fake IRS Calls From India: How the Money Got Out"; "A Fake Soldier, 27 Years in Prison: A Romance Scheme"); câu HGLOBAL giữ "is presumed innocent"; câu KBCB (IRS/USCIS, quân đội) **đọc thành lời một lần ở lần nêu đầu**, các lần sau chữ trên hình (sửa nhỏ lời → kiểm lại các câu đổi). Trần M-c tính lại theo phong cách mới ở MR-S23, duyệt sau.
 - **Duyệt dàn truyện tập 4 (`theranos-holmes`)**: 1 tập ~17 phút; góc "bảy câu kiểm"; nêu Walgreens/Safeway kèm câu không liên quan; không tên hãng dược.
+
+## MR-6 · 02/11/2026 13:00 (giờ Hà Nội) · Điều phối rà MR-6 (tập 1 bản dựng) — merge; trình G2
+Nhánh `ccr-93d57c5c-q2ib0q`: preflight ĐẠT; 0 email; sổ **7,4795 USD** / trần 10,00 (159 dòng) = chênh khoá MR. Bản dựng 14:32 (`reports/mr6/xem/tap01_540p.mp4`; 1080p ở `lab/mr6/dung/`).
+- Điều phối xem tờ 1 s (phần 1 và 3): ba lớp hình đúng PHONG-CACH-HINH — tranh tối; đồ hoạ động (thẻ kỳ phiếu, phép tính 35 % → 82 %, trục đếm ngược 28 → 4 → 3 ngày, con số đếm lên, sơ đồ vòng Ponzi); trang hồ sơ thật nền ngà khoanh câu. Người vest tối chỉ bóng/lưng; nhân vật đại diện nhất quán. Kiểm pháp lý lần 2 của phiên: vòng 1 chưa đạt → 2 vòng sửa → ĐẠT. N2, N3, N18 mở lại HTTP 200.
+- **Quỹ chung — nghiêm trọng hơn:** 02:26–03:26 UTC tài khoản OpenRouter chi **+15,70 USD** và ElevenLabs **+7.675 ký tự** ngoài khoá MR (lần thứ ba). Số dư OpenRouter sau MR-6: **11,83 USD**.
+- Luật Veo mới (đề xuất): khung đầu ảnh→video **không có người** (K1/K3 bị lọc).
