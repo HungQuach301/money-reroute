@@ -71,46 +71,46 @@
 "ma": "a07",
 "lop": "L1",
 "s": 19.1,
-"e": 20.905
+"e": 20.544
 },
 {
 "cau": "S004",
 "doan": "P01",
 "ma": "b001",
 "lop": "L1",
-"s": 20.905,
-"e": 22.71
-},
-{
-"cau": "S004",
-"doan": "P01",
-"ma": "b062",
-"lop": "L1",
-"s": 22.71,
-"e": 24.515
+"s": 20.544,
+"e": 21.988
 },
 {
 "cau": "S004",
 "doan": "P01",
 "ma": "b067",
 "lop": "L1",
-"s": 24.515,
-"e": 26.32
+"s": 21.988,
+"e": 23.432
 },
 {
-"cau": "S005",
+"cau": "S004",
+"doan": "P01",
+"ma": "b062",
+"lop": "L1",
+"s": 23.432,
+"e": 24.876
+},
+{
+"cau": "S004",
 "doan": "P01",
 "ma": "b002",
 "lop": "L1",
-"s": 26.32,
-"e": 29.167
+"s": 24.876,
+"e": 26.32
 },
 {
 "cau": "S005",
 "doan": "P01",
 "ma": "G01",
 "lop": "L2",
-"s": 29.167,
+"s": 26.32,
 "e": 34.86
 },
 {
@@ -2239,7 +2239,7 @@
 "S049": [
 [
 "bai",
-"If every piece of proof comes from the seller, it is not independent proof."
+"When every piece of proof comes from the person asking for your money, it is not independent proof."
 ]
 ],
 "S052": [
@@ -2258,7 +2258,7 @@
 "S061": [
 [
 "bai",
-"On-time payments feel like proof. In a Ponzi scheme, they keep it going."
+"That is the trap: on-time payments feel like proof the investment works."
 ]
 ],
 "S070": [
