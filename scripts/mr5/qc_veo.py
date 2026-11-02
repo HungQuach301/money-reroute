@@ -24,10 +24,18 @@ def probe(p):
 
 
 def khung(p, t, w=None):
+    """MR-5: khung cuối có thể rỗng nếu t sát cuối tệp (V10_l2) → lùi 0,1 s và thử lại."""
+    for tt in (t, t - 0.1, t - 0.2):
+        f = _khung(p, max(0.0, tt), w)
+        if f is not None: return f
+    raise RuntimeError(f"không lấy được khung {t} s")
+
+
+def _khung(p, t, w=None):
     vf = ["-vf", f"scale={w}:-2"] if w else []
     b = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{t:.3f}", "-i", p, "-frames:v", "1", *vf, "-f", "image2pipe", "-vcodec", "png", "-"],
                        capture_output=True, check=True).stdout
-    return cv2.imdecode(np.frombuffer(b, np.uint8), cv2.IMREAD_COLOR)
+    return cv2.imdecode(np.frombuffer(b, np.uint8), cv2.IMREAD_COLOR) if b else None
 
 
 def to05(p, ten, dur):

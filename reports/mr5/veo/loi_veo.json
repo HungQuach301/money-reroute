@@ -27,7 +27,8 @@
    "doi_loi": "Bỏ hẳn đường/đồi tiền cảnh: máy đặt trên bãi cát sát mép nước, tiền cảnh chỉ có cát ướt và sóng; thành phố là dải đèn nhỏ xa bên kia vịnh; mô tả khẳng định (cát, sóng, bầu trời) thay cho phủ định.",
    "prompt": "Wide cinematic shot from a wide sandy beach at dusk, camera low near the water's edge. The foreground is smooth wet sand reflecting the sky and small gentle waves washing in and out. A line of tall palm trees stands in black silhouette along the back of the beach against an orange and violet sky. Far across the bay, a distant city skyline is just a thin band of tiny glowing lights on the horizon. Thin clouds drift slowly. Locked-off camera, warm golden-hour haze, realistic, film look.",
    "negative": "billboard, sign, text, letters, words, logo, road, cars, headlights, people, surfers, boats with names, famous landmark, Hollywood sign, birds flock"
-  }
+  },
+  "luot2_qc": "ĐẠT: bãi cát + sóng + hàng cọ bóng đen, thành phố là dải đèn xa; không biển quảng cáo/chữ/logo (crop 1:1 vùng chòi ven bãi: chỉ đèn nhỏ, không chữ); không người nhận ra được (YOLO 0,16–0,22 ở 2–3,75 s = chòi/cọ, mắt xem: không người). YuNet 45 cờ = tán cọ/bóng phản chiếu (tờ _co.jpg). Sóng chuyển động → dùng đủ 8 s (V2)."
  },
  "V04": {
   "shot": "SHOT §1 hàng 9 · P02 S012–S014 · Văn phòng nhỏ trống, kệ cuộn phim, poster trắng không chữ · Không người",
@@ -40,7 +41,8 @@
    "doi_loi": "Bỏ laptop và mọi thiết bị có nhãn: bàn chỉ có đèn bàn kim loại trơn và một chồng hộp phim; máy lia ngang chậm thay cho tiến sát bàn; bỏ 'dust' (gây sợi khói).",
    "prompt": "Slow sideways dolly through a small, empty office in soft afternoon light from a tall window. Metal shelves hold stacks of round, plain silver film reel canisters. On the wall hang several simple wooden frames, each holding only a sheet of blank white paper. A bare wooden desk holds a plain metal desk lamp and a short stack of the same silver film canisters, nothing else. An empty office chair is tucked under the desk. Calm, still air, muted warm colors, shallow depth of field, realistic, cinematic. The office is empty.",
    "negative": "laptop, computer, monitor, phone, logo, brand, text, letters, words, movie poster artwork, titles, labels, people, person, face, smoke, dust swirls, watermark"
-  }
+  },
+  "luot2_qc": "ĐẠT: văn phòng trống, kệ hộp phim trơn, khung tranh chỉ giấy trắng, bàn chỉ có đèn + chồng hộp phim; không laptop, không logo/chữ; máy lia ngang mượt. V8 c1 1,5 s/3,3 s = cạnh dọc trụ kệ khi lia (báo nhầm); YuNet 3 cờ = hộp phim nhoè."
  },
  "V05": {
   "shot": "SHOT §1 hàng 16 · P05 S029 · Bàn làm việc buổi sáng: máy tính bỏ túi, sổ trắng, tách cà phê bốc hơi nhẹ · V2 hơi nước → 8 s",
@@ -85,7 +87,8 @@
    "doi_loi": "Bỏ 'heat shimmer' (gây bụi/hơi); máy bay đỗ, động cơ tắt, không khí tĩnh, mặt đường khô sạch; giữ ngược sáng hoàng hôn để thân máy bay là bóng tối (không lộ số hiệu).",
    "prompt": "A small private business jet sits parked and still on a clean, dry, empty concrete apron at sunset, engines off, seen side-on from a low angle as a dark silhouette against a glowing orange sky with the sun just above the horizon. The air is perfectly clear and calm. The camera slowly pushes in. Strong golden backlight, soft lens flare, long shadows across the smooth concrete, realistic, cinematic. The fuselage and tail are in deep shadow, plain and dark. Nobody around.",
    "negative": "smoke, steam, dust, haze clouds, fog on ground, exhaust, heat shimmer, tail number, registration letters, airline livery, logo, text, letters, people, pilot visible, crew, taxiing, takeoff, other aircraft"
-  }
+  },
+  "luot2_qc": "ĐẠT: máy bay đỗ, bóng đen ngược sáng, không số hiệu/sơn hãng/chữ (crop 1:1 thân + đuôi); mặt bê tông sạch, không bụi/khói (V5); máy tiến chậm. V8 c2 5,8 s = loá mặt trời + phản chiếu trên bê tông khi mặt trời lộ ra sau thân (báo nhầm, tờ lab/mr5/do/V10_l2_v8-to)."
  },
  "V11": {
   "shot": "SHOT §1 hàng 27 · P11 S053–S056 · Chùm chìa khoá trên mặt bếp đá trống · Không người · không ngoại thất nhà",
@@ -98,7 +101,8 @@
    "doi_loi": "Máy đứng yên (lượt 1: máy tiến làm lộ vật nền); mặt đá trống tới tận nền; chìa khoá trơn nhẵn, không khắc; chuyển động chỉ là vệt nắng.",
    "prompt": "Locked-off close-up of a small bunch of three plain, smooth brass house keys on a simple steel ring, lying on a long, completely bare white marble kitchen counter that stretches into a soft, bright blur. The key heads are smooth and unmarked. A soft beam of morning sunlight slowly slides across the marble and the keys glint gently. Nothing else is on the counter. Clean, cool tones, shallow depth of field, realistic, cinematic. The kitchen is empty and still.",
    "negative": "engraving, text, letters, numbers, logo, brand, keychain tag, objects sliding, objects appearing, utensils, bottles, people, hands, face, house exterior, watermark"
-  }
+  },
+  "luot2_qc": "ĐẠT có ghi chú: máy đứng yên, mặt đá trống, không vật lạ; 3 chìa đồng thau vẫn có khắc chữ giả trên đầu chìa (crop 1:1: ký tự vô nghĩa, không đọc được) — lời 'smooth, unmarked' bị bỏ qua lần 2; hết lượt (V7). Phương án 0 USD nếu điều phối thấy cần: làm mờ đầu chìa ở M-d. Không người."
  },
  "V13": {
   "shot": "SHOT §1 hàng 30 · P13 S062–S063 · Cùng tháp ly: dòng rót mảnh dần rồi dừng, ly tầng dưới trống · V2 → 8 s · cú treo giữa tập",
@@ -111,7 +115,8 @@
    "doi_loi": "Khung chặt hơn (ly đỉnh + tầng ngay dưới) để chai ở ngoài khung; mô tả khẳng định ly tầng dưới 'trong suốt, khô, trống' ngay từ đầu; chỉ ly đỉnh có ít rượu.",
    "prompt": "Tight cinematic close-up of the top of a champagne glass tower made of identical plain coupe glasses on a dark wooden table, warm candlelit bokeh behind. Only the single top glass holds a little pale golden sparkling wine; the glasses of the tier below it are clean, dry and completely empty, clear glass catching the candlelight. A very thin stream of wine trickles into the top glass, grows thinner, breaks into a few last drops and stops. The top glass never overflows, and the empty glasses below stay empty and dry. Locked-off camera, shallow depth of field, realistic liquid physics. The final seconds are completely still except a few rising bubbles in the top glass.",
    "negative": "bottle, label, hand, fingers, people, face, text, logo, watermark, full lower glasses, overflowing, wine running down, splashing, broken glass, glasses morphing"
-  }
+  },
+  "luot2_qc": "ĐẠT có ghi chú: chỉ ly đỉnh có rượu, ly tầng dưới trong, khô, trống suốt 8 s (đúng SHOT); dòng rót đổ đầy ly đỉnh rồi dừng ~6 s, không tràn — 'mảnh dần' không rõ bằng lượt 1; 0–0,5 s và ~5,5 s mép cổ chai xanh lấn góc trên phải (không nhãn, không chữ — crop 1:1). Khung hẹp hơn V12 (tháp thấy 2 tầng). YuNet 5 cờ = miệng ly (báo nhầm)."
  },
  "V14": {
   "shot": "SHOT §1 hàng 32 · P15 S067–S069 · Phòng tối, ánh màn hình điện thoại hắt lên tay (không mặt), màn hình không đọc được · Không dựng tin nhắn/email · V3 neo cuối không tay",
@@ -127,7 +132,7 @@
    "prompt": "Low-angle shot of wide, pale stone steps rising to the bases of massive classical stone columns of a grand public building, in clear early morning light. The frame shows the steps and the lower half of the columns only; long soft shadows of the columns fall across the empty steps and slowly shift. Slow, steady crane-up along the steps. Neutral cool tones, crisp detail, realistic, cinematic. The steps are completely empty.",
    "negative": "people, crowd, person, face, text, inscription, carved letters, sign, name plate, flag, logo, seal, emblem, watermark, police, cars"
   },
-  "luot1_qc": "ĐẠT: bậc đá + chân cột, máy nâng chậm; hoa văn chạm trên thân cột là hoạ tiết lá, không chữ (crop 1:1); không biển tên, không cờ/huy hiệu, không người."
+  "luot1_qc": "ĐẠT có ghi chú: bậc đá + chân cột, máy nâng chậm; không biển tên, không cờ/huy hiệu, không người; hoa văn chạm trên thân cột là hoạ tiết lá, riêng một dải chạm ở cột trên phải (0–2 s) có nét giống ký tự — vô nghĩa, không đọc được (crop 1:1). V8 c1 0,0 s = rãnh dọc thân cột (báo nhầm)."
  },
  "V16": {
   "shot": "SHOT §1 hàng 43 · P21 S102 · Tay (không mặt) đặt bút xuống cạnh sổ trắng đóng lại, ánh sáng sớm · V3 neo cuối không tay",
@@ -140,6 +145,7 @@
    "doi_loi": "Mở cảnh chỉ có sổ (không bút); tay ngược sáng mang bút vào, đặt bút nằm phẳng cạnh sổ, xoè ngón và rút ra tay không; neo cuối sổ + một bút.",
    "prompt": "Close-up at desk height of a closed notebook with a plain, unmarked light cover alone on a wooden desk, backlit by soft early morning sun from a window behind. At first the notebook is the only object on the desk. A hand in silhouette enters from the right holding a simple black pen, lowers it and lays the pen down flat on the desk right beside the notebook, opens its fingers, and withdraws out of frame empty-handed. For the last three seconds the closed notebook and the single pen rest perfectly still in the warm light. Locked-off camera, shallow depth of field, calm warm tones, realistic, cinematic.",
    "negative": "second pen, two pens, writing, text, letters, logo, brand on pen, open pages, face, head, body, watermark"
-  }
+  },
+  "luot2_qc": "ĐẠT có ghi chú: chỉ một bút; tay ngược sáng thành bóng mang bút vào, đặt bút nằm trên bìa sổ (lời: cạnh sổ) rồi rút ra tay không ~4,6 s; 7,5–8,0 s đầu ngón tay ló lại ở mép phải (YOLO neo cuối 1) → dựng dùng 0–7,3 s, neo 4,8–7,3 s không tay (V3). Không mặt, bìa sổ trơn, không chữ."
  }
 }
