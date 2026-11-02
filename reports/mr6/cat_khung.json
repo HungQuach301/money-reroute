@@ -1,0 +1,6 @@
+{
+ "_ghi_chu": "MR-6 · sửa tranh bằng cắt khung (0 USD, như MR-P1) sau mắt xem tờ QC. Toạ độ pixel trên ảnh 1376×768.",
+ "b021": {"cat": [0, 100, 780, 539], "ly_do": "tranh 'không người' nhưng có bóng người tối bên phải (viền nghiêng) → cắt bỏ"},
+ "b023": {"cat": [0, 60, 760, 488], "ly_do": "bóng người đội mũ ngồi ở hàng ghế → cắt bỏ"},
+ "b049": {"cat": [0, 0, 1150, 647], "ly_do": "viền nghiêng đầu người ở mép phải (góc nghiêng — PHONG-CACH-HINH §4) → cắt bỏ"}
+}

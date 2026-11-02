@@ -46,7 +46,7 @@ def main(khe, luot):
     if q0["con"] < GIA + 1: raise SystemExit(f"V7: số dư {q0['con']} < ngưỡng — DỪNG")
     body = {"model": MODEL, "prompt": p["prompt"], "duration": 8, "resolution": "1080p", "aspect_ratio": "16:9",
             "generate_audio": False}
-    anh = os.path.join(ROOT, L[khe]["anh"])  # tranh L1 làm khung đầu (giữ phong cách)
+    anh = os.path.join(ROOT, p.get("anh") or L[khe]["anh"])  # tranh L1 làm khung đầu (giữ phong cách); lượt có thể đổi khung đầu
     body["frame_images"] = [{"type": "image_url", "image_url": {"url": "data:image/png;base64," + base64.b64encode(open(anh, "rb").read()).decode()},
                              "frame_type": "first_frame"}]
     par = {}
@@ -69,7 +69,7 @@ def main(khe, luot):
         if st["status"] in ("completed", "failed"): break
     t1 = now()
     rec = {"khe": khe, "luot": luot, "job": jid, "bat_dau": t0, "xong": t1, "status": st["status"], "usage": st.get("usage"),
-           "error": st.get("error"), "quy_truoc": q0, "body": {k: v for k, v in body.items() if k not in ("prompt", "frame_images")}, "anh": L[khe]["anh"], "prompt": p["prompt"]}
+           "error": st.get("error"), "quy_truoc": q0, "body": {k: v for k, v in body.items() if k not in ("prompt", "frame_images")}, "anh": p.get("anh") or L[khe]["anh"], "prompt": p["prompt"]}
     if st["status"] == "completed":
         os.makedirs(OUT, exist_ok=True)
         r = urllib.request.urlopen(urllib.request.Request(f"{API}/videos/{jid}/content?index=0", headers=HDR), timeout=300)

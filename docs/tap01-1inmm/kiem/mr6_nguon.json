@@ -1,0 +1,81 @@
+{
+ "ngay_kiem_utc": "2026-11-02T03:51:55Z",
+ "ua": "UA khai báo của kênh (không ghi vào repo)",
+ "ket_qua": [
+  {
+   "ma": "N2",
+   "url": "https://www.sec.gov/newsroom/press-releases/2021-58",
+   "http": 200,
+   "bytes": 64789,
+   "sha256": "0876490f3361e3cb",
+   "tieu_de": "SEC.gov | SEC Obtains Emergency Asset Freeze, Charges Actor with Operating a $690 Million Ponzi Scheme",
+   "co_cau": {
+    "Emergency Asset Freeze": true,
+    "690 Million": true,
+    "Horwitz": true
+   },
+   "dong_cap_nhat": "Updated: April 6, 2021 Resources SEC Complaint Return to top"
+  },
+  {
+   "ma": "N3",
+   "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25067",
+   "http": 200,
+   "bytes": 67909,
+   "sha256": "b49ef1b2df7b1023",
+   "tieu_de": "SEC.gov | Zachary J. Horwitz, et al.",
+   "co_cau": {
+    "one in a million": true,
+    "HBO or Netflix": true,
+    "April 5, 2021": true
+   }
+  },
+  {
+   "ma": "N18",
+   "url": "https://www.sec.gov/submit-tip-or-complaint",
+   "http": 200,
+   "bytes": 139264,
+   "sha256": "13c5484070c9a81a",
+   "tieu_de": "SEC.gov | Submit a Tip or Complaint",
+   "co_cau": {
+    "Tip": true,
+    "Complaint": true
+   }
+  },
+  {
+   "ma": "N15a",
+   "url": "https://www.justice.gov/pardon/clemency-grants-president-donald-j-trump-2025-present",
+   "http": 200,
+   "bytes": 176641,
+   "sha256": "2fa54814083587ba",
+   "tieu_de": "Office of the Pardon Attorney |  Clemency Grants by President Donald J. Trump (2025-Present)",
+   "co_cau": {
+    "Horwitz": false
+   },
+   "dong_cap_nhat": "Updated October 20, 2026 U.S. Department of Justice Office o"
+  },
+  {
+   "ma": "N15b",
+   "url": "https://www.justice.gov/pardon/pardons-granted-president-joseph-biden-2021-2025",
+   "http": 200,
+   "bytes": 116913,
+   "sha256": "bc00b34eae94e407",
+   "tieu_de": "Office of the Pardon Attorney |  Pardons Granted by President Joseph Biden (2021-2025)",
+   "co_cau": {
+    "Horwitz": false
+   },
+   "dong_cap_nhat": "Updated May 14, 2026 U.S. Department of Justice Office of th"
+  },
+  {
+   "ma": "N15c",
+   "url": "https://www.justice.gov/pardon/commutations-granted-president-joseph-biden-2021-2025",
+   "http": 200,
+   "bytes": 166380,
+   "sha256": "d3d3b398e64d65af",
+   "tieu_de": "Office of the Pardon Attorney |  Commutations Granted by President Joseph Biden (2021-2025)",
+   "co_cau": {
+    "Horwitz": false
+   },
+   "dong_cap_nhat": "Updated July 9, 2025 U.S. Department of Justice Office of th"
+  }
+ ]
+}

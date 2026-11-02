@@ -1,7 +1,7 @@
 # BẢNG SHOT 2 — Tập 1 · 1inMM / Horwitz (`tap01-1inmm`) · phong cách PHONG-CACH-HINH v1
 
 > MR-6 · 02/11/2026. **Thay `SHOT.md`** (giữ làm lịch sử) cho phần hình; lời, giọng, nhạc giữ nguyên (đã duyệt). Bảng **sinh máy** bằng `python3 scripts/mr6/shot2.py` từ dữ liệu trong tệp đó; mốc = whisper giọng thật (`reports/mr6/moc_cau.json`, `scripts/mr6/moc_cau.py`).
-> Tổng 15:32.0 · 267 cảnh · L1 tranh 190 cảnh (511.2 s, TB 2.69 s/cảnh) từ **167 tranh** (149 mới MR-6 + 18 MR-P1) · Veo ảnh→video 5 cảnh (24.8 s) · clip tả thực cũ 4 (13.9 s) · L2 54 cảnh (259.2 s) · L3 14 cảnh (63.0 s).
+> Tổng 15:32.0 · 267 cảnh · L1 tranh 192 cảnh (519.1 s, TB 2.70 s/cảnh) từ **169 tranh** (150 mới MR-6 + 19 MR-P1) · Veo ảnh→video 3 cảnh (16.9 s) · clip tả thực cũ 4 (13.9 s) · L2 54 cảnh (259.2 s) · L3 14 cảnh (63.0 s).
 > Khe không lời 4 s cho 4 thẻ KBCB chỉ chữ (S019, S033, S072, S076) — thẻ nền tối chồng lên tranh (PHONG-CACH-HINH §1). Cảnh đổi 0,35 s trước tiếng.
 > Luật áp mọi cảnh: HIEN-CHUONG §4–§5; PHONG-CACH-HINH §1–§5; nhãn tầng + nguồn lớp tĩnh góc dưới theo `loi.json`; nhãn ILLUSTRATIVE ở cảnh tranh đầu mỗi đoạn; không chữ trên hình ngoài lời đã duyệt, số liệu hồ sơ, nhãn, nguồn (máy đối chiếu: `scripts/mr6/doi_chieu_chu.py`).
 > L3 không dùng các trang/dòng cấm của `SHOT.md` (N8 tr. 1, tr. 3; N1 tr. 6 bảng ¶25; N7 tr. 12 dòng 23–28; N22 tr. 1; N22 tr. 6 dòng 10).
@@ -10,7 +10,7 @@
 
 | Câu | Tầng | Mốc (s) | Cảnh: lớp · mã · thời lượng | Lớp chồng |
 |---|---|---|---|---|
-| S001 (P00) | MH | 0.0–5.3 | L1-veo `K1` 3.5 · L1 `b064` 1.8 | bong: Payment received |
+| S001 (P00) | MH | 0.0–5.3 | L1 `a01` 3.0 · L1 `b064` 2.3 | bong: Payment received |
 | S002 (P00) | MH | 5.3–11.8 | L1 `a03` 1.6 · L1 `b065` 1.6 · L1 `a02` 1.6 · L1 `a04` 1.6 | bong: Delay on the platform side. Funds by nex |
 | S003 (P00) | CHUNG | 11.8–19.1 | L1 `a05` 3.2 · L1 `b066` 4.1 | tieu_de: Real cases from the public record |
 | S004 (P01) | NB | 19.1–26.3 | L1 `a07` 1.8 · L1 `b001` 1.8 · L1 `b062` 1.8 · L1 `b067` 1.8 | ten: Zachary Horwitz |
@@ -90,7 +90,7 @@
 | S078 (P17) | TT | 589.9–596.9 | L1 `b051` 2.1 · L2 `G15` 2.9 · L1 `b116:2` 2.1 |  |
 | S079 (P17) | TT | 596.9–603.0 | L1 `b052` 2.0 · L2 `G15` 2.0 · L1 `b118:2` 2.0 |  |
 | S080 (P17) | TT | 603.0–607.3 | L2 `G15` 4.3 |  |
-| S081 (P17) | TT | 607.3–618.2 | L1-veo `K4` 4.4 · L2 `G15` 3.8 · L1 `b119` 2.7 |  |
+| S081 (P17) | TT | 607.3–618.2 | L1 `b053` 4.4 · L2 `G15` 3.8 · L1 `b119` 2.7 |  |
 | S082 (P18) | ● | 618.2–623.2 | L1 `b116` 2.5 · L2 `G16` 2.5 |  |
 | S083 (P18) | ● | 623.2–633.8 | L1 `b054` 2.3 · L3 `T10` 3.7 · L1 `b121` 2.3 · L1 `b055` 2.3 |  |
 | S084 (P18) | ● | 633.8–644.0 | L1 `b120` 2.2 · L2 `G16` 3.6 · L1 `b122` 2.2 · L1 `b056` 2.2 |  |
@@ -169,7 +169,7 @@
 | K1 | a01 → bình minh, điện thoại sáng (P00) |
 | K2 | a06 → thành phố chạng vạng lên đèn (P01) |
 | K3 | a04 → đêm, nhà đầu tư đọc tin, lo (P15) |
-| K4 | b053 → văn phòng trống trước bình minh, đèn tắt (P17) |
+| K4 | b053 → văn phòng trống, đèn tắt (P17) — LOẠI ở QC (vệt khói/bụi xoáy quanh đèn 2,5–8 s, V5/V8); S081 dùng tranh tĩnh b053 |
 | K5 | a13 → bình minh bên cửa sổ, quyết định (P21) |
 | V10 | clip tả thực MR-5 máy bay (P10), chỉnh màu |
 | V11 | clip tả thực MR-5 chìa khoá (P11), chỉnh màu |

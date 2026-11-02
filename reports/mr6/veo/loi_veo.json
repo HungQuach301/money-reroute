@@ -12,7 +12,8 @@
    "negative": "photorealistic, live action, text, letters, numbers, logos, screen content, extra people, face morphing, camera shake, fast motion",
    "personGeneration": "allow_adult",
    "ghi_chu": "V7 lượt 2 đổi lời: lượt 1 failed (bị lọc, không ra hình); thêm personGeneration allow_adult; lời ngắn hơn, nói rõ người lớn tự nghĩ ra"
-  }
+  },
+  "ket_qua": "2/2 lượt failed (bị lọc, khung đầu có người) → hết lượt V7; S001 dùng tranh tĩnh có chuyển động máy (không vá bằng lượt 3)."
  },
  "K2": {
   "anh": "lab/mrp1/A/a06_l1.png",
@@ -29,6 +30,12 @@
    "prompt": "Animate this painted illustration with subtle motion, keeping the exact hand-painted digital painting style, brushwork and teal-and-amber palette; it stays a painting, not photorealistic. Static camera, very slow push in. Night. The cold light of the phone flickers gently on the woman's worried face as she reads; she blinks and slowly lowers her shoulders, uneasy. Still droplets rest on the dark window behind her, no rain falling. The phone screen stays turned away from the viewer. Same face, same clothes, nobody else.",
    "negative": "photorealistic, live action, text, letters, numbers, logos, screen content, rain streaks, falling rain, extra people, face morphing, changing identity, hands deforming",
    "personGeneration": "allow_adult"
+  },
+  "luot2": {
+   "anh": "lab/mr6/anh/b065_l1.png",
+   "prompt": "Animate this painted illustration with subtle motion, keeping the exact hand-painted digital painting style, brushwork and teal-and-amber palette; it stays a painting, not photorealistic. Static camera, very slow push in toward the phone on the kitchen table at night. The phone's cold blurred glow pulses softly as if a new message arrived; still droplets rest on the dark window glass, no rain falling; a faint shadow drifts across the table. No people, no hands, no readable screen, no text.",
+   "negative": "photorealistic, live action, text, letters, numbers, logos, readable screen, people, hands, falling rain, rain streaks, camera shake",
+   "ghi_chu": "V7 lượt 2 đổi lời + đổi khung đầu: lượt 1 (a04, có nhân vật) bị Vertex chặn ảnh đầu vào → tranh không người b065 (điện thoại sáng trên bàn đêm), cùng khoảnh khắc P15."
   }
  },
  "K4": {
@@ -40,12 +47,12 @@
   }
  },
  "K5": {
-  "anh": "lab/mrp1/A/a13_l1.png",
-  "cau": "P21 S102",
+  "anh": "lab/mr6/anh/b148_l1.png",
+  "cau": "P21 S102–S103",
+  "ghi_chu": "Đổi trước lượt 1 (02/11 03:43 UTC): K1, K3 cho thấy Vertex chặn/lọc khung đầu có người → K5 dùng tranh không người (hải đăng = kiểm chứng độc lập).",
   "luot1": {
-   "prompt": "Animate this painted illustration with subtle motion, keeping the exact hand-painted digital painting style, brushwork and teal-and-amber palette; it stays a painting, not photorealistic. Very slow camera push in. Sunrise: warm golden light slowly spreads across the city and over the woman by the window; she takes a calm breath and lifts her chin slightly, resolved. Her faint reflection in the glass moves with her. Same face, same clothes, nobody else.",
-   "negative": "photorealistic, live action, text, letters, logos, signs, extra people, face morphing, changing identity, second woman, camera shake",
-   "personGeneration": "allow_adult"
+   "prompt": "Animate this painted illustration with subtle motion, keeping the exact hand-painted digital painting style, brushwork, film grain and teal-and-amber palette; it stays a painting, not photorealistic. Static camera, very slow push in. Night turning toward dawn: the lighthouse beam sweeps slowly and steadily across the dark sea; gentle waves roll; a faint warm glow grows on the horizon. No people, no boats, no text.",
+   "negative": "photorealistic, live action, text, letters, logos, people, boats, ships, explosion, lightning, storm, camera shake"
   }
  }
 }

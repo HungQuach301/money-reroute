@@ -17,7 +17,12 @@ Claude-Session: https://claude.ai/code/session_019Gns8Z2YCRYKVxAqpATwFF" || true
   echo "ĐẨY $(date -u +%H:%M:%S)"; lo=0; t_lo=$(date +%s)
 }
 for id in "$@"; do
-  python3 scripts/mr6/anh.py "$id" "$LUOT" || { echo "LỖI ở $id — DỪNG"; day; exit 1; }
+  python3 scripts/mr6/anh.py "$id" "$LUOT" > /tmp/claude-0/anh_out.txt 2>&1; rc=$?; cat /tmp/claude-0/anh_out.txt | tail -2
+  if [ $rc -ne 0 ]; then
+    if grep -q "MẤT KẾT NỐI" /tmp/claude-0/anh_out.txt && [ ! -f "lab/mr6/anh/${id}_l$LUOT.png" ]; then
+      echo "THỬ LẠI 1 LẦN (mất kết nối) $id"; sleep 5; python3 scripts/mr6/anh.py "$id" "$LUOT" || { echo "LỖI lần 2 ở $id — bỏ qua"; }
+    else echo "LỖI ở $id — DỪNG"; day; exit 1; fi
+  fi
   lo=$((lo+1))
   if [ $lo -ge 12 ] || [ $(( $(date +%s) - t_lo )) -ge 300 ]; then day; fi
   if python3 -c "import sys;sys.path.insert(0,'scripts/cp');import budget;sys.exit(0 if budget.canh_bao('openrouter_usd') else 1)"; then

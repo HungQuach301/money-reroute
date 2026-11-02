@@ -61,6 +61,12 @@ def main(tid, luot):
         msg = e.read()[:300].decode("utf-8", "replace")
         if e.code == 402: budget.bao_402("openrouter", msg)
         raise SystemExit(f"HTTP {e.code}: {msg}")
+    except (ConnectionError, urllib.error.URLError, TimeoutError) as e:  # MR-6: mất kết nối giữa chừng — ghi sự kiện, đối soát khoá cuối phiên
+        time.sleep(3); q1 = quy()
+        with open(SO, "a") as f:
+            f.write(json.dumps({"tranh": tid, "luot": luot, "bat_dau": t0, "xong": now(), "loi": f"{type(e).__name__}: {e}"[:200],
+                                "quy_truoc": q0, "quy_sau": q1, "ghi_chu": "không có phản hồi → không ghi sổ chi; đối soát chênh khoá cuối phiên"}, ensure_ascii=False) + "\n")
+        raise SystemExit(f"MẤT KẾT NỐI {tid}: {e}")
     t1 = now()
     msg = r["choices"][0]["message"]; imgs = msg.get("images") or []
     rec = {"tranh": tid, "luot": luot, "bat_dau": t0, "xong": t1, "model": r.get("model"), "usage": r.get("usage"),
