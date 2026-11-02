@@ -173,7 +173,7 @@ def hat(d, pts, t, col, a, n=7, v=0.28, r=7, pulse=False):
         d.ellipse((x - rr, y - rr, x + rr, y + rr), fill=mix(col, a * fade))
 
 
-def dem(t, t0, v, d=1.6):
+def dem(t, t0, v, d=0.9):
     """Số đếm lên 0 → v (easing ra), dừng ở v."""
     if t0 is None or t < t0: return 0
     u = min((t - t0) / d, 1.0); return v * (1 - (1 - u) ** 3)
@@ -229,9 +229,9 @@ class G01(G):  # S005 kỳ phiếu
         arrow(d, [(700, 520), (1000, 520)], XAM, ap(t, t25 - 0.4), prog=ap(t, t25 - 0.4, 0.6))
         hat(d, [(700, 520), (1000, 520)], t, HP, ap(t, t25), n=4, v=0.5)
         if t25 and t >= t25 - 0.3:
-            lo = dem(t, t25, 25, 0.9); hi = 25 + dem(t, t45, 20, 0.9) if t45 else 25
+            lo = dem(t, t25, 25, 0.5); hi = 25 + dem(t, t45, 20, 0.4) if t45 else 25
             s = f"{lo:.0f}%" if not (t45 and t >= t45) else f"25–{hi:.0f}%"
-            so_lon(d, (1380, 500), s, t, (t45 + 0.9) if (t45 and t >= t45) else t25 + 0.9, DO, 170)
+            so_lon(d, (1380, 500), s, t, (t45 + 0.4) if (t45 and t >= t45) else t25 + 0.5, DO, 170)
             txt(d, (1380, 650), "PROMISED RETURN", fnt(F_SANSB, 40), NGA, ap(t, t25), "mm")
         return im
 
@@ -242,8 +242,8 @@ class G02(G):  # S009–S010 $650M → 20 năm
         t1 = tw("S009", "six"); t2 = tw("S010", "twenty", 1) or tw("S010", "sentenced")
         up = ap(t, t2 - 0.6, 0.7) if t2 else 0; y = 470 - 150 * up; sz = int(170 - 70 * up)
         txt(d, (960, y - 140 + 40 * up), "AT LEAST", fnt(F_SANSB, 40), XAM, ap(t, t1 - 0.4), "mm")
-        v = dem(t, t1, 650_000_000, 1.8); s = f"${v:,.0f}" + ("+" if t1 and t > t1 + 1.8 else "")
-        if t1 and t >= t1 - 0.3: txt(d, (960, y), s, fnt(F_BOLD, sz), NGA, ap(t, t1 - 0.3, 0.3), "mm", reg=t > t1 + 1.8)
+        v = dem(t, t1, 650_000_000, 1.0); s = f"${v:,.0f}" + ("+" if t1 and t > t1 + 1.0 else "")
+        if t1 and t >= t1 - 0.3: txt(d, (960, y), s, fnt(F_BOLD, sz), NGA, ap(t, t1 - 0.3, 0.3), "mm", reg=t > t1 + 1.0)
         txt(d, (960, y + 110 - 30 * up), "CAME IN FROM INVESTORS", fnt(F_SANSB, 36 - int(8 * up)), XAM, ap(t, t1 + 0.6), "mm")
         if t2 and t >= t2 - 0.3:
             n = dem(t, t2, 20, 1.2); so_lon(d, (960, 650), f"{n:.0f} YEARS", t, t2 + 1.2, DO, 180)
@@ -281,7 +281,7 @@ class G04(G):  # S020–S023 kỳ phiếu = IOU
         txt(d, (120, 190), "a written IOU: a promise to repay a set amount by a set date", fnt(F_SANS, 30), XAM, ap(t, tiou))
         a = ap(t, t0, 0.8); d.rounded_rectangle((150, 300 + 30 * (1 - a), 750, 860 + 30 * (1 - a)), radius=20, outline=mix(HP, a), width=4, fill=mix((30, 36, 43), a))
         icon(d, "giay", 450, 560, 300, HP, a)
-        rows = [(tsec, "SECURITIES", "under federal law (admitted)", NGA), (tam, "AMOUNT", "$35,000 – $1.5 million", NGA), (tdue, "DUE", "6 or 12 months", NGA)]
+        rows = [(tsec, "SECURITIES", "under federal law (admitted)", NGA), (tam, "AMOUNT", "typically $35,000 – $1.5 million", NGA), (tdue, "DUE", "6 or 12 months", NGA)]
         for i, (tt, k, v, c) in enumerate(rows):
             aa = ap(t, tt); y = 330 + i * 150 + 20 * (1 - aa)
             txt(d, (860, y), k, fnt(F_SANSB, 30), XAM, aa); txt(d, (860, y + 40), v, fnt(F_BOLD, 52), c, aa)
@@ -307,8 +307,8 @@ class G05(G):  # S026–S028 phép tính
         d.line((140, 860, 1780, 860), fill=XAM, width=3)
         a = ap(t, t35, 0.9); self.bar(d, 200, 0.35, HP, a, "6-MONTH NOTE", "35%", t, t35 + 0.9)
         if tre and t > tre - 0.3:
-            a2 = ap(t, tre, 0.9); self.bar(d, 520, 0.35, HP, a2, "REINVESTED", "35%", t, tre + 0.9)
-            txt(d, (450, 600), "×", fnt(F_BOLD, 70), NGA, a2, "mm")
+            a2 = ap(t, tre, 0.9); self.bar(d, 520, 0.35, HP, a2, "REINVESTED", "+35% again", t, tre + 0.9)
+            txt(d, (475, 800), "→", fnt(F_BOLD, 50), NGA, a2, "mm")
             txt(d, (1250, 265), "1.35 × 1.35 = 1.8225", fnt(F_MONOB, 58), NGA, ap(t, t182 or tre + 1.5), "mm")
         if t82 and t > t82 - 0.4:
             a3 = ap(t, t82 - 0.4, 0.9); self.bar(d, 1080, 0.82, DO, a3, "PER YEAR (reinvested)", "≈ 82%", t, t82 + 0.5)
@@ -327,7 +327,7 @@ class G06(G):  # S030 counterparties
         if a > 0:
             dashed_rect(d, (1180, 330, 1760, 710), mix(DO, a), 5)
             txt(d, (1470, 470), "HBO", fnt(F_BOLD, 64), NGA, a, "mm"); txt(d, (1470, 560), "Netflix", fnt(F_BOLD, 64), NGA, a, "mm")
-            txt(d, (1470, 760), "said to be the “ultimate counterparties”", fnt(F_SANSB, 32), DO, ap(t, tu), "mm")
+            txt(d, (1470, 760), "said to be the ultimate counterparties", fnt(F_SANSB, 32), DO, ap(t, tu), "mm")
             p2 = [(1010, 520), (1170, 520)]; arrow(d, p2, XAM, a, dash=True)
         tieu(d, "WHO WAS SAID TO BE BEHIND THE DEALS", t, s0 - 0.3, "according to the SEC")
         return im
@@ -353,9 +353,9 @@ class G07(G):  # S034–S038 phễu
                 x = 240 + rnd.random() * 1440; y = 790 + rnd.random() * 120
                 if rnd.random() < a: d.ellipse((x - 6, y - 6, x + 6, y + 6), fill=mix(NGA, 0.7 * a))
         if t250 and t > t250 - 0.3:
-            v = dem(t, t250, 250, 1.2); so_lon(d, (1680, 300), f"{v:.0f}+", t, t250 + 1.2, NGA, 100)
-            txt(d, (1680, 380), "SUB-INVESTORS", fnt(F_SANSB, 30), XAM, ap(t, t250), "mm")
-            txt(d, (1680, 420), "a figure he reserved the right to contest", fnt(F_SANS, 22), XAM, ap(t, tcont), "mm")
+            v = dem(t, t250, 250, 0.8); so_lon(d, (1560, 300), f"{v:.0f}+", t, t250 + 0.8, NGA, 100)
+            txt(d, (1560, 380), "SUB-INVESTORS", fnt(F_SANSB, 30), XAM, ap(t, t250), "mm")
+            txt(d, (1560, 425), "a figure he reserved the right to contest", fnt(F_SANSB, 24), NGA, ap(t, t250), "mm")
         for tt in (tnc, tnc2):
             if tt and t > tt - 0.4:
                 a = ap(t, tt - 0.4, 0.6); p = [(160, 850), (160, 300), (810, 300)]
@@ -376,14 +376,14 @@ class G08(G):  # S041–S044 trên giấy vs thực tế
              (ts + 1.2 if ts else None, "manhinh", "Distribution deals with streaming platforms")]
         for i, (tt, ic, s) in enumerate(L):
             a = ap(t, tt); y = 380 + i * 150; icon(d, ic, 190, y, 90, NGA, a); txt(d, (270, y), s, fnt(F_SANSB, 32), NGA, a, "lm")
-        R = [(tg, "Rights to listed films: generally NOT acquired"), (td, "Distribution agreements with platforms: NONE")]
+        R = [(tg, "Rights to listed films: generally NOT acquired"), (td, "Distribution agreements for those films: none")]
         for i, (tt, s) in enumerate(R):
             a = ap(t, tt); y = 380 + (i + (0 if i == 0 else 1)) * 150
-            cross(d, 1070, y, 24, DO, a); txt(d, (1120, y), s, fnt(F_SANSB, 32), NGA, a, "lm")
+            cross(d, 1070, y, 24, DO, a); txt(d, (1120, y), s, fnt(F_SANSB, 28), NGA, a, "lm")
         a = ap(t, ta)
         if a > 0:
             d.rounded_rectangle((140, 860 - 10, 1780, 960), radius=12, outline=mix(HPA, a), width=3)
-            txt(d, (170, 905), "◐ The SEC alleges: no business relationships with Netflix or HBO; no distribution agreements signed with them", fnt(F_SANS, 29), NGA, a, "lm")
+            txt(d, (170, 905), "◐ The SEC alleges: no business relationships with Netflix or HBO; no distribution agreements signed with them", fnt(F_SYM, 23), NGA, a, "lm")
         return im
 
 
@@ -426,18 +426,18 @@ class G11(G):  # S053–S056 co-investment ◐
         im = nen(); d = ImageDraw.Draw(im); tw = self.tw
         t0 = self.cs["S053"][0]; tp = tw("S053", "personally"); tsep = tw("S053", "september"); tk = tw("S054", "taken")
         t233 = tw("S055", "two"); tmar = tw("S055", "march"); t57 = tw("S056", "five"); tco = tw("S056", "combined")
-        tieu(d, "“INVESTING ALONGSIDE YOU”", t, t0, "according to the SEC")
-        node(d, 560, 420, "mot_nguoi", "HIS MONEY", ap(t, tp), w=280, h=210, sub=("around Sept. 2017" if tsep and t > tsep else None))
+        tieu(d, "PERSONALLY INVESTING ALONGSIDE THEM?", t, t0, "according to the SEC")
+        node(d, 560, 420, "mot_nguoi", "MONEY HE\nPUT IN", ap(t, tp), w=280, h=210, sub=("around Sept. 2017" if tsep and t > tsep else None))
         node(d, 1100, 420, "nguoi", "GROUP’S NOTES", ap(t, tp + 0.5 if tp else None), w=300, h=210)
         p = [(705, 420), (945, 420)]; arrow(d, p, XAM, ap(t, tp + 0.5 if tp else None)); hat(d, p, t, HP, ap(t, tp + 0.8 if tp else None), n=3)
         if tk and t > tk - 0.4:
             a = ap(t, tk - 0.4); node(d, 180, 420, "nguoi", "OTHER\nINVESTORS", a, w=250, h=210, acc=True)
             p = [(310, 420), (415, 420)]; arrow(d, p, DO, a); hat(d, p, t, DO, a, n=3, pulse=True)
-            txt(d, (360, 560), "taken from other investors", fnt(F_SANSB, 26), DO, ap(t, tk), "mm")
+            txt(d, (330, 610), "taken from other investors", fnt(F_SANSB, 26), DO, ap(t, tk), "mm")
         if t233 and t > t233 - 0.4:
             a = ap(t, t233 - 0.4); p = [(1100, 530), (1100, 700), (760, 700)]; arrow(d, p, HP, a, prog=a); hat(d, p, t, HP, ap(t, t233), n=4)
             v = dem(t, t233, 2.33, 1.0); so_lon(d, (560, 720), f"≈ ${v:.2f}M", t, t233 + 1.0, NGA, 80)
-            txt(d, (560, 790), "“his share” · " + ("March 2018" if tmar and t > tmar else ""), fnt(F_SANSB, 28), XAM, a, "mm")
+            txt(d, (560, 790), "as his share" + (" · March 2018" if tmar and t > tmar else ""), fnt(F_SANSB, 28), XAM, a, "mm")
         if t57 and t > t57 - 0.4:
             a = ap(t, t57 - 0.4); node(d, 1560, 760, "nha", "HOME", a, w=280, h=210)
             p = [(760, 760), (1415, 760)]; arrow(d, p, HP, a, prog=a); hat(d, p, t, HP, ap(t, t57), n=4)
@@ -483,7 +483,7 @@ class G13(G):  # S063, S065 vỡ nợ
             for k in range(4):
                 xx = 1400 + k * 95; d.ellipse((xx - 14, 506, xx + 14, 534), outline=mix(XAM, a), width=3)
         if t230 and t > t230 - 0.4:
-            v = dem(t, t230, 230, 1.4); so_lon(d, (960, 780), f"≈ ${v:.0f} MILLION", t, t230 + 1.4, NGA, 120)
+            v = dem(t, t230, 230, 0.8); so_lon(d, (960, 780), f"≈ ${v:.0f} MILLION", t, t230 + 0.8, NGA, 120)
             txt(d, (960, 870), "PRINCIPAL IN DEFAULT · by the time of the plea", fnt(F_SANSB, 32), XAM, ap(t, t230), "mm")
         return im
 
@@ -509,22 +509,22 @@ class G15(G):  # S073–S081 đếm ngược tới April 9
         im = nen(); d = ImageDraw.Draw(im); tw = self.tw
         tm = tw("S073", "march"); t5 = tw("S078", "fifth") or self.cs["S078"][0]; tfz = tw("S079", "freeze") or self.cs["S079"][0]
         tar = tw("S080", "arrested") or self.cs["S080"][0]; tind = tw("S081", "indicted") or self.cs["S081"][0] + 3
-        tieu(d, "FUNDS “BY APRIL 9TH (AT THE LATEST)”", t, tm - 0.3 if tm else None)
+        tieu(d, "UNTIL APRIL 9", t, tm - 0.3 if tm else None)
         y = 640; d.line((self.X(0) - 40, y, self.X(53) + 40, y), fill=XAM, width=3)
         stop = t > tar
         ab = ap(t, tm, 0.6) * (0.35 if stop else 1.0)
         bx = self.X(28); dashed_rect(d, (bx - 52, y - 60, bx + 52, y + 60), mix(DO if not stop else XAM, ap(t, tm, 0.6)), 5)
         txt(d, (bx, y), "APRIL 9", fnt(F_BOLD, 24), DO if not stop else XAM, ap(t, tm, 0.6), "mm")
-        ev = [(tm, 0, "~MAR. 12, 2021", "email: funds “by April 9th (at the latest)”", HPA, -1),
+        ev = [(tm, 0, "~MAR. 12, 2021", "◐ SEC complaint ¶76: email, funds “by April 9th (at the latest)”", HPA, -2),
               (t5, 24, "APR. 5", "SEC files emergency case", NGA, 1), (tfz, 25, "APR. 6", "asset freeze", NGA, -1),
-              (tar, 25, "APR. 6", "arrest", DO, 1), (tind, 53, "MAY 4", "indictment", NGA, -1)]
+              (tar, 25, "APR. 6 ", "arrest", DO, 2), (tind, 53, "MAY 4", "indictment", NGA, -1)]
         for tt, dd, lab, s, col, up in ev:
             a = ap(t, tt - 0.2)
             if a <= 0: continue
             x = self.X(dd) + (14 if lab == "APR. 6" and s == "arrest" else 0); d.ellipse((x - 12, y - 12, x + 12, y + 12), fill=mix(col, a))
-            yy = y - 160 if up < 0 else y + 110; d.line((x, y + 14 * up, x, yy + (60 if up < 0 else -10)), fill=mix(XAM, a), width=2)
+            yy = {-2: y - 290, -1: y - 160, 1: y + 110, 2: y + 210}[up]; d.line((x, y + 14 * up, x, yy + (60 if up < 0 else -10)), fill=mix(XAM, a), width=2)
             an = "lm" if dd == 0 else ("rm" if dd == 53 else "mm"); xx = x - 12 if dd == 0 else (x + 12 if dd == 53 else x)
-            txt(d, (xx, yy), lab, fnt(F_BOLD, 30), col, a, an); txt(d, (xx, yy + 38), s, fnt(F_SANS, 24), NGA, a, an)
+            txt(d, (xx, yy), lab, fnt(F_BOLD, 30), col, a, an); txt(d, (xx, yy + 38), s, fnt(F_SYM if "◐" in s else F_SANS, 22 if "◐" in s else 24), NGA, a, an)
         if tind and t > tind:
             txt(d, (self.X(53), y + 230), "securities fraud · wire fraud · aggravated identity theft", fnt(F_SANS, 22), XAM, ap(t, tind + 0.5), "rm")
         # bộ đếm
@@ -549,10 +549,10 @@ class G16(G):  # S082–S086 kết cục hình sự
             d.ellipse((158, y + 8, 182, y + 32), fill=mix(DO if i == 2 else NGA, a))
             txt(d, (220, y), k, fnt(F_BOLD, 40), DO if i == 2 else NGA, a); txt(d, (220, y + 52), v, fnt(F_SANS, 30), XAM, a)
         if t240 and t > t240 - 0.3:
-            v = dem(t, t240, 240, 1.2); so_lon(d, (1450, 420), f"{v:.0f} MONTHS", t, t240 + 1.2, NGA, 110)
+            v = dem(t, t240, 240, 0.8); so_lon(d, (1450, 420), f"{v:.0f} MONTHS", t, t240 + 0.8, NGA, 110)
             txt(d, (1450, 520), "= 20 YEARS", fnt(F_BOLD, 54), NGA, ap(t, t240 + 1.3), "mm")
         if t > tr - 0.3:
-            v = dem(t, tr, 230361884, 2.0); so_lon(d, (1450, 720), f"${v:,.0f}", t, tr + 2.0, DO, 96)
+            v = dem(t, tr, 230361884, 1.0); so_lon(d, (1450, 720), f"${v:,.0f}", t, tr + 1.0, DO, 96)
             txt(d, (1450, 800), "RESTITUTION", fnt(F_SANSB, 32), XAM, ap(t, tr), "mm")
         return im
 
@@ -568,7 +568,7 @@ class G17(G):  # S087–S089 vụ SEC ◐
             a = ap(t, tt); y = 300 + i * 160
             txt(d, (140, y), k, fnt(F_BOLD, 40), NGA, a); txt(d, (140, y + 52), v, fnt(F_SANS, 30), XAM, a)
         if t74 and t > t74 - 0.3:
-            v = dem(t, t74, 74.2, 1.2); so_lon(d, (1420, 470), f"≈ ${v:.1f} MILLION", t, t74 + 1.2, NGA, 96)
+            v = dem(t, t74, 74.2, 0.8); so_lon(d, (1420, 470), f"≈ ${v:.1f} MILLION", t, t74 + 0.8, NGA, 96)
             txt(d, (1420, 560), "disgorgement and interest", fnt(F_SANSB, 32), XAM, ap(t, t74), "mm")
         if tde and t > tde - 0.3:
             a = ap(t, tde - 0.3); arrow(d, [(1420, 610), (1420, 720)], DO, a, prog=a)
@@ -595,8 +595,8 @@ class G18(G):  # P21 tiêu đề + 3 bài học
         if cid == "S094":
             d.rectangle((400, 820 - 260 * a, 640, 820), fill=mix(HP, a)); txt(d, (520, 860), "6 MONTHS", fnt(F_SANSB, 30), NGA, a, "mm")
             txt(d, (520, 520), "35%", fnt(F_BOLD, 60), HP, a, "mm")
-            d.rectangle((1100, 820 - 520 * a, 1340, 820), fill=mix(DO, a)); txt(d, (1220, 860), "PER YEAR", fnt(F_SANSB, 30), NGA, a, "mm")
-            txt(d, (1220, 250 + 300 * (1 - a) + 20), "≈ 70%", fnt(F_BOLD, 60), DO, ap(t, t0 + 1.0), "mm")
+            d.rectangle((1100, 820 - 440 * a, 1340, 820), fill=mix(DO, a)); txt(d, (1220, 860), "PER YEAR", fnt(F_SANSB, 30), NGA, a, "mm")
+            txt(d, (1220, 340), "≈ 70%", fnt(F_BOLD, 60), DO, ap(t, t0 + 1.0), "mm")
             txt(d, (870, 640), "× 2", fnt(F_BOLD, 72), NGA, ap(t, t0 + 0.8), "mm")
         elif cid == "S095":
             cx, cy, r = 960, 600, 220
@@ -633,11 +633,10 @@ class G20(G):  # danh sách nguồn chạy chữ
     def draw(self, t):
         im = nen(); d = ImageDraw.Draw(im)
         u = min(max((t - self.t0) / max(self.t1 - self.t0, 1), 0), 1); y0 = 150 - 70 * u
-        txt(d, (960, y0 + 40), "SOURCES", fnt(F_SERIF, 52), NGA, ap(t, self.t0, 0.8), "mm")
-        for i, s in enumerate(self.dong):
-            y = y0 + 140 + i * 46
-            if -60 < y < 1140: txt(d, (960, y), s, fnt(F_SANS, 27), NGA, 1, "mm")
-        y = y0 + 140 + len(self.dong) * 46 + 60
         for k, s in enumerate(self.ai):
-            if -60 < y + k * 40 < 1140: txt(d, (960, y + k * 40), s, fnt(F_SANS, 26), XAM, 1, "mm")
+            txt(d, (960, y0 + k * 40), s, fnt(F_SANS, 26), XAM, ap(t, self.t0, 0.8), "mm")
+        txt(d, (960, y0 + 150), "SOURCES", fnt(F_SERIF, 52), NGA, ap(t, self.t0, 0.8), "mm")
+        for i, s in enumerate(self.dong):
+            y = y0 + 240 + i * 46
+            if -60 < y < 1140: txt(d, (960, y), s, fnt(F_SANS, 27), NGA, 1, "mm")
         return im

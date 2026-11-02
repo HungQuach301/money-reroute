@@ -1,7 +1,7 @@
 # BẢNG SHOT 2 — Tập 1 · 1inMM / Horwitz (`tap01-1inmm`) · phong cách PHONG-CACH-HINH v1
 
 > MR-6 · 02/11/2026. **Thay `SHOT.md`** (giữ làm lịch sử) cho phần hình; lời, giọng, nhạc giữ nguyên (đã duyệt). Bảng **sinh máy** bằng `python3 scripts/mr6/shot2.py` từ dữ liệu trong tệp đó; mốc = whisper giọng thật (`reports/mr6/moc_cau.json`, `scripts/mr6/moc_cau.py`).
-> Tổng 15:32.0 · 267 cảnh · L1 tranh 192 cảnh (519.1 s, TB 2.70 s/cảnh) từ **167 tranh** (148 mới MR-6 + 19 MR-P1) · Veo ảnh→video 3 cảnh (16.9 s) · clip tả thực cũ 4 (13.9 s) · L2 54 cảnh (259.2 s) · L3 14 cảnh (63.0 s).
+> Tổng 15:32.0 · 267 cảnh · L1 tranh 192 cảnh (516.2 s, TB 2.69 s/cảnh) từ **167 tranh** (148 mới MR-6 + 19 MR-P1) · Veo ảnh→video 3 cảnh (16.9 s) · clip tả thực cũ 4 (13.9 s) · L2 54 cảnh (262.0 s) · L3 14 cảnh (63.0 s).
 > Khe không lời 4 s cho 4 thẻ KBCB chỉ chữ (S019, S033, S072, S076) — thẻ nền tối chồng lên tranh (PHONG-CACH-HINH §1). Cảnh đổi 0,35 s trước tiếng.
 > Luật áp mọi cảnh: HIEN-CHUONG §4–§5; PHONG-CACH-HINH §1–§5; nhãn tầng + nguồn lớp tĩnh góc dưới theo `loi.json`; nhãn ILLUSTRATIVE ở cảnh tranh đầu mỗi đoạn; không chữ trên hình ngoài lời đã duyệt, số liệu hồ sơ, nhãn, nguồn (máy đối chiếu: `scripts/mr6/doi_chieu_chu.py`).
 > L3 không dùng các trang/dòng cấm của `SHOT.md` (N8 tr. 1, tr. 3; N1 tr. 6 bảng ¶25; N7 tr. 12 dòng 23–28; N22 tr. 1; N22 tr. 6 dòng 10).
@@ -13,8 +13,8 @@
 | S001 (P00) | MH | 0.0–5.3 | L1 `a01` 3.0 · L1 `b064` 2.3 | bong: Payment received |
 | S002 (P00) | MH | 5.3–11.8 | L1 `a03` 1.6 · L1 `b065` 1.6 · L1 `a02` 1.6 · L1 `a04` 1.6 | bong: Delay on the platform side. Funds by nex |
 | S003 (P00) | CHUNG | 11.8–19.1 | L1 `a05` 3.2 · L1 `b066` 4.1 | tieu_de: Real cases from the public record |
-| S004 (P01) | NB | 19.1–26.3 | L1 `a07` 1.8 · L1 `b001` 1.8 · L1 `b062` 1.8 · L1 `b067` 1.8 | ten: Zachary Horwitz |
-| S005 (P01) | ●T | 26.3–34.9 | L1 `b002` 2.8 · L2 `G01` 5.7 |  |
+| S004 (P01) | NB | 19.1–26.3 | L1 `a07` 1.4 · L1 `b001` 1.4 · L1 `b067` 1.4 · L1 `b062` 1.4 · L1 `b002` 1.4 | ten: Zachary Horwitz |
+| S005 (P01) | ●T | 26.3–34.9 | L2 `G01` 8.5 |  |
 | S006 (P01) | ●T | 34.9–42.4 | L1 `a09` 2.5 · L1 `b070` 2.5 · L1 `a10` 2.5 |  |
 | S007 (P01) | ●T | 42.4–47.2 | L3 `T01` 4.8 |  |
 | S008 (P01) | KBCB | 47.2–56.1 | L1 `b003` 3.0 · L1 `a15` 3.0 · L1 `b074` 3.0 | kbcb: HBO and Netflix were not accused of wron |
@@ -58,7 +58,7 @@
 | S046 (P09) | ●T | 327.9–336.3 | L1 `b024` 2.8 · L2 `G09` 5.6 |  |
 | S047 (P09) | ●T | 336.3–348.5 | L1 `b025` 2.4 · L2 `G09` 4.8 · L1 `b145` 2.4 · L1 `b092` 2.4 |  |
 | S048 (P09) | ●T | 348.5–353.8 | L2 `G09` 5.3 |  |
-| S049 (P09) | CHUNG | 353.8–361.2 | L1 `b026` 3.7 · L1 `b093` 3.7 | bai: If every piece of proof comes from the s |
+| S049 (P09) | CHUNG | 353.8–361.2 | L1 `b026` 3.7 · L1 `b093` 3.7 | bai: When every piece of proof comes from the |
 | S050 (P10) | ●T | 361.2–366.5 | L1 `b028` 2.6 · L2 `G10` 2.7 |  |
 | S051 (P10) | ●T | 366.5–380.1 | L2 `G10` 7.3 · L3 `T06` 3.9 · L1 `b094` 2.4 |  |
 | S052 (P10) | ◐ | 380.1–388.6 | L1-veo-cu `V10` 2.4 · L1 `b029` 2.0 · L1 `b097` 2.0 · L1 `b030` 2.0 | ten: A $6 million home · luxury cars · privat |
@@ -70,7 +70,7 @@
 | S058 (P12) | CHUNG | 430.2–435.8 | L1 `b020` 2.2 · L2 `G12` 3.3 |  |
 | S059 (P12) | ◐ | 435.8–440.7 | L1-veo-cu `V12` 5.0 |  |
 | S060 (P12) | ◐ | 440.7–447.7 | L1 `b101:2` 2.3 · L2 `G12` 4.7 |  |
-| S061 (P12) | CHUNG | 447.7–457.6 | L1 `b034` 2.3 · L1 `b060` 2.3 · L1 `b061` 2.3 · L2 `G12` 2.8 | bai: On-time payments feel like proof. In a P |
+| S061 (P12) | CHUNG | 447.7–457.6 | L1 `b034` 2.3 · L1 `b060` 2.3 · L1 `b061` 2.3 · L2 `G12` 2.8 | bai: That is the trap: on-time payments feel  |
 | S062 (P13) | ◐ | 457.6–465.3 | L1 `b035` 1.9 · L1 `b102` 1.9 · L1 `b096` 1.9 · L1 `b036` 1.9 |  |
 | S063 (P13) | ●T | 465.3–473.6 | L1-veo-cu `V13` 3.3 · L2 `G13` 2.5 · L1 `b036:2` 2.5 |  |
 | S064 (P14) | ◐ | 473.6–479.7 | L1 `b037` 2.0 · L1 `b038` 2.0 · L1 `b105` 2.0 |  |

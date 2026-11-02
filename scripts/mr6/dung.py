@@ -34,9 +34,9 @@ def tw(cid, key, n=0):
 
 
 # ---------------- nguồn + nhãn tầng (theo loi.json) ----------------
-SRC = {"N1": "SEC v. Horwitz, No. 2:21-cv-02927 (C.D. Cal.), Complaint", "N2": "SEC Press Rel. 2021-58", "N3": "SEC Lit. Rel. 25067",
+SRC = {"N1": "SEC v. Horwitz, 2:21-cv-02927 (C.D. Cal.), Complaint", "N2": "SEC Press Rel. 2021-58", "N3": "SEC Lit. Rel. 25067",
        "N4": "SEC v. Horwitz, Final Judgment, Dkt. 323 (C.D. Cal. 2024)", "N5": "SEC Lit. Rel. 25973",
-       "N6": "U.S. v. Horwitz, No. 2:21-cr-00214 (C.D. Cal.), Indictment, Dkt. 25", "N7": "U.S. v. Horwitz, No. 2:21-cr-00214 (C.D. Cal.), Plea Agreement, Dkt. 45",
+       "N6": "U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), Indictment, Dkt. 25", "N7": "U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), Plea Agreement, Dkt. 45",
        "N8": "U.S. v. Horwitz, Judgment, Dkt. 75", "N10": "DOJ USAO C.D. Cal. Press Rel. 21-059", "N11": "DOJ USAO C.D. Cal. Press Rel. 21-207",
        "N12": "DOJ USAO C.D. Cal. Press Rel. 22-027", "N18": "sec.gov", "N19": "FINRA BrokerCheck", "N20": "SEC IAPD", "N21": "FTC ReportFraud",
        "N22": "U.S. v. Horwitz, Gov’t Sentencing Position, Dkt. 58"}
@@ -62,7 +62,14 @@ def nguon(cid):
         g = list(dict.fromkeys(g)); s = SRC[k]
         if g: s += (" " if k == "N1" else (", pp. " if (len(g) > 1 or "–" in g[0]) else ", p. ")) + ", ".join(g)
         out.append(s)
-    return ("Source: " + "; ".join(out[:2])) if out else None
+    out = out[:3]
+    # gộp tiền tố vụ hình sự lặp lại để dòng nguồn ngắn (kiểm pháp lý lần 2, phát hiện 7)
+    TT = "U.S. v. Horwitz, 2:21-cr-00214 (C.D. Cal.), "
+    hs = [o for o in out if o.startswith("U.S. v. Horwitz")]
+    if len(hs) > 1:
+        gop = TT.rstrip(", ") + ": " + "; ".join(o.replace(TT, "").replace("U.S. v. Horwitz, ", "") for o in hs)
+        out = [gop] + [o for o in out if o not in hs]
+    return ("Source: " + "; ".join(out)) if out else None
 
 
 def nhan_tang(cid):
@@ -90,7 +97,10 @@ def lop_nhan(cid, nhan_minh_hoa=None):
         co = True; d.rectangle((0, 968, W, H), fill=(14, 17, 21, 190))
         x = 60
         if nh: huy_hieu(d, x, 982, nh[0], nh[1]); x += int(d.textlength(nh[0], font=fnt(F_SANSB, 30))) + 60
-        if src: l2.CHU.add(src); d.text((x, 994), src, font=fnt(F_MONO, 23 if len(src) < 95 else 20), fill=(214, 210, 200))
+        if src:
+            l2.CHU.add(src); sz = 23
+            while sz > 14 and d.textlength(src, font=fnt(F_MONO, sz)) > W - x - 40: sz -= 1
+            d.text((x, 994 + (23 - sz) // 2), src, font=fnt(F_MONO, sz), fill=(214, 210, 200))
     if nhan_minh_hoa:
         co = True; f = fnt(F_SANSB, 28); w = d.textlength(nhan_minh_hoa, font=f); l2.CHU.add(nhan_minh_hoa)
         d.rounded_rectangle((56, 50, 56 + w + 30, 96), radius=8, fill=(110, 116, 125, 225)); d.text((71, 57), nhan_minh_hoa, font=f, fill="white")
@@ -155,7 +165,7 @@ def ov_khung(cid):
 
 
 # ---------------- L1 tranh ----------------
-CAT = {"a14": (0, 0, 860, 484), "a17": (300, 80, 1376, 685)}  # MR-P1 (A): a14 l2 nhân vật lọt; a17 khách nền có mặt
+CAT = {"a14": (0, 0, 860, 484), "a17": (300, 80, 1110, 536)}  # a17: MR-6 cắt hẹp thêm — bỏ má/tai người vest tối (kiểm pháp lý lần 2)  # MR-P1 (A): a14 l2 nhân vật lọt; a17 khách nền có mặt
 CHON = {"a14": "a14_l2"}
 CAT_MR6 = json.load(open(os.path.join(ROOT, "reports", "mr6", "cat_khung.json"))) if os.path.exists(os.path.join(ROOT, "reports", "mr6", "cat_khung.json")) else {}
 _TR = {}
@@ -285,7 +295,7 @@ DONG19 = [("3 LESSONS", [S2["p21"][k][1] for k in ("S094", "S095", "S096")], (43
           ("5 RED FLAGS", [S2["p21"][k][1] for k in ("S097", "S098", "S099", "S100", "S101")], DO),
           ("1 RULE", ["Verify independently before any money moves."], NGA)]
 AI = ["Dramatized scenes use AI-generated visuals and illustrative characters, not the real people involved.",
-      "Narration voice is AI-generated. Facts are drawn from the public court and agency records listed above."]
+      "Narration voice is AI-generated. Facts are drawn from the public court and agency records listed below."]  # nguyên văn HIEN-CHUONG §6; đặt TRÊN danh sách
 NGUON_DS = ["SEC v. Horwitz, No. 2:21-cv-02927 (C.D. Cal.) — Complaint (Apr. 5, 2021)",
             "SEC Press Release 2021-58 (Apr. 6, 2021) · SEC Litigation Release No. 25067 (Apr. 8, 2021)",
             "SEC v. Horwitz — Final Judgment as to Zachary J. Horwitz, Dkt. 323 (Feb. 14, 2024) · SEC Lit. Rel. No. 25973",
@@ -318,16 +328,22 @@ def co_nguoi(ma):
     global LOP_NGUOI
     if LOP_NGUOI is None:
         A = json.load(open(os.path.join(ROOT, "reports", "mr6", "loi_anh.json")))["tranh"]
-        LOP_NGUOI = {k for k, v in A.items() if v["loai"] in ("nv", "man")} | {"a01", "a02", "a04", "a05", "a06", "a07", "a08", "a13", "a14", "a16", "a17", "a18", "a20", "K1", "K3"}
+        LOP_NGUOI = {k for k, v in A.items() if v["loai"] in ("nv", "man")} | {"a01", "a02", "a04", "a05", "a06", "a07", "a08", "a13", "a14", "a16", "a17", "a18", "a20"}
     return ma.split(":")[0] in LOP_NGUOI
 
 
 def chuan_bi_nhan():
     """Nhãn ILLUSTRATIVE: cảnh minh hoạ (L1/Veo) đầu tiên của mỗi đoạn."""
-    da = set(); out = {}
+    """+ (sửa sau kiểm pháp lý lần 2) cảnh minh hoạ ĐẦU TIÊN CÓ NGƯỜI của mỗi đoạn luôn mang "ILLUSTRATIVE — not the real person" (HIEN-CHUONG §4)."""
+    da = set(); da_nguoi = set(); out = {}
     for i, c in enumerate(CANH):
-        if c["lop"].startswith("L1") and c["doan"] not in da:
-            da.add(c["doan"]); out[i] = "ILLUSTRATIVE — not the real person" if co_nguoi(c["ma"]) else "ILLUSTRATIVE"
+        if not c["lop"].startswith("L1"): continue
+        ng = co_nguoi(c["ma"])
+        if c["doan"] not in da:
+            da.add(c["doan"]); out[i] = "ILLUSTRATIVE — not the real person" if ng else "ILLUSTRATIVE"
+            if ng: da_nguoi.add(c["doan"])
+        elif ng and c["doan"] not in da_nguoi:
+            da_nguoi.add(c["doan"]); out[i] = "ILLUSTRATIVE — not the real person"
     return out
 
 

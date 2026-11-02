@@ -12,7 +12,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 # ---------------- cảnh theo câu ----------------
 SC = {
  "S001": ["a01*1.3", "b064"], "S002": ["a03", "b065", "a04"], "S003": ["a05", "b066*1.3"],
- "S004": ["a07", "b001", "b067"], "S005": ["b002", "G01*2"], "S006": ["a09", "b070", "a10"],
+ "S004": ["a07", "b001", "b067", "b002"], "S005": ["G01*1"], "S006": ["a09", "b070", "a10"],
  "S007": ["T01*2"], "S008": ["b003", "a15", "b074"], "S009": ["G02*1"], "S010": ["G02*1", "a12"],
  "S011": ["K2*2"],
  "S012": ["a14", "b004", "b005"], "S013": ["b006", "b068"], "S014": ["a16", "b071"],
@@ -71,10 +71,10 @@ OV = {
  "S014": [("ten", "Sole manager", "according to the indictment")],
  "S029": [("bai", "Where would that much profit come from, every single time?")],
  "S039": [("bai", "Know exactly who is on the other side of your contract.")],
- "S049": [("bai", "If every piece of proof comes from the seller, it is not independent proof.")],
+ "S049": [("bai", "When every piece of proof comes from the person asking for your money, it is not independent proof.")],
  "S052": [("ten", "A $6 million home · luxury cars · private jet travel", "according to prosecutors")],
  "S057": [("bai", "Treat it as a claim to check, not as proof.")],
- "S061": [("bai", "On-time payments feel like proof. In a Ponzi scheme, they keep it going.")],
+ "S061": [("bai", "That is the trap: on-time payments feel like proof the investment works.")],
  "S070": [("ten", "Messages used identities of actual HBO and Netflix employees", "according to prosecutors")],
  "S071": [("ten", "Identity-theft counts: DISMISSED", "not convicted of those counts")],
  "S077": [("bai", "A reason to slow down, not to send more.")],
