@@ -54,3 +54,5 @@
 {"t": "2026-11-02T03:45:02Z", "kind": "openrouter_usd", "amount": 0.038233, "tranh": "b045", "luot": 1, "bat_dau": "2026-11-02T03:44:49Z", "xong": "2026-11-02T03:44:59Z", "so_anh": 1, "nguon_so": "usage.cost"}
 {"t": "2026-11-02T03:45:15Z", "kind": "openrouter_usd", "amount": 0.038523, "tranh": "b046", "luot": 1, "bat_dau": "2026-11-02T03:45:02Z", "xong": "2026-11-02T03:45:11Z", "so_anh": 1, "nguon_so": "usage.cost"}
 {"t": "2026-11-02T03:45:28Z", "kind": "openrouter_usd", "amount": 0.038589, "tranh": "b047", "luot": 1, "bat_dau": "2026-11-02T03:45:15Z", "xong": "2026-11-02T03:45:25Z", "so_anh": 1, "nguon_so": "usage.cost"}
+{"t": "2026-11-02T03:45:47Z", "kind": "openrouter_usd", "amount": 0.03858, "tranh": "b048", "luot": 1, "bat_dau": "2026-11-02T03:45:33Z", "xong": "2026-11-02T03:45:44Z", "so_anh": 1, "nguon_so": "usage.cost"}
+{"t": "2026-11-02T03:45:53Z", "kind": "openrouter_usd", "amount": 0.4, "khe": "K5", "luot": 1, "job": "gen-vid-1793591032-MXjyZnW41L9KI3Oh7n4x", "status": "completed", "bat_dau": "2026-11-02T03:43:52Z", "xong": "2026-11-02T03:45:43Z", "nguon_so": "usage.cost"}
