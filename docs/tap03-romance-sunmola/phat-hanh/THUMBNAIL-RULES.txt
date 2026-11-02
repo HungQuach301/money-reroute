@@ -1,0 +1,20 @@
+MONEY REROUTE - THUMBNAIL RULES (Episode 3: "A Fake Soldier, 27 Years in Prison: A Romance Scheme")
+Paste this whole file into the image tool before describing the thumbnail.
+
+The thumbnail MUST NOT contain:
+1. Any person at all - no faces, no bodies, no silhouettes of men or women, no stylized characters. (The case used photos of real men; nobody must look like them.)
+2. Military uniforms, insignia, ranks, medals, dog tags, flags, or anything that looks like the U.S. Army or the U.S. military.
+3. Dating-site or app interfaces, chat bubbles with readable text, profile pages, or any logo, bank, card brand, or money-transfer service.
+4. Anything romantic-physical, intimate, or suggestive: no beds, no kissing, no bodies, no lingerie, no camera pointed at a person.
+5. The words "SCAM", "SCAMMER", "FRAUDSTER", "NIGERIAN", "PRINCE CHARMING", "CON MAN", or "LIAR".
+6. Anything that looks like a real court document, letter, check, shipping label with text, or official seal.
+7. Stereotyped images of Africa, Nigeria, South Africa, or any nationality or ethnic group: no savanna, no animals, no traditional clothing, no flags.
+8. Text that promises something the video does not show (no "SECRET", "EXPOSED").
+9. Blood, weapons, handcuffs, mugshot styling, or shocking imagery.
+
+The thumbnail MAY contain:
+- The words "FAKE SOLDIER" and "27 YEARS" (he was sentenced to 324 months; a federal appeals court found he misrepresented himself).
+- Abstract props: an empty profile frame (flat grey outline with a question mark), a cracked flat heart, plain cardboard boxes with blank labels, a laptop with a blank glowing screen.
+- Channel look (same as episode 1): warm ivory paper background, dark ink, one accent color; bold serif headline, max 4 words.
+
+Format: 1280x720, high contrast, readable at small size.

@@ -15,6 +15,9 @@ Kiểm riêng ("kiem_rieng"):
   KC "dung_mot": đúng MỘT câu trong cả tập (lời + chu) khớp "ten"; câu đó phải doc=false (chỉ thẻ chữ) nếu "chi_the";
       SHOT.md khớp "ten" ≤ 1 dòng. (Tập 3: ảnh riêng tư — K3 MR-D23.)
   KD "cam_them": regex cấm thêm của tập (lời + chu).
+  KE "kbcb_doc_dau" (MR-S23, quyết định G1 02/11/2026 10:25): trong các câu KBCB khớp "kbcb", đúng MỘT câu ĐỌC (doc=true), đó là
+      câu KBCB khớp "kbcb" đầu tiên, nằm SAU lần nêu đầu (câu không KBCB đầu tiên khớp "ten") và CÙNG đoạn; mọi câu còn lại doc=false
+      (thẻ chữ, có chu).
 Thống kê: số từ, thời lượng ước ở 155 từ/phút (đo thật MR-4) và 145, số ký tự gửi TTS (sau thay phát âm)."""
 import json, re, sys, os
 
@@ -113,6 +116,17 @@ def main(src, dst):
         if shot is not None:
             n = sum(1 for ln in shot if ten.search(ln))
             if n > 1: loi.append(f"KC SHOT.md: /{r['ten']}/ xuất hiện {n} dòng, tối đa 1")
+    # KE — KBCB đọc đúng một lần, ở lần nêu đầu; sau đó thẻ chữ
+    for r in kr.get("kbcb_doc_dau", []):
+        ten, kb = re.compile(r["ten"]), re.compile(r["kbcb"])
+        cau = d["cau"]
+        kbs = [i for i, c in enumerate(cau) if c["tang"] == "KBCB" and kb.search(c["loi"] + " " + (c.get("chu") or ""))]
+        doc_kb = [i for i in kbs if cau[i].get("doc", True)]
+        dau = next((i for i, c in enumerate(cau) if c["tang"] != "KBCB" and any(ten.search(x) for x in chu_doc(c))), None)
+        if len(doc_kb) != 1:
+            loi.append(f"KE: /{r['kbcb']}/ có {len(doc_kb)} câu ĐỌC ({', '.join(cau[i]['id'] for i in doc_kb)}), phải đúng 1")
+        elif dau is None or doc_kb[0] != kbs[0] or doc_kb[0] < dau or cau[doc_kb[0]]["doan"] != cau[dau]["doan"]:
+            loi.append(f"KE: câu KBCB đọc {cau[doc_kb[0]]['id']} không phải câu đầu tiên ngay sau lần nêu đầu ({cau[dau]['id'] if dau is not None else '—'})")
     doc_cs = [c for c in d["cau"] if c.get("doc", True)]
     n_chu = len(d["cau"]) - len(doc_cs)
     tu = sum(len(c["loi"].split()) for c in doc_cs)

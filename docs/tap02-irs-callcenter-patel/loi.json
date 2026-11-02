@@ -3,7 +3,7 @@
  "vu": "irs-callcenter-patel",
  "tieu_de_md": "TẬP 2 — Call center mạo danh IRS/USCIS / Hitesh Madhubhai Patel",
  "ngon_ngu": "en-US",
- "ban": "MR-K23 nháp G1",
+ "ban": "MR-K23 · G1 lời DUYỆT 02/11/2026 10:25 (NHAT-KY) · MR-S23 áp quyết định KBCB (đọc lần nêu đầu, sau đó thẻ chữ)",
  "ngay_chot_loi": "2026-11-01 (UTC; 02/11 giờ Hà Nội)",
  "ngay_kiem_trang_thai": "2026-11-01 (UTC)",
  "quy_uoc": "Tầng: ● kết án (Patel: nhận tội 09/01/2020, án 30/11/2020) · ●T Patel thừa nhận khi nhận tội THEO THÔNG CÁO DOJ (plea agreement chưa mở được → lời luôn có chủ thể DOJ/admitted) · ●N nhóm 24 bị cáo ở Mỹ đã kết án (không tên) · ◐ cáo trạng/lời DOJ/lời đồng bị cáo · TT thủ tục · NB nhận dạng · KBCB câu không liên quan (cơ quan bị mạo danh) · MH cảnh minh hoạ · CHUNG bài học/chuyển đoạn. Nguồn: mã N theo docs/tap02-irs-callcenter-patel/NGUON.md; N1 = 'Page x of 81'; N2–N5 đ.n = thẻ <p> thứ n không rỗng của trường body (API DOJ).",
@@ -38,6 +38,13 @@
    "(?i)WhatsApp|iTunes|Western Union|MoneyGram",
    "(?i)Call Mantra|Worldwide Solution|Zoriion|Sharma BPO",
    "\\d{3}[-.)]\\s?\\d{3}[-.]\\d{4}"
+  ],
+  "kbcb_doc_dau": [
+   {
+    "ten": "\\bIRS\\b|immigration services|Citizenship and Immigration",
+    "kbcb": "IRS and (USCIS|U\\.S\\. Citizenship and Immigration Services) had nothing to do",
+    "mo_ta": "G1 02/11/2026 10:25: câu KBCB IRS/USCIS ĐỌC đúng một lần ở lần nêu đầu, các lần sau thẻ chữ"
+   }
   ]
  },
  "phat_am_them": [
@@ -311,12 +318,12 @@
    "doan": "P03",
    "nhip": "3b",
    "tang": "KBCB",
-   "loi": "None of these agencies, in the United States, Canada or Australia, had anything to do with the calls.",
+   "loi": "The tax agencies of Canada and Australia had nothing to do with the calls either.",
    "nguon": [
     "N4 đ.5",
     "N4 đ.6"
    ],
-   "chu": null,
+   "chu": "The IRS, USCIS and the tax agencies of Canada and Australia had nothing to do with these calls.",
    "doc": true
   },
   {
