@@ -1,0 +1,762 @@
+{
+ "_ghi_chu": "MR-6 · Danh sách tranh L1 mới (b001…) + lời sinh → reports/mr6/loi_anh.json (0 USD, dựng lại được).",
+ "model": "google/gemini-nano-banana-2.1",
+ "tien_to": "ART STYLE (variant A): semi-realistic digital painting for a true-crime documentary, cinematic and dark; low-key lighting with deep shadows; muted teal-and-amber color grade; visible painterly brushwork and soft film grain; storyboard / graphic-novel painting feel, clearly an illustration, NOT a photograph.\n\nRECURRING CHARACTERS (invented, must not resemble any real person or celebrity): (1) THE INVESTOR — an invented ordinary woman in her early fifties, shoulder-length wavy salt-and-pepper hair, thin round tortoiseshell glasses, mustard-yellow knit cardigan over a white collared shirt; her face may be shown. (2) THE MAN IN THE DARK SUIT — only ever shown strictly from behind, as a backlit black silhouette, or as hands/sleeves; his face is NEVER visible, no profile, no identifiable features.",
+ "hau_to": "HARD RULES: absolutely no text anywhere in the image — no letters, words, numbers, captions, signage, labels, logos, watermarks, brand marks or user-interface elements. Any screen, paper, poster or envelope is blank or completely blurred. No documents, contracts, money bills or certificates. Do not depict any real person, celebrity or public figure. No caricature of any ethnicity or nationality. Single image, 16:9 landscape, full bleed, no borders, no panels, no split screen.",
+ "ref_nv": "lab/mrp1/A/a01_l1.png",
+ "ref_canh": "lab/mrp1/A/a15_l1.png",
+ "ref_loi_nv": "The attached image is the STYLE AND CHARACTER REFERENCE for this series. Match its art style, rendering, palette and lighting exactly. If the scene includes the investor woman she must be the same character (same hair, glasses, mustard cardigan). Do not copy its composition or its content.",
+ "ref_loi_canh": "The attached image is the STYLE REFERENCE for this series. Match its art style, rendering, palette and lighting exactly. Do not copy its composition or its content. The investor woman is NOT in this scene.",
+ "tranh": {
+  "b001": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "An actor's dressing room at night: a mirror framed by warm bulbs reflecting only an empty chair, a dark suit jacket hanging on a hook. Nobody in the mirror. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b002": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "Close-up of a hand in a dark suit sleeve with a cufflink setting a brass hourglass down on a polished desk next to a closed leather portfolio. Only the hand and sleeve. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b003": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A modern office corridor at night with glass walls, blurred city lights beyond, completely empty, cool teal light. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b004": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Exterior of a modest low-rise office building at dusk in Los Angeles, a lone palm tree, warm windows; absolutely no signage or lettering on the building. No people. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b005": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A cluttered desk with film reel canisters, a vintage film splicer and a green-shaded desk lamp; dust in the lamp beam. No people. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b006": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A single gold coin standing on its edge under a spotlight on a dark table, surrounded by hundreds of ordinary grey pebbles. Symbolic still life, no markings on the coin. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b007": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "Close-up over a restaurant table: the investor's hands in mustard cardigan sleeves rest near a closed fountain pen; across the table a hand in a dark suit sleeve gestures persuasively. Candlelight. Faces out of frame."
+  },
+  "b008": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A quiet law library with tall shelves of thick bound law books with plain unmarked spines, a reading table with a green lamp. No people. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b009": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A brass hourglass on a dark desk beside a short stack of plain coins; sand falling, warm side light. No markings. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b010": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "Night kitchen: the investor sits alone at the table with a pen and a blank notepad, thinking hard, lit by one small lamp."
+  },
+  "b011": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A vast dark empty warehouse floor with silent machines under dust sheets, a single shaft of light. Nothing is being produced. No people. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b012": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "The investor in a small home office leaning toward a laptop whose screen is a soft blurred glow, hopeful expression, afternoon light through blinds."
+  },
+  "b013": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "Bright morning kitchen: the investor smiles while looking down at her phone (screen not visible), relieved, sunlight on the table."
+  },
+  "b014": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Two empty office chairs facing each other across a glass table at night, city lights blurred behind. No people. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b015": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "An elegant dinner party in a dim home: several invented guests seen only as soft dark silhouettes against warm lamplight, glasses raised; the man in the dark suit at the head of the table seen strictly from behind. No faces visible. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b016": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Backyard gathering at dusk: hands clinking wine glasses over a table with string lights, all faces out of frame. Warm and friendly mood. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b017": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A chain of hands passing a sealed blank envelope from one person to the next across a long table, only hands and sleeves visible, varied sleeves. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b018": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "The investor sits at a table looking across at an empty chair; a pen lies between them. Uncertain mood, dim light."
+  },
+  "b019": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A crowded community hall seen from the back, rows of invented people as dark silhouettes facing a soft light, no faces, no signs. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b020": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Hundreds of tiny paper boats on dark water drifting away from a single larger boat, seen from above at dusk. Symbolic, no markings. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b021": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A heavy steel safe-deposit box lying open and completely empty under a single lamp on a dark table. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b022": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A film reel canister wrapped in a chain with a padlock, on a dark shelf, dramatic side light. No labels. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b023": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A private screening room after hours: the projector is off, a thin haze in the air, empty seats in darkness, the screen dark. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b024": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "Close-up: hands in dark suit sleeves slide a closed thick leather folder across a desk toward the viewer. Only hands. Nothing written on the folder. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b025": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A printer in a dark office at night pushing out a stream of blank white pages that pile onto the floor. Pages completely blank. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b026": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "The investor holds a magnifying glass over a blank sheet of paper on her kitchen table, lamp light, skeptical expression."
+  },
+  "b027": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "The man in the dark suit, strictly from behind, stands at a large desk covered with stacks of closed blank folders, lit by a single lamp in a dark room. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b028": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A massive bank vault door half open onto darkness, cold light spilling out. No people, no markings. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b029": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A sleek dark sports car in a dim garage, light catching its curves; no badges, no license plate. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b030": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A luxurious empty living room with floor-to-ceiling windows at night overlooking city lights, designer furniture, a fire in a fireplace. No people. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b031": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "A conference room: several invented investors around a table as dark silhouettes seen from behind, the man in the dark suit at the head of the table as a backlit silhouette. No faces. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b032": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "Close-up: a hand in a dark suit sleeve places a small stack of coins onto a larger pile that other hands (varied sleeves) are building on a table. Only hands. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b033": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "The investor raises one hand, palm outward, in a calm 'wait' gesture at a table; the other hand rests on a closed notebook."
+  },
+  "b034": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "Dawn kitchen: the investor smiles faintly at her phone (screen not visible), coffee steaming. Calm, reassured."
+  },
+  "b035": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "The man in the dark suit stands at a tall window, strictly from behind, as autumn leaves blow past outside; time passing. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b036": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A stack of sealed blank envelopes on a desk growing very tall, lit by a lamp, the top envelopes leaning precariously. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b037": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "Night hallway: the investor stands with a phone pressed to her ear, worried, lit by a cold window."
+  },
+  "b038": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A pile of plain blank envelopes on a doormat inside a dark front door, more slipping through the mail slot. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b039": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "An empty kitchen chair with a mustard knit cardigan draped over its back, a wet window behind (no rain falling), cold night light. No people. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b040": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A still lake at night under a pale moon with thin mist lying on the water; perfectly calm. No people. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b041": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "The man in the dark suit as a backlit silhouette seated at a desk at night, head bowed over a phone whose glow is hidden from view. Strictly from behind. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b042": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "Close-up of a phone in a dark room held in a hand in a dark suit sleeve; the screen faces away from the viewer; only a cold glow on the cuff. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b043": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A dark carnival-style masquerade mask lying on a desk next to a smartphone face-down, lamp light. Symbolic. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b044": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A judge's gavel resting on its wooden block in a dim empty courtroom, light from a high window. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b045": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A rain-wet window at night with still droplets on the glass (no rain falling) and blurred city lights beyond. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b046": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "Close-up: hands in dark suit sleeves typing on a laptop at night; the screen is a blurred glow facing away. Only hands. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b047": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A law office waiting area at night with empty leather chairs and a closed wooden door, warm lamp. No signs, no lettering. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b048": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "Close-up: the investor's hand in a mustard cardigan sleeve pauses in mid-air above a smartphone lying on the table; she does not touch it."
+  },
+  "b049": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A wall clock with a completely blank face and no numerals in a dark office, its hands near the top; dramatic shadow. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b050": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A deserted city street at night, wet asphalt reflecting street lamps, no signs, no cars, no people. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b051": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "An empty federal courtroom at dawn: judge's bench, clerk desk, rows of empty benches, light beams through tall windows. No seals, no flags, no lettering. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b052": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A heavy round bank vault door swinging shut with large steel bolts, cold blue light. No people. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b053": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Pre-dawn in a dark private office: a desk lamp still on over scattered closed folders, an empty leather chair turned away from the desk, a tall window with a faint blue sky. No people. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b054": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A single pen resting on a closed folder on a wooden courtroom table, a lamp nearby, shallow depth of field. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b055": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "The empty public gallery of a courtroom, wooden benches, long beams of morning light with dust. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b056": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A heavy steel door at the end of a stark empty corridor, cold fluorescent light. No people, no signs. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b057": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A conference room at night with tall stacks of plain binders on a long table, no labels on the binders. No people. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b058": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "An empty red carpet with velvet ropes and distant camera flashes as soft bokeh, no people, no logos, no backdrop text. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b059": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "An empty theater stage with one spotlight on a lone wooden chair, heavy curtains half open. No people. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b060": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A tower of champagne glasses on a table in a dark room, the top glass being filled, glowing amber liquid spilling into lower glasses. No people visible. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b061": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "Morning: the investor sits at her kitchen table writing in a notebook (writing not legible, seen from an angle), calm and determined, sunlight."
+  },
+  "b062": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "The investor closes a laptop and sets down her glasses, thoughtful, in a sunny home office."
+  },
+  "b063": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "Dawn kitchen wide shot from the doorway: the investor at the table with her phone, the room still blue with early light."
+  },
+  "b064": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A smartphone lying face up on a wooden table at dawn, its screen a soft blurred green glow, steam from a coffee mug beside it. Screen content completely blurred. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b065": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Night: a smartphone face up on a kitchen table glowing with a cold blurred light, a wet dark window behind it (no rain falling). The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b066": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Rows of grey archive boxes on tall metal shelves in a dim records room, a shaft of light, no labels on the boxes. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b067": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "A film set at night: a camera crane and lights silhouetted, the man in the dark suit seen far away strictly from behind in the glow. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b068": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A large movie projector beam cutting through haze in a dark room, close-up on the lens light. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b069": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A scale model city of Los Angeles-like hills at dusk with tiny lights, painted in dark teal and amber, no landmarks, no signs. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b070": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Close-up of film strips hanging from a rack in an editing room, backlit amber, frames completely blurred. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b071": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "The man in the dark suit, strictly from behind, opens the door of a small office into darkness, light from the hall. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b072": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "The investor listening intently across a restaurant table, candlelight, the other diner out of frame."
+  },
+  "b073": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A map-like abstract painting of glowing routes across a dark ocean, seen from high above, like a distribution network, no labels. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b074": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A row of glowing television screens in a dark showroom, each showing only abstract blurred color, no logos. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b075": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Close-up of a stack of coins growing taller beside a film reel on a desk, warm light. No markings. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b076": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "Close-up of a fountain pen nib above a blank sheet of paper held still by a hand in a dark suit sleeve. Nothing written. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b077": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A pair of old-fashioned brass balance scales on a dark desk, one pan heavier with coins, the other empty. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b078": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A calendar-like wall of blank square tiles in a dark room with a beam of light crossing them, no numbers, no letters. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b079": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A small plant seedling sprouting from a pile of coins, dramatically lit, symbolic growth. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b080": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "The investor at her kitchen table doing mental math, eyebrows raised, a pencil in hand, notepad blank."
+  },
+  "b081": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A row of dominoes about to fall on a dark table, side light. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b082": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "The investor in conversation on a sofa with an invented friend seen from behind (only back of head and shoulder), warm living room, evening."
+  },
+  "b083": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A grand cinema marquee at night with all its letter rows completely empty and blank, bulbs glowing. No text. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b084": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "A golf course clubhouse terrace at sunset, invented men and women as silhouettes chatting, the man in the dark suit among them strictly from behind. No faces. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b085": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A family living room in the evening, an invented couple seen from behind on a sofa looking at a tablet (screen blurred), cozy lamp light. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b086": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A ladder of hands, each handing coins down to the next, painted as a symbolic vertical composition, only hands and sleeves. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b087": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Close-up of a broken chain link on a dark table, symbolic of a missing connection. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b088": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A row of empty bank teller windows at night, brass grilles, no signs. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b089": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Close-up of a padlock hanging open on an empty hook on a wall, lamp light. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b090": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A filing cabinet drawer pulled open and completely empty in a dark office. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b091": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "Close-up of a rubber stamp being pressed by a hand in a dark suit sleeve onto a blank page; no ink marks visible, nothing written. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b092": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A stack of blank papers with a fountain pen on top lit by a single lamp, everything blank. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b093": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A theater backstage: a painted flat of a building facade seen from behind, held up by wooden braces — a facade with nothing behind it. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b094": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Coins spilling out of a tipped jar across a polished table, motion frozen, warm light. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b095": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A private jet interior with empty cream leather seats and small oval windows glowing with sunset, no logos. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b096": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A walk-in closet with rows of expensive suits and shoes under soft spotlights, no logos. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b097": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A swimming pool at night with underwater lights glowing on a modern terrace, no house facade details, no people. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b098": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A set of house keys on a marble kitchen island, morning light, nobody around. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b099": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Two transparent glass jars connected by a tube, coins flowing from one jar into the other, symbolic, dark background. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b100": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A spiral staircase seen from above descending into darkness, symbolic, no people. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b101": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A hamster-wheel-like large brass wheel turning in a dark room, symbolic of a cycle, no animals. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b102": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Autumn leaves falling past a dark office window at dusk, seen from inside. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b103": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A desk calendar-like flip block whose pages are all blank, flipping in a gust, dark room. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b104": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A dried-up fountain in a courtyard at night, the basin empty, a few leaves inside. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b105": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "The investor sits on the edge of her bed at night holding her phone, worried, the room dark."
+  },
+  "b106": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "An answering machine-like small device with a red blinking light on a hallway table at night, no display text. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b107": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "The investor looking out of a rain-streaked window at night (still droplets, no rain falling), arms crossed, anxious."
+  },
+  "b108": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A smartphone face-down vibrating on a nightstand at night, a faint glow at its edge. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b109": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "The man in the dark suit, strictly from behind, standing in a dark room lit only by a wall of glowing blurred monitors. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b110": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A ventriloquist-style empty chair beside a microphone on a stand in a dark empty room, symbolic of speaking for someone else. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b111": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A row of identical empty office cubicles at night lit by cold light, no logos, no signs. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b112": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "The investor reading her phone at the kitchen table at night (screen not visible), hopeful but tired."
+  },
+  "b113": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A large analog wall clock in a dark hallway with a completely blank face, only hands, no numerals, a sense of time running. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b114": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "An empty conference table with a single closed laptop at one end and a cold cup of coffee, early morning grey light. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b115": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "The investor at her table pushes the phone away from her with one hand, deciding to wait, lamp light."
+  },
+  "b116": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A city skyline at dawn under a heavy cloud bank, first light on the towers, no signs, no landmarks. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b117": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A row of tall government-style building windows at dawn with the lights coming on one by one, no flags, no seals. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b118": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Close-up of a steel padlock snapping shut on a chain around a filing cabinet, cold light. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b119": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "An empty quiet residential street at dawn with dark parked cars and street lamps turning off, no people, no license plates. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b120": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A courthouse hallway with tall wooden doors closed, morning light on a polished floor, empty, no lettering. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b121": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Close-up of the bars of a courtroom railing with soft light, symbolic, empty. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b122": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A calendar-free composition: two seasons' light passing over an empty courtroom bench, painterly. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b123": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Close-up of a judge's empty high-backed leather chair behind the bench, dramatic light. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b124": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A pair of scales of justice as a brass sculpture on a dark pedestal, no lettering. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b125": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Stacks of coins slowly being moved from one side of a table to the other by many invented hands, only hands visible. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b126": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "An empty government agency hallway at night with closed office doors, no plaques, no lettering. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b127": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Close-up of a pen signing on a line at the bottom of a page seen from such an angle that nothing is legible, hand in plain white shirt sleeve. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b128": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A movie premiere red rope stanchion fallen on the floor of an empty hall, spotlight. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b129": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A cardboard cutout silhouette of a man in a suit standing in an empty spotlight on a stage, flat and hollow from behind. No face. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b130": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A dark empty movie theater after the show, litter on the floor, the screen dark. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b131": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "The investor at dawn standing at her kitchen window holding a mug, looking out, resolved."
+  },
+  "b132": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Close-up of a magnifying glass resting on a closed notebook on a table, morning sunlight. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b133": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A short fuse burning toward a closed box on a dark table, symbolic of a short clock, no explosion. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b134": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A glowing star-shaped spotlight on an empty pedestal in a dark gallery — a famous partner who is not there. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b135": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A ventriloquist's empty puppet chair and a single microphone under a spotlight, symbolic of one voice for all the proof. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b136": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A whisper chain: a row of invented people seen from behind leaning to whisper into each other's ears, faces hidden, warm light. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b137": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A finger pointing away toward a distant blurred office building, only the hand and sleeve visible, symbolic of blame. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b138": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "The investor standing at a library help desk area looking at a computer monitor whose screen is blurred, focused, checking information."
+  },
+  "b139": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A sunrise over calm water, warm hopeful light, no people. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b140": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "The investor walking out of her front door into morning light, seen from slightly behind, purposeful."
+  },
+  "b141": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A smartphone face-down on a dark wooden table under a single lamp, a thin glow escaping at its edge, deep shadows. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b142": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "The man in the dark suit, strictly from behind, walking down a long corridor of film reel shelves toward a lit doorway. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "b143": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Overhead view of a desk at night with scattered blank envelopes, a lamp, a closed laptop and a cold coffee cup. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b144": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A row of mailboxes in an apartment lobby at night, all closed, no names, no numbers. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b145": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Close-up of an old film camera's lens reflecting a red-orange light, dark background. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b146": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A long empty boardroom table seen from one end, chairs pushed back, papers gone, dawn light. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b147": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Heavy theater curtains closing on a dark stage, a last sliver of light. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b148": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A lighthouse beam sweeping over a dark sea at night, symbolic of independent verification. The investor woman is NOT in this scene; no recognizable faces."
+  },
+  "b149": {
+   "loai": "nv",
+   "ref": "ref_nv",
+   "luot1": "The investor holding a cup of coffee at her kitchen table at dawn, smiling slightly, the phone face-down beside her."
+  },
+  "b150": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A quiet suburban kitchen at dawn, empty, a coffee mug on the table, birds outside the window. No people. The investor woman is NOT in this scene; no recognizable faces."
+  }
+ }
+}
