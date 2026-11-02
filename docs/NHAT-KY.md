@@ -175,3 +175,7 @@ Nhánh `ccr-93d57c5c-q2ib0q`: preflight ĐẠT; 0 email; sổ **7,4795 USD** / t
 - Điều phối xem tờ 1 s (phần 1 và 3): ba lớp hình đúng PHONG-CACH-HINH — tranh tối; đồ hoạ động (thẻ kỳ phiếu, phép tính 35 % → 82 %, trục đếm ngược 28 → 4 → 3 ngày, con số đếm lên, sơ đồ vòng Ponzi); trang hồ sơ thật nền ngà khoanh câu. Người vest tối chỉ bóng/lưng; nhân vật đại diện nhất quán. Kiểm pháp lý lần 2 của phiên: vòng 1 chưa đạt → 2 vòng sửa → ĐẠT. N2, N3, N18 mở lại HTTP 200.
 - **Quỹ chung — nghiêm trọng hơn:** 02:26–03:26 UTC tài khoản OpenRouter chi **+15,70 USD** và ElevenLabs **+7.675 ký tự** ngoài khoá MR (lần thứ ba). Số dư OpenRouter sau MR-6: **11,83 USD**.
 - Luật Veo mới (đề xuất): khung đầu ảnh→video **không có người** (K1/K3 bị lọc).
+
+## G2 tập 1 · 02/11/2026 13:05 (giờ Hà Nội) · Chủ dự án DUYỆT G2
+- **Tập 1 `tap01-1inmm` — G2 DUYỆT** (bản dựng MR-6, 14:32; gói `phat-hanh/PHAT-HANH.md`). Chờ: thumbnail chủ dự án tự làm (rà theo THUMBNAIL-RULES), kiểm trạng thái vụ + trang Help khai AI ngay trước ngày đăng; chủ dự án đăng (M-f).
+- **Quỹ chung:** chủ dự án xác nhận các khoản chi ngoài khoá MR (MR-4 ≈ 4,00; MR-P1 1,00; trước MR-6 15,70 USD + 7.675 ký tự ElevenLabs) là của **kênh lost-places** dùng chung tài khoản → không phải lộ khoá. Hệ quả: số dư MR phải tính sau khi trừ kế hoạch lost-places; mỗi phiên MR vẫn đọc `/credits` trước mỗi lượt.
