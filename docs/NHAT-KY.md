@@ -196,3 +196,9 @@ Nhánh `claude/short-doc-1inmm-horwitz-4pnmgb`: preflight ĐẠT; 0 email; 0 USD
 ## MR-S23 · 02/11/2026 21:40 (giờ Hà Nội) · Điều phối rà — merge
 Nhánh `claude/brave-gauss-8c6982` @ từ `f7527af`: preflight ĐẠT; 0 email; 0 USD (budget.py không đổi). Chạy lại máy: `loi_md.py` tập 2/3 `loi: []` (K1–K8, KA–KE); `shot2.py` tập 2 (185 cảnh, 106 tranh, 15 L2, 5 Veo) và tập 3 (207 cảnh, 144 tranh, 17 L2, 5 Veo) `loi: []`. Rà độc lập của phiên bắt 2 lỗi cao (nhân vật đại diện gắn nạn nhân cụ thể; thumbnail "FAKE IRS CALLS") — đã sửa.
 Khuyến nghị điều phối trình chủ dự án: S021 giữ bản đã kiểm; không thêm trang crop (giữ L2 thay thế); thumbnail tập 2 không chữ "IRS"; mật độ tập 2 nâng tới L1 TB ≤ 3,0 s (~+35 tranh); Short SH1 mỗi tập; trần M-c+M-d: tập 2 **11,00 USD** + 12.500 ký tự, tập 3 **11,80 USD** + 12.000 ký tự; chạy **tuần tự** (tập 2 rồi tập 3) theo số dư.
+
+## MR-P2 · 02/11/2026 23:30 (giờ Hà Nội) · Điều phối rà — merge
+Nhánh `claude/brave-faraday-vtsny1`: preflight ĐẠT; 0 email; sổ **1,00 USD** / trần 1,50 (5 clip Veo 4 s × 0,20). Trọng số mô hình độ sâu (Depth Anything V2 Small, Apache-2.0) không đưa vào repo.
+- Đo: % thời lượng tranh có chuyển động thật — gốc 0 % · A (2.5D) 51 % · B (+ lớp động) 58 % · C (+ Veo 4 s) 62 %. Veo 3.1 Lite nhận 4 s (0,20 USD/clip, 5/5 đạt lượt 1, khung đầu không người).
+- Điều phối dựng bản so sánh 2×2 (0 USD) gửi chủ dự án. QC mép còn 3 lỗi nhỏ 2–6 px ở 1:1 (b077, b080, b009).
+- Chi ngoài khoá MR trong phiên 6,20 USD (lost-places). Số dư tài khoản sau phiên **12,03 USD**.
