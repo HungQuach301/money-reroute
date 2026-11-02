@@ -269,7 +269,7 @@ def clip_dir(ma):
     src = CLIP_CHON.get(ma, CLIP[ma]); d = os.path.join(SCR, "clip_" + ma)
     if not os.path.isdir(d) or not os.listdir(d):
         os.makedirs(d, exist_ok=True)
-        vf = f"fps={FPS},scale={W}:{H}" + ("," + GRADE if ma.startswith("V") else "")
+        vf = f"fps={FPS},scale={W}:{H}" + ("," + GRADE if ma.startswith("V") else "") + (",eq=brightness=-0.13:gamma=0.82" if ma == "V11" else "")  # V11 bếp sáng → kéo về tông tối
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(DAU.get(ma, 0)), "-i", os.path.join(ROOT, src), "-vf", vf, "-q:v", "3",
                         os.path.join(d, "%04d.jpg")], check=True)
     return d

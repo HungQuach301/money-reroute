@@ -27,9 +27,10 @@ def ap(t, t0, d=0.5): return muot((t - t0) / d) if t0 is not None else 0.0
 def mix(c, a, bg=THAN): return tuple(int(bg[i] + (c[i] - bg[i]) * a) for i in range(3))
 
 
-def txt(d, xy, s, f, col, a=1.0, anchor="la", bg=THAN):
+def txt(d, xy, s, f, col, a=1.0, anchor="la", bg=THAN, reg=True):
     if a <= 0.01: return
-    CHU.add(s); d.text(xy, s, font=f, fill=mix(col, a, bg), anchor=anchor)
+    if reg: CHU.add(s)  # số đang đếm (khung trung gian) không ghi sổ; chỉ giá trị dừng
+    d.text(xy, s, font=f, fill=mix(col, a, bg), anchor=anchor)
 
 
 _NEN = None
@@ -191,7 +192,8 @@ def tieu(d, s, t, t0, sub=None):
 
 
 def so_lon(d, xy, s, t, t0, col=NGA, size=150, anchor="mm"):
-    k = nhan(t, t0); f = fnt(F_BOLD, int(size * k)); txt(d, xy, s, f, col, ap(t, t0 - 0.3 if t0 else None, 0.3), anchor)
+    """t0 = lúc số DỪNG (hiện từ t0 − 0,3 s nếu không đếm; số trung gian trước t0 không ghi sổ chữ)."""
+    k = nhan(t, t0); f = fnt(F_BOLD, int(size * k)); txt(d, xy, s, f, col, 1.0, anchor, reg=(t0 is None or t >= t0))
 
 
 def dau(d, cx, cy, s, a, ang=-8, size=44):
@@ -227,8 +229,9 @@ class G01(G):  # S005 kỳ phiếu
         arrow(d, [(700, 520), (1000, 520)], XAM, ap(t, t25 - 0.4), prog=ap(t, t25 - 0.4, 0.6))
         hat(d, [(700, 520), (1000, 520)], t, HP, ap(t, t25), n=4, v=0.5)
         if t25 and t >= t25 - 0.3:
-            lo = dem(t, t25, 25, 0.9); s = f"{lo:.0f}%" if not (t45 and t >= t45) else f"25–{dem(t, t45, 45, 0.9):.0f}%"
-            so_lon(d, (1380, 500), s, t, t45 if (t45 and t >= t45) else t25, DO, 170)
+            lo = dem(t, t25, 25, 0.9); hi = 25 + dem(t, t45, 20, 0.9) if t45 else 25
+            s = f"{lo:.0f}%" if not (t45 and t >= t45) else f"25–{hi:.0f}%"
+            so_lon(d, (1380, 500), s, t, (t45 + 0.9) if (t45 and t >= t45) else t25 + 0.9, DO, 170)
             txt(d, (1380, 650), "PROMISED RETURN", fnt(F_SANSB, 40), NGA, ap(t, t25), "mm")
         return im
 
@@ -240,7 +243,7 @@ class G02(G):  # S009–S010 $650M → 20 năm
         up = ap(t, t2 - 0.6, 0.7) if t2 else 0; y = 470 - 150 * up; sz = int(170 - 70 * up)
         txt(d, (960, y - 140 + 40 * up), "AT LEAST", fnt(F_SANSB, 40), XAM, ap(t, t1 - 0.4), "mm")
         v = dem(t, t1, 650_000_000, 1.8); s = f"${v:,.0f}" + ("+" if t1 and t > t1 + 1.8 else "")
-        if t1 and t >= t1 - 0.3: txt(d, (960, y), s, fnt(F_BOLD, sz), NGA, ap(t, t1 - 0.3, 0.3), "mm")
+        if t1 and t >= t1 - 0.3: txt(d, (960, y), s, fnt(F_BOLD, sz), NGA, ap(t, t1 - 0.3, 0.3), "mm", reg=t > t1 + 1.8)
         txt(d, (960, y + 110 - 30 * up), "CAME IN FROM INVESTORS", fnt(F_SANSB, 36 - int(8 * up)), XAM, ap(t, t1 + 0.6), "mm")
         if t2 and t >= t2 - 0.3:
             n = dem(t, t2, 20, 1.2); so_lon(d, (960, 650), f"{n:.0f} YEARS", t, t2 + 1.2, DO, 180)
@@ -284,8 +287,8 @@ class G04(G):  # S020–S023 kỳ phiếu = IOU
             txt(d, (860, y), k, fnt(F_SANSB, 30), XAM, aa); txt(d, (860, y + 40), v, fnt(F_BOLD, 52), c, aa)
         if tret and t >= tret - 0.3:
             txt(d, (860, 780), "RETURN", fnt(F_SANSB, 30), XAM, ap(t, tret - 0.3))
-            lo = dem(t, tret, 25, 0.8); hi = dem(t, tret + 0.8, 45, 0.8)
-            so_lon(d, (860, 820), f"+{lo:.0f}–{max(hi, lo):.0f}%", t, tret + 1.6, DO, 96, "la")
+            lo = dem(t, tret, 25, 0.8); hi = 25 + dem(t, tret + 0.8, 20, 0.8)
+            so_lon(d, (860, 820), f"+{lo:.0f}%" if t < tret + 0.8 else f"+25–{hi:.0f}%", t, tret + 1.6, DO, 96, "la")
         return im
 
 
@@ -388,7 +391,7 @@ class G09(G):  # S046–S048 giấy tờ giả, cùng một nguồn
     def draw(self, t):
         im = nen(); d = ImageDraw.Draw(im); tw = self.tw
         tl = tw("S046", "license"); tf1 = tw("S046", "fake"); tdi = tw("S047", "distribution"); tf2 = tw("S047", "fake"); tall = tw("S048", "all")
-        tieu(d, "THE PAPERWORK", t, self.cs["S046"][0] - 0.3)
+        tieu(d, "THE COPIES HE PROVIDED", t, self.cs["S046"][0] - 0.3)
         C = [(380, self.cs["S046"][0], "PROMISSORY\nNOTES", None), (960, tl, "LICENSE\nAGREEMENTS", tf1), (1540, tdi, "DISTRIBUTION\nAGREEMENTS", tf2)]
         for x, ta, lab, tf in C:
             node(d, x, 450, "giay", lab, ap(t, ta), w=380, h=300)
@@ -424,7 +427,7 @@ class G11(G):  # S053–S056 co-investment ◐
         t0 = self.cs["S053"][0]; tp = tw("S053", "personally"); tsep = tw("S053", "september"); tk = tw("S054", "taken")
         t233 = tw("S055", "two"); tmar = tw("S055", "march"); t57 = tw("S056", "five"); tco = tw("S056", "combined")
         tieu(d, "“INVESTING ALONGSIDE YOU”", t, t0, "according to the SEC")
-        node(d, 560, 420, "mot_nguoi", "HIS STAKE", ap(t, tp), w=280, h=210, sub=("around Sept. 2017" if tsep and t > tsep else None))
+        node(d, 560, 420, "mot_nguoi", "HIS MONEY", ap(t, tp), w=280, h=210, sub=("around Sept. 2017" if tsep and t > tsep else None))
         node(d, 1100, 420, "nguoi", "GROUP’S NOTES", ap(t, tp + 0.5 if tp else None), w=300, h=210)
         p = [(705, 420), (945, 420)]; arrow(d, p, XAM, ap(t, tp + 0.5 if tp else None)); hat(d, p, t, HP, ap(t, tp + 0.8 if tp else None), n=3)
         if tk and t > tk - 0.4:
@@ -489,7 +492,7 @@ class G14(G):  # S069 thư "từ nền tảng"
     def draw(self, t):
         im = nen(); d = ImageDraw.Draw(im); tw = self.tw
         t0 = self.cs["S069"][0]; tcl = tw("S069", "claimed"); tcom = tw("S069", "communication"); tf = tw("S069", "fake")
-        tieu(d, "THE REASSURANCES", t, t0 - 0.2)
+        tieu(d, "FALSELY REASSURED", t, t0 - 0.2)
         node(d, 420, 520, "thu", "EMAILS &\nTEXT MESSAGES", ap(t, t0 + 0.3), w=360, h=260)
         node(d, 1500, 520, "manhinh", "STREAMING\nPLATFORMS", ap(t, tcl), w=360, h=260)
         p = [(1320, 520), (600, 520)]; arrow(d, p, XAM, ap(t, tcl), dash=True, prog=ap(t, tcl, 0.8))
@@ -506,7 +509,7 @@ class G15(G):  # S073–S081 đếm ngược tới April 9
         im = nen(); d = ImageDraw.Draw(im); tw = self.tw
         tm = tw("S073", "march"); t5 = tw("S078", "fifth") or self.cs["S078"][0]; tfz = tw("S079", "freeze") or self.cs["S079"][0]
         tar = tw("S080", "arrested") or self.cs["S080"][0]; tind = tw("S081", "indicted") or self.cs["S081"][0] + 3
-        tieu(d, "COUNTDOWN TO APRIL 9", t, tm - 0.3 if tm else None)
+        tieu(d, "FUNDS “BY APRIL 9TH (AT THE LATEST)”", t, tm - 0.3 if tm else None)
         y = 640; d.line((self.X(0) - 40, y, self.X(53) + 40, y), fill=XAM, width=3)
         stop = t > tar
         ab = ap(t, tm, 0.6) * (0.35 if stop else 1.0)
@@ -529,7 +532,7 @@ class G15(G):  # S073–S081 đếm ngược tới April 9
             n = 28 if t < t5 else (4 if t < tfz else 3)
             col = XAM if stop else DO; k = nhan(t, t5 if t < tfz else tfz) if not stop else 1.0
             txt(d, (1700, 120), f"{n} DAYS", fnt(F_BOLD, int(96 * k)), col, ap(t, tm, 0.6), "ra")
-            txt(d, (1700, 240), "until April 9" if not stop else "the countdown stopped", fnt(F_SANSB, 30), XAM, ap(t, tm, 0.6), "ra")
+            txt(d, (1700, 240), "until April 9" if not stop else "", fnt(F_SANSB, 30), XAM, ap(t, tm, 0.6), "ra")
         return im
 
 
@@ -629,9 +632,8 @@ class G20(G):  # danh sách nguồn chạy chữ
 
     def draw(self, t):
         im = nen(); d = ImageDraw.Draw(im)
-        hcao = 140 + len(self.dong) * 46 + 200; u = (t - self.t0) / max(self.t1 - self.t0, 1)
-        y0 = 1080 - (hcao + 1080 * 0.25) * min(max(u, 0), 1) * 1.0 + 0
-        txt(d, (960, y0 + 40), "SOURCES", fnt(F_SERIF, 52), NGA, 1, "mm")
+        u = min(max((t - self.t0) / max(self.t1 - self.t0, 1), 0), 1); y0 = 150 - 70 * u
+        txt(d, (960, y0 + 40), "SOURCES", fnt(F_SERIF, 52), NGA, ap(t, self.t0, 0.8), "mm")
         for i, s in enumerate(self.dong):
             y = y0 + 140 + i * 46
             if -60 < y < 1140: txt(d, (960, y), s, fnt(F_SANS, 27), NGA, 1, "mm")
