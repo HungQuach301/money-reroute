@@ -210,7 +210,7 @@ def tim_cum(words, cum):
     for i in range(len(ws)):
         j, k = i, 0; idx = []
         while j < len(ws) and k < len(q):
-            if not ws[j]: j += 1; continue
+            if not ws[j] or (ws[j].isdigit() and ws[j] != q[k] and len(ws[j]) <= 2): j += 1; continue  # số dòng lề trái của trang toà
             if ws[j] == q[k] or (ws[j].startswith(q[k]) and k == len(q) - 1) or (q[k].startswith(ws[j]) and len(ws[j]) > 2):
                 idx.append(j); j += 1; k += 1
             else: break
