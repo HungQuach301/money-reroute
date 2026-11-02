@@ -202,3 +202,11 @@ Nhánh `claude/brave-faraday-vtsny1`: preflight ĐẠT; 0 email; sổ **1,00 USD
 - Đo: % thời lượng tranh có chuyển động thật — gốc 0 % · A (2.5D) 51 % · B (+ lớp động) 58 % · C (+ Veo 4 s) 62 %. Veo 3.1 Lite nhận 4 s (0,20 USD/clip, 5/5 đạt lượt 1, khung đầu không người).
 - Điều phối dựng bản so sánh 2×2 (0 USD) gửi chủ dự án. QC mép còn 3 lỗi nhỏ 2–6 px ở 1:1 (b077, b080, b009).
 - Chi ngoài khoá MR trong phiên 6,20 USD (lost-places). Số dư tài khoản sau phiên **12,03 USD**.
+
+## MR-P3 · 03/11/2026 06:20 (giờ Hà Nội) · Điều phối rà — merge
+Nhánh `ccr-61933171-f4wlwf`: preflight ĐẠT; 0 email; sổ OpenRouter **2,94 USD** / 5,00; ElevenLabs **759** / 3.000 — khớp khoá; 0 chi ngoài khoá trong phiên. Số dư sau: **9,09 USD**.
+- Đo: % chuyển động thật trên tranh — gốc ≈ 20 % · M1 54 % · M2 58 % · M3 61 %; độ phủ clip 27 / 42 / 63 %. 16/17 clip đạt lượt 1.
+- Nhân vật chuyển động: hoạt hoạ mã (0 USD) đạt; Veo từ chữ ra người khác; Veo khung cuối có người bị lọc; Kling v3.0 Std nhận khung có người nhưng diễn quá lời, giá thật 0,42 USD/3 s.
+- 720p phóng lên giữ nét tranh tốt hơn 1080p trên phong cách kênh, rẻ hơn 40 %.
+- Tiếng động: BigSoundBank — điều phối mở trang giấy phép: CC0 1.0 / public domain, dùng thương mại, không đăng ký Content ID → **chấp nhận**, ghi nguồn từng tệp vào RIGHTS khi dùng.
+- Ước chi/tập: M1 ≈ 11–14 USD · **M2-720p ≈ 15 USD** · M3 ≈ 24–35 USD (OpenRouter).
