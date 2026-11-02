@@ -59,7 +59,9 @@
   },
   "a14": {
    "luot1": "A small office at night: shelves of film reels, framed posters on the wall that are completely blank; the man in the dark suit sits at a desk lit by a desk lamp, seen strictly from behind. Face not visible.",
-   "ref": true
+   "ref": true,
+   "luot2": "A small office at night: shelves of film reels, framed posters on the wall that are completely blank. The man in the dark suit sits at a desk with his back squarely to the viewer, head slightly bowed; the desk lamp is IN FRONT of him so his head and shoulders are a solid black backlit silhouette — no ear, no cheek, no profile, no facial feature visible at all.",
+   "ly_do_luot2": "QC lượt 1: lộ mép má + tai (góc 3/4 sau) — chưa phải bóng/lưng thuần; máy YuNet cờ mặt ở B (0,66)."
   },
   "a15": {
    "luot1": "A private screening room: rows of empty dark-red velvet seats, a projector beam cutting through the darkness from the back wall toward a blank glowing screen. No people, nothing on the screen.",

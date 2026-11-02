@@ -1,0 +1,364 @@
+{
+ "lab/mrp1/A/a01_l1.png": {
+  "mat": [
+   {
+    "x": 748,
+    "y": 144,
+    "w": 131,
+    "h": 170,
+    "diem": 0.93
+   }
+  ],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a02_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a03_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a04_l1.png": {
+  "mat": [
+   {
+    "x": 746,
+    "y": 144,
+    "w": 132,
+    "h": 177,
+    "diem": 0.92
+   }
+  ],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a05_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a06_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a07_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a08_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a09_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a10_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a11_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a12_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a13_l1.png": {
+  "mat": [
+   {
+    "x": 778,
+    "y": 140,
+    "w": 85,
+    "h": 134,
+    "diem": 0.93
+   },
+   {
+    "x": 453,
+    "y": 173,
+    "w": 75,
+    "h": 106,
+    "diem": 0.68
+   }
+  ],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a14_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a15_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a16_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a17_l1.png": {
+  "mat": [
+   {
+    "x": 483,
+    "y": 158,
+    "w": 117,
+    "h": 161,
+    "diem": 0.93
+   },
+   {
+    "x": 52,
+    "y": 259,
+    "w": 36,
+    "h": 49,
+    "diem": 0.89
+   },
+   {
+    "x": 215,
+    "y": 241,
+    "w": 30,
+    "h": 53,
+    "diem": 0.71
+   }
+  ],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a18_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a19_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/A/a20_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a01_l1.png": {
+  "mat": [
+   {
+    "x": 570,
+    "y": 162,
+    "w": 104,
+    "h": 141,
+    "diem": 0.88
+   }
+  ],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a02_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a03_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a04_l1.png": {
+  "mat": [
+   {
+    "x": 567,
+    "y": 163,
+    "w": 106,
+    "h": 140,
+    "diem": 0.88
+   }
+  ],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a05_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a06_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a07_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a08_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a09_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a10_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a11_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a12_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a13_l1.png": {
+  "mat": [
+   {
+    "x": 548,
+    "y": 146,
+    "w": 96,
+    "h": 156,
+    "diem": 0.79
+   },
+   {
+    "x": 812,
+    "y": 224,
+    "w": 92,
+    "h": 121,
+    "diem": 0.65
+   }
+  ],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a14_l1.png": {
+  "mat": [
+   {
+    "x": 611,
+    "y": 221,
+    "w": 65,
+    "h": 106,
+    "diem": 0.66
+   }
+  ],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": true,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a15_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a16_l1.png": {
+  "mat": [
+   {
+    "x": 998,
+    "y": 313,
+    "w": 57,
+    "h": 82,
+    "diem": 0.88
+   }
+  ],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a17_l1.png": {
+  "mat": [
+   {
+    "x": 824,
+    "y": 175,
+    "w": 117,
+    "h": 150,
+    "diem": 0.89
+   },
+   {
+    "x": 1177,
+    "y": 284,
+    "w": 34,
+    "h": 55,
+    "diem": 0.79
+   },
+   {
+    "x": 1203,
+    "y": 210,
+    "w": 129,
+    "h": 160,
+    "diem": 0.71
+   }
+  ],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a18_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a19_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ },
+ "lab/mrp1/B/a20_l1.png": {
+  "mat": [],
+  "chu": [],
+  "co_mat_ngoai_danh_sach": false,
+  "co_chu": false
+ }
+}
