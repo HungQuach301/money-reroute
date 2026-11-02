@@ -1,1 +1,2 @@
 {"t": "2026-11-02T15:05:22Z", "kind": "openrouter_usd", "amount": 0.2, "khe": "V1", "ma": "b009", "luot": 1, "job": "gen-vid-1793631818-7r4A0jNeSQGCVG7S5doh", "status": "completed", "bat_dau": "2026-11-02T15:03:38Z", "xong": "2026-11-02T15:05:16Z", "nguon_so": "usage.cost"}
+{"t": "2026-11-02T15:07:14Z", "kind": "openrouter_usd", "amount": 0.2, "khe": "V2", "ma": "b011", "luot": 1, "job": "gen-vid-1793631931-bpmnq26oqaZpp8i5MtG3", "status": "completed", "bat_dau": "2026-11-02T15:05:31Z", "xong": "2026-11-02T15:07:07Z", "nguon_so": "usage.cost"}
