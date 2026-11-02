@@ -1,0 +1,2563 @@
+{
+"tong_s": 872.0,
+"canh": [
+{
+"cau": "S001",
+"doan": "P00",
+"ma": "K1",
+"lop": "L1-veo",
+"s": 0.0,
+"e": 3.54
+},
+{
+"cau": "S001",
+"doan": "P00",
+"ma": "b064",
+"lop": "L1",
+"s": 3.54,
+"e": 5.31
+},
+{
+"cau": "S002",
+"doan": "P00",
+"ma": "a03",
+"lop": "L1",
+"s": 5.31,
+"e": 6.945
+},
+{
+"cau": "S002",
+"doan": "P00",
+"ma": "b065",
+"lop": "L1",
+"s": 6.945,
+"e": 8.58
+},
+{
+"cau": "S002",
+"doan": "P00",
+"ma": "a02",
+"lop": "L1",
+"s": 8.58,
+"e": 10.215
+},
+{
+"cau": "S002",
+"doan": "P00",
+"ma": "a04",
+"lop": "L1",
+"s": 10.215,
+"e": 11.85
+},
+{
+"cau": "S003",
+"doan": "P00",
+"ma": "a05",
+"lop": "L1",
+"s": 11.85,
+"e": 15.002
+},
+{
+"cau": "S003",
+"doan": "P00",
+"ma": "b066",
+"lop": "L1",
+"s": 15.002,
+"e": 19.1
+},
+{
+"cau": "S004",
+"doan": "P01",
+"ma": "a07",
+"lop": "L1",
+"s": 19.1,
+"e": 20.905
+},
+{
+"cau": "S004",
+"doan": "P01",
+"ma": "b001",
+"lop": "L1",
+"s": 20.905,
+"e": 22.71
+},
+{
+"cau": "S004",
+"doan": "P01",
+"ma": "b062",
+"lop": "L1",
+"s": 22.71,
+"e": 24.515
+},
+{
+"cau": "S004",
+"doan": "P01",
+"ma": "b067",
+"lop": "L1",
+"s": 24.515,
+"e": 26.32
+},
+{
+"cau": "S005",
+"doan": "P01",
+"ma": "b002",
+"lop": "L1",
+"s": 26.32,
+"e": 29.167
+},
+{
+"cau": "S005",
+"doan": "P01",
+"ma": "G01",
+"lop": "L2",
+"s": 29.167,
+"e": 34.86
+},
+{
+"cau": "S006",
+"doan": "P01",
+"ma": "a09",
+"lop": "L1",
+"s": 34.86,
+"e": 37.38
+},
+{
+"cau": "S006",
+"doan": "P01",
+"ma": "b070",
+"lop": "L1",
+"s": 37.38,
+"e": 39.9
+},
+{
+"cau": "S006",
+"doan": "P01",
+"ma": "a10",
+"lop": "L1",
+"s": 39.9,
+"e": 42.42
+},
+{
+"cau": "S007",
+"doan": "P01",
+"ma": "T01",
+"lop": "L3",
+"s": 42.42,
+"e": 47.22
+},
+{
+"cau": "S008",
+"doan": "P01",
+"ma": "b003",
+"lop": "L1",
+"s": 47.22,
+"e": 50.193
+},
+{
+"cau": "S008",
+"doan": "P01",
+"ma": "a15",
+"lop": "L1",
+"s": 50.193,
+"e": 53.167
+},
+{
+"cau": "S008",
+"doan": "P01",
+"ma": "b074",
+"lop": "L1",
+"s": 53.167,
+"e": 56.14
+},
+{
+"cau": "S009",
+"doan": "P01",
+"ma": "G02",
+"lop": "L2",
+"s": 56.14,
+"e": 59.74
+},
+{
+"cau": "S010",
+"doan": "P01",
+"ma": "G02",
+"lop": "L2",
+"s": 59.74,
+"e": 62.46
+},
+{
+"cau": "S010",
+"doan": "P01",
+"ma": "a12",
+"lop": "L1",
+"s": 62.46,
+"e": 65.18
+},
+{
+"cau": "S011",
+"doan": "P01",
+"ma": "b063",
+"lop": "L1",
+"s": 65.18,
+"e": 67.43
+},
+{
+"cau": "S011",
+"doan": "P01",
+"ma": "K2",
+"lop": "L1-veo",
+"s": 67.43,
+"e": 71.93
+},
+{
+"cau": "S012",
+"doan": "P02",
+"ma": "a14",
+"lop": "L1",
+"s": 71.93,
+"e": 74.36
+},
+{
+"cau": "S012",
+"doan": "P02",
+"ma": "b004",
+"lop": "L1",
+"s": 74.36,
+"e": 76.79
+},
+{
+"cau": "S012",
+"doan": "P02",
+"ma": "b142",
+"lop": "L1",
+"s": 76.79,
+"e": 79.22
+},
+{
+"cau": "S012",
+"doan": "P02",
+"ma": "b005",
+"lop": "L1",
+"s": 79.22,
+"e": 81.65
+},
+{
+"cau": "S013",
+"doan": "P02",
+"ma": "b006",
+"lop": "L1",
+"s": 81.65,
+"e": 84.0
+},
+{
+"cau": "S013",
+"doan": "P02",
+"ma": "b068",
+"lop": "L1",
+"s": 84.0,
+"e": 86.35
+},
+{
+"cau": "S014",
+"doan": "P02",
+"ma": "a16",
+"lop": "L1",
+"s": 86.35,
+"e": 89.07
+},
+{
+"cau": "S014",
+"doan": "P02",
+"ma": "b071",
+"lop": "L1",
+"s": 89.07,
+"e": 91.79
+},
+{
+"cau": "S015",
+"doan": "P03",
+"ma": "a17",
+"lop": "L1",
+"s": 91.79,
+"e": 94.156
+},
+{
+"cau": "S015",
+"doan": "P03",
+"ma": "b072",
+"lop": "L1",
+"s": 94.156,
+"e": 96.521
+},
+{
+"cau": "S015",
+"doan": "P03",
+"ma": "G03",
+"lop": "L2",
+"s": 96.521,
+"e": 100.07
+},
+{
+"cau": "S016",
+"doan": "P03",
+"ma": "G03",
+"lop": "L2",
+"s": 100.07,
+"e": 104.888
+},
+{
+"cau": "S016",
+"doan": "P03",
+"ma": "a19",
+"lop": "L1",
+"s": 104.888,
+"e": 106.815
+},
+{
+"cau": "S016",
+"doan": "P03",
+"ma": "b118",
+"lop": "L1",
+"s": 106.815,
+"e": 108.743
+},
+{
+"cau": "S016",
+"doan": "P03",
+"ma": "b069",
+"lop": "L1",
+"s": 108.743,
+"e": 110.67
+},
+{
+"cau": "S017",
+"doan": "P03",
+"ma": "G03",
+"lop": "L2",
+"s": 110.67,
+"e": 113.97
+},
+{
+"cau": "S018",
+"doan": "P03",
+"ma": "b073",
+"lop": "L1",
+"s": 113.97,
+"e": 117.667
+},
+{
+"cau": "S018",
+"doan": "P03",
+"ma": "T02",
+"lop": "L3",
+"s": 117.667,
+"e": 125.06
+},
+{
+"cau": "S019",
+"doan": "P03",
+"ma": "a18",
+"lop": "L1",
+"s": 125.06,
+"e": 130.31
+},
+{
+"cau": "S020",
+"doan": "P04",
+"ma": "b007",
+"lop": "L1",
+"s": 130.31,
+"e": 133.006
+},
+{
+"cau": "S020",
+"doan": "P04",
+"ma": "G04",
+"lop": "L2",
+"s": 133.006,
+"e": 137.05
+},
+{
+"cau": "S021",
+"doan": "P04",
+"ma": "b008",
+"lop": "L1",
+"s": 137.05,
+"e": 139.123
+},
+{
+"cau": "S021",
+"doan": "P04",
+"ma": "b076",
+"lop": "L1",
+"s": 139.123,
+"e": 141.197
+},
+{
+"cau": "S021",
+"doan": "P04",
+"ma": "b076:2",
+"lop": "L1",
+"s": 141.197,
+"e": 143.27
+},
+{
+"cau": "S022",
+"doan": "P04",
+"ma": "G04",
+"lop": "L2",
+"s": 143.27,
+"e": 149.85
+},
+{
+"cau": "S023",
+"doan": "P04",
+"ma": "G04",
+"lop": "L2",
+"s": 149.85,
+"e": 155.25
+},
+{
+"cau": "S023",
+"doan": "P04",
+"ma": "a08",
+"lop": "L1",
+"s": 155.25,
+"e": 158.85
+},
+{
+"cau": "S024",
+"doan": "P04",
+"ma": "T03",
+"lop": "L3",
+"s": 158.85,
+"e": 169.3
+},
+{
+"cau": "S025",
+"doan": "P05",
+"ma": "b009",
+"lop": "L1",
+"s": 169.3,
+"e": 172.07
+},
+{
+"cau": "S025",
+"doan": "P05",
+"ma": "b077",
+"lop": "L1",
+"s": 172.07,
+"e": 174.84
+},
+{
+"cau": "S026",
+"doan": "P05",
+"ma": "G05",
+"lop": "L2",
+"s": 174.84,
+"e": 182.2
+},
+{
+"cau": "S027",
+"doan": "P05",
+"ma": "b081",
+"lop": "L1",
+"s": 182.2,
+"e": 185.76
+},
+{
+"cau": "S027",
+"doan": "P05",
+"ma": "G05",
+"lop": "L2",
+"s": 185.76,
+"e": 192.88
+},
+{
+"cau": "S028",
+"doan": "P05",
+"ma": "G05",
+"lop": "L2",
+"s": 192.88,
+"e": 197.16
+},
+{
+"cau": "S029",
+"doan": "P05",
+"ma": "b010",
+"lop": "L1",
+"s": 197.16,
+"e": 199.64
+},
+{
+"cau": "S029",
+"doan": "P05",
+"ma": "b080",
+"lop": "L1",
+"s": 199.64,
+"e": 202.12
+},
+{
+"cau": "S029",
+"doan": "P05",
+"ma": "b011",
+"lop": "L1",
+"s": 202.12,
+"e": 204.6
+},
+{
+"cau": "S029",
+"doan": "P05",
+"ma": "b143",
+"lop": "L1",
+"s": 204.6,
+"e": 207.08
+},
+{
+"cau": "S029",
+"doan": "P05",
+"ma": "b079",
+"lop": "L1",
+"s": 207.08,
+"e": 209.56
+},
+{
+"cau": "S030",
+"doan": "P06",
+"ma": "b012",
+"lop": "L1",
+"s": 209.56,
+"e": 212.07
+},
+{
+"cau": "S030",
+"doan": "P06",
+"ma": "G06",
+"lop": "L2",
+"s": 212.07,
+"e": 217.09
+},
+{
+"cau": "S030",
+"doan": "P06",
+"ma": "a11",
+"lop": "L1",
+"s": 217.09,
+"e": 219.6
+},
+{
+"cau": "S031",
+"doan": "P06",
+"ma": "b082",
+"lop": "L1",
+"s": 219.6,
+"e": 221.633
+},
+{
+"cau": "S031",
+"doan": "P06",
+"ma": "T04",
+"lop": "L3",
+"s": 221.633,
+"e": 224.887
+},
+{
+"cau": "S031",
+"doan": "P06",
+"ma": "b105",
+"lop": "L1",
+"s": 224.887,
+"e": 226.92
+},
+{
+"cau": "S032",
+"doan": "P06",
+"ma": "b013",
+"lop": "L1",
+"s": 226.92,
+"e": 229.341
+},
+{
+"cau": "S032",
+"doan": "P06",
+"ma": "T05",
+"lop": "L3",
+"s": 229.341,
+"e": 232.729
+},
+{
+"cau": "S032",
+"doan": "P06",
+"ma": "a05:2",
+"lop": "L1",
+"s": 232.729,
+"e": 235.15
+},
+{
+"cau": "S033",
+"doan": "P06",
+"ma": "b014",
+"lop": "L1",
+"s": 235.15,
+"e": 240.41
+},
+{
+"cau": "S034",
+"doan": "P07",
+"ma": "b015",
+"lop": "L1",
+"s": 240.41,
+"e": 243.383
+},
+{
+"cau": "S034",
+"doan": "P07",
+"ma": "b084",
+"lop": "L1",
+"s": 243.383,
+"e": 246.357
+},
+{
+"cau": "S034",
+"doan": "P07",
+"ma": "G07",
+"lop": "L2",
+"s": 246.357,
+"e": 249.33
+},
+{
+"cau": "S035",
+"doan": "P07",
+"ma": "G07",
+"lop": "L2",
+"s": 249.33,
+"e": 252.913
+},
+{
+"cau": "S035",
+"doan": "P07",
+"ma": "b085",
+"lop": "L1",
+"s": 252.913,
+"e": 255.301
+},
+{
+"cau": "S035",
+"doan": "P07",
+"ma": "b086:2",
+"lop": "L1",
+"s": 255.301,
+"e": 257.69
+},
+{
+"cau": "S036",
+"doan": "P07",
+"ma": "b019",
+"lop": "L1",
+"s": 257.69,
+"e": 260.27
+},
+{
+"cau": "S036",
+"doan": "P07",
+"ma": "G07",
+"lop": "L2",
+"s": 260.27,
+"e": 265.43
+},
+{
+"cau": "S037",
+"doan": "P07",
+"ma": "b016",
+"lop": "L1",
+"s": 265.43,
+"e": 269.13
+},
+{
+"cau": "S038",
+"doan": "P07",
+"ma": "b017",
+"lop": "L1",
+"s": 269.13,
+"e": 271.19
+},
+{
+"cau": "S038",
+"doan": "P07",
+"ma": "G07",
+"lop": "L2",
+"s": 271.19,
+"e": 273.25
+},
+{
+"cau": "S038",
+"doan": "P07",
+"ma": "b020",
+"lop": "L1",
+"s": 273.25,
+"e": 275.31
+},
+{
+"cau": "S039",
+"doan": "P07",
+"ma": "b018",
+"lop": "L1",
+"s": 275.31,
+"e": 278.305
+},
+{
+"cau": "S039",
+"doan": "P07",
+"ma": "b087",
+"lop": "L1",
+"s": 278.305,
+"e": 281.3
+},
+{
+"cau": "S040",
+"doan": "P08",
+"ma": "b021",
+"lop": "L1",
+"s": 281.3,
+"e": 284.38
+},
+{
+"cau": "S041",
+"doan": "P08",
+"ma": "b022",
+"lop": "L1",
+"s": 284.38,
+"e": 286.66
+},
+{
+"cau": "S041",
+"doan": "P08",
+"ma": "G08",
+"lop": "L2",
+"s": 286.66,
+"e": 291.22
+},
+{
+"cau": "S041",
+"doan": "P08",
+"ma": "b091",
+"lop": "L1",
+"s": 291.22,
+"e": 293.5
+},
+{
+"cau": "S042",
+"doan": "P08",
+"ma": "G08",
+"lop": "L2",
+"s": 293.5,
+"e": 298.46
+},
+{
+"cau": "S042",
+"doan": "P08",
+"ma": "b089",
+"lop": "L1",
+"s": 298.46,
+"e": 300.94
+},
+{
+"cau": "S043",
+"doan": "P08",
+"ma": "G08",
+"lop": "L2",
+"s": 300.94,
+"e": 303.197
+},
+{
+"cau": "S043",
+"doan": "P08",
+"ma": "b090",
+"lop": "L1",
+"s": 303.197,
+"e": 305.079
+},
+{
+"cau": "S043",
+"doan": "P08",
+"ma": "b100",
+"lop": "L1",
+"s": 305.079,
+"e": 306.96
+},
+{
+"cau": "S044",
+"doan": "P08",
+"ma": "G08",
+"lop": "L2",
+"s": 306.96,
+"e": 314.32
+},
+{
+"cau": "S044",
+"doan": "P08",
+"ma": "b083",
+"lop": "L1",
+"s": 314.32,
+"e": 318.0
+},
+{
+"cau": "S045",
+"doan": "P08",
+"ma": "b023",
+"lop": "L1",
+"s": 318.0,
+"e": 320.472
+},
+{
+"cau": "S045",
+"doan": "P08",
+"ma": "b074:2",
+"lop": "L1",
+"s": 320.472,
+"e": 322.945
+},
+{
+"cau": "S045",
+"doan": "P08",
+"ma": "b103",
+"lop": "L1",
+"s": 322.945,
+"e": 325.417
+},
+{
+"cau": "S045",
+"doan": "P08",
+"ma": "b088",
+"lop": "L1",
+"s": 325.417,
+"e": 327.89
+},
+{
+"cau": "S046",
+"doan": "P09",
+"ma": "b024",
+"lop": "L1",
+"s": 327.89,
+"e": 330.71
+},
+{
+"cau": "S046",
+"doan": "P09",
+"ma": "G09",
+"lop": "L2",
+"s": 330.71,
+"e": 336.35
+},
+{
+"cau": "S047",
+"doan": "P09",
+"ma": "b025",
+"lop": "L1",
+"s": 336.35,
+"e": 338.774
+},
+{
+"cau": "S047",
+"doan": "P09",
+"ma": "G09",
+"lop": "L2",
+"s": 338.774,
+"e": 343.622
+},
+{
+"cau": "S047",
+"doan": "P09",
+"ma": "b145",
+"lop": "L1",
+"s": 343.622,
+"e": 346.046
+},
+{
+"cau": "S047",
+"doan": "P09",
+"ma": "b092",
+"lop": "L1",
+"s": 346.046,
+"e": 348.47
+},
+{
+"cau": "S048",
+"doan": "P09",
+"ma": "G09",
+"lop": "L2",
+"s": 348.47,
+"e": 353.79
+},
+{
+"cau": "S049",
+"doan": "P09",
+"ma": "b026",
+"lop": "L1",
+"s": 353.79,
+"e": 357.485
+},
+{
+"cau": "S049",
+"doan": "P09",
+"ma": "b093",
+"lop": "L1",
+"s": 357.485,
+"e": 361.18
+},
+{
+"cau": "S050",
+"doan": "P10",
+"ma": "b028",
+"lop": "L1",
+"s": 361.18,
+"e": 363.83
+},
+{
+"cau": "S050",
+"doan": "P10",
+"ma": "G10",
+"lop": "L2",
+"s": 363.83,
+"e": 366.48
+},
+{
+"cau": "S051",
+"doan": "P10",
+"ma": "G10",
+"lop": "L2",
+"s": 366.48,
+"e": 373.755
+},
+{
+"cau": "S051",
+"doan": "P10",
+"ma": "T06",
+"lop": "L3",
+"s": 373.755,
+"e": 377.635
+},
+{
+"cau": "S051",
+"doan": "P10",
+"ma": "b094",
+"lop": "L1",
+"s": 377.635,
+"e": 380.06
+},
+{
+"cau": "S052",
+"doan": "P10",
+"ma": "V10",
+"lop": "L1-veo-cu",
+"s": 380.06,
+"e": 382.491
+},
+{
+"cau": "S052",
+"doan": "P10",
+"ma": "b029",
+"lop": "L1",
+"s": 382.491,
+"e": 384.518
+},
+{
+"cau": "S052",
+"doan": "P10",
+"ma": "b097",
+"lop": "L1",
+"s": 384.518,
+"e": 386.544
+},
+{
+"cau": "S052",
+"doan": "P10",
+"ma": "b030",
+"lop": "L1",
+"s": 386.544,
+"e": 388.57
+},
+{
+"cau": "S053",
+"doan": "P11",
+"ma": "b031",
+"lop": "L1",
+"s": 388.57,
+"e": 391.134
+},
+{
+"cau": "S053",
+"doan": "P11",
+"ma": "b027",
+"lop": "L1",
+"s": 391.134,
+"e": 393.697
+},
+{
+"cau": "S053",
+"doan": "P11",
+"ma": "b095",
+"lop": "L1",
+"s": 393.697,
+"e": 396.261
+},
+{
+"cau": "S053",
+"doan": "P11",
+"ma": "G11",
+"lop": "L2",
+"s": 396.261,
+"e": 399.85
+},
+{
+"cau": "S054",
+"doan": "P11",
+"ma": "G11",
+"lop": "L2",
+"s": 399.85,
+"e": 402.43
+},
+{
+"cau": "S054",
+"doan": "P11",
+"ma": "b032",
+"lop": "L1",
+"s": 402.43,
+"e": 405.01
+},
+{
+"cau": "S055",
+"doan": "P11",
+"ma": "G11",
+"lop": "L2",
+"s": 405.01,
+"e": 410.462
+},
+{
+"cau": "S055",
+"doan": "P11",
+"ma": "b099",
+"lop": "L1",
+"s": 410.462,
+"e": 413.87
+},
+{
+"cau": "S056",
+"doan": "P11",
+"ma": "G11",
+"lop": "L2",
+"s": 413.87,
+"e": 416.551
+},
+{
+"cau": "S056",
+"doan": "P11",
+"ma": "V11",
+"lop": "L1-veo-cu",
+"s": 416.551,
+"e": 419.769
+},
+{
+"cau": "S056",
+"doan": "P11",
+"ma": "b098",
+"lop": "L1",
+"s": 419.769,
+"e": 422.45
+},
+{
+"cau": "S057",
+"doan": "P11",
+"ma": "b033",
+"lop": "L1",
+"s": 422.45,
+"e": 426.32
+},
+{
+"cau": "S057",
+"doan": "P11",
+"ma": "b075",
+"lop": "L1",
+"s": 426.32,
+"e": 430.19
+},
+{
+"cau": "S058",
+"doan": "P12",
+"ma": "b020",
+"lop": "L1",
+"s": 430.19,
+"e": 432.414
+},
+{
+"cau": "S058",
+"doan": "P12",
+"ma": "G12",
+"lop": "L2",
+"s": 432.414,
+"e": 435.75
+},
+{
+"cau": "S059",
+"doan": "P12",
+"ma": "V12",
+"lop": "L1-veo-cu",
+"s": 435.75,
+"e": 440.71
+},
+{
+"cau": "S060",
+"doan": "P12",
+"ma": "b101:2",
+"lop": "L1",
+"s": 440.71,
+"e": 443.05
+},
+{
+"cau": "S060",
+"doan": "P12",
+"ma": "G12",
+"lop": "L2",
+"s": 443.05,
+"e": 447.73
+},
+{
+"cau": "S061",
+"doan": "P12",
+"ma": "b034",
+"lop": "L1",
+"s": 447.73,
+"e": 450.075
+},
+{
+"cau": "S061",
+"doan": "P12",
+"ma": "b060",
+"lop": "L1",
+"s": 450.075,
+"e": 452.42
+},
+{
+"cau": "S061",
+"doan": "P12",
+"ma": "b061",
+"lop": "L1",
+"s": 452.42,
+"e": 454.766
+},
+{
+"cau": "S061",
+"doan": "P12",
+"ma": "G12",
+"lop": "L2",
+"s": 454.766,
+"e": 457.58
+},
+{
+"cau": "S062",
+"doan": "P13",
+"ma": "b035",
+"lop": "L1",
+"s": 457.58,
+"e": 459.51
+},
+{
+"cau": "S062",
+"doan": "P13",
+"ma": "b102",
+"lop": "L1",
+"s": 459.51,
+"e": 461.44
+},
+{
+"cau": "S062",
+"doan": "P13",
+"ma": "b096",
+"lop": "L1",
+"s": 461.44,
+"e": 463.37
+},
+{
+"cau": "S062",
+"doan": "P13",
+"ma": "b036",
+"lop": "L1",
+"s": 463.37,
+"e": 465.3
+},
+{
+"cau": "S063",
+"doan": "P13",
+"ma": "V13",
+"lop": "L1-veo-cu",
+"s": 465.3,
+"e": 468.57
+},
+{
+"cau": "S063",
+"doan": "P13",
+"ma": "G13",
+"lop": "L2",
+"s": 468.57,
+"e": 471.085
+},
+{
+"cau": "S063",
+"doan": "P13",
+"ma": "b036:2",
+"lop": "L1",
+"s": 471.085,
+"e": 473.6
+},
+{
+"cau": "S064",
+"doan": "P14",
+"ma": "b037",
+"lop": "L1",
+"s": 473.6,
+"e": 475.627
+},
+{
+"cau": "S064",
+"doan": "P14",
+"ma": "b038",
+"lop": "L1",
+"s": 475.627,
+"e": 477.653
+},
+{
+"cau": "S064",
+"doan": "P14",
+"ma": "b105",
+"lop": "L1",
+"s": 477.653,
+"e": 479.68
+},
+{
+"cau": "S065",
+"doan": "P14",
+"ma": "b147",
+"lop": "L1",
+"s": 479.68,
+"e": 482.28
+},
+{
+"cau": "S065",
+"doan": "P14",
+"ma": "G13",
+"lop": "L2",
+"s": 482.28,
+"e": 486.44
+},
+{
+"cau": "S066",
+"doan": "P14",
+"ma": "b039",
+"lop": "L1",
+"s": 486.44,
+"e": 488.59
+},
+{
+"cau": "S066",
+"doan": "P14",
+"ma": "b104",
+"lop": "L1",
+"s": 488.59,
+"e": 490.74
+},
+{
+"cau": "S066",
+"doan": "P14",
+"ma": "b100",
+"lop": "L1",
+"s": 490.74,
+"e": 492.89
+},
+{
+"cau": "S067",
+"doan": "P15",
+"ma": "T07",
+"lop": "L3",
+"s": 492.89,
+"e": 498.798
+},
+{
+"cau": "S067",
+"doan": "P15",
+"ma": "b040",
+"lop": "L1",
+"s": 498.798,
+"e": 502.49
+},
+{
+"cau": "S068",
+"doan": "P15",
+"ma": "K3",
+"lop": "L1-veo",
+"s": 502.49,
+"e": 510.49
+},
+{
+"cau": "S069",
+"doan": "P15",
+"ma": "b041",
+"lop": "L1",
+"s": 510.49,
+"e": 512.66
+},
+{
+"cau": "S069",
+"doan": "P15",
+"ma": "b042",
+"lop": "L1",
+"s": 512.66,
+"e": 514.83
+},
+{
+"cau": "S069",
+"doan": "P15",
+"ma": "G14",
+"lop": "L2",
+"s": 514.83,
+"e": 519.17
+},
+{
+"cau": "S069",
+"doan": "P15",
+"ma": "b112",
+"lop": "L1",
+"s": 519.17,
+"e": 521.34
+},
+{
+"cau": "S069",
+"doan": "P15",
+"ma": "b109",
+"lop": "L1",
+"s": 521.34,
+"e": 523.51
+},
+{
+"cau": "S070",
+"doan": "P15",
+"ma": "b043",
+"lop": "L1",
+"s": 523.51,
+"e": 525.703
+},
+{
+"cau": "S070",
+"doan": "P15",
+"ma": "b110",
+"lop": "L1",
+"s": 525.703,
+"e": 527.897
+},
+{
+"cau": "S070",
+"doan": "P15",
+"ma": "b147",
+"lop": "L1",
+"s": 527.897,
+"e": 530.09
+},
+{
+"cau": "S071",
+"doan": "P15",
+"ma": "b044",
+"lop": "L1",
+"s": 530.09,
+"e": 534.2
+},
+{
+"cau": "S071",
+"doan": "P15",
+"ma": "b111",
+"lop": "L1",
+"s": 534.2,
+"e": 538.31
+},
+{
+"cau": "S072",
+"doan": "P15",
+"ma": "b045",
+"lop": "L1",
+"s": 538.31,
+"e": 543.56
+},
+{
+"cau": "S073",
+"doan": "P16",
+"ma": "T08",
+"lop": "L3",
+"s": 543.56,
+"e": 546.861
+},
+{
+"cau": "S073",
+"doan": "P16",
+"ma": "G15",
+"lop": "L2",
+"s": 546.861,
+"e": 550.162
+},
+{
+"cau": "S073",
+"doan": "P16",
+"ma": "b141",
+"lop": "L1",
+"s": 550.162,
+"e": 552.52
+},
+{
+"cau": "S074",
+"doan": "P16",
+"ma": "b046",
+"lop": "L1",
+"s": 552.52,
+"e": 555.6
+},
+{
+"cau": "S074",
+"doan": "P16",
+"ma": "b047",
+"lop": "L1",
+"s": 555.6,
+"e": 558.68
+},
+{
+"cau": "S074",
+"doan": "P16",
+"ma": "b106",
+"lop": "L1",
+"s": 558.68,
+"e": 561.76
+},
+{
+"cau": "S074",
+"doan": "P16",
+"ma": "b114",
+"lop": "L1",
+"s": 561.76,
+"e": 564.84
+},
+{
+"cau": "S075",
+"doan": "P16",
+"ma": "T09",
+"lop": "L3",
+"s": 564.84,
+"e": 569.542
+},
+{
+"cau": "S075",
+"doan": "P16",
+"ma": "b113",
+"lop": "L1",
+"s": 569.542,
+"e": 572.9
+},
+{
+"cau": "S077",
+"doan": "P16",
+"ma": "b048",
+"lop": "L1",
+"s": 572.9,
+"e": 575.254
+},
+{
+"cau": "S077",
+"doan": "P16",
+"ma": "b049",
+"lop": "L1",
+"s": 575.254,
+"e": 577.608
+},
+{
+"cau": "S077",
+"doan": "P16",
+"ma": "b115",
+"lop": "L1",
+"s": 577.608,
+"e": 579.962
+},
+{
+"cau": "S077",
+"doan": "P16",
+"ma": "b107",
+"lop": "L1",
+"s": 579.962,
+"e": 582.316
+},
+{
+"cau": "S077",
+"doan": "P16",
+"ma": "b108",
+"lop": "L1",
+"s": 582.316,
+"e": 584.67
+},
+{
+"cau": "S076",
+"doan": "P16",
+"ma": "b050",
+"lop": "L1",
+"s": 584.67,
+"e": 589.92
+},
+{
+"cau": "S078",
+"doan": "P17",
+"ma": "b051",
+"lop": "L1",
+"s": 589.92,
+"e": 591.979
+},
+{
+"cau": "S078",
+"doan": "P17",
+"ma": "G15",
+"lop": "L2",
+"s": 591.979,
+"e": 594.861
+},
+{
+"cau": "S078",
+"doan": "P17",
+"ma": "b116:2",
+"lop": "L1",
+"s": 594.861,
+"e": 596.92
+},
+{
+"cau": "S079",
+"doan": "P17",
+"ma": "b052",
+"lop": "L1",
+"s": 596.92,
+"e": 598.933
+},
+{
+"cau": "S079",
+"doan": "P17",
+"ma": "G15",
+"lop": "L2",
+"s": 598.933,
+"e": 600.947
+},
+{
+"cau": "S079",
+"doan": "P17",
+"ma": "b118:2",
+"lop": "L1",
+"s": 600.947,
+"e": 602.96
+},
+{
+"cau": "S080",
+"doan": "P17",
+"ma": "G15",
+"lop": "L2",
+"s": 602.96,
+"e": 607.26
+},
+{
+"cau": "S081",
+"doan": "P17",
+"ma": "K4",
+"lop": "L1-veo",
+"s": 607.26,
+"e": 611.624
+},
+{
+"cau": "S081",
+"doan": "P17",
+"ma": "G15",
+"lop": "L2",
+"s": 611.624,
+"e": 615.442
+},
+{
+"cau": "S081",
+"doan": "P17",
+"ma": "b119",
+"lop": "L1",
+"s": 615.442,
+"e": 618.17
+},
+{
+"cau": "S082",
+"doan": "P18",
+"ma": "b116",
+"lop": "L1",
+"s": 618.17,
+"e": 620.67
+},
+{
+"cau": "S082",
+"doan": "P18",
+"ma": "G16",
+"lop": "L2",
+"s": 620.67,
+"e": 623.17
+},
+{
+"cau": "S083",
+"doan": "P18",
+"ma": "b054",
+"lop": "L1",
+"s": 623.17,
+"e": 625.47
+},
+{
+"cau": "S083",
+"doan": "P18",
+"ma": "T10",
+"lop": "L3",
+"s": 625.47,
+"e": 629.15
+},
+{
+"cau": "S083",
+"doan": "P18",
+"ma": "b121",
+"lop": "L1",
+"s": 629.15,
+"e": 631.45
+},
+{
+"cau": "S083",
+"doan": "P18",
+"ma": "b055",
+"lop": "L1",
+"s": 631.45,
+"e": 633.75
+},
+{
+"cau": "S084",
+"doan": "P18",
+"ma": "b120",
+"lop": "L1",
+"s": 633.75,
+"e": 635.989
+},
+{
+"cau": "S084",
+"doan": "P18",
+"ma": "G16",
+"lop": "L2",
+"s": 635.989,
+"e": 639.572
+},
+{
+"cau": "S084",
+"doan": "P18",
+"ma": "b122",
+"lop": "L1",
+"s": 639.572,
+"e": 641.811
+},
+{
+"cau": "S084",
+"doan": "P18",
+"ma": "b056",
+"lop": "L1",
+"s": 641.811,
+"e": 644.05
+},
+{
+"cau": "S085",
+"doan": "P18",
+"ma": "G16",
+"lop": "L2",
+"s": 644.05,
+"e": 647.394
+},
+{
+"cau": "S085",
+"doan": "P18",
+"ma": "b124",
+"lop": "L1",
+"s": 647.394,
+"e": 649.782
+},
+{
+"cau": "S085",
+"doan": "P18",
+"ma": "a13",
+"lop": "L1",
+"s": 649.782,
+"e": 652.17
+},
+{
+"cau": "S086",
+"doan": "P18",
+"ma": "b123",
+"lop": "L1",
+"s": 652.17,
+"e": 654.84
+},
+{
+"cau": "S086",
+"doan": "P18",
+"ma": "G16",
+"lop": "L2",
+"s": 654.84,
+"e": 657.51
+},
+{
+"cau": "S086",
+"doan": "P18",
+"ma": "b146",
+"lop": "L1",
+"s": 657.51,
+"e": 660.18
+},
+{
+"cau": "S087",
+"doan": "P19",
+"ma": "b057",
+"lop": "L1",
+"s": 660.18,
+"e": 662.941
+},
+{
+"cau": "S087",
+"doan": "P19",
+"ma": "b126",
+"lop": "L1",
+"s": 662.941,
+"e": 665.702
+},
+{
+"cau": "S087",
+"doan": "P19",
+"ma": "b125",
+"lop": "L1",
+"s": 665.702,
+"e": 668.463
+},
+{
+"cau": "S087",
+"doan": "P19",
+"ma": "G17",
+"lop": "L2",
+"s": 668.463,
+"e": 672.88
+},
+{
+"cau": "S088",
+"doan": "P19",
+"ma": "b127",
+"lop": "L1",
+"s": 672.88,
+"e": 675.067
+},
+{
+"cau": "S088",
+"doan": "P19",
+"ma": "G17",
+"lop": "L2",
+"s": 675.067,
+"e": 677.253
+},
+{
+"cau": "S088",
+"doan": "P19",
+"ma": "b097",
+"lop": "L1",
+"s": 677.253,
+"e": 679.44
+},
+{
+"cau": "S089",
+"doan": "P19",
+"ma": "T11",
+"lop": "L3",
+"s": 679.44,
+"e": 683.597
+},
+{
+"cau": "S089",
+"doan": "P19",
+"ma": "G17",
+"lop": "L2",
+"s": 683.597,
+"e": 687.161
+},
+{
+"cau": "S089",
+"doan": "P19",
+"ma": "b117",
+"lop": "L1",
+"s": 687.161,
+"e": 690.13
+},
+{
+"cau": "S090",
+"doan": "P20",
+"ma": "b058",
+"lop": "L1",
+"s": 690.13,
+"e": 692.149
+},
+{
+"cau": "S090",
+"doan": "P20",
+"ma": "T12",
+"lop": "L3",
+"s": 692.149,
+"e": 694.571
+},
+{
+"cau": "S090",
+"doan": "P20",
+"ma": "b058:2",
+"lop": "L1",
+"s": 694.571,
+"e": 696.59
+},
+{
+"cau": "S091",
+"doan": "P20",
+"ma": "b059",
+"lop": "L1",
+"s": 696.59,
+"e": 699.071
+},
+{
+"cau": "S091",
+"doan": "P20",
+"ma": "b129",
+"lop": "L1",
+"s": 699.071,
+"e": 701.552
+},
+{
+"cau": "S091",
+"doan": "P20",
+"ma": "T13",
+"lop": "L3",
+"s": 701.552,
+"e": 704.53
+},
+{
+"cau": "S092",
+"doan": "P20",
+"ma": "T14",
+"lop": "L3",
+"s": 704.53,
+"e": 707.178
+},
+{
+"cau": "S092",
+"doan": "P20",
+"ma": "b130",
+"lop": "L1",
+"s": 707.178,
+"e": 709.384
+},
+{
+"cau": "S092",
+"doan": "P20",
+"ma": "b128",
+"lop": "L1",
+"s": 709.384,
+"e": 711.59
+},
+{
+"cau": "S093",
+"doan": "P21",
+"ma": "b131",
+"lop": "L1",
+"s": 711.59,
+"e": 713.484
+},
+{
+"cau": "S093",
+"doan": "P21",
+"ma": "G18",
+"lop": "L2",
+"s": 713.484,
+"e": 716.136
+},
+{
+"cau": "S093",
+"doan": "P21",
+"ma": "b139:2",
+"lop": "L1",
+"s": 716.136,
+"e": 718.03
+},
+{
+"cau": "S094",
+"doan": "P21",
+"ma": "b009:2",
+"lop": "L1",
+"s": 718.03,
+"e": 722.647
+},
+{
+"cau": "S094",
+"doan": "P21",
+"ma": "G18",
+"lop": "L2",
+"s": 722.647,
+"e": 729.11
+},
+{
+"cau": "S095",
+"doan": "P21",
+"ma": "b060:2",
+"lop": "L1",
+"s": 729.11,
+"e": 731.82
+},
+{
+"cau": "S095",
+"doan": "P21",
+"ma": "b101",
+"lop": "L1",
+"s": 731.82,
+"e": 734.53
+},
+{
+"cau": "S095",
+"doan": "P21",
+"ma": "b144",
+"lop": "L1",
+"s": 734.53,
+"e": 737.24
+},
+{
+"cau": "S095",
+"doan": "P21",
+"ma": "G18",
+"lop": "L2",
+"s": 737.24,
+"e": 739.95
+},
+{
+"cau": "S096",
+"doan": "P21",
+"ma": "b086",
+"lop": "L1",
+"s": 739.95,
+"e": 742.669
+},
+{
+"cau": "S096",
+"doan": "P21",
+"ma": "G18",
+"lop": "L2",
+"s": 742.669,
+"e": 745.931
+},
+{
+"cau": "S096",
+"doan": "P21",
+"ma": "b087:2",
+"lop": "L1",
+"s": 745.931,
+"e": 748.65
+},
+{
+"cau": "S097",
+"doan": "P21",
+"ma": "b133",
+"lop": "L1",
+"s": 748.65,
+"e": 752.69
+},
+{
+"cau": "S097",
+"doan": "P21",
+"ma": "b078",
+"lop": "L1",
+"s": 752.69,
+"e": 756.73
+},
+{
+"cau": "S098",
+"doan": "P21",
+"ma": "b134",
+"lop": "L1",
+"s": 756.73,
+"e": 760.2
+},
+{
+"cau": "S098",
+"doan": "P21",
+"ma": "a20",
+"lop": "L1",
+"s": 760.2,
+"e": 763.67
+},
+{
+"cau": "S099",
+"doan": "P21",
+"ma": "b135",
+"lop": "L1",
+"s": 763.67,
+"e": 767.85
+},
+{
+"cau": "S099",
+"doan": "P21",
+"ma": "b024:2",
+"lop": "L1",
+"s": 767.85,
+"e": 772.03
+},
+{
+"cau": "S100",
+"doan": "P21",
+"ma": "b136",
+"lop": "L1",
+"s": 772.03,
+"e": 777.1
+},
+{
+"cau": "S100",
+"doan": "P21",
+"ma": "b016:2",
+"lop": "L1",
+"s": 777.1,
+"e": 782.17
+},
+{
+"cau": "S101",
+"doan": "P21",
+"ma": "b137",
+"lop": "L1",
+"s": 782.17,
+"e": 787.01
+},
+{
+"cau": "S101",
+"doan": "P21",
+"ma": "b041:2",
+"lop": "L1",
+"s": 787.01,
+"e": 791.85
+},
+{
+"cau": "S102",
+"doan": "P21",
+"ma": "K5",
+"lop": "L1-veo",
+"s": 791.85,
+"e": 796.24
+},
+{
+"cau": "S102",
+"doan": "P21",
+"ma": "b132",
+"lop": "L1",
+"s": 796.24,
+"e": 798.435
+},
+{
+"cau": "S102",
+"doan": "P21",
+"ma": "b149",
+"lop": "L1",
+"s": 798.435,
+"e": 800.63
+},
+{
+"cau": "S103",
+"doan": "P21",
+"ma": "b138",
+"lop": "L1",
+"s": 800.63,
+"e": 803.077
+},
+{
+"cau": "S103",
+"doan": "P21",
+"ma": "b148",
+"lop": "L1",
+"s": 803.077,
+"e": 805.523
+},
+{
+"cau": "S103",
+"doan": "P21",
+"ma": "b138:2",
+"lop": "L1",
+"s": 805.523,
+"e": 807.97
+},
+{
+"cau": "S104",
+"doan": "P21",
+"ma": "b140",
+"lop": "L1",
+"s": 807.97,
+"e": 811.67
+},
+{
+"cau": "S104",
+"doan": "P21",
+"ma": "b139",
+"lop": "L1",
+"s": 811.67,
+"e": 815.37
+},
+{
+"cau": "S104",
+"doan": "P21",
+"ma": "b140:2",
+"lop": "L1",
+"s": 815.37,
+"e": 819.07
+},
+{
+"cau": "S105",
+"doan": "P21",
+"ma": "b150",
+"lop": "L1",
+"s": 819.07,
+"e": 824.74
+},
+{
+"cau": "KET",
+"doan": "KET",
+"ma": "G19",
+"lop": "L2",
+"s": 824.74,
+"e": 832.74
+},
+{
+"cau": "NGUON",
+"doan": "NGUON",
+"ma": "G20",
+"lop": "L2",
+"s": 832.74,
+"e": 872.0
+}
+],
+"ov": {
+"S001": [
+[
+"bong",
+"Payment received",
+0.4
+]
+],
+"S002": [
+[
+"bong",
+"Delay on the platform side. Funds by next week.",
+1.2
+]
+],
+"S003": [
+[
+"tieu_de",
+"Real cases from the public record",
+"MONEY REROUTE"
+]
+],
+"S004": [
+[
+"ten",
+"Zachary Horwitz",
+"aka “Zach Avery” · actor, Los Angeles"
+]
+],
+"S008": [
+[
+"kbcb",
+"HBO and Netflix were not accused of wrongdoing in these cases; according to the SEC, neither company ever did business with 1inMM."
+]
+],
+"S019": [
+[
+"kbcb",
+"HBO and Netflix were not accused of wrongdoing in these cases; according to the SEC, neither company ever did business with 1inMM."
+]
+],
+"S033": [
+[
+"kbcb",
+"HBO and Netflix were not accused of wrongdoing in these cases; according to the SEC, neither company ever did business with 1inMM."
+]
+],
+"S045": [
+[
+"kbcb",
+"HBO and Netflix were not accused of wrongdoing in these cases; according to the SEC, neither company ever did business with 1inMM."
+]
+],
+"S072": [
+[
+"kbcb",
+"HBO and Netflix were not accused of wrongdoing in these cases; according to the SEC, neither company ever did business with 1inMM."
+]
+],
+"S076": [
+[
+"kbcb",
+"HBO and Netflix were not accused of wrongdoing in these cases; according to the SEC, neither company ever did business with 1inMM."
+]
+],
+"S012": [
+[
+"ten",
+"1inMM Capital, LLC",
+"founded around 2013 · promoted as a film distribution company · Los Angeles"
+]
+],
+"S013": [
+[
+"ten",
+"1inMM (“one in a million”) Capital, LLC",
+"according to the SEC"
+]
+],
+"S014": [
+[
+"ten",
+"Sole manager",
+"according to the indictment"
+]
+],
+"S029": [
+[
+"bai",
+"Where would that much profit come from, every single time?"
+]
+],
+"S039": [
+[
+"bai",
+"Know exactly who is on the other side of your contract."
+]
+],
+"S049": [
+[
+"bai",
+"If every piece of proof comes from the seller, it is not independent proof."
+]
+],
+"S052": [
+[
+"ten",
+"A $6 million home · luxury cars · private jet travel",
+"according to prosecutors"
+]
+],
+"S057": [
+[
+"bai",
+"Treat it as a claim to check, not as proof."
+]
+],
+"S061": [
+[
+"bai",
+"On-time payments feel like proof. In a Ponzi scheme, they keep it going."
+]
+],
+"S070": [
+[
+"ten",
+"Messages used identities of actual HBO and Netflix employees",
+"according to prosecutors"
+]
+],
+"S071": [
+[
+"ten",
+"Identity-theft counts: DISMISSED",
+"not convicted of those counts"
+]
+],
+"S077": [
+[
+"bai",
+"A reason to slow down, not to send more."
+]
+],
+"S102": [
+[
+"bai",
+"1 RULE · Verify independently before any money moves."
+]
+],
+"S097": [
+[
+"p21",
+"RED FLAG 1",
+"High, fixed returns on a short clock"
+]
+],
+"S098": [
+[
+"p21",
+"RED FLAG 2",
+"A famous partner you can't verify"
+]
+],
+"S099": [
+[
+"p21",
+"RED FLAG 3",
+"All the proof comes from the seller"
+]
+],
+"S100": [
+[
+"p21",
+"RED FLAG 4",
+"Unregistered offer passed through friends"
+]
+],
+"S101": [
+[
+"p21",
+"RED FLAG 5",
+"Missed payments blamed on someone else"
+]
+]
+},
+"l3": {
+"T01": [
+"ho-so/1inmm-horwitz/doj-plea-agreement-2021.pdf",
+11,
+[
+38,
+232,
+574,
+430
+],
+[
+"purported copies of the distribution agreements were fake"
+],
+"PLEA AGREEMENT · U.S. v. HORWITZ · Dkt. 45 · page 11"
+],
+"T02": [
+"ho-so/1inmm-horwitz/sec-complaint-2021.pdf",
+3,
+[
+40,
+141,
+556,
+380
+],
+[
+"primarily from Latin America",
+"Strategic Partners"
+],
+"SEC COMPLAINT · SEC v. HORWITZ · ¶5"
+],
+"T03": [
+"ho-so/1inmm-horwitz/sec-complaint-2021.pdf",
+5,
+[
+40,
+500,
+556,
+548
+],
+[
+"over the life of the note"
+],
+"SEC COMPLAINT · ¶22"
+],
+"T04": [
+"ho-so/1inmm-horwitz/sec-complaint-2021.pdf",
+9,
+[
+40,
+356,
+556,
+450
+],
+[
+"I believed that if HBO was involved, my investment was safe."
+],
+"SEC COMPLAINT · ¶46"
+],
+"T05": [
+"ho-so/1inmm-horwitz/sec-complaint-2021.pdf",
+9,
+[
+40,
+452,
+556,
+522
+],
+[
+"consistent track record of paying large profits"
+],
+"SEC COMPLAINT · ¶47"
+],
+"T06": [
+"ho-so/1inmm-horwitz/doj-plea-agreement-2021.pdf",
+12,
+[
+38,
+256,
+574,
+356
+],
+[
+"lavish lifestyle"
+],
+"PLEA AGREEMENT · Dkt. 45 · page 12"
+],
+"T07": [
+"ho-so/1inmm-horwitz/doj-plea-agreement-2021.pdf",
+11,
+[
+38,
+425,
+574,
+548
+],
+[
+"to lull the investors into believing their funds were safely invested"
+],
+"PLEA AGREEMENT · Dkt. 45 · page 11"
+],
+"T08": [
+"ho-so/1inmm-horwitz/sec-complaint-2021.pdf",
+13,
+[
+40,
+188,
+556,
+282
+],
+[
+"a release of funds by April 9 th (at the latest)"
+],
+"SEC COMPLAINT · ¶76"
+],
+"T09": [
+"ho-so/1inmm-horwitz/sec-complaint-2021.pdf",
+13,
+[
+40,
+284,
+556,
+428
+],
+[
+"sharing the financial burden with investors",
+"(highly doubtful)"
+],
+"SEC COMPLAINT · ¶77"
+],
+"T10": [
+"ho-so/1inmm-horwitz/doj-plea-agreement-2021.pdf",
+8,
+[
+38,
+305,
+574,
+548
+],
+[
+"is, in fact, guilty",
+"agree to the statement of facts"
+],
+"PLEA AGREEMENT · Dkt. 45 · page 8"
+],
+"T11": [
+"ho-so/1inmm-horwitz/sec-final-judgment-horwitz-2024.pdf",
+3,
+[
+40,
+258,
+556,
+452
+],
+[
+"$74,222,912.33",
+"deemed satisfied by the restitution order"
+],
+"FINAL JUDGMENT · SEC v. HORWITZ · Dkt. 323 · §III"
+],
+"T12": [
+"ho-so/1inmm-horwitz/doj-sentencing-position-2022.pdf",
+6,
+[
+38,
+112,
+574,
+166
+],
+[
+"portrayed himself as a Hollywood success story."
+],
+"GOV’T SENTENCING POSITION · Dkt. 58 · page 6"
+],
+"T13": [
+"ho-so/1inmm-horwitz/doj-sentencing-position-2022.pdf",
+6,
+[
+38,
+352,
+574,
+404
+],
+[
+"was not a successful businessman or Hollywood insider.",
+"He just played one in real life."
+],
+"GOV’T SENTENCING POSITION · Dkt. 58 · page 6"
+],
+"T14": [
+"ho-so/1inmm-horwitz/doj-sentencing-position-2022.pdf",
+6,
+[
+38,
+545,
+574,
+597
+],
+[
+"the largest known Ponzi scheme in the history of this District."
+],
+"GOV’T SENTENCING POSITION · Dkt. 58 · page 6"
+]
+},
+"p21": {
+"S094": [
+"LESSON 1",
+"Convert short-term returns to a yearly rate"
+],
+"S095": [
+"LESSON 2",
+"Steady payments don't prove it's real"
+],
+"S096": [
+"LESSON 3",
+"Know who's on the other side of your contract"
+],
+"S097": [
+"RED FLAG 1",
+"High, fixed returns on a short clock"
+],
+"S098": [
+"RED FLAG 2",
+"A famous partner you can't verify"
+],
+"S099": [
+"RED FLAG 3",
+"All the proof comes from the seller"
+],
+"S100": [
+"RED FLAG 4",
+"Unregistered offer passed through friends"
+],
+"S101": [
+"RED FLAG 5",
+"Missed payments blamed on someone else"
+]
+}
+}
