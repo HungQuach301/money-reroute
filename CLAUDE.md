@@ -8,6 +8,7 @@ Repo này độc lập với `lost-places-lab` và `crux-lab`; công cụ chép 
 1. Lệnh của điều phối trong phiên này — **lệnh thắng** khi khác tài liệu, trừ khi lệnh trái `docs/HIEN-CHUONG.md` (khi đó DỪNG, hỏi).
 2. `docs/HIEN-CHUONG.md` — định vị, ba tầng pháp lý, luật người thật, khai AI. **Thẩm quyền số một về nội dung.**
 3. `docs/QUY-TRINH-TAP.md` — mốc, cổng G1/G2, trần chi.
+3b. `docs/PHONG-CACH-HINH.md` — ba lớp hình (tranh kể chuyện · đồ hoạ động giải thích · hồ sơ thật nền ngà), luật đồ hoạ trực quan, đơn giá ảnh.
 4. `docs/LUAT-VEO.md` — luật V1–V8 khi dùng video AI (Veo).
 5. `docs/NHAT-KY.md` — các mục MR-xx mới nhất (quyết định của chủ dự án, kết quả rà).
 

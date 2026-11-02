@@ -48,6 +48,9 @@
 6. Sửa ≤ 2 vòng; vòng 3 → điều phối ghi nguyên nhân.
 → **G2 — chủ dự án duyệt bản cuối:** bản 540p/1080p, gói mô tả (nguồn đầy đủ + dòng khai AI), tiêu đề, chi thật so trần.
 
+## 4a. Phong cách hình (02/11/2026)
+Theo `docs/PHONG-CACH-HINH.md`. Bảng shot dạng **mỗi câu 1–3 cảnh** (sinh từ `loi.json`): mỗi cảnh ghi lớp (L1 tranh / L2 đồ hoạ động / L3 hồ sơ thật), mô tả, mốc từ giọng, nhãn tầng + nguồn. Ước chi theo đơn giá §6 (tranh 0,0389 USD; Veo ảnh→video ≤ 5 clip/tập).
+
 ## 4b. Kho đề tài (0.2)
 - Giữ `docs/kho-de-tai/` ≥ 10 vụ đạt HIEN-CHUONG §3 luật 8 (nhân vật trung tâm ●), có ≥ 1 hồ sơ sơ cấp mở được, chia đều các trụ: Ponzi/đầu tư · lừa tình & sextortion (nạn nhân người lớn) · rửa tiền · gian lận doanh nghiệp/kế toán · mạo danh & lừa đảo công nghệ · người trong cuộc (ngân hàng/công ty). Hai tập liền nhau không cùng trụ khi kho cho phép.
 - Bổ sung kho khi còn < 6 vụ chưa làm.

@@ -158,3 +158,9 @@ Nhánh `claude/mrp1-illustration-episode-1-8n4p6c` @ `39a02f9`: preflight ĐẠT
 - Điều phối xem tờ 1 s A và B: người thật (Horwitz) chỉ dạng bóng/lưng (có nhãn tên trên bóng — đạt §4); nhân vật đại diện (nhà đầu tư) có mặt cách điệu, tự nghĩ ra, nhãn ILLUSTRATIVE; không chữ/logo trong tranh; 2 crop hồ sơ thật giữ nguyên dạng, khoanh câu, dòng nguồn. Không biếm hoạ sắc tộc.
 - Quan sát: thẻ chữ B1 sáng chiếm ~44 % thời lượng, nhiều thẻ giữ 5–7 s (thẻ KBCB) → nhịp chậm hơn video tham chiếu; ở A, thẻ ngà chen giữa tranh tối gây lệch.
 - Quỹ chung: thêm **1,00 USD** chi ngoài khoá MR (02:15–02:26 UTC) — lần thứ hai (MR-4 ≈ 4,00) → chờ chủ dự án đối chiếu.
+
+## MR-6 · 02/11/2026 10:20 (giờ Hà Nội) · Chủ dự án: chốt phong cách hình
+- Q1 **PA-A1** (tranh A tông tối + tách lớp: nền ngà chỉ cho hồ sơ thật); Q2 **mật độ giữa** (~2,5 s/cảnh tranh, ~190 tranh/tập); Q3 clip Veo tả thực tập 1 chỉ giữ 3–4 clip vật thể làm điểm nhấn, chuyển động lớn làm bằng ảnh→video từ tranh (≤ 5 clip/tập).
+- Chủ dự án bổ sung: **phần quy trình, dòng tiền, con số phải trực quan, sinh động, có điểm nhấn** (ảnh chụp sơ đồ hộp tĩnh "The pitch, as he described it" ở bản thử B làm ví dụ cần nâng).
+- Điều phối ban hành `docs/PHONG-CACH-HINH.md` v1 (ba lớp hình; 10 luật đồ hoạ động L2; bảng màu; đơn giá) + QUY-TRINH §4a + CLAUDE.md mục đọc 3b.
+- Trần G1 tập 1 (OpenRouter 11,10) **không đủ** cho phong cách mới (đã chi 9,20 Veo + 1,63 thử) → trần MR-6 mới 10,00 USD trình chủ dự án trong lệnh (dán lệnh = duyệt).
