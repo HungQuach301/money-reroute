@@ -147,3 +147,7 @@ Cả ba nhánh: preflight `--range` ĐẠT; 0 dòng email trong lịch sử.
 - Chủ dự án duyệt giọng/nhạc tập 1.
 - Chủ dự án gửi video tham chiếu (không đưa vào repo — vật liệu kênh khác): phong cách **tranh minh hoạ 2D/bán hiện thực**, phần lớn là ảnh tĩnh có chuyển động máy chậm + chuyển cảnh, ≈ 258 lần đổi cảnh / 9:33 (≈ 2,2 s/cảnh), nhân vật hoạt hình có mặt. Hỏi tác động nếu làm theo kiểu này, kết hợp bằng chứng có thật.
 - Điều phối: **tạm giữ MR-6 (dựng tập 1) và MR-7 (M-c tập 2)** tới khi chủ dự án quyết phong cách hình; trình phương án + lệnh thử nghiệm MR-P1.
+
+## MR-P1 · 02/11/2026 08:59 (giờ Hà Nội) · Chủ dự án: chọn PA-A (thử phong cách trước), phát MR-P1
+- MR-P1: 60 s mở đầu tập 1 (P00–P03), hai biến thể minh hoạ (A bán hiện thực tông tối; B phẳng theo B1) + lớp trang hồ sơ thật; trần OpenRouter 2,00 USD.
+- MR-6, MR-7 tiếp tục tạm giữ tới khi chủ dự án chọn phong cách sau MR-P1. Lời tập 2, 3 và dàn truyện tập 4 vẫn chờ duyệt (không phụ thuộc phong cách).
