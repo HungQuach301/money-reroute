@@ -192,3 +192,7 @@ Nhánh `claude/short-doc-1inmm-horwitz-4pnmgb`: preflight ĐẠT; 0 email; 0 USD
 ## Tập 1 ĐĂNG · 02/11/2026 20:49 (giờ Hà Nội)
 - Chủ dự án đã đăng tập 1. Điều phối kiểm sau đăng (20:55): trang ân xá Trump 2025– (modified 20/10/2026) **không có "Horwitz"** (đọc trọn hai phần trang). Bước kiểm trước đăng bị bỏ qua lần này → ghi vào `docs/BAI-HOC.md`.
 - Ban hành `docs/BAI-HOC.md` (bài học tập 1 → 9 hành động cho tập 2+).
+
+## MR-S23 · 02/11/2026 21:40 (giờ Hà Nội) · Điều phối rà — merge
+Nhánh `claude/brave-gauss-8c6982` @ từ `f7527af`: preflight ĐẠT; 0 email; 0 USD (budget.py không đổi). Chạy lại máy: `loi_md.py` tập 2/3 `loi: []` (K1–K8, KA–KE); `shot2.py` tập 2 (185 cảnh, 106 tranh, 15 L2, 5 Veo) và tập 3 (207 cảnh, 144 tranh, 17 L2, 5 Veo) `loi: []`. Rà độc lập của phiên bắt 2 lỗi cao (nhân vật đại diện gắn nạn nhân cụ thể; thumbnail "FAKE IRS CALLS") — đã sửa.
+Khuyến nghị điều phối trình chủ dự án: S021 giữ bản đã kiểm; không thêm trang crop (giữ L2 thay thế); thumbnail tập 2 không chữ "IRS"; mật độ tập 2 nâng tới L1 TB ≤ 3,0 s (~+35 tranh); Short SH1 mỗi tập; trần M-c+M-d: tập 2 **11,00 USD** + 12.500 ký tự, tập 3 **11,80 USD** + 12.000 ký tự; chạy **tuần tự** (tập 2 rồi tập 3) theo số dư.
