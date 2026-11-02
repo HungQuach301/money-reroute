@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 *.lock
+# MR-5: tờ quét V8 dựng lại được (0 USD) — không đẩy (CLAUDE.md: tệp dựng lại được không đẩy)
+lab/*/do/
