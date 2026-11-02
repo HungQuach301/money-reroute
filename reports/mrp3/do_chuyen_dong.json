@@ -1,0 +1,396 @@
+{
+ "M1": {
+  "doi_chung": "P1",
+  "L1": {
+   "giay_do": 52.2,
+   "vuot_P_pct": 54.1
+  },
+  "ca_doan": {
+   "giay_do": 82.2,
+   "vuot_P_pct": 35.8
+  },
+  "theo_tranh": {
+   "K2": {
+    "giay_do": 3.6,
+    "vuot_P_pct": 100.0
+   },
+   "K3": {
+    "giay_do": 10.4,
+    "vuot_P_pct": 70.3
+   },
+   "a01": {
+    "giay_do": 2.7,
+    "vuot_P_pct": 7.4
+   },
+   "a02": {
+    "giay_do": 0.4,
+    "vuot_P_pct": 60.0
+   },
+   "a03": {
+    "giay_do": 0.8,
+    "vuot_P_pct": 4.8
+   },
+   "a04": {
+    "giay_do": 0.8,
+    "vuot_P_pct": 14.3
+   },
+   "a05": {
+    "giay_do": 2.1,
+    "vuot_P_pct": 1.9
+   },
+   "a07": {
+    "giay_do": 0.4,
+    "vuot_P_pct": 18.2
+   },
+   "a09": {
+    "giay_do": 1.6,
+    "vuot_P_pct": 100.0
+   },
+   "a10": {
+    "giay_do": 1.6,
+    "vuot_P_pct": 58.5
+   },
+   "a12": {
+    "giay_do": 1.8,
+    "vuot_P_pct": 41.3
+   },
+   "a15": {
+    "giay_do": 2.1,
+    "vuot_P_pct": 19.2
+   },
+   "b001": {
+    "giay_do": 0.4,
+    "vuot_P_pct": 36.4
+   },
+   "b002": {
+    "giay_do": 0.6,
+    "vuot_P_pct": 100.0
+   },
+   "b003": {
+    "giay_do": 2.1,
+    "vuot_P_pct": 0.0
+   },
+   "b040": {
+    "giay_do": 2.8,
+    "vuot_P_pct": 35.7
+   },
+   "b051": {
+    "giay_do": 1.2,
+    "vuot_P_pct": 72.4
+   },
+   "b052": {
+    "giay_do": 1.1,
+    "vuot_P_pct": 96.4
+   },
+   "b062": {
+    "giay_do": 0.4,
+    "vuot_P_pct": 100.0
+   },
+   "b063": {
+    "giay_do": 1.4,
+    "vuot_P_pct": 0.0
+   },
+   "b064": {
+    "giay_do": 1.3,
+    "vuot_P_pct": 71.9
+   },
+   "b065": {
+    "giay_do": 0.9,
+    "vuot_P_pct": 0.0
+   },
+   "b066": {
+    "giay_do": 3.5,
+    "vuot_P_pct": 65.5
+   },
+   "b067": {
+    "giay_do": 0.8,
+    "vuot_P_pct": 76.2
+   },
+   "b070": {
+    "giay_do": 1.6,
+    "vuot_P_pct": 100.0
+   },
+   "b074": {
+    "giay_do": 2.1,
+    "vuot_P_pct": 96.2
+   },
+   "b116": {
+    "giay_do": 1.1,
+    "vuot_P_pct": 0.0
+   },
+   "b118": {
+    "giay_do": 1.1,
+    "vuot_P_pct": 100.0
+   },
+   "b141": {
+    "giay_do": 1.4,
+    "vuot_P_pct": 22.2
+   }
+  }
+ },
+ "M2": {
+  "doi_chung": "P2",
+  "L1": {
+   "giay_do": 52.1,
+   "vuot_P_pct": 58.3
+  },
+  "ca_doan": {
+   "giay_do": 82.2,
+   "vuot_P_pct": 39.7
+  },
+  "theo_tranh": {
+   "K2": {
+    "giay_do": 3.8,
+    "vuot_P_pct": 100.0
+   },
+   "K3": {
+    "giay_do": 10.5,
+    "vuot_P_pct": 70.3
+   },
+   "a01": {
+    "giay_do": 2.7,
+    "vuot_P_pct": 8.8
+   },
+   "a02": {
+    "giay_do": 0.4,
+    "vuot_P_pct": 70.0
+   },
+   "a03": {
+    "giay_do": 0.8,
+    "vuot_P_pct": 4.8
+   },
+   "a04": {
+    "giay_do": 0.8,
+    "vuot_P_pct": 14.3
+   },
+   "a05": {
+    "giay_do": 2.3,
+    "vuot_P_pct": 7.0
+   },
+   "a07": {
+    "giay_do": 0.6,
+    "vuot_P_pct": 7.1
+   },
+   "a09": {
+    "giay_do": 1.6,
+    "vuot_P_pct": 100.0
+   },
+   "a10": {
+    "giay_do": 1.6,
+    "vuot_P_pct": 63.4
+   },
+   "a12": {
+    "giay_do": 2.0,
+    "vuot_P_pct": 44.9
+   },
+   "a15": {
+    "giay_do": 2.1,
+    "vuot_P_pct": 17.0
+   },
+   "b001": {
+    "giay_do": 0.5,
+    "vuot_P_pct": 23.1
+   },
+   "b002": {
+    "giay_do": 0.5,
+    "vuot_P_pct": 100.0
+   },
+   "b003": {
+    "giay_do": 1.9,
+    "vuot_P_pct": 4.2
+   },
+   "b040": {
+    "giay_do": 2.6,
+    "vuot_P_pct": 33.8
+   },
+   "b051": {
+    "giay_do": 1.2,
+    "vuot_P_pct": 100.0
+   },
+   "b052": {
+    "giay_do": 1.3,
+    "vuot_P_pct": 100.0
+   },
+   "b062": {
+    "giay_do": 0.5,
+    "vuot_P_pct": 100.0
+   },
+   "b063": {
+    "giay_do": 1.1,
+    "vuot_P_pct": 3.6
+   },
+   "b064": {
+    "giay_do": 1.3,
+    "vuot_P_pct": 84.4
+   },
+   "b065": {
+    "giay_do": 0.9,
+    "vuot_P_pct": 0.0
+   },
+   "b066": {
+    "giay_do": 3.2,
+    "vuot_P_pct": 100.0
+   },
+   "b067": {
+    "giay_do": 0.5,
+    "vuot_P_pct": 84.6
+   },
+   "b070": {
+    "giay_do": 1.6,
+    "vuot_P_pct": 100.0
+   },
+   "b074": {
+    "giay_do": 2.2,
+    "vuot_P_pct": 100.0
+   },
+   "b116": {
+    "giay_do": 0.9,
+    "vuot_P_pct": 8.7
+   },
+   "b118": {
+    "giay_do": 1.1,
+    "vuot_P_pct": 100.0
+   },
+   "b141": {
+    "giay_do": 1.4,
+    "vuot_P_pct": 5.6
+   }
+  }
+ },
+ "M3": {
+  "doi_chung": "P2",
+  "L1": {
+   "giay_do": 52.1,
+   "vuot_P_pct": 61.0
+  },
+  "ca_doan": {
+   "giay_do": 82.2,
+   "vuot_P_pct": 41.7
+  },
+  "theo_tranh": {
+   "K2": {
+    "giay_do": 3.8,
+    "vuot_P_pct": 98.9
+   },
+   "K3": {
+    "giay_do": 10.5,
+    "vuot_P_pct": 70.3
+   },
+   "a01": {
+    "giay_do": 2.7,
+    "vuot_P_pct": 8.8
+   },
+   "a02": {
+    "giay_do": 0.4,
+    "vuot_P_pct": 70.0
+   },
+   "a03": {
+    "giay_do": 0.8,
+    "vuot_P_pct": 4.8
+   },
+   "a04": {
+    "giay_do": 0.8,
+    "vuot_P_pct": 14.3
+   },
+   "a05": {
+    "giay_do": 2.3,
+    "vuot_P_pct": 7.0
+   },
+   "a07": {
+    "giay_do": 0.6,
+    "vuot_P_pct": 14.3
+   },
+   "a09": {
+    "giay_do": 1.6,
+    "vuot_P_pct": 100.0
+   },
+   "a10": {
+    "giay_do": 1.6,
+    "vuot_P_pct": 58.5
+   },
+   "a12": {
+    "giay_do": 2.0,
+    "vuot_P_pct": 98.0
+   },
+   "a15": {
+    "giay_do": 2.1,
+    "vuot_P_pct": 9.4
+   },
+   "b001": {
+    "giay_do": 0.5,
+    "vuot_P_pct": 0.0
+   },
+   "b002": {
+    "giay_do": 0.5,
+    "vuot_P_pct": 100.0
+   },
+   "b003": {
+    "giay_do": 1.9,
+    "vuot_P_pct": 20.8
+   },
+   "b040": {
+    "giay_do": 2.6,
+    "vuot_P_pct": 33.8
+   },
+   "b051": {
+    "giay_do": 1.2,
+    "vuot_P_pct": 100.0
+   },
+   "b052": {
+    "giay_do": 1.3,
+    "vuot_P_pct": 100.0
+   },
+   "b062": {
+    "giay_do": 0.5,
+    "vuot_P_pct": 100.0
+   },
+   "b063": {
+    "giay_do": 1.1,
+    "vuot_P_pct": 3.6
+   },
+   "b064": {
+    "giay_do": 1.3,
+    "vuot_P_pct": 84.4
+   },
+   "b065": {
+    "giay_do": 0.9,
+    "vuot_P_pct": 0.0
+   },
+   "b066": {
+    "giay_do": 3.2,
+    "vuot_P_pct": 100.0
+   },
+   "b067": {
+    "giay_do": 0.5,
+    "vuot_P_pct": 76.9
+   },
+   "b070": {
+    "giay_do": 1.6,
+    "vuot_P_pct": 100.0
+   },
+   "b074": {
+    "giay_do": 2.2,
+    "vuot_P_pct": 98.2
+   },
+   "b116": {
+    "giay_do": 0.9,
+    "vuot_P_pct": 60.9
+   },
+   "b118": {
+    "giay_do": 1.1,
+    "vuot_P_pct": 100.0
+   },
+   "b141": {
+    "giay_do": 1.4,
+    "vuot_P_pct": 5.6
+   }
+  }
+ },
+ "goc": {
+  "theo_dung": true,
+  "L1_giay": 78.0,
+  "clip_giay": 15.8,
+  "vuot_P_pct_uoc": 20.2
+ },
+ "_dinh_nghia": "MR-P3 · Đo \"% thời lượng tranh có chuyển động thật\" (0 USD). NGUỒN thước đo: scripts/mrp2/do_chuyen_dong.py bản 3 (repo này, main @ 33ce227):\nluồng quang DIS giữa khung t − 0,4 s và t (480 px) → khớp MỘT homography (RANSAC 0,5 px) → phần dư từng điểm; khung \"có chuyển động thật\"\nkhi p90 phần dư VƯỢT khung cùng thời điểm của đối chứng phẳng quá 0,25 px. Đối chứng: P1 cho M1, P2 cho M2 và M3 (cùng dòng thời gian,\ncùng máy quay, tranh phẳng, cùng thẻ/nhãn, không clip). goc: theo dựng (SHOT2: chỉ K2, K3 là clip; tranh còn lại tĩnh trượt).\nĐổi so với MR-P2: dòng thời gian lấy từ reports/mrp3/dung_<bien>.json (điểm cắt khớp phách khác nhau giữa các mức).\n  python3 scripts/mrp3/do_chuyen_dong.py      → reports/mrp3/do_chuyen_dong.json"
+}

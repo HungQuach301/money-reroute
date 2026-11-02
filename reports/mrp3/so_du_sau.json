@@ -1,0 +1,12 @@
+{
+ "doc_luc": "2026-11-02T17:35:22Z",
+ "total_credits": 155,
+ "total_usage": 145.90616,
+ "con": 9.09384,
+ "khoa_usage": 22.2513955,
+ "elevenlabs": {
+  "character_count": 26827,
+  "character_limit": 157382,
+  "con": 130555
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "tep_1080p": "lab/mrp3/veo/V02_b040_1080p_l1.mp4",
+ "tep_720p": "lab/mrp3/veo/V02b_b040_720p_l1.mp4",
+ "goc_tranh": {
+  "lap": 27.4
+ },
+ "khung": {
+  "0.5": {
+   "lap_1080": 246.9,
+   "lap_720_len": 11.5,
+   "khoi_1080": 1.081,
+   "khoi_720_len": 1.034,
+   "lap_trang_phan_chieu": [
+    638.4,
+    8.5
+   ],
+   "lap_ngon_cay": [
+    58.4,
+    6.0
+   ],
+   "lap_bo_hồ_co": [
+    261.5,
+    26.7
+   ]
+  },
+  "2.0": {
+   "lap_1080": 226.6,
+   "lap_720_len": 12.1,
+   "khoi_1080": 1.046,
+   "khoi_720_len": 1.021,
+   "lap_trang_phan_chieu": [
+    582.4,
+    10.6
+   ],
+   "lap_ngon_cay": [
+    59.5,
+    7.4
+   ],
+   "lap_bo_hồ_co": [
+    181.7,
+    23.7
+   ]
+  },
+  "3.5": {
+   "lap_1080": 312.5,
+   "lap_720_len": 11.5,
+   "khoi_1080": 1.064,
+   "khoi_720_len": 1.032,
+   "lap_trang_phan_chieu": [
+    1120.7,
+    10.3
+   ],
+   "lap_ngon_cay": [
+    74.3,
+    6.6
+   ],
+   "lap_bo_hồ_co": [
+    130.0,
+    16.8
+   ]
+  }
+ },
+ "ti_le_net_720_tren_1080_tb": 0.046
+}
