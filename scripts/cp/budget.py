@@ -5,6 +5,7 @@
 # TRAN_LUOT_PHIEN, luot(), check_yt() cho YouTube Data.
 # MR-K1 (01/11/2026): thêm dòng trần mrk1 (youtube_units 2000) + TRAN_LUOT_PHIEN mrk1 (search.list 50) theo lệnh [MR · MR-K1] bước 0.
 # MR-5 (02/11/2026): thêm dòng trần mr5 + mốc báo 80 % theo lệnh [MR · MR-5] bước 0.
+# MR-P1 (02/11/2026): thêm dòng trần mrp1 + mốc báo 80 % theo lệnh [MR · MR-P1] bước 0 (thử phong cách minh hoạ).
 # MR-4 (01/11/2026): thêm dòng trần mr4 + mốc báo 80 % + chặn phụ ký tự gửi (TRAN_GUI_PHIEN, gui(), check_gui()) theo lệnh [MR · MR-4] bước 0.
 # Phần lõi (sổ calls.jsonl, spent/pending_est/check/charge/canh_bao) giữ nguyên logic gốc.
 """[MR] Trần chi phí CỨNG theo phiên Money Reroute.
@@ -26,12 +27,14 @@ CAPS_PHIEN = {
     "mr1": {"youtube_units": 3000},  # MR-1 (lệnh điều phối [MR · MR-1] 01/11/2026): youtube_units 3000, search.list ≤ 60 lượt (TRAN_LUOT); mọi khoản khác 0.
     "mrk1": {"youtube_units": 2000},  # MR-K1 kho đề tài (lệnh điều phối [MR · MR-K1] 01/11/2026, bước 0): youtube_units 2000, search.list ≤ 50 lượt; mọi khoản khác 0.
     "mr4": {"openrouter_usd": 1.60, "elevenlabs_chars": 8000},  # MR-4 M-c phần 1 (lệnh [MR · MR-4] 01/11/2026, bước 0): openrouter 1,60 USD; elevenlabs 8.000 ký tự TÍNH (chặn phụ ≤ 16.000 ký tự gửi, TRAN_GUI_PHIEN); khác 0.
+    "mrp1": {"openrouter_usd": 2.00},  # MR-P1 thử phong cách minh hoạ (lệnh [MR · MR-P1] 02/11/2026, bước 0): openrouter 2,00 USD (ảnh); khác 0.
     "mr5": {"openrouter_usd": 8.30, "elevenlabs_chars": 6000},  # MR-5 M-c phần 2 (lệnh [MR · MR-5] 02/11/2026, bước 0): openrouter 8,30 USD (14 khe Veo); elevenlabs 6.000 ký tự TÍNH (nhạc); khác 0.
 }
 CAPS = {k: float(CAPS_PHIEN.get(PHIEN, {}).get(k, 0.0)) for k in KHOAN}
 # Mốc báo theo phiên: chạm mốc (đã ghi + đang chờ) mà còn > 20 % việc → DỪNG SINH, báo điều phối. Dạng {"mr1": {"openrouter_usd": 8.0}}.
 DUNG_BAO_PHIEN = {"mr4": {"openrouter_usd": 1.28, "elevenlabs_chars": 6400},  # mr4: 80 % trần (lệnh [MR · MR-4] bước 0)
-                  "mr5": {"openrouter_usd": 6.64, "elevenlabs_chars": 4800}}  # mr5: 80 % trần (lệnh [MR · MR-5] bước 0)
+                  "mr5": {"openrouter_usd": 6.64, "elevenlabs_chars": 4800},  # mr5: 80 % trần (lệnh [MR · MR-5] bước 0)
+                  "mrp1": {"openrouter_usd": 1.60}}  # mrp1: 80 % trần (lệnh [MR · MR-P1] bước 0)  # mr5: 80 % trần (lệnh [MR · MR-5] bước 0)
 DUNG_BAO = DUNG_BAO_PHIEN.get(PHIEN, {})
 # Trần SỐ LƯỢT theo phương thức (ngoài trần đơn vị). charge(..., {"method": "search.list"}) được đếm. Căn cứ: lệnh MR-1.
 TRAN_LUOT_PHIEN = {"mr1": {"search.list": 60}, "mrk1": {"search.list": 50}}  # mrk1: lệnh [MR · MR-K1] 01/11/2026

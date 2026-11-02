@@ -1,0 +1,89 @@
+{
+ "_ghi_chu": "MR-P1 · lời sinh tranh P00–P03 (dùng chung cảnh cho A và B, khác tiền tố phong cách). a01 sinh trước không tham chiếu; mọi tranh sau gửi kèm a01 làm tham chiếu nét vẽ + nhân vật.",
+ "tien_to": "ART STYLE (variant B): flat vector editorial illustration with a strictly limited palette — ivory paper #F4F1EA, ink #1B1F24, teal #2B7A78, red-orange #D9480F used sparingly as accent, warm gray #8A8F98. Simple geometric shapes, flat fills, soft flat shadows, subtle paper-grain texture, clean 'case file' documentary look. People simplified with minimal facial features (simple dot eyes, single-line mouth).\n\nRECURRING CHARACTERS (invented, must not resemble any real person or celebrity): (1) THE INVESTOR — an invented ordinary woman in her early fifties, shoulder-length wavy salt-and-pepper hair, thin round tortoiseshell glasses, mustard-yellow knit cardigan over a white collared shirt; her face may be shown. (2) THE MAN IN THE DARK SUIT — only ever shown strictly from behind, as a backlit black silhouette, or as hands/sleeves; his face is NEVER visible, no profile, no identifiable features.",
+ "hau_to": "HARD RULES: absolutely no text anywhere in the image — no letters, words, numbers, captions, signage, labels, logos, watermarks, brand marks or user-interface elements. Any screen, paper, poster or envelope is blank or completely blurred. No documents, contracts, money bills or certificates. Do not depict any real person, celebrity or public figure. No caricature of any ethnicity or nationality. Single image, 16:9 landscape, full bleed, no borders, no panels, no split screen.",
+ "ref_tep": "a01_l1.png",
+ "ref_loi": "The attached image is the STYLE AND CHARACTER REFERENCE for this series. Match its art style, rendering, palette and lighting exactly. If the scene includes the investor woman she must be the same character (same hair, glasses, mustard cardigan). Do not copy its composition or its content.",
+ "tranh": {
+  "a01": {
+   "luot1": "Early morning in a modest suburban kitchen. The investor sits at a small wooden kitchen table holding a smartphone; its screen glows softly toward her, the screen itself not visible to the viewer. A mug of coffee, pale dawn light through the window. Medium shot; she looks relieved and content.",
+   "ref": false
+  },
+  "a02": {
+   "luot1": "Close-up of the investor's hands (mustard cardigan sleeves) holding a smartphone above the kitchen table; the screen emits a soft green glow and its content is completely blurred, nothing legible. Shallow depth of field, dawn light.",
+   "ref": true
+  },
+  "a03": {
+   "luot1": "The same kitchen at night, months later: the chair is empty, still raindrops rest on the dark window glass (no rain falling), one small lamp, cold blue light. A smartphone lies on the table. No people.",
+   "ref": true
+  },
+  "a04": {
+   "luot1": "Night. The investor sits at the kitchen table, her face lit from below by the cold light of a smartphone held facing her (screen not visible to the viewer); worried expression, brow furrowed. Dark room, wet window behind her.",
+   "ref": true
+  },
+  "a05": {
+   "luot1": "Close-up of a smartphone lying face down on a wooden kitchen table at night; the investor's hand (mustard cardigan sleeve) slowly pulls away from it; a thin edge of screen glow leaks onto the wood. Mood of doubt.",
+   "ref": true
+  },
+  "a06": {
+   "luot1": "The man in the dark suit, seen strictly from behind as a black silhouette, stands on a hillside terrace at dusk overlooking a sprawling coastal city with palm tree silhouettes and lights coming on. No landmarks, no signs. His face is never visible.",
+   "ref": true
+  },
+  "a07": {
+   "luot1": "An empty film soundstage with a single spotlight beam from above; the man in the dark suit stands in the light, seen strictly from behind; a vintage film camera on a tripod and a folded director's chair nearby, with nothing written on the chair. His face is not visible.",
+   "ref": true
+  },
+  "a08": {
+   "luot1": "Close-up of a handshake over an elegant office desk: one hand in a dark suit sleeve with a cufflink, the other in a mustard knit cardigan sleeve. Warm lamp light. Only hands and forearms visible, no faces.",
+   "ref": true
+  },
+  "a09": {
+   "luot1": "Rows of plain metal film canisters and film reels stacked on shelves in a dim warehouse, a shaft of light with floating dust. No labels and no writing on the canisters. No people.",
+   "ref": true
+  },
+  "a10": {
+   "luot1": "A dark living room at night lit only by the glow of a large television showing an abstract blurred wash of colors (no logo, no interface); empty sofa; light spilling across the floor. No people.",
+   "ref": true
+  },
+  "a11": {
+   "luot1": "A desk under a single brass lamp at night, piled high with dozens of sealed blank envelopes, some spilling onto the floor; deep shadows. Nothing written on the envelopes, no money bills. No people.",
+   "ref": true
+  },
+  "a12": {
+   "luot1": "Wide view of the stone steps and tall classical columns of a courthouse in cool morning light, completely empty; no signs, no inscriptions on the building, no flags. A few pigeons on the steps.",
+   "ref": true
+  },
+  "a13": {
+   "luot1": "The investor stands at a large window at dawn, seen in three-quarter view from slightly behind, looking out over a city as the sun rises; thoughtful and resolved; her reflection faint in the glass.",
+   "ref": true
+  },
+  "a14": {
+   "luot1": "A small office at night: shelves of film reels, framed posters on the wall that are completely blank; the man in the dark suit sits at a desk lit by a desk lamp, seen strictly from behind. Face not visible.",
+   "ref": true
+  },
+  "a15": {
+   "luot1": "A private screening room: rows of empty dark-red velvet seats, a projector beam cutting through the darkness from the back wall toward a blank glowing screen. No people, nothing on the screen.",
+   "ref": true
+  },
+  "a16": {
+   "luot1": "A long glossy conference table in a dark boardroom lined with empty chairs; at the far head of the table sits the man in the dark suit as a backlit black silhouette against a tall window with city lights. Face not visible. Sense of one person in control.",
+   "ref": true
+  },
+  "a17": {
+   "luot1": "An upscale restaurant table in the evening, over-the-shoulder shot from behind the man in the dark suit (only the back of his shoulder and head, dark and blurred in the foreground), facing the investor across the table, who listens attentively, intrigued; candlelight, wine glasses.",
+   "ref": true
+  },
+  "a18": {
+   "luot1": "Close-up on a restaurant tablecloth: the investor's hands in mustard cardigan sleeves slide a thick sealed blank envelope across the table toward a hand in a dark suit sleeve. Candlelight. No faces.",
+   "ref": true
+  },
+  "a19": {
+   "luot1": "The Earth at night seen from space, glowing arcs of light travelling from the Americas across the oceans to other continents, like flows of distribution. No country labels, no text.",
+   "ref": true
+  },
+  "a20": {
+   "luot1": "The man in the dark suit, seen strictly from behind as a silhouette, stands alone with one arm raised, presenting toward a huge wall of glowing blurred screens filled with abstract colorful light (no logos, no interface, no text). Face not visible.",
+   "ref": true
+  }
+ }
+}
