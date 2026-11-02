@@ -1,0 +1,1032 @@
+1
+00:00:00,000 --> 00:00:02,410
+Picture an investor's phone lighting up:
+
+2
+00:00:02,420 --> 00:00:04,960
+a payment, right on schedule, like always.
+
+3
+00:00:05,660 --> 00:00:09,189
+Months later, a different message:
+a delay on the platform side,
+
+4
+00:00:09,199 --> 00:00:11,300
+and the money should arrive next week.
+
+5
+00:00:12,200 --> 00:00:15,757
+That message is a reconstruction.
+The case behind it is real,
+
+6
+00:00:15,767 --> 00:00:17,580
+and it is on the public record.
+
+7
+00:00:19,450 --> 00:00:22,240
+The man at the center of
+it was Zachary Horwitz,
+
+8
+00:00:22,250 --> 00:00:25,750
+an actor in Los Angeles who
+used the screen name Zach Avery.
+
+9
+00:00:26,670 --> 00:00:31,091
+His company issued promissory notes
+that typically came due in 6 or 12
+
+10
+00:00:31,101 --> 00:00:34,330
+months, with a promised
+return of 25 to 45 percent.
+
+11
+00:00:35,210 --> 00:00:39,242
+The money, he told investors, would
+buy film rights to be licensed to
+
+12
+00:00:39,252 --> 00:00:41,830
+streaming platforms such as HBO and Netflix.
+
+13
+00:00:42,770 --> 00:00:46,270
+In his plea agreement, he admitted
+the distribution deals were fake.
+
+14
+00:00:47,570 --> 00:00:51,511
+HBO and Netflix were not accused
+of wrongdoing in these cases;
+
+15
+00:00:51,521 --> 00:00:55,790
+according to the SEC, neither
+company ever did business with 1inMM.
+
+16
+00:00:56,490 --> 00:00:59,550
+At least $650 million came in.
+
+17
+00:01:00,090 --> 00:01:04,490
+In 2022, a federal judge sentenced
+him to 20 years in prison.
+
+18
+00:01:05,530 --> 00:01:08,242
+This is the story of how
+that money was rerouted,
+
+19
+00:01:08,252 --> 00:01:10,530
+and the red flags you can spot next time.
+
+20
+00:01:12,280 --> 00:01:16,396
+Around 2013, Horwitz founded a
+company called 1inMM Capital,
+
+21
+00:01:16,406 --> 00:01:21,220
+which he promoted as a film distribution
+company based in Los Angeles.
+
+22
+00:01:22,000 --> 00:01:25,900
+According to the SEC, the name
+was short for one in a million.
+
+23
+00:01:26,700 --> 00:01:30,260
+According to the indictment, Horwitz
+was the company's sole manager.
+
+24
+00:01:32,140 --> 00:01:35,624
+The pitch went like this.
+Investors would put up the money,
+
+25
+00:01:35,634 --> 00:01:39,660
+and 1inMM would use it to buy
+distribution rights to specific films.
+
+26
+00:01:40,420 --> 00:01:44,498
+The company, he claimed, would then
+license those rights at a profit
+
+27
+00:01:44,508 --> 00:01:47,745
+to online streaming platforms
+such as HBO and Netflix,
+
+28
+00:01:47,755 --> 00:01:50,340
+for distribution outside the United States.
+
+29
+00:01:51,020 --> 00:01:53,540
+Those profits were supposed
+to pay the investors back.
+
+30
+00:01:54,320 --> 00:01:58,146
+The SEC alleged that the films
+were mostly from Latin America,
+
+31
+00:01:58,156 --> 00:02:02,477
+and that the company claimed HBO,
+Netflix and other media corporations
+
+32
+00:02:02,487 --> 00:02:04,220
+were its Strategic Partners.
+
+33
+00:02:04,370 --> 00:02:06,260
+HBO and Netflix were not accused
+of wrongdoing in these cases;
+
+34
+00:02:06,270 --> 00:02:08,170
+according to the SEC, neither
+company ever did business with 1inMM.
+
+35
+00:02:10,660 --> 00:02:16,680
+A promissory note is a written IOU: a
+promise to repay a set amount by a set date.
+
+36
+00:02:17,400 --> 00:02:21,256
+In his plea agreement, Horwitz
+acknowledged that 1inMM's notes were
+
+37
+00:02:21,266 --> 00:02:22,940
+securities under federal law.
+
+38
+00:02:23,620 --> 00:02:28,558
+Each note listed the amount borrowed,
+typically from about $35,000 to
+
+39
+00:02:28,568 --> 00:02:29,500
+$1.5 million.
+
+40
+00:02:30,200 --> 00:02:34,078
+It also listed the amount
+to be paid back at maturity,
+
+41
+00:02:34,088 --> 00:02:38,480
+typically 6 or 12 months later:
+a return of 25 to 45 percent.
+
+42
+00:02:39,200 --> 00:02:43,460
+In its complaint, the SEC alleged
+a slightly different range:
+
+43
+00:02:43,470 --> 00:02:47,880
+a typical profit of 35 to 45
+percent over the life of the note.
+
+44
+00:02:49,650 --> 00:02:52,643
+Over the life of the note
+is not the same as per year,
+
+45
+00:02:52,653 --> 00:02:54,210
+and that difference matters.
+
+46
+00:02:55,190 --> 00:02:58,587
+In a sample of notes listed
+in the SEC's complaint,
+
+47
+00:02:58,597 --> 00:03:01,670
+one 6-month note promised
+a 35 percent return.
+
+48
+00:03:02,550 --> 00:03:06,622
+If you could reinvest the whole
+payout at that rate twice a year,
+
+49
+00:03:06,632 --> 00:03:10,139
+you would end the year with
+about 1.82 times your money:
+
+50
+00:03:10,149 --> 00:03:12,410
+roughly an 82 percent annual return.
+
+51
+00:03:13,230 --> 00:03:16,850
+Even without reinvesting, it
+works out to 70 percent a year.
+
+52
+00:03:17,510 --> 00:03:20,614
+When an investment
+promises returns like that,
+
+53
+00:03:20,624 --> 00:03:24,202
+on a fixed schedule, ask
+the simplest question first:
+
+54
+00:03:24,212 --> 00:03:26,842
+where would that much profit come from,
+
+55
+00:03:26,852 --> 00:03:28,070
+every single time?
+
+56
+00:03:29,910 --> 00:03:34,022
+According to the SEC, it was
+particularly important to investors that
+
+57
+00:03:34,032 --> 00:03:37,965
+HBO and Netflix were said to be
+the ultimate counterparties behind
+
+58
+00:03:37,975 --> 00:03:39,050
+their investments.
+
+59
+00:03:39,950 --> 00:03:44,028
+The complaint quotes one investor:
+I believed that if HBO was
+
+60
+00:03:44,038 --> 00:03:46,250
+involved, my investment was safe.
+
+61
+00:03:47,270 --> 00:03:51,301
+Over time, the SEC alleged,
+investors were also deceived by his
+
+62
+00:03:51,311 --> 00:03:54,390
+consistent track record
+of paying large profits.
+
+63
+00:03:54,540 --> 00:03:56,430
+HBO and Netflix were not accused
+of wrongdoing in these cases;
+
+64
+00:03:56,440 --> 00:03:58,340
+according to the SEC, neither
+company ever did business with 1inMM.
+
+65
+00:04:00,760 --> 00:04:04,123
+The money came through
+relationships. In his plea agreement,
+
+66
+00:04:04,133 --> 00:04:07,778
+Horwitz admitted raising money
+from at least five major groups of
+
+67
+00:04:07,788 --> 00:04:08,800
+private investors.
+
+68
+00:04:09,680 --> 00:04:13,381
+He also admitted he understood that
+those groups raised part of their
+
+69
+00:04:13,391 --> 00:04:16,780
+money from sub-investors who had
+no direct contract with 1inMM.
+
+70
+00:04:18,040 --> 00:04:22,220
+The agreement put the number of
+those sub-investors at more than 250,
+
+71
+00:04:22,230 --> 00:04:24,780
+a figure he reserved the right to contest.
+
+72
+00:04:25,780 --> 00:04:28,940
+Prosecutors said many of the
+investors were his personal friends.
+
+73
+00:04:29,480 --> 00:04:33,225
+In other words, some of the money
+came from people who had no direct
+
+74
+00:04:33,235 --> 00:04:34,340
+contract with 1inMM.
+
+75
+00:04:35,660 --> 00:04:39,840
+Before you invest, know exactly who
+is on the other side of your contract.
+
+76
+00:04:41,650 --> 00:04:43,910
+On paper, each note had collateral.
+
+77
+00:04:44,730 --> 00:04:48,223
+An assignment of rights listed
+one or more films as collateral,
+
+78
+00:04:48,233 --> 00:04:51,837
+with a promise that 1inMM was the
+sole and exclusive owner of the
+
+79
+00:04:51,847 --> 00:04:53,070
+rights to those films.
+
+80
+00:04:53,850 --> 00:04:57,575
+In his plea agreement, Horwitz
+admitted that 1inMM generally did not
+
+81
+00:04:57,585 --> 00:05:01,210
+acquire the distribution rights
+to the films listed as collateral.
+
+82
+00:05:01,290 --> 00:05:04,544
+And it did not enter into any
+distribution agreements with the
+
+83
+00:05:04,554 --> 00:05:06,450
+streaming platforms for those films.
+
+84
+00:05:07,310 --> 00:05:11,253
+The SEC alleged more broadly that
+Horwitz and his company had no
+
+85
+00:05:11,263 --> 00:05:13,910
+business relationships with Netflix or HBO,
+
+86
+00:05:13,920 --> 00:05:17,070
+and never signed distribution
+agreements with them.
+
+87
+00:05:18,350 --> 00:05:22,050
+HBO and Netflix were not accused
+of wrongdoing in these cases;
+
+88
+00:05:22,060 --> 00:05:26,070
+according to the SEC, neither
+company ever did business with 1inMM.
+
+89
+00:05:28,240 --> 00:05:31,885
+He also gave investors copies of
+license agreements with sales agents
+
+90
+00:05:31,895 --> 00:05:35,920
+for the films' production companies.
+He admitted those agreements were fake.
+
+91
+00:05:36,700 --> 00:05:40,365
+He told investors that
+streaming platforms had signed,
+
+92
+00:05:40,375 --> 00:05:44,243
+or committed to sign, distribution
+agreements with 1inMM,
+
+93
+00:05:44,253 --> 00:05:48,200
+and he provided copies. Those,
+he admitted, were fake too.
+
+94
+00:05:48,820 --> 00:05:52,040
+The notes, the collateral,
+the distribution deals:
+
+95
+00:05:52,050 --> 00:05:53,600
+all of it came from him.
+
+96
+00:05:54,140 --> 00:05:58,044
+When every piece of proof comes from
+the person asking for your money,
+
+97
+00:05:58,054 --> 00:05:59,620
+it is not independent proof.
+
+98
+00:06:01,530 --> 00:06:06,270
+So where did the money go? Horwitz
+admitted he did not use it as promised.
+
+99
+00:06:06,830 --> 00:06:09,959
+Instead, it went to payments
+to earlier investors,
+
+100
+00:06:09,969 --> 00:06:13,726
+to keeping up the company's
+facade of legitimate operations,
+
+101
+00:06:13,736 --> 00:06:18,121
+to himself and entities he controlled,
+and to what the agreement calls
+
+102
+00:06:18,131 --> 00:06:19,450
+his lavish lifestyle.
+
+103
+00:06:20,410 --> 00:06:24,406
+According to prosecutors, that
+included a $6 million home,
+
+104
+00:06:24,416 --> 00:06:27,110
+luxury cars, and travel by private jet.
+
+105
+00:06:28,920 --> 00:06:32,645
+The SEC alleged one more
+detail. Around September 2017,
+
+106
+00:06:32,655 --> 00:06:37,058
+it said, Horwitz falsely told an
+investor group he was personally
+
+107
+00:06:37,068 --> 00:06:39,920
+investing in several notes alongside them.
+
+108
+00:06:40,200 --> 00:06:44,900
+According to the SEC, the money he put
+in had been taken from other investors.
+
+109
+00:06:45,360 --> 00:06:48,359
+When those notes paid out in March 2018,
+
+110
+00:06:48,369 --> 00:06:53,560
+the SEC alleged, the group paid him
+about $2.33 million as his share.
+
+111
+00:06:54,220 --> 00:06:58,792
+The SEC alleged he combined that
+money with other investor funds to
+
+112
+00:06:58,802 --> 00:07:01,880
+buy his home, for about
+$5.7 million in cash.
+
+113
+00:07:02,800 --> 00:07:06,130
+When a promoter says he is
+investing right alongside you,
+
+114
+00:07:06,140 --> 00:07:08,660
+treat it as a claim to check, not as proof.
+
+115
+00:07:10,540 --> 00:07:15,220
+Paying earlier investors with money from
+newer ones is the core of a Ponzi scheme.
+
+116
+00:07:16,100 --> 00:07:20,520
+The Justice Department called
+this a $650 million Ponzi scheme.
+
+117
+00:07:21,060 --> 00:07:24,792
+And the SEC alleged that those
+payments persuaded investors to buy
+
+118
+00:07:24,802 --> 00:07:27,240
+more notes, and to raise money from others.
+
+119
+00:07:28,080 --> 00:07:32,164
+That is the trap: on-time payments
+feel like proof the investment
+
+120
+00:07:32,174 --> 00:07:36,080
+works. In a Ponzi scheme, they
+are part of how it keeps going.
+
+121
+00:07:37,930 --> 00:07:40,999
+For more than five years,
+the Justice Department said,
+
+122
+00:07:41,009 --> 00:07:44,830
+he raised millions of dollars from
+investors on these false claims.
+
+123
+00:07:45,650 --> 00:07:50,525
+Then, beginning around December 2019,
+1inMM began defaulting on all of
+
+124
+00:07:50,535 --> 00:07:52,070
+its outstanding notes.
+
+125
+00:07:53,950 --> 00:07:57,967
+Prosecutors said investors started
+to complain after the company began
+
+126
+00:07:57,977 --> 00:07:59,070
+defaulting in 2019.
+
+127
+00:08:00,030 --> 00:08:03,943
+By the time of his plea agreement,
+the company was in default on about
+
+128
+00:08:03,953 --> 00:08:05,410
+$230 million in principal.
+
+129
+00:08:06,790 --> 00:08:10,288
+He admitted the scheme had caused
+substantial financial hardship to at
+
+130
+00:08:10,298 --> 00:08:11,350
+least five investors.
+
+131
+00:08:13,240 --> 00:08:16,958
+The plea agreement has a word
+for what came next. He acted,
+
+132
+00:08:16,968 --> 00:08:21,960
+it says, to lull the investors into
+believing their funds were safely invested.
+
+133
+00:08:22,840 --> 00:08:26,024
+Horwitz admitted he falsely
+reassured investors that the missed
+
+134
+00:08:26,034 --> 00:08:28,458
+payments were caused by
+the streaming platforms,
+
+135
+00:08:28,468 --> 00:08:30,040
+and that payments would resume.
+
+136
+00:08:30,840 --> 00:08:34,792
+He sent investors emails and text
+messages that he claimed came from
+
+137
+00:08:34,802 --> 00:08:37,239
+representatives of the platforms. In fact,
+
+138
+00:08:37,249 --> 00:08:41,026
+he admitted, he had not been in
+communication with the platforms,
+
+139
+00:08:41,036 --> 00:08:42,900
+and the correspondence was fake.
+
+140
+00:08:43,860 --> 00:08:47,942
+Prosecutors later said those messages
+used the identities of actual
+
+141
+00:08:47,952 --> 00:08:49,540
+HBO and Netflix employees.
+
+142
+00:08:50,440 --> 00:08:53,130
+He had been charged with
+aggravated identity theft,
+
+143
+00:08:53,140 --> 00:08:55,883
+but those counts were
+dismissed under his plea deal,
+
+144
+00:08:55,893 --> 00:08:57,640
+and he was not convicted of them.
+
+145
+00:08:57,790 --> 00:08:59,680
+HBO and Netflix were not accused
+of wrongdoing in these cases;
+
+146
+00:08:59,690 --> 00:09:01,590
+according to the SEC, neither
+company ever did business with 1inMM.
+
+147
+00:09:03,910 --> 00:09:08,687
+In March 2021, according to the
+SEC, he emailed some investors that
+
+148
+00:09:08,697 --> 00:09:12,270
+funds would be released
+by April 9, at the latest.
+
+149
+00:09:12,870 --> 00:09:16,633
+The same day, the SEC alleged, he
+suggested to a representative of
+
+150
+00:09:16,643 --> 00:09:20,521
+another investor group that investors
+could put up money for lawyers
+
+151
+00:09:20,531 --> 00:09:23,790
+in the company's alleged
+efforts to get payment from HBO.
+
+152
+00:09:25,190 --> 00:09:29,734
+In that email, according to the SEC,
+he labeled the option of sharing
+
+153
+00:09:29,744 --> 00:09:32,450
+that cost with investors highly doubtful.
+
+154
+00:09:33,250 --> 00:09:36,701
+Blaming a famous partner,
+setting a firm new date,
+
+155
+00:09:36,711 --> 00:09:40,301
+raising the idea of investors
+putting in more money:
+
+156
+00:09:40,311 --> 00:09:43,910
+each one is a reason to
+slow down, not to send more.
+
+157
+00:09:44,060 --> 00:09:45,950
+HBO and Netflix were not accused
+of wrongdoing in these cases;
+
+158
+00:09:45,960 --> 00:09:47,860
+according to the SEC, neither
+company ever did business with 1inMM.
+
+159
+00:09:50,270 --> 00:09:57,030
+On April 5, 2021, the SEC filed an
+emergency case against Horwitz and 1inMM.
+
+160
+00:09:57,270 --> 00:10:00,978
+The next day, the SEC announced
+that the court had granted an
+
+161
+00:10:00,988 --> 00:10:02,390
+emergency asset freeze.
+
+162
+00:10:03,310 --> 00:10:07,370
+That same day, April 6, FBI
+agents arrested Horwitz.
+
+163
+00:10:07,610 --> 00:10:12,045
+He was first charged with wire
+fraud. A grand jury then indicted him
+
+164
+00:10:12,055 --> 00:10:16,630
+on securities fraud, wire fraud and
+aggravated identity theft charges.
+
+165
+00:10:18,520 --> 00:10:23,510
+In October 2021, Horwitz pleaded guilty
+to one count of securities fraud.
+
+166
+00:10:23,520 --> 00:10:27,379
+In his plea agreement, he admitted
+that he was in fact guilty and
+
+167
+00:10:27,389 --> 00:10:31,427
+agreed to a statement of facts.
+That statement is the source of much
+
+168
+00:10:31,437 --> 00:10:33,640
+of what you have heard in this story.
+
+169
+00:10:34,100 --> 00:10:40,240
+On February 14, 2022, U.S. District
+Judge Mark C. Scarsi sentenced him
+
+170
+00:10:40,250 --> 00:10:43,940
+to 240 months in federal prison: 20 years.
+
+171
+00:10:44,400 --> 00:10:51,720
+The judge also ordered him to
+pay $230,361,884 in restitution.
+
+172
+00:10:52,520 --> 00:10:54,812
+The remaining charges, including wire fraud,
+
+173
+00:10:54,822 --> 00:10:57,008
+were dismissed on the government's motion,
+
+174
+00:10:57,018 --> 00:10:58,640
+as the plea agreement provided.
+
+175
+00:11:00,530 --> 00:11:03,827
+The SEC's civil case went
+on. In February 2024,
+
+176
+00:11:03,837 --> 00:11:08,259
+the court entered a final judgment
+against Horwitz based on his
+
+177
+00:11:08,269 --> 00:11:12,490
+consent; he waived findings of
+fact and any right to appeal.
+
+178
+00:11:13,230 --> 00:11:16,448
+That consent judgment permanently
+bars him from violating the
+
+179
+00:11:16,458 --> 00:11:19,210
+antifraud provisions of the
+federal securities laws.
+
+180
+00:11:19,790 --> 00:11:24,540
+The consent judgment also set
+disgorgement and interest of about $74.2
+
+181
+00:11:24,550 --> 00:11:28,630
+million, deemed satisfied by
+the criminal restitution order.
+
+182
+00:11:30,480 --> 00:11:34,074
+Before the sentencing, prosecutors
+wrote that Horwitz portrayed
+
+183
+00:11:34,084 --> 00:11:36,200
+himself as a Hollywood success story.
+
+184
+00:11:36,940 --> 00:11:41,198
+But, they wrote, he was not a
+successful businessman or Hollywood
+
+185
+00:11:41,208 --> 00:11:43,900
+insider. He just played one in real life.
+
+186
+00:11:44,880 --> 00:11:48,292
+Prosecutors also called it the
+largest known Ponzi scheme in the
+
+187
+00:11:48,302 --> 00:11:50,120
+history of their federal district.
+
+188
+00:11:51,940 --> 00:11:55,462
+So what can you take from
+this case? Three lessons,
+
+189
+00:11:55,472 --> 00:11:57,480
+five red flags, and one rule.
+
+190
+00:11:58,380 --> 00:12:02,248
+Lesson one: turn a short-term
+return into a yearly rate;
+
+191
+00:12:02,258 --> 00:12:06,749
+a 6-month note listed in the SEC's
+complaint promised 35 percent,
+
+192
+00:12:06,759 --> 00:12:08,560
+roughly 70 percent a year.
+
+193
+00:12:09,460 --> 00:12:13,025
+Lesson two: steady payments do
+not prove an investment is real;
+
+194
+00:12:13,035 --> 00:12:16,826
+in a Ponzi scheme, which is what
+the Justice Department called this
+
+195
+00:12:16,836 --> 00:12:19,560
+case, they are paid with
+other investors' money.
+
+196
+00:12:20,300 --> 00:12:24,053
+Lesson three: know who is on
+the other side of your contract;
+
+197
+00:12:24,063 --> 00:12:27,580
+the sub-investors here had no
+direct contract with 1inMM.
+
+198
+00:12:29,000 --> 00:12:33,048
+Red flag one: high, fixed
+returns on a short clock,
+
+199
+00:12:33,058 --> 00:12:36,240
+like 25 to 45 percent in 6 or 12 months.
+
+200
+00:12:37,080 --> 00:12:39,951
+Two: a famous partner you
+cannot verify yourself,
+
+201
+00:12:39,961 --> 00:12:42,960
+like the streaming platforms
+he named to investors.
+
+202
+00:12:44,020 --> 00:12:46,691
+Three: all the proof comes from the seller;
+
+203
+00:12:46,701 --> 00:12:51,440
+here the notes, the collateral papers
+and the deal papers all came from him.
+
+204
+00:12:52,380 --> 00:12:55,680
+Four: an unregistered offer
+that travels through friends;
+
+205
+00:12:55,690 --> 00:12:59,630
+the SEC alleged that neither 1inMM
+nor its securities offerings were
+
+206
+00:12:59,640 --> 00:13:01,440
+registered with the Commission.
+
+207
+00:13:02,520 --> 00:13:04,947
+Five: missed payments
+blamed on someone else;
+
+208
+00:13:04,957 --> 00:13:08,522
+he admitted falsely blaming the
+streaming platforms for the missed
+
+209
+00:13:08,532 --> 00:13:11,240
+payments, and claiming
+that payments would resume.
+
+210
+00:13:12,200 --> 00:13:16,113
+And one rule under all of it: verify
+independently before any money
+
+211
+00:13:16,123 --> 00:13:20,280
+moves, including money to rescue an
+investment that has stopped paying.
+
+212
+00:13:20,980 --> 00:13:24,978
+To check a seller, look them up on
+FINRA's BrokerCheck or the SEC's
+
+213
+00:13:24,988 --> 00:13:27,680
+Investment Adviser Public
+Disclosure website.
+
+214
+00:13:28,320 --> 00:13:32,980
+To report suspected investment
+fraud, submit a tip at sec.gov;
+
+215
+00:13:32,990 --> 00:13:36,671
+to report a scam to the
+Federal Trade Commission,
+
+216
+00:13:36,681 --> 00:13:38,640
+go to ReportFraud.ftc.gov.
+
+217
+00:13:39,420 --> 00:13:42,427
+The case facts in this story
+come from public court and agency
+
+218
+00:13:42,437 --> 00:13:44,140
+records, listed in the description.
+

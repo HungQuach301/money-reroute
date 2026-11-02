@@ -184,3 +184,7 @@ Nhánh `ccr-93d57c5c-q2ib0q`: preflight ĐẠT; 0 email; sổ **7,4795 USD** / t
 Nhánh `claude/short-doc-1inmm-horwitz-4pnmgb`: preflight ĐẠT; 0 email; 0 USD (budget.py không đổi). `reports/mrsh1/xem/short1.mp4` 1080×1920, 55,0 s, −14,0 LUFS.
 - Điều phối xem tờ 0,5 s: lời P01 nguyên văn (S008 KBCB đọc + thẻ); người vest tối chỉ lưng/gáy; đồ hoạ dọc 25–45 %, "FAKE — admitted", $650,000,000+, 20 YEARS; L3 N7 tr. 11 khoanh "were fake"; phụ đề trong vùng an toàn; thẻ cuối 3 s.
 - **Tiêu đề:** phiên bắt đúng hai lỗi trong đề xuất của điều phối — S1 "He Sold Fake Netflix Deals…" (tên thương hiệu không kèm câu KBCB trên bảng tin; "sold deals" lệch hồ sơ: thứ bán là kỳ phiếu) và S3 "45% in 6 Months?" (hồ sơ không ghép 45 % với 6 tháng). Điều phối nhận lỗi, khuyến nghị **S2 "An Actor's $650 Million Film-Deal Lie"**; luật mới: tiêu đề Short qua cùng kiểm tầng/8e như tập dài.
+
+## Phụ đề tập 1 · 02/11/2026 18:20 (giờ Hà Nội) · Điều phối tạo `phat-hanh/tap01_en.srt`
+- Chủ dự án hỏi tệp phụ đề tập 1 — chưa có (MR-6 không sinh). Điều phối tạo (0 USD) bằng `scripts/dieu-phoi/srt_tap01.py`: chữ = `loi.json` đã duyệt (số đổi sang chữ số, "1inMM", "sec.gov"; không đổi nội dung), mốc = `reports/mr6/moc_cau.json` (whisper giọng thật, dòng thời gian bản dựng MR-6, đã gồm 4 khe thẻ KBCB). 218 cụm, ≤ 2 dòng × 44 ký tự, ≥ 0,8 s/cụm; 4 thẻ KBCB chỉ chữ cũng có phụ đề trong khe 4 s.
+- Từ tập 2: phiên dựng sinh tệp .srt trong gói phát hành (thêm vào lệnh M-d).
