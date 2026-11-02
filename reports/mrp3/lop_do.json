@@ -1,0 +1,287 @@
+{
+ "tranh": {
+  "a01": {
+   "ma": "a01",
+   "lop": 3,
+   "nguong": [
+    0.219,
+    0.57
+   ],
+   "phan_tram_giua_gan": 33.7,
+   "phan_tram_gan": 10.8
+  },
+  "b064": {
+   "ma": "b064",
+   "lop": 3,
+   "nguong": [
+    0.321,
+    0.695
+   ],
+   "phan_tram_giua_gan": 43.9,
+   "phan_tram_gan": 19.1
+  },
+  "a03": {
+   "ma": "a03",
+   "lop": 3,
+   "nguong": [
+    0.291,
+    0.683
+   ],
+   "phan_tram_giua_gan": 19.8,
+   "phan_tram_gan": 7.4
+  },
+  "b065": {
+   "ma": "b065",
+   "lop": 3,
+   "nguong": [
+    0.208,
+    0.545
+   ],
+   "phan_tram_giua_gan": 44.8,
+   "phan_tram_gan": 15.3
+  },
+  "a02": {
+   "ma": "a02",
+   "lop": 3,
+   "nguong": [
+    0.261,
+    0.655
+   ],
+   "phan_tram_giua_gan": 65.2,
+   "phan_tram_gan": 30.8
+  },
+  "a04": {
+   "ma": "a04",
+   "lop": 3,
+   "nguong": [
+    0.219,
+    0.575
+   ],
+   "phan_tram_giua_gan": 33.4,
+   "phan_tram_gan": 10.3
+  },
+  "a05": {
+   "ma": "a05",
+   "lop": 3,
+   "nguong": [
+    0.249,
+    0.602
+   ],
+   "phan_tram_giua_gan": 54.3,
+   "phan_tram_gan": 21.8
+  },
+  "b066": {
+   "ma": "b066",
+   "lop": 3,
+   "nguong": [
+    0.315,
+    0.646
+   ],
+   "phan_tram_giua_gan": 64.2,
+   "phan_tram_gan": 30.2
+  },
+  "a07": {
+   "ma": "a07",
+   "lop": 3,
+   "nguong": [
+    0.279,
+    0.645
+   ],
+   "phan_tram_giua_gan": 29.5,
+   "phan_tram_gan": 12.8
+  },
+  "b001": {
+   "ma": "b001",
+   "lop": 3,
+   "nguong": [
+    0.219,
+    0.53
+   ],
+   "phan_tram_giua_gan": 52.2,
+   "phan_tram_gan": 11.4
+  },
+  "b067": {
+   "ma": "b067",
+   "lop": 3,
+   "nguong": [
+    0.299,
+    0.655
+   ],
+   "phan_tram_giua_gan": 38.6,
+   "phan_tram_gan": 14.4
+  },
+  "b062": {
+   "ma": "b062",
+   "lop": 3,
+   "nguong": [
+    0.233,
+    0.592
+   ],
+   "phan_tram_giua_gan": 37.3,
+   "phan_tram_gan": 13.1
+  },
+  "b002": {
+   "ma": "b002",
+   "lop": 3,
+   "nguong": [
+    0.282,
+    0.652
+   ],
+   "phan_tram_giua_gan": 64.9,
+   "phan_tram_gan": 22.1
+  },
+  "a09": {
+   "ma": "a09",
+   "lop": 3,
+   "nguong": [
+    0.313,
+    0.679
+   ],
+   "phan_tram_giua_gan": 67.3,
+   "phan_tram_gan": 28.6
+  },
+  "b070": {
+   "ma": "b070",
+   "lop": 3,
+   "nguong": [
+    0.339,
+    0.694
+   ],
+   "phan_tram_giua_gan": 68.0,
+   "phan_tram_gan": 39.0
+  },
+  "a10": {
+   "ma": "a10",
+   "lop": 3,
+   "nguong": [
+    0.205,
+    0.629
+   ],
+   "phan_tram_giua_gan": 30.3,
+   "phan_tram_gan": 3.7
+  },
+  "b003": {
+   "ma": "b003",
+   "lop": 3,
+   "nguong": [
+    0.354,
+    0.657
+   ],
+   "phan_tram_giua_gan": 75.3,
+   "phan_tram_gan": 38.0
+  },
+  "a15": {
+   "ma": "a15",
+   "lop": 3,
+   "nguong": [
+    0.24,
+    0.568
+   ],
+   "phan_tram_giua_gan": 43.4,
+   "phan_tram_gan": 19.6
+  },
+  "b074": {
+   "ma": "b074",
+   "lop": 3,
+   "nguong": [
+    0.323,
+    0.695
+   ],
+   "phan_tram_giua_gan": 39.9,
+   "phan_tram_gan": 13.3
+  },
+  "a12": {
+   "ma": "a12",
+   "lop": 3,
+   "nguong": [
+    0.244,
+    0.584
+   ],
+   "phan_tram_giua_gan": 82.8,
+   "phan_tram_gan": 22.0
+  },
+  "b063": {
+   "ma": "b063",
+   "lop": 3,
+   "nguong": [
+    0.25,
+    0.653
+   ],
+   "phan_tram_giua_gan": 38.2,
+   "phan_tram_gan": 11.2
+  },
+  "b040": {
+   "ma": "b040",
+   "lop": 3,
+   "nguong": [
+    0.199,
+    0.566
+   ],
+   "phan_tram_giua_gan": 43.8,
+   "phan_tram_gan": 19.9
+  },
+  "b141": {
+   "ma": "b141",
+   "lop": 3,
+   "nguong": [
+    0.292,
+    0.601
+   ],
+   "phan_tram_giua_gan": 68.0,
+   "phan_tram_gan": 29.8
+  },
+  "b051": {
+   "ma": "b051",
+   "lop": 3,
+   "nguong": [
+    0.205,
+    0.56
+   ],
+   "phan_tram_giua_gan": 37.7,
+   "phan_tram_gan": 12.4
+  },
+  "b116": {
+   "ma": "b116",
+   "lop": 3,
+   "nguong": [
+    0.247,
+    0.67
+   ],
+   "phan_tram_giua_gan": 33.1,
+   "phan_tram_gan": 5.1
+  },
+  "b052": {
+   "ma": "b052",
+   "lop": 3,
+   "nguong": [
+    0.367,
+    0.682
+   ],
+   "phan_tram_giua_gan": 62.4,
+   "phan_tram_gan": 32.7
+  },
+  "b118": {
+   "ma": "b118",
+   "lop": 3,
+   "nguong": [
+    0.306,
+    0.625
+   ],
+   "phan_tram_giua_gan": 72.1,
+   "phan_tram_gan": 32.0
+  },
+  "b053": {
+   "ma": "b053",
+   "lop": 3,
+   "nguong": [
+    0.184,
+    0.519
+   ],
+   "phan_tram_giua_gan": 42.7,
+   "phan_tram_gan": 15.8
+  }
+ },
+ "model": "depth-anything-v2-small (onnx-community, rev 4472b73)",
+ "sha256": "afb6a5c28f3b6bf1618c6e43f02073ef9dfdc70e937502d51603e57b0a1df10c",
+ "giay_moi_tranh": 4.8
+}

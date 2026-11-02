@@ -1,0 +1,137 @@
+{
+ "_ghi_chu": "MR-P3 · Tải tiếng động CC0 từ BigSoundBank (0 USD). CHỈ nhận tệp mà TRANG CỦA CHÍNH TỆP ghi \"License CC0 (public domain)\";\ngiấy phép khác/không rõ → bỏ, ghi lý do. Ghi nguồn + giấy phép + sha256 từng tệp vào reports/mrp3/am/cc0.json.\nTệp âm ở scratch (dựng lại được từ URL, 0 USD → không đẩy). UA mặc định của urllib; không vượt rào (403/429 → ghi \"chưa mở được\").\n  MRP3_TMP=… python3 scripts/mrp3/cc0.py",
+ "trang_giay_phep_chung": "https://www.bigsoundbank.com/licenses.html",
+ "tep": {
+  "rung_dt": {
+   "url_trang": "https://www.bigsoundbank.com/mobile-phone-vibrator-1-s0022.html",
+   "url_tep": "https://www.bigsoundbank.com/UPLOAD/mp3/0022.mp3",
+   "tieu_de": "Mobile phone vibrator #1 — Free Sound Effect Download | BigSoundBank",
+   "giay_phep_tren_trang": "License CC0 (public domain): Free and royalty-free",
+   "dung_cho": "S001 điện thoại rung trên bàn",
+   "sha256": "4d6c8b87974f0908e1b19c93bb875a50803218a7d40ae310cb4e5772b11b8cd0",
+   "byte": 80458,
+   "tai_luc": "2026-11-02T16:46:08Z"
+  },
+  "bao_tin": {
+   "url_trang": "https://www.bigsoundbank.com/notification-lasolisa-1-s2063.html",
+   "url_tep": "https://www.bigsoundbank.com/UPLOAD/mp3/2063.mp3",
+   "tieu_de": "Notification, \"LaSoLisa\" #1 — Free Sound Effect Download | BigSoundBank",
+   "giay_phep_tren_trang": "License CC0 (public domain): Free and royalty-free",
+   "dung_cho": "S001/S002 tiếng báo tin nhắn (bong bóng chữ)",
+   "sha256": "df013531f19461b8897a1c633df3de5d5c69bf1da6ad6e6ecb094257d01a4057",
+   "byte": 19428,
+   "tai_luc": "2026-11-02T16:46:10Z"
+  },
+  "tu_lanh": {
+   "url_trang": "https://www.bigsoundbank.com/fridge-s1157.html",
+   "url_tep": "https://www.bigsoundbank.com/UPLOAD/mp3/1157.mp3",
+   "tieu_de": "Fridge — Free Download WAV & MP3 | BigSoundBank",
+   "giay_phep_tren_trang": "License CC0 (public domain): Free and royalty-free",
+   "dung_cho": "P00 tiếng nền bếp (tủ lạnh ù)",
+   "sha256": "691d5afd87c50fa44025730e29709ce1c4b29565c0f7ce6b4d318f4932b309d6",
+   "byte": 1439268,
+   "tai_luc": "2026-11-02T16:46:13Z"
+  },
+  "mua_kinh": {
+   "url_trang": "https://www.bigsoundbank.com/night-after-rain-s0621.html",
+   "url_tep": "https://www.bigsoundbank.com/UPLOAD/mp3/0621.mp3",
+   "tieu_de": "Night after rain — Free Download WAV & MP3 | BigSoundBank",
+   "giay_phep_tren_trang": "License CC0 (public domain): Free and royalty-free",
+   "dung_cho": "P00 tiếng nền đêm sau mưa (a03 mưa trên kính)",
+   "sha256": "0842fc05bb6b164e795334d9619dc00263f1695e3d5399dbc36c8ef75303ffc6",
+   "byte": 2686208,
+   "tai_luc": "2026-11-02T16:46:16Z"
+  },
+  "lat_trang": {
+   "url_trang": "https://www.bigsoundbank.com/great-page-that-turns-1-s0362.html",
+   "url_tep": "https://www.bigsoundbank.com/UPLOAD/mp3/0362.mp3",
+   "tieu_de": "Great Page that Turns #1 — Free Download WAV & MP3 | BigSoundBank",
+   "giay_phep_tren_trang": "License CC0 (public domain): Free and royalty-free",
+   "dung_cho": "L3 trang hồ sơ hiện ra",
+   "sha256": "d42aa9192534d34f478c3a5bcbdab955e8a86cad2f04528192a3cfe63c38da4b",
+   "byte": 73270,
+   "tai_luc": "2026-11-02T16:46:18Z"
+  },
+  "bua": {
+   "url_trang": "https://www.bigsoundbank.com/gavel-1-blow-s1588.html",
+   "url_tep": "https://www.bigsoundbank.com/UPLOAD/mp3/1588.mp3",
+   "tieu_de": "Gavel, 1 blow — Free Download WAV & MP3 | BigSoundBank",
+   "giay_phep_tren_trang": "License CC0 (public domain): Free and royalty-free",
+   "dung_cho": "S010 tuyên án 20 năm",
+   "sha256": "2781f1bf8d9f2b2ade243ea1044686cf8790eafcb55b2501762ea700a7227ec4",
+   "byte": 15588,
+   "tai_luc": "2026-11-02T16:46:21Z"
+  },
+  "dong_ho": {
+   "url_trang": "https://www.bigsoundbank.com/clock-s0007.html",
+   "url_tep": "https://www.bigsoundbank.com/UPLOAD/mp3/0007.mp3",
+   "tieu_de": "Clock — Free Download WAV & MP3 | BigSoundBank",
+   "giay_phep_tren_trang": "License CC0 (public domain): Free and royalty-free",
+   "dung_cho": "S073 đếm ngược tới 9/4",
+   "sha256": "86d8c2af45b11f2abc7ba09acd060d02665e52cebeca162dfde478fcf1c86458",
+   "byte": 110865,
+   "tai_luc": "2026-11-02T16:46:24Z"
+  },
+  "tim": {
+   "url_trang": "https://www.bigsoundbank.com/heartbeat-1-s0243.html",
+   "url_tep": "https://www.bigsoundbank.com/UPLOAD/mp3/0243.mp3",
+   "tieu_de": "Heartbeat #1 — Free Download WAV & MP3 | BigSoundBank",
+   "giay_phep_tren_trang": "License CC0 (public domain): Free and royalty-free",
+   "dung_cho": "S073–S079 nhịp tim trầm dưới đếm ngược",
+   "sha256": "2fb07dbf8b9027686cd3e1553dd9dd8befc17be34cea55c8dcd91747a2fef8f3",
+   "byte": 35553,
+   "tai_luc": "2026-11-02T16:46:26Z"
+  },
+  "vut": {
+   "url_trang": "https://www.bigsoundbank.com/whoosh-2-s0573.html",
+   "url_tep": "https://www.bigsoundbank.com/UPLOAD/mp3/0573.mp3",
+   "tieu_de": "Whoosh #2 — Free Download WAV & MP3 | BigSoundBank",
+   "giay_phep_tren_trang": "License CC0 (public domain): Free and royalty-free",
+   "dung_cho": "chuyển cảnh lớn / thẻ",
+   "sha256": "4b96c67966cb3bdc21c679094fb43aaf053ae64c503f65ceea122278d6007584",
+   "byte": 494528,
+   "tai_luc": "2026-11-02T16:46:29Z"
+  },
+  "khoa": {
+   "url_trang": "https://www.bigsoundbank.com/lock-s0191.html",
+   "url_tep": "https://www.bigsoundbank.com/UPLOAD/mp3/0191.mp3",
+   "tieu_de": "Lock — Free Sound Effect Download | BigSoundBank",
+   "giay_phep_tren_trang": "License CC0 (public domain): Free and royalty-free",
+   "dung_cho": "S079 phong toả tài sản (cửa két khoá)",
+   "sha256": "d40044fdfe8f621d883b191593066d544451e4c639dc5edb8b88d16e89f4958a",
+   "byte": 204081,
+   "tai_luc": "2026-11-02T16:46:31Z"
+  },
+  "no_xa": {
+   "url_trang": "https://www.bigsoundbank.com/explosion-far-away-s1023.html",
+   "url_tep": "https://www.bigsoundbank.com/UPLOAD/mp3/1023.mp3",
+   "tieu_de": "Explosion far Away #1 — Free Download WAV & MP3 | BigSoundBank",
+   "giay_phep_tren_trang": "License CC0 (public domain): Free and royalty-free",
+   "dung_cho": "cú lật S003/S080: nền trầm (lọc thấp, rất nhỏ)",
+   "sha256": "bb688dcc913c630ac7f0c22f3065954a9627af32fba902a957c3a251e6ad3c94",
+   "byte": 184548,
+   "tai_luc": "2026-11-02T16:46:34Z"
+  },
+  "pho_dem": {
+   "url_trang": "https://www.bigsoundbank.com/paris-by-night-s0680.html",
+   "url_tep": "https://www.bigsoundbank.com/UPLOAD/mp3/0680.mp3",
+   "tieu_de": "Paris by Night — Free Download WAV & MP3 | BigSoundBank",
+   "giay_phep_tren_trang": "License CC0 (public domain): Free and royalty-free",
+   "dung_cho": "S011 thành phố (K2)",
+   "sha256": "3acef3f248c8a8af23c6fef1b31d18000fcd77a14ca952f35ff2d233ac7c307c",
+   "byte": 3236288,
+   "tai_luc": "2026-11-02T16:46:36Z"
+  },
+  "go_phim": {
+   "url_trang": "https://www.bigsoundbank.com/slow-keyboard-s1733.html",
+   "url_tep": "https://www.bigsoundbank.com/UPLOAD/mp3/1733.mp3",
+   "tieu_de": "Slow Keyboard — Free Sound Effect Download | BigSoundBank",
+   "giay_phep_tren_trang": "License CC0 (public domain): Free and royalty-free",
+   "dung_cho": "S068 gõ thư trấn an (nền)",
+   "sha256": "82ed39702ec903dec14249a57b84428465fce3bc2d9c74b8e5f6531178685fa2",
+   "byte": 1578468,
+   "tai_luc": "2026-11-02T16:46:39Z"
+  }
+ },
+ "bo": {}
+}
