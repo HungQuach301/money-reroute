@@ -151,3 +151,10 @@ Cả ba nhánh: preflight `--range` ĐẠT; 0 dòng email trong lịch sử.
 ## MR-P1 · 02/11/2026 08:59 (giờ Hà Nội) · Chủ dự án: chọn PA-A (thử phong cách trước), phát MR-P1
 - MR-P1: 60 s mở đầu tập 1 (P00–P03), hai biến thể minh hoạ (A bán hiện thực tông tối; B phẳng theo B1) + lớp trang hồ sơ thật; trần OpenRouter 2,00 USD.
 - MR-6, MR-7 tiếp tục tạm giữ tới khi chủ dự án chọn phong cách sau MR-P1. Lời tập 2, 3 và dàn truyện tập 4 vẫn chờ duyệt (không phụ thuộc phong cách).
+
+## MR-P1 · 02/11/2026 10:10 (giờ Hà Nội) · Điều phối rà MR-P1 — merge
+Nhánh `claude/mrp1-illustration-episode-1-8n4p6c` @ `39a02f9`: preflight ĐẠT; 0 email; sổ 1,6319 USD / trần 2,00 (42 lượt ảnh, chỉ `openrouter_usd`).
+- Giá thật Nano Banana 2.1 (16:9, 1K): **0,0389 USD/tranh**; sinh lại 5 %. Dự phóng ảnh cả tập 1: 6,0 / **7,8** / 12,7 USD (mật độ thấp/giữa/cao).
+- Điều phối xem tờ 1 s A và B: người thật (Horwitz) chỉ dạng bóng/lưng (có nhãn tên trên bóng — đạt §4); nhân vật đại diện (nhà đầu tư) có mặt cách điệu, tự nghĩ ra, nhãn ILLUSTRATIVE; không chữ/logo trong tranh; 2 crop hồ sơ thật giữ nguyên dạng, khoanh câu, dòng nguồn. Không biếm hoạ sắc tộc.
+- Quan sát: thẻ chữ B1 sáng chiếm ~44 % thời lượng, nhiều thẻ giữ 5–7 s (thẻ KBCB) → nhịp chậm hơn video tham chiếu; ở A, thẻ ngà chen giữa tranh tối gây lệch.
+- Quỹ chung: thêm **1,00 USD** chi ngoài khoá MR (02:15–02:26 UTC) — lần thứ hai (MR-4 ≈ 4,00) → chờ chủ dự án đối chiếu.
