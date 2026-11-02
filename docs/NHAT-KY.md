@@ -136,3 +136,9 @@ Nhánh `claude/lucid-goldberg-vcpyv1` @ `ca3c7cb` (từ `6296c0e`). Kiểm độ
 ## MR-5 / MR-K23 / MR-D4 · 02/11/2026 06:55 (giờ Hà Nội) · Chủ dự án: duyệt giọng tập 1; ba phiên đang chạy
 - **Giọng đọc tập 1 ĐẠT** (chủ dự án nghe bản ghép `reports/mr4/xem/tap01_giong_ghep.mp4`, gồm "Horwitz" ở P19 mốc 10:42) → dùng bản đã chọn ở MR-4 (P01_l2, còn lại bản 1); không thu lại.
 - MR-5 (Veo + nhạc tập 1), MR-K23 (kịch bản tập 2 + 3), MR-D4 (dàn truyện tập 4) chạy song song.
+
+## MR-5 + MR-K23 + MR-D4 · 02/11/2026 07:55 (giờ Hà Nội) · Điều phối rà — merge cả ba
+Cả ba nhánh: preflight `--range` ĐẠT; 0 dòng email trong lịch sử.
+**MR-5** (`ccr-af44ed0c-12rbdy`): sổ `calls.jsonl` OpenRouter **8,00 USD** / trần 8,30; ElevenLabs **3.245** / 6.000; chi phiên khác 0 trong cửa sổ phiên. Điều phối xem tờ 1 s 16 clip chọn (`reports/mr5/xem/to1s.jpg`): không mặt, không chữ đọc được, không logo; người chỉ ở dạng bóng (V06), tay (V07, V14, V16). Ghi chú nhỏ: chữ khắc giả trên chìa (V11) không đọc được ở 1080p → làm mờ ở M-d nếu thấy rõ khi phóng. Clip chọn `reports/mr5/veo/chon.json`. **Tập 1 M-c xong: Veo 9,20 USD (trần 9,50) + ElevenLabs 9.354 ký tự (trần 16.000).** Số dư OpenRouter sau: 17,65 USD. Còn mở: chủ dự án nghe nhạc `reports/mr5/xem/nhac.mp4`.
+**MR-K23** (`claude/mr-k23-tap-2-3-3zvw9l`): chạy lại `scripts/mrk23/loi_md.py` hai tập → `loi: []` (K1–K8 + KA–KD đạt). HGLOBAL đọc đúng 1 lần (S028) + câu ◐ ngay sau (S029). Sunmola: đúng 1 câu ảnh riêng tư, thẻ chữ (S033, doc=false). Không từ cấm. Tập 2 ≈ 13:41, tập 3 ≈ 13:12.
+**MR-D4** (`claude/theranos-holmes-tap-4-fmz9li`): N1 (CA9) đối chiếu: "convicted Holmes of four investor-related counts", "acquitted Holmes on the patient-related counts", "hung" ba tội nhà đầu tư, 135 tháng — khớp dàn truyện. 12 vòng kiểm độc lập.
