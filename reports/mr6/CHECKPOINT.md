@@ -9,3 +9,15 @@
 - Dựng (0 USD): `git lfs pull --include "lab/mr6/**,lab/mrp1/A/**,lab/mr4/tts/**,lab/mr5/nhac/**,lab/mr5/veo/V1[013]_l2.mp4,lab/mr4/veo/V12_l1.mp4,ho-so/1inmm-horwitz/*.pdf"` rồi `python3 scripts/mr6/dung.py` (~15–20 phút, 4 tiến trình).
 - Kiểm: `python3 scripts/mr6/doi_chieu_chu.py` (chữ trên hình ↔ nguồn), `scripts/common/quet_v8.py` trên clip Veo, tờ 1 s.
 - Mở nguồn: `MR_UA="<UA khai báo do lệnh cấp>" python3 scripts/mr6/mo_nguon.py` (UA chỉ trong header, không ghi repo).
+
+## Trạng thái: **MR-6 DỪNG ở cuối mốc — chờ rà + G2.** Không còn lượt trả tiền nào; chi 7,4795 / 10,00 USD (khớp khoá). Mọi tệp tốn tiền đã đẩy LFS.
+
+## Đã xong (UTC, 02/11/2026)
+| Giờ | Việc | Tệp |
+|---|---|---|
+| 03:26 | Trần mr6, số dư trước, mốc câu whisper | `reports/mr6/so_du_truoc.json`, `moc_cau.json` |
+| 03:30–04:10 | 150 tranh L1 (19 lô LFS) | `lab/mr6/anh/` |
+| 03:33–03:49 | Veo ảnh→video: K2, K3 l2, K4, K5 đạt sinh; K1 ×2, K3 l1 failed | `lab/mr6/veo/` |
+| 03:51 | Mở lại N2/N3/N18, trạng thái vụ | `docs/tap01-1inmm/kiem/mr6_nguon.json` |
+| 04:11 | Số dư sau + đối soát | `reports/mr6/so_du_sau.json` |
+| 04:12–05:40 | Dựng, tờ 1 s, đối chiếu chữ, kiểm pháp lý lần 2 + 2 vòng sửa | `lab/mr6/dung/`, `reports/mr6/xem/`, `docs/tap01-1inmm/kiem/mr6_phap_ly_lan2.md` |

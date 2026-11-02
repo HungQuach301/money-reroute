@@ -1,7 +1,7 @@
 # BẢNG SHOT 2 — Tập 1 · 1inMM / Horwitz (`tap01-1inmm`) · phong cách PHONG-CACH-HINH v1
 
 > MR-6 · 02/11/2026. **Thay `SHOT.md`** (giữ làm lịch sử) cho phần hình; lời, giọng, nhạc giữ nguyên (đã duyệt). Bảng **sinh máy** bằng `python3 scripts/mr6/shot2.py` từ dữ liệu trong tệp đó; mốc = whisper giọng thật (`reports/mr6/moc_cau.json`, `scripts/mr6/moc_cau.py`).
-> Tổng 15:32.0 · 267 cảnh · L1 tranh 192 cảnh (516.2 s, TB 2.69 s/cảnh) từ **167 tranh** (148 mới MR-6 + 19 MR-P1) · Veo ảnh→video 3 cảnh (16.9 s) · clip tả thực cũ 4 (13.9 s) · L2 54 cảnh (262.0 s) · L3 14 cảnh (63.0 s).
+> Tổng 15:32.0 · 267 cảnh · L1 tranh 192 cảnh (516.2 s, TB 2.69 s/cảnh) từ **166 tranh** (148 mới MR-6 + 18 MR-P1) · Veo ảnh→video 3 cảnh (16.9 s) · clip tả thực cũ 4 (13.9 s) · L2 54 cảnh (262.0 s) · L3 14 cảnh (63.0 s).
 > Khe không lời 4 s cho 4 thẻ KBCB chỉ chữ (S019, S033, S072, S076) — thẻ nền tối chồng lên tranh (PHONG-CACH-HINH §1). Cảnh đổi 0,35 s trước tiếng.
 > Luật áp mọi cảnh: HIEN-CHUONG §4–§5; PHONG-CACH-HINH §1–§5; nhãn tầng + nguồn lớp tĩnh góc dưới theo `loi.json`; nhãn ILLUSTRATIVE ở cảnh tranh đầu mỗi đoạn; không chữ trên hình ngoài lời đã duyệt, số liệu hồ sơ, nhãn, nguồn (máy đối chiếu: `scripts/mr6/doi_chieu_chu.py`).
 > L3 không dùng các trang/dòng cấm của `SHOT.md` (N8 tr. 1, tr. 3; N1 tr. 6 bảng ¶25; N7 tr. 12 dòng 23–28; N22 tr. 1; N22 tr. 6 dòng 10).
@@ -24,7 +24,7 @@
 | S012 (P02) | ●T | 71.9–81.7 | L1 `a14` 2.4 · L1 `b004` 2.4 · L1 `b142` 2.4 · L1 `b005` 2.4 | ten: 1inMM Capital, LLC |
 | S013 (P02) | NB | 81.7–86.4 | L1 `b006` 2.3 · L1 `b068` 2.3 | ten: 1inMM (“one in a million”) Capital, LLC |
 | S014 (P02) | ◐ | 86.4–91.8 | L1 `a16` 2.7 · L1 `b071` 2.7 | ten: Sole manager |
-| S015 (P03) | ●T | 91.8–100.1 | L1 `a17` 2.4 · L1 `b072` 2.4 · L2 `G03` 3.5 |  |
+| S015 (P03) | ●T | 91.8–100.1 | L1 `a08` 2.4 · L1 `b072` 2.4 · L2 `G03` 3.5 |  |
 | S016 (P03) | ●T | 100.1–110.7 | L2 `G03` 4.8 · L1 `a19` 1.9 · L1 `b118` 1.9 · L1 `b069` 1.9 |  |
 | S017 (P03) | ●T | 110.7–114.0 | L2 `G03` 3.3 |  |
 | S018 (P03) | ◐ | 114.0–125.1 | L1 `b073` 3.7 · L3 `T02` 7.4 |  |

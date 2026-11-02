@@ -18,4 +18,8 @@
 | 11–20 | Ghi chú | | ◐ mất glyph (G08) · chữ đè (G11, G15, G18) · "typically" ($35,000–$1.5M) · S052 phần "$6 million home, luxury cars" theo N12 **không xác minh được offline** (N12 không lưu bản) · dáng xe b029 · T14 kèm câu ngoài lời (trang thật, có nhãn) · dòng khai AI "above/below" · thẻ bài học diễn đạt lại · S082 bỏ N8 | ◐ vẽ bằng DejaVu; dàn lại vị trí; thêm "typically"; dòng khai AI đặt **trên** danh sách nguồn, nguyên văn §6 ("listed below"); thẻ bài học S049, S061 dùng **nguyên văn lời**; S082 nay có Judgment p. 1. **S052 đã xác minh** (MR-6, 02/11 ~05:05 UTC, API DOJ `press_releases.json`, HTTP 200, số 22-027): "the purchase of his $6 million Beverlywood residence, luxury cars, and travel by private jet, according to the government’s sentencing memorandum" — thẻ "A $6 million home · luxury cars · private jet travel / according to prosecutors" khớp, không nêu tên khu phố |
 
 ## Kiểm lại sau vòng sửa 1
-{KIEM_LAI}
+Cùng tác tử độc lập kiểm lại bản dựng vòng 1 (23 khung tại các mốc đã nêu + 17 khung trích thêm, diff sổ chữ): **ĐẠT kiểm pháp lý lần 2.**
+- #1 (CHẶN) **đã sửa** — cả 5 đoạn P05, P08, P12, P15, P16 có "ILLUSTRATIVE — not the real person" ở cảnh có người đầu tiên (b010, b091, b034, b041, b046); clip K3 (P15) không có người.
+- #2–#9 **đã sửa**, không lỗi mới trái hiến chương; ghi chú 11–20 đã xử lý.
+- #10 sửa một phần (a17 cắt hẹp vẫn lộ má/tai ~2 s ở S015) → **vòng sửa 2**: thay a17 bằng a08 (chỉ tay + tay áo, không mặt) ở S015; a17 không còn dùng trong phim.
+- Ghi chú còn mở (không chặn): bộ đếm lướt qua số trung gian ~1 s trước khi dừng ở số hồ sơ.

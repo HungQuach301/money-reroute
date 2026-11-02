@@ -8,12 +8,12 @@
 |---|---|
 | Bản xem | **`reports/mr6/xem/tap01_540p.mp4`** (960×540, 14:32) · bản cuối 1080p `lab/mr6/dung/tap01_1080p.mp4` (LFS) · tờ 1 s `reports/mr6/xem/to1s_1…4.jpg` |
 | Bảng shot mới | `docs/tap01-1inmm/SHOT2.md` — **267 cảnh**, mỗi câu 1–3 cảnh (+ cảnh chen ở câu dài), mốc theo whisper giọng thật; `SHOT.md` giữ làm lịch sử |
-| L1 tranh | **167 tranh** dùng (148 mới MR-6 + 19 MR-P1) · 192 cảnh tranh, TB **2,70 s/cảnh** · 150 tranh sinh, **0 sinh lại**, 6 sửa bằng cắt khung, 2 bỏ |
+| L1 tranh | **166 tranh** dùng (148 mới MR-6 + 18 MR-P1) · 192 cảnh tranh, TB **2,70 s/cảnh** · 150 tranh sinh, **0 sinh lại**, 6 sửa bằng cắt khung, 2 bỏ |
 | L2 đồ hoạ động | **20 đồ hoạ** (G01–G20) bằng mã, hiện theo mốc từ, hạt tiền, số đếm, 1 điểm nhấn đỏ cam — 54 cảnh, 259 s |
 | L3 hồ sơ thật | **14 crop trang** (5 PDF), nền ngà, khoanh câu — 63 s; tránh mọi trang/dòng cấm của SHOT |
 | Cảnh động | Veo ảnh→video: **3 clip dùng** (K2 thành phố, K3 điện thoại đêm, K5 hải đăng); K1 hết 2 lượt (bị lọc), K4 loại ở QC · clip tả thực cũ chỉ **V10–V13** chỉnh màu |
-| Âm | {AM} |
-| Kiểm | tờ 1 s cả phim; quét V8 4 clip Veo; máy đối chiếu chữ {DC}; **kiểm pháp lý lần 2 (tác tử độc lập)** {PL}; N2/N3/N18 mở lại **HTTP 200**; trạng thái vụ ngày dựng: không ân xá/giảm án |
+| Âm | **−14,3 LUFS, đỉnh thật −1,3 dBTP** (tệp 1080p; ebur128) |
+| Kiểm | tờ 1 s cả phim; quét V8 4 clip Veo; máy đối chiếu chữ **300 chuỗi, 0 cờ thật** (1 báo nhầm URL đã duyệt); **kiểm pháp lý lần 2 (tác tử độc lập): vòng 1 CHƯA ĐẠT (1 CHẶN + 9 nên sửa) → 2 vòng sửa → ĐẠT**; N2/N3/N18 mở lại **HTTP 200**; trạng thái vụ ngày dựng: không ân xá/giảm án |
 | Gói phát hành | `docs/tap01-1inmm/phat-hanh/PHAT-HANH.md` — T1, mô tả EN (12 nguồn + dòng khai AI), 21 chương, thẻ, "AI use = Yes", ngày đọc trang Help |
 
 ## 1. Bước 0 — trần, số dư, chi phiên khác
@@ -41,7 +41,7 @@ Ghi sổ có 2 dòng điều chỉnh (đều có lý do trong dòng): −0,3471 
 ## 3. Bước 2 — L1 tranh (Nano Banana 2.1)
 - Lời: `scripts/mr6/tranh_ds.py` → `reports/mr6/loi_anh.json` (150 cảnh mới; tiền tố + hậu tố **nguyên văn** tờ A MR-P1). **Hai tham chiếu** theo PHONG-CACH-HINH §4: `ref_nv` = `lab/mrp1/A/a01_l1.png` (chỉ cảnh có nhà đầu tư, 24 tranh), `ref_canh` = `lab/mrp1/A/a15_l1.png` (cảnh không nhà đầu tư, 126 tranh, lời ghi rõ "The investor woman is NOT in this scene"). Kết quả: **không còn lỗi "nhân vật lọt cảnh"** của MR-P1 (0/126).
 - Sinh: `scripts/mr6/anh.py` + `chay_anh.sh` — tuần tự, mỗi lượt `check()` trần + `/credits` ≥ ước + 1 USD; đẩy LFS theo lô ≤ 5 phút (preflight chạy riêng, mã 0 mới commit): 19 lô 03:32–04:10.
-- Dùng lại MR-P1: 19 tranh A (a02–a20 trừ a01/a04/a06/a13 làm khung Veo; a14 l2 và a17 giữ khung cắt MR-P1).
+- Dùng lại MR-P1: 18 tranh A (a14 l2 giữ khung cắt MR-P1; a17 bỏ ở vòng sửa 2 — lộ má/tai người vest tối). a01, a04, a13 cũng dùng như tranh tĩnh.
 - **QC** (`scripts/mr6/qc_anh.py`, YuNet + RapidOCR, như MR-P1 → `reports/mr6/qc_may.json`) + **mắt** xem tờ ghép 150 tranh:
 
 | Kiểm | Máy | Mắt — kết luận |
@@ -83,18 +83,26 @@ Clip tả thực cũ: V10 (máy bay, P10), V11 (chìa khoá, P11 — kéo sáng 
 
 ## 7. Bước 6 — Dựng
 `scripts/mr6/dung.py` (0 USD; 4 tiến trình theo khúc, concat): 1920×1080, 25 fps, H.264 CRF 19 → `lab/mr6/dung/tap01_1080p.mp4`; 540p từ bản 1080p. Phông: IBM Plex chưa có đường tải chính thức (như MR-P1) → Liberation Serif / Inter / JetBrains Mono.
-Âm: giọng 22 đoạn đã duyệt (P01_l2, còn lại bản 1) đặt theo `moc_cau.json`; **N1** 0–40 s (−20 dB, tắt dần); **N2** từ 487,9 s, mức −24 → −18 dB, **cắt lặng 1,5 s ở S080** (603,3 s) rồi đoạn "Aftermath" (126–136 s của bản nhạc) −26 dB; **N3** từ 812 s tới hết, nâng khi hết lời, tắt dần 3 s. Loudnorm hai lượt. {AM_CHI_TIET}
+Âm: giọng 22 đoạn đã duyệt (P01_l2, còn lại bản 1) đặt theo `moc_cau.json`; **N1** 0–40 s (−20 dB, tắt dần); **N2** từ 487,9 s, mức −24 → −18 dB, **cắt lặng 1,5 s ở S080** (603,3 s) rồi đoạn "Aftermath" (126–136 s của bản nhạc) −26 dB; **N3** từ 812 s tới hết, nâng khi hết lời, tắt dần 3 s. Loudnorm hai lượt (đích −14 / TP −1,5). Đo trên tệp ra (`reports/mr6/do_am.json`): âm trộn −14,3 LUFS / −1,5 dBTP; **1080p (AAC 256k) −14,3 LUFS / −1,3 dBTP**.
 
 ## 8. Bước 7 — Kiểm
-{KIEM}
+| Kiểm | Kết quả | Tệp |
+|---|---|---|
+| Tờ 1 s cả phim | 872 ô; phiên xem cả 4 tờ sau mỗi lần dựng → sửa: bộ đếm sai "25–12%" (G01), màn đen 13:53–14:05 (danh sách nguồn), V11 quá sáng | `reports/mr6/xem/to1s_1…4.jpg` |
+| Quét V8 (clip Veo) | `quet_v8.py` cột 1–4: 0 cờ ở K2, K3, K4, K5; mắt loại K4 (máy lọt vệt khói xoáy) | `reports/mr6/veo/quet_v8.json` |
+| Chữ trên hình ↔ lời/hồ sơ | `scripts/mr6/doi_chieu_chu.py` trên sổ chữ do bộ dựng ghi (`chu_tren_hinh.json`): lần đầu 70 cờ (số đếm trung gian + 5 tiêu đề L2 dùng từ ngoài lời: "countdown", "stake", "paperwork", "reassurances") → sửa (tiêu đề dùng chữ của lời; sổ chỉ ghi số dừng) → **300 chuỗi, 1 cờ** (`adviserinfo.sec.gov` — URL trong chân thẻ đã duyệt SHOT.md §3; máy tách từ theo dấu chấm nên báo nhầm) | `reports/mr6/doi_chieu_chu.json` |
+| Kiểm pháp lý lần 2 (tác tử độc lập, chỉ đọc) | Vòng 1: **CHƯA ĐẠT** — CHẶN: thiếu "not the real person" khi nhân vật xuất hiện lần đầu ở P05, P08, P12, P15, P16; nên sửa: G15 thiếu ◐ cho trích ¶76, ngoặc kép giả trích (G06, G11), "NONE" mạnh hơn thừa nhận (G08), câu bảo lưu 250+ quá nhỏ, dòng nguồn tràn (S071, S088), số đếm trung gian, ký hiệu "35% × 35%", a17 lộ má/tai. **Vòng sửa 1** sửa hết → kiểm lại: **ĐẠT** (còn #10 một phần) → **vòng sửa 2**: a17 thay bằng a08 | `docs/tap01-1inmm/kiem/mr6_phap_ly_lan2.md` |
+| S052 (N12) | Xác minh qua API DOJ (HTTP 200, 22-027): "$6 million … residence, luxury cars, and travel by private jet, according to the government’s sentencing memorandum" — khớp thẻ | như trên |
+| N2, N3, N18 | Mở lại bằng UA khai báo của kênh (chỉ trong header; script đọc từ biến môi trường, **không** ghi vào repo): **HTTP 200** cả ba; câu then chốt có ("Emergency Asset Freeze", "690 Million", "one in a million", "HBO or Netflix", "April 5, 2021"; trang tip) | `docs/tap01-1inmm/kiem/mr6_nguon.json` |
+| Trạng thái vụ ngày dựng | 03:51 UTC: "Horwitz" **không có** trên 3 trang ân xá/giảm án DOJ (Trump "Updated October 20, 2026"; Biden pardons "May 14, 2026"; commutations "July 9, 2025"). Docket (N9) vẫn chưa mở được (MR-3: 403, không vượt) → không nói gì về kháng cáo | như trên; `PHAT-HANH.md` §5 |
 
 ## 9. Bước 8 — Gói phát hành
 `docs/tap01-1inmm/phat-hanh/PHAT-HANH.md` (sinh máy `scripts/mr6/phat_hanh.py`): tiêu đề **T1** "How an Actor Raised $650 Million on Fake Film Deals"; mô tả EN (tóm tắt, câu KBCB, ghi chú nhãn tầng, **21 chương** theo mốc giọng, **12 nguồn** đã mở có liên kết, 4 liên kết kiểm/báo cáo, dòng khai AI HIEN-CHUONG §6); 12 thẻ (không HBO/Netflix, không "scam"); **"AI use" = Yes**; trang Help https://support.google.com/youtube/answer/14328491 ("Disclosing use of GenAI content") đọc **02/11/2026 03:53 UTC**, HTTP 200. Thumbnail: không làm (lệnh không yêu cầu).
 
 ## 10. Lệch so với lệnh / việc chưa đạt (nói rõ)
 1. **Cảnh động: 3 clip Veo ảnh→video** (lệnh ≤ 5): K1 bị lọc 2/2 lượt, K4 loại ở QC. Không sinh thêm khe mới (giữ đúng V7 và tinh thần "khoảnh khắc lớn"); trần còn 2,52 USD.
-2. **Số tranh** 167 dùng (lệnh ~170–190): 150 sinh − 2 bỏ + 19 MR-P1. Kèm 3 cảnh Veo + 4 clip cũ, mật độ L1 TB 2,70 s/cảnh (PHONG-CACH ~2,5 s).
-3. **Âm** −14,3 LUFS {AM_LECH}.
+2. **Số tranh** 166 dùng (lệnh ~170–190): 150 sinh − 2 bỏ + 18 MR-P1 (a17 bỏ ở vòng sửa 2). Kèm 3 cảnh Veo + 4 clip cũ, mật độ L1 TB 2,70 s/cảnh (PHONG-CACH ~2,5 s).
+3. **Âm** −14,3 LUFS (lệch 0,3 LU so với đích −14; trong dung sai đo thường dùng ±0,5); đỉnh thật −1,3 dBTP đạt ≤ −1.
 4. Mất kết nối 2 lượt tranh (tiền 0,078 USD không nhận ảnh) — đã sửa công cụ, đã ghi sổ qua đối soát khoá.
 5. Hai bản thử ngắn có tranh giữ chỗ lọt vào commit `2331907` (LFS) → đã gỡ khỏi cây ở `38037a4` (lịch sử còn).
 6. Tầng ◐ cho phán quyết đồng thuận SEC (S087–S089) ghi nhãn "◐ ALLEGED · consent judgment, no findings of fact"; lời công tố S090–S092 "◐ ALLEGED · prosecutors' words" — điều phối xem cách viết nhãn.
