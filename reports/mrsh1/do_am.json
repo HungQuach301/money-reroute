@@ -1,0 +1,169 @@
+{
+ "giong_LUFS": -18.3,
+ "N1_LUFS": -12.6,
+ "N1_gain_dB": -25.7,
+ "nhac_duoi_loi_LU": 20.0,
+ "tong_s": 55.0,
+ "fps": 30,
+ "kich_thuoc": "1080x1920",
+ "giong_bat_dau_s": 0.9,
+ "giong_het_s": 51.98,
+ "the_cuoi_s": [
+  52.0,
+  55.0
+ ],
+ "am_wav": {
+  "I": -14.0,
+  "TP": -1.5
+ },
+ "am_mp4": {
+  "I": -14.0,
+  "TP": -1.5
+ },
+ "canh": [
+  {
+   "ma": "a07",
+   "lop": "L1",
+   "cau": "S004",
+   "s": 0.0,
+   "e": 3.59,
+   "cx": 660,
+   "nguoi": true
+  },
+  {
+   "ma": "b001",
+   "lop": "L1",
+   "cau": "S004",
+   "s": 3.59,
+   "e": 5.31,
+   "cx": 500,
+   "nguoi": false
+  },
+  {
+   "ma": "b067",
+   "lop": "L1",
+   "cau": "S004",
+   "s": 5.31,
+   "e": 5.87,
+   "cx": 860,
+   "nguoi": true
+  },
+  {
+   "ma": "b002",
+   "lop": "L1",
+   "cau": "S004",
+   "s": 5.87,
+   "e": 7.77,
+   "cx": 900,
+   "nguoi": true
+  },
+  {
+   "ma": "GA",
+   "lop": "L2",
+   "cau": "S005",
+   "s": 7.77,
+   "e": 16.31,
+   "cx": null,
+   "nguoi": false
+  },
+  {
+   "ma": "a09",
+   "lop": "L1",
+   "cau": "S006",
+   "s": 16.31,
+   "e": 18.29,
+   "cx": 700,
+   "nguoi": false
+  },
+  {
+   "ma": "b070",
+   "lop": "L1",
+   "cau": "S006",
+   "s": 18.29,
+   "e": 19.65,
+   "cx": 620,
+   "nguoi": false
+  },
+  {
+   "ma": "GB",
+   "lop": "L2",
+   "cau": null,
+   "s": 19.65,
+   "e": 28.11,
+   "cx": null,
+   "nguoi": false
+  },
+  {
+   "ma": "T01",
+   "lop": "L3",
+   "cau": "S007",
+   "s": 28.11,
+   "e": 32.55,
+   "cx": null,
+   "nguoi": false
+  },
+  {
+   "ma": "b003",
+   "lop": "L1",
+   "cau": "S008",
+   "s": 32.55,
+   "e": 34.13,
+   "cx": 690,
+   "nguoi": false
+  },
+  {
+   "ma": "a15",
+   "lop": "L1",
+   "cau": "S008",
+   "s": 34.13,
+   "e": 37.59,
+   "cx": 420,
+   "nguoi": false
+  },
+  {
+   "ma": "GC",
+   "lop": "L2",
+   "cau": "S009",
+   "s": 37.59,
+   "e": 41.19,
+   "cx": null,
+   "nguoi": false
+  },
+  {
+   "ma": "a12",
+   "lop": "L1",
+   "cau": "S010",
+   "s": 41.19,
+   "e": 43.49,
+   "cx": 1000,
+   "nguoi": false
+  },
+  {
+   "ma": "GD",
+   "lop": "L2",
+   "cau": "S010",
+   "s": 43.49,
+   "e": 46.63,
+   "cx": null,
+   "nguoi": false
+  },
+  {
+   "ma": "K2",
+   "lop": "veo",
+   "cau": "S011",
+   "s": 46.63,
+   "e": 52.0,
+   "cx": 1170,
+   "nguoi": true
+  },
+  {
+   "ma": "CUOI",
+   "lop": "cuoi",
+   "cau": null,
+   "s": 52.0,
+   "e": 55.0,
+   "cx": null,
+   "nguoi": false
+  }
+ ]
+}
