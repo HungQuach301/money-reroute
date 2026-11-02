@@ -164,3 +164,8 @@ Nhánh `claude/mrp1-illustration-episode-1-8n4p6c` @ `39a02f9`: preflight ĐẠT
 - Chủ dự án bổ sung: **phần quy trình, dòng tiền, con số phải trực quan, sinh động, có điểm nhấn** (ảnh chụp sơ đồ hộp tĩnh "The pitch, as he described it" ở bản thử B làm ví dụ cần nâng).
 - Điều phối ban hành `docs/PHONG-CACH-HINH.md` v1 (ba lớp hình; 10 luật đồ hoạ động L2; bảng màu; đơn giá) + QUY-TRINH §4a + CLAUDE.md mục đọc 3b.
 - Trần G1 tập 1 (OpenRouter 11,10) **không đủ** cho phong cách mới (đã chi 9,20 Veo + 1,63 thử) → trần MR-6 mới 10,00 USD trình chủ dự án trong lệnh (dán lệnh = duyệt).
+
+## G1 tập 2/3 (lời) + dàn truyện tập 4 · 02/11/2026 10:25 (giờ Hà Nội) · Chủ dự án duyệt
+- MR-6 đã dán (trần 10,00 USD = chủ dự án duyệt). Số dư OpenRouter chủ dự án báo **19,31 USD** (sau MR-P1 đọc 25,01 → giảm 5,70: gồm phần MR-6 nếu đã bắt đầu sinh và/hoặc chi ngoài MR — đối chiếu ở rà MR-6).
+- **Duyệt lời tập 2 (`irs-callcenter-patel`) và tập 3 (`romance-sunmola`)** theo khuyến nghị: tiêu đề T1 mỗi tập ("Fake IRS Calls From India: How the Money Got Out"; "A Fake Soldier, 27 Years in Prison: A Romance Scheme"); câu HGLOBAL giữ "is presumed innocent"; câu KBCB (IRS/USCIS, quân đội) **đọc thành lời một lần ở lần nêu đầu**, các lần sau chữ trên hình (sửa nhỏ lời → kiểm lại các câu đổi). Trần M-c tính lại theo phong cách mới ở MR-S23, duyệt sau.
+- **Duyệt dàn truyện tập 4 (`theranos-holmes`)**: 1 tập ~17 phút; góc "bảy câu kiểm"; nêu Walgreens/Safeway kèm câu không liên quan; không tên hãng dược.
