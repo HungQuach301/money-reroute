@@ -1,0 +1,465 @@
+{
+ "phim": "/tmp/claude-0/-home-user-money-reroute/ac06c4df-ba1e-5531-955b-189570008f68/scratchpad/p3/v8/tat_ca.mp4",
+ "sha256": "0f54f1245ad2d2d670a43025fb1f7c6d7386de8d3fdc8e007ca40efd3917488b",
+ "sha256_khop_dung": null,
+ "dung": "/tmp/claude-0/-home-user-money-reroute/ac06c4df-ba1e-5531-955b-189570008f68/scratchpad/p3/v8/dung.json",
+ "nguong": {
+  "c1_len": 0.08,
+  "c1_ridge": 7.0,
+  "c1_n_vet": 6,
+  "c1_khung": 6,
+  "c1_goc": 12,
+  "c1_sat": 70,
+  "c1_sang": 110,
+  "c2_tang": 8.0,
+  "c2_tex": 5.0,
+  "c2_khung": 24,
+  "c2_dai": 24,
+  "c3_lech": 0.03,
+  "c3_neo": 0.03,
+  "c3_khung": 12,
+  "c3_bac": 0.35,
+  "c3_cot_min": 0.3,
+  "c4_lap": 0.5,
+  "c4_std": 0.7,
+  "c4_sang": 0.6,
+  "c4_khung": 24,
+  "c5_conf": 0.3,
+  "c5_vet_min": 3,
+  "c5_doi": 0.2,
+  "c5_dan": 4.0,
+  "c5_corr": 0.97,
+  "c5_dich": 1.5
+ },
+ "cot": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "khe": [
+  {
+   "khe": "Ca_chu_1080p_l1",
+   "dau": "0:00.0",
+   "cuoi": "0:04.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.85,
+    "lech_p75_max": 0.0252,
+    "ap_dung": true
+   },
+   "c1": {
+    "vet_max": 3,
+    "vet_tb": 0.29
+   },
+   "c2": {
+    "moi_max": 0.3,
+    "tang_1s_max": 0.1
+   },
+   "c4": {
+    "lap_min": 0.99,
+    "std_min": 1.0
+   }
+  },
+  {
+   "khe": "Cd_a01_720p_l1",
+   "dau": "0:04.0",
+   "cuoi": "0:07.0",
+   "n": 73,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.75,
+    "lech_p75_max": 0.027,
+    "ap_dung": true
+   },
+   "c1": {
+    "vet_max": 1,
+    "vet_tb": 0.04
+   },
+   "c2": {
+    "moi_max": 0.1,
+    "tang_1s_max": 0.0
+   },
+   "c4": {
+    "lap_min": 0.98,
+    "std_min": 1.0
+   }
+  },
+  {
+   "khe": "V01_a03_1080p_l1",
+   "dau": "0:07.0",
+   "cuoi": "0:11.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.63,
+    "lech_p75_max": 0.0152,
+    "ap_dung": true
+   },
+   "c1": {
+    "vet_max": 0,
+    "vet_tb": 0.0
+   },
+   "c2": {
+    "moi_max": 0.0,
+    "tang_1s_max": 0.0
+   },
+   "c4": {
+    "lap_min": 0.99,
+    "std_min": 1.0
+   }
+  },
+  {
+   "khe": "V02_b040_1080p_l1",
+   "dau": "0:11.0",
+   "cuoi": "0:15.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.29,
+    "lech_p75_max": null,
+    "ap_dung": false
+   },
+   "c1": {
+    "vet_max": 0,
+    "vet_tb": 0.0
+   },
+   "c2": {
+    "moi_max": 0.0,
+    "tang_1s_max": 0.0
+   },
+   "c4": {
+    "lap_min": 0.98,
+    "std_min": 1.0
+   }
+  },
+  {
+   "khe": "V02b_b040_720p_l1",
+   "dau": "0:15.0",
+   "cuoi": "0:19.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.26,
+    "lech_p75_max": null,
+    "ap_dung": false
+   },
+   "c1": {
+    "vet_max": 0,
+    "vet_tb": 0.0
+   },
+   "c2": {
+    "moi_max": 0.0,
+    "tang_1s_max": 0.0
+   },
+   "c4": {
+    "lap_min": 0.99,
+    "std_min": 1.0
+   }
+  },
+  {
+   "khe": "V03_b066_1080p_l1",
+   "dau": "0:19.0",
+   "cuoi": "0:23.0",
+   "n": 96,
+   "nghi": [
+    {
+     "cot": 1,
+     "tu": "0:21.4",
+     "den": "0:22.5",
+     "giay": 21.42,
+     "dai_s": 1.17,
+     "mo_ta": "vệt dọc dài > 8 % H: tối đa 8 vệt/khung",
+     "vet_max": 8,
+     "to": "reports/mrp3/veo/quet_v8-to/V03_b066_1080p_l1_c1_0m21.4.jpg"
+    }
+   ],
+   "c3": {
+    "cot_hop": 0.53,
+    "lech_p75_max": 0.0057,
+    "ap_dung": true
+   },
+   "c1": {
+    "vet_max": 8,
+    "vet_tb": 3.79
+   },
+   "c2": {
+    "moi_max": 1.5,
+    "tang_1s_max": 0.4
+   },
+   "c4": {
+    "lap_min": 0.95,
+    "std_min": 0.99
+   }
+  },
+  {
+   "khe": "V04_a15_1080p_l1",
+   "dau": "0:23.0",
+   "cuoi": "0:27.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.71,
+    "lech_p75_max": 0.0125,
+    "ap_dung": true
+   },
+   "c1": {
+    "vet_max": 0,
+    "vet_tb": 0.0
+   },
+   "c2": {
+    "moi_max": 0.2,
+    "tang_1s_max": 0.2
+   },
+   "c4": {
+    "lap_min": 1.0,
+    "std_min": 1.0
+   }
+  },
+  {
+   "khe": "V05_b051_1080p_l1",
+   "dau": "0:27.0",
+   "cuoi": "0:31.0",
+   "n": 96,
+   "nghi": [
+    {
+     "cot": 1,
+     "tu": "0:28.5",
+     "den": "0:31.0",
+     "giay": 28.54,
+     "dai_s": 2.5,
+     "mo_ta": "vệt dọc dài > 8 % H: tối đa 21 vệt/khung",
+     "vet_max": 21,
+     "to": "reports/mrp3/veo/quet_v8-to/V05_b051_1080p_l1_c1_0m28.5.jpg"
+    }
+   ],
+   "c3": {
+    "cot_hop": 0.79,
+    "lech_p75_max": null,
+    "ap_dung": false
+   },
+   "c1": {
+    "vet_max": 21,
+    "vet_tb": 7.82
+   },
+   "c2": {
+    "moi_max": 0.5,
+    "tang_1s_max": 0.2
+   },
+   "c4": {
+    "lap_min": 1.0,
+    "std_min": 1.0
+   }
+  },
+  {
+   "khe": "V06_b052_1080p_l1",
+   "dau": "0:31.0",
+   "cuoi": "0:35.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.45,
+    "lech_p75_max": 0.0041,
+    "ap_dung": true
+   },
+   "c1": {
+    "vet_max": 5,
+    "vet_tb": 1.51
+   },
+   "c2": {
+    "moi_max": 0.4,
+    "tang_1s_max": 0.4
+   },
+   "c4": {
+    "lap_min": 0.96,
+    "std_min": 0.98
+   }
+  },
+  {
+   "khe": "V07_b001_720p_l1",
+   "dau": "0:35.0",
+   "cuoi": "0:39.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.61,
+    "lech_p75_max": 0.0047,
+    "ap_dung": true
+   },
+   "c1": {
+    "vet_max": 0,
+    "vet_tb": 0.0
+   },
+   "c2": {
+    "moi_max": 0.6,
+    "tang_1s_max": 0.3
+   },
+   "c4": {
+    "lap_min": 1.0,
+    "std_min": 1.0
+   }
+  },
+  {
+   "khe": "V08_a09_720p_l1",
+   "dau": "0:39.0",
+   "cuoi": "0:43.0",
+   "n": 96,
+   "nghi": [
+    {
+     "cot": 1,
+     "tu": "0:42.1",
+     "den": "0:42.7",
+     "giay": 42.12,
+     "dai_s": 0.62,
+     "mo_ta": "vệt dọc dài > 8 % H: tối đa 7 vệt/khung",
+     "vet_max": 7,
+     "to": "reports/mrp3/veo/quet_v8-to/V08_a09_720p_l1_c1_0m42.1.jpg"
+    }
+   ],
+   "c3": {
+    "cot_hop": 0.45,
+    "lech_p75_max": 0.0111,
+    "ap_dung": true
+   },
+   "c1": {
+    "vet_max": 7,
+    "vet_tb": 2.19
+   },
+   "c2": {
+    "moi_max": 0.5,
+    "tang_1s_max": 0.1
+   },
+   "c4": {
+    "lap_min": 0.99,
+    "std_min": 0.99
+   }
+  },
+  {
+   "khe": "V09_b116_1080p_l1",
+   "dau": "0:43.0",
+   "cuoi": "0:47.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.9,
+    "lech_p75_max": 0.0161,
+    "ap_dung": true
+   },
+   "c1": {
+    "vet_max": 1,
+    "vet_tb": 0.01
+   },
+   "c2": {
+    "moi_max": 0.0,
+    "tang_1s_max": 0.0
+   },
+   "c4": {
+    "lap_min": 0.99,
+    "std_min": 1.0
+   }
+  },
+  {
+   "khe": "V10_b003_720p_l1",
+   "dau": "0:47.0",
+   "cuoi": "0:51.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.42,
+    "lech_p75_max": null,
+    "ap_dung": false
+   },
+   "c1": {
+    "vet_max": 5,
+    "vet_tb": 1.82
+   },
+   "c2": {
+    "moi_max": 4.1,
+    "tang_1s_max": 2.8
+   },
+   "c4": {
+    "lap_min": 0.98,
+    "std_min": 0.99
+   }
+  },
+  {
+   "khe": "V11_a12_720p_l1",
+   "dau": "0:51.0",
+   "cuoi": "0:55.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.52,
+    "lech_p75_max": 0.0063,
+    "ap_dung": true
+   },
+   "c1": {
+    "vet_max": 2,
+    "vet_tb": 0.02
+   },
+   "c2": {
+    "moi_max": 0.1,
+    "tang_1s_max": 0.0
+   },
+   "c4": {
+    "lap_min": 1.0,
+    "std_min": 1.0
+   }
+  },
+  {
+   "khe": "V12_b141_1080p_l1",
+   "dau": "0:55.0",
+   "cuoi": "0:59.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.48,
+    "lech_p75_max": 0.0047,
+    "ap_dung": true
+   },
+   "c1": {
+    "vet_max": 0,
+    "vet_tb": 0.0
+   },
+   "c2": {
+    "moi_max": 0.2,
+    "tang_1s_max": 0.2
+   },
+   "c4": {
+    "lap_min": 0.99,
+    "std_min": 1.0
+   }
+  },
+  {
+   "khe": "V13_b070_720p_l1",
+   "dau": "0:59.0",
+   "cuoi": "1:03.0",
+   "n": 96,
+   "nghi": [],
+   "c3": {
+    "cot_hop": 0.56,
+    "lech_p75_max": 0.0087,
+    "ap_dung": true
+   },
+   "c1": {
+    "vet_max": 0,
+    "vet_tb": 0.0
+   },
+   "c2": {
+    "moi_max": 1.1,
+    "tang_1s_max": 0.2
+   },
+   "c4": {
+    "lap_min": 0.99,
+    "std_min": 0.99
+   }
+  }
+ ],
+ "tong_nghi": {
+  "c1": 3,
+  "c2": 0,
+  "c3": 0,
+  "c4": 0
+ }
+}
