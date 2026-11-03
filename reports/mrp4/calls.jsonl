@@ -1,0 +1,5 @@
+{"t": "2026-11-03T00:33:04Z", "kind": "openrouter_usd", "amount": 0.039025, "tranh": "a10", "luot": 1, "bat_dau": "2026-11-03T00:32:51Z", "xong": "2026-11-03T00:33:00Z", "so_anh": 1, "nguon_so": "usage.cost"}
+{"t": "2026-11-03T00:33:17Z", "kind": "openrouter_usd", "amount": 0.038397, "tranh": "b118", "luot": 1, "bat_dau": "2026-11-03T00:33:04Z", "xong": "2026-11-03T00:33:13Z", "so_anh": 1, "nguon_so": "usage.cost"}
+{"t": "2026-11-03T00:33:32Z", "kind": "openrouter_usd", "amount": 0.038818, "tranh": "b003", "luot": 1, "bat_dau": "2026-11-03T00:33:17Z", "xong": "2026-11-03T00:33:28Z", "so_anh": 1, "nguon_so": "usage.cost"}
+{"t": "2026-11-03T00:33:44Z", "kind": "openrouter_usd", "amount": 0.038772, "tranh": "b141", "luot": 1, "bat_dau": "2026-11-03T00:33:32Z", "xong": "2026-11-03T00:33:41Z", "so_anh": 1, "nguon_so": "usage.cost"}
+{"t": "2026-11-03T00:33:57Z", "kind": "openrouter_usd", "amount": 0.038642, "tranh": "b116", "luot": 1, "bat_dau": "2026-11-03T00:33:44Z", "xong": "2026-11-03T00:33:53Z", "so_anh": 1, "nguon_so": "usage.cost"}
