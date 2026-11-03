@@ -35,7 +35,9 @@
   "b001": {
    "loai": "man",
    "ref": "ref_canh",
-   "luot1": "An actor's dressing room at night. FOREGROUND: a dark suit jacket hanging on a hook very close to the camera on the left edge, out of focus. MIDGROUND: a dressing table with a mirror framed by warm bulbs, the mirror reflecting only an empty chair. BACKGROUND: a dim open doorway and a clothes rack in shadow. Nobody in the mirror, nobody in the room. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+   "luot1": "An actor's dressing room at night. FOREGROUND: a dark suit jacket hanging on a hook very close to the camera on the left edge, out of focus. MIDGROUND: a dressing table with a mirror framed by warm bulbs, the mirror reflecting only an empty chair. BACKGROUND: a dim open doorway and a clothes rack in shadow. Nobody in the mirror, nobody in the room. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear.",
+   "luot2": "An actor's dressing room at night. FOREGROUND: a dark suit jacket hanging on a hook very close to the camera on the left edge, out of focus. MIDGROUND: a dressing table with a mirror framed by warm bulbs, the mirror reflecting only an empty chair. BACKGROUND: a closed dark wooden door in the back wall and a clothes rack with hanging shirts against the right wall, nothing on the floor near the door; bare walls with no posters, papers or pictures. Nobody in the mirror, nobody in the room. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear.",
+   "luot2_ly_do": "QC mắt lượt 1: trong khung cửa mở có áo tối treo + đôi giày, đọc như bóng người đứng (cảnh phải không có ai); tờ giấy dán tường có vệt giống chữ → đóng cửa, bỏ giấy."
   },
   "b070": {
    "loai": "empty",
