@@ -1,0 +1,260 @@
+{
+ "moi": {
+  "lop": {
+   "giong_LUFS": -13.9,
+   "nhac_duoi_loi_LUFS": -27.5,
+   "nhac_khoang_nghi_LUFS": -20.9,
+   "nhac_duoi_loi_so_giong_dB": -13.6,
+   "nhac_khoang_nghi_so_giong_dB": -7.0,
+   "nhan_so_giong_dB": [
+    -6.9,
+    -6.9,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0,
+    -8.0
+   ],
+   "nen_so_giong_dB": [
+    -23.1,
+    -22.0,
+    -25.0,
+    -24.6,
+    -25.0
+   ]
+  },
+  "tong": {
+   "I": -14.0,
+   "LRA": 2.2,
+   "TP": -1.6
+  },
+  "han_dinh": true,
+  "he_so_tong_db": 7.1,
+  "tieng_dong": [
+   {
+    "tep": "tu_lanh",
+    "lop": "nền",
+    "gio": 0.0,
+    "db_cu": -40,
+    "do_0dB": -15.3,
+    "g_db": -30.7
+   },
+   {
+    "tep": "mua_kinh",
+    "lop": "nền",
+    "gio": 5.3,
+    "db_cu": -36,
+    "do_0dB": -27.6,
+    "g_db": -18.4
+   },
+   {
+    "tep": "rung_dt",
+    "lop": "nhấn",
+    "gio": 0.5,
+    "db_cu": -22,
+    "do_0dB": -18.8,
+    "g_db": -10.2
+   },
+   {
+    "tep": "bao_tin",
+    "lop": "nhấn",
+    "gio": 0.4,
+    "db_cu": -24,
+    "do_0dB": -10.0,
+    "g_db": -19.0
+   },
+   {
+    "tep": "bao_tin",
+    "lop": "nhấn",
+    "gio": 6.86,
+    "db_cu": -26,
+    "do_0dB": -10.0,
+    "g_db": -19.0
+   },
+   {
+    "tep": "e_va_cham",
+    "lop": "nhấn",
+    "gio": 15.49,
+    "db_cu": -20,
+    "do_0dB": -26.2,
+    "g_db": -2.8
+   },
+   {
+    "tep": "lat_trang",
+    "lop": "nhấn",
+    "gio": 42.42,
+    "db_cu": -26,
+    "do_0dB": -17.1,
+    "g_db": -11.9
+   },
+   {
+    "tep": "bua",
+    "lop": "nhấn",
+    "gio": 62.39,
+    "db_cu": -18,
+    "do_0dB": -23.4,
+    "g_db": -5.6
+   },
+   {
+    "tep": "pho_dem",
+    "lop": "nền",
+    "gio": 67.43,
+    "db_cu": -34,
+    "do_0dB": -32.7,
+    "g_db": -13.3
+   },
+   {
+    "tep": "lat_trang",
+    "lop": "nhấn",
+    "gio": 71.94,
+    "db_cu": -26,
+    "do_0dB": -17.1,
+    "g_db": -11.9
+   },
+   {
+    "tep": "e_rung_dt",
+    "lop": "nhấn",
+    "gio": 82.04,
+    "db_cu": -24,
+    "do_0dB": -2.2,
+    "g_db": -26.8
+   },
+   {
+    "tep": "e_dong_ho",
+    "lop": "nền",
+    "gio": 89.62,
+    "db_cu": -28,
+    "do_0dB": -36.1,
+    "g_db": -9.9
+   },
+   {
+    "tep": "tim",
+    "lop": "nền",
+    "gio": 92.82,
+    "db_cu": -30,
+    "do_0dB": -14.3,
+    "g_db": -31.7
+   },
+   {
+    "tep": "lat_trang",
+    "lop": "nhấn",
+    "gio": 101.97,
+    "db_cu": -26,
+    "do_0dB": -17.1,
+    "g_db": -11.9
+   },
+   {
+    "tep": "khoa",
+    "lop": "nhấn",
+    "gio": 110.45,
+    "db_cu": -22,
+    "do_0dB": -22.7,
+    "g_db": -6.3
+   },
+   {
+    "tep": "e_va_cham",
+    "lop": "nhấn",
+    "gio": 114.87,
+    "db_cu": -18,
+    "do_0dB": -26.2,
+    "g_db": -2.8
+   },
+   {
+    "tep": "vut",
+    "lop": "nhấn",
+    "gio": 18.8,
+    "db_cu": -30,
+    "do_0dB": -33.9,
+    "g_db": 4.9
+   },
+   {
+    "tep": "vut",
+    "lop": "nhấn",
+    "gio": 98.14,
+    "db_cu": -30,
+    "do_0dB": -33.9,
+    "g_db": 4.9
+   }
+  ],
+  "giong_xi_5_9k_db": -16.54,
+  "giong_xi_sau_db": -14.8,
+  "giong_2_5k_truoc_db": -14.99,
+  "giong_2_5k_sau_db": -9.55,
+  "giong_dinh_xi_truoc_db": -4.15,
+  "giong_dinh_xi_sau_db": -6.04,
+  "giong_ngan_han_p10_p50_truoc": [
+   -19.5,
+   -18.5
+  ],
+  "giong_ngan_han_p10_p50_sau": [
+   -21.8,
+   -21.1
+  ]
+ },
+ "cu": {
+  "giong_LUFS": -14.0,
+  "nhac_duoi_loi_LUFS": -27.8,
+  "nhac_khoang_nghi_LUFS": -28.8,
+  "nhac_duoi_loi_so_giong_dB": -13.8,
+  "nhac_khoang_nghi_so_giong_dB": -14.8,
+  "nhan_so_giong_dB": [
+   -15.4,
+   -15.4,
+   -17.6,
+   -27.9,
+   -45.6,
+   -24.8,
+   -23.1,
+   -24.8,
+   -7.8,
+   -24.8,
+   -26.3,
+   -25.9
+  ],
+  "nen_so_giong_dB": [
+   -36.6,
+   -36.4,
+   -48.4,
+   -26.3,
+   -26.0
+  ],
+  "ghi_chu": "tái dựng từng lớp với mức của scripts/mrp3/dung_p3.py (M2) + hệ số loudnorm tuyến tính; tổng đo trên tệp thật reports/mrp3/xem/M2.mp4"
+ },
+ "dich": {
+  "nhac_duoi_loi": -13.5,
+  "nhan": -8.0,
+  "nen": -25.0,
+  "tong_LUFS": -14,
+  "TP_toi_da": -1.0
+ },
+ "chuoi_giong": "highpass=f=70,acompressor=threshold=-22dB:ratio=3:attack=8:release=120:knee=4:makeup=3dB,equalizer=f=250:t=q:w=1:g=-1.5,equalizer=f=3200:t=q:w=0.9:g=4,equalizer=f=7000:t=q:w=1:g=-3,deesser=i=0.4:m=0.5:f=0.5:s=o",
+ "sidechain": "sidechaincompress ngưỡng 0,025 (−32 dBFS), 6:1, attack 25 ms, release 450 ms, giọng làm tín hiệu điều khiển",
+ "tep_xem": {
+  "M2_cu": {
+   "I": -14.0,
+   "LRA": 2.9,
+   "TP": -1.4
+  },
+  "M2_cu_loa": {
+   "I": -21.2,
+   "LRA": 3.2,
+   "TP": -3.1
+  },
+  "M2_moi": {
+   "I": -14.0,
+   "LRA": 2.2,
+   "TP": -1.5
+  },
+  "M2_moi_loa": {
+   "I": -20.0,
+   "LRA": 2.8,
+   "TP": -0.1
+  }
+ }
+}

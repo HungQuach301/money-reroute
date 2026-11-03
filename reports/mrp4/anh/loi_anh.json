@@ -1,0 +1,63 @@
+{
+ "_ghi_chu": "MR-P4 · tạo lại 10 tranh phẳng nhất (chỉ số HD < 45, reports/mrp4/do_sau.json; b052 là clip Veo trong M2 → thay bằng a09 HD 46,0) với bố cục nhiều lớp. Tiền tố phong cách A + hậu tố + ref_canh y như MR-6 (reports/mr6/loi_anh.json); thêm khối BỐ CỤC NHIỀU LỚP vào sau tiền tố. Chủ thể/ý cảnh giữ như lời gốc (MR-P1 A / MR-6).",
+ "model": "google/gemini-nano-banana-2.1",
+ "tien_to": "ART STYLE (variant A): semi-realistic digital painting for a true-crime documentary, cinematic and dark; low-key lighting with deep shadows; muted teal-and-amber color grade; visible painterly brushwork and soft film grain; storyboard / graphic-novel painting feel, clearly an illustration, NOT a photograph.\n\nRECURRING CHARACTERS (invented, must not resemble any real person or celebrity): (1) THE INVESTOR — an invented ordinary woman in her early fifties, shoulder-length wavy salt-and-pepper hair, thin round tortoiseshell glasses, mustard-yellow knit cardigan over a white collared shirt; her face may be shown. (2) THE MAN IN THE DARK SUIT — only ever shown strictly from behind, as a backlit black silhouette, or as hands/sleeves; his face is NEVER visible, no profile, no identifiable features.\n\nCOMPOSITION — LAYERED DEPTH (mandatory): build the frame in three clearly separated depth planes. FOREGROUND: one dark object very close to the camera at a frame edge (or framing the view, as if looking past it or through a gap), partly cut off by the frame, softly out of focus. MIDGROUND: the main subject, sharp. BACKGROUND: a distinct far plane that recedes into haze or darkness. Eye-level or low camera, never a flat top-down view; no wall or surface filling the whole frame; strong atmospheric perspective between planes.",
+ "hau_to": "HARD RULES: absolutely no text anywhere in the image — no letters, words, numbers, captions, signage, labels, logos, watermarks, brand marks or user-interface elements. Any screen, paper, poster or envelope is blank or completely blurred. No documents, contracts, money bills or certificates. Do not depict any real person, celebrity or public figure. No caricature of any ethnicity or nationality. Single image, 16:9 landscape, full bleed, no borders, no panels, no split screen.",
+ "bo_cuc": "COMPOSITION — LAYERED DEPTH (mandatory): build the frame in three clearly separated depth planes. FOREGROUND: one dark object very close to the camera at a frame edge (or framing the view, as if looking past it or through a gap), partly cut off by the frame, softly out of focus. MIDGROUND: the main subject, sharp. BACKGROUND: a distinct far plane that recedes into haze or darkness. Eye-level or low camera, never a flat top-down view; no wall or surface filling the whole frame; strong atmospheric perspective between planes.",
+ "ref_canh": "lab/mrp1/A/a15_l1.png",
+ "ref_loi_canh": "The attached image is the STYLE REFERENCE for this series. Match its art style, rendering, palette and lighting exactly. Do not copy its composition or its content. The investor woman is NOT in this scene.",
+ "tranh": {
+  "a10": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A dark living room at night lit only by the glow of a large television showing an abstract blurred wash of colors (no logo, no interface). FOREGROUND: the dark curved back and armrest of an empty armchair very close to the camera on the left, out of focus, rim-lit by the TV glow. MIDGROUND: an empty sofa and a low coffee table, light spilling across the floor. BACKGROUND: the glowing television on the far wall beside a curtained window. No people. The investor woman is NOT in this scene. No recognizable faces."
+  },
+  "b118": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Close-up of a steel padlock locked shut on a heavy chain wrapped around the handles of a grey metal filing cabinet, cold light. FOREGROUND: a blurred loop of the heavy chain hanging very close to the camera at the bottom-right edge. MIDGROUND: the padlock and chain on the cabinet drawer, sharp. BACKGROUND: a dim records room behind, rows of cabinets fading into darkness. No people, no hands. Nothing written on the cabinet. The investor woman is NOT in this scene. No recognizable faces."
+  },
+  "b003": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A modern office corridor at night with glass walls, completely empty, cool teal light. FOREGROUND: the dark edge of an open glass door frame and a tall potted plant very close to the camera on the right edge, out of focus. MIDGROUND: the empty corridor with glass walls and a few empty chairs. BACKGROUND: blurred city lights through the far window at the end of the corridor. No people. The investor woman is NOT in this scene. No recognizable faces."
+  },
+  "b141": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A smartphone lying face-down on a dark wooden table under a single lamp, a thin glow escaping at its edge, deep shadows. Low camera at table height, not top-down. FOREGROUND: the blurred dark rim of a coffee mug very close to the lens at the left edge. MIDGROUND: the face-down phone, sharp. BACKGROUND: the dark room falling away, a window with faint blue night light far behind. No people. The investor woman is NOT in this scene. No recognizable faces."
+  },
+  "b116": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "Seen from inside a dark, empty high-rise office at dawn: FOREGROUND the dark frame of a tall window and the silhouetted back of an empty office chair at the lower left edge, out of focus. MIDGROUND: nearby towers catching first light. BACKGROUND: the city skyline under a heavy cloud bank fading into haze. No signs, no landmarks, no lettering, no people. The investor woman is NOT in this scene. No recognizable faces."
+  },
+  "b001": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "An actor's dressing room at night. FOREGROUND: a dark suit jacket hanging on a hook very close to the camera on the left edge, out of focus. MIDGROUND: a dressing table with a mirror framed by warm bulbs, the mirror reflecting only an empty chair. BACKGROUND: a dim open doorway and a clothes rack in shadow. Nobody in the mirror, nobody in the room. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear.",
+   "luot2": "An actor's dressing room at night. FOREGROUND: a dark suit jacket hanging on a hook very close to the camera on the left edge, out of focus. MIDGROUND: a dressing table with a mirror framed by warm bulbs, the mirror reflecting only an empty chair. BACKGROUND: a closed dark wooden door in the back wall and a clothes rack with hanging shirts against the right wall, nothing on the floor near the door; bare walls with no posters, papers or pictures. Nobody in the mirror, nobody in the room. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear.",
+   "luot2_ly_do": "QC mắt lượt 1: trong khung cửa mở có áo tối treo + đôi giày, đọc như bóng người đứng (cảnh phải không có ai); tờ giấy dán tường có vệt giống chữ → đóng cửa, bỏ giấy."
+  },
+  "b070": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "An editing room with film strips hanging from a rack, backlit amber, frames completely blurred. FOREGROUND: two or three blurred hanging film strips very close to the lens at the left and right edges. MIDGROUND: the rack of hanging film strips, sharp. BACKGROUND: the dim editing room receding, an empty chair and a dark editing desk under a faint lamp. No people. The investor woman is NOT in this scene. No recognizable faces."
+  },
+  "a12": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A courthouse in cool morning light, completely empty. FOREGROUND: the dark edge of a massive stone column very close to the camera on the left, out of focus, and the top of a stone balustrade along the bottom edge. MIDGROUND: wide stone steps with a few pigeons. BACKGROUND: the tall classical columns of the courthouse facade receding. No signs, no inscriptions, no flags, no people. The investor woman is NOT in this scene. No recognizable faces."
+  },
+  "b002": {
+   "loai": "man",
+   "ref": "ref_canh",
+   "luot1": "A hand in a dark suit sleeve with a cufflink setting a brass hourglass down on a polished desk. FOREGROUND: the corner of a closed leather portfolio very close to the lens at the bottom-left, out of focus. MIDGROUND: the hand and the brass hourglass, sharp, sand running. BACKGROUND: a dark office with a window and bookshelves far behind, soft bokeh. Only the hand and sleeve are visible. The investor woman is NOT in this scene. The man's face is never visible: no profile, no cheek, no ear."
+  },
+  "a09": {
+   "loai": "empty",
+   "ref": "ref_canh",
+   "luot1": "A dim film warehouse. FOREGROUND: the end of a metal shelf with a stack of plain round film canisters very close to the camera at the right edge, out of focus. MIDGROUND: an aisle between tall shelves of plain metal film canisters and reels. BACKGROUND: a shaft of light with floating dust at the far end of the aisle. No labels and no writing on the canisters. No people. The investor woman is NOT in this scene. No recognizable faces."
+  }
+ }
+}

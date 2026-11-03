@@ -1,0 +1,428 @@
+{
+ "tranh": {
+  "a01": {
+   "ma": "a01",
+   "lop": 3,
+   "nguong": [
+    0.219,
+    0.57
+   ],
+   "phan_tram_giua_gan": 33.7,
+   "phan_tram_gan": 10.8,
+   "HD": 54.0,
+   "trai": 0.936,
+   "tach": 0.641,
+   "gan_pt": 10.8,
+   "mep_pt": 1.56
+  },
+  "b064": {
+   "ma": "b064",
+   "lop": 3,
+   "nguong": [
+    0.321,
+    0.695
+   ],
+   "phan_tram_giua_gan": 43.9,
+   "phan_tram_gan": 19.1,
+   "HD": 69.0,
+   "trai": 0.976,
+   "tach": 0.707,
+   "gan_pt": 19.1,
+   "mep_pt": 0.85
+  },
+  "a03": {
+   "ma": "a03",
+   "lop": 3,
+   "nguong": [
+    0.291,
+    0.683
+   ],
+   "phan_tram_giua_gan": 19.8,
+   "phan_tram_gan": 7.4,
+   "HD": 45.5,
+   "trai": 0.935,
+   "tach": 0.788,
+   "gan_pt": 7.4,
+   "mep_pt": 1.71
+  },
+  "b065": {
+   "ma": "b065",
+   "lop": 3,
+   "nguong": [
+    0.208,
+    0.545
+   ],
+   "phan_tram_giua_gan": 44.8,
+   "phan_tram_gan": 15.3,
+   "HD": 54.7,
+   "trai": 0.875,
+   "tach": 0.625,
+   "gan_pt": 15.3,
+   "mep_pt": 0.62
+  },
+  "a02": {
+   "ma": "a02",
+   "lop": 3,
+   "nguong": [
+    0.261,
+    0.655
+   ],
+   "phan_tram_giua_gan": 65.2,
+   "phan_tram_gan": 30.8,
+   "HD": 57.0,
+   "trai": 0.989,
+   "tach": 0.577,
+   "gan_pt": 30.8,
+   "mep_pt": 1.04
+  },
+  "a04": {
+   "ma": "a04",
+   "lop": 3,
+   "nguong": [
+    0.219,
+    0.575
+   ],
+   "phan_tram_giua_gan": 33.4,
+   "phan_tram_gan": 10.3,
+   "HD": 54.7,
+   "trai": 0.939,
+   "tach": 0.681,
+   "gan_pt": 10.3,
+   "mep_pt": 1.47
+  },
+  "a05": {
+   "ma": "a05",
+   "lop": 3,
+   "nguong": [
+    0.249,
+    0.602
+   ],
+   "phan_tram_giua_gan": 54.3,
+   "phan_tram_gan": 21.8,
+   "HD": 57.3,
+   "trai": 0.992,
+   "tach": 0.578,
+   "gan_pt": 21.8,
+   "mep_pt": 0.89
+  },
+  "b066": {
+   "ma": "b066",
+   "lop": 3,
+   "nguong": [
+    0.315,
+    0.646
+   ],
+   "phan_tram_giua_gan": 64.2,
+   "phan_tram_gan": 30.2,
+   "HD": 49.4,
+   "trai": 0.92,
+   "tach": 0.537,
+   "gan_pt": 30.2,
+   "mep_pt": 1.16
+  },
+  "a07": {
+   "ma": "a07",
+   "lop": 3,
+   "nguong": [
+    0.279,
+    0.645
+   ],
+   "phan_tram_giua_gan": 29.5,
+   "phan_tram_gan": 12.8,
+   "HD": 65.9,
+   "trai": 0.923,
+   "tach": 0.714,
+   "gan_pt": 12.8,
+   "mep_pt": 1.05
+  },
+  "b001": {
+   "ma": "b001",
+   "lop": 3,
+   "nguong": [
+    0.219,
+    0.53
+   ],
+   "phan_tram_giua_gan": 52.2,
+   "phan_tram_gan": 11.4,
+   "HD": 35.9,
+   "trai": 0.788,
+   "tach": 0.48,
+   "gan_pt": 11.4,
+   "mep_pt": 0.73
+  },
+  "b067": {
+   "ma": "b067",
+   "lop": 3,
+   "nguong": [
+    0.299,
+    0.655
+   ],
+   "phan_tram_giua_gan": 38.6,
+   "phan_tram_gan": 14.4,
+   "HD": 65.8,
+   "trai": 1.0,
+   "tach": 0.658,
+   "gan_pt": 14.4,
+   "mep_pt": 4.71
+  },
+  "b062": {
+   "ma": "b062",
+   "lop": 3,
+   "nguong": [
+    0.233,
+    0.592
+   ],
+   "phan_tram_giua_gan": 37.3,
+   "phan_tram_gan": 13.1,
+   "HD": 65.3,
+   "trai": 0.933,
+   "tach": 0.7,
+   "gan_pt": 13.1,
+   "mep_pt": 1.65
+  },
+  "b002": {
+   "ma": "b002",
+   "lop": 3,
+   "nguong": [
+    0.282,
+    0.652
+   ],
+   "phan_tram_giua_gan": 64.9,
+   "phan_tram_gan": 22.1,
+   "HD": 41.5,
+   "trai": 0.946,
+   "tach": 0.438,
+   "gan_pt": 22.1,
+   "mep_pt": 1.41
+  },
+  "a09": {
+   "ma": "a09",
+   "lop": 3,
+   "nguong": [
+    0.313,
+    0.679
+   ],
+   "phan_tram_giua_gan": 67.3,
+   "phan_tram_gan": 28.6,
+   "HD": 46.0,
+   "trai": 0.932,
+   "tach": 0.494,
+   "gan_pt": 28.6,
+   "mep_pt": 2.14
+  },
+  "b070": {
+   "ma": "b070",
+   "lop": 3,
+   "nguong": [
+    0.339,
+    0.694
+   ],
+   "phan_tram_giua_gan": 68.0,
+   "phan_tram_gan": 39.0,
+   "HD": 40.0,
+   "trai": 0.708,
+   "tach": 0.564,
+   "gan_pt": 39.0,
+   "mep_pt": 1.84
+  },
+  "a10": {
+   "ma": "a10",
+   "lop": 3,
+   "nguong": [
+    0.205,
+    0.629
+   ],
+   "phan_tram_giua_gan": 30.3,
+   "phan_tram_gan": 3.7,
+   "HD": 23.4,
+   "trai": 0.916,
+   "tach": 0.836,
+   "gan_pt": 3.7,
+   "mep_pt": 0.49
+  },
+  "b003": {
+   "ma": "b003",
+   "lop": 3,
+   "nguong": [
+    0.354,
+    0.657
+   ],
+   "phan_tram_giua_gan": 75.3,
+   "phan_tram_gan": 38.0,
+   "HD": 33.1,
+   "trai": 0.885,
+   "tach": 0.374,
+   "gan_pt": 38.0,
+   "mep_pt": 0.07
+  },
+  "a15": {
+   "ma": "a15",
+   "lop": 3,
+   "nguong": [
+    0.24,
+    0.568
+   ],
+   "phan_tram_giua_gan": 43.4,
+   "phan_tram_gan": 19.6,
+   "HD": 58.5,
+   "trai": 0.947,
+   "tach": 0.618,
+   "gan_pt": 19.6,
+   "mep_pt": 1.09
+  },
+  "b074": {
+   "ma": "b074",
+   "lop": 3,
+   "nguong": [
+    0.323,
+    0.695
+   ],
+   "phan_tram_giua_gan": 39.9,
+   "phan_tram_gan": 13.3,
+   "HD": 61.1,
+   "trai": 0.847,
+   "tach": 0.721,
+   "gan_pt": 13.3,
+   "mep_pt": 0.99
+  },
+  "a12": {
+   "ma": "a12",
+   "lop": 3,
+   "nguong": [
+    0.244,
+    0.584
+   ],
+   "phan_tram_giua_gan": 82.8,
+   "phan_tram_gan": 22.0,
+   "HD": 41.0,
+   "trai": 1.0,
+   "tach": 0.41,
+   "gan_pt": 22.0,
+   "mep_pt": 1.22
+  },
+  "b063": {
+   "ma": "b063",
+   "lop": 3,
+   "nguong": [
+    0.25,
+    0.653
+   ],
+   "phan_tram_giua_gan": 38.2,
+   "phan_tram_gan": 11.2,
+   "HD": 71.5,
+   "trai": 0.958,
+   "tach": 0.799,
+   "gan_pt": 11.2,
+   "mep_pt": 1.64
+  },
+  "b040": {
+   "ma": "b040",
+   "lop": 3,
+   "nguong": [
+    0.199,
+    0.566
+   ],
+   "phan_tram_giua_gan": 43.8,
+   "phan_tram_gan": 19.9,
+   "HD": 69.6,
+   "trai": 1.0,
+   "tach": 0.696,
+   "gan_pt": 19.9,
+   "mep_pt": 3.01
+  },
+  "b141": {
+   "ma": "b141",
+   "lop": 3,
+   "nguong": [
+    0.292,
+    0.601
+   ],
+   "phan_tram_giua_gan": 68.0,
+   "phan_tram_gan": 29.8,
+   "HD": 34.8,
+   "trai": 0.822,
+   "tach": 0.423,
+   "gan_pt": 29.8,
+   "mep_pt": 0.29
+  },
+  "b051": {
+   "ma": "b051",
+   "lop": 3,
+   "nguong": [
+    0.205,
+    0.56
+   ],
+   "phan_tram_giua_gan": 37.7,
+   "phan_tram_gan": 12.4,
+   "HD": 66.5,
+   "trai": 0.955,
+   "tach": 0.697,
+   "gan_pt": 12.4,
+   "mep_pt": 2.16
+  },
+  "b116": {
+   "ma": "b116",
+   "lop": 3,
+   "nguong": [
+    0.247,
+    0.67
+   ],
+   "phan_tram_giua_gan": 33.1,
+   "phan_tram_gan": 5.1,
+   "HD": 35.6,
+   "trai": 1.0,
+   "tach": 0.845,
+   "gan_pt": 5.1,
+   "mep_pt": 1.22
+  },
+  "b052": {
+   "ma": "b052",
+   "lop": 3,
+   "nguong": [
+    0.367,
+    0.682
+   ],
+   "phan_tram_giua_gan": 62.4,
+   "phan_tram_gan": 32.7,
+   "HD": 42.0,
+   "trai": 0.875,
+   "tach": 0.48,
+   "gan_pt": 32.7,
+   "mep_pt": 0.86
+  },
+  "b118": {
+   "ma": "b118",
+   "lop": 3,
+   "nguong": [
+    0.306,
+    0.625
+   ],
+   "phan_tram_giua_gan": 72.1,
+   "phan_tram_gan": 32.0,
+   "HD": 30.6,
+   "trai": 0.877,
+   "tach": 0.349,
+   "gan_pt": 32.0,
+   "mep_pt": 0.85
+  },
+  "b053": {
+   "ma": "b053",
+   "lop": 3,
+   "nguong": [
+    0.184,
+    0.519
+   ],
+   "phan_tram_giua_gan": 42.7,
+   "phan_tram_gan": 15.8,
+   "HD": 55.0,
+   "trai": 0.889,
+   "tach": 0.619,
+   "gan_pt": 15.8,
+   "mep_pt": 0.95
+  }
+ },
+ "model": "depth-anything-v2-small (onnx-community, rev 4472b73)",
+ "sha256": "afb6a5c28f3b6bf1618c6e43f02073ef9dfdc70e937502d51603e57b0a1df10c",
+ "cong_thuc": "HD = 100·TRAI·TACH·f(GAN) — xem docstring scripts/mrp4/sau.py",
+ "giay_moi_tranh": 5.6
+}
