@@ -210,3 +210,9 @@ Nhánh `ccr-61933171-f4wlwf`: preflight ĐẠT; 0 email; sổ OpenRouter **2,94 
 - 720p phóng lên giữ nét tranh tốt hơn 1080p trên phong cách kênh, rẻ hơn 40 %.
 - Tiếng động: BigSoundBank — điều phối mở trang giấy phép: CC0 1.0 / public domain, dùng thương mại, không đăng ký Content ID → **chấp nhận**, ghi nguồn từng tệp vào RIGHTS khi dùng.
 - Ước chi/tập: M1 ≈ 11–14 USD · **M2-720p ≈ 15 USD** · M3 ≈ 24–35 USD (OpenRouter).
+
+## MR-P4 · 03/11/2026 08:40 (giờ Hà Nội) · Điều phối rà — merge
+Nhánh `claude/friendly-hopper-rmvzyy`: preflight ĐẠT; 0 email; sổ **0,428 USD** / 1,00 (11 tranh). Chi ngoài khoá MR trong phiên ≈ 11,20 USD (lost-places). Số dư sau **18,47 USD**.
+- Âm (điều phối đo lại tệp): cả hai −14,0 LUFS; bản mới LRA 2,2 (cũ 2,9). Tiếng nhấn −6,9…−8,0 dB dưới giọng (cũ tới −45 dB), nhạc dâng −7 dB ở khoảng nghỉ, giọng nâng 2–5 kHz; bản loa điện thoại +1,2 LU.
+- Chuyển động: chỉ số độ sâu hữu dụng HD, ngưỡng 45/60; từ vựng máy theo từ neo (đẩy 8 · đứng yên 9 · lia 4 · kéo ra 2 · giật 2 · clip 5); bỏ trôi đều.
+- 10 tranh phẳng nhất tạo lại bố cục nhiều lớp: HD TB 36,2 → 70,0 — điều phối xem tờ trước/sau: lớp gần rõ (ghế, cốc, cột, xích, khung cửa), không mặt, không chữ.
